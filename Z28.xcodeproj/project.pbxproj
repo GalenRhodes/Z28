@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1117D1A5BF9EE7E787F10A71 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D7FC86AB81798F0786CF /* Tools.swift */; };
+		1117D22B426CDD7508708698 /* LinesColumnsAndOffsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117DF330F404256EE898CE9 /* LinesColumnsAndOffsets.swift */; };
+		1117D8A99B8FB59147FC7301 /* FileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D8AF1EE32891F2F18FB0 /* FileList.swift */; };
 		836FD0C22685118F008F0835 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FD0C12685118F008F0835 /* main.swift */; };
 		836FD0CA268511FD008F0835 /* SourceKittenFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 836FD0C9268511FD008F0835 /* SourceKittenFramework */; };
 		836FD0CE26851371008F0835 /* Rubicon in Frameworks */ = {isa = PBXBuildFile; productRef = 836FD0CD26851371008F0835 /* Rubicon */; };
@@ -36,6 +39,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1117D7FC86AB81798F0786CF /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		1117D8AF1EE32891F2F18FB0 /* FileList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileList.swift; sourceTree = "<group>"; };
+		1117DF330F404256EE898CE9 /* LinesColumnsAndOffsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinesColumnsAndOffsets.swift; sourceTree = "<group>"; };
 		836FD0BE2685118F008F0835 /* Z28 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Z28; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FD0C12685118F008F0835 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		836FD0D326851394008F0835 /* DocFixer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DocFixer; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				836FD0C12685118F008F0835 /* main.swift */,
+				1117D8AF1EE32891F2F18FB0 /* FileList.swift */,
+				1117DF330F404256EE898CE9 /* LinesColumnsAndOffsets.swift */,
+				1117D7FC86AB81798F0786CF /* Tools.swift */,
 			);
 			path = Z28;
 			sourceTree = "<group>";
@@ -222,6 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				836FD0C22685118F008F0835 /* main.swift in Sources */,
+				1117D8A99B8FB59147FC7301 /* FileList.swift in Sources */,
+				1117D22B426CDD7508708698 /* LinesColumnsAndOffsets.swift in Sources */,
+				1117D1A5BF9EE7E787F10A71 /* Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +453,7 @@
 			repositoryURL = "https://github.com/GalenRhodes/Rubicon";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.2.46;
+				minimumVersion = 0.2.48;
 			};
 		};
 		836FD0DA268513C6008F0835 /* XCRemoteSwiftPackageReference "PGDocFixer" */ = {
