@@ -6,6 +6,9 @@
 //
 
 import Foundation
+import PGDocFixer
 
-print("Hello, World!")
-
+DispatchQueue.main.async {
+    exit(Int32(truncatingIfNeeded: doDocFixer(args: CommandLine.arguments, replacements: [])))
+}
+dispatchMain()

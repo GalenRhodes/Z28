@@ -24,12 +24,14 @@ import SourceKittenFramework
 //@main
 open class Z28 {
 
+    let cmdArguments: [String]
+
     public lazy var cwd:      String  = FileManager.default.currentDirectoryPath
-    public lazy var filename: String  = "\(cwd)/\(CommandLine.arguments[1])"
+    public lazy var filename: String  = "\(cwd)/\(cmdArguments[1])"
     public lazy var source:   String  = ((try? String(contentsOfFile: filename, encoding: .utf8)) ?? "")
     public lazy var lineMap:  LineMap = linesAndOffsets(source: source)
 
-    public init(args: [String]) throws {}
+    public init(args: [String]) throws { self.cmdArguments = args }
 
     open func run() throws -> Int32 {
         guard let module: Module = Module(xcodeBuildArguments: [ "-scheme", "Z28" ], inPath: cwd) else { throw PGErrors.GeneralError(description: "Unable to build module.") }
@@ -58,6 +60,7 @@ open class Z28 {
         }
     }
 
+    /*=========================================================================================================================*/
     /// Index a source file.
     ///
     /// - Parameters:
