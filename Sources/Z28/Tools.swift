@@ -21,57 +21,66 @@ import Rubicon
 import SourceKittenFramework
 import SourceKit
 
-@inlinable func writePList(data: [String: Any]) throws {
-    let j = try JSONSerialization.data(withJSONObject: data, options: [ .prettyPrinted, .sortedKeys ])
-    guard let s = String(data: j, encoding: .utf8) else { throw StreamError.UnknownError(description: "Unable to encode data as UTF-8.") }
-    try printToStdout(s)
-}
+extension Z28 {
+    open func writePList(data: [String: Any], toFile path: String? = nil) throws {
+        let j = try JSONSerialization.data(withJSONObject: data, options: [ .prettyPrinted, .sortedKeys ])
+        guard let s = String(data: j, encoding: .utf8) else { throw StreamError.UnknownError(description: "Unable to encode data as UTF-8.") }
 
-@inlinable func printToStdout(_ str: String, terminator: String = "\n") throws {
-    try printTo(filename: "/dev/stdout", str, terminator: terminator)
-}
-
-@inlinable func printToStderr(_ str: String, terminator: String = "\n") throws {
-    try printTo(filename: "/dev/stderr", str, terminator: terminator)
-}
-
-@inlinable func printTo(filename: String, _ str: String, terminator: String = "\n") throws {
-    try "\(str)\(terminator)".write(toFile: filename, atomically: false, encoding: .utf8)
-}
-
-@inlinable func fromJSON(_ data: String) throws -> [String: Any] {
-    guard let d = "{ \"data\" : \(data) }".data(using: .utf8) else { throw PGErrors.UnexpectedError(description: "Unable to encode string in UTF-8") }
-    guard let o = try JSONSerialization.jsonObject(with: d) as? [String: Any] else { throw PGErrors.UnexpectedError(description: "Incorrect format returned.") }
-    return o
-}
-
-func toArray(_ arr: [SourceKitRepresentable]) -> [Any] {
-    var out = Array<Any>()
-
-    for object in arr {
-        switch object {
-            case let object as [SourceKitRepresentable]:           out += toArray(object)
-            case let object as [[String: SourceKitRepresentable]]: out <+ object.map { toDictionary($0) }
-            case let object as [String: SourceKitRepresentable]:   out <+ toDictionary(object)
-            default:                                               out <+ object
+        if let path = path {
+            try printTo(filename: path, s, terminator: "")
+        }
+        else {
+            printToStdout(s)
         }
     }
 
-    return out
-}
-
-func toDictionary(_ dict: [String: SourceKitRepresentable]) -> [String: Any] {
-    var out = Dictionary<String, Any>()
-
-    for (key, object) in dict {
-        switch object {
-            case let object as [SourceKitRepresentable]:           out[key] = toArray(object)
-            case let object as [[String: SourceKitRepresentable]]: out[key] = object.map { toDictionary($0) }
-            case let object as [String: SourceKitRepresentable]:   out[key] = toDictionary(object)
-            default:                                               out[key] = object
-        }
+    open func printToStdout(_ str: String, terminator: String = "\n") {
+        do { try printTo(filename: "/dev/stdout", str, terminator: terminator) }
+        catch let e { fatalError("ERROR: \(e)") }
     }
 
-    return out
-}
+    open func printToStderr(_ str: String, terminator: String = "\n") {
+        do { try printTo(filename: "/dev/stderr", str, terminator: terminator) }
+        catch let e { fatalError("ERROR: \(e)") }
+    }
 
+    open func printTo(filename: String, _ str: String, terminator: String = "\n") throws {
+        try "\(str)\(terminator)".write(toFile: filename, atomically: false, encoding: .utf8)
+    }
+
+    open func fromJSON(_ data: String) throws -> [String: Any] {
+        guard let d = "{ \"data\" : \(data) }".data(using: .utf8) else { throw PGErrors.UnexpectedError(description: "Unable to encode string in UTF-8") }
+        guard let o = try JSONSerialization.jsonObject(with: d) as? [String: Any] else { throw PGErrors.UnexpectedError(description: "Incorrect format returned.") }
+        return o
+    }
+
+    open func toArray(_ arr: [SourceKitRepresentable]) -> [Any] {
+        var out = Array<Any>()
+
+        for object in arr {
+            switch object {
+                case let object as [SourceKitRepresentable]:           out += toArray(object)
+                case let object as [[String: SourceKitRepresentable]]: out <+ object.map { toDictionary($0) }
+                case let object as [String: SourceKitRepresentable]:   out <+ toDictionary(object)
+                default:                                               out <+ object
+            }
+        }
+
+        return out
+    }
+
+    open func toDictionary(_ dict: [String: SourceKitRepresentable]) -> [String: Any] {
+        var out = Dictionary<String, Any>()
+
+        for (key, object) in dict {
+            switch object {
+                case let object as [SourceKitRepresentable]:           out[key] = toArray(object)
+                case let object as [[String: SourceKitRepresentable]]: out[key] = object.map { toDictionary($0) }
+                case let object as [String: SourceKitRepresentable]:   out[key] = toDictionary(object)
+                default:                                               out[key] = object
+            }
+        }
+
+        return out
+    }
+}

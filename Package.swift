@@ -13,7 +13,7 @@ let package = Package(
         .executable(name: "z28", targets: [ "Z28" ]),
     ],
     dependencies: [
-        .package(name: "Rubicon", url: "https://github.com/GalenRhodes/Rubicon", .upToNextMinor(from: "0.2.48")),
+        .package(name: "Rubicon", url: "https://github.com/GalenRhodes/Rubicon", .upToNextMinor(from: "0.2.50")),
         .package(name: "SourceKitten", url: "https://github.com/jpsim/SourceKitten", .upToNextMinor(from: "0.31.0")),
     ],
     targets: [
