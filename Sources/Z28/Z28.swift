@@ -20,72 +20,49 @@ import CoreFoundation
 import Rubicon
 import SourceKit
 import SourceKittenFramework
+import ArgumentParser
 
 //@main
-open class Z28 {
+open class Z28: ParsableCommand {
 
-    let cmdArguments: [String]
-
-    public lazy var cwd:      String  = FileManager.default.currentDirectoryPath
-    public lazy var filename: String  = "\(cwd)/\(cmdArguments[1])"
-    public lazy var source:   String  = ((try? String(contentsOfFile: filename, encoding: .utf8)) ?? "")
-    public lazy var lineMap:  LineMap = linesAndOffsets(source: source)
-
-    public init(args: [String]) throws { self.cmdArguments = args }
-
-    open func run() throws -> Int32 {
-        guard let module: Module = Module(xcodeBuildArguments: [ "-scheme", "Z28" ], inPath: cwd) else { throw PGErrors.GeneralError(description: "Unable to build module.") }
-        guard let file: File = File(path: filename) else { throw StreamError.FileNotFound(description: filename) }
-
-        let (_, lineMap): (String, LineMap) = try linesAndOffsets(filename: file.path!)
-        let dict1:        [String: Any]     = try fileIndex(file: file, module: module)
-        let dict2:        [String: Any]     = try fileStructure(file: file, lineMap: lineMap)
-        let dict3:        [String: Any]     = try fileDocs(file: file, module: module, lineMap: lineMap)
-        let dict4:        [String: Any]     = try fileSyntax(file: file, module: module, lineMap: lineMap)
-
-        try writePList(data: dict1, toFile: "\(cwd)/Resources/\(filename.lastPathComponent).index.json")
-        try writePList(data: dict2, toFile: "\(cwd)/Resources/\(filename.lastPathComponent).structure.json")
-        try writePList(data: dict3, toFile: "\(cwd)/Resources/\(filename.lastPathComponent).docs.json")
-        try writePList(data: dict4, toFile: "\(cwd)/Resources/\(filename.lastPathComponent).syntax.json")
-        return 0
+    public enum BuildMethod: EnumerableFlag {
+        case xcode
+        case spm
     }
 
-    public static func main() {
-        do {
-            exit(try Z28(args: CommandLine.arguments).run())
+    //@f:0
+    @Option(name: .shortAndLong,   help: "The name of the file to clean up.")              public var filename:       String?
+    @Option(name: .shortAndLong,   help: "The directory to write the temporary files to.") public var tempDir:        String      = "Resources"
+    @Flag(exclusivity: .exclusive, help: "Which build method to use.")                     public var buildMethod:    BuildMethod = .xcode
+    @Argument(parsing: .remaining, help: "Build arguments.")                               public var buildArguments: [String]
+    @Option(name: .long,           help: "Path of the project root.")                      public var projectPath:    String?
+    //@f:1
+
+    public required init() {}
+
+    public func run() throws {
+        let projectPath: String = (projectPath ?? FileManager.default.currentDirectoryPath)
+        let td = tempDir.makeAbsolute(relativeTo: projectPath)
+
+        printToStdout("BUILD METHOD: \(buildMethod)")
+        printToStdout("  BUILD ARGS: [ \"\(buildArguments.joined(separator: "\", \""))\" ]")
+        printToStdout("PROJECT PATH: \(projectPath)")
+        printToStdout("    TEMP DIR: \(td)")
+
+        guard let module: Module = Module(xcodeBuildArguments: buildArguments, inPath: projectPath) else { throw PGErrors.GeneralError(description: "Unable to build module.") }
+
+        if let filename = filename?.makeAbsolute(relativeTo: projectPath) {
+            let sourceFile = try SourceFileInfo(filename: filename, temporaryDirectory: td, module: module)
+            sourceFile.load()
         }
-        catch let e {
-            try? "ERROR: \(e)".write(toFile: "/dev/stderr", atomically: false, encoding: .utf8)
-            exit(1)
+        else {
+            var sources: [SourceFileInfo] = []
+            let cc = module.sourceFiles.count
+            for x in (0 ..< cc) {
+                let sourceFile = try SourceFileInfo(filename: module.sourceFiles[x], temporaryDirectory: td, module: module, fileNumber: x + 1, outOf: cc)
+                sources <+ sourceFile
+            }
+
         }
-    }
-
-    /*=========================================================================================================================*/
-    /// Index a source file.
-    ///
-    /// - Parameters:
-    ///   - file: The filename.
-    ///   - module: The module information.
-    /// - Returns: The index of the file.
-    /// - Throws: If an error occurs.
-    ///
-    open func fileIndex(file: File, module: Module) throws -> [String: Any] {
-        guard let filename = file.path else { return [:] }
-        return toDictionary(try Request.index(file: filename, arguments: module.compilerArguments).send())
-    }
-
-    open func fileStructure(file: File, lineMap: LineMap) throws -> [String: Any] {
-        addLinesAndColumns(source: lineMap, dictionary: toDictionary(try Structure(file: file).dictionary))
-    }
-
-    open func fileDocs(file: File, module: Module, lineMap: LineMap) throws -> [String: Any] {
-        guard let docs = SwiftDocs(file: file, arguments: module.compilerArguments) else { return [:] }
-        return addLinesAndColumns(source: lineMap, dictionary: toDictionary(docs.docsDictionary))
-    }
-
-    open func fileSyntax(file: File, module: Module, lineMap: LineMap) throws -> [String: Any] {
-        let b = try SyntaxMap(file: file).tokens.map { $0.dictionaryValue }.map { $0.remapValues { return ("key.\($0)", (isType($1, Int.self) ? Int64($1 as! Int) : $1)) } }
-        let e = [ "key.syntaxmap": b ]
-        return addLinesAndColumns(source: lineMap, dictionary: e)
     }
 }

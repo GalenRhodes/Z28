@@ -344,6 +344,31 @@
       "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/Z28-autswtquqqoxcpgkstnhqqmgwhng\/Build\/Products\/Debug\/SourceKittenFramework.swiftmodule\/x86_64-apple-macos.swiftmodule",
       "key.kind" : "source.lang.swift.import.module.swift",
       "key.name" : "SourceKittenFramework"
+    },
+    {
+      "key.dependencies" : [
+        {
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "Darwin"
+        },
+        {
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "Swift"
+        },
+        {
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/SwiftOnoneSupport.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "SwiftOnoneSupport"
+        }
+      ],
+      "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/Z28-autswtquqqoxcpgkstnhqqmgwhng\/Build\/Products\/Debug\/ArgumentParser.swiftmodule\/x86_64-apple-macos.swiftmodule",
+      "key.kind" : "source.lang.swift.import.module.swift",
+      "key.name" : "ArgumentParser"
     }
   ],
   "key.entities" : [
@@ -383,6 +408,13 @@
       "key.usr" : "c:@M@SourceKittenFramework"
     },
     {
+      "key.column" : 8,
+      "key.kind" : "source.lang.swift.ref.module",
+      "key.line" : 23,
+      "key.name" : "ArgumentParser",
+      "key.usr" : "c:@M@ArgumentParser"
+    },
+    {
       "key.attributes" : [
         {
           "key.attribute" : "source.decl.attribute.open"
@@ -392,1082 +424,1128 @@
       "key.effective_access" : "source.decl.effective_access.public",
       "key.entities" : [
         {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.lazy"
-            },
-            {
-              "key.attribute" : "source.decl.attribute.public"
-            }
-          ],
-          "key.column" : 21,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
-            {
-              "key.attributes" : [
-                {
-                  "key.attribute" : "source.decl.attribute.lazy"
-                },
-                {
-                  "key.attribute" : "source.decl.attribute.public"
-                }
-              ],
-              "key.column" : 21,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 27,
-              "key.usr" : "s:3Z28AAC3cwdSSvg"
-            },
-            {
-              "key.attributes" : [
-                {
-                  "key.attribute" : "source.decl.attribute.lazy"
-                },
-                {
-                  "key.attribute" : "source.decl.attribute.public"
-                }
-              ],
-              "key.column" : 21,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
-              "key.line" : 27,
-              "key.usr" : "s:3Z28AAC3cwdSSvs"
-            }
-          ],
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 27,
-          "key.name" : "cwd",
-          "key.usr" : "s:3Z28AAC3cwdSSvp"
-        },
-        {
-          "key.column" : 31,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 27,
-          "key.name" : "String",
-          "key.usr" : "s:SS"
-        },
-        {
-          "key.column" : 41,
-          "key.kind" : "source.lang.swift.ref.class",
-          "key.line" : 27,
-          "key.name" : "FileManager",
-          "key.usr" : "c:objc(cs)NSFileManager"
-        },
-        {
-          "key.column" : 53,
-          "key.entities" : [
-            {
-              "key.column" : 53,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-              "key.line" : 27,
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(cm)defaultManager"
-            }
-          ],
-          "key.kind" : "source.lang.swift.ref.var.class",
-          "key.line" : 27,
-          "key.name" : "default",
-          "key.usr" : "c:objc(cs)NSFileManager(cpy)defaultManager"
-        },
-        {
-          "key.column" : 61,
-          "key.entities" : [
-            {
-              "key.column" : 61,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-              "key.line" : 27,
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)currentDirectoryPath"
-            }
-          ],
-          "key.kind" : "source.lang.swift.ref.var.instance",
-          "key.line" : 27,
-          "key.name" : "currentDirectoryPath",
-          "key.usr" : "c:objc(cs)NSFileManager(py)currentDirectoryPath"
-        },
-        {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.lazy"
-            },
-            {
-              "key.attribute" : "source.decl.attribute.public"
-            }
-          ],
-          "key.column" : 21,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
-            {
-              "key.attributes" : [
-                {
-                  "key.attribute" : "source.decl.attribute.lazy"
-                },
-                {
-                  "key.attribute" : "source.decl.attribute.public"
-                }
-              ],
-              "key.column" : 21,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 28,
-              "key.usr" : "s:3Z28AAC8filenameSSvg"
-            },
-            {
-              "key.attributes" : [
-                {
-                  "key.attribute" : "source.decl.attribute.lazy"
-                },
-                {
-                  "key.attribute" : "source.decl.attribute.public"
-                }
-              ],
-              "key.column" : 21,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
-              "key.line" : 28,
-              "key.usr" : "s:3Z28AAC8filenameSSvs"
-            }
-          ],
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 28,
-          "key.name" : "filename",
-          "key.usr" : "s:3Z28AAC8filenameSSvp"
-        },
-        {
-          "key.column" : 31,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 28,
-          "key.name" : "String",
-          "key.usr" : "s:SS"
-        },
-        {
-          "key.column" : 44,
-          "key.entities" : [
-            {
-              "key.column" : 44,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-              "key.line" : 28,
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC3cwdSSvg"
-            }
-          ],
-          "key.kind" : "source.lang.swift.ref.var.instance",
-          "key.line" : 28,
-          "key.name" : "cwd",
-          "key.usr" : "s:3Z28AAC3cwdSSvp"
-        },
-        {
-          "key.column" : 51,
-          "key.kind" : "source.lang.swift.ref.enum",
-          "key.line" : 28,
-          "key.name" : "CommandLine",
-          "key.usr" : "s:s11CommandLineO"
-        },
-        {
-          "key.column" : 63,
-          "key.entities" : [
-            {
-              "key.column" : 63,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-              "key.line" : 28,
-              "key.receiver_usr" : "s:s11CommandLineO",
-              "key.usr" : "s:s11CommandLineO9argumentsSaySSGvgZ"
-            },
-            {
-              "key.column" : 63,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.ref.function.accessor.setter",
-              "key.line" : 28,
-              "key.receiver_usr" : "s:s11CommandLineO",
-              "key.usr" : "s:s11CommandLineO9argumentsSaySSGvsZ"
-            }
-          ],
-          "key.kind" : "source.lang.swift.ref.var.static",
-          "key.line" : 28,
-          "key.name" : "arguments",
-          "key.usr" : "s:s11CommandLineO9argumentsSaySSGvpZ"
-        },
-        {
-          "key.column" : 72,
-          "key.entities" : [
-            {
-              "key.column" : 72,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-              "key.line" : 28,
-              "key.usr" : "s:SayxSicig"
-            }
-          ],
-          "key.kind" : "source.lang.swift.ref.function.subscript",
-          "key.line" : 28,
-          "key.name" : "subscript(_:)",
-          "key.usr" : "s:SayxSicip"
-        },
-        {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.lazy"
-            },
-            {
-              "key.attribute" : "source.decl.attribute.public"
-            }
-          ],
-          "key.column" : 21,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
-            {
-              "key.attributes" : [
-                {
-                  "key.attribute" : "source.decl.attribute.lazy"
-                },
-                {
-                  "key.attribute" : "source.decl.attribute.public"
-                }
-              ],
-              "key.column" : 21,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 29,
-              "key.usr" : "s:3Z28AAC6sourceSSvg"
-            },
-            {
-              "key.attributes" : [
-                {
-                  "key.attribute" : "source.decl.attribute.lazy"
-                },
-                {
-                  "key.attribute" : "source.decl.attribute.public"
-                }
-              ],
-              "key.column" : 21,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
-              "key.line" : 29,
-              "key.usr" : "s:3Z28AAC6sourceSSvs"
-            }
-          ],
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 29,
-          "key.name" : "source",
-          "key.usr" : "s:3Z28AAC6sourceSSvp"
-        },
-        {
-          "key.column" : 31,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 29,
-          "key.name" : "String",
-          "key.usr" : "s:SS"
-        },
-        {
-          "key.column" : 48,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 29,
-          "key.name" : "String",
-          "key.usr" : "s:SS"
-        },
-        {
-          "key.column" : 48,
-          "key.kind" : "source.lang.swift.ref.function.constructor",
-          "key.line" : 29,
-          "key.name" : "init(contentsOfFile:encoding:)",
-          "key.usr" : "s:SS10FoundationE14contentsOfFile8encodingS2Sh_SSAAE8EncodingVtKcfc"
-        },
-        {
-          "key.column" : 71,
-          "key.entities" : [
-            {
-              "key.column" : 71,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-              "key.line" : 29,
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC8filenameSSvg"
-            }
-          ],
-          "key.kind" : "source.lang.swift.ref.var.instance",
-          "key.line" : 29,
-          "key.name" : "filename",
-          "key.usr" : "s:3Z28AAC8filenameSSvp"
-        },
-        {
-          "key.column" : 92,
-          "key.entities" : [
-            {
-              "key.column" : 92,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-              "key.line" : 29,
-              "key.receiver_usr" : "s:SS10FoundationE8EncodingV",
-              "key.usr" : "s:SS10FoundationE8EncodingV4utf8ACvgZ"
-            }
-          ],
-          "key.kind" : "source.lang.swift.ref.var.static",
-          "key.line" : 29,
-          "key.name" : "utf8",
-          "key.usr" : "s:SS10FoundationE8EncodingV4utf8ACvpZ"
-        },
-        {
-          "key.column" : 99,
-          "key.kind" : "source.lang.swift.ref.function.operator.infix",
-          "key.line" : 29,
-          "key.name" : "??(_:_:)",
-          "key.usr" : "s:s2qqoiyxxSg_xyKXKtKlF"
-        },
-        {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.lazy"
-            },
-            {
-              "key.attribute" : "source.decl.attribute.public"
-            }
-          ],
-          "key.column" : 21,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
-            {
-              "key.attributes" : [
-                {
-                  "key.attribute" : "source.decl.attribute.lazy"
-                },
-                {
-                  "key.attribute" : "source.decl.attribute.public"
-                }
-              ],
-              "key.column" : 21,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 30,
-              "key.usr" : "s:3Z28AAC7lineMapSays5Int64V6offset_SS5IndexV5indextGvg"
-            },
-            {
-              "key.attributes" : [
-                {
-                  "key.attribute" : "source.decl.attribute.lazy"
-                },
-                {
-                  "key.attribute" : "source.decl.attribute.public"
-                }
-              ],
-              "key.column" : 21,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
-              "key.line" : 30,
-              "key.usr" : "s:3Z28AAC7lineMapSays5Int64V6offset_SS5IndexV5indextGvs"
-            }
-          ],
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 30,
-          "key.name" : "lineMap",
-          "key.usr" : "s:3Z28AAC7lineMapSays5Int64V6offset_SS5IndexV5indextGvp"
-        },
-        {
-          "key.column" : 31,
-          "key.kind" : "source.lang.swift.ref.typealias",
-          "key.line" : 30,
-          "key.name" : "LineMap",
-          "key.usr" : "s:3Z28AAC7LineMapa"
-        },
-        {
-          "key.column" : 41,
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.ref.function.method.instance",
-          "key.line" : 30,
-          "key.name" : "linesAndOffsets(source:)",
-          "key.receiver_usr" : "s:3Z28AAC",
-          "key.usr" : "s:3Z28AAC15linesAndOffsets6sourceSays5Int64V6offset_SS5IndexV5indextGSS_tF"
-        },
-        {
-          "key.column" : 65,
-          "key.entities" : [
-            {
-              "key.column" : 65,
-              "key.is_dynamic" : true,
-              "key.is_implicit" : true,
-              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-              "key.line" : 30,
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC6sourceSSvg"
-            }
-          ],
-          "key.kind" : "source.lang.swift.ref.var.instance",
-          "key.line" : 30,
-          "key.name" : "source",
-          "key.usr" : "s:3Z28AAC6sourceSSvp"
-        },
-        {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.public"
-            }
-          ],
           "key.column" : 12,
           "key.effective_access" : "source.decl.effective_access.public",
-          "key.kind" : "source.lang.swift.decl.function.constructor",
-          "key.line" : 32,
-          "key.name" : "init()",
-          "key.usr" : "s:3Z28AACAByKcfc"
+          "key.is_implicit" : true,
+          "key.kind" : "source.lang.swift.decl.var.static",
+          "key.line" : 26,
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.name" : "configuration",
+              "key.usr" : "s:14ArgumentParser15ParsableCommandP13configurationAA0D13ConfigurationVvpZ"
+            }
+          ],
+          "key.usr" : "s:14ArgumentParser15ParsableCommandPAAE13configurationAA0D13ConfigurationVvpZ"
+        },
+        {
+          "key.column" : 12,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.is_implicit" : true,
+          "key.kind" : "source.lang.swift.decl.var.static",
+          "key.line" : 26,
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.name" : "_commandName",
+              "key.usr" : "s:14ArgumentParser15ParsableCommandP12_commandNameSSvpZ"
+            }
+          ],
+          "key.usr" : "s:14ArgumentParser15ParsableCommandPAAE12_commandNameSSvpZ"
+        },
+        {
+          "key.column" : 12,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.is_implicit" : true,
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 26,
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.name" : "validate()",
+              "key.usr" : "s:14ArgumentParser17ParsableArgumentsP8validateyyKF"
+            }
+          ],
+          "key.usr" : "s:14ArgumentParser17ParsableArgumentsPAAE8validateyyKF"
+        },
+        {
+          "key.column" : 12,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.is_implicit" : true,
+          "key.kind" : "source.lang.swift.decl.var.static",
+          "key.line" : 26,
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.name" : "_errorLabel",
+              "key.usr" : "s:14ArgumentParser17ParsableArgumentsP11_errorLabelSSvpZ"
+            }
+          ],
+          "key.usr" : "s:14ArgumentParser17ParsableArgumentsPAAE11_errorLabelSSvpZ"
+        },
+        {
+          "key.column" : 17,
+          "key.kind" : "source.lang.swift.ref.protocol",
+          "key.line" : 26,
+          "key.name" : "ParsableCommand",
+          "key.usr" : "s:14ArgumentParser15ParsableCommandP"
         },
         {
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.open"
+              "key.attribute" : "source.decl.attribute.public"
             }
           ],
-          "key.column" : 15,
+          "key.column" : 17,
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
+            {
+              "key.column" : 17,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.method.static",
+              "key.line" : 28,
+              "key.related" : [
+                {
+                  "key.kind" : "source.lang.swift.ref.function.method.static",
+                  "key.name" : "name(for:)",
+                  "key.usr" : "s:14ArgumentParser14EnumerableFlagP4name3forAA17NameSpecificationVx_tFZ"
+                }
+              ],
+              "key.usr" : "s:14ArgumentParser14EnumerableFlagPAAE4name3forAA17NameSpecificationVx_tFZ"
+            },
+            {
+              "key.column" : 17,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.method.static",
+              "key.line" : 28,
+              "key.related" : [
+                {
+                  "key.kind" : "source.lang.swift.ref.function.method.static",
+                  "key.name" : "help(for:)",
+                  "key.usr" : "s:14ArgumentParser14EnumerableFlagP4help3forAA0A4HelpVSgx_tFZ"
+                }
+              ],
+              "key.usr" : "s:14ArgumentParser14EnumerableFlagPAAE4help3forAA0A4HelpVSgx_tFZ"
+            },
+            {
+              "key.column" : 30,
+              "key.kind" : "source.lang.swift.ref.protocol",
+              "key.line" : 28,
+              "key.name" : "EnumerableFlag",
+              "key.usr" : "s:14ArgumentParser14EnumerableFlagP"
+            },
+            {
+              "key.column" : 14,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.kind" : "source.lang.swift.decl.enumelement",
+              "key.line" : 29,
+              "key.name" : "xcode",
+              "key.usr" : "s:3Z28AAC11BuildMethodO5xcodeyA2DmF"
+            },
+            {
+              "key.column" : 14,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.kind" : "source.lang.swift.decl.enumelement",
+              "key.line" : 30,
+              "key.name" : "spm",
+              "key.usr" : "s:3Z28AAC11BuildMethodO3spmyA2DmF"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.enum",
+          "key.line" : 28,
+          "key.name" : "BuildMethod",
+          "key.related" : [
+            {
+              "key.column" : 30,
+              "key.kind" : "source.lang.swift.ref.protocol",
+              "key.line" : 28,
+              "key.name" : "EnumerableFlag",
+              "key.usr" : "s:14ArgumentParser14EnumerableFlagP"
+            }
+          ],
+          "key.usr" : "s:3Z28AAC11BuildMethodO"
+        },
+        {
+          "key.column" : 6,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 34,
+          "key.name" : "Option",
+          "key.usr" : "s:14ArgumentParser6OptionV"
+        },
+        {
+          "key.column" : 20,
+          "key.entities" : [
+            {
+              "key.column" : 20,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+              "key.line" : 34,
+              "key.receiver_usr" : "s:14ArgumentParser17NameSpecificationV",
+              "key.usr" : "s:14ArgumentParser17NameSpecificationV12shortAndLongACvgZ"
+            }
+          ],
+          "key.kind" : "source.lang.swift.ref.var.static",
+          "key.line" : 34,
+          "key.name" : "shortAndLong",
+          "key.usr" : "s:14ArgumentParser17NameSpecificationV12shortAndLongACvpZ"
+        },
+        {
+          "key.column" : 6,
+          "key.kind" : "source.lang.swift.ref.function.constructor",
+          "key.line" : 34,
+          "key.name" : "init(name:parsing:help:completion:)",
+          "key.usr" : "s:14ArgumentParser6OptionV4name7parsing4help10completionACyqd__SgGAA17NameSpecificationV_AA26SingleValueParsingStrategyOAA0A4HelpVSgAA14CompletionKindVSgtcAHRszAA013ExpressibleByA0Rd__lufc"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            },
+            {
+              "key.attribute" : "source.decl.attribute._custom"
+            }
+          ],
+          "key.column" : 103,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 34,
+              "key.usr" : "s:3Z28AAC8filenameSSSgvg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 34,
+              "key.usr" : "s:3Z28AAC8filenameSSSgvs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 34,
+          "key.name" : "filename",
+          "key.usr" : "s:3Z28AAC8filenameSSSgvp"
+        },
+        {
+          "key.column" : 119,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 34,
+          "key.name" : "String",
+          "key.usr" : "s:SS"
+        },
+        {
+          "key.column" : 6,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 35,
+          "key.name" : "Option",
+          "key.usr" : "s:14ArgumentParser6OptionV"
+        },
+        {
+          "key.column" : 6,
+          "key.is_implicit" : true,
+          "key.kind" : "source.lang.swift.ref.function.constructor",
+          "key.line" : 35,
+          "key.usr" : "s:14ArgumentParser6OptionVA2A013ExpressibleByA0RzlE12wrappedValue4name7parsing10completion4helpACyxGx_AA17NameSpecificationVAA06SingleG15ParsingStrategyOAA14CompletionKindVSgAA0A4HelpVSgtcfc"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            },
+            {
+              "key.attribute" : "source.decl.attribute._custom"
+            }
+          ],
+          "key.column" : 103,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 35,
+              "key.usr" : "s:3Z28AAC7tempDirSSvg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 35,
+              "key.usr" : "s:3Z28AAC7tempDirSSvs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 35,
+          "key.name" : "tempDir",
+          "key.usr" : "s:3Z28AAC7tempDirSSvp"
+        },
+        {
+          "key.column" : 119,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 35,
+          "key.name" : "String",
+          "key.usr" : "s:SS"
+        },
+        {
+          "key.column" : 20,
+          "key.entities" : [
+            {
+              "key.column" : 20,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+              "key.line" : 35,
+              "key.receiver_usr" : "s:14ArgumentParser17NameSpecificationV",
+              "key.usr" : "s:14ArgumentParser17NameSpecificationV12shortAndLongACvgZ"
+            }
+          ],
+          "key.kind" : "source.lang.swift.ref.var.static",
+          "key.line" : 35,
+          "key.name" : "shortAndLong",
+          "key.usr" : "s:14ArgumentParser17NameSpecificationV12shortAndLongACvpZ"
+        },
+        {
+          "key.column" : 6,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 36,
+          "key.name" : "Flag",
+          "key.usr" : "s:14ArgumentParser4FlagV"
+        },
+        {
+          "key.column" : 6,
+          "key.is_implicit" : true,
+          "key.kind" : "source.lang.swift.ref.function.constructor",
+          "key.line" : 36,
+          "key.usr" : "s:14ArgumentParser4FlagVA2A010EnumerableC0RzlE12wrappedValue11exclusivity4helpACyxGx_AA0C11ExclusivityOAA0A4HelpVSgtcfc"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            },
+            {
+              "key.attribute" : "source.decl.attribute._custom"
+            }
+          ],
+          "key.column" : 103,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 36,
+              "key.usr" : "s:3Z28AAC11buildMethodAB05BuildC0Ovg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 36,
+              "key.usr" : "s:3Z28AAC11buildMethodAB05BuildC0Ovs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 36,
+          "key.name" : "buildMethod",
+          "key.usr" : "s:3Z28AAC11buildMethodAB05BuildC0Ovp"
+        },
+        {
+          "key.column" : 119,
+          "key.kind" : "source.lang.swift.ref.enum",
+          "key.line" : 36,
+          "key.name" : "BuildMethod",
+          "key.usr" : "s:3Z28AAC11BuildMethodO"
+        },
+        {
+          "key.column" : 134,
+          "key.kind" : "source.lang.swift.ref.enumelement",
+          "key.line" : 36,
+          "key.name" : "xcode",
+          "key.usr" : "s:3Z28AAC11BuildMethodO5xcodeyA2DmF"
+        },
+        {
+          "key.column" : 25,
+          "key.kind" : "source.lang.swift.ref.enumelement",
+          "key.line" : 36,
+          "key.name" : "exclusive",
+          "key.usr" : "s:14ArgumentParser15FlagExclusivityO9exclusiveyA2CmF"
+        },
+        {
+          "key.column" : 6,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 37,
+          "key.name" : "Argument",
+          "key.usr" : "s:14ArgumentParser0A0V"
+        },
+        {
+          "key.column" : 25,
+          "key.kind" : "source.lang.swift.ref.enumelement",
+          "key.line" : 37,
+          "key.name" : "remaining",
+          "key.usr" : "s:14ArgumentParser0A20ArrayParsingStrategyO9remainingyA2CmF"
+        },
+        {
+          "key.column" : 6,
+          "key.kind" : "source.lang.swift.ref.function.constructor",
+          "key.line" : 37,
+          "key.name" : "init(parsing:help:completion:)",
+          "key.usr" : "s:14ArgumentParser0A0V7parsing4help10completionACySayqd__GGAA0A20ArrayParsingStrategyO_AA0A4HelpVSgAA14CompletionKindVSgtcAGRszAA013ExpressibleByA0Rd__lufc"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            },
+            {
+              "key.attribute" : "source.decl.attribute._custom"
+            }
+          ],
+          "key.column" : 103,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 37,
+              "key.usr" : "s:3Z28AAC14buildArgumentsSaySSGvg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 37,
+              "key.usr" : "s:3Z28AAC14buildArgumentsSaySSGvs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 37,
+          "key.name" : "buildArguments",
+          "key.usr" : "s:3Z28AAC14buildArgumentsSaySSGvp"
+        },
+        {
+          "key.column" : 120,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 37,
+          "key.name" : "String",
+          "key.usr" : "s:SS"
+        },
+        {
+          "key.column" : 6,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 38,
+          "key.name" : "Option",
+          "key.usr" : "s:14ArgumentParser6OptionV"
+        },
+        {
+          "key.column" : 20,
+          "key.entities" : [
+            {
+              "key.column" : 20,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+              "key.line" : 38,
+              "key.receiver_usr" : "s:14ArgumentParser17NameSpecificationV",
+              "key.usr" : "s:14ArgumentParser17NameSpecificationV4longACvgZ"
+            }
+          ],
+          "key.kind" : "source.lang.swift.ref.var.static",
+          "key.line" : 38,
+          "key.name" : "long",
+          "key.usr" : "s:14ArgumentParser17NameSpecificationV4longACvpZ"
+        },
+        {
+          "key.column" : 6,
+          "key.kind" : "source.lang.swift.ref.function.constructor",
+          "key.line" : 38,
+          "key.name" : "init(name:parsing:help:completion:)",
+          "key.usr" : "s:14ArgumentParser6OptionV4name7parsing4help10completionACyqd__SgGAA17NameSpecificationV_AA26SingleValueParsingStrategyOAA0A4HelpVSgAA14CompletionKindVSgtcAHRszAA013ExpressibleByA0Rd__lufc"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            },
+            {
+              "key.attribute" : "source.decl.attribute._custom"
+            }
+          ],
+          "key.column" : 103,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 38,
+              "key.usr" : "s:3Z28AAC11projectPathSSSgvg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute._custom"
+                }
+              ],
+              "key.column" : 103,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 38,
+              "key.usr" : "s:3Z28AAC11projectPathSSSgvs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 38,
+          "key.name" : "projectPath",
+          "key.usr" : "s:3Z28AAC11projectPathSSSgvp"
+        },
+        {
+          "key.column" : 119,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 38,
+          "key.name" : "String",
+          "key.usr" : "s:SS"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.required"
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 21,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.kind" : "source.lang.swift.decl.function.constructor",
+          "key.line" : 41,
+          "key.name" : "init()",
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.name" : "init()",
+              "key.usr" : "s:14ArgumentParser17ParsableArgumentsPxycfc"
+            }
+          ],
+          "key.usr" : "s:3Z28AACABycfc"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 17,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 26,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 44,
+              "key.name" : "String",
+              "key.usr" : "s:SS"
+            },
+            {
+              "key.column" : 36,
+              "key.entities" : [
+                {
+                  "key.column" : 36,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 44,
+                  "key.receiver_usr" : "s:3Z28AAC",
+                  "key.usr" : "s:3Z28AAC11projectPathSSSgvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 44,
+              "key.name" : "projectPath",
+              "key.usr" : "s:3Z28AAC11projectPathSSSgvp"
+            },
+            {
+              "key.column" : 48,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 44,
+              "key.name" : "??(_:_:)",
+              "key.usr" : "s:s2qqoiyxxSg_xyKXKtKlF"
+            },
+            {
+              "key.column" : 51,
+              "key.kind" : "source.lang.swift.ref.class",
+              "key.line" : 44,
+              "key.name" : "FileManager",
+              "key.usr" : "c:objc(cs)NSFileManager"
+            },
+            {
+              "key.column" : 63,
+              "key.entities" : [
+                {
+                  "key.column" : 63,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 44,
+                  "key.receiver_usr" : "c:objc(cs)NSFileManager",
+                  "key.usr" : "c:objc(cs)NSFileManager(cm)defaultManager"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.class",
+              "key.line" : 44,
+              "key.name" : "default",
+              "key.usr" : "c:objc(cs)NSFileManager(cpy)defaultManager"
+            },
+            {
+              "key.column" : 71,
+              "key.entities" : [
+                {
+                  "key.column" : 71,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 44,
+                  "key.receiver_usr" : "c:objc(cs)NSFileManager",
+                  "key.usr" : "c:objc(cs)NSFileManager(im)currentDirectoryPath"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 44,
+              "key.name" : "currentDirectoryPath",
+              "key.usr" : "c:objc(cs)NSFileManager(py)currentDirectoryPath"
+            },
+            {
+              "key.column" : 18,
+              "key.entities" : [
+                {
+                  "key.column" : 18,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 45,
+                  "key.receiver_usr" : "s:3Z28AAC",
+                  "key.usr" : "s:3Z28AAC7tempDirSSvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 45,
+              "key.name" : "tempDir",
+              "key.usr" : "s:3Z28AAC7tempDirSSvp"
+            },
+            {
+              "key.column" : 26,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 45,
+              "key.name" : "makeAbsolute(relativeTo:)",
+              "key.receiver_usr" : "s:SS",
+              "key.usr" : "s:SS3Z28E12makeAbsolute10relativeToS2SSg_tF"
+            },
+            {
+              "key.column" : 9,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 47,
+              "key.name" : "printToStdout(_:terminator:)",
+              "key.usr" : "s:3Z2813printToStdout_10terminatorySS_SStF"
+            },
+            {
+              "key.column" : 40,
+              "key.entities" : [
+                {
+                  "key.column" : 40,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 47,
+                  "key.receiver_usr" : "s:3Z28AAC",
+                  "key.usr" : "s:3Z28AAC11buildMethodAB05BuildC0Ovg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 47,
+              "key.name" : "buildMethod",
+              "key.usr" : "s:3Z28AAC11buildMethodAB05BuildC0Ovp"
+            },
+            {
+              "key.column" : 9,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 48,
+              "key.name" : "printToStdout(_:terminator:)",
+              "key.usr" : "s:3Z2813printToStdout_10terminatorySS_SStF"
+            },
+            {
+              "key.column" : 44,
+              "key.entities" : [
+                {
+                  "key.column" : 44,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 48,
+                  "key.receiver_usr" : "s:3Z28AAC",
+                  "key.usr" : "s:3Z28AAC14buildArgumentsSaySSGvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 48,
+              "key.name" : "buildArguments",
+              "key.usr" : "s:3Z28AAC14buildArgumentsSaySSGvp"
+            },
+            {
+              "key.column" : 59,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 48,
+              "key.name" : "joined(separator:)",
+              "key.receiver_usr" : "s:Sa",
+              "key.usr" : "s:SKsSS7ElementRtzrlE6joined9separatorS2S_tF"
+            },
+            {
+              "key.column" : 9,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 49,
+              "key.name" : "printToStdout(_:terminator:)",
+              "key.usr" : "s:3Z2813printToStdout_10terminatorySS_SStF"
+            },
+            {
+              "key.column" : 9,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 50,
+              "key.name" : "printToStdout(_:terminator:)",
+              "key.usr" : "s:3Z2813printToStdout_10terminatorySS_SStF"
+            },
             {
               "key.column" : 27,
               "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 35,
+              "key.line" : 52,
               "key.name" : "Module",
               "key.usr" : "s:21SourceKittenFramework6ModuleV"
             },
             {
               "key.column" : 36,
               "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 35,
+              "key.line" : 52,
               "key.name" : "Module",
               "key.usr" : "s:21SourceKittenFramework6ModuleV"
             },
             {
               "key.column" : 36,
               "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 35,
+              "key.line" : 52,
               "key.name" : "init(xcodeBuildArguments:name:inPath:)",
               "key.usr" : "s:21SourceKittenFramework6ModuleV19xcodeBuildArguments4name6inPathACSgSaySSG_SSSgSStcfc"
             },
             {
-              "key.column" : 94,
+              "key.column" : 64,
               "key.entities" : [
                 {
-                  "key.column" : 94,
+                  "key.column" : 64,
                   "key.is_dynamic" : true,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 35,
+                  "key.line" : 52,
                   "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC3cwdSSvg"
+                  "key.usr" : "s:3Z28AAC14buildArgumentsSaySSGvg"
                 }
               ],
               "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 35,
-              "key.name" : "cwd",
-              "key.usr" : "s:3Z28AAC3cwdSSvp"
+              "key.line" : 52,
+              "key.name" : "buildArguments",
+              "key.usr" : "s:3Z28AAC14buildArgumentsSaySSGvp"
             },
             {
-              "key.column" : 112,
+              "key.column" : 114,
               "key.kind" : "source.lang.swift.ref.enum",
-              "key.line" : 35,
+              "key.line" : 52,
               "key.name" : "PGErrors",
               "key.usr" : "s:7Rubicon8PGErrorsO"
             },
             {
-              "key.column" : 121,
+              "key.column" : 123,
               "key.kind" : "source.lang.swift.ref.enumelement",
-              "key.line" : 35,
+              "key.line" : 52,
               "key.name" : "GeneralError(description:)",
               "key.usr" : "s:7Rubicon8PGErrorsO12GeneralErroryACSS_tcACmF"
             },
             {
-              "key.column" : 25,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 36,
-              "key.name" : "File",
-              "key.usr" : "s:21SourceKittenFramework4FileC"
-            },
-            {
-              "key.column" : 32,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 36,
-              "key.name" : "File",
-              "key.usr" : "s:21SourceKittenFramework4FileC"
-            },
-            {
-              "key.column" : 32,
-              "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 36,
-              "key.name" : "init(path:)",
-              "key.usr" : "s:21SourceKittenFramework4FileC4pathACSgSS_tcfc"
-            },
-            {
-              "key.column" : 43,
+              "key.column" : 27,
               "key.entities" : [
                 {
-                  "key.column" : 43,
+                  "key.column" : 27,
                   "key.is_dynamic" : true,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 36,
+                  "key.line" : 54,
                   "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC8filenameSSvg"
+                  "key.usr" : "s:3Z28AAC8filenameSSSgvg"
                 }
               ],
               "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 36,
+              "key.line" : 54,
               "key.name" : "filename",
-              "key.usr" : "s:3Z28AAC8filenameSSvp"
+              "key.usr" : "s:3Z28AAC8filenameSSSgvp"
             },
             {
-              "key.column" : 66,
-              "key.kind" : "source.lang.swift.ref.enum",
-              "key.line" : 36,
-              "key.name" : "StreamError",
-              "key.usr" : "s:7Rubicon11StreamErrorO"
-            },
-            {
-              "key.column" : 78,
-              "key.kind" : "source.lang.swift.ref.enumelement",
-              "key.line" : 36,
-              "key.name" : "FileNotFound(description:)",
-              "key.usr" : "s:7Rubicon11StreamErrorO12FileNotFoundyACSS_tcACmF"
-            },
-            {
-              "key.column" : 104,
-              "key.entities" : [
-                {
-                  "key.column" : 104,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 36,
-                  "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC8filenameSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 36,
-              "key.name" : "filename",
-              "key.usr" : "s:3Z28AAC8filenameSSvp"
-            },
-            {
-              "key.column" : 28,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 38,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 36,
-              "key.kind" : "source.lang.swift.ref.typealias",
-              "key.line" : 38,
-              "key.name" : "LineMap",
-              "key.usr" : "s:3Z28AAC7LineMapa"
-            },
-            {
-              "key.column" : 51,
-              "key.is_dynamic" : true,
+              "key.column" : 37,
               "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 38,
-              "key.name" : "linesAndOffsets(filename:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC15linesAndOffsets8filenameSS6source_Says5Int64V6offset_SS5IndexV5indextG7lineMaptSS_tKF"
-            },
-            {
-              "key.column" : 82,
-              "key.entities" : [
-                {
-                  "key.column" : 82,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 38,
-                  "key.receiver_usr" : "s:21SourceKittenFramework4FileC",
-                  "key.usr" : "s:21SourceKittenFramework4FileC4pathSSSgvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 38,
-              "key.name" : "path",
-              "key.usr" : "s:21SourceKittenFramework4FileC4pathSSSgvp"
-            },
-            {
-              "key.column" : 28,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 39,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 51,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 39,
-              "key.name" : "fileIndex(file:module:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC9fileIndex0B06moduleSDySSypG21SourceKittenFramework4FileC_AG6ModuleVtKF"
-            },
-            {
-              "key.column" : 28,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 40,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 51,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 40,
-              "key.name" : "fileStructure(file:lineMap:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC13fileStructure0B07lineMapSDySSypG21SourceKittenFramework4FileC_Says5Int64V6offset_SS5IndexV5indextGtKF"
-            },
-            {
-              "key.column" : 28,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 41,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 51,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 41,
-              "key.name" : "fileDocs(file:module:lineMap:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC8fileDocs0B06module7lineMapSDySSypG21SourceKittenFramework4FileC_AH6ModuleVSays5Int64V6offset_SS5IndexV5indextGtKF"
-            },
-            {
-              "key.column" : 28,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 42,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 51,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 42,
-              "key.name" : "fileSyntax(file:module:lineMap:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC10fileSyntax0B06module7lineMapSDySSypG21SourceKittenFramework4FileC_AH6ModuleVSays5Int64V6offset_SS5IndexV5indextGtKF"
-            },
-            {
-              "key.column" : 13,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 44,
-              "key.name" : "writePList(data:toFile:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC10writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 48,
-              "key.entities" : [
-                {
-                  "key.column" : 48,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 44,
-                  "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC3cwdSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 44,
-              "key.name" : "cwd",
-              "key.usr" : "s:3Z28AAC3cwdSSvp"
-            },
-            {
-              "key.column" : 65,
-              "key.entities" : [
-                {
-                  "key.column" : 65,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 44,
-                  "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC8filenameSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 44,
-              "key.name" : "filename",
-              "key.usr" : "s:3Z28AAC8filenameSSvp"
-            },
-            {
-              "key.column" : 74,
-              "key.entities" : [
-                {
-                  "key.column" : 74,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 44,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE17lastPathComponentSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 44,
-              "key.name" : "lastPathComponent",
-              "key.usr" : "s:SS7RubiconE17lastPathComponentSSvp"
-            },
-            {
-              "key.column" : 13,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 45,
-              "key.name" : "writePList(data:toFile:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC10writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 48,
-              "key.entities" : [
-                {
-                  "key.column" : 48,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 45,
-                  "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC3cwdSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 45,
-              "key.name" : "cwd",
-              "key.usr" : "s:3Z28AAC3cwdSSvp"
-            },
-            {
-              "key.column" : 65,
-              "key.entities" : [
-                {
-                  "key.column" : 65,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 45,
-                  "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC8filenameSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 45,
-              "key.name" : "filename",
-              "key.usr" : "s:3Z28AAC8filenameSSvp"
-            },
-            {
-              "key.column" : 74,
-              "key.entities" : [
-                {
-                  "key.column" : 74,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 45,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE17lastPathComponentSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 45,
-              "key.name" : "lastPathComponent",
-              "key.usr" : "s:SS7RubiconE17lastPathComponentSSvp"
-            },
-            {
-              "key.column" : 13,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 46,
-              "key.name" : "writePList(data:toFile:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC10writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 48,
-              "key.entities" : [
-                {
-                  "key.column" : 48,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 46,
-                  "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC3cwdSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 46,
-              "key.name" : "cwd",
-              "key.usr" : "s:3Z28AAC3cwdSSvp"
-            },
-            {
-              "key.column" : 65,
-              "key.entities" : [
-                {
-                  "key.column" : 65,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 46,
-                  "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC8filenameSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 46,
-              "key.name" : "filename",
-              "key.usr" : "s:3Z28AAC8filenameSSvp"
-            },
-            {
-              "key.column" : 74,
-              "key.entities" : [
-                {
-                  "key.column" : 74,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 46,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE17lastPathComponentSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 46,
-              "key.name" : "lastPathComponent",
-              "key.usr" : "s:SS7RubiconE17lastPathComponentSSvp"
-            },
-            {
-              "key.column" : 13,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 47,
-              "key.name" : "writePList(data:toFile:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC10writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 48,
-              "key.entities" : [
-                {
-                  "key.column" : 48,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 47,
-                  "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC3cwdSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 47,
-              "key.name" : "cwd",
-              "key.usr" : "s:3Z28AAC3cwdSSvp"
-            },
-            {
-              "key.column" : 65,
-              "key.entities" : [
-                {
-                  "key.column" : 65,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 47,
-                  "key.receiver_usr" : "s:3Z28AAC",
-                  "key.usr" : "s:3Z28AAC8filenameSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 47,
-              "key.name" : "filename",
-              "key.usr" : "s:3Z28AAC8filenameSSvp"
-            },
-            {
-              "key.column" : 74,
-              "key.entities" : [
-                {
-                  "key.column" : 74,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 47,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE17lastPathComponentSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 47,
-              "key.name" : "lastPathComponent",
-              "key.usr" : "s:SS7RubiconE17lastPathComponentSSvp"
-            }
-          ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 34,
-          "key.name" : "run()",
-          "key.usr" : "s:3Z28AAC3runyyKF"
-        },
-        {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.final"
-            },
-            {
-              "key.attribute" : "source.decl.attribute.public"
-            }
-          ],
-          "key.column" : 24,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
-            {
-              "key.column" : 17,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 52,
-              "key.name" : "Z28",
-              "key.usr" : "s:3Z28AAC"
-            },
-            {
-              "key.column" : 17,
-              "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 52,
-              "key.name" : "init()",
-              "key.usr" : "s:3Z28AACAByKcfc"
-            },
-            {
-              "key.column" : 23,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 52,
-              "key.name" : "run()",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC3runyyKF"
-            },
-            {
-              "key.column" : 13,
-              "key.kind" : "source.lang.swift.ref.function.free",
-              "key.line" : 53,
-              "key.name" : "exit(_:)",
-              "key.usr" : "c:@F@exit"
-            },
-            {
-              "key.column" : 32,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 56,
-              "key.name" : "write(toFile:atomically:encoding:)",
+              "key.line" : 54,
+              "key.name" : "makeAbsolute(relativeTo:)",
               "key.receiver_usr" : "s:SS",
-              "key.usr" : "s:Sy10FoundationE5write6toFile10atomically8encodingyqd___SbSSAAE8EncodingVtKSyRd__lF"
+              "key.usr" : "s:SS3Z28E12makeAbsolute10relativeToS2SSg_tF"
             },
             {
-              "key.column" : 91,
-              "key.entities" : [
-                {
-                  "key.column" : 91,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 56,
-                  "key.receiver_usr" : "s:SS10FoundationE8EncodingV",
-                  "key.usr" : "s:SS10FoundationE8EncodingV4utf8ACvgZ"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.column" : 34,
+              "key.kind" : "source.lang.swift.ref.class",
+              "key.line" : 55,
+              "key.name" : "SourceFileInfo",
+              "key.usr" : "s:3Z2814SourceFileInfoC"
+            },
+            {
+              "key.column" : 34,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 55,
+              "key.name" : "init(filename:temporaryDirectory:module:fileNumber:outOf:)",
+              "key.usr" : "s:3Z2814SourceFileInfoC8filename18temporaryDirectory6module10fileNumber5outOfACSS_SS0B15KittenFramework6ModuleVS2itKcfc"
+            },
+            {
+              "key.column" : 24,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
               "key.line" : 56,
-              "key.name" : "utf8",
-              "key.usr" : "s:SS10FoundationE8EncodingV4utf8ACvpZ"
+              "key.name" : "load()",
+              "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+              "key.usr" : "s:3Z2814SourceFileInfoC4loadyyF"
             },
             {
-              "key.column" : 13,
+              "key.column" : 17,
               "key.kind" : "source.lang.swift.ref.function.free",
               "key.line" : 57,
-              "key.name" : "exit(_:)",
-              "key.usr" : "c:@F@exit"
-            }
-          ],
-          "key.kind" : "source.lang.swift.decl.function.method.static",
-          "key.line" : 50,
-          "key.name" : "main()",
-          "key.usr" : "s:3Z28AAC4mainyyFZ"
-        },
-        {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.open"
-            }
-          ],
-          "key.column" : 15,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
-            {
-              "key.column" : 31,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 69,
-              "key.name" : "File",
-              "key.usr" : "s:21SourceKittenFramework4FileC"
+              "key.name" : "writePList(data:toFile:)",
+              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
             },
             {
               "key.column" : 45,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 69,
-              "key.name" : "Module",
-              "key.usr" : "s:21SourceKittenFramework6ModuleV"
-            },
-            {
-              "key.column" : 64,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 69,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 35,
               "key.entities" : [
                 {
-                  "key.column" : 35,
+                  "key.column" : 45,
                   "key.is_dynamic" : true,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 70,
-                  "key.receiver_usr" : "s:21SourceKittenFramework4FileC",
-                  "key.usr" : "s:21SourceKittenFramework4FileC4pathSSSgvg"
+                  "key.line" : 57,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC9fileIndexSDySSypGvg"
                 }
               ],
               "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 70,
-              "key.name" : "path",
-              "key.usr" : "s:21SourceKittenFramework4FileC4pathSSSgvp"
+              "key.line" : 57,
+              "key.name" : "fileIndex",
+              "key.usr" : "s:3Z2814SourceFileInfoC9fileIndexSDySSypGvp"
             },
             {
-              "key.column" : 16,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 71,
-              "key.name" : "toDictionary(_:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC12toDictionaryySDySSypGSDySS21SourceKittenFramework0D16KitRepresentable_pGF"
+              "key.column" : 78,
+              "key.entities" : [
+                {
+                  "key.column" : 78,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 57,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 57,
+              "key.name" : "debugPathPrefix",
+              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
             },
             {
-              "key.column" : 33,
-              "key.kind" : "source.lang.swift.ref.enum",
-              "key.line" : 71,
-              "key.name" : "Request",
-              "key.usr" : "s:21SourceKittenFramework7RequestO"
+              "key.column" : 17,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 58,
+              "key.name" : "writePList(data:toFile:)",
+              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
+            },
+            {
+              "key.column" : 45,
+              "key.entities" : [
+                {
+                  "key.column" : 45,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 58,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC9structureSDySSypGvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 58,
+              "key.name" : "structure",
+              "key.usr" : "s:3Z2814SourceFileInfoC9structureSDySSypGvp"
+            },
+            {
+              "key.column" : 78,
+              "key.entities" : [
+                {
+                  "key.column" : 78,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 58,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 58,
+              "key.name" : "debugPathPrefix",
+              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
+            },
+            {
+              "key.column" : 17,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 59,
+              "key.name" : "writePList(data:toFile:)",
+              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
+            },
+            {
+              "key.column" : 45,
+              "key.entities" : [
+                {
+                  "key.column" : 45,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 59,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC9swiftDocsSDySSypGvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 59,
+              "key.name" : "swiftDocs",
+              "key.usr" : "s:3Z2814SourceFileInfoC9swiftDocsSDySSypGvp"
+            },
+            {
+              "key.column" : 78,
+              "key.entities" : [
+                {
+                  "key.column" : 78,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 59,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 59,
+              "key.name" : "debugPathPrefix",
+              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
+            },
+            {
+              "key.column" : 17,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 60,
+              "key.name" : "writePList(data:toFile:)",
+              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
+            },
+            {
+              "key.column" : 45,
+              "key.entities" : [
+                {
+                  "key.column" : 45,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 60,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC9syntaxMapSDySSypGvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 60,
+              "key.name" : "syntaxMap",
+              "key.usr" : "s:3Z2814SourceFileInfoC9syntaxMapSDySSypGvp"
+            },
+            {
+              "key.column" : 78,
+              "key.entities" : [
+                {
+                  "key.column" : 78,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 60,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 60,
+              "key.name" : "debugPathPrefix",
+              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
+            },
+            {
+              "key.column" : 29,
+              "key.entities" : [
+                {
+                  "key.column" : 29,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 63,
+                  "key.receiver_usr" : "s:21SourceKittenFramework6ModuleV",
+                  "key.usr" : "s:21SourceKittenFramework6ModuleV11sourceFilesSaySSGvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 63,
+              "key.name" : "sourceFiles",
+              "key.usr" : "s:21SourceKittenFramework6ModuleV11sourceFilesSaySSGvp"
             },
             {
               "key.column" : 41,
-              "key.kind" : "source.lang.swift.ref.enumelement",
-              "key.line" : 71,
-              "key.name" : "index(file:arguments:)",
-              "key.usr" : "s:21SourceKittenFramework7RequestO5indexyACSS_SaySSGtcACmF"
+              "key.entities" : [
+                {
+                  "key.column" : 41,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 63,
+                  "key.receiver_usr" : "s:Sa",
+                  "key.usr" : "s:Sa5countSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 63,
+              "key.name" : "count",
+              "key.usr" : "s:Sa5countSivp"
+            },
+            {
+              "key.column" : 25,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 64,
+              "key.name" : "..<(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column" : 38,
+              "key.kind" : "source.lang.swift.ref.class",
+              "key.line" : 65,
+              "key.name" : "SourceFileInfo",
+              "key.usr" : "s:3Z2814SourceFileInfoC"
+            },
+            {
+              "key.column" : 38,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 65,
+              "key.name" : "init(filename:temporaryDirectory:module:fileNumber:outOf:)",
+              "key.usr" : "s:3Z2814SourceFileInfoC8filename18temporaryDirectory6module10fileNumber5outOfACSS_SS0B15KittenFramework6ModuleVS2itKcfc"
+            },
+            {
+              "key.column" : 70,
+              "key.entities" : [
+                {
+                  "key.column" : 70,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 65,
+                  "key.receiver_usr" : "s:21SourceKittenFramework6ModuleV",
+                  "key.usr" : "s:21SourceKittenFramework6ModuleV11sourceFilesSaySSGvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 65,
+              "key.name" : "sourceFiles",
+              "key.usr" : "s:21SourceKittenFramework6ModuleV11sourceFilesSaySSGvp"
             },
             {
               "key.column" : 81,
@@ -1476,412 +1554,232 @@
                   "key.column" : 81,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 71,
-                  "key.receiver_usr" : "s:21SourceKittenFramework6ModuleV",
-                  "key.usr" : "s:21SourceKittenFramework6ModuleV17compilerArgumentsSaySSGvg"
+                  "key.line" : 65,
+                  "key.receiver_usr" : "s:Sa",
+                  "key.usr" : "s:SayxSicig"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 71,
-              "key.name" : "compilerArguments",
-              "key.usr" : "s:21SourceKittenFramework6ModuleV17compilerArgumentsSaySSGvp"
+              "key.kind" : "source.lang.swift.ref.function.subscript",
+              "key.line" : 65,
+              "key.name" : "subscript(_:)",
+              "key.usr" : "s:SayxSicip"
             },
             {
-              "key.column" : 100,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 71,
-              "key.name" : "send()",
-              "key.receiver_usr" : "s:21SourceKittenFramework7RequestO",
-              "key.usr" : "s:21SourceKittenFramework7RequestO4sendSDySSAA0A16KitRepresentable_pGyKF"
-            }
-          ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 69,
-          "key.name" : "fileIndex(file:module:)",
-          "key.usr" : "s:3Z28AAC9fileIndex0B06moduleSDySSypG21SourceKittenFramework4FileC_AG6ModuleVtKF"
-        },
-        {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.open"
-            }
-          ],
-          "key.column" : 15,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
-            {
-              "key.column" : 35,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 74,
-              "key.name" : "File",
-              "key.usr" : "s:21SourceKittenFramework4FileC"
+              "key.column" : 140,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 65,
+              "key.name" : "+(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1poiyS2i_SitFZ"
             },
             {
-              "key.column" : 50,
-              "key.kind" : "source.lang.swift.ref.typealias",
-              "key.line" : 74,
-              "key.name" : "LineMap",
-              "key.usr" : "s:3Z28AAC7LineMapa"
-            },
-            {
-              "key.column" : 70,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 74,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 9,
+              "key.column" : 28,
               "key.is_dynamic" : true,
               "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 75,
-              "key.name" : "addLinesAndColumns(source:dictionary:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC18addLinesAndColumns6source10dictionarySDySSypGSays5Int64V6offset_SS5IndexV5indextG_AFtF"
+              "key.line" : 66,
+              "key.name" : "load()",
+              "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+              "key.usr" : "s:3Z2814SourceFileInfoC4loadyyF"
             },
             {
-              "key.column" : 57,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 75,
-              "key.name" : "toDictionary(_:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC12toDictionaryySDySSypGSDySS21SourceKittenFramework0D16KitRepresentable_pGF"
+              "key.column" : 21,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 67,
+              "key.name" : "writePList(data:toFile:)",
+              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
             },
             {
-              "key.column" : 74,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 75,
-              "key.name" : "Structure",
-              "key.usr" : "s:21SourceKittenFramework9StructureV"
-            },
-            {
-              "key.column" : 74,
-              "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 75,
-              "key.name" : "init(file:)",
-              "key.usr" : "s:21SourceKittenFramework9StructureV4fileAcA4FileC_tKcfc"
-            },
-            {
-              "key.column" : 96,
+              "key.column" : 49,
               "key.entities" : [
                 {
-                  "key.column" : 96,
+                  "key.column" : 49,
+                  "key.is_dynamic" : true,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 75,
-                  "key.receiver_usr" : "s:21SourceKittenFramework9StructureV",
-                  "key.usr" : "s:21SourceKittenFramework9StructureV10dictionarySDySSAA0A16KitRepresentable_pGvg"
+                  "key.line" : 67,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC9fileIndexSDySSypGvg"
                 }
               ],
               "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 75,
-              "key.name" : "dictionary",
-              "key.usr" : "s:21SourceKittenFramework9StructureV10dictionarySDySSAA0A16KitRepresentable_pGvp"
-            }
-          ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 74,
-          "key.name" : "fileStructure(file:lineMap:)",
-          "key.usr" : "s:3Z28AAC13fileStructure0B07lineMapSDySSypG21SourceKittenFramework4FileC_Says5Int64V6offset_SS5IndexV5indextGtKF"
-        },
-        {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.open"
-            }
-          ],
-          "key.column" : 15,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
-            {
-              "key.column" : 30,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 78,
-              "key.name" : "File",
-              "key.usr" : "s:21SourceKittenFramework4FileC"
-            },
-            {
-              "key.column" : 44,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 78,
-              "key.name" : "Module",
-              "key.usr" : "s:21SourceKittenFramework6ModuleV"
-            },
-            {
-              "key.column" : 61,
-              "key.kind" : "source.lang.swift.ref.typealias",
-              "key.line" : 78,
-              "key.name" : "LineMap",
-              "key.usr" : "s:3Z28AAC7LineMapa"
-            },
-            {
-              "key.column" : 81,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 78,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 26,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 79,
-              "key.name" : "SwiftDocs",
-              "key.usr" : "s:21SourceKittenFramework9SwiftDocsV"
-            },
-            {
-              "key.column" : 26,
-              "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 79,
-              "key.name" : "init(file:arguments:)",
-              "key.usr" : "s:21SourceKittenFramework9SwiftDocsV4file9argumentsACSgAA4FileC_SaySSGtcfc"
-            },
-            {
-              "key.column" : 66,
-              "key.entities" : [
-                {
-                  "key.column" : 66,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 79,
-                  "key.receiver_usr" : "s:21SourceKittenFramework6ModuleV",
-                  "key.usr" : "s:21SourceKittenFramework6ModuleV17compilerArgumentsSaySSGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 79,
-              "key.name" : "compilerArguments",
-              "key.usr" : "s:21SourceKittenFramework6ModuleV17compilerArgumentsSaySSGvp"
-            },
-            {
-              "key.column" : 16,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 80,
-              "key.name" : "addLinesAndColumns(source:dictionary:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC18addLinesAndColumns6source10dictionarySDySSypGSays5Int64V6offset_SS5IndexV5indextG_AFtF"
-            },
-            {
-              "key.column" : 64,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 80,
-              "key.name" : "toDictionary(_:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC12toDictionaryySDySSypGSDySS21SourceKittenFramework0D16KitRepresentable_pGF"
+              "key.line" : 67,
+              "key.name" : "fileIndex",
+              "key.usr" : "s:3Z2814SourceFileInfoC9fileIndexSDySSypGvp"
             },
             {
               "key.column" : 82,
               "key.entities" : [
                 {
                   "key.column" : 82,
+                  "key.is_dynamic" : true,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 80,
-                  "key.receiver_usr" : "s:21SourceKittenFramework9SwiftDocsV",
-                  "key.usr" : "s:21SourceKittenFramework9SwiftDocsV14docsDictionarySDySSAA0A16KitRepresentable_pGvg"
+                  "key.line" : 67,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
                 }
               ],
               "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 80,
-              "key.name" : "docsDictionary",
-              "key.usr" : "s:21SourceKittenFramework9SwiftDocsV14docsDictionarySDySSAA0A16KitRepresentable_pGvp"
-            }
-          ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 78,
-          "key.name" : "fileDocs(file:module:lineMap:)",
-          "key.usr" : "s:3Z28AAC8fileDocs0B06module7lineMapSDySSypG21SourceKittenFramework4FileC_AH6ModuleVSays5Int64V6offset_SS5IndexV5indextGtKF"
-        },
-        {
-          "key.attributes" : [
-            {
-              "key.attribute" : "source.decl.attribute.open"
-            }
-          ],
-          "key.column" : 15,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
-            {
-              "key.column" : 32,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 83,
-              "key.name" : "File",
-              "key.usr" : "s:21SourceKittenFramework4FileC"
-            },
-            {
-              "key.column" : 46,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 83,
-              "key.name" : "Module",
-              "key.usr" : "s:21SourceKittenFramework6ModuleV"
-            },
-            {
-              "key.column" : 63,
-              "key.kind" : "source.lang.swift.ref.typealias",
-              "key.line" : 83,
-              "key.name" : "LineMap",
-              "key.usr" : "s:3Z28AAC7LineMapa"
-            },
-            {
-              "key.column" : 83,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 83,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 18,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 84,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
-            },
-            {
-              "key.column" : 38,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 84,
-              "key.name" : "SyntaxMap",
-              "key.usr" : "s:21SourceKittenFramework9SyntaxMapV"
-            },
-            {
-              "key.column" : 38,
-              "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 84,
-              "key.name" : "init(file:)",
-              "key.usr" : "s:21SourceKittenFramework9SyntaxMapV4fileAcA4FileC_tKcfc"
-            },
-            {
-              "key.column" : 60,
-              "key.entities" : [
-                {
-                  "key.column" : 60,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 84,
-                  "key.usr" : "s:21SourceKittenFramework9SyntaxMapV6tokensSayAA0D5TokenVGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 84,
-              "key.name" : "tokens",
-              "key.usr" : "s:21SourceKittenFramework9SyntaxMapV6tokensSayAA0D5TokenVGvp"
-            },
-            {
-              "key.column" : 67,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 84,
-              "key.name" : "map(_:)",
-              "key.receiver_usr" : "s:Sa",
-              "key.usr" : "s:SlsE3mapySayqd__Gqd__7ElementQzKXEKlF"
-            },
-            {
-              "key.column" : 76,
-              "key.entities" : [
-                {
-                  "key.column" : 76,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 84,
-                  "key.receiver_usr" : "s:21SourceKittenFramework11SyntaxTokenV",
-                  "key.usr" : "s:21SourceKittenFramework11SyntaxTokenV15dictionaryValueSDySSypGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 84,
-              "key.name" : "dictionaryValue",
-              "key.usr" : "s:21SourceKittenFramework11SyntaxTokenV15dictionaryValueSDySSypGvp"
-            },
-            {
-              "key.column" : 18,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 85,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.line" : 67,
+              "key.name" : "debugPathPrefix",
+              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
             },
             {
               "key.column" : 21,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 87,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 68,
+              "key.name" : "writePList(data:toFile:)",
+              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
             },
             {
-              "key.column" : 36,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 90,
-              "key.name" : "Int",
-              "key.usr" : "s:Si"
-            },
-            {
-              "key.column" : 47,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 90,
-              "key.name" : "Int64",
-              "key.usr" : "s:s5Int64V"
-            },
-            {
-              "key.column" : 47,
-              "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 90,
-              "key.name" : "init(_:)",
-              "key.usr" : "s:SZss17FixedWidthIntegerRzrlEyxqd__cSzRd__lufc"
-            },
-            {
-              "key.column" : 18,
+              "key.column" : 49,
               "key.entities" : [
                 {
-                  "key.column" : 18,
+                  "key.column" : 49,
+                  "key.is_dynamic" : true,
                   "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
-                  "key.line" : 91,
-                  "key.usr" : "s:SDyq_Sgxcis"
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 68,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC9structureSDySSypGvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.function.subscript",
-              "key.line" : 91,
-              "key.name" : "subscript(_:)",
-              "key.usr" : "s:SDyq_Sgxcip"
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 68,
+              "key.name" : "structure",
+              "key.usr" : "s:3Z2814SourceFileInfoC9structureSDySSypGvp"
             },
             {
-              "key.column" : 15,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 93,
-              "key.name" : "<+(_:_:)",
-              "key.usr" : "s:7Rubicon2lpoiyySayxGz_xtlF"
+              "key.column" : 82,
+              "key.entities" : [
+                {
+                  "key.column" : 82,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 68,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 68,
+              "key.name" : "debugPathPrefix",
+              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
             },
             {
-              "key.column" : 17,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 95,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column" : 21,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 69,
+              "key.name" : "writePList(data:toFile:)",
+              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
             },
             {
-              "key.column" : 16,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 96,
-              "key.name" : "addLinesAndColumns(source:dictionary:)",
-              "key.receiver_usr" : "s:3Z28AAC",
-              "key.usr" : "s:3Z28AAC18addLinesAndColumns6source10dictionarySDySSypGSays5Int64V6offset_SS5IndexV5indextG_AFtF"
+              "key.column" : 49,
+              "key.entities" : [
+                {
+                  "key.column" : 49,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 69,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC9swiftDocsSDySSypGvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 69,
+              "key.name" : "swiftDocs",
+              "key.usr" : "s:3Z2814SourceFileInfoC9swiftDocsSDySSypGvp"
+            },
+            {
+              "key.column" : 82,
+              "key.entities" : [
+                {
+                  "key.column" : 82,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 69,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 69,
+              "key.name" : "debugPathPrefix",
+              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
+            },
+            {
+              "key.column" : 21,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 70,
+              "key.name" : "writePList(data:toFile:)",
+              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
+            },
+            {
+              "key.column" : 49,
+              "key.entities" : [
+                {
+                  "key.column" : 49,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 70,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC9syntaxMapSDySSypGvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 70,
+              "key.name" : "syntaxMap",
+              "key.usr" : "s:3Z2814SourceFileInfoC9syntaxMapSDySSypGvp"
+            },
+            {
+              "key.column" : 82,
+              "key.entities" : [
+                {
+                  "key.column" : 82,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 70,
+                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 70,
+              "key.name" : "debugPathPrefix",
+              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
             }
           ],
           "key.is_dynamic" : true,
           "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 83,
-          "key.name" : "fileSyntax(file:module:lineMap:)",
-          "key.usr" : "s:3Z28AAC10fileSyntax0B06module7lineMapSDySSypG21SourceKittenFramework4FileC_AH6ModuleVSays5Int64V6offset_SS5IndexV5indextGtKF"
+          "key.line" : 43,
+          "key.name" : "run()",
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.name" : "run()",
+              "key.usr" : "s:14ArgumentParser15ParsableCommandP3runyyKF"
+            }
+          ],
+          "key.usr" : "s:3Z28AAC3runyyKF"
         }
       ],
       "key.kind" : "source.lang.swift.decl.class",
-      "key.line" : 25,
+      "key.line" : 26,
       "key.name" : "Z28",
+      "key.related" : [
+        {
+          "key.column" : 17,
+          "key.kind" : "source.lang.swift.ref.protocol",
+          "key.line" : 26,
+          "key.name" : "ParsableCommand",
+          "key.usr" : "s:14ArgumentParser15ParsableCommandP"
+        }
+      ],
       "key.usr" : "s:3Z28AAC"
     }
   ]

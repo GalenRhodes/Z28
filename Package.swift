@@ -13,11 +13,16 @@ let package = Package(
         .executable(name: "z28", targets: [ "Z28" ]),
     ],
     dependencies: [
-        .package(name: "Rubicon", url: "https://github.com/GalenRhodes/Rubicon", .upToNextMinor(from: "0.2.50")),
-        .package(name: "SourceKitten", url: "https://github.com/jpsim/SourceKitten", .upToNextMinor(from: "0.31.0")),
+        .package(name: "Rubicon", url: "https://github.com/GalenRhodes/Rubicon", .upToNextMinor(from: "0.2.51")),
+        .package(name: "SourceKittenFramework", url: "https://github.com/GalenRhodes/SourceKittenFramework", .upToNextMinor(from: "0.31.0")),
+        .package(url: "https://github.com/apple/swift-argument-parser", .upToNextMinor(from: "0.4.3")),
     ],
     targets: [
-        .executableTarget(name: "Z28", dependencies: [ "Rubicon", "SourceKitten", ])
+        .executableTarget(name: "Z28", dependencies: [
+            "Rubicon",
+            "SourceKittenFramework",
+            .product(name: "ArgumentParser", package: "swift-argument-parser"),
+        ])
     ]
 )
 //@f:1

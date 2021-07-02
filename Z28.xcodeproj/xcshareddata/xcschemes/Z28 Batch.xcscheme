@@ -7,9 +7,9 @@
             buildForRunning = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "836FD0D226851394008F0835"
-               BuildableName = "DocFixer"
-               BlueprintName = "DocFixer"
+               BlueprintIdentifier = "836FD0BD2685118F008F0835"
+               BuildableName = "Z28"
+               BlueprintName = "Z28"
                ReferencedContainer = "container:Z28.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -18,68 +18,56 @@
    <LaunchAction
       useCustomWorkingDirectory = "YES"
       customWorkingDirectory = "$(SRCROOT)"
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "836FD0D226851394008F0835"
-            BuildableName = "DocFixer"
-            BlueprintName = "DocFixer"
+            BlueprintIdentifier = "836FD0BD2685118F008F0835"
+            BuildableName = "Z28"
+            BlueprintName = "Z28"
             ReferencedContainer = "container:Z28.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "--line-length"
+            argument = "--xcode"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "130"
+            argument = "--project-path"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "--project"
+            argument = "$(SRCROOT)"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "$(PROJECT_NAME)"
+            argument = "--temp-dir"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "--remote-host"
+            argument = "Resources"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "goober"
+            argument = "--"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "--remote-user"
+            argument = "-scheme"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "$(USER)"
+            argument = "Z28"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "--remote-path"
+            argument = "-jobs"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/var/www/html/$(PROJECT_NAME)"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--jazzy-version"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "0.13.7"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "Sources/$(PROJECT_NAME)"
+            argument = "8"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

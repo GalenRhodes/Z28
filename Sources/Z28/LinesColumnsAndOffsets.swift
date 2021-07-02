@@ -19,11 +19,11 @@ import Foundation
 import CoreFoundation
 import Rubicon
 
-extension Z28 {
+extension SourceFileInfo {
     public typealias LineMap = [(offset: Int64, index: String.Index)]
     public typealias LineColumn = (line: Int64, column: Int64)
 
-    open func addLinesAndColumns(source src: LineMap, dictionary dict: [String: Any]) -> [String: Any] {
+    public func addLinesAndColumns(source src: LineMap, dictionary dict: [String: Any]) -> [String: Any] {
         func __foo04(source src: LineMap, array arr: [Any]) -> [Any] {
             var outArr: [Any] = []
 
@@ -106,12 +106,7 @@ extension Z28 {
         return outDict
     }
 
-    open func linesAndOffsets(filename: String) throws -> (source: String, lineMap: LineMap) {
-        let source: String = try String(contentsOfFile: filename, encoding: .utf8)
-        return (source, linesAndOffsets(source: source))
-    }
-
-    open func linesAndOffsets(source: String) -> LineMap {
+    public func getLinesAndOffsets(source: String) -> LineMap {
         var index:  String.Index = source.startIndex
         var offset: Int64        = 0
         var lines:  LineMap      = []

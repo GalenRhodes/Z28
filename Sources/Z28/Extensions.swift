@@ -1,9 +1,9 @@
 /*******************************************************************************************************************************************************************************//*
  *     PROJECT: Z28
- *    FILENAME: main.swift
+ *    FILENAME: Extensions.swift
  *         IDE: AppCode
  *      AUTHOR: Galen Rhodes
- *        DATE: 6/30/21
+ *        DATE: 7/2/21
  *
  * Copyright © 2021 Galen Rhodes. All rights reserved.
  *
@@ -16,10 +16,15 @@
  *//******************************************************************************************************************************************************************************/
 
 import Foundation
+import CoreFoundation
 import Rubicon
 
-DispatchQueue.main.async {
-    Z28.main()
-    exit(0)
+extension String {
+
+    func makeAbsolute(relativeTo dir: String? = nil) -> String {
+        if isAbsolutePath { return self }
+        let dir = (dir ?? FileManager.default.currentDirectoryPath)
+        guard dir.isAbsolutePath else { fatalError("Not an absolute path: \(dir)") }
+        return dir.appendingPathComponent(self)
+    }
 }
-dispatchMain()

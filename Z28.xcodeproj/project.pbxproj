@@ -10,34 +10,16 @@
 		1117D1A5BF9EE7E787F10A71 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D7FC86AB81798F0786CF /* Tools.swift */; };
 		1117D22B426CDD7508708698 /* LinesColumnsAndOffsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117DF330F404256EE898CE9 /* LinesColumnsAndOffsets.swift */; };
 		1117D29555BBE3F05F991758 /* Z28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117DD859FBAD802C9D7141D /* Z28.swift */; };
+		1117D68C0EE113AE6A79AD0B /* SourceFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D7B32B1B306C73E9B211 /* SourceFileInfo.swift */; };
+		1117D8E36A9B9EFECC262F1F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D949AE27C49335C8D127 /* Extensions.swift */; };
+		8355CD96268E773B00124443 /* SourceKittenFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 8355CD95268E773B00124443 /* SourceKittenFramework */; };
+		8355CD99268E77D500124443 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 8355CD98268E77D500124443 /* ArgumentParser */; };
 		836FD0C22685118F008F0835 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FD0C12685118F008F0835 /* main.swift */; };
-		836FD0CA268511FD008F0835 /* SourceKittenFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 836FD0C9268511FD008F0835 /* SourceKittenFramework */; };
 		836FD0CE26851371008F0835 /* Rubicon in Frameworks */ = {isa = PBXBuildFile; productRef = 836FD0CD26851371008F0835 /* Rubicon */; };
-		836FD0D626851394008F0835 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FD0D526851394008F0835 /* main.swift */; };
-		836FD0DC268513C6008F0835 /* PGDocFixer in Frameworks */ = {isa = PBXBuildFile; productRef = 836FD0DB268513C6008F0835 /* PGDocFixer */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		83F35744268E0F4400288746 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 836FD0B62685118F008F0835 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 836FD0BD2685118F008F0835;
-			remoteInfo = Z28;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		836FD0BC2685118F008F0835 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		836FD0D126851394008F0835 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -68,12 +50,14 @@
 		1117D66A92840362E89BE8A2 /* Z28.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z28.swift.index.json; sourceTree = "<group>"; };
 		1117D684CD03109650419AF9 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
 		1117D71F993BF240D8A40C3A /* Z28.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z28.swift.syntax.json; sourceTree = "<group>"; };
+		1117D7B32B1B306C73E9B211 /* SourceFileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceFileInfo.swift; sourceTree = "<group>"; };
 		1117D7F58DE7F56E3BF5F5E8 /* typeahead.jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typeahead.jquery.js; sourceTree = "<group>"; };
 		1117D7FC86AB81798F0786CF /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		1117D84FC59F771BF0C489B7 /* highlight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = highlight.css; sourceTree = "<group>"; };
 		1117D8748F4710193132E040 /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
 		1117D900E2C64BB5B2733B89 /* gh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gh.png; sourceTree = "<group>"; };
 		1117D918021151D9F827A056 /* Classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Classes.html; sourceTree = "<group>"; };
+		1117D949AE27C49335C8D127 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1117D949FA93E16923036CFB /* typeahead.jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typeahead.jquery.js; sourceTree = "<group>"; };
 		1117D9FD2ECB4175C5B2A040 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
 		1117DA36920612C6E16D2D15 /* jazzy.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jazzy.css; sourceTree = "<group>"; };
@@ -97,7 +81,6 @@
 		1117DF330F404256EE898CE9 /* LinesColumnsAndOffsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinesColumnsAndOffsets.swift; sourceTree = "<group>"; };
 		836FD0BE2685118F008F0835 /* Z28 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Z28; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FD0C12685118F008F0835 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		836FD0D326851394008F0835 /* DocFixer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DocFixer; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FD0D526851394008F0835 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		836FD0E026851477008F0835 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		836FD0E126851477008F0835 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -111,16 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836FD0CA268511FD008F0835 /* SourceKittenFramework in Frameworks */,
+				8355CD99268E77D500124443 /* ArgumentParser in Frameworks */,
 				836FD0CE26851371008F0835 /* Rubicon in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		836FD0D026851394008F0835 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				836FD0DC268513C6008F0835 /* PGDocFixer in Frameworks */,
+				8355CD96268E773B00124443 /* SourceKittenFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +269,13 @@
 			path = img;
 			sourceTree = "<group>";
 		};
+		83007FF4268E186B00618F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		836FD0B52685118F008F0835 = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +289,7 @@
 				836FD0CB26851247008F0835 /* Sources */,
 				836FD0BF2685118F008F0835 /* Products */,
 				1117DC3DAC2F3C6DE0126E63 /* docs */,
+				83007FF4268E186B00618F2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -313,7 +297,6 @@
 			isa = PBXGroup;
 			children = (
 				836FD0BE2685118F008F0835 /* Z28 */,
-				836FD0D326851394008F0835 /* DocFixer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -325,6 +308,8 @@
 				1117DF330F404256EE898CE9 /* LinesColumnsAndOffsets.swift */,
 				1117D7FC86AB81798F0786CF /* Tools.swift */,
 				1117DD859FBAD802C9D7141D /* Z28.swift */,
+				1117D949AE27C49335C8D127 /* Extensions.swift */,
+				1117D7B32B1B306C73E9B211 /* SourceFileInfo.swift */,
 			);
 			path = Z28;
 			sourceTree = "<group>";
@@ -381,32 +366,12 @@
 			);
 			name = Z28;
 			packageProductDependencies = (
-				836FD0C9268511FD008F0835 /* SourceKittenFramework */,
 				836FD0CD26851371008F0835 /* Rubicon */,
+				8355CD95268E773B00124443 /* SourceKittenFramework */,
+				8355CD98268E77D500124443 /* ArgumentParser */,
 			);
 			productName = Z28;
 			productReference = 836FD0BE2685118F008F0835 /* Z28 */;
-			productType = "com.apple.product-type.tool";
-		};
-		836FD0D226851394008F0835 /* DocFixer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 836FD0D726851394008F0835 /* Build configuration list for PBXNativeTarget "DocFixer" */;
-			buildPhases = (
-				836FD0CF26851394008F0835 /* Sources */,
-				836FD0D026851394008F0835 /* Frameworks */,
-				836FD0D126851394008F0835 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83F35745268E0F4400288746 /* PBXTargetDependency */,
-			);
-			name = DocFixer;
-			packageProductDependencies = (
-				836FD0DB268513C6008F0835 /* PGDocFixer */,
-			);
-			productName = DocFixer;
-			productReference = 836FD0D326851394008F0835 /* DocFixer */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -421,9 +386,6 @@
 					836FD0BD2685118F008F0835 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					836FD0D226851394008F0835 = {
-						CreatedOnToolsVersion = 12.5.1;
-					};
 				};
 			};
 			buildConfigurationList = 836FD0B92685118F008F0835 /* Build configuration list for PBXProject "Z28" */;
@@ -436,16 +398,15 @@
 			);
 			mainGroup = 836FD0B52685118F008F0835;
 			packageReferences = (
-				836FD0C8268511FD008F0835 /* XCRemoteSwiftPackageReference "SourceKitten" */,
 				836FD0CC26851371008F0835 /* XCRemoteSwiftPackageReference "Rubicon" */,
-				836FD0DA268513C6008F0835 /* XCRemoteSwiftPackageReference "PGDocFixer" */,
+				8355CD94268E773B00124443 /* XCRemoteSwiftPackageReference "SourceKittenFramework.git" */,
+				8355CD97268E77D500124443 /* XCRemoteSwiftPackageReference "swift-argument-parser.git" */,
 			);
 			productRefGroup = 836FD0BF2685118F008F0835 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				836FD0BD2685118F008F0835 /* Z28 */,
-				836FD0D226851394008F0835 /* DocFixer */,
 			);
 		};
 /* End PBXProject section */
@@ -459,26 +420,12 @@
 				1117D22B426CDD7508708698 /* LinesColumnsAndOffsets.swift in Sources */,
 				1117D1A5BF9EE7E787F10A71 /* Tools.swift in Sources */,
 				1117D29555BBE3F05F991758 /* Z28.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		836FD0CF26851394008F0835 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				836FD0D626851394008F0835 /* main.swift in Sources */,
+				1117D8E36A9B9EFECC262F1F /* Extensions.swift in Sources */,
+				1117D68C0EE113AE6A79AD0B /* SourceFileInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		83F35745268E0F4400288746 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 836FD0BD2685118F008F0835 /* Z28 */;
-			targetProxy = 83F35744268E0F4400288746 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		836FD0C32685118F008F0835 /* Debug */ = {
@@ -599,6 +546,7 @@
 		836FD0C62685118F008F0835 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -610,28 +558,7 @@
 		836FD0C72685118F008F0835 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		836FD0D826851394008F0835 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		836FD0D926851394008F0835 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5XWZ7S7E9;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -661,24 +588,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		836FD0D726851394008F0835 /* Build configuration list for PBXNativeTarget "DocFixer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				836FD0D826851394008F0835 /* Debug */,
-				836FD0D926851394008F0835 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		836FD0C8268511FD008F0835 /* XCRemoteSwiftPackageReference "SourceKitten" */ = {
+		8355CD94268E773B00124443 /* XCRemoteSwiftPackageReference "SourceKittenFramework.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/jpsim/SourceKitten";
+			repositoryURL = "https://github.com/GalenRhodes/SourceKittenFramework.git";
 			requirement = {
 				kind = upToNextMinorVersion;
 				minimumVersion = 0.31.0;
+			};
+		};
+		8355CD97268E77D500124443 /* XCRemoteSwiftPackageReference "swift-argument-parser.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.3;
 			};
 		};
 		836FD0CC26851371008F0835 /* XCRemoteSwiftPackageReference "Rubicon" */ = {
@@ -686,34 +612,26 @@
 			repositoryURL = "https://github.com/GalenRhodes/Rubicon";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.2.50;
-			};
-		};
-		836FD0DA268513C6008F0835 /* XCRemoteSwiftPackageReference "PGDocFixer" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/GalenRhodes/PGDocFixer";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.10;
+				minimumVersion = 0.2.51;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		836FD0C9268511FD008F0835 /* SourceKittenFramework */ = {
+		8355CD95268E773B00124443 /* SourceKittenFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 836FD0C8268511FD008F0835 /* XCRemoteSwiftPackageReference "SourceKitten" */;
+			package = 8355CD94268E773B00124443 /* XCRemoteSwiftPackageReference "SourceKittenFramework.git" */;
 			productName = SourceKittenFramework;
+		};
+		8355CD98268E77D500124443 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8355CD97268E77D500124443 /* XCRemoteSwiftPackageReference "swift-argument-parser.git" */;
+			productName = ArgumentParser;
 		};
 		836FD0CD26851371008F0835 /* Rubicon */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 836FD0CC26851371008F0835 /* XCRemoteSwiftPackageReference "Rubicon" */;
 			productName = Rubicon;
-		};
-		836FD0DB268513C6008F0835 /* PGDocFixer */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 836FD0DA268513C6008F0835 /* XCRemoteSwiftPackageReference "PGDocFixer" */;
-			productName = PGDocFixer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
