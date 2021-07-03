@@ -17,7 +17,7 @@
    </BuildAction>
    <LaunchAction
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "$(SRCROOT)"
+      customWorkingDirectory = "/Users/grhodes/Projects/2020/SwiftProjects/Rubicon"
       buildConfiguration = "Debug"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
@@ -39,7 +39,11 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "$(SRCROOT)"
+            argument = "/Users/grhodes/Projects/2020/SwiftProjects/Rubicon"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "--threads"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
@@ -59,7 +63,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "Z28"
+            argument = "Rubicon"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument

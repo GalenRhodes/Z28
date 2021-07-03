@@ -1,7 +1,7 @@
 {
   "key.column" : 1,
   "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
-  "key.length" : 4261,
+  "key.length" : 3973,
   "key.line" : 1,
   "key.offset" : 0,
   "key.substructure" : [
@@ -18,7 +18,7 @@
         }
       ],
       "key.bodycolumn" : 34,
-      "key.bodylength" : 2837,
+      "key.bodylength" : 2549,
       "key.bodyline" : 26,
       "key.bodyoffset" : 1422,
       "key.column" : 6,
@@ -40,7 +40,7 @@
         }
       ],
       "key.kind" : "source.lang.swift.decl.class",
-      "key.length" : 2866,
+      "key.length" : 2578,
       "key.line" : 26,
       "key.name" : "Z28",
       "key.namecolumn" : 12,
@@ -49,7 +49,7 @@
       "key.nameoffset" : 1400,
       "key.offset" : 1394,
       "key.parsed_declaration" : "open class Z28: ParsableCommand",
-      "key.parsed_scope.end" : 74,
+      "key.parsed_scope.end" : 80,
       "key.parsed_scope.start" : 26,
       "key.substructure" : [
         {
@@ -441,7 +441,7 @@
             }
           ],
           "key.bodycolumn" : 31,
-          "key.bodylength" : 1998,
+          "key.bodylength" : 1710,
           "key.bodyline" : 43,
           "key.bodyoffset" : 2259,
           "key.column" : 12,
@@ -463,7 +463,7 @@
           "key.filepath" : "\/Users\/grhodes\/Projects\/2021\/Z28\/Sources\/Z28\/Z28.swift",
           "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>run<\/decl.name>() <syntaxtype.keyword>throws<\/syntaxtype.keyword><\/decl.function.method.instance>",
           "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.length" : 2018,
+          "key.length" : 1730,
           "key.line" : 43,
           "key.name" : "run()",
           "key.namecolumn" : 17,
@@ -477,7 +477,7 @@
             }
           ],
           "key.parsed_declaration" : "public func run() throws",
-          "key.parsed_scope.end" : 73,
+          "key.parsed_scope.end" : 79,
           "key.parsed_scope.start" : 43,
           "key.substructure" : [
             {
@@ -507,7 +507,7 @@
               "key.filepath" : "\/Users\/grhodes\/Projects\/2021\/Z28\/Sources\/Z28\/Z28.swift",
               "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>td<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.local>",
               "key.kind" : "source.lang.swift.decl.var.local",
-              "key.length" : 54,
+              "key.length" : 71,
               "key.line" : 45,
               "key.name" : "td",
               "key.namecolumn" : 13,
@@ -515,7 +515,7 @@
               "key.nameline" : 45,
               "key.nameoffset" : 2364,
               "key.offset" : 2360,
-              "key.parsed_declaration" : "let td = tempDir.makeAbsolute(relativeTo: projectPath)",
+              "key.parsed_declaration" : "let td                  = tempDir.makeAbsolute(relativeTo: projectPath)",
               "key.parsed_scope.end" : 45,
               "key.parsed_scope.start" : 45,
               "key.typename" : "String",

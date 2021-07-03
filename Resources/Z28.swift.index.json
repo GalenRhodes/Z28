@@ -1102,10 +1102,10 @@
               "key.usr" : "c:objc(cs)NSFileManager(py)currentDirectoryPath"
             },
             {
-              "key.column" : 18,
+              "key.column" : 35,
               "key.entities" : [
                 {
-                  "key.column" : 18,
+                  "key.column" : 35,
                   "key.is_dynamic" : true,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
@@ -1120,7 +1120,7 @@
               "key.usr" : "s:3Z28AAC7tempDirSSvp"
             },
             {
-              "key.column" : 26,
+              "key.column" : 43,
               "key.kind" : "source.lang.swift.ref.function.method.instance",
               "key.line" : 45,
               "key.name" : "makeAbsolute(relativeTo:)",
@@ -1294,224 +1294,68 @@
               "key.usr" : "s:3Z2814SourceFileInfoC8filename18temporaryDirectory6module10fileNumber5outOfACSS_SS0B15KittenFramework6ModuleVS2itKcfc"
             },
             {
-              "key.column" : 24,
+              "key.column" : 27,
               "key.is_dynamic" : true,
               "key.kind" : "source.lang.swift.ref.function.method.instance",
               "key.line" : 56,
               "key.name" : "load()",
               "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-              "key.usr" : "s:3Z2814SourceFileInfoC4loadyyF"
+              "key.usr" : "s:3Z2814SourceFileInfoC4loadSbyF"
             },
             {
-              "key.column" : 17,
-              "key.kind" : "source.lang.swift.ref.function.free",
-              "key.line" : 57,
-              "key.name" : "writePList(data:toFile:)",
-              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
+              "key.column" : 47,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 56,
+              "key.name" : "writeDebugFiles()",
+              "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+              "key.usr" : "s:3Z2814SourceFileInfoC15writeDebugFilesyyF"
             },
             {
-              "key.column" : 45,
-              "key.entities" : [
-                {
-                  "key.column" : 45,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 57,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC9fileIndexSDySSypGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 57,
-              "key.name" : "fileIndex",
-              "key.usr" : "s:3Z2814SourceFileInfoC9fileIndexSDySSypGvp"
-            },
-            {
-              "key.column" : 78,
-              "key.entities" : [
-                {
-                  "key.column" : 78,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 57,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 57,
-              "key.name" : "debugPathPrefix",
-              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
-            },
-            {
-              "key.column" : 17,
-              "key.kind" : "source.lang.swift.ref.function.free",
-              "key.line" : 58,
-              "key.name" : "writePList(data:toFile:)",
-              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 45,
-              "key.entities" : [
-                {
-                  "key.column" : 45,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 58,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC9structureSDySSypGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 58,
-              "key.name" : "structure",
-              "key.usr" : "s:3Z2814SourceFileInfoC9structureSDySSypGvp"
-            },
-            {
-              "key.column" : 78,
-              "key.entities" : [
-                {
-                  "key.column" : 78,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 58,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 58,
-              "key.name" : "debugPathPrefix",
-              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
-            },
-            {
-              "key.column" : 17,
-              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.column" : 27,
+              "key.kind" : "source.lang.swift.ref.class",
               "key.line" : 59,
-              "key.name" : "writePList(data:toFile:)",
-              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
+              "key.name" : "SourceFileInfo",
+              "key.usr" : "s:3Z2814SourceFileInfoC"
             },
             {
-              "key.column" : 45,
+              "key.column" : 52,
               "key.entities" : [
                 {
-                  "key.column" : 45,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 59,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC9swiftDocsSDySSypGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 59,
-              "key.name" : "swiftDocs",
-              "key.usr" : "s:3Z2814SourceFileInfoC9swiftDocsSDySSypGvp"
-            },
-            {
-              "key.column" : 78,
-              "key.entities" : [
-                {
-                  "key.column" : 78,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 59,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 59,
-              "key.name" : "debugPathPrefix",
-              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
-            },
-            {
-              "key.column" : 17,
-              "key.kind" : "source.lang.swift.ref.function.free",
-              "key.line" : 60,
-              "key.name" : "writePList(data:toFile:)",
-              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 45,
-              "key.entities" : [
-                {
-                  "key.column" : 45,
-                  "key.is_dynamic" : true,
+                  "key.column" : 52,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
                   "key.line" : 60,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC9syntaxMapSDySSypGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 60,
-              "key.name" : "syntaxMap",
-              "key.usr" : "s:3Z2814SourceFileInfoC9syntaxMapSDySSypGvp"
-            },
-            {
-              "key.column" : 78,
-              "key.entities" : [
-                {
-                  "key.column" : 78,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 60,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 60,
-              "key.name" : "debugPathPrefix",
-              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
-            },
-            {
-              "key.column" : 29,
-              "key.entities" : [
-                {
-                  "key.column" : 29,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 63,
                   "key.receiver_usr" : "s:21SourceKittenFramework6ModuleV",
                   "key.usr" : "s:21SourceKittenFramework6ModuleV11sourceFilesSaySSGvg"
                 }
               ],
               "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 63,
+              "key.line" : 60,
               "key.name" : "sourceFiles",
               "key.usr" : "s:21SourceKittenFramework6ModuleV11sourceFilesSaySSGvp"
             },
             {
-              "key.column" : 41,
+              "key.column" : 64,
               "key.entities" : [
                 {
-                  "key.column" : 41,
+                  "key.column" : 64,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 63,
+                  "key.line" : 60,
                   "key.receiver_usr" : "s:Sa",
                   "key.usr" : "s:Sa5countSivg"
                 }
               ],
               "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 63,
+              "key.line" : 60,
               "key.name" : "count",
               "key.usr" : "s:Sa5countSivp"
             },
             {
               "key.column" : 25,
               "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 64,
+              "key.line" : 61,
               "key.name" : "..<(_:_:)",
               "key.receiver_usr" : "s:Si",
               "key.usr" : "s:SLsE3zzloiySnyxGx_xtFZ"
@@ -1519,14 +1363,14 @@
             {
               "key.column" : 38,
               "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 65,
+              "key.line" : 62,
               "key.name" : "SourceFileInfo",
               "key.usr" : "s:3Z2814SourceFileInfoC"
             },
             {
               "key.column" : 38,
               "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 65,
+              "key.line" : 62,
               "key.name" : "init(filename:temporaryDirectory:module:fileNumber:outOf:)",
               "key.usr" : "s:3Z2814SourceFileInfoC8filename18temporaryDirectory6module10fileNumber5outOfACSS_SS0B15KittenFramework6ModuleVS2itKcfc"
             },
@@ -1537,13 +1381,13 @@
                   "key.column" : 70,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 65,
+                  "key.line" : 62,
                   "key.receiver_usr" : "s:21SourceKittenFramework6ModuleV",
                   "key.usr" : "s:21SourceKittenFramework6ModuleV11sourceFilesSaySSGvg"
                 }
               ],
               "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 65,
+              "key.line" : 62,
               "key.name" : "sourceFiles",
               "key.usr" : "s:21SourceKittenFramework6ModuleV11sourceFilesSaySSGvp"
             },
@@ -1554,204 +1398,187 @@
                   "key.column" : 81,
                   "key.is_implicit" : true,
                   "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 65,
+                  "key.line" : 62,
                   "key.receiver_usr" : "s:Sa",
                   "key.usr" : "s:SayxSicig"
                 }
               ],
               "key.kind" : "source.lang.swift.ref.function.subscript",
-              "key.line" : 65,
+              "key.line" : 62,
               "key.name" : "subscript(_:)",
               "key.usr" : "s:SayxSicip"
             },
             {
               "key.column" : 140,
               "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 65,
+              "key.line" : 62,
               "key.name" : "+(_:_:)",
               "key.receiver_usr" : "s:Si",
               "key.usr" : "s:Si1poiyS2i_SitFZ"
             },
             {
+              "key.column" : 25,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 63,
+              "key.name" : "<+(_:_:)",
+              "key.usr" : "s:7Rubicon2lpoiyySayxGz_xtlF"
+            },
+            {
+              "key.column" : 25,
+              "key.kind" : "source.lang.swift.ref.module",
+              "key.line" : 66,
+              "key.name" : "Dispatch",
+              "key.usr" : "c:@M@Dispatch"
+            },
+            {
+              "key.column" : 34,
+              "key.kind" : "source.lang.swift.ref.class",
+              "key.line" : 66,
+              "key.name" : "DispatchQueue",
+              "key.usr" : "c:objc(cs)OS_dispatch_queue"
+            },
+            {
+              "key.column" : 34,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 66,
+              "key.name" : "init(label:qos:attributes:autoreleaseFrequency:target:)",
+              "key.usr" : "s:So17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfc"
+            },
+            {
+              "key.column" : 55,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 66,
+              "key.name" : "UUID",
+              "key.usr" : "s:10Foundation4UUIDV"
+            },
+            {
+              "key.column" : 55,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 66,
+              "key.name" : "init()",
+              "key.usr" : "s:10Foundation4UUIDVACycfc"
+            },
+            {
+              "key.column" : 62,
+              "key.entities" : [
+                {
+                  "key.column" : 62,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 66,
+                  "key.receiver_usr" : "s:10Foundation4UUIDV",
+                  "key.usr" : "s:10Foundation4UUIDV10uuidStringSSvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 66,
+              "key.name" : "uuidString",
+              "key.usr" : "s:10Foundation4UUIDV10uuidStringSSvp"
+            },
+            {
+              "key.column" : 80,
+              "key.entities" : [
+                {
+                  "key.column" : 80,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 66,
+                  "key.receiver_usr" : "s:8Dispatch0A3QoSV",
+                  "key.usr" : "s:8Dispatch0A3QoSV15userInteractiveACvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 66,
+              "key.name" : "userInteractive",
+              "key.usr" : "s:8Dispatch0A3QoSV15userInteractiveACvpZ"
+            },
+            {
+              "key.column" : 110,
+              "key.entities" : [
+                {
+                  "key.column" : 110,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 66,
+                  "key.receiver_usr" : "s:So17OS_dispatch_queueC8DispatchE10AttributesV",
+                  "key.usr" : "s:So17OS_dispatch_queueC8DispatchE10AttributesV10concurrentAEvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 66,
+              "key.name" : "concurrent",
+              "key.usr" : "s:So17OS_dispatch_queueC8DispatchE10AttributesV10concurrentAEvpZ"
+            },
+            {
+              "key.column" : 145,
+              "key.kind" : "source.lang.swift.ref.enumelement",
+              "key.line" : 66,
+              "key.name" : "workItem",
+              "key.usr" : "s:So17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO8workItemyA2EmF"
+            },
+            {
+              "key.column" : 25,
+              "key.kind" : "source.lang.swift.ref.module",
+              "key.line" : 67,
+              "key.name" : "Dispatch",
+              "key.usr" : "c:@M@Dispatch"
+            },
+            {
+              "key.column" : 34,
+              "key.kind" : "source.lang.swift.ref.class",
+              "key.line" : 67,
+              "key.name" : "DispatchGroup",
+              "key.usr" : "c:objc(cs)OS_dispatch_group"
+            },
+            {
+              "key.column" : 34,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 67,
+              "key.name" : "init()",
+              "key.usr" : "c:@F@dispatch_group_create"
+            },
+            {
+              "key.column" : 21,
+              "key.kind" : "source.lang.swift.ref.class",
+              "key.line" : 69,
+              "key.name" : "SourceFileInfo",
+              "key.usr" : "s:3Z2814SourceFileInfoC"
+            },
+            {
+              "key.column" : 23,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 70,
+              "key.name" : "async(group:qos:flags:execute:)",
+              "key.receiver_usr" : "c:objc(cs)OS_dispatch_queue",
+              "key.usr" : "s:So17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXLtF"
+            },
+            {
+              "key.column" : 27,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 71,
+              "key.name" : "load()",
+              "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
+              "key.usr" : "s:3Z2814SourceFileInfoC4loadSbyF"
+            },
+            {
               "key.column" : 28,
               "key.is_dynamic" : true,
               "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 66,
-              "key.name" : "load()",
+              "key.line" : 72,
+              "key.name" : "writeDebugFiles()",
               "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-              "key.usr" : "s:3Z2814SourceFileInfoC4loadyyF"
+              "key.usr" : "s:3Z2814SourceFileInfoC15writeDebugFilesyyF"
             },
             {
-              "key.column" : 21,
-              "key.kind" : "source.lang.swift.ref.function.free",
-              "key.line" : 67,
-              "key.name" : "writePList(data:toFile:)",
-              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 49,
-              "key.entities" : [
-                {
-                  "key.column" : 49,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 67,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC9fileIndexSDySSypGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 67,
-              "key.name" : "fileIndex",
-              "key.usr" : "s:3Z2814SourceFileInfoC9fileIndexSDySSypGvp"
-            },
-            {
-              "key.column" : 82,
-              "key.entities" : [
-                {
-                  "key.column" : 82,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 67,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 67,
-              "key.name" : "debugPathPrefix",
-              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
-            },
-            {
-              "key.column" : 21,
-              "key.kind" : "source.lang.swift.ref.function.free",
-              "key.line" : 68,
-              "key.name" : "writePList(data:toFile:)",
-              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 49,
-              "key.entities" : [
-                {
-                  "key.column" : 49,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 68,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC9structureSDySSypGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 68,
-              "key.name" : "structure",
-              "key.usr" : "s:3Z2814SourceFileInfoC9structureSDySSypGvp"
-            },
-            {
-              "key.column" : 82,
-              "key.entities" : [
-                {
-                  "key.column" : 82,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 68,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 68,
-              "key.name" : "debugPathPrefix",
-              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
-            },
-            {
-              "key.column" : 21,
-              "key.kind" : "source.lang.swift.ref.function.free",
-              "key.line" : 69,
-              "key.name" : "writePList(data:toFile:)",
-              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 49,
-              "key.entities" : [
-                {
-                  "key.column" : 49,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 69,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC9swiftDocsSDySSypGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 69,
-              "key.name" : "swiftDocs",
-              "key.usr" : "s:3Z2814SourceFileInfoC9swiftDocsSDySSypGvp"
-            },
-            {
-              "key.column" : 82,
-              "key.entities" : [
-                {
-                  "key.column" : 82,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 69,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 69,
-              "key.name" : "debugPathPrefix",
-              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
-            },
-            {
-              "key.column" : 21,
-              "key.kind" : "source.lang.swift.ref.function.free",
-              "key.line" : 70,
-              "key.name" : "writePList(data:toFile:)",
-              "key.usr" : "s:3Z2810writePList4data6toFileySDySSypG_SSSgtKF"
-            },
-            {
-              "key.column" : 49,
-              "key.entities" : [
-                {
-                  "key.column" : 49,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 70,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC9syntaxMapSDySSypGvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 70,
-              "key.name" : "syntaxMap",
-              "key.usr" : "s:3Z2814SourceFileInfoC9syntaxMapSDySSypGvp"
-            },
-            {
-              "key.column" : 82,
-              "key.entities" : [
-                {
-                  "key.column" : 82,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 70,
-                  "key.receiver_usr" : "s:3Z2814SourceFileInfoC",
-                  "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvg"
-                }
-              ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 70,
-              "key.name" : "debugPathPrefix",
-              "key.usr" : "s:3Z2814SourceFileInfoC15debugPathPrefixSSvp"
+              "key.column" : 19,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 77,
+              "key.name" : "wait()",
+              "key.receiver_usr" : "c:objc(cs)OS_dispatch_group",
+              "key.usr" : "s:So17OS_dispatch_groupC8DispatchE4waityyF"
             }
           ],
           "key.is_dynamic" : true,

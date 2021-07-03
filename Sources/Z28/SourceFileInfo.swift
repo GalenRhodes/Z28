@@ -43,7 +43,7 @@ open class SourceFileInfo {
         self.tempDir = tempDir.appendingPathComponent(filename.lastPathComponent)
     }
 
-    func load() {
+    func load() -> Bool {
         do {
             guard let file: File = File(path: filename) else { throw StreamError.FileNotFound(description: filename) }
             source = try String(contentsOfFile: filename, encoding: .utf8)
@@ -54,9 +54,11 @@ open class SourceFileInfo {
             syntaxMap = try getSyntaxMap(file)
 
             printToStdout("\(fileNumber)/\(fileCount): \(filename) ... ✅")
+            return true
         }
         catch let e {
             printToStderr("\(fileNumber)/\(fileCount): \(filename) ... ❌ : \(e)")
+            return false
         }
     }
 

@@ -22,6 +22,8 @@ import SourceKit
 import SourceKittenFramework
 import ArgumentParser
 
+let lock = Conditional()
+
 //@main
 open class Z28: ParsableCommand {
 
@@ -36,13 +38,14 @@ open class Z28: ParsableCommand {
     @Flag(exclusivity: .exclusive, help: "Which build method to use.")                     public var buildMethod:    BuildMethod = .xcode
     @Argument(parsing: .remaining, help: "Build arguments.")                               public var buildArguments: [String]
     @Option(name: .long,           help: "Path of the project root.")                      public var projectPath:    String?
+    @Flag(help: "Use multiple threads.")                                                   public var threads:        Bool        = false
     //@f:1
 
     public required init() {}
 
     public func run() throws {
         let projectPath: String = (projectPath ?? FileManager.default.currentDirectoryPath)
-        let td = tempDir.makeAbsolute(relativeTo: projectPath)
+        let td                  = tempDir.makeAbsolute(relativeTo: projectPath)
 
         printToStdout("BUILD METHOD: \(buildMethod)")
         printToStdout("  BUILD ARGS: [ \"\(buildArguments.joined(separator: "\", \""))\" ]")
@@ -53,16 +56,47 @@ open class Z28: ParsableCommand {
 
         if let filename = filename?.makeAbsolute(relativeTo: projectPath) {
             let sourceFile = try SourceFileInfo(filename: filename, temporaryDirectory: td, module: module)
-            sourceFile.load()
+            if sourceFile.load() { sourceFile.writeDebugFiles() }
         }
         else {
+            NSLog("Start...")
             var sources: [SourceFileInfo] = []
-            let cc = module.sourceFiles.count
+            let cc:      Int              = module.sourceFiles.count
+
             for x in (0 ..< cc) {
                 let sourceFile = try SourceFileInfo(filename: module.sourceFiles[x], temporaryDirectory: td, module: module, fileNumber: x + 1, outOf: cc)
                 sources <+ sourceFile
             }
 
+            if threads {
+                let lock: Conditional = Conditional()
+                var thds: [Thread]    = []
+                var idx:  Int         = 0
+                var tcc:  Int         = 0
+
+                for _ in (0 ..< 8) {
+                    let t = Thread {
+                        while let sf = lock.withLock({ idx < cc ? sources[idx++] : nil }) {
+                            if sf.load() {
+                                sf.writeDebugFiles()
+                            }
+                        }
+                        lock.withLock { tcc -= 1 }
+                    }
+                    thds <+ t
+                    t.start()
+                }
+
+                lock.withLock { while tcc > 0 { lock.broadcastWait() } }
+            }
+            else {
+                for sf: SourceFileInfo in sources {
+                    if sf.load() {
+                        sf.writeDebugFiles()
+                    }
+                }
+            }
+            NSLog("End...")
         }
     }
 }
