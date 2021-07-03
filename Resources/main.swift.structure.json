@@ -1,0 +1,105 @@
+{
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 1363,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
+    {
+      "key.bodycolumn" : 27,
+      "key.bodylength" : 28,
+      "key.bodyline" : 21,
+      "key.bodyoffset" : 1318,
+      "key.column" : 1,
+      "key.kind" : "source.lang.swift.expr.call",
+      "key.length" : 55,
+      "key.line" : 21,
+      "key.name" : "DispatchQueue.main.async",
+      "key.namecolumn" : 1,
+      "key.namelength" : 24,
+      "key.nameline" : 21,
+      "key.nameoffset" : 1292,
+      "key.offset" : 1292,
+      "key.substructure" : [
+        {
+          "key.bodycolumn" : 27,
+          "key.bodylength" : 28,
+          "key.bodyline" : 21,
+          "key.bodyoffset" : 1318,
+          "key.column" : 26,
+          "key.kind" : "source.lang.swift.expr.closure",
+          "key.length" : 30,
+          "key.line" : 21,
+          "key.namelength" : 0,
+          "key.nameoffset" : 0,
+          "key.offset" : 1317,
+          "key.substructure" : [
+            {
+              "key.bodycolumn" : 27,
+              "key.bodylength" : 28,
+              "key.bodyline" : 21,
+              "key.bodyoffset" : 1318,
+              "key.column" : 26,
+              "key.kind" : "source.lang.swift.stmt.brace",
+              "key.length" : 30,
+              "key.line" : 21,
+              "key.namelength" : 0,
+              "key.nameoffset" : 0,
+              "key.offset" : 1317,
+              "key.substructure" : [
+                {
+                  "key.bodycolumn" : 14,
+                  "key.bodylength" : 0,
+                  "key.bodyline" : 22,
+                  "key.bodyoffset" : 1332,
+                  "key.column" : 5,
+                  "key.kind" : "source.lang.swift.expr.call",
+                  "key.length" : 10,
+                  "key.line" : 22,
+                  "key.name" : "Z28.main",
+                  "key.namecolumn" : 5,
+                  "key.namelength" : 8,
+                  "key.nameline" : 22,
+                  "key.nameoffset" : 1323,
+                  "key.offset" : 1323
+                },
+                {
+                  "key.bodycolumn" : 10,
+                  "key.bodylength" : 1,
+                  "key.bodyline" : 23,
+                  "key.bodyoffset" : 1343,
+                  "key.column" : 5,
+                  "key.kind" : "source.lang.swift.expr.call",
+                  "key.length" : 7,
+                  "key.line" : 23,
+                  "key.name" : "exit",
+                  "key.namecolumn" : 5,
+                  "key.namelength" : 4,
+                  "key.nameline" : 23,
+                  "key.nameoffset" : 1338,
+                  "key.offset" : 1338
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key.bodycolumn" : 14,
+      "key.bodylength" : 0,
+      "key.bodyline" : 25,
+      "key.bodyoffset" : 1361,
+      "key.column" : 1,
+      "key.kind" : "source.lang.swift.expr.call",
+      "key.length" : 14,
+      "key.line" : 25,
+      "key.name" : "dispatchMain",
+      "key.namecolumn" : 1,
+      "key.namelength" : 12,
+      "key.nameline" : 25,
+      "key.nameoffset" : 1348,
+      "key.offset" : 1348
+    }
+  ]
+}

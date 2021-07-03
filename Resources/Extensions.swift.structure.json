@@ -1,0 +1,171 @@
+{
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 1655,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
+    {
+      "key.bodycolumn" : 19,
+      "key.bodylength" : 316,
+      "key.bodyline" : 22,
+      "key.bodyoffset" : 1337,
+      "key.column" : 1,
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 335,
+      "key.line" : 22,
+      "key.name" : "String",
+      "key.namecolumn" : 11,
+      "key.namelength" : 6,
+      "key.nameline" : 22,
+      "key.nameoffset" : 1329,
+      "key.offset" : 1319,
+      "key.substructure" : [
+        {
+          "key.bodycolumn" : 65,
+          "key.bodylength" : 248,
+          "key.bodyline" : 24,
+          "key.bodyoffset" : 1403,
+          "key.column" : 5,
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 309,
+          "key.line" : 24,
+          "key.name" : "makeAbsolute(relativeTo:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 43,
+          "key.nameline" : 24,
+          "key.nameoffset" : 1348,
+          "key.offset" : 1343,
+          "key.substructure" : [
+            {
+              "key.column" : 23,
+              "key.kind" : "source.lang.swift.decl.var.parameter",
+              "key.length" : 29,
+              "key.line" : 24,
+              "key.name" : "dir",
+              "key.namecolumn" : 23,
+              "key.namelength" : 10,
+              "key.nameline" : 24,
+              "key.nameoffset" : 1361,
+              "key.offset" : 1361,
+              "key.typename" : "String?"
+            },
+            {
+              "key.column" : 9,
+              "key.elements" : [
+                {
+                  "key.column" : 12,
+                  "key.kind" : "source.lang.swift.structure.elem.condition_expr",
+                  "key.length" : 14,
+                  "key.line" : 25,
+                  "key.offset" : 1415
+                }
+              ],
+              "key.kind" : "source.lang.swift.stmt.if",
+              "key.length" : 33,
+              "key.line" : 25,
+              "key.namelength" : 0,
+              "key.nameoffset" : 0,
+              "key.offset" : 1412,
+              "key.substructure" : [
+                {
+                  "key.bodycolumn" : 28,
+                  "key.bodylength" : 13,
+                  "key.bodyline" : 25,
+                  "key.bodyoffset" : 1431,
+                  "key.column" : 27,
+                  "key.kind" : "source.lang.swift.stmt.brace",
+                  "key.length" : 15,
+                  "key.line" : 25,
+                  "key.namelength" : 0,
+                  "key.nameoffset" : 0,
+                  "key.offset" : 1430
+                }
+              ]
+            },
+            {
+              "key.column" : 9,
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 59,
+              "key.line" : 26,
+              "key.name" : "dir",
+              "key.namecolumn" : 13,
+              "key.namelength" : 3,
+              "key.nameline" : 26,
+              "key.nameoffset" : 1458,
+              "key.offset" : 1454
+            },
+            {
+              "key.column" : 9,
+              "key.elements" : [
+                {
+                  "key.column" : 15,
+                  "key.kind" : "source.lang.swift.structure.elem.condition_expr",
+                  "key.length" : 18,
+                  "key.line" : 27,
+                  "key.offset" : 1528
+                }
+              ],
+              "key.kind" : "source.lang.swift.stmt.guard",
+              "key.length" : 76,
+              "key.line" : 27,
+              "key.namelength" : 0,
+              "key.nameoffset" : 0,
+              "key.offset" : 1522,
+              "key.substructure" : [
+                {
+                  "key.bodycolumn" : 40,
+                  "key.bodylength" : 44,
+                  "key.bodyline" : 27,
+                  "key.bodyoffset" : 1553,
+                  "key.column" : 39,
+                  "key.kind" : "source.lang.swift.stmt.brace",
+                  "key.length" : 46,
+                  "key.line" : 27,
+                  "key.namelength" : 0,
+                  "key.nameoffset" : 0,
+                  "key.offset" : 1552,
+                  "key.substructure" : [
+                    {
+                      "key.bodycolumn" : 52,
+                      "key.bodylength" : 30,
+                      "key.bodyline" : 27,
+                      "key.bodyoffset" : 1565,
+                      "key.column" : 41,
+                      "key.kind" : "source.lang.swift.expr.call",
+                      "key.length" : 42,
+                      "key.line" : 27,
+                      "key.name" : "fatalError",
+                      "key.namecolumn" : 41,
+                      "key.namelength" : 10,
+                      "key.nameline" : 27,
+                      "key.nameoffset" : 1554,
+                      "key.offset" : 1554
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key.bodycolumn" : 43,
+              "key.bodylength" : 4,
+              "key.bodyline" : 28,
+              "key.bodyoffset" : 1641,
+              "key.column" : 16,
+              "key.kind" : "source.lang.swift.expr.call",
+              "key.length" : 32,
+              "key.line" : 28,
+              "key.name" : "dir.appendingPathComponent",
+              "key.namecolumn" : 16,
+              "key.namelength" : 26,
+              "key.nameline" : 28,
+              "key.nameoffset" : 1614,
+              "key.offset" : 1614
+            }
+          ],
+          "key.typename" : "String"
+        }
+      ]
+    }
+  ]
+}
