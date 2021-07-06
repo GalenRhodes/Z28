@@ -57,7 +57,14 @@ func writePList(data: [String: Any], toFile path: String? = nil) throws {
         case "/dev/stdout": return FileHandle.standardOutput
         case "/dev/stderr": return FileHandle.standardError
         case "/dev/null":   return FileHandle.nullDevice
-        default:            return try FileHandle(forWritingTo: URL(fileURLWithPath: filename))
+        default:
+            let fm = FileManager.default
+            if !fm.fileExists(atPath: filename) {
+                try fm.createDirectory(atPath: filename.deletingLastPathComponent, withIntermediateDirectories: true)
+                fm.createFile(atPath: filename, contents: Data())
+            }
+            guard let h = FileHandle(forWritingAtPath: filename) else { throw StreamError.FileNotFound(description: filename) }
+            return h
     }
 }
 
