@@ -20,30 +20,46 @@ import CoreFoundation
 import Rubicon
 import SourceKittenFramework
 
+public typealias CountHelper = () -> (Int, Int)
+
 open class SourceFileInfo {
 
-    let module:     Module
-    let filename:   String
-    let tempDir:    String
-    let fileNumber: Int
-    let fileCount:  Int
+    public let module:   Module
+    public let filename: String
+    public let tempDir:  String
+    public var error:    Error?
 
-    private(set) var source:    String        = ""
-    private(set) var fileIndex: [String: Any] = [:]
-    private(set) var structure: [String: Any] = [:]
-    private(set) var swiftDocs: [String: Any] = [:]
-    private(set) var syntaxMap: [String: Any] = [:]
-    private(set) var lineMap:   LineMap       = []
+    public private(set) var source:    String        = ""
+    public private(set) var fileIndex: [String: Any] = [:]
+    public private(set) var structure: [String: Any] = [:]
+    public private(set) var swiftDocs: [String: Any] = [:]
+    public private(set) var syntaxMap: [String: Any] = [:]
+    public private(set) var lineMap:   LineMap       = []
 
-    public init(filename: String, temporaryDirectory tempDir: String, module: Module, fileNumber: Int = 1, outOf fileCount: Int = 1) throws {
-        self.fileNumber = fileNumber
-        self.fileCount = fileCount
+    private lazy var messageCounter: String = { let c = counter(); return "\(c.0)/\(c.1)" }()
+    private lazy var messagePrefix: String = "\(messageCounter): \(filename) ..."
+
+    private let counter: CountHelper
+
+    public init(filename: String, temporaryDirectory tempDir: String, module: Module, counter: @escaping CountHelper = { (1, 1) }) throws {
+        self.counter = counter
         self.module = module
         self.filename = filename
         self.tempDir = tempDir.appendingPathComponent(filename.lastPathComponent)
     }
 
-    func load() -> Bool {
+    public func loadAndWrite(printLock: Locking? = nil) {
+        var err: Error? = nil
+        loadAndWrite(printLock: printLock, error: &err)
+    }
+
+    public func loadAndWrite(printLock: Locking? = nil, error err: inout Error?) {
+        error = nil
+        if load(printLock: printLock, suppressMessage: true) { writeDebugFiles(printLock: printLock) }
+        err = error
+    }
+
+    public func load(printLock: Locking? = nil, suppressMessage: Bool = false) -> Bool {
         do {
             guard let file: File = File(path: filename) else { throw StreamError.FileNotFound(description: filename) }
             source = try String(contentsOfFile: filename, encoding: .utf8)
@@ -52,23 +68,50 @@ open class SourceFileInfo {
             structure = try getStructure(file)
             swiftDocs = try getSwiftDocs(file)
             syntaxMap = try getSyntaxMap(file)
-
-            printToStdout("\(fileNumber)/\(fileCount): \(filename) ... ✅")
+            if !suppressMessage { printSuccess(printLock: printLock) }
             return true
         }
         catch let e {
-            printToStderr("\(fileNumber)/\(fileCount): \(filename) ... ❌ : \(e)")
+            printFailure(printLock: printLock, error: e)
+            error = e
             return false
         }
     }
 
-    func writeDebugFiles() {
+    @discardableResult private func writeDebugFiles(printLock: Locking?) -> Bool {
+        var areas: [String] = []
+
         //@f:0
-        do { try writePList(data: fileIndex, toFile: "\(tempDir).index.json")     } catch let e { printToStderr("❌ Failed to write file index for \"\(filename.lastPathComponent)\": \(e)") }
-        do { try writePList(data: structure, toFile: "\(tempDir).structure.json") } catch let e { printToStderr("❌ Failed to write structure for \"\(filename.lastPathComponent)\": \(e)") }
-        do { try writePList(data: swiftDocs, toFile: "\(tempDir).docs.json")      } catch let e { printToStderr("❌ Failed to write SwiftDocs for \"\(filename.lastPathComponent)\": \(e)") }
-        do { try writePList(data: syntaxMap, toFile: "\(tempDir).syntax.json")    } catch let e { printToStderr("❌ Failed to write syntax map for \"\(filename.lastPathComponent)\": \(e)") }
+        do { try writePList(data: fileIndex, toFile: "\(tempDir).index.json")     } catch let e { areas <+ "file index"; error = e }
+        do { try writePList(data: structure, toFile: "\(tempDir).structure.json") } catch let e { areas <+ "structure";  error = e }
+        do { try writePList(data: swiftDocs, toFile: "\(tempDir).docs.json")      } catch let e { areas <+ "SwiftDocs";  error = e }
+        do { try writePList(data: syntaxMap, toFile: "\(tempDir).syntax.json")    } catch let e { areas <+ "syntax map"; error = e }
         //@f:1
+
+        if areas.isEmpty {
+            printSuccess(printLock: printLock)
+            return true
+        }
+        else {
+            let lidx = (areas.count - 1)
+            let msg  = "Failed to write \(areas[0])\((lidx == 0) ? "" : ((lidx == 1) ? "and \(areas[1])" : "\(areas[1 ..< lidx].joined(separator: ", ")), and \(areas[lidx])"))"
+            printFailure(printLock: printLock, message: msg, error: error!)
+            return false
+        }
+    }
+
+    private func printFailure(printLock: Locking?, message msg: String? = nil, error e: Error) {
+        printLock?.lock()
+        defer { printLock?.unlock() }
+        let pfx = "\(messagePrefix) ❌"
+        if let msg = msg { printToStderr("\(pfx) \(msg): \(e)") }
+        else { printToStderr("\(pfx): \(e)") }
+    }
+
+    private func printSuccess(printLock: Locking?) {
+        printLock?.lock()
+        defer { printLock?.unlock() }
+        printToStdout("\(messagePrefix) ✅")
     }
 
     private func getFileIndex() throws -> [String: Any] {

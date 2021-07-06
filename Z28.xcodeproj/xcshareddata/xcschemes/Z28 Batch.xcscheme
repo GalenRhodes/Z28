@@ -31,6 +31,14 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
+            argument = "--jobs"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "3"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
             argument = "--xcode"
             isEnabled = "YES">
          </CommandLineArgument>
@@ -40,10 +48,6 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "/Users/grhodes/Projects/2020/SwiftProjects/Rubicon"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--threads"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
@@ -64,14 +68,6 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "Rubicon"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-jobs"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "8"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

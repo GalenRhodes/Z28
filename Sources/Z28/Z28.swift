@@ -33,69 +33,57 @@ open class Z28: ParsableCommand {
     }
 
     //@f:0
+    @Option(name: .long,           help: "Path of the project root.")                      public var projectPath:    String?
     @Option(name: .shortAndLong,   help: "The name of the file to clean up.")              public var filename:       String?
     @Option(name: .shortAndLong,   help: "The directory to write the temporary files to.") public var tempDir:        String      = "Resources"
+    @Option(name: .shortAndLong,   help: "The number of jobs to spawn in parallel.")       public var jobs:           Int         = 1
     @Flag(exclusivity: .exclusive, help: "Which build method to use.")                     public var buildMethod:    BuildMethod = .xcode
     @Argument(parsing: .remaining, help: "Build arguments.")                               public var buildArguments: [String]
-    @Option(name: .long,           help: "Path of the project root.")                      public var projectPath:    String?
-    @Flag(help: "Use multiple threads.")                                                   public var threads:        Bool        = false
     //@f:1
 
     public required init() {}
 
+    public func validate() throws {
+        guard jobs >= 1 else { throw ValidationError("Jobs parameter must be greater than zero.") }
+        guard buildArguments.isNotEmpty else { throw ValidationError("Build arguments are required.") }
+    }
+
     public func run() throws {
         let projectPath: String = (projectPath ?? FileManager.default.currentDirectoryPath)
-        let td                  = tempDir.makeAbsolute(relativeTo: projectPath)
+        let absTempDir:  String = tempDir.makeAbsolute(relativeTo: projectPath)
+
+        buildArguments += [ ((buildMethod == .xcode) ? "-jobs" : "--jobs"), String(jobs) ]
 
         printToStdout("BUILD METHOD: \(buildMethod)")
         printToStdout("  BUILD ARGS: [ \"\(buildArguments.joined(separator: "\", \""))\" ]")
         printToStdout("PROJECT PATH: \(projectPath)")
-        printToStdout("    TEMP DIR: \(td)")
+        printToStdout("    TEMP DIR: \(absTempDir)")
 
-        guard let module: Module = Module(xcodeBuildArguments: buildArguments, inPath: projectPath) else { throw PGErrors.GeneralError(description: "Unable to build module.") }
+        guard let module: Module = Module(xcodeBuildArguments: buildArguments, inPath: projectPath) else {
+            throw PGErrors.GeneralError(description: "Unable to build module.")
+        }
 
         if let filename = filename?.makeAbsolute(relativeTo: projectPath) {
-            let sourceFile = try SourceFileInfo(filename: filename, temporaryDirectory: td, module: module)
-            if sourceFile.load() { sourceFile.writeDebugFiles() }
+            var err: Error? = nil
+            try SourceFileInfo(filename: filename, temporaryDirectory: absTempDir, module: module).loadAndWrite(error: &err)
+            if let e = err { throw e }
         }
         else {
             NSLog("Start...")
-            var sources: [SourceFileInfo] = []
-            let cc:      Int              = module.sourceFiles.count
+            let cc: Int = module.sourceFiles.count
 
-            for x in (0 ..< cc) {
-                let sourceFile = try SourceFileInfo(filename: module.sourceFiles[x], temporaryDirectory: td, module: module, fileNumber: x + 1, outOf: cc)
-                sources <+ sourceFile
-            }
-
-            if threads {
-                let lock: Conditional = Conditional()
-                var thds: [Thread]    = []
-                var idx:  Int         = 0
-                var tcc:  Int         = 0
-
-                for _ in (0 ..< 8) {
-                    let t = Thread {
-                        while let sf = lock.withLock({ idx < cc ? sources[idx++] : nil }) {
-                            if sf.load() {
-                                sf.writeDebugFiles()
-                            }
-                        }
-                        lock.withLock { tcc -= 1 }
-                    }
-                    thds <+ t
-                    t.start()
-                }
-
-                lock.withLock { while tcc > 0 { lock.broadcastWait() } }
+            if jobs > 1 {
+                let t: ThreadWorker = ThreadWorker(threadCount: jobs)
+                for x in (0 ..< cc) { t.addSourceFile(try SourceFileInfo(filename: module.sourceFiles[x], temporaryDirectory: absTempDir, module: module, counter: { t.counterHelper() })) }
+                t.launchAndWait()
             }
             else {
-                for sf: SourceFileInfo in sources {
-                    if sf.load() {
-                        sf.writeDebugFiles()
-                    }
+                for x in (0 ..< cc) {
+                    let sf = try SourceFileInfo(filename: module.sourceFiles[x], temporaryDirectory: absTempDir, module: module, counter: { ((x + 1), cc) })
+                    sf.loadAndWrite()
                 }
             }
+
             NSLog("End...")
         }
     }

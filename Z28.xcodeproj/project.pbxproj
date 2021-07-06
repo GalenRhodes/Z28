@@ -12,6 +12,7 @@
 		1117D29555BBE3F05F991758 /* Z28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117DD859FBAD802C9D7141D /* Z28.swift */; };
 		1117D68C0EE113AE6A79AD0B /* SourceFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D7B32B1B306C73E9B211 /* SourceFileInfo.swift */; };
 		1117D8E36A9B9EFECC262F1F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D949AE27C49335C8D127 /* Extensions.swift */; };
+		1117DDEBC91E28E721F8A0D6 /* ThreadWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117DAC4E54FF222B99C84A5 /* ThreadWorker.swift */; };
 		8355CD96268E773B00124443 /* SourceKittenFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 8355CD95268E773B00124443 /* SourceKittenFramework */; };
 		8355CD99268E77D500124443 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 8355CD98268E77D500124443 /* ArgumentParser */; };
 		836FD0C22685118F008F0835 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FD0C12685118F008F0835 /* main.swift */; };
@@ -64,6 +65,7 @@
 		1117DA54A96F3EAB6F4DC8FF /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
 		1117DA65BC602C277AEF25F0 /* Classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Classes.html; sourceTree = "<group>"; };
 		1117DA8D53A85A3D4506115A /* docSet.dsidx */ = {isa = PBXFileReference; lastKnownFileType = file.dsidx; path = docSet.dsidx; sourceTree = "<group>"; };
+		1117DAC4E54FF222B99C84A5 /* ThreadWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadWorker.swift; sourceTree = "<group>"; };
 		1117DAE45647CFED57C210AA /* jazzy.search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.search.js; sourceTree = "<group>"; };
 		1117DAF61229C53AC1BA5113 /* Z28.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z28.swift.structure.json; sourceTree = "<group>"; };
 		1117DB061CF50BA6985A8316 /* LineColumn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LineColumn.html; sourceTree = "<group>"; };
@@ -310,6 +312,7 @@
 				1117DD859FBAD802C9D7141D /* Z28.swift */,
 				1117D949AE27C49335C8D127 /* Extensions.swift */,
 				1117D7B32B1B306C73E9B211 /* SourceFileInfo.swift */,
+				1117DAC4E54FF222B99C84A5 /* ThreadWorker.swift */,
 			);
 			path = Z28;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				1117D29555BBE3F05F991758 /* Z28.swift in Sources */,
 				1117D8E36A9B9EFECC262F1F /* Extensions.swift in Sources */,
 				1117D68C0EE113AE6A79AD0B /* SourceFileInfo.swift in Sources */,
+				1117DDEBC91E28E721F8A0D6 /* ThreadWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

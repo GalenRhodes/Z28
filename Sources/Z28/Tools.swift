@@ -21,6 +21,8 @@ import Rubicon
 import SourceKittenFramework
 import SourceKit
 
+@usableFromInline let plock: NSLock = NSLock()
+
 func writePList(data: [String: Any], toFile path: String? = nil) throws {
     let j = try JSONSerialization.data(withJSONObject: data, options: [ .prettyPrinted, .sortedKeys ])
     guard let s = String(data: j, encoding: .utf8) else { throw StreamError.UnknownError(description: "Unable to encode data as UTF-8.") }
@@ -33,23 +35,30 @@ func writePList(data: [String: Any], toFile path: String? = nil) throws {
     }
 }
 
-func printToStdout(_ str: String, terminator: String = "\n") {
+@inlinable func printToStdout(_ str: String, terminator: String = "\n") {
     do { try printTo(filename: "/dev/stdout", str, terminator: terminator) }
     catch let e { fatalError("ERROR: \(e)") }
 }
 
-func printToStderr(_ str: String, terminator: String = "\n") {
+@inlinable func printToStderr(_ str: String, terminator: String = "\n") {
     do { try printTo(filename: "/dev/stderr", str, terminator: terminator) }
     catch let e { fatalError("ERROR: \(e)") }
 }
 
-func printTo(filename: String, _ str: String, terminator: String = "\n") throws {
-//    #if DEBUG
-//        let f = !value(filename, isOneOf: "/dev/stdout", "/dev/stderr")
-//        if f { print("Writing to file: \"\(filename)\"...", terminator: "") }
-//        defer { if f { print(" done.") } }
-//    #endif
-    try "\(str)\(terminator)".write(toFile: filename, atomically: false, encoding: .utf8)
+@inlinable func printTo(filename: String, _ str: String, terminator: String = "\n") throws {
+    try plock.withLock {
+        guard let d = "\(str)\(terminator)".data(using: .utf8) else { fatalError("Could not convert message to UTF-8!") }
+        try _fileHandle(forFilename: filename).write(contentsOf: d)
+    }
+}
+
+@inlinable func _fileHandle(forFilename filename: String) throws -> FileHandle {
+    switch filename {
+        case "/dev/stdout": return FileHandle.standardOutput
+        case "/dev/stderr": return FileHandle.standardError
+        case "/dev/null":   return FileHandle.nullDevice
+        default:            return try FileHandle(forWritingTo: URL(fileURLWithPath: filename))
+    }
 }
 
 func fromJSON(_ data: String) throws -> [String: Any] {
