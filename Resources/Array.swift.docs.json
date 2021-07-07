@@ -1,0 +1,1046 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 6138,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.annotated_decl": "<Declaration>@frozen struct Array&lt;Element&gt; : <Type usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/Type><\/Declaration>",
+      "key.bodycolumn": 18,
+      "key.bodylength": 1243,
+      "key.bodyline": 25,
+      "key.bodyoffset": 1110,
+      "key.column": 1,
+      "key.doc.comment": "",
+      "key.doc.declaration": "@frozen struct Array<Element> : _DestructorSafeContainer",
+      "key.doc.discussion": [
+        {
+          "Para": "Arrays are one of the most commonly used data types in an app. You use arrays to organize your app’s data. Specifically, you use the `Array` type to hold elements of a single type, the array’s `Element` type. An array can store any kind of elements—from integers to strings to classes."
+        },
+        {
+          "Para": "Swift makes it easy to create arrays in your code using an array literal: simply surround a comma-separated list of values with square brackets. Without any other information, Swift creates an array that includes the specified values, automatically inferring the array’s `Element` type. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You can create an empty array by specifying the `Element` type of your array in the declaration. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "If you need an array that is preinitialized with a fixed number of default values, use the `Array(repeating:count:)` initializer."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "When you need to perform an operation on all of an array’s elements, use a `for`-`in` loop to iterate through the array’s contents."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Use the `isEmpty` property to check quickly whether an array has any elements, or use the `count` property to find the number of elements in the array."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Use the `first` and `last` properties for safe access to the value of the array’s first and last elements. If the array is empty, these properties are `nil`."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You can access individual array elements through a subscript. The first element of a nonempty array is always at index zero. You can subscript an array with any integer from zero up to, but not including, the count of the array. Using a negative number or an index equal to or greater than `count` triggers a runtime error. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Suppose you need to store a list of the names of students that are signed up for a class you’re teaching. During the registration period, you need to add and remove names as students add and drop the class."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "To add single elements to the end of an array, use the `append(_:)` method. Add multiple elements at the same time by passing another array or a sequence of any kind to the `append(contentsOf:)` method."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You can add new elements in the middle of an array by using the `insert(_:at:)` method for single elements and by using `insert(contentsOf:at:)` to insert multiple elements from another collection or array literal. The elements at that index and later indices are shifted back to make room."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "To remove elements from an array, use the `remove(at:)`, `removeSubrange(_:)`, and `removeLast()` methods."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You can replace an existing element with a new value by assigning the new value to the subscript."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Every array reserves a specific amount of memory to hold its contents. When you add elements to an array and that array begins to exceed its reserved capacity, the array allocates a larger region of memory and copies its elements into the new storage. The new storage is a multiple of the old storage’s size. This exponential growth strategy means that appending an element happens in constant time, averaging the performance of many append operations. Append operations that trigger reallocation have a performance cost, but they occur less and less often as the array grows larger."
+        },
+        {
+          "Para": "If you know approximately how many elements you will need to store, use the `reserveCapacity(_:)` method before appending to the array to avoid intermediate reallocations. Use the `capacity` and `count` properties to determine how many more elements the array can store without allocating larger storage."
+        },
+        {
+          "Para": "For arrays of most `Element` types, this storage is a contiguous block of memory. For arrays with an `Element` type that is a class or `@objc` protocol type, this storage can be a contiguous block of memory or an instance of `NSArray`. Because any arbitrary subclass of `NSArray` can become an `Array`, there are no guarantees about representation or efficiency in this case."
+        },
+        {
+          "Para": "Each array has an independent value that includes the values of all of its elements. For simple types such as integers and other structures, this means that when you change a value in one array, the value of that element does not change in any copies of the array. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "If the elements in an array are instances of a class, the semantics are the same, though they might appear different at first. In this case, the values stored in the array are references to objects that live outside the array. If you change a reference to an object in one array, only that array has a reference to the new object. However, if two arrays contain references to the same object, you can observe changes to that object’s properties from both arrays. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Arrays, like all variable-size collections in the standard library, use copy-on-write optimization. Multiple copies of an array share the same storage until you modify one of the copies. When that happens, the array being modified replaces its storage with a uniquely owned copy of itself, which is then modified in place. Optimizations are sometimes applied that can reduce the amount of copying."
+        },
+        {
+          "Para": "This means that if an array is sharing storage with other copies, the first mutating operation on that array incurs the cost of copying the array. An array that is the sole owner of its storage can perform mutating operations in place."
+        },
+        {
+          "Para": "In the example below, a `numbers` array is created along with two copies that share the same storage. When the original `numbers` array is modified, it makes a unique copy of its storage before making the modification. Further modifications to `numbers` are made in place, while the two copies continue to share the original storage."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "When you need to access APIs that require data in an `NSArray` instance instead of `Array`, use the type-cast operator (`as`) to bridge your instance. For bridging to be possible, the `Element` type of your array must be a class, an `@objc` protocol (a protocol imported from Objective-C or marked with the `@objc` attribute), or a type that bridges to a Foundation type."
+        },
+        {
+          "Para": "The following example shows how you can bridge an `Array` instance to `NSArray` to use the `write(to:atomically:)` method. In this example, the `colors` array can be bridged to `NSArray` because the `colors` array’s `String` elements bridge to `NSString`. The compiler prevents bridging the `moreColors` array, on the other hand, because its `Element` type is `Optional<String>`, which does  bridge to a Foundation type."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Bridging from `Array` to `NSArray` takes O(1) time and O(1) space if the array’s elements are already instances of a class or an `@objc` protocol; otherwise, it takes O() time and space."
+        },
+        {
+          "Para": "When the destination array’s element type is a class or an `@objc` protocol, bridging from `NSArray` to `Array` first calls the `copy(with:)` (`- copyWithZone:` in Objective-C) method on the array to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of `NSArray` that are already immutable, `copy(with:)` usually returns the same array in O(1) time; otherwise, the copying performance is unspecified. If `copy(with:)` returns the same array, the instances of `NSArray` and `Array` share storage using the same copy-on-write optimization that is used when two instances of `Array` share storage."
+        },
+        {
+          "Para": "When the destination array’s element type is a nonclass type that bridges to a Foundation type, bridging from `NSArray` to `Array` performs a bridging copy of the elements to contiguous storage in O() time. For example, bridging from `NSArray` to `Array<Int>` performs such a copy. No further bridging is required when accessing elements of the `Array` instance."
+        },
+        {
+          "Note": ""
+        }
+      ],
+      "key.doc.full_as_xml": "<Class><Name>Array<\/Name><USR>s:Sa<\/USR><Declaration>@frozen struct Array&lt;Element&gt; : _DestructorSafeContainer<\/Declaration><CommentParts><Abstract><Para>An ordered, random-access collection.<\/Para><\/Abstract><Discussion><Para>Arrays are one of the most commonly used data types in an app. You use arrays to organize your app’s data. Specifically, you use the <codeVoice>Array<\/codeVoice> type to hold elements of a single type, the array’s <codeVoice>Element<\/codeVoice> type. An array can store any kind of elements—from integers to strings to classes.<\/Para><Para>Swift makes it easy to create arrays in your code using an array literal: simply surround a comma-separated list of values with square brackets. Without any other information, Swift creates an array that includes the specified values, automatically inferring the array’s <codeVoice>Element<\/codeVoice> type. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ An array of 'Int' elements]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let oddNumbers = [1, 3, 5, 7, 9, 11, 13, 15]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ An array of 'String' elements]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let streets = [\"Albemarle\", \"Brandywine\", \"Chesapeake\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can create an empty array by specifying the <codeVoice>Element<\/codeVoice> type of your array in the declaration. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ Shortened forms are preferred]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var emptyDoubles: [Double] = []]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ The full type name is also allowed]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var emptyFloats: Array<Float> = Array()]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>If you need an array that is preinitialized with a fixed number of default values, use the <codeVoice>Array(repeating:count:)<\/codeVoice> initializer.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var digitCounts = Array(repeating: 0, count: 10)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(digitCounts)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Accessing Array Values<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>When you need to perform an operation on all of an array’s elements, use a <codeVoice>for<\/codeVoice>-<codeVoice>in<\/codeVoice> loop to iterate through the array’s contents.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for street in streets {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"I don't live on \\(street).\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"I don't live on Albemarle.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"I don't live on Brandywine.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"I don't live on Chesapeake.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Use the <codeVoice>isEmpty<\/codeVoice> property to check quickly whether an array has any elements, or use the <codeVoice>count<\/codeVoice> property to find the number of elements in the array.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if oddNumbers.isEmpty {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"I don't know any odd numbers.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"I know \\(oddNumbers.count) odd numbers.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"I know 8 odd numbers.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Use the <codeVoice>first<\/codeVoice> and <codeVoice>last<\/codeVoice> properties for safe access to the value of the array’s first and last elements. If the array is empty, these properties are <codeVoice>nil<\/codeVoice>.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if let firstElement = oddNumbers.first, let lastElement = oddNumbers.last {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(firstElement, lastElement, separator: \", \")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1, 15\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(emptyDoubles.first, emptyDoubles.last, separator: \", \")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"nil, nil\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can access individual array elements through a subscript. The first element of a nonempty array is always at index zero. You can subscript an array with any integer from zero up to, but not including, the count of the array. Using a negative number or an index equal to or greater than <codeVoice>count<\/codeVoice> triggers a runtime error. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(oddNumbers[0], oddNumbers[3], separator: \", \")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1, 7\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(emptyDoubles[0])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Triggers runtime error: Index out of range]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Adding and Removing Elements<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Suppose you need to store a list of the names of students that are signed up for a class you’re teaching. During the registration period, you need to add and remove names as students add and drop the class.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var students = [\"Ben\", \"Ivy\", \"Jordell\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>To add single elements to the end of an array, use the <codeVoice>append(_:)<\/codeVoice> method. Add multiple elements at the same time by passing another array or a sequence of any kind to the <codeVoice>append(contentsOf:)<\/codeVoice> method.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[students.append(\"Maxime\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[students.append(contentsOf: [\"Shakia\", \"William\"])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ben\", \"Ivy\", \"Jordell\", \"Maxime\", \"Shakia\", \"William\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can add new elements in the middle of an array by using the <codeVoice>insert(_:at:)<\/codeVoice> method for single elements and by using <codeVoice>insert(contentsOf:at:)<\/codeVoice> to insert multiple elements from another collection or array literal. The elements at that index and later indices are shifted back to make room.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[students.insert(\"Liam\", at: 3)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ben\", \"Ivy\", \"Jordell\", \"Liam\", \"Maxime\", \"Shakia\", \"William\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>To remove elements from an array, use the <codeVoice>remove(at:)<\/codeVoice>, <codeVoice>removeSubrange(_:)<\/codeVoice>, and <codeVoice>removeLast()<\/codeVoice> methods.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ Ben's family is moving to another state]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[students.remove(at: 0)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ivy\", \"Jordell\", \"Liam\", \"Maxime\", \"Shakia\", \"William\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ William is signing up for a different class]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[students.removeLast()]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ivy\", \"Jordell\", \"Liam\", \"Maxime\", \"Shakia\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can replace an existing element with a new value by assigning the new value to the subscript.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if let i = students.firstIndex(of: \"Maxime\") {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    students[i] = \"Max\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ivy\", \"Jordell\", \"Liam\", \"Max\", \"Shakia\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Growing the Size of an Array<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>Every array reserves a specific amount of memory to hold its contents. When you add elements to an array and that array begins to exceed its reserved capacity, the array allocates a larger region of memory and copies its elements into the new storage. The new storage is a multiple of the old storage’s size. This exponential growth strategy means that appending an element happens in constant time, averaging the performance of many append operations. Append operations that trigger reallocation have a performance cost, but they occur less and less often as the array grows larger.<\/Para><Para>If you know approximately how many elements you will need to store, use the <codeVoice>reserveCapacity(_:)<\/codeVoice> method before appending to the array to avoid intermediate reallocations. Use the <codeVoice>capacity<\/codeVoice> and <codeVoice>count<\/codeVoice> properties to determine how many more elements the array can store without allocating larger storage.<\/Para><Para>For arrays of most <codeVoice>Element<\/codeVoice> types, this storage is a contiguous block of memory. For arrays with an <codeVoice>Element<\/codeVoice> type that is a class or <codeVoice>@objc<\/codeVoice> protocol type, this storage can be a contiguous block of memory or an instance of <codeVoice>NSArray<\/codeVoice>. Because any arbitrary subclass of <codeVoice>NSArray<\/codeVoice> can become an <codeVoice>Array<\/codeVoice>, there are no guarantees about representation or efficiency in this case.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Modifying Copies of Arrays<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Each array has an independent value that includes the values of all of its elements. For simple types such as integers and other structures, this means that when you change a value in one array, the value of that element does not change in any copies of the array. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var numbers = [1, 2, 3, 4, 5]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var numbersCopy = numbers]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[numbers[0] = 100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(numbers)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[100, 2, 3, 4, 5]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(numbersCopy)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[1, 2, 3, 4, 5]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>If the elements in an array are instances of a class, the semantics are the same, though they might appear different at first. In this case, the values stored in the array are references to objects that live outside the array. If you change a reference to an object in one array, only that array has a reference to the new object. However, if two arrays contain references to the same object, you can observe changes to that object’s properties from both arrays. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ An integer type with reference semantics]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[class IntegerReference {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    var value = 10]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var firstIntegers = [IntegerReference(), IntegerReference()]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var secondIntegers = firstIntegers]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Modifications to an instance are visible from either array]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[firstIntegers[0].value = 100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(secondIntegers[0].value)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"100\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Replacements, additions, and removals are still visible]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ only in the modified array]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[firstIntegers[0] = IntegerReference()]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(firstIntegers[0].value)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"10\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(secondIntegers[0].value)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"100\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Arrays, like all variable-size collections in the standard library, use copy-on-write optimization. Multiple copies of an array share the same storage until you modify one of the copies. When that happens, the array being modified replaces its storage with a uniquely owned copy of itself, which is then modified in place. Optimizations are sometimes applied that can reduce the amount of copying.<\/Para><Para>This means that if an array is sharing storage with other copies, the first mutating operation on that array incurs the cost of copying the array. An array that is the sole owner of its storage can perform mutating operations in place.<\/Para><Para>In the example below, a <codeVoice>numbers<\/codeVoice> array is created along with two copies that share the same storage. When the original <codeVoice>numbers<\/codeVoice> array is modified, it makes a unique copy of its storage before making the modification. Further modifications to <codeVoice>numbers<\/codeVoice> are made in place, while the two copies continue to share the original storage.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var numbers = [1, 2, 3, 4, 5]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var firstCopy = numbers]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var secondCopy = numbers]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ The storage for 'numbers' is copied here]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[numbers[0] = 100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[numbers[1] = 200]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[numbers[2] = 300]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ 'numbers' is [100, 200, 300, 4, 5]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ 'firstCopy' and 'secondCopy' are [1, 2, 3, 4, 5]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Bridging Between Array and NSArray<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>When you need to access APIs that require data in an <codeVoice>NSArray<\/codeVoice> instance instead of <codeVoice>Array<\/codeVoice>, use the type-cast operator (<codeVoice>as<\/codeVoice>) to bridge your instance. For bridging to be possible, the <codeVoice>Element<\/codeVoice> type of your array must be a class, an <codeVoice>@objc<\/codeVoice> protocol (a protocol imported from Objective-C or marked with the <codeVoice>@objc<\/codeVoice> attribute), or a type that bridges to a Foundation type.<\/Para><Para>The following example shows how you can bridge an <codeVoice>Array<\/codeVoice> instance to <codeVoice>NSArray<\/codeVoice> to use the <codeVoice>write(to:atomically:)<\/codeVoice> method. In this example, the <codeVoice>colors<\/codeVoice> array can be bridged to <codeVoice>NSArray<\/codeVoice> because the <codeVoice>colors<\/codeVoice> array’s <codeVoice>String<\/codeVoice> elements bridge to <codeVoice>NSString<\/codeVoice>. The compiler prevents bridging the <codeVoice>moreColors<\/codeVoice> array, on the other hand, because its <codeVoice>Element<\/codeVoice> type is <codeVoice>Optional&lt;String&gt;<\/codeVoice>, which does <emphasis>not<\/emphasis> bridge to a Foundation type.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let colors = [\"periwinkle\", \"rose\", \"moss\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let moreColors: [String?] = [\"ochre\", \"pine\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let url = URL(fileURLWithPath: \"names.plist\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[(colors as NSArray).write(to: url, atomically: true)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ true]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[(moreColors as NSArray).write(to: url, atomically: true)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ error: cannot convert value of type '[String?]' to type 'NSArray']]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Bridging from <codeVoice>Array<\/codeVoice> to <codeVoice>NSArray<\/codeVoice> takes O(1) time and O(1) space if the array’s elements are already instances of a class or an <codeVoice>@objc<\/codeVoice> protocol; otherwise, it takes O(<emphasis>n<\/emphasis>) time and space.<\/Para><Para>When the destination array’s element type is a class or an <codeVoice>@objc<\/codeVoice> protocol, bridging from <codeVoice>NSArray<\/codeVoice> to <codeVoice>Array<\/codeVoice> first calls the <codeVoice>copy(with:)<\/codeVoice> (<codeVoice>- copyWithZone:<\/codeVoice> in Objective-C) method on the array to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of <codeVoice>NSArray<\/codeVoice> that are already immutable, <codeVoice>copy(with:)<\/codeVoice> usually returns the same array in O(1) time; otherwise, the copying performance is unspecified. If <codeVoice>copy(with:)<\/codeVoice> returns the same array, the instances of <codeVoice>NSArray<\/codeVoice> and <codeVoice>Array<\/codeVoice> share storage using the same copy-on-write optimization that is used when two instances of <codeVoice>Array<\/codeVoice> share storage.<\/Para><Para>When the destination array’s element type is a nonclass type that bridges to a Foundation type, bridging from <codeVoice>NSArray<\/codeVoice> to <codeVoice>Array<\/codeVoice> performs a bridging copy of the elements to contiguous storage in O(<emphasis>n<\/emphasis>) time. For example, bridging from <codeVoice>NSArray<\/codeVoice> to <codeVoice>Array&lt;Int&gt;<\/codeVoice> performs such a copy. No further bridging is required when accessing elements of the <codeVoice>Array<\/codeVoice> instance.<\/Para><Note><Para>The <codeVoice>ContiguousArray<\/codeVoice> and <codeVoice>ArraySlice<\/codeVoice> types are not bridged; instances of those types always have a contiguous block of memory as their storage.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name": "Array",
+      "key.doc.type": "Class",
+      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Array<\/decl.name>&lt;<decl.generic_type_param usr=\"s:Sa7Elementxmfp\"><decl.generic_type_param.name>Element<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; : <ref.protocol usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/ref.protocol><\/decl.struct>",
+      "key.groupname": "Collection\/Array",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 1261,
+      "key.line": 25,
+      "key.modulename": "Swift",
+      "key.name": "Array",
+      "key.namecolumn": 11,
+      "key.namelength": 5,
+      "key.nameline": 25,
+      "key.nameoffset": 1103,
+      "key.offset": 1093,
+      "key.parsed_declaration": "extension Array",
+      "key.parsed_scope.end": 55,
+      "key.parsed_scope.start": 25,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func last(count cc: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:s10ArraySliceV\">ArraySlice<\/Type>&lt;<Type usr=\"s:Sa7RubiconE7Elementxmfp\">Element<\/Type>&gt;<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 36,
+              "key.offset": 1539
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 36,
+              "key.offset": 1528
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 192,
+          "key.bodyline": 36,
+          "key.bodyoffset": 1595,
+          "key.column": 23,
+          "key.doc.column": 28,
+          "key.doc.comment": "Shorthand for:\n\n```\nanArray[anArray.index(anArray.endIndex, offsetBy: -Swift.min(cc, anArray.count)) ..< anArray.endIndex]\n```\n\n- Parameter cc: The number of elements to get.\n- Returns: An array slice of the last `cc` elements.",
+          "key.doc.declaration": "@inlinable public func last(count cc: Int) -> ArraySlice<Element>",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift\" line=\"36\" column=\"28\"><Name>last(count:)<\/Name><USR>s:Sa7RubiconE4last5counts10ArraySliceVyxGSi_tF<\/USR><Declaration>@inlinable public func last(count cc: Int) -&gt; ArraySlice&lt;Element&gt;<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>cc<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of elements to get.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An array slice of the last <codeVoice>cc<\/codeVoice> elements.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[anArray[anArray.index(anArray.endIndex, offsetBy: -Swift.min(cc, anArray.count)) ..< anArray.endIndex]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 36,
+          "key.doc.name": "last(count:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The number of elements to get."
+                }
+              ],
+              "name": "cc"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An array slice of the last `cc` elements."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 294,
+          "key.docline": 27,
+          "key.docoffset": 1230,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>last<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cc<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:s10ArraySliceV\">ArraySlice<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:Sa7RubiconE7Elementxmfp\">Element<\/ref.generic_type_param>&gt;<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 242,
+          "key.line": 36,
+          "key.name": "last(count:)",
+          "key.namecolumn": 28,
+          "key.namelength": 19,
+          "key.nameline": 36,
+          "key.nameoffset": 1551,
+          "key.offset": 1546,
+          "key.parsed_declaration": "@inlinable public func last(count cc: Int) -> ArraySlice<Element>",
+          "key.parsed_scope.end": 42,
+          "key.parsed_scope.start": 36,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let actCc: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>actCc<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 33,
+              "key.line": 37,
+              "key.name": "actCc",
+              "key.namecolumn": 13,
+              "key.namelength": 5,
+              "key.nameline": 37,
+              "key.nameoffset": 1608,
+              "key.offset": 1604,
+              "key.parsed_declaration": "let actCc = -Swift.min(cc, count)",
+              "key.parsed_scope.end": 37,
+              "key.parsed_scope.start": 37,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:Sa7RubiconE4last5counts10ArraySliceVyxGSi_tF5actCcL_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let iEnd: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>iEnd<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 20,
+              "key.line": 38,
+              "key.name": "iEnd",
+              "key.namecolumn": 13,
+              "key.namelength": 4,
+              "key.nameline": 38,
+              "key.nameoffset": 1650,
+              "key.offset": 1646,
+              "key.parsed_declaration": "let iEnd  = endIndex",
+              "key.parsed_scope.end": 38,
+              "key.parsed_scope.start": 38,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:Sa7RubiconE4last5counts10ArraySliceVyxGSi_tF4iEndL_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let iStart: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>iStart<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 41,
+              "key.line": 39,
+              "key.name": "iStart",
+              "key.namecolumn": 13,
+              "key.namelength": 6,
+              "key.nameline": 39,
+              "key.nameoffset": 1679,
+              "key.offset": 1675,
+              "key.parsed_declaration": "let iStart = index(iEnd, offsetBy: actCc)",
+              "key.parsed_scope.end": 39,
+              "key.parsed_scope.start": 39,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:Sa7RubiconE4last5counts10ArraySliceVyxGSi_tF6iStartL_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let range: (<Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:Si\">Int<\/Type>&gt;)<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>range<\/decl.name>: <decl.var.type>(<ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.struct usr=\"s:Si\">Int<\/ref.struct>&gt;)<\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 30,
+              "key.line": 40,
+              "key.name": "range",
+              "key.namecolumn": 13,
+              "key.namelength": 5,
+              "key.nameline": 40,
+              "key.nameoffset": 1729,
+              "key.offset": 1725,
+              "key.parsed_declaration": "let range  = (iStart ..< iEnd)",
+              "key.parsed_scope.end": 40,
+              "key.parsed_scope.start": 40,
+              "key.typename": "(Range<Int>)",
+              "key.typeusr": "$sSnySiGD",
+              "key.usr": "s:Sa7RubiconE4last5counts10ArraySliceVyxGSi_tF5rangeL_SnySiGvp"
+            }
+          ],
+          "key.typename": "<Element> (Array<Element>) -> (Int) -> ArraySlice<Element>",
+          "key.typeusr": "$s5counts10ArraySliceVyxGSi_tcD",
+          "key.usr": "s:Sa7RubiconE4last5counts10ArraySliceVyxGSi_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func first(count cc: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:s10ArraySliceV\">ArraySlice<\/Type>&lt;<Type usr=\"s:Sa7RubiconE7Elementxmfp\">Element<\/Type>&gt;<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 54,
+              "key.offset": 2222
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 54,
+              "key.offset": 2211
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 72,
+          "key.bodyline": 54,
+          "key.bodyoffset": 2279,
+          "key.column": 23,
+          "key.doc.column": 28,
+          "key.doc.comment": "Shorthand for:\n\n```\nanArray[anArray.startIndex ..< anArray.index(anArray.startIndex, offsetBy: Swift.min(cc, anArray.count))]\n```\n\n- Parameter cc: The number of elements to get.\n- Returns: An array slice of the first `cc` elements.",
+          "key.doc.declaration": "@inlinable public func first(count cc: Int) -> ArraySlice<Element>",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift\" line=\"54\" column=\"28\"><Name>first(count:)<\/Name><USR>s:Sa7RubiconE5first5counts10ArraySliceVyxGSi_tF<\/USR><Declaration>@inlinable public func first(count cc: Int) -&gt; ArraySlice&lt;Element&gt;<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>cc<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of elements to get.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An array slice of the first <codeVoice>cc<\/codeVoice> elements.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[anArray[anArray.startIndex ..< anArray.index(anArray.startIndex, offsetBy: Swift.min(cc, anArray.count))]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 54,
+          "key.doc.name": "first(count:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The number of elements to get."
+                }
+              ],
+              "name": "cc"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An array slice of the first `cc` elements."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 298,
+          "key.docline": 45,
+          "key.docoffset": 1909,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>first<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cc<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:s10ArraySliceV\">ArraySlice<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:Sa7RubiconE7Elementxmfp\">Element<\/ref.generic_type_param>&gt;<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 123,
+          "key.line": 54,
+          "key.name": "first(count:)",
+          "key.namecolumn": 28,
+          "key.namelength": 20,
+          "key.nameline": 54,
+          "key.nameoffset": 2234,
+          "key.offset": 2229,
+          "key.parsed_declaration": "@inlinable public func first(count cc: Int) -> ArraySlice<Element>",
+          "key.parsed_scope.end": 54,
+          "key.parsed_scope.start": 54,
+          "key.substructure": [
+          ],
+          "key.typename": "<Element> (Array<Element>) -> (Int) -> ArraySlice<Element>",
+          "key.typeusr": "$s5counts10ArraySliceVyxGSi_tcD",
+          "key.usr": "s:Sa7RubiconE5first5counts10ArraySliceVyxGSi_tF"
+        }
+      ],
+      "key.typename": "Array<Element>.Type",
+      "key.typeusr": "$sSayxGmD",
+      "key.usr": "s:Sa"
+    },
+    {
+      "key.annotated_decl": "<Declaration>@frozen struct Array&lt;Element&gt; : <Type usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/Type><\/Declaration>",
+      "key.bodycolumn": 45,
+      "key.bodylength": 3736,
+      "key.bodyline": 57,
+      "key.bodyoffset": 2400,
+      "key.column": 1,
+      "key.doc.declaration": "@frozen struct Array<Element> : _DestructorSafeContainer",
+      "key.doc.discussion": [
+        {
+          "Para": "Arrays are one of the most commonly used data types in an app. You use arrays to organize your app’s data. Specifically, you use the `Array` type to hold elements of a single type, the array’s `Element` type. An array can store any kind of elements—from integers to strings to classes."
+        },
+        {
+          "Para": "Swift makes it easy to create arrays in your code using an array literal: simply surround a comma-separated list of values with square brackets. Without any other information, Swift creates an array that includes the specified values, automatically inferring the array’s `Element` type. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You can create an empty array by specifying the `Element` type of your array in the declaration. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "If you need an array that is preinitialized with a fixed number of default values, use the `Array(repeating:count:)` initializer."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "When you need to perform an operation on all of an array’s elements, use a `for`-`in` loop to iterate through the array’s contents."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Use the `isEmpty` property to check quickly whether an array has any elements, or use the `count` property to find the number of elements in the array."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Use the `first` and `last` properties for safe access to the value of the array’s first and last elements. If the array is empty, these properties are `nil`."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You can access individual array elements through a subscript. The first element of a nonempty array is always at index zero. You can subscript an array with any integer from zero up to, but not including, the count of the array. Using a negative number or an index equal to or greater than `count` triggers a runtime error. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Suppose you need to store a list of the names of students that are signed up for a class you’re teaching. During the registration period, you need to add and remove names as students add and drop the class."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "To add single elements to the end of an array, use the `append(_:)` method. Add multiple elements at the same time by passing another array or a sequence of any kind to the `append(contentsOf:)` method."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You can add new elements in the middle of an array by using the `insert(_:at:)` method for single elements and by using `insert(contentsOf:at:)` to insert multiple elements from another collection or array literal. The elements at that index and later indices are shifted back to make room."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "To remove elements from an array, use the `remove(at:)`, `removeSubrange(_:)`, and `removeLast()` methods."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You can replace an existing element with a new value by assigning the new value to the subscript."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Every array reserves a specific amount of memory to hold its contents. When you add elements to an array and that array begins to exceed its reserved capacity, the array allocates a larger region of memory and copies its elements into the new storage. The new storage is a multiple of the old storage’s size. This exponential growth strategy means that appending an element happens in constant time, averaging the performance of many append operations. Append operations that trigger reallocation have a performance cost, but they occur less and less often as the array grows larger."
+        },
+        {
+          "Para": "If you know approximately how many elements you will need to store, use the `reserveCapacity(_:)` method before appending to the array to avoid intermediate reallocations. Use the `capacity` and `count` properties to determine how many more elements the array can store without allocating larger storage."
+        },
+        {
+          "Para": "For arrays of most `Element` types, this storage is a contiguous block of memory. For arrays with an `Element` type that is a class or `@objc` protocol type, this storage can be a contiguous block of memory or an instance of `NSArray`. Because any arbitrary subclass of `NSArray` can become an `Array`, there are no guarantees about representation or efficiency in this case."
+        },
+        {
+          "Para": "Each array has an independent value that includes the values of all of its elements. For simple types such as integers and other structures, this means that when you change a value in one array, the value of that element does not change in any copies of the array. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "If the elements in an array are instances of a class, the semantics are the same, though they might appear different at first. In this case, the values stored in the array are references to objects that live outside the array. If you change a reference to an object in one array, only that array has a reference to the new object. However, if two arrays contain references to the same object, you can observe changes to that object’s properties from both arrays. For example:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Arrays, like all variable-size collections in the standard library, use copy-on-write optimization. Multiple copies of an array share the same storage until you modify one of the copies. When that happens, the array being modified replaces its storage with a uniquely owned copy of itself, which is then modified in place. Optimizations are sometimes applied that can reduce the amount of copying."
+        },
+        {
+          "Para": "This means that if an array is sharing storage with other copies, the first mutating operation on that array incurs the cost of copying the array. An array that is the sole owner of its storage can perform mutating operations in place."
+        },
+        {
+          "Para": "In the example below, a `numbers` array is created along with two copies that share the same storage. When the original `numbers` array is modified, it makes a unique copy of its storage before making the modification. Further modifications to `numbers` are made in place, while the two copies continue to share the original storage."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "When you need to access APIs that require data in an `NSArray` instance instead of `Array`, use the type-cast operator (`as`) to bridge your instance. For bridging to be possible, the `Element` type of your array must be a class, an `@objc` protocol (a protocol imported from Objective-C or marked with the `@objc` attribute), or a type that bridges to a Foundation type."
+        },
+        {
+          "Para": "The following example shows how you can bridge an `Array` instance to `NSArray` to use the `write(to:atomically:)` method. In this example, the `colors` array can be bridged to `NSArray` because the `colors` array’s `String` elements bridge to `NSString`. The compiler prevents bridging the `moreColors` array, on the other hand, because its `Element` type is `Optional<String>`, which does  bridge to a Foundation type."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Bridging from `Array` to `NSArray` takes O(1) time and O(1) space if the array’s elements are already instances of a class or an `@objc` protocol; otherwise, it takes O() time and space."
+        },
+        {
+          "Para": "When the destination array’s element type is a class or an `@objc` protocol, bridging from `NSArray` to `Array` first calls the `copy(with:)` (`- copyWithZone:` in Objective-C) method on the array to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of `NSArray` that are already immutable, `copy(with:)` usually returns the same array in O(1) time; otherwise, the copying performance is unspecified. If `copy(with:)` returns the same array, the instances of `NSArray` and `Array` share storage using the same copy-on-write optimization that is used when two instances of `Array` share storage."
+        },
+        {
+          "Para": "When the destination array’s element type is a nonclass type that bridges to a Foundation type, bridging from `NSArray` to `Array` performs a bridging copy of the elements to contiguous storage in O() time. For example, bridging from `NSArray` to `Array<Int>` performs such a copy. No further bridging is required when accessing elements of the `Array` instance."
+        },
+        {
+          "Note": ""
+        }
+      ],
+      "key.doc.full_as_xml": "<Class><Name>Array<\/Name><USR>s:Sa<\/USR><Declaration>@frozen struct Array&lt;Element&gt; : _DestructorSafeContainer<\/Declaration><CommentParts><Abstract><Para>An ordered, random-access collection.<\/Para><\/Abstract><Discussion><Para>Arrays are one of the most commonly used data types in an app. You use arrays to organize your app’s data. Specifically, you use the <codeVoice>Array<\/codeVoice> type to hold elements of a single type, the array’s <codeVoice>Element<\/codeVoice> type. An array can store any kind of elements—from integers to strings to classes.<\/Para><Para>Swift makes it easy to create arrays in your code using an array literal: simply surround a comma-separated list of values with square brackets. Without any other information, Swift creates an array that includes the specified values, automatically inferring the array’s <codeVoice>Element<\/codeVoice> type. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ An array of 'Int' elements]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let oddNumbers = [1, 3, 5, 7, 9, 11, 13, 15]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ An array of 'String' elements]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let streets = [\"Albemarle\", \"Brandywine\", \"Chesapeake\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can create an empty array by specifying the <codeVoice>Element<\/codeVoice> type of your array in the declaration. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ Shortened forms are preferred]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var emptyDoubles: [Double] = []]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ The full type name is also allowed]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var emptyFloats: Array<Float> = Array()]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>If you need an array that is preinitialized with a fixed number of default values, use the <codeVoice>Array(repeating:count:)<\/codeVoice> initializer.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var digitCounts = Array(repeating: 0, count: 10)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(digitCounts)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Accessing Array Values<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>When you need to perform an operation on all of an array’s elements, use a <codeVoice>for<\/codeVoice>-<codeVoice>in<\/codeVoice> loop to iterate through the array’s contents.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for street in streets {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"I don't live on \\(street).\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"I don't live on Albemarle.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"I don't live on Brandywine.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"I don't live on Chesapeake.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Use the <codeVoice>isEmpty<\/codeVoice> property to check quickly whether an array has any elements, or use the <codeVoice>count<\/codeVoice> property to find the number of elements in the array.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if oddNumbers.isEmpty {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"I don't know any odd numbers.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"I know \\(oddNumbers.count) odd numbers.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"I know 8 odd numbers.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Use the <codeVoice>first<\/codeVoice> and <codeVoice>last<\/codeVoice> properties for safe access to the value of the array’s first and last elements. If the array is empty, these properties are <codeVoice>nil<\/codeVoice>.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if let firstElement = oddNumbers.first, let lastElement = oddNumbers.last {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(firstElement, lastElement, separator: \", \")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1, 15\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(emptyDoubles.first, emptyDoubles.last, separator: \", \")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"nil, nil\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can access individual array elements through a subscript. The first element of a nonempty array is always at index zero. You can subscript an array with any integer from zero up to, but not including, the count of the array. Using a negative number or an index equal to or greater than <codeVoice>count<\/codeVoice> triggers a runtime error. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(oddNumbers[0], oddNumbers[3], separator: \", \")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1, 7\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(emptyDoubles[0])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Triggers runtime error: Index out of range]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Adding and Removing Elements<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Suppose you need to store a list of the names of students that are signed up for a class you’re teaching. During the registration period, you need to add and remove names as students add and drop the class.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var students = [\"Ben\", \"Ivy\", \"Jordell\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>To add single elements to the end of an array, use the <codeVoice>append(_:)<\/codeVoice> method. Add multiple elements at the same time by passing another array or a sequence of any kind to the <codeVoice>append(contentsOf:)<\/codeVoice> method.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[students.append(\"Maxime\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[students.append(contentsOf: [\"Shakia\", \"William\"])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ben\", \"Ivy\", \"Jordell\", \"Maxime\", \"Shakia\", \"William\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can add new elements in the middle of an array by using the <codeVoice>insert(_:at:)<\/codeVoice> method for single elements and by using <codeVoice>insert(contentsOf:at:)<\/codeVoice> to insert multiple elements from another collection or array literal. The elements at that index and later indices are shifted back to make room.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[students.insert(\"Liam\", at: 3)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ben\", \"Ivy\", \"Jordell\", \"Liam\", \"Maxime\", \"Shakia\", \"William\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>To remove elements from an array, use the <codeVoice>remove(at:)<\/codeVoice>, <codeVoice>removeSubrange(_:)<\/codeVoice>, and <codeVoice>removeLast()<\/codeVoice> methods.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ Ben's family is moving to another state]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[students.remove(at: 0)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ivy\", \"Jordell\", \"Liam\", \"Maxime\", \"Shakia\", \"William\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ William is signing up for a different class]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[students.removeLast()]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ivy\", \"Jordell\", \"Liam\", \"Maxime\", \"Shakia\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can replace an existing element with a new value by assigning the new value to the subscript.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if let i = students.firstIndex(of: \"Maxime\") {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    students[i] = \"Max\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ [\"Ivy\", \"Jordell\", \"Liam\", \"Max\", \"Shakia\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Growing the Size of an Array<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>Every array reserves a specific amount of memory to hold its contents. When you add elements to an array and that array begins to exceed its reserved capacity, the array allocates a larger region of memory and copies its elements into the new storage. The new storage is a multiple of the old storage’s size. This exponential growth strategy means that appending an element happens in constant time, averaging the performance of many append operations. Append operations that trigger reallocation have a performance cost, but they occur less and less often as the array grows larger.<\/Para><Para>If you know approximately how many elements you will need to store, use the <codeVoice>reserveCapacity(_:)<\/codeVoice> method before appending to the array to avoid intermediate reallocations. Use the <codeVoice>capacity<\/codeVoice> and <codeVoice>count<\/codeVoice> properties to determine how many more elements the array can store without allocating larger storage.<\/Para><Para>For arrays of most <codeVoice>Element<\/codeVoice> types, this storage is a contiguous block of memory. For arrays with an <codeVoice>Element<\/codeVoice> type that is a class or <codeVoice>@objc<\/codeVoice> protocol type, this storage can be a contiguous block of memory or an instance of <codeVoice>NSArray<\/codeVoice>. Because any arbitrary subclass of <codeVoice>NSArray<\/codeVoice> can become an <codeVoice>Array<\/codeVoice>, there are no guarantees about representation or efficiency in this case.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Modifying Copies of Arrays<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Each array has an independent value that includes the values of all of its elements. For simple types such as integers and other structures, this means that when you change a value in one array, the value of that element does not change in any copies of the array. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var numbers = [1, 2, 3, 4, 5]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var numbersCopy = numbers]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[numbers[0] = 100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(numbers)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[100, 2, 3, 4, 5]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(numbersCopy)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[1, 2, 3, 4, 5]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>If the elements in an array are instances of a class, the semantics are the same, though they might appear different at first. In this case, the values stored in the array are references to objects that live outside the array. If you change a reference to an object in one array, only that array has a reference to the new object. However, if two arrays contain references to the same object, you can observe changes to that object’s properties from both arrays. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ An integer type with reference semantics]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[class IntegerReference {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    var value = 10]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var firstIntegers = [IntegerReference(), IntegerReference()]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var secondIntegers = firstIntegers]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Modifications to an instance are visible from either array]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[firstIntegers[0].value = 100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(secondIntegers[0].value)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"100\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Replacements, additions, and removals are still visible]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ only in the modified array]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[firstIntegers[0] = IntegerReference()]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(firstIntegers[0].value)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"10\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(secondIntegers[0].value)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"100\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Arrays, like all variable-size collections in the standard library, use copy-on-write optimization. Multiple copies of an array share the same storage until you modify one of the copies. When that happens, the array being modified replaces its storage with a uniquely owned copy of itself, which is then modified in place. Optimizations are sometimes applied that can reduce the amount of copying.<\/Para><Para>This means that if an array is sharing storage with other copies, the first mutating operation on that array incurs the cost of copying the array. An array that is the sole owner of its storage can perform mutating operations in place.<\/Para><Para>In the example below, a <codeVoice>numbers<\/codeVoice> array is created along with two copies that share the same storage. When the original <codeVoice>numbers<\/codeVoice> array is modified, it makes a unique copy of its storage before making the modification. Further modifications to <codeVoice>numbers<\/codeVoice> are made in place, while the two copies continue to share the original storage.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var numbers = [1, 2, 3, 4, 5]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var firstCopy = numbers]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[var secondCopy = numbers]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ The storage for 'numbers' is copied here]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[numbers[0] = 100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[numbers[1] = 200]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[numbers[2] = 300]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ 'numbers' is [100, 200, 300, 4, 5]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ 'firstCopy' and 'secondCopy' are [1, 2, 3, 4, 5]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Bridging Between Array and NSArray<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>When you need to access APIs that require data in an <codeVoice>NSArray<\/codeVoice> instance instead of <codeVoice>Array<\/codeVoice>, use the type-cast operator (<codeVoice>as<\/codeVoice>) to bridge your instance. For bridging to be possible, the <codeVoice>Element<\/codeVoice> type of your array must be a class, an <codeVoice>@objc<\/codeVoice> protocol (a protocol imported from Objective-C or marked with the <codeVoice>@objc<\/codeVoice> attribute), or a type that bridges to a Foundation type.<\/Para><Para>The following example shows how you can bridge an <codeVoice>Array<\/codeVoice> instance to <codeVoice>NSArray<\/codeVoice> to use the <codeVoice>write(to:atomically:)<\/codeVoice> method. In this example, the <codeVoice>colors<\/codeVoice> array can be bridged to <codeVoice>NSArray<\/codeVoice> because the <codeVoice>colors<\/codeVoice> array’s <codeVoice>String<\/codeVoice> elements bridge to <codeVoice>NSString<\/codeVoice>. The compiler prevents bridging the <codeVoice>moreColors<\/codeVoice> array, on the other hand, because its <codeVoice>Element<\/codeVoice> type is <codeVoice>Optional&lt;String&gt;<\/codeVoice>, which does <emphasis>not<\/emphasis> bridge to a Foundation type.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let colors = [\"periwinkle\", \"rose\", \"moss\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let moreColors: [String?] = [\"ochre\", \"pine\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let url = URL(fileURLWithPath: \"names.plist\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[(colors as NSArray).write(to: url, atomically: true)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ true]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[(moreColors as NSArray).write(to: url, atomically: true)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ error: cannot convert value of type '[String?]' to type 'NSArray']]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Bridging from <codeVoice>Array<\/codeVoice> to <codeVoice>NSArray<\/codeVoice> takes O(1) time and O(1) space if the array’s elements are already instances of a class or an <codeVoice>@objc<\/codeVoice> protocol; otherwise, it takes O(<emphasis>n<\/emphasis>) time and space.<\/Para><Para>When the destination array’s element type is a class or an <codeVoice>@objc<\/codeVoice> protocol, bridging from <codeVoice>NSArray<\/codeVoice> to <codeVoice>Array<\/codeVoice> first calls the <codeVoice>copy(with:)<\/codeVoice> (<codeVoice>- copyWithZone:<\/codeVoice> in Objective-C) method on the array to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of <codeVoice>NSArray<\/codeVoice> that are already immutable, <codeVoice>copy(with:)<\/codeVoice> usually returns the same array in O(1) time; otherwise, the copying performance is unspecified. If <codeVoice>copy(with:)<\/codeVoice> returns the same array, the instances of <codeVoice>NSArray<\/codeVoice> and <codeVoice>Array<\/codeVoice> share storage using the same copy-on-write optimization that is used when two instances of <codeVoice>Array<\/codeVoice> share storage.<\/Para><Para>When the destination array’s element type is a nonclass type that bridges to a Foundation type, bridging from <codeVoice>NSArray<\/codeVoice> to <codeVoice>Array<\/codeVoice> performs a bridging copy of the elements to contiguous storage in O(<emphasis>n<\/emphasis>) time. For example, bridging from <codeVoice>NSArray<\/codeVoice> to <codeVoice>Array&lt;Int&gt;<\/codeVoice> performs such a copy. No further bridging is required when accessing elements of the <codeVoice>Array<\/codeVoice> instance.<\/Para><Note><Para>The <codeVoice>ContiguousArray<\/codeVoice> and <codeVoice>ArraySlice<\/codeVoice> types are not bridged; instances of those types always have a contiguous block of memory as their storage.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name": "Array",
+      "key.doc.type": "Class",
+      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Array<\/decl.name>&lt;<decl.generic_type_param usr=\"s:Sa7Elementxmfp\"><decl.generic_type_param.name>Element<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; : <ref.protocol usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/ref.protocol><\/decl.struct>",
+      "key.groupname": "Collection\/Array",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 3781,
+      "key.line": 57,
+      "key.modulename": "Swift",
+      "key.name": "Array",
+      "key.namecolumn": 11,
+      "key.namelength": 5,
+      "key.nameline": 57,
+      "key.nameoffset": 2366,
+      "key.offset": 2356,
+      "key.parsed_declaration": "extension Array where Element == Character",
+      "key.parsed_scope.end": 149,
+      "key.parsed_scope.start": 57,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func == (lhs: `Self`, rhs: <Type usr=\"s:SS\">String<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 79,
+              "key.offset": 3249
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 79,
+              "key.offset": 3238
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 22,
+          "key.bodyline": 79,
+          "key.bodyoffset": 3305,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Allows for easy equality check between Strings and Character Arrays. Instead of having to write:\n\n```\nlet array: [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif String(array) == string { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nlet array:  [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String      = \"Galen\"\nif array == string { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: The Character Array.\n  - rhs: The String\n- Returns: `true` if the array contains the same characters, in the same order, as the string.",
+          "key.doc.declaration": "@inlinable public static func == (lhs: `Self`, rhs: String) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift\" line=\"79\" column=\"35\"><Name>==(_:_:)<\/Name><USR>s:Sa7RubiconSJRszlE2eeoiySbSaySJG_SStFZ<\/USR><Declaration>@inlinable public static func == (lhs: `Self`, rhs: String) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Allows for easy equality check between Strings and Character Arrays. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The Character Array.<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The String<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the array contains the same characters, in the same order, as the string.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array: [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if String(array) == string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array:  [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String      = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if array == string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 79,
+          "key.doc.name": "==(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The Character Array."
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The String"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the array contains the same characters, in the same order, as the string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 714,
+          "key.docline": 59,
+          "key.docoffset": 2520,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>== <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 72,
+          "key.line": 79,
+          "key.name": "==(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 27,
+          "key.nameline": 79,
+          "key.nameoffset": 3268,
+          "key.offset": 3256,
+          "key.parsed_declaration": "@inlinable public static func == (lhs: Self, rhs: String) -> Bool",
+          "key.parsed_scope.end": 79,
+          "key.parsed_scope.start": 79,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sa7RubiconSJRszlE2eeoiySbSS_SaySJGtFZ\">== (_: String, _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SasSQRzlE2eeoiySbSayxG_ABtFZ\">== (_: Array&lt;Element&gt;, _: Array&lt;Element&gt;) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: `Self`<\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 79,
+              "key.name": "lhs",
+              "key.offset": 3272,
+              "key.parent_loc": 3268,
+              "key.parsed_declaration": "@inlinable public static func == (lhs",
+              "key.parsed_scope.end": 79,
+              "key.parsed_scope.start": 79,
+              "key.typename": "Array<Element>",
+              "key.typeusr": "$sSayxGD",
+              "key.usr": "s:Sa7RubiconSJRszlE2eeoiySbSaySJG_SStFZ3lhsL_SayxGvp"
+            }
+          ],
+          "key.typename": "<Element where Element == Character> (Array<Element>.Type) -> (Array<Element>, String) -> Bool",
+          "key.typeusr": "$sySbSaySJG_SStcD",
+          "key.usr": "s:Sa7RubiconSJRszlE2eeoiySbSaySJG_SStFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func != (lhs: `Self`, rhs: <Type usr=\"s:SS\">String<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 102,
+              "key.offset": 4188
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 102,
+              "key.offset": 4177
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 22,
+          "key.bodyline": 102,
+          "key.bodyoffset": 4244,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Allows for easy inequality check between Strings and Character Arrays. Instead of having to write:\n\n```\nlet array: [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif String(array) != string { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nlet array:  [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String      = \"Galen\"\nif array != string { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: The Character Array.\n  - rhs: The String\n- Returns: `true` if the array does not contain the same characters, in the same order, as the string.",
+          "key.doc.declaration": "@inlinable public static func != (lhs: `Self`, rhs: String) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift\" line=\"102\" column=\"35\"><Name>!=(_:_:)<\/Name><USR>s:Sa7RubiconSJRszlE2neoiySbSaySJG_SStFZ<\/USR><Declaration>@inlinable public static func != (lhs: `Self`, rhs: String) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Allows for easy inequality check between Strings and Character Arrays. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The Character Array.<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The String<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the array does not contain the same characters, in the same order, as the string.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array: [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if String(array) != string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array:  [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String      = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if array != string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 102,
+          "key.doc.name": "!=(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The Character Array."
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The String"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the array does not contain the same characters, in the same order, as the string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 724,
+          "key.docline": 82,
+          "key.docoffset": 3449,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>!= <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 72,
+          "key.line": 102,
+          "key.name": "!=(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 27,
+          "key.nameline": 102,
+          "key.nameoffset": 4207,
+          "key.offset": 4195,
+          "key.parsed_declaration": "@inlinable public static func != (lhs: Self, rhs: String) -> Bool",
+          "key.parsed_scope.end": 102,
+          "key.parsed_scope.start": 102,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sa7RubiconSJRszlE2neoiySbSS_SaySJGtFZ\">!= (_: String, _: `Self`) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: `Self`<\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 102,
+              "key.name": "lhs",
+              "key.offset": 4211,
+              "key.parent_loc": 4207,
+              "key.parsed_declaration": "@inlinable public static func != (lhs",
+              "key.parsed_scope.end": 102,
+              "key.parsed_scope.start": 102,
+              "key.typename": "Array<Element>",
+              "key.typeusr": "$sSayxGD",
+              "key.usr": "s:Sa7RubiconSJRszlE2neoiySbSaySJG_SStFZ3lhsL_SayxGvp"
+            }
+          ],
+          "key.typename": "<Element where Element == Character> (Array<Element>.Type) -> (Array<Element>, String) -> Bool",
+          "key.typeusr": "$sySbSaySJG_SStcD",
+          "key.usr": "s:Sa7RubiconSJRszlE2neoiySbSaySJG_SStFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func == (lhs: <Type usr=\"s:SS\">String<\/Type>, rhs: `Self`) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 125,
+              "key.offset": 5117
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 125,
+              "key.offset": 5106
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 22,
+          "key.bodyline": 125,
+          "key.bodyoffset": 5173,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Allows for easy equality check between Strings and Character Arrays. Instead of having to write:\n\n```\nlet array: [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif String(array) == string { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nlet array:  [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String      = \"Galen\"\nif array == string { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: The String\n  - rhs: The Character Array.\n- Returns: `true` if the array contains the same characters, in the same order, as the string.",
+          "key.doc.declaration": "@inlinable public static func == (lhs: String, rhs: `Self`) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift\" line=\"125\" column=\"35\"><Name>==(_:_:)<\/Name><USR>s:Sa7RubiconSJRszlE2eeoiySbSS_SaySJGtFZ<\/USR><Declaration>@inlinable public static func == (lhs: String, rhs: `Self`) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Allows for easy equality check between Strings and Character Arrays. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The String<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The Character Array.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the array contains the same characters, in the same order, as the string.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array: [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if String(array) == string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array:  [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String      = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if array == string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 125,
+          "key.doc.name": "==(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The String"
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The Character Array."
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the array contains the same characters, in the same order, as the string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 714,
+          "key.docline": 105,
+          "key.docoffset": 4388,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>== <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 72,
+          "key.line": 125,
+          "key.name": "==(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 27,
+          "key.nameline": 125,
+          "key.nameoffset": 5136,
+          "key.offset": 5124,
+          "key.parsed_declaration": "@inlinable public static func == (lhs: String, rhs: Self) -> Bool",
+          "key.parsed_scope.end": 125,
+          "key.parsed_scope.start": 125,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sa7RubiconSJRszlE2eeoiySbSaySJG_SStFZ\">== (_: `Self`, _: String) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SasSQRzlE2eeoiySbSayxG_ABtFZ\">== (_: Array&lt;Element&gt;, _: Array&lt;Element&gt;) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 125,
+              "key.name": "lhs",
+              "key.offset": 5140,
+              "key.parent_loc": 5136,
+              "key.parsed_declaration": "@inlinable public static func == (lhs",
+              "key.parsed_scope.end": 125,
+              "key.parsed_scope.start": 125,
+              "key.typename": "String",
+              "key.typeusr": "$sSSD",
+              "key.usr": "s:Sa7RubiconSJRszlE2eeoiySbSS_SaySJGtFZ3lhsL_SSvp"
+            }
+          ],
+          "key.typename": "<Element where Element == Character> (Array<Element>.Type) -> (String, Array<Element>) -> Bool",
+          "key.typeusr": "$sySbSS_SaySJGtcD",
+          "key.usr": "s:Sa7RubiconSJRszlE2eeoiySbSS_SaySJGtFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func != (lhs: <Type usr=\"s:SS\">String<\/Type>, rhs: `Self`) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 148,
+              "key.offset": 6056
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 148,
+              "key.offset": 6045
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 22,
+          "key.bodyline": 148,
+          "key.bodyoffset": 6112,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Allows for easy inequality check between Strings and Character Arrays. Instead of having to write:\n\n```\nlet array: [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif String(array) != string { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nlet array:  [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String      = \"Galen\"\nif array != string { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: The String\n  - rhs: The Character Array.\n- Returns: `true` if the array does not contain the same characters, in the same order, as the string.",
+          "key.doc.declaration": "@inlinable public static func != (lhs: String, rhs: `Self`) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift\" line=\"148\" column=\"35\"><Name>!=(_:_:)<\/Name><USR>s:Sa7RubiconSJRszlE2neoiySbSS_SaySJGtFZ<\/USR><Declaration>@inlinable public static func != (lhs: String, rhs: `Self`) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Allows for easy inequality check between Strings and Character Arrays. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The String<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The Character Array.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the array does not contain the same characters, in the same order, as the string.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array: [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if String(array) != string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array:  [Character] = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String      = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if array != string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 148,
+          "key.doc.name": "!=(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The String"
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The Character Array."
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the array does not contain the same characters, in the same order, as the string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 724,
+          "key.docline": 128,
+          "key.docoffset": 5317,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>!= <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 72,
+          "key.line": 148,
+          "key.name": "!=(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 27,
+          "key.nameline": 148,
+          "key.nameoffset": 6075,
+          "key.offset": 6063,
+          "key.parsed_declaration": "@inlinable public static func != (lhs: String, rhs: Self) -> Bool",
+          "key.parsed_scope.end": 148,
+          "key.parsed_scope.start": 148,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sa7RubiconSJRszlE2neoiySbSaySJG_SStFZ\">!= (_: `Self`, _: String) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Array.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 148,
+              "key.name": "lhs",
+              "key.offset": 6079,
+              "key.parent_loc": 6075,
+              "key.parsed_declaration": "@inlinable public static func != (lhs",
+              "key.parsed_scope.end": 148,
+              "key.parsed_scope.start": 148,
+              "key.typename": "String",
+              "key.typeusr": "$sSSD",
+              "key.usr": "s:Sa7RubiconSJRszlE2neoiySbSS_SaySJGtFZ3lhsL_SSvp"
+            }
+          ],
+          "key.typename": "<Element where Element == Character> (Array<Element>.Type) -> (String, Array<Element>) -> Bool",
+          "key.typeusr": "$sySbSS_SaySJGtcD",
+          "key.usr": "s:Sa7RubiconSJRszlE2neoiySbSS_SaySJGtFZ"
+        }
+      ],
+      "key.typename": "Array<Element>.Type",
+      "key.typeusr": "$sSayxGmD",
+      "key.usr": "s:Sa"
+    }
+  ]
+}

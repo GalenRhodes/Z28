@@ -1,0 +1,3488 @@
+{
+  "key.dependencies": [
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Swift"
+    },
+    {
+      "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Rubicon-2R5RRMVLV2Q6N.pcm",
+      "key.kind": "source.lang.swift.import.module.clang",
+      "key.name": "Rubicon"
+    },
+    {
+      "key.dependencies": [
+        {
+          "key.dependencies": [
+            {
+              "key.dependencies": [
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "Darwin"
+                },
+                {
+                  "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.swift",
+                  "key.name": "Swift"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftOverlayShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftOverlayShims"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftShims"
+                }
+              ],
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Combine"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreFoundation-RZX25862PY17.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreFoundation"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreFoundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreGraphics-MC4FPA2MN9QR.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreGraphics"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreGraphics.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreGraphics"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Darwin"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Combine"
+            },
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Dispatch-2M9AOUJY3TW9V.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "Dispatch"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Dispatch.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Dispatch"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Foundation-2FJBXN8U6QRTS.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "Foundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/ObjectiveC-1A3ZNHZR9RRLF.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "ObjectiveC"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/ObjectiveC.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "ObjectiveC"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Swift"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "uuid"
+        }
+      ],
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Foundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Foundation"
+    },
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "CoreFoundation"
+    },
+    {
+      "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/RingBuffer-BJFEH6C0YLDK.pcm",
+      "key.kind": "source.lang.swift.import.module.clang",
+      "key.name": "RingBuffer"
+    }
+  ],
+  "key.entities": [
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 23,
+      "key.name": "Foundation",
+      "key.usr": "c:@M@Foundation"
+    },
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 24,
+      "key.name": "CoreFoundation",
+      "key.usr": "c:@M@CoreFoundation"
+    },
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 25,
+      "key.name": "RingBuffer",
+      "key.usr": "c:@M@RingBuffer"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public"
+        }
+      ],
+      "key.column": 13,
+      "key.effective_access": "source.decl.effective_access.public",
+      "key.entities": [
+        {
+          "key.column": 34,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 27,
+          "key.name": "Error",
+          "key.usr": "s:s5ErrorP"
+        },
+        {
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 28,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enumelement",
+          "key.line": 28,
+          "key.name": "IllegalResponse(description:)",
+          "key.usr": "s:7Rubicon19RingByteBufferErrorO15IllegalResponseyACSS_tcACmF"
+        },
+        {
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 29,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enumelement",
+          "key.line": 29,
+          "key.name": "InvalidArgument(description:)",
+          "key.usr": "s:7Rubicon19RingByteBufferErrorO15InvalidArgumentyACSS_tcACmF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.enum",
+      "key.line": 27,
+      "key.name": "RingByteBufferError",
+      "key.related": [
+        {
+          "key.column": 34,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 27,
+          "key.name": "Error",
+          "key.usr": "s:s5ErrorP"
+        }
+      ],
+      "key.usr": "s:7Rubicon19RingByteBufferErrorO"
+    },
+    {
+      "key.column": 5,
+      "key.effective_access": "source.decl.effective_access.internal",
+      "key.entities": [
+        {
+          "key.column": 5,
+          "key.is_implicit": true,
+          "key.kind": "source.lang.swift.decl.function.accessor.getter",
+          "key.line": 32,
+          "key.usr": "s:7Rubicon5OneMBSivg"
+        },
+        {
+          "key.column": 5,
+          "key.is_implicit": true,
+          "key.kind": "source.lang.swift.decl.function.accessor.setter",
+          "key.line": 32,
+          "key.usr": "s:7Rubicon5OneMBSivs"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.var.global",
+      "key.line": 32,
+      "key.name": "OneMB",
+      "key.usr": "s:7Rubicon5OneMBSivp"
+    },
+    {
+      "key.column": 13,
+      "key.kind": "source.lang.swift.ref.struct",
+      "key.line": 32,
+      "key.name": "Int",
+      "key.usr": "s:Si"
+    },
+    {
+      "key.column": 25,
+      "key.kind": "source.lang.swift.ref.function.operator.infix",
+      "key.line": 32,
+      "key.name": "*(_:_:)",
+      "key.receiver_usr": "s:Si",
+      "key.usr": "s:Si1moiyS2i_SitFZ"
+    },
+    {
+      "key.column": 5,
+      "key.effective_access": "source.decl.effective_access.internal",
+      "key.entities": [
+        {
+          "key.column": 5,
+          "key.is_implicit": true,
+          "key.kind": "source.lang.swift.decl.function.accessor.getter",
+          "key.line": 33,
+          "key.usr": "s:7Rubicon6HalfGBSivg"
+        },
+        {
+          "key.column": 5,
+          "key.is_implicit": true,
+          "key.kind": "source.lang.swift.decl.function.accessor.setter",
+          "key.line": 33,
+          "key.usr": "s:7Rubicon6HalfGBSivs"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.var.global",
+      "key.line": 33,
+      "key.name": "HalfGB",
+      "key.usr": "s:7Rubicon6HalfGBSivp"
+    },
+    {
+      "key.column": 13,
+      "key.kind": "source.lang.swift.ref.struct",
+      "key.line": 33,
+      "key.name": "Int",
+      "key.usr": "s:Si"
+    },
+    {
+      "key.column": 20,
+      "key.entities": [
+        {
+          "key.column": 20,
+          "key.is_implicit": true,
+          "key.kind": "source.lang.swift.ref.function.accessor.getter",
+          "key.line": 33,
+          "key.usr": "s:7Rubicon5OneMBSivg"
+        }
+      ],
+      "key.kind": "source.lang.swift.ref.var.global",
+      "key.line": 33,
+      "key.name": "OneMB",
+      "key.usr": "s:7Rubicon5OneMBSivp"
+    },
+    {
+      "key.column": 26,
+      "key.kind": "source.lang.swift.ref.function.operator.infix",
+      "key.line": 33,
+      "key.name": "*(_:_:)",
+      "key.receiver_usr": "s:Si",
+      "key.usr": "s:Si1moiyS2i_SitFZ"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.open"
+        }
+      ],
+      "key.column": 12,
+      "key.effective_access": "source.decl.effective_access.public",
+      "key.entities": [
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            }
+          ],
+          "key.column": 9,
+          "key.effective_access": "source.decl.effective_access.internal",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                }
+              ],
+              "key.column": 9,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 48,
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+            },
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                }
+              ],
+              "key.column": 9,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.setter",
+              "key.line": 48,
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvs"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 48,
+          "key.name": "buffer",
+          "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+        },
+        {
+          "key.column": 17,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 48,
+          "key.name": "UnsafeMutablePointer",
+          "key.usr": "s:Sp"
+        },
+        {
+          "key.column": 38,
+          "key.kind": "source.lang.swift.ref.typealias",
+          "key.line": 48,
+          "key.name": "PGRingBuffer",
+          "key.usr": "c:PGRingBuffer.h@T@PGRingBuffer"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 22,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                }
+              ],
+              "key.column": 45,
+              "key.entities": [
+                {
+                  "key.column": 47,
+                  "key.kind": "source.lang.swift.ref.function.free",
+                  "key.line": 53,
+                  "key.name": "PGRingBufferCount(_:)",
+                  "key.usr": "c:@F@PGRingBufferCount"
+                },
+                {
+                  "key.column": 65,
+                  "key.entities": [
+                    {
+                      "key.column": 65,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 53,
+                      "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                      "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 53,
+                  "key.name": "buffer",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+                }
+              ],
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 53,
+              "key.name": "getter:count",
+              "key.usr": "s:7Rubicon14RingByteBufferC5countSivg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 53,
+          "key.name": "count",
+          "key.usr": "s:7Rubicon14RingByteBufferC5countSivp"
+        },
+        {
+          "key.column": 41,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 53,
+          "key.name": "Int",
+          "key.usr": "s:Si"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 22,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                }
+              ],
+              "key.column": 46,
+              "key.entities": [
+                {
+                  "key.column": 49,
+                  "key.kind": "source.lang.swift.ref.function.free",
+                  "key.line": 58,
+                  "key.name": "PGRingBufferCount(_:)",
+                  "key.usr": "c:@F@PGRingBufferCount"
+                },
+                {
+                  "key.column": 67,
+                  "key.entities": [
+                    {
+                      "key.column": 67,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 58,
+                      "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                      "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 58,
+                  "key.name": "buffer",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+                },
+                {
+                  "key.column": 75,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 58,
+                  "key.name": ">(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:Si1goiySbSi_SitFZ"
+                }
+              ],
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 58,
+              "key.name": "getter:hasBytesAvailable",
+              "key.usr": "s:7Rubicon14RingByteBufferC17hasBytesAvailableSbvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 58,
+          "key.name": "hasBytesAvailable",
+          "key.usr": "s:7Rubicon14RingByteBufferC17hasBytesAvailableSbvp"
+        },
+        {
+          "key.column": 41,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 58,
+          "key.name": "Bool",
+          "key.usr": "s:Sb"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 22,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                }
+              ],
+              "key.column": 45,
+              "key.entities": [
+                {
+                  "key.column": 47,
+                  "key.kind": "source.lang.swift.ref.function.free",
+                  "key.line": 63,
+                  "key.name": "PGRingBufferCapacity(_:)",
+                  "key.usr": "c:@F@PGRingBufferCapacity"
+                },
+                {
+                  "key.column": 68,
+                  "key.entities": [
+                    {
+                      "key.column": 68,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 63,
+                      "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                      "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 63,
+                  "key.name": "buffer",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+                }
+              ],
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 63,
+              "key.name": "getter:capacity",
+              "key.usr": "s:7Rubicon14RingByteBufferC8capacitySivg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 63,
+          "key.name": "capacity",
+          "key.usr": "s:7Rubicon14RingByteBufferC8capacitySivp"
+        },
+        {
+          "key.column": 41,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 63,
+          "key.name": "Int",
+          "key.usr": "s:Si"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 22,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                }
+              ],
+              "key.column": 45,
+              "key.entities": [
+                {
+                  "key.column": 47,
+                  "key.kind": "source.lang.swift.ref.function.free",
+                  "key.line": 68,
+                  "key.name": "PGRingBufferRemaining(_:)",
+                  "key.usr": "c:@F@PGRingBufferRemaining"
+                },
+                {
+                  "key.column": 69,
+                  "key.entities": [
+                    {
+                      "key.column": 69,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 68,
+                      "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                      "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 68,
+                  "key.name": "buffer",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+                }
+              ],
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 68,
+              "key.name": "getter:headroom",
+              "key.usr": "s:7Rubicon14RingByteBufferC8headroomSivg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 68,
+          "key.name": "headroom",
+          "key.usr": "s:7Rubicon14RingByteBufferC8headroomSivp"
+        },
+        {
+          "key.column": 41,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 68,
+          "key.name": "Int",
+          "key.usr": "s:Si"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 22,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                }
+              ],
+              "key.column": 46,
+              "key.entities": [
+                {
+                  "key.column": 49,
+                  "key.kind": "source.lang.swift.ref.function.free",
+                  "key.line": 73,
+                  "key.name": "PGRingBufferCount(_:)",
+                  "key.usr": "c:@F@PGRingBufferCount"
+                },
+                {
+                  "key.column": 67,
+                  "key.entities": [
+                    {
+                      "key.column": 67,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 73,
+                      "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                      "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 73,
+                  "key.name": "buffer",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+                },
+                {
+                  "key.column": 75,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 73,
+                  "key.name": "==(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:Si2eeoiySbSi_SitFZ"
+                }
+              ],
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 73,
+              "key.name": "getter:isEmpty",
+              "key.usr": "s:7Rubicon14RingByteBufferC7isEmptySbvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 73,
+          "key.name": "isEmpty",
+          "key.usr": "s:7Rubicon14RingByteBufferC7isEmptySbvp"
+        },
+        {
+          "key.column": 41,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 73,
+          "key.name": "Bool",
+          "key.usr": "s:Sb"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 12,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 34,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 79,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 40,
+              "key.entities": [
+                {
+                  "key.column": 40,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 79,
+                  "key.usr": "s:7Rubicon15BasicBufferSizeSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.global",
+              "key.line": 79,
+              "key.name": "BasicBufferSize",
+              "key.usr": "s:7Rubicon15BasicBufferSizeSivp"
+            },
+            {
+              "key.column": 59,
+              "key.entities": [
+                {
+                  "key.column": 59,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 79,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 79,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 68,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 79,
+              "key.name": "PGCreateRingBuffer(_:)",
+              "key.usr": "c:@F@PGCreateRingBuffer"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.constructor",
+          "key.line": 79,
+          "key.name": "init(initialCapacity:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC15initialCapacityACSi_tcfc"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.objc"
+            }
+          ],
+          "key.column": 5,
+          "key.entities": [
+            {
+              "key.column": 14,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 81,
+              "key.name": "PGDiscardRingBuffer(_:)",
+              "key.usr": "c:@F@PGDiscardRingBuffer"
+            },
+            {
+              "key.column": 34,
+              "key.entities": [
+                {
+                  "key.column": 34,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 81,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 81,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.destructor",
+          "key.line": 81,
+          "key.name": "deinit",
+          "key.usr": "s:7Rubicon14RingByteBufferCfd"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 89,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 54,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 89,
+              "key.name": "PGClearRingBuffer(_:_:)",
+              "key.usr": "c:@F@PGClearRingBuffer"
+            },
+            {
+              "key.column": 72,
+              "key.entities": [
+                {
+                  "key.column": 72,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 89,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 89,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 89,
+          "key.name": "clear(keepingCapacity:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC5clear15keepingCapacityySb_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 97,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 49,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 97,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 97,
+              "key.name": "PGReadFromRingBuffer(_:_:_:)",
+              "key.usr": "c:@F@PGReadFromRingBuffer"
+            },
+            {
+              "key.column": 78,
+              "key.entities": [
+                {
+                  "key.column": 78,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 97,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 97,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 96,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 97,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 97,
+          "key.name": "get(byte:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC3get4byteSbs5UInt8Vz_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 104,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 51,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 104,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 71,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 104,
+              "key.name": "PGReadFromRingBuffer(_:_:_:)",
+              "key.usr": "c:@F@PGReadFromRingBuffer"
+            },
+            {
+              "key.column": 92,
+              "key.entities": [
+                {
+                  "key.column": 92,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 104,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 104,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 110,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 104,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 104,
+          "key.name": "get()",
+          "key.usr": "s:7Rubicon14RingByteBufferC3gets5UInt8VSgyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 115,
+              "key.name": "BytePointer",
+              "key.usr": "s:7Rubicon11BytePointera"
+            },
+            {
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 115,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 115,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 71,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 115,
+              "key.name": "PGReadFromRingBuffer(_:_:_:)",
+              "key.usr": "c:@F@PGReadFromRingBuffer"
+            },
+            {
+              "key.column": 92,
+              "key.entities": [
+                {
+                  "key.column": 92,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 115,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 115,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 115,
+          "key.name": "get(dest:maxLength:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC3get4dest9maxLengthSiSpys5UInt8VG_SitF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 125,
+              "key.name": "EasyByteBuffer",
+              "key.usr": "s:7Rubicon14EasyByteBufferC"
+            },
+            {
+              "key.column": 52,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 125,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 14,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 126,
+              "key.name": "withBytes(_:)",
+              "key.receiver_usr": "s:7Rubicon14EasyByteBufferC",
+              "key.usr": "s:7Rubicon14EasyByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF"
+            },
+            {
+              "key.column": 50,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 126,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 127,
+              "key.name": ">=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2geoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 30,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 127,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 127,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 129,
+              "key.name": "PGReadFromRingBuffer(_:_:_:)",
+              "key.usr": "c:@F@PGReadFromRingBuffer"
+            },
+            {
+              "key.column": 43,
+              "key.entities": [
+                {
+                  "key.column": 43,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 129,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 129,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 58,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 129,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sxss8_PointerRzrlE1poiyxx_6StrideQztFZ"
+            },
+            {
+              "key.column": 73,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 129,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 130,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1poiyS2i_SitFZ"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 125,
+          "key.name": "get(dest:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC3get4destSiAA04EasycD0C_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 147,
+              "key.name": "Data",
+              "key.usr": "s:10Foundation4DataV"
+            },
+            {
+              "key.column": 56,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 147,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 77,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 147,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 93,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 147,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 148,
+              "key.name": "removeAll(keepingCapacity:)",
+              "key.usr": "s:SmsE9removeAll15keepingCapacityySb_tF"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 150,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 150,
+              "key.name": "min(_:_:)",
+              "key.usr": "s:s3minyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 27,
+              "key.entities": [
+                {
+                  "key.column": 27,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 150,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 150,
+              "key.name": "count",
+              "key.usr": "s:7Rubicon14RingByteBufferC5countSivp"
+            },
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 150,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 150,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 57,
+              "key.entities": [
+                {
+                  "key.column": 57,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 150,
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:SZss17FixedWidthIntegerRzrlE3maxxvgZ"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.static",
+              "key.line": 150,
+              "key.name": "max",
+              "key.usr": "s:SZss17FixedWidthIntegerRzrlE3maxxvpZ"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 151,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 15,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 153,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 154,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 154,
+              "key.name": "min(_:_:)",
+              "key.usr": "s:s3minyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 155,
+              "key.name": "BytePointer",
+              "key.usr": "s:7Rubicon11BytePointera"
+            },
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 155,
+              "key.name": "BytePointer",
+              "key.usr": "s:7Rubicon11BytePointera"
+            },
+            {
+              "key.column": 49,
+              "key.kind": "source.lang.swift.ref.function.method.static",
+              "key.line": 155,
+              "key.name": "allocate(capacity:)",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sp8allocate8capacitySpyxGSi_tFZ"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 157,
+              "key.name": "deallocate()",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sp10deallocateyyF"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 158,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 158,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+            },
+            {
+              "key.column": 33,
+              "key.entities": [
+                {
+                  "key.column": 33,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 158,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 158,
+              "key.name": "count",
+              "key.usr": "s:7Rubicon14RingByteBufferC5countSivp"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 158,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 159,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 30,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 159,
+              "key.name": "PGReadFromRingBuffer(_:_:_:)",
+              "key.usr": "c:@F@PGReadFromRingBuffer"
+            },
+            {
+              "key.column": 51,
+              "key.entities": [
+                {
+                  "key.column": 51,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 159,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 159,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 159,
+              "key.name": "min(_:_:)",
+              "key.usr": "s:s3minyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 79,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 159,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 160,
+              "key.name": "+=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2peoiyySiz_SitFZ"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 161,
+              "key.name": "append(_:count:)",
+              "key.usr": "s:10Foundation4DataV6append_5countySPys5UInt8VG_SitF"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 147,
+          "key.name": "get(dest:maxLength:overWrite:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC3get4dest9maxLength9overWriteSi10Foundation4DataVz_SiSbtF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 40,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 176,
+              "key.name": "UnsafeMutableRawPointer",
+              "key.usr": "s:Sv"
+            },
+            {
+              "key.column": 76,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 176,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 84,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 176,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 9,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 177,
+              "key.name": "PGReadLastFromRingBuffer(_:_:_:)",
+              "key.usr": "c:@F@PGReadLastFromRingBuffer"
+            },
+            {
+              "key.column": 34,
+              "key.entities": [
+                {
+                  "key.column": 34,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 177,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 177,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 176,
+          "key.name": "getFromEnd(dest:maxLength:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC10getFromEnd4dest9maxLengthSiSv_SitF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 35,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 185,
+              "key.name": "RingByteBuffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC"
+            },
+            {
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 185,
+              "key.name": "PGAppendRingBufferToRingBuffer(_:_:)",
+              "key.usr": "c:@F@PGAppendRingBufferToRingBuffer"
+            },
+            {
+              "key.column": 84,
+              "key.entities": [
+                {
+                  "key.column": 84,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 185,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 185,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 96,
+              "key.entities": [
+                {
+                  "key.column": 96,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 185,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 185,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 185,
+          "key.name": "append(src:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC6append3srcyAC_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 192,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 192,
+              "key.name": "PGAppendByteToRingBuffer(_:_:)",
+              "key.usr": "c:@F@PGAppendByteToRingBuffer"
+            },
+            {
+              "key.column": 70,
+              "key.entities": [
+                {
+                  "key.column": 70,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 192,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 192,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 192,
+          "key.name": "append(byte:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC6append4byteys5UInt8V_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 201,
+              "key.name": "UnsafePointer",
+              "key.usr": "s:SP"
+            },
+            {
+              "key.column": 64,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 201,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 71,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 201,
+              "key.name": "append(src:length:maxLength:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC6append3src6length9maxLengthySV_S2itF"
+            },
+            {
+              "key.column": 83,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 201,
+              "key.name": "UnsafeRawPointer",
+              "key.usr": "s:SV"
+            },
+            {
+              "key.column": 83,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 201,
+              "key.name": "init(_:)",
+              "key.usr": "s:s8_PointerPsEyxxcfc"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 201,
+          "key.name": "append(src:length:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC6append3src6lengthySPyxG_SitlF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 35,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 209,
+              "key.name": "EasyByteBuffer",
+              "key.usr": "s:7Rubicon14EasyByteBufferC"
+            },
+            {
+              "key.column": 58,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 209,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 13,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 210,
+              "key.name": "withBytes(_:)",
+              "key.receiver_usr": "s:7Rubicon14EasyByteBufferC",
+              "key.usr": "s:7Rubicon14EasyByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF"
+            },
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 210,
+              "key.name": "UnsafePointer",
+              "key.usr": "s:SP"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 210,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 68,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 210,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 76,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 210,
+              "key.name": "Void",
+              "key.usr": "s:s4Voida"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 211,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 17,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 212,
+              "key.name": "append(src:length:maxLength:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC6append3src6length9maxLengthySV_S2itF"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 209,
+          "key.name": "append(src:reset:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC6append3src5resetyAA04EasycD0C_SbtF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 35,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 225,
+              "key.name": "UnsafeRawPointer",
+              "key.usr": "s:SV"
+            },
+            {
+              "key.column": 61,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 225,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 77,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 225,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 83,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 225,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 87,
+              "key.entities": [
+                {
+                  "key.column": 87,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 225,
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:SZss17FixedWidthIntegerRzrlE3maxxvgZ"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.static",
+              "key.line": 225,
+              "key.name": "max",
+              "key.usr": "s:SZss17FixedWidthIntegerRzrlE3maxxvpZ"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 226,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 227,
+              "key.name": ">=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2geoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 17,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 228,
+              "key.name": "clear(keepingCapacity:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC5clear15keepingCapacityySb_tF"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 229,
+              "key.name": "PGAppendToRingBuffer(_:_:_:)",
+              "key.usr": "c:@F@PGAppendToRingBuffer"
+            },
+            {
+              "key.column": 38,
+              "key.entities": [
+                {
+                  "key.column": 38,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 229,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 229,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 51,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 229,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:SV",
+              "key.usr": "s:Sxss8_PointerRzrlE1poiyxx_6StrideQztFZ"
+            },
+            {
+              "key.column": 61,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 229,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 232,
+              "key.name": "PGRingBufferConsume(_:_:)",
+              "key.usr": "c:@F@PGRingBufferConsume"
+            },
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 37,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 232,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 232,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 232,
+              "key.name": "PGRingBufferCount(_:)",
+              "key.usr": "c:@F@PGRingBufferCount"
+            },
+            {
+              "key.column": 65,
+              "key.entities": [
+                {
+                  "key.column": 65,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 232,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 232,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 73,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 232,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1poiyS2i_SitFZ"
+            },
+            {
+              "key.column": 83,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 232,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 233,
+              "key.name": "PGAppendToRingBuffer(_:_:_:)",
+              "key.usr": "c:@F@PGAppendToRingBuffer"
+            },
+            {
+              "key.column": 38,
+              "key.entities": [
+                {
+                  "key.column": 38,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 233,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 233,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 225,
+          "key.name": "append(src:length:maxLength:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC6append3src6length9maxLengthySV_S2itF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 238,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 238,
+          "key.name": "advanceReadPointer(_:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC18advanceReadPointer33_95012B0F2FE3E3964CBADB75E4BADA92LLyySiF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 246,
+              "key.name": "UnsafeBufferPointer",
+              "key.usr": "s:SR"
+            },
+            {
+              "key.column": 64,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 246,
+              "key.name": "append(src:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC6append3srcySW_tF"
+            },
+            {
+              "key.column": 76,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 246,
+              "key.name": "UnsafeRawBufferPointer",
+              "key.usr": "s:SW"
+            },
+            {
+              "key.column": 76,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 246,
+              "key.name": "init(_:)",
+              "key.usr": "s:SWySWSRyxGclufc"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 246,
+          "key.name": "append(src:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC6append3srcySRyxG_tlF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 35,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 253,
+              "key.name": "UnsafeRawBufferPointer",
+              "key.usr": "s:SW"
+            },
+            {
+              "key.column": 72,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 253,
+              "key.name": "UnsafeRawPointer",
+              "key.usr": "s:SV"
+            },
+            {
+              "key.column": 95,
+              "key.entities": [
+                {
+                  "key.column": 95,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 253,
+                  "key.receiver_usr": "s:SW",
+                  "key.usr": "s:SW11baseAddressSVSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 253,
+              "key.name": "baseAddress",
+              "key.usr": "s:SW11baseAddressSVSgvp"
+            },
+            {
+              "key.column": 109,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 253,
+              "key.name": "append(src:length:maxLength:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC6append3src6length9maxLengthySV_S2itF"
+            },
+            {
+              "key.column": 137,
+              "key.entities": [
+                {
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 253,
+                  "key.receiver_usr": "s:SW",
+                  "key.usr": "s:SW5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 253,
+              "key.name": "count",
+              "key.usr": "s:SW5countSivp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 253,
+          "key.name": "append(src:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC6append3srcySW_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 35,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 260,
+              "key.name": "Data",
+              "key.usr": "s:10Foundation4DataV"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 260,
+              "key.name": "withUnsafeBytes(_:)",
+              "key.receiver_usr": "s:10Foundation4DataV",
+              "key.usr": "s:10Foundation4DataV15withUnsafeBytesyxxSWKXEKlF"
+            },
+            {
+              "key.column": 69,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 260,
+              "key.name": "UnsafeRawBufferPointer",
+              "key.usr": "s:SW"
+            },
+            {
+              "key.column": 96,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 260,
+              "key.name": "append(src:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC6append3srcySW_tF"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 260,
+          "key.name": "append(src:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC6append3srcy10Foundation4DataV_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 269,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 269,
+              "key.name": "PGPrependByteToRingBuffer(_:_:)",
+              "key.usr": "c:@F@PGPrependByteToRingBuffer"
+            },
+            {
+              "key.column": 72,
+              "key.entities": [
+                {
+                  "key.column": 72,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 269,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 269,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 269,
+          "key.name": "prepend(byte:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC7prepend4byteys5UInt8V_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 276,
+              "key.name": "RingByteBuffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC"
+            },
+            {
+              "key.column": 54,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 276,
+              "key.name": "PGPrependRingBufferToRingBuffer(_:_:)",
+              "key.usr": "c:@F@PGPrependRingBufferToRingBuffer"
+            },
+            {
+              "key.column": 86,
+              "key.entities": [
+                {
+                  "key.column": 86,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 276,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 276,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 98,
+              "key.entities": [
+                {
+                  "key.column": 98,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 276,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 276,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 276,
+          "key.name": "prepend(src:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC7prepend3srcyAC_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 286,
+              "key.name": "UnsafeRawPointer",
+              "key.usr": "s:SV"
+            },
+            {
+              "key.column": 62,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 286,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 79,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 286,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 85,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 286,
+              "key.name": "PGPrependToRingBuffer(_:_:_:)",
+              "key.usr": "c:@F@PGPrependToRingBuffer"
+            },
+            {
+              "key.column": 107,
+              "key.entities": [
+                {
+                  "key.column": 107,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 286,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 286,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 119,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 286,
+              "key.name": "bindMemory(to:capacity:)",
+              "key.receiver_usr": "s:SV",
+              "key.usr": "s:SV10bindMemory2to8capacitySPyxGxm_SitlF"
+            },
+            {
+              "key.column": 134,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 286,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 286,
+          "key.name": "prepend(src:length:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC7prepend3src6lengthySV_SitF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 296,
+              "key.name": "UnsafePointer",
+              "key.usr": "s:SP"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 296,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 72,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 296,
+              "key.name": "prepend(src:length:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC7prepend3src6lengthySV_SitF"
+            },
+            {
+              "key.column": 85,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 296,
+              "key.name": "UnsafeRawPointer",
+              "key.usr": "s:SV"
+            },
+            {
+              "key.column": 85,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 296,
+              "key.name": "init(_:)",
+              "key.usr": "s:s8_PointerPsEyxxcfc"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 296,
+          "key.name": "prepend(src:length:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC7prepend3src6lengthySPyxG_SitlF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 304,
+              "key.name": "UnsafeRawBufferPointer",
+              "key.usr": "s:SW"
+            },
+            {
+              "key.column": 78,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 304,
+              "key.name": "UnsafeRawPointer",
+              "key.usr": "s:SV"
+            },
+            {
+              "key.column": 101,
+              "key.entities": [
+                {
+                  "key.column": 101,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 304,
+                  "key.receiver_usr": "s:SW",
+                  "key.usr": "s:SW11baseAddressSVSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 304,
+              "key.name": "baseAddress",
+              "key.usr": "s:SW11baseAddressSVSgvp"
+            },
+            {
+              "key.column": 115,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 304,
+              "key.name": "prepend(src:length:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC7prepend3src6lengthySV_SitF"
+            },
+            {
+              "key.column": 149,
+              "key.entities": [
+                {
+                  "key.column": 149,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 304,
+                  "key.receiver_usr": "s:SW",
+                  "key.usr": "s:SW5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 304,
+              "key.name": "count",
+              "key.usr": "s:SW5countSivp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 304,
+          "key.name": "prepend(src:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC7prepend3srcySW_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 312,
+              "key.name": "UnsafeBufferPointer",
+              "key.usr": "s:SR"
+            },
+            {
+              "key.column": 65,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 312,
+              "key.name": "prepend(src:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC7prepend3srcySW_tF"
+            },
+            {
+              "key.column": 78,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 312,
+              "key.name": "UnsafeRawBufferPointer",
+              "key.usr": "s:SW"
+            },
+            {
+              "key.column": 78,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 312,
+              "key.name": "init(_:)",
+              "key.usr": "s:SWySWSRyxGclufc"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 312,
+          "key.name": "prepend(src:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC7prepend3srcySRyxG_tlF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 320,
+              "key.name": "Data",
+              "key.usr": "s:10Foundation4DataV"
+            },
+            {
+              "key.column": 48,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 320,
+              "key.name": "withUnsafeBytes(_:)",
+              "key.receiver_usr": "s:10Foundation4DataV",
+              "key.usr": "s:10Foundation4DataV15withUnsafeBytesyxxSWKXEKlF"
+            },
+            {
+              "key.column": 70,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 320,
+              "key.name": "UnsafeRawBufferPointer",
+              "key.usr": "s:SW"
+            },
+            {
+              "key.column": 97,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 320,
+              "key.name": "prepend(src:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC7prepend3srcySW_tF"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 320,
+          "key.name": "prepend(src:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC7prepend3srcy10Foundation4DataV_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 328,
+              "key.name": "EasyByteBuffer",
+              "key.usr": "s:7Rubicon14EasyByteBufferC"
+            },
+            {
+              "key.column": 61,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 328,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 11,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 329,
+              "key.name": "withBytes(_:)",
+              "key.receiver_usr": "s:7Rubicon14EasyByteBufferC",
+              "key.usr": "s:7Rubicon14EasyByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF"
+            },
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 329,
+              "key.name": "UnsafePointer",
+              "key.usr": "s:SP"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 329,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 66,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 329,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 74,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 329,
+              "key.name": "Void",
+              "key.usr": "s:s4Voida"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 330,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 17,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 331,
+              "key.name": "prepend(src:length:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC7prepend3src6lengthySV_SitF"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 328,
+          "key.name": "prepend(src:reset:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC7prepend3src5resetyAA04EasycD0C_SbtF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 55,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 344,
+              "key.name": "ByteROPointer",
+              "key.usr": "s:7Rubicon13ByteROPointera"
+            },
+            {
+              "key.column": 70,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 344,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 85,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 344,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 100,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 344,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 345,
+              "key.name": "BytePointer",
+              "key.usr": "s:7Rubicon11BytePointera"
+            },
+            {
+              "key.column": 30,
+              "key.entities": [
+                {
+                  "key.column": 30,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 345,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 345,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 37,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 345,
+                  "key.receiver_usr": "s:Sp",
+                  "key.usr": "s:Sp7pointeexvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 345,
+              "key.name": "pointee",
+              "key.usr": "s:Sp7pointeexvp"
+            },
+            {
+              "key.column": 45,
+              "key.entities": [
+                {
+                  "key.column": 45,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 345,
+                  "key.receiver_usr": "c:@S@_st_pg_ringbuffer_",
+                  "key.usr": "s:So18_st_pg_ringbuffer_V6bufferSpys5UInt8VGSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 345,
+              "key.name": "buffer",
+              "key.usr": "c:@S@_st_pg_ringbuffer_@FI@buffer"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 346,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 30,
+              "key.entities": [
+                {
+                  "key.column": 30,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 346,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 346,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 37,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 346,
+                  "key.receiver_usr": "s:Sp",
+                  "key.usr": "s:Sp7pointeexvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 346,
+              "key.name": "pointee",
+              "key.usr": "s:Sp7pointeexvp"
+            },
+            {
+              "key.column": 45,
+              "key.entities": [
+                {
+                  "key.column": 45,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 346,
+                  "key.receiver_usr": "c:@S@_st_pg_ringbuffer_",
+                  "key.usr": "s:So18_st_pg_ringbuffer_V4headSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 346,
+              "key.name": "head",
+              "key.usr": "c:@S@_st_pg_ringbuffer_@FI@head"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 347,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 30,
+              "key.entities": [
+                {
+                  "key.column": 30,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 347,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 347,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 37,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 347,
+                  "key.receiver_usr": "s:Sp",
+                  "key.usr": "s:Sp7pointeexvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 347,
+              "key.name": "pointee",
+              "key.usr": "s:Sp7pointeexvp"
+            },
+            {
+              "key.column": 45,
+              "key.entities": [
+                {
+                  "key.column": 45,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 347,
+                  "key.receiver_usr": "c:@S@_st_pg_ringbuffer_",
+                  "key.usr": "s:So18_st_pg_ringbuffer_V4tailSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 347,
+              "key.name": "tail",
+              "key.usr": "c:@S@_st_pg_ringbuffer_@FI@tail"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 348,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 30,
+              "key.entities": [
+                {
+                  "key.column": 30,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 348,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 348,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 37,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 348,
+                  "key.receiver_usr": "s:Sp",
+                  "key.usr": "s:Sp7pointeexvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 348,
+              "key.name": "pointee",
+              "key.usr": "s:Sp7pointeexvp"
+            },
+            {
+              "key.column": 45,
+              "key.entities": [
+                {
+                  "key.column": 45,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 348,
+                  "key.receiver_usr": "c:@S@_st_pg_ringbuffer_",
+                  "key.usr": "s:So18_st_pg_ringbuffer_V4sizeSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 348,
+              "key.name": "size",
+              "key.usr": "c:@S@_st_pg_ringbuffer_@FI@size"
+            },
+            {
+              "key.column": 14,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 350,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 24,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 351,
+              "key.name": "forContiguousRange(buff:head:size:length:_:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC18forContiguousRange33_95012B0F2FE3E3964CBADB75E4BADA92LL4buff4head4size6length_SiSpys5UInt8VG_S4iSPyAKG_SitKXEtKF"
+            },
+            {
+              "key.column": 81,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 351,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 353,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 354,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 30,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 354,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 355,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 31,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 355,
+              "key.name": "forContiguousRange(buff:head:size:length:_:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC18forContiguousRange33_95012B0F2FE3E3964CBADB75E4BADA92LL4buff4head4size6length_SiSpys5UInt8VG_S4iSPyAKG_SitKXEtKF"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 356,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 356,
+              "key.name": "+=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2peoiyySiz_SitFZ"
+            },
+            {
+              "key.column": 36,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 356,
+              "key.name": "forContiguousRange(buff:head:size:length:_:)",
+              "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+              "key.usr": "s:7Rubicon14RingByteBufferC18forContiguousRange33_95012B0F2FE3E3964CBADB75E4BADA92LL4buff4head4size6length_SiSpys5UInt8VG_S4iSPyAKG_SitKXEtKF"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 344,
+          "key.name": "forEachContiguousRange(_:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC22forEachContiguousRangeyS2iSPys5UInt8VG_SitKXEKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows"
+            },
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 43,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 363,
+              "key.name": "BytePointer",
+              "key.usr": "s:7Rubicon11BytePointera"
+            },
+            {
+              "key.column": 62,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 363,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 73,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 363,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 86,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 363,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 100,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 363,
+              "key.name": "ByteROPointer",
+              "key.usr": "s:7Rubicon13ByteROPointera"
+            },
+            {
+              "key.column": 115,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 363,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 130,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 363,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 147,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 363,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 364,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 364,
+              "key.name": "max(_:_:)",
+              "key.usr": "s:s3maxyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 30,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 364,
+              "key.name": "min(_:_:)",
+              "key.usr": "s:s3minyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 49,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 364,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sxss8_PointerRzrlE1poiyxx_6StrideQztFZ"
+            },
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 365,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                },
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 365,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 365,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            },
+            {
+              "key.column": 16,
+              "key.entities": [
+                {
+                  "key.column": 16,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 365,
+                  "key.receiver_usr": "s:Sp",
+                  "key.usr": "s:Sp7pointeexvg"
+                },
+                {
+                  "key.column": 16,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 365,
+                  "key.receiver_usr": "s:Sp",
+                  "key.usr": "s:Sp7pointeexvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 365,
+              "key.name": "pointee",
+              "key.usr": "s:Sp7pointeexvp"
+            },
+            {
+              "key.column": 24,
+              "key.entities": [
+                {
+                  "key.column": 24,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 365,
+                  "key.receiver_usr": "c:@S@_st_pg_ringbuffer_",
+                  "key.usr": "s:So18_st_pg_ringbuffer_V4headSivs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 365,
+              "key.name": "head",
+              "key.usr": "c:@S@_st_pg_ringbuffer_@FI@head"
+            },
+            {
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 365,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1poiyS2i_SitFZ"
+            },
+            {
+              "key.column": 44,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 365,
+              "key.name": "%(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1roiyS2i_SitFZ"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 363,
+          "key.name": "forContiguousRange(buff:head:size:length:_:)",
+          "key.usr": "s:7Rubicon14RingByteBufferC18forContiguousRange33_95012B0F2FE3E3964CBADB75E4BADA92LL4buff4head4size6length_SiSpys5UInt8VG_S4iSPyAKG_SitKXEtKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 41,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 374,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 374,
+              "key.name": "PGSwapRingBufferEndian16(_:)",
+              "key.usr": "c:@F@PGSwapRingBufferEndian16"
+            },
+            {
+              "key.column": 72,
+              "key.entities": [
+                {
+                  "key.column": 72,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 374,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 374,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 374,
+          "key.name": "swapEndian16()",
+          "key.usr": "s:7Rubicon14RingByteBufferC12swapEndian16SiyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 41,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 381,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 381,
+              "key.name": "PGSwapRingBufferEndian32(_:)",
+              "key.usr": "c:@F@PGSwapRingBufferEndian32"
+            },
+            {
+              "key.column": 72,
+              "key.entities": [
+                {
+                  "key.column": 72,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 381,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 381,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 381,
+          "key.name": "swapEndian32()",
+          "key.usr": "s:7Rubicon14RingByteBufferC12swapEndian32SiyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 23,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 41,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 388,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 388,
+              "key.name": "PGSwapRingBufferEndian64(_:)",
+              "key.usr": "c:@F@PGSwapRingBufferEndian64"
+            },
+            {
+              "key.column": 72,
+              "key.entities": [
+                {
+                  "key.column": 72,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 388,
+                  "key.receiver_usr": "s:7Rubicon14RingByteBufferC",
+                  "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 388,
+              "key.name": "buffer",
+              "key.usr": "s:7Rubicon14RingByteBufferC6bufferSpySo18_st_pg_ringbuffer_VGvp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 388,
+          "key.name": "swapEndian64()",
+          "key.usr": "s:7Rubicon14RingByteBufferC12swapEndian64SiyF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.class",
+      "key.line": 43,
+      "key.name": "RingByteBuffer",
+      "key.usr": "s:7Rubicon14RingByteBufferC"
+    }
+  ]
+}

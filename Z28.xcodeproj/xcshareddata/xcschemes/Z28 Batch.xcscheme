@@ -17,7 +17,7 @@
    </BuildAction>
    <LaunchAction
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/grhodes/Projects/2020/SwiftProjects/Rubicon"
+      customWorkingDirectory = "$(SRCROOT)"
       buildConfiguration = "Debug"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
@@ -35,7 +35,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "3"
+            argument = "4"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
@@ -55,7 +55,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "Resources"
+            argument = "$(SRCROOT)/Resources"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument

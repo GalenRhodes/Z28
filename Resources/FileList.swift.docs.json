@@ -1,0 +1,1945 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 10678,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public enum FilePathError : <Type usr=\"s:s5ErrorP\">Error<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 21,
+          "key.offset": 1308
+        }
+      ],
+      "key.bodycolumn": 35,
+      "key.bodylength": 115,
+      "key.bodyline": 21,
+      "key.bodyoffset": 1342,
+      "key.column": 8,
+      "key.doc.comment": "",
+      "key.elements": [
+        {
+          "key.column": 28,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 5,
+          "key.line": 21,
+          "key.offset": 1335
+        }
+      ],
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+      "key.fully_annotated_decl": "<decl.enum><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>enum<\/syntaxtype.keyword> <decl.name>FilePathError<\/decl.name> : <ref.protocol usr=\"s:s5ErrorP\">Error<\/ref.protocol><\/decl.enum>",
+      "key.inheritedtypes": [
+        {
+          "key.name": "Error"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.enum",
+      "key.length": 143,
+      "key.line": 21,
+      "key.name": "FilePathError",
+      "key.namecolumn": 13,
+      "key.namelength": 13,
+      "key.nameline": 21,
+      "key.nameoffset": 1320,
+      "key.offset": 1315,
+      "key.parsed_declaration": "public enum FilePathError: Error",
+      "key.parsed_scope.end": 25,
+      "key.parsed_scope.start": 21,
+      "key.substructure": [
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 35,
+          "key.line": 22,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1347,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case RecursiveSymLink(path: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>RecursiveSymLink<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>path<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 30,
+              "key.line": 22,
+              "key.name": "RecursiveSymLink(path:)",
+              "key.namecolumn": 10,
+              "key.namelength": 30,
+              "key.nameline": 22,
+              "key.nameoffset": 1352,
+              "key.offset": 1352,
+              "key.parsed_declaration": "case RecursiveSymLink(path: String)",
+              "key.parsed_scope.end": 22,
+              "key.parsed_scope.start": 22,
+              "key.substructure": [
+              ],
+              "key.typename": "(FilePathError.Type) -> (String) -> FilePathError",
+              "key.typeusr": "$sy7Rubicon13FilePathErrorOSS_tcACmcD",
+              "key.usr": "s:7Rubicon13FilePathErrorO16RecursiveSymLinkyACSS_tcACmF"
+            }
+          ]
+        },
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 29,
+          "key.line": 23,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1387,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case BadSymLink(path: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>BadSymLink<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>path<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 24,
+              "key.line": 23,
+              "key.name": "BadSymLink(path:)",
+              "key.namecolumn": 10,
+              "key.namelength": 24,
+              "key.nameline": 23,
+              "key.nameoffset": 1392,
+              "key.offset": 1392,
+              "key.parsed_declaration": "case BadSymLink(path: String)",
+              "key.parsed_scope.end": 23,
+              "key.parsed_scope.start": 23,
+              "key.substructure": [
+              ],
+              "key.typename": "(FilePathError.Type) -> (String) -> FilePathError",
+              "key.typeusr": "$sy7Rubicon13FilePathErrorOSS_tcACmcD",
+              "key.usr": "s:7Rubicon13FilePathErrorO10BadSymLinkyACSS_tcACmF"
+            }
+          ]
+        },
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 35,
+          "key.line": 24,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1421,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case FilenameEncoding(path: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>FilenameEncoding<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>path<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 30,
+              "key.line": 24,
+              "key.name": "FilenameEncoding(path:)",
+              "key.namecolumn": 10,
+              "key.namelength": 30,
+              "key.nameline": 24,
+              "key.nameoffset": 1426,
+              "key.offset": 1426,
+              "key.parsed_declaration": "case FilenameEncoding(path: String)",
+              "key.parsed_scope.end": 24,
+              "key.parsed_scope.start": 24,
+              "key.substructure": [
+              ],
+              "key.typename": "(FilePathError.Type) -> (String) -> FilePathError",
+              "key.typeusr": "$sy7Rubicon13FilePathErrorOSS_tcACmcD",
+              "key.usr": "s:7Rubicon13FilePathErrorO16FilenameEncodingyACSS_tcACmF"
+            }
+          ]
+        }
+      ],
+      "key.typename": "FilePathError.Type",
+      "key.typeusr": "$s7Rubicon13FilePathErrorOmD",
+      "key.usr": "s:7Rubicon13FilePathErrorO"
+    },
+    {
+      "key.annotated_decl": "<Declaration>@frozen struct Dictionary&lt;Key, Value&gt; where <Type usr=\"s:SD3Keyxmfp\">Key<\/Type> : <Type usr=\"s:SH\">Hashable<\/Type><\/Declaration>",
+      "key.bodycolumn": 67,
+      "key.bodylength": 2711,
+      "key.bodyline": 27,
+      "key.bodyoffset": 1526,
+      "key.column": 1,
+      "key.doc.declaration": "@frozen struct Dictionary<Key, Value> where Key : Hashable",
+      "key.doc.discussion": [
+        {
+          "Para": "A dictionary is a type of hash table, providing fast access to the entries it contains. Each entry in the table is identified using its key, which is a hashable type such as a string or number. You use that key to retrieve the corresponding value, which can be any object. In other languages, similar data types are known as hashes or associated arrays."
+        },
+        {
+          "Para": "Create a new dictionary by using a dictionary literal. A dictionary literal is a comma-separated list of key-value pairs, in which a colon separates each key from its associated value, surrounded by square brackets. You can assign a dictionary literal to a variable or constant or pass it to a function that expects a dictionary."
+        },
+        {
+          "Para": "Here’s how you would create a dictionary of HTTP response codes and their related messages:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "The `responseMessages` variable is inferred to have type `[Int: String]`. The `Key` type of the dictionary is `Int`, and the `Value` type of the dictionary is `String`."
+        },
+        {
+          "Para": "To create a dictionary with no key-value pairs, use an empty dictionary literal (`[:]`)."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Any type that conforms to the `Hashable` protocol can be used as a dictionary’s `Key` type, including all of Swift’s basic types. You can use your own custom types as dictionary keys by making them conform to the `Hashable` protocol."
+        },
+        {
+          "Para": "The most common way to access values in a dictionary is to use a key as a subscript. Subscripting with a key takes the following form:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Subscripting a dictionary with a key returns an optional value, because a dictionary might not hold a value for the key that you use in the subscript."
+        },
+        {
+          "Para": "The next example uses key-based subscripting of the `responseMessages` dictionary with two keys that exist in the dictionary and one that does not."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You can also update, modify, or remove keys and values from a dictionary using the key-based subscript. To add a new key-value pair, assign a value to a key that isn’t yet a part of the dictionary."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Update an existing value by assigning a new value to a key that already exists in the dictionary. If you assign `nil` to an existing key, the key and its associated value are removed. The following example updates the value for the `404` code to be simply “Not found” and removes the key-value pair for the `500` code entirely."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "In a mutable `Dictionary` instance, you can modify in place a value that you’ve accessed through a keyed subscript. The code sample below declares a dictionary called `interestingNumbers` with string keys and values that are integer arrays, then sorts each array in-place in descending order."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Every dictionary is an unordered collection of key-value pairs. You can iterate over a dictionary using a `for`-`in` loop, decomposing each key-value pair into the elements of a tuple."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "The order of key-value pairs in a dictionary is stable between mutations but is otherwise unpredictable. If you need an ordered collection of key-value pairs and don’t need the fast key lookup that `Dictionary` provides, see the `KeyValuePairs` type for an alternative."
+        },
+        {
+          "Para": "You can search a dictionary’s contents for a particular value using the `contains(where:)` or `firstIndex(where:)` methods supplied by default implementation. The following example checks to see if `imagePaths` contains any paths in the `\"\/glyphs\"` directory:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Note that in this example, `imagePaths` is subscripted using a dictionary index. Unlike the key-based subscript, the index-based subscript returns the corresponding key-value pair as a non-optional tuple."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "A dictionary’s indices stay valid across additions to the dictionary as long as the dictionary has enough capacity to store the added values without allocating more buffer. When a dictionary outgrows its buffer, existing indices may be invalidated without any notification."
+        },
+        {
+          "Para": "When you know how many new values you’re adding to a dictionary, use the `init(minimumCapacity:)` initializer to allocate the correct amount of buffer."
+        },
+        {
+          "Para": "You can bridge between `Dictionary` and `NSDictionary` using the `as` operator. For bridging to be possible, the `Key` and `Value` types of a dictionary must be classes, `@objc` protocols, or types that bridge to Foundation types."
+        },
+        {
+          "Para": "Bridging from `Dictionary` to `NSDictionary` always takes O(1) time and space. When the dictionary’s `Key` and `Value` types are neither classes nor `@objc` protocols, any required bridging of elements occurs at the first access of each element. For this reason, the first operation that uses the contents of the dictionary may take O()."
+        },
+        {
+          "Para": "Bridging from `NSDictionary` to `Dictionary` first calls the `copy(with:)` method (`- copyWithZone:` in Objective-C) on the dictionary to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of `NSDictionary` that are already immutable, `copy(with:)` usually returns the same dictionary in O(1) time; otherwise, the copying performance is unspecified. The instances of `NSDictionary` and `Dictionary` share buffer using the same copy-on-write optimization that is used when two instances of `Dictionary` share buffer."
+        }
+      ],
+      "key.doc.full_as_xml": "<Class><Name>Dictionary<\/Name><USR>s:SD<\/USR><Declaration>@frozen struct Dictionary&lt;Key, Value&gt; where Key : Hashable<\/Declaration><CommentParts><Abstract><Para>A collection whose elements are key-value pairs.<\/Para><\/Abstract><Discussion><Para>A dictionary is a type of hash table, providing fast access to the entries it contains. Each entry in the table is identified using its key, which is a hashable type such as a string or number. You use that key to retrieve the corresponding value, which can be any object. In other languages, similar data types are known as hashes or associated arrays.<\/Para><Para>Create a new dictionary by using a dictionary literal. A dictionary literal is a comma-separated list of key-value pairs, in which a colon separates each key from its associated value, surrounded by square brackets. You can assign a dictionary literal to a variable or constant or pass it to a function that expects a dictionary.<\/Para><Para>Here’s how you would create a dictionary of HTTP response codes and their related messages:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var responseMessages = [200: \"OK\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                        403: \"Access forbidden\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                        404: \"File not found\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                        500: \"Internal server error\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The <codeVoice>responseMessages<\/codeVoice> variable is inferred to have type <codeVoice>[Int: String]<\/codeVoice>. The <codeVoice>Key<\/codeVoice> type of the dictionary is <codeVoice>Int<\/codeVoice>, and the <codeVoice>Value<\/codeVoice> type of the dictionary is <codeVoice>String<\/codeVoice>.<\/Para><Para>To create a dictionary with no key-value pairs, use an empty dictionary literal (<codeVoice>[:]<\/codeVoice>).<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var emptyDict: [String: String] = [:]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Any type that conforms to the <codeVoice>Hashable<\/codeVoice> protocol can be used as a dictionary’s <codeVoice>Key<\/codeVoice> type, including all of Swift’s basic types. You can use your own custom types as dictionary keys by making them conform to the <codeVoice>Hashable<\/codeVoice> protocol.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Getting and Setting Dictionary Values<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>The most common way to access values in a dictionary is to use a key as a subscript. Subscripting with a key takes the following form:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(responseMessages[200])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Optional(\"OK\")\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Subscripting a dictionary with a key returns an optional value, because a dictionary might not hold a value for the key that you use in the subscript.<\/Para><Para>The next example uses key-based subscripting of the <codeVoice>responseMessages<\/codeVoice> dictionary with two keys that exist in the dictionary and one that does not.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let httpResponseCodes = [200, 403, 301]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[for code in httpResponseCodes {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    if let message = responseMessages[code] {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"Response \\(code): \\(message)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    } else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"Unknown response \\(code)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    }]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Response 200: OK\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Response 403: Access forbidden\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Unknown response 301\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can also update, modify, or remove keys and values from a dictionary using the key-based subscript. To add a new key-value pair, assign a value to a key that isn’t yet a part of the dictionary.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[responseMessages[301] = \"Moved permanently\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(responseMessages[301])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Optional(\"Moved permanently\")\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Update an existing value by assigning a new value to a key that already exists in the dictionary. If you assign <codeVoice>nil<\/codeVoice> to an existing key, the key and its associated value are removed. The following example updates the value for the <codeVoice>404<\/codeVoice> code to be simply “Not found” and removes the key-value pair for the <codeVoice>500<\/codeVoice> code entirely.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[responseMessages[404] = \"Not found\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[responseMessages[500] = nil]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(responseMessages)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[301: \"Moved permanently\", 200: \"OK\", 403: \"Access forbidden\", 404: \"Not found\"]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>In a mutable <codeVoice>Dictionary<\/codeVoice> instance, you can modify in place a value that you’ve accessed through a keyed subscript. The code sample below declares a dictionary called <codeVoice>interestingNumbers<\/codeVoice> with string keys and values that are integer arrays, then sorts each array in-place in descending order.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var interestingNumbers = [\"primes\": [2, 3, 5, 7, 11, 13, 17],]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                          \"triangular\": [1, 3, 6, 10, 15, 21, 28],]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                          \"hexagonal\": [1, 6, 15, 28, 45, 66, 91]]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[for key in interestingNumbers.keys {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    interestingNumbers[key]?.sort(by: >)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(interestingNumbers[\"primes\"]!)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[17, 13, 11, 7, 5, 3, 2]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Iterating Over the Contents of a Dictionary<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Every dictionary is an unordered collection of key-value pairs. You can iterate over a dictionary using a <codeVoice>for<\/codeVoice>-<codeVoice>in<\/codeVoice> loop, decomposing each key-value pair into the elements of a tuple.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let imagePaths = [\"star\": \"\/glyphs\/star.png\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                  \"portrait\": \"\/images\/content\/portrait.jpg\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                  \"spacer\": \"\/images\/shared\/spacer.gif\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[for (name, path) in imagePaths {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"The path to '\\(name)' is '\\(path)'.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The path to 'star' is '\/glyphs\/star.png'.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The path to 'portrait' is '\/images\/content\/portrait.jpg'.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The path to 'spacer' is '\/images\/shared\/spacer.gif'.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The order of key-value pairs in a dictionary is stable between mutations but is otherwise unpredictable. If you need an ordered collection of key-value pairs and don’t need the fast key lookup that <codeVoice>Dictionary<\/codeVoice> provides, see the <codeVoice>KeyValuePairs<\/codeVoice> type for an alternative.<\/Para><Para>You can search a dictionary’s contents for a particular value using the <codeVoice>contains(where:)<\/codeVoice> or <codeVoice>firstIndex(where:)<\/codeVoice> methods supplied by default implementation. The following example checks to see if <codeVoice>imagePaths<\/codeVoice> contains any paths in the <codeVoice>&quot;\/glyphs&quot;<\/codeVoice> directory:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let glyphIndex = imagePaths.firstIndex(where: { $0.value.hasPrefix(\"\/glyphs\") })]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if let index = glyphIndex {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"The '\\(imagePaths[index].key)' image is a glyph.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"No glyphs found!\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The 'star' image is a glyph.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Note that in this example, <codeVoice>imagePaths<\/codeVoice> is subscripted using a dictionary index. Unlike the key-based subscript, the index-based subscript returns the corresponding key-value pair as a non-optional tuple.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(imagePaths[glyphIndex!])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"(key: \"star\", value: \"\/glyphs\/star.png\")\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>A dictionary’s indices stay valid across additions to the dictionary as long as the dictionary has enough capacity to store the added values without allocating more buffer. When a dictionary outgrows its buffer, existing indices may be invalidated without any notification.<\/Para><Para>When you know how many new values you’re adding to a dictionary, use the <codeVoice>init(minimumCapacity:)<\/codeVoice> initializer to allocate the correct amount of buffer.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Bridging Between Dictionary and NSDictionary<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>You can bridge between <codeVoice>Dictionary<\/codeVoice> and <codeVoice>NSDictionary<\/codeVoice> using the <codeVoice>as<\/codeVoice> operator. For bridging to be possible, the <codeVoice>Key<\/codeVoice> and <codeVoice>Value<\/codeVoice> types of a dictionary must be classes, <codeVoice>@objc<\/codeVoice> protocols, or types that bridge to Foundation types.<\/Para><Para>Bridging from <codeVoice>Dictionary<\/codeVoice> to <codeVoice>NSDictionary<\/codeVoice> always takes O(1) time and space. When the dictionary’s <codeVoice>Key<\/codeVoice> and <codeVoice>Value<\/codeVoice> types are neither classes nor <codeVoice>@objc<\/codeVoice> protocols, any required bridging of elements occurs at the first access of each element. For this reason, the first operation that uses the contents of the dictionary may take O(<emphasis>n<\/emphasis>).<\/Para><Para>Bridging from <codeVoice>NSDictionary<\/codeVoice> to <codeVoice>Dictionary<\/codeVoice> first calls the <codeVoice>copy(with:)<\/codeVoice> method (<codeVoice>- copyWithZone:<\/codeVoice> in Objective-C) on the dictionary to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of <codeVoice>NSDictionary<\/codeVoice> that are already immutable, <codeVoice>copy(with:)<\/codeVoice> usually returns the same dictionary in O(1) time; otherwise, the copying performance is unspecified. The instances of <codeVoice>NSDictionary<\/codeVoice> and <codeVoice>Dictionary<\/codeVoice> share buffer using the same copy-on-write optimization that is used when two instances of <codeVoice>Dictionary<\/codeVoice> share buffer.<\/Para><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name": "Dictionary",
+      "key.doc.type": "Class",
+      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Dictionary<\/decl.name>&lt;<decl.generic_type_param usr=\"s:SD3Keyxmfp\"><decl.generic_type_param.name>Key<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:SD5Valueq_mfp\"><decl.generic_type_param.name>Value<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:SD3Keyxmfp\">Key<\/ref.generic_type_param> : <ref.protocol usr=\"s:SH\">Hashable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.struct>",
+      "key.groupname": "Collection\/HashedCollections",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 2778,
+      "key.line": 27,
+      "key.modulename": "Swift",
+      "key.name": "Dictionary",
+      "key.namecolumn": 11,
+      "key.namelength": 10,
+      "key.nameline": 27,
+      "key.nameoffset": 1470,
+      "key.offset": 1460,
+      "key.parsed_declaration": "extension Dictionary where Key == FileAttributeKey, Value == Any",
+      "key.parsed_scope.end": 57,
+      "key.parsed_scope.start": 27,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileCreationDate: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>? { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 29,
+              "key.offset": 1549
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 29,
+              "key.offset": 1538
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 29,
+          "key.bodyoffset": 1606,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileCreationDate<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 29,
+          "key.name": "fileCreationDate",
+          "key.namecolumn": 27,
+          "key.namelength": 16,
+          "key.nameline": 29,
+          "key.nameoffset": 1560,
+          "key.offset": 1556,
+          "key.parsed_declaration": "@inlinable public var fileCreationDate:          Date?",
+          "key.parsed_scope.end": 29,
+          "key.parsed_scope.start": 29,
+          "key.typename": "Date?",
+          "key.typeusr": "$s10Foundation4DateVSgD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileCreationDate10Foundation0G0VSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileExtensionHidden: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 30,
+              "key.offset": 1675
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 30,
+              "key.offset": 1664
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 30,
+          "key.bodyoffset": 1732,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileExtensionHidden<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 30,
+          "key.name": "fileExtensionHidden",
+          "key.namecolumn": 27,
+          "key.namelength": 19,
+          "key.nameline": 30,
+          "key.nameoffset": 1686,
+          "key.offset": 1682,
+          "key.parsed_declaration": "@inlinable public var fileExtensionHidden:       Bool",
+          "key.parsed_scope.end": 30,
+          "key.parsed_scope.start": 30,
+          "key.typename": "Bool",
+          "key.typeusr": "$sSbD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE19fileExtensionHiddenSbvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileGroupOwnerAccountID: <Type usr=\"c:objc(cs)NSNumber\">NSNumber<\/Type>? { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 31,
+              "key.offset": 1801
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 31,
+              "key.offset": 1790
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 31,
+          "key.bodyoffset": 1858,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileGroupOwnerAccountID<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSNumber\">NSNumber<\/ref.class>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 31,
+          "key.name": "fileGroupOwnerAccountID",
+          "key.namecolumn": 27,
+          "key.namelength": 23,
+          "key.nameline": 31,
+          "key.nameoffset": 1812,
+          "key.offset": 1808,
+          "key.parsed_declaration": "@inlinable public var fileGroupOwnerAccountID:   NSNumber?",
+          "key.parsed_scope.end": 31,
+          "key.parsed_scope.start": 31,
+          "key.typename": "NSNumber?",
+          "key.typeusr": "$sSo8NSNumberCSgD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE23fileGroupOwnerAccountIDSo8NSNumberCSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileGroupOwnerAccountName: <Type usr=\"s:SS\">String<\/Type>? { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 32,
+              "key.offset": 1927
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 32,
+              "key.offset": 1916
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 32,
+          "key.bodyoffset": 1984,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileGroupOwnerAccountName<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 32,
+          "key.name": "fileGroupOwnerAccountName",
+          "key.namecolumn": 27,
+          "key.namelength": 25,
+          "key.nameline": 32,
+          "key.nameoffset": 1938,
+          "key.offset": 1934,
+          "key.parsed_declaration": "@inlinable public var fileGroupOwnerAccountName: String?",
+          "key.parsed_scope.end": 32,
+          "key.parsed_scope.start": 32,
+          "key.typename": "String?",
+          "key.typeusr": "$sSSSgD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE25fileGroupOwnerAccountNameSSSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileHFSCreatorCode: <Type usr=\"c:@T@OSType\">OSType<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 33,
+              "key.offset": 2053
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 33,
+              "key.offset": 2042
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 33,
+          "key.bodyoffset": 2110,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileHFSCreatorCode<\/decl.name>: <decl.var.type><ref.typealias usr=\"c:@T@OSType\">OSType<\/ref.typealias><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 33,
+          "key.name": "fileHFSCreatorCode",
+          "key.namecolumn": 27,
+          "key.namelength": 18,
+          "key.nameline": 33,
+          "key.nameoffset": 2064,
+          "key.offset": 2060,
+          "key.parsed_declaration": "@inlinable public var fileHFSCreatorCode:        OSType",
+          "key.parsed_scope.end": 33,
+          "key.parsed_scope.start": 33,
+          "key.typename": "UInt32",
+          "key.typeusr": "$ss6UInt32VD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileHFSCreatorCodes6UInt32Vvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileHFSTypeCode: <Type usr=\"c:@T@OSType\">OSType<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 34,
+              "key.offset": 2179
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 34,
+              "key.offset": 2168
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 34,
+          "key.bodyoffset": 2236,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileHFSTypeCode<\/decl.name>: <decl.var.type><ref.typealias usr=\"c:@T@OSType\">OSType<\/ref.typealias><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 34,
+          "key.name": "fileHFSTypeCode",
+          "key.namecolumn": 27,
+          "key.namelength": 15,
+          "key.nameline": 34,
+          "key.nameoffset": 2190,
+          "key.offset": 2186,
+          "key.parsed_declaration": "@inlinable public var fileHFSTypeCode:           OSType",
+          "key.parsed_scope.end": 34,
+          "key.parsed_scope.start": 34,
+          "key.typename": "UInt32",
+          "key.typeusr": "$ss6UInt32VD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileHFSTypeCodes6UInt32Vvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileIsAppendOnly: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 35,
+              "key.offset": 2305
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 35,
+              "key.offset": 2294
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 35,
+          "key.bodyoffset": 2362,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileIsAppendOnly<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 35,
+          "key.name": "fileIsAppendOnly",
+          "key.namecolumn": 27,
+          "key.namelength": 16,
+          "key.nameline": 35,
+          "key.nameoffset": 2316,
+          "key.offset": 2312,
+          "key.parsed_declaration": "@inlinable public var fileIsAppendOnly:          Bool",
+          "key.parsed_scope.end": 35,
+          "key.parsed_scope.start": 35,
+          "key.typename": "Bool",
+          "key.typeusr": "$sSbD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileIsAppendOnlySbvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileIsImmutable: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 36,
+              "key.offset": 2431
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 36,
+              "key.offset": 2420
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 36,
+          "key.bodyoffset": 2488,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileIsImmutable<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 36,
+          "key.name": "fileIsImmutable",
+          "key.namecolumn": 27,
+          "key.namelength": 15,
+          "key.nameline": 36,
+          "key.nameoffset": 2442,
+          "key.offset": 2438,
+          "key.parsed_declaration": "@inlinable public var fileIsImmutable:           Bool",
+          "key.parsed_scope.end": 36,
+          "key.parsed_scope.start": 36,
+          "key.typename": "Bool",
+          "key.typeusr": "$sSbD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileIsImmutableSbvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileModificationDate: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>? { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 37,
+              "key.offset": 2557
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 37,
+              "key.offset": 2546
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 37,
+          "key.bodyoffset": 2614,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileModificationDate<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 37,
+          "key.name": "fileModificationDate",
+          "key.namecolumn": 27,
+          "key.namelength": 20,
+          "key.nameline": 37,
+          "key.nameoffset": 2568,
+          "key.offset": 2564,
+          "key.parsed_declaration": "@inlinable public var fileModificationDate:      Date?",
+          "key.parsed_scope.end": 37,
+          "key.parsed_scope.start": 37,
+          "key.typename": "Date?",
+          "key.typeusr": "$s10Foundation4DateVSgD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileModificationDate10Foundation0G0VSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileOwnerAccountID: <Type usr=\"c:objc(cs)NSNumber\">NSNumber<\/Type>? { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 38,
+              "key.offset": 2683
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 38,
+              "key.offset": 2672
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 38,
+          "key.bodyoffset": 2740,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileOwnerAccountID<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSNumber\">NSNumber<\/ref.class>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 38,
+          "key.name": "fileOwnerAccountID",
+          "key.namecolumn": 27,
+          "key.namelength": 18,
+          "key.nameline": 38,
+          "key.nameoffset": 2694,
+          "key.offset": 2690,
+          "key.parsed_declaration": "@inlinable public var fileOwnerAccountID:        NSNumber?",
+          "key.parsed_scope.end": 38,
+          "key.parsed_scope.start": 38,
+          "key.typename": "NSNumber?",
+          "key.typeusr": "$sSo8NSNumberCSgD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileOwnerAccountIDSo8NSNumberCSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileOwnerAccountName: <Type usr=\"s:SS\">String<\/Type>? { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 39,
+              "key.offset": 2809
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 39,
+              "key.offset": 2798
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 39,
+          "key.bodyoffset": 2866,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileOwnerAccountName<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 39,
+          "key.name": "fileOwnerAccountName",
+          "key.namecolumn": 27,
+          "key.namelength": 20,
+          "key.nameline": 39,
+          "key.nameoffset": 2820,
+          "key.offset": 2816,
+          "key.parsed_declaration": "@inlinable public var fileOwnerAccountName:      String?",
+          "key.parsed_scope.end": 39,
+          "key.parsed_scope.start": 39,
+          "key.typename": "String?",
+          "key.typeusr": "$sSSSgD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileOwnerAccountNameSSSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var filePosixPermissions: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 40,
+              "key.offset": 2935
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 40,
+              "key.offset": 2924
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 40,
+          "key.bodyoffset": 2992,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>filePosixPermissions<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 40,
+          "key.name": "filePosixPermissions",
+          "key.namecolumn": 27,
+          "key.namelength": 20,
+          "key.nameline": 40,
+          "key.nameoffset": 2946,
+          "key.offset": 2942,
+          "key.parsed_declaration": "@inlinable public var filePosixPermissions:      Int",
+          "key.parsed_scope.end": 40,
+          "key.parsed_scope.start": 40,
+          "key.typename": "Int",
+          "key.typeusr": "$sSiD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20filePosixPermissionsSivp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileSize: <Type usr=\"s:s6UInt64V\">UInt64<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 41,
+              "key.offset": 3061
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 41,
+              "key.offset": 3050
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 41,
+          "key.bodyoffset": 3118,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileSize<\/decl.name>: <decl.var.type><ref.struct usr=\"s:s6UInt64V\">UInt64<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 41,
+          "key.name": "fileSize",
+          "key.namecolumn": 27,
+          "key.namelength": 8,
+          "key.nameline": 41,
+          "key.nameoffset": 3072,
+          "key.offset": 3068,
+          "key.parsed_declaration": "@inlinable public var fileSize:                  UInt64",
+          "key.parsed_scope.end": 41,
+          "key.parsed_scope.start": 41,
+          "key.typename": "UInt64",
+          "key.typeusr": "$ss6UInt64VD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileSizes6UInt64Vvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileSystemFileNumber: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 42,
+              "key.offset": 3187
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 42,
+              "key.offset": 3176
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 42,
+          "key.bodyoffset": 3244,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileSystemFileNumber<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 42,
+          "key.name": "fileSystemFileNumber",
+          "key.namecolumn": 27,
+          "key.namelength": 20,
+          "key.nameline": 42,
+          "key.nameoffset": 3198,
+          "key.offset": 3194,
+          "key.parsed_declaration": "@inlinable public var fileSystemFileNumber:      Int",
+          "key.parsed_scope.end": 42,
+          "key.parsed_scope.start": 42,
+          "key.typename": "Int",
+          "key.typeusr": "$sSiD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileSystemFileNumberSivp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileSystemNumber: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 43,
+              "key.offset": 3313
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 43,
+              "key.offset": 3302
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 52,
+          "key.bodyline": 43,
+          "key.bodyoffset": 3370,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileSystemNumber<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 43,
+          "key.name": "fileSystemNumber",
+          "key.namecolumn": 27,
+          "key.namelength": 16,
+          "key.nameline": 43,
+          "key.nameoffset": 3324,
+          "key.offset": 3320,
+          "key.parsed_declaration": "@inlinable public var fileSystemNumber:          Int",
+          "key.parsed_scope.end": 43,
+          "key.parsed_scope.start": 43,
+          "key.typename": "Int",
+          "key.typeusr": "$sSiD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileSystemNumberSivp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var fileType: <Type usr=\"c:@T@NSFileAttributeType\">FileAttributeType<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 44,
+              "key.offset": 3439
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 44,
+              "key.offset": 3428
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 732,
+          "key.bodyline": 44,
+          "key.bodyoffset": 3496,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fileType<\/decl.name>: <decl.var.type><ref.struct usr=\"c:@T@NSFileAttributeType\">FileAttributeType<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 783,
+          "key.line": 44,
+          "key.name": "fileType",
+          "key.namecolumn": 27,
+          "key.namelength": 8,
+          "key.nameline": 44,
+          "key.nameoffset": 3450,
+          "key.offset": 3446,
+          "key.parsed_declaration": "@inlinable public var fileType:                  FileAttributeType",
+          "key.parsed_scope.end": 55,
+          "key.parsed_scope.start": 44,
+          "key.typename": "FileAttributeType",
+          "key.typeusr": "$sSo19NSFileAttributeTypeaD",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avp"
+        }
+      ],
+      "key.typename": "Dictionary<Key, Value>.Type",
+      "key.typeusr": "$sSDyxq_GmD",
+      "key.usr": "s:SD"
+    },
+    {
+      "key.annotated_decl": "<Declaration>class FileManager : <Type usr=\"c:objc(cs)NSObject\">NSObject<\/Type><\/Declaration>",
+      "key.bodycolumn": 24,
+      "key.bodylength": 6413,
+      "key.bodyline": 59,
+      "key.bodyoffset": 4263,
+      "key.column": 1,
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Headers\/NSFileManager.h",
+      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>FileManager<\/decl.name> : <ref.class usr=\"c:objc(cs)NSObject\">NSObject<\/ref.class><\/decl.class>",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 6437,
+      "key.line": 59,
+      "key.modulename": "Foundation.NSFileManager",
+      "key.name": "FileManager",
+      "key.namecolumn": 11,
+      "key.namelength": 11,
+      "key.nameline": 59,
+      "key.nameoffset": 4250,
+      "key.offset": 4240,
+      "key.parsed_declaration": "extension FileManager",
+      "key.parsed_scope.end": 141,
+      "key.parsed_scope.start": 59,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileCreationDate(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:10Foundation4DateV\">Date<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 62,
+              "key.offset": 4287
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 62,
+              "key.offset": 4276
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 62,
+          "key.bodyoffset": 4370,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileCreationDate<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 62,
+          "key.name": "fileCreationDate(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 32,
+          "key.nameline": 62,
+          "key.nameoffset": 4299,
+          "key.offset": 4294,
+          "key.parsed_declaration": "@inlinable public func fileCreationDate(atPath: String)          throws -> Date?",
+          "key.parsed_scope.end": 62,
+          "key.parsed_scope.start": 62,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> Date?",
+          "key.typeusr": "$s6atPath10Foundation4DateVSgSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE16fileCreationDate6atPath10Foundation0F0VSgSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileExtensionHidden(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 63,
+              "key.offset": 4451
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 63,
+              "key.offset": 4440
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 63,
+          "key.bodyoffset": 4534,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileExtensionHidden<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 63,
+          "key.name": "fileExtensionHidden(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 35,
+          "key.nameline": 63,
+          "key.nameoffset": 4463,
+          "key.offset": 4458,
+          "key.parsed_declaration": "@inlinable public func fileExtensionHidden(atPath: String)       throws -> Bool",
+          "key.parsed_scope.end": 63,
+          "key.parsed_scope.start": 63,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> Bool",
+          "key.typeusr": "$s6atPathSbSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE19fileExtensionHidden6atPathSbSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileGroupOwnerAccountID(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"c:objc(cs)NSNumber\">NSNumber<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 64,
+              "key.offset": 4615
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 64,
+              "key.offset": 4604
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 64,
+          "key.bodyoffset": 4698,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileGroupOwnerAccountID<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.class usr=\"c:objc(cs)NSNumber\">NSNumber<\/ref.class>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 64,
+          "key.name": "fileGroupOwnerAccountID(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 39,
+          "key.nameline": 64,
+          "key.nameoffset": 4627,
+          "key.offset": 4622,
+          "key.parsed_declaration": "@inlinable public func fileGroupOwnerAccountID(atPath: String)   throws -> NSNumber?",
+          "key.parsed_scope.end": 64,
+          "key.parsed_scope.start": 64,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> NSNumber?",
+          "key.typeusr": "$s6atPathSo8NSNumberCSgSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE23fileGroupOwnerAccountID6atPathSo8NSNumberCSgSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileGroupOwnerAccountName(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:SS\">String<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 65,
+              "key.offset": 4779
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 65,
+              "key.offset": 4768
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 65,
+          "key.bodyoffset": 4862,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileGroupOwnerAccountName<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 65,
+          "key.name": "fileGroupOwnerAccountName(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 41,
+          "key.nameline": 65,
+          "key.nameoffset": 4791,
+          "key.offset": 4786,
+          "key.parsed_declaration": "@inlinable public func fileGroupOwnerAccountName(atPath: String) throws -> String?",
+          "key.parsed_scope.end": 65,
+          "key.parsed_scope.start": 65,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> String?",
+          "key.typeusr": "$s6atPathSSSgSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE25fileGroupOwnerAccountName6atPathSSSgSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileHFSCreatorCode(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"c:@T@OSType\">OSType<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 66,
+              "key.offset": 4943
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 66,
+              "key.offset": 4932
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 66,
+          "key.bodyoffset": 5026,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileHFSCreatorCode<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.typealias usr=\"c:@T@OSType\">OSType<\/ref.typealias><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 66,
+          "key.name": "fileHFSCreatorCode(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 34,
+          "key.nameline": 66,
+          "key.nameoffset": 4955,
+          "key.offset": 4950,
+          "key.parsed_declaration": "@inlinable public func fileHFSCreatorCode(atPath: String)        throws -> OSType",
+          "key.parsed_scope.end": 66,
+          "key.parsed_scope.start": 66,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> UInt32",
+          "key.typeusr": "$s6atPaths6UInt32VSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE18fileHFSCreatorCode6atPaths6UInt32VSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileHFSTypeCode(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"c:@T@OSType\">OSType<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 67,
+              "key.offset": 5107
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 67,
+              "key.offset": 5096
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 67,
+          "key.bodyoffset": 5190,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileHFSTypeCode<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.typealias usr=\"c:@T@OSType\">OSType<\/ref.typealias><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 67,
+          "key.name": "fileHFSTypeCode(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 31,
+          "key.nameline": 67,
+          "key.nameoffset": 5119,
+          "key.offset": 5114,
+          "key.parsed_declaration": "@inlinable public func fileHFSTypeCode(atPath: String)           throws -> OSType",
+          "key.parsed_scope.end": 67,
+          "key.parsed_scope.start": 67,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> UInt32",
+          "key.typeusr": "$s6atPaths6UInt32VSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE15fileHFSTypeCode6atPaths6UInt32VSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileIsAppendOnly(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 68,
+              "key.offset": 5271
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 68,
+              "key.offset": 5260
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 68,
+          "key.bodyoffset": 5354,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileIsAppendOnly<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 68,
+          "key.name": "fileIsAppendOnly(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 32,
+          "key.nameline": 68,
+          "key.nameoffset": 5283,
+          "key.offset": 5278,
+          "key.parsed_declaration": "@inlinable public func fileIsAppendOnly(atPath: String)          throws -> Bool",
+          "key.parsed_scope.end": 68,
+          "key.parsed_scope.start": 68,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> Bool",
+          "key.typeusr": "$s6atPathSbSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE16fileIsAppendOnly6atPathSbSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileIsImmutable(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 69,
+              "key.offset": 5435
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 69,
+              "key.offset": 5424
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 69,
+          "key.bodyoffset": 5518,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileIsImmutable<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 69,
+          "key.name": "fileIsImmutable(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 31,
+          "key.nameline": 69,
+          "key.nameoffset": 5447,
+          "key.offset": 5442,
+          "key.parsed_declaration": "@inlinable public func fileIsImmutable(atPath: String)           throws -> Bool",
+          "key.parsed_scope.end": 69,
+          "key.parsed_scope.start": 69,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> Bool",
+          "key.typeusr": "$s6atPathSbSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE15fileIsImmutable6atPathSbSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileModificationDate(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:10Foundation4DateV\">Date<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 70,
+              "key.offset": 5599
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 70,
+              "key.offset": 5588
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 70,
+          "key.bodyoffset": 5682,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileModificationDate<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 70,
+          "key.name": "fileModificationDate(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 36,
+          "key.nameline": 70,
+          "key.nameoffset": 5611,
+          "key.offset": 5606,
+          "key.parsed_declaration": "@inlinable public func fileModificationDate(atPath: String)      throws -> Date?",
+          "key.parsed_scope.end": 70,
+          "key.parsed_scope.start": 70,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> Date?",
+          "key.typeusr": "$s6atPath10Foundation4DateVSgSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE20fileModificationDate6atPath10Foundation0F0VSgSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileOwnerAccountID(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"c:objc(cs)NSNumber\">NSNumber<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 71,
+              "key.offset": 5763
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 71,
+              "key.offset": 5752
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 71,
+          "key.bodyoffset": 5846,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileOwnerAccountID<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.class usr=\"c:objc(cs)NSNumber\">NSNumber<\/ref.class>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 71,
+          "key.name": "fileOwnerAccountID(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 34,
+          "key.nameline": 71,
+          "key.nameoffset": 5775,
+          "key.offset": 5770,
+          "key.parsed_declaration": "@inlinable public func fileOwnerAccountID(atPath: String)        throws -> NSNumber?",
+          "key.parsed_scope.end": 71,
+          "key.parsed_scope.start": 71,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> NSNumber?",
+          "key.typeusr": "$s6atPathSo8NSNumberCSgSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE18fileOwnerAccountID6atPathSo8NSNumberCSgSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileOwnerAccountName(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:SS\">String<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 72,
+              "key.offset": 5927
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 72,
+              "key.offset": 5916
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 72,
+          "key.bodyoffset": 6010,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileOwnerAccountName<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 72,
+          "key.name": "fileOwnerAccountName(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 36,
+          "key.nameline": 72,
+          "key.nameoffset": 5939,
+          "key.offset": 5934,
+          "key.parsed_declaration": "@inlinable public func fileOwnerAccountName(atPath: String)      throws -> String?",
+          "key.parsed_scope.end": 72,
+          "key.parsed_scope.start": 72,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> String?",
+          "key.typeusr": "$s6atPathSSSgSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE20fileOwnerAccountName6atPathSSSgSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func filePosixPermissions(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 73,
+              "key.offset": 6091
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 73,
+              "key.offset": 6080
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 73,
+          "key.bodyoffset": 6174,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>filePosixPermissions<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 73,
+          "key.name": "filePosixPermissions(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 36,
+          "key.nameline": 73,
+          "key.nameoffset": 6103,
+          "key.offset": 6098,
+          "key.parsed_declaration": "@inlinable public func filePosixPermissions(atPath: String)      throws -> Int",
+          "key.parsed_scope.end": 73,
+          "key.parsed_scope.start": 73,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> Int",
+          "key.typeusr": "$s6atPathSiSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE20filePosixPermissions6atPathSiSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileSize(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:s6UInt64V\">UInt64<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 74,
+              "key.offset": 6255
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 74,
+              "key.offset": 6244
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 74,
+          "key.bodyoffset": 6338,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileSize<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:s6UInt64V\">UInt64<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 74,
+          "key.name": "fileSize(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 24,
+          "key.nameline": 74,
+          "key.nameoffset": 6267,
+          "key.offset": 6262,
+          "key.parsed_declaration": "@inlinable public func fileSize(atPath: String)                  throws -> UInt64",
+          "key.parsed_scope.end": 74,
+          "key.parsed_scope.start": 74,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> UInt64",
+          "key.typeusr": "$s6atPaths6UInt64VSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE8fileSize6atPaths6UInt64VSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileSystemFileNumber(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 75,
+              "key.offset": 6419
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 75,
+              "key.offset": 6408
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 75,
+          "key.bodyoffset": 6502,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileSystemFileNumber<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 75,
+          "key.name": "fileSystemFileNumber(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 36,
+          "key.nameline": 75,
+          "key.nameoffset": 6431,
+          "key.offset": 6426,
+          "key.parsed_declaration": "@inlinable public func fileSystemFileNumber(atPath: String)      throws -> Int",
+          "key.parsed_scope.end": 75,
+          "key.parsed_scope.start": 75,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> Int",
+          "key.typeusr": "$s6atPathSiSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE20fileSystemFileNumber6atPathSiSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileSystemNumber(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 76,
+              "key.offset": 6583
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 76,
+              "key.offset": 6572
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 76,
+          "key.bodyoffset": 6666,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileSystemNumber<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 76,
+          "key.name": "fileSystemNumber(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 32,
+          "key.nameline": 76,
+          "key.nameoffset": 6595,
+          "key.offset": 6590,
+          "key.parsed_declaration": "@inlinable public func fileSystemNumber(atPath: String)          throws -> Int",
+          "key.parsed_scope.end": 76,
+          "key.parsed_scope.start": 76,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> Int",
+          "key.typeusr": "$s6atPathSiSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE16fileSystemNumber6atPathSiSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func fileType(atPath: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"c:@T@NSFileAttributeType\">FileAttributeType<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 77,
+              "key.offset": 6747
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 77,
+              "key.offset": 6736
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 64,
+          "key.bodyline": 77,
+          "key.bodyoffset": 6830,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fileType<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"c:@T@NSFileAttributeType\">FileAttributeType<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 77,
+          "key.name": "fileType(atPath:)",
+          "key.namecolumn": 28,
+          "key.namelength": 24,
+          "key.nameline": 77,
+          "key.nameoffset": 6759,
+          "key.offset": 6754,
+          "key.parsed_declaration": "@inlinable public func fileType(atPath: String)                  throws -> FileAttributeType",
+          "key.parsed_scope.end": 77,
+          "key.parsed_scope.start": 77,
+          "key.substructure": [
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> FileAttributeType",
+          "key.typeusr": "$s6atPathSo19NSFileAttributeTypeaSS_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE8fileType6atPathSo0a9AttributeE0aSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func directoryFiles(atPath: <Type usr=\"s:SS\">String<\/Type>, resolveSymLinks: <Type usr=\"s:Sb\">Bool<\/Type> = false, traverseDirectorySymLinks: <Type usr=\"s:Sb\">Bool<\/Type> = false, where body: (<Type usr=\"s:SS\">String<\/Type>, <Type usr=\"s:SS\">String<\/Type>, [<Type usr=\"c:@T@NSFileAttributeKey\">FileAttributeKey<\/Type> : Any]) throws -&gt; <Type usr=\"s:Sb\">Bool<\/Type>) throws -&gt; [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 94,
+              "key.offset": 7898
+            }
+          ],
+          "key.bodycolumn": 210,
+          "key.bodylength": 1247,
+          "key.bodyline": 94,
+          "key.bodyoffset": 8103,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Get a list of file from a directory.\n\n- Parameters:\n  - atPath: The directory to get the list of files from.\n  - resolveSymLinks: If `true` then any symbolic links found will be resolved before being sent to the the\n                     closure. The default is `false`.\n  - traverseDirectorySymLinks: If `true` AND resolveSymLinks is `true` then any symbolic links that point\n                               to a directory will have those directories traversed.\n  - body: The closure that gets called for each file and directory found. The closure takes three\n          parameters - the full pathname, the filename, and a Dictionary containing the file attributes.\n- Returns: An array of full filenames.\n- Throws: If an I\/O error occurs or if the closure throws an error.",
+          "key.doc.declaration": "public func directoryFiles(atPath: String, resolveSymLinks: Bool = false, traverseDirectorySymLinks: Bool = false, where body: (String, String, [FileAttributeKey : Any]) throws -> Bool) throws -> [String]",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift\" line=\"94\" column=\"17\"><Name>directoryFiles(atPath:resolveSymLinks:traverseDirectorySymLinks:where:)<\/Name><USR>s:So13NSFileManagerC7RubiconE14directoryFiles6atPath15resolveSymLinks017traverseDirectoryiJ05whereSaySSGSS_S3bSS_SSSDySo0A12AttributeKeyaypGtKXEtKF<\/USR><Declaration>public func directoryFiles(atPath: String, resolveSymLinks: Bool = false, traverseDirectorySymLinks: Bool = false, where body: (String, String, [FileAttributeKey : Any]) throws -&gt; Bool) throws -&gt; [String]<\/Declaration><CommentParts><Abstract><Para>Get a list of file from a directory.<\/Para><\/Abstract><Parameters><Parameter><Name>atPath<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The directory to get the list of files from.<\/Para><\/Discussion><\/Parameter><Parameter><Name>resolveSymLinks<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>If <codeVoice>true<\/codeVoice> then any symbolic links found will be resolved before being sent to the the closure. The default is <codeVoice>false<\/codeVoice>.<\/Para><\/Discussion><\/Parameter><Parameter><Name>traverseDirectorySymLinks<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>If <codeVoice>true<\/codeVoice> AND resolveSymLinks is <codeVoice>true<\/codeVoice> then any symbolic links that point to a directory will have those directories traversed.<\/Para><\/Discussion><\/Parameter><Parameter><Name>body<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The closure that gets called for each file and directory found. The closure takes three parameters - the full pathname, the filename, and a Dictionary containing the file attributes.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An array of full filenames.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs or if the closure throws an error.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 94,
+          "key.doc.name": "directoryFiles(atPath:resolveSymLinks:traverseDirectorySymLinks:where:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The directory to get the list of files from."
+                }
+              ],
+              "name": "atPath"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "If `true` then any symbolic links found will be resolved before being sent to the the closure. The default is `false`."
+                }
+              ],
+              "name": "resolveSymLinks"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "If `true` AND resolveSymLinks is `true` then any symbolic links that point to a directory will have those directories traversed."
+                }
+              ],
+              "name": "traverseDirectorySymLinks"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The closure that gets called for each file and directory found. The closure takes three parameters - the full pathname, the filename, and a Dictionary containing the file attributes."
+                }
+              ],
+              "name": "body"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An array of full filenames."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 871,
+          "key.docline": 81,
+          "key.docoffset": 7023,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>directoryFiles<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>atPath<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>resolveSymLinks<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>traverseDirectorySymLinks<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>where<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type>[<ref.struct usr=\"c:@T@NSFileAttributeKey\">FileAttributeKey<\/ref.struct> : <syntaxtype.keyword>Any<\/syntaxtype.keyword>]<\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 1446,
+          "key.line": 94,
+          "key.name": "directoryFiles(atPath:resolveSymLinks:traverseDirectorySymLinks:where:)",
+          "key.namecolumn": 17,
+          "key.namelength": 172,
+          "key.nameline": 94,
+          "key.nameoffset": 7910,
+          "key.offset": 7905,
+          "key.parsed_declaration": "public func directoryFiles(atPath: String, resolveSymLinks: Bool = false, traverseDirectorySymLinks: Bool = false, where body: (String, String, [FileAttributeKey: Any]) throws -> Bool) throws -> [String]",
+          "key.parsed_scope.end": 117,
+          "key.parsed_scope.start": 94,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>var files: [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>files<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 27,
+              "key.line": 95,
+              "key.name": "files",
+              "key.namecolumn": 13,
+              "key.namelength": 5,
+              "key.nameline": 95,
+              "key.nameoffset": 8116,
+              "key.offset": 8112,
+              "key.parsed_declaration": "var files = Array<String>()",
+              "key.parsed_scope.end": 95,
+              "key.parsed_scope.start": 95,
+              "key.typename": "[String]",
+              "key.typeusr": "$sSaySSGD",
+              "key.usr": "s:So13NSFileManagerC7RubiconE14directoryFiles6atPath15resolveSymLinks017traverseDirectoryiJ05whereSaySSGSS_S3bSS_SSSDySo0A12AttributeKeyaypGtKXEtKF5filesL_AIvp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let cwd: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cwd<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 65,
+              "key.line": 96,
+              "key.name": "cwd",
+              "key.namecolumn": 13,
+              "key.namelength": 3,
+              "key.nameline": 96,
+              "key.nameoffset": 8152,
+              "key.offset": 8148,
+              "key.parsed_declaration": "let cwd   = atPath.absolutePath(relativeTo: currentDirectoryPath)",
+              "key.parsed_scope.end": 96,
+              "key.parsed_scope.start": 96,
+              "key.typename": "String",
+              "key.typeusr": "$sSSD",
+              "key.usr": "s:So13NSFileManagerC7RubiconE14directoryFiles6atPath15resolveSymLinks017traverseDirectoryiJ05whereSaySSGSS_S3bSS_SSSDySo0A12AttributeKeyaypGtKXEtKF3cwdL_SSvp"
+            }
+          ],
+          "key.typename": "(FileManager) -> (String, Bool, Bool, (String, String, [FileAttributeKey : Any]) throws -> Bool) throws -> [String]",
+          "key.typeusr": "$s6atPath15resolveSymLinks017traverseDirectorydE05whereSaySSGSS_S3bSS_SSSDySo18NSFileAttributeKeyaypGtKXEtKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE14directoryFiles6atPath15resolveSymLinks017traverseDirectoryiJ05whereSaySSGSS_S3bSS_SSSDySo0A12AttributeKeyaypGtKXEtKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func realPath(path: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 134,
+              "key.offset": 10222
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 134,
+              "key.offset": 10211
+            }
+          ],
+          "key.bodycolumn": 69,
+          "key.bodylength": 399,
+          "key.bodyline": 134,
+          "key.bodyoffset": 10275,
+          "key.column": 23,
+          "key.doc.column": 28,
+          "key.doc.comment": "Recursively resolve a symbolic link.\n\nThis method resolves all symbolic links, extra `\/` characters, and references to `.` and `..` in `path`.\nIt will resolve both absolute and relative paths and return the absolute pathname corresponding to `path`.\nAll components of `path` must exist when this method is called.\n\nThis method behaves like the [Linux readlink\nutility](https:\/\/man7.org\/linux\/man-pages\/man1\/readlink.1.html) when using the `--canonicalize-existing`\nflag.\n\n- Parameter path: The path to resolve.\n- Returns: The resolved file.\n- Throws: If an I\/O error occurs or if one of the symbolic link components is broken.",
+          "key.doc.declaration": "@inlinable public func realPath(path: String) throws -> String",
+          "key.doc.discussion": [
+            {
+              "Para": "This method resolves all symbolic links, extra `\/` characters, and references to `.` and `..` in `path`. It will resolve both absolute and relative paths and return the absolute pathname corresponding to `path`. All components of `path` must exist when this method is called."
+            },
+            {
+              "Para": "This method behaves like the  when using the `--canonicalize-existing` flag."
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift\" line=\"134\" column=\"28\"><Name>realPath(path:)<\/Name><USR>s:So13NSFileManagerC7RubiconE8realPath4pathS2S_tKF<\/USR><Declaration>@inlinable public func realPath(path: String) throws -&gt; String<\/Declaration><CommentParts><Abstract><Para>Recursively resolve a symbolic link.<\/Para><\/Abstract><Parameters><Parameter><Name>path<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The path to resolve.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The resolved file.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs or if one of the symbolic link components is broken.<\/Para><\/ThrowsDiscussion><Discussion><Para>This method resolves all symbolic links, extra <codeVoice>\/<\/codeVoice> characters, and references to <codeVoice>.<\/codeVoice> and <codeVoice>..<\/codeVoice> in <codeVoice>path<\/codeVoice>. It will resolve both absolute and relative paths and return the absolute pathname corresponding to <codeVoice>path<\/codeVoice>. All components of <codeVoice>path<\/codeVoice> must exist when this method is called.<\/Para><Para>This method behaves like the <Link href=\"https:\/\/man7.org\/linux\/man-pages\/man1\/readlink.1.html\">Linux readlink utility<\/Link> when using the <codeVoice>--canonicalize-existing<\/codeVoice> flag.<\/Para><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 134,
+          "key.doc.name": "realPath(path:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The path to resolve."
+                }
+              ],
+              "name": "path"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The resolved file."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 735,
+          "key.docline": 120,
+          "key.docoffset": 9472,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>realPath<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>path<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 446,
+          "key.line": 134,
+          "key.name": "realPath(path:)",
+          "key.namecolumn": 28,
+          "key.namelength": 22,
+          "key.nameline": 134,
+          "key.nameoffset": 10234,
+          "key.offset": 10229,
+          "key.parsed_declaration": "@inlinable public func realPath(path: String) throws -> String",
+          "key.parsed_scope.end": 140,
+          "key.parsed_scope.start": 134,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let b: <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/FileList.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>b<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 89,
+              "key.line": 135,
+              "key.name": "b",
+              "key.namecolumn": 13,
+              "key.namelength": 1,
+              "key.nameline": 135,
+              "key.nameoffset": 10288,
+              "key.offset": 10284,
+              "key.parsed_declaration": "let b = UnsafeMutablePointer<CChar>.allocate(capacity: Int(truncatingIfNeeded: PATH_MAX))",
+              "key.parsed_scope.end": 135,
+              "key.parsed_scope.start": 135,
+              "key.typename": "UnsafeMutablePointer<Int8>",
+              "key.typeusr": "$sSpys4Int8VGD",
+              "key.usr": "s:So13NSFileManagerC7RubiconE8realPath4pathS2S_tKF1bL_Spys4Int8VGvp"
+            }
+          ],
+          "key.typename": "(FileManager) -> (String) throws -> String",
+          "key.typeusr": "$s4pathS2S_tKcD",
+          "key.usr": "s:So13NSFileManagerC7RubiconE8realPath4pathS2S_tKF"
+        }
+      ],
+      "key.typename": "FileManager.Type",
+      "key.typeusr": "$sSo13NSFileManagerCmD",
+      "key.usr": "c:objc(cs)NSFileManager"
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 6605,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public protocol SimpleCharInputStream : <Type usr=\"s:7Rubicon10CharStreamP\">CharStream<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 21,
+          "key.offset": 1144
+        }
+      ],
+      "key.bodycolumn": 52,
+      "key.bodylength": 3875,
+      "key.bodyline": 21,
+      "key.bodyoffset": 1195,
+      "key.column": 8,
+      "key.elements": [
+        {
+          "key.column": 40,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 10,
+          "key.line": 21,
+          "key.offset": 1183
+        }
+      ],
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+      "key.fully_annotated_decl": "<decl.protocol><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>protocol<\/syntaxtype.keyword> <decl.name>SimpleCharInputStream<\/decl.name> : <ref.protocol usr=\"s:7Rubicon10CharStreamP\">CharStream<\/ref.protocol><\/decl.protocol>",
+      "key.inheritedtypes": [
+        {
+          "key.name": "CharStream"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.protocol",
+      "key.length": 3920,
+      "key.line": 21,
+      "key.name": "SimpleCharInputStream",
+      "key.namecolumn": 17,
+      "key.namelength": 21,
+      "key.nameline": 21,
+      "key.nameoffset": 1160,
+      "key.offset": 1151,
+      "key.parsed_declaration": "public protocol SimpleCharInputStream: CharStream",
+      "key.parsed_scope.end": 88,
+      "key.parsed_scope.start": 21,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>var isEOF: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.bodycolumn": 34,
+          "key.bodylength": 5,
+          "key.bodyline": 25,
+          "key.bodyoffset": 1404,
+          "key.column": 5,
+          "key.doc.column": 9,
+          "key.doc.comment": "`true` if the stream is at the end-of-file.",
+          "key.doc.declaration": "var isEOF: Bool { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"25\" column=\"9\"><Name>isEOF<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP5isEOFSbvp<\/USR><Declaration>var isEOF: Bool { get }<\/Declaration><CommentParts><Abstract><Para><codeVoice>true<\/codeVoice> if the stream is at the end-of-file.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 25,
+          "key.doc.name": "isEOF",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 56,
+          "key.docline": 23,
+          "key.docoffset": 1315,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isEOF<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 35,
+          "key.line": 25,
+          "key.name": "isEOF",
+          "key.namecolumn": 9,
+          "key.namelength": 5,
+          "key.nameline": 25,
+          "key.nameoffset": 1379,
+          "key.offset": 1375,
+          "key.parsed_declaration": "var isEOF:             Bool",
+          "key.parsed_scope.end": 25,
+          "key.parsed_scope.start": 25,
+          "key.typename": "Bool",
+          "key.typeusr": "$sSbD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP5isEOFSbvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>var hasCharsAvailable: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.bodycolumn": 34,
+          "key.bodylength": 5,
+          "key.bodyline": 30,
+          "key.bodyoffset": 1630,
+          "key.column": 5,
+          "key.doc.column": 9,
+          "key.doc.comment": "`true` if the stream has characters ready to be read.",
+          "key.doc.declaration": "var hasCharsAvailable: Bool { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"30\" column=\"9\"><Name>hasCharsAvailable<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP17hasCharsAvailableSbvp<\/USR><Declaration>var hasCharsAvailable: Bool { get }<\/Declaration><CommentParts><Abstract><Para><codeVoice>true<\/codeVoice> if the stream has characters ready to be read.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 30,
+          "key.doc.name": "hasCharsAvailable",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 66,
+          "key.docline": 28,
+          "key.docoffset": 1531,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>hasCharsAvailable<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 35,
+          "key.line": 30,
+          "key.name": "hasCharsAvailable",
+          "key.namecolumn": 9,
+          "key.namelength": 17,
+          "key.nameline": 30,
+          "key.nameoffset": 1605,
+          "key.offset": 1601,
+          "key.parsed_declaration": "var hasCharsAvailable: Bool",
+          "key.parsed_scope.end": 30,
+          "key.parsed_scope.start": 30,
+          "key.typename": "Bool",
+          "key.typeusr": "$sSbD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP17hasCharsAvailableSbvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func read() throws -&gt; <Type usr=\"s:SJ\">Character<\/Type>?<\/Declaration>",
+          "key.column": 5,
+          "key.doc.column": 10,
+          "key.doc.comment": "Read one character.\n\n- Returns: The next character or `nil` if EOF.\n- Throws: If an I\/O error occurs.",
+          "key.doc.declaration": "func read() throws -> Character?",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"38\" column=\"10\"><Name>read()<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP4readSJSgyKF<\/USR><Declaration>func read() throws -&gt; Character?<\/Declaration><CommentParts><Abstract><Para>Read one character.<\/Para><\/Abstract><ResultDiscussion><Para>The next character or <codeVoice>nil<\/codeVoice> if EOF.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 38,
+          "key.doc.name": "read()",
+          "key.doc.result_discussion": [
+            {
+              "Para": "The next character or `nil` if EOF."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 138,
+          "key.docline": 33,
+          "key.docoffset": 1757,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>read<\/decl.name>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SJ\">Character<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 32,
+          "key.line": 38,
+          "key.name": "read()",
+          "key.namecolumn": 10,
+          "key.namelength": 6,
+          "key.nameline": 38,
+          "key.nameoffset": 1904,
+          "key.offset": 1899,
+          "key.parsed_declaration": "func read() throws -> Character?",
+          "key.parsed_scope.end": 38,
+          "key.parsed_scope.start": 38,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon21SimpleCharInputStreamP4read5chars9maxLengthSiSaySJGz_SitKF\">read(chars: inout [Character], maxLength: Int) throws -&gt; Int<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon21SimpleCharInputStreamPAAE4read5chars9maxLengthSiSaySJGz_SitKF\">read(chars: inout [Character], maxLength: Int = -1) throws -&gt; Int<\/RelatedName>"
+            }
+          ],
+          "key.typename": "<Self where Self : SimpleCharInputStream> (Self) -> () throws -> Character?",
+          "key.typeusr": "$sSJSgyKcD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP4readSJSgyKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func peek() throws -&gt; <Type usr=\"s:SJ\">Character<\/Type>?<\/Declaration>",
+          "key.column": 5,
+          "key.doc.column": 10,
+          "key.doc.comment": "Read and return one character without actually removing it from the input stream.\n\n- Returns: The next character or `nil` if EOF.\n- Throws: If an I\/O error occurs.",
+          "key.doc.declaration": "func peek() throws -> Character?",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"46\" column=\"10\"><Name>peek()<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP4peekSJSgyKF<\/USR><Declaration>func peek() throws -&gt; Character?<\/Declaration><CommentParts><Abstract><Para>Read and return one character without actually removing it from the input stream.<\/Para><\/Abstract><ResultDiscussion><Para>The next character or <codeVoice>nil<\/codeVoice> if EOF.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 46,
+          "key.doc.name": "peek()",
+          "key.doc.result_discussion": [
+            {
+              "Para": "The next character or `nil` if EOF."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 200,
+          "key.docline": 41,
+          "key.docoffset": 2052,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>peek<\/decl.name>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SJ\">Character<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 32,
+          "key.line": 46,
+          "key.name": "peek()",
+          "key.namecolumn": 10,
+          "key.namelength": 6,
+          "key.nameline": 46,
+          "key.nameoffset": 2261,
+          "key.offset": 2256,
+          "key.parsed_declaration": "func peek() throws -> Character?",
+          "key.parsed_scope.end": 46,
+          "key.parsed_scope.start": 46,
+          "key.typename": "<Self where Self : SimpleCharInputStream> (Self) -> () throws -> Character?",
+          "key.typeusr": "$sSJSgyKcD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP4peekSJSgyKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func read(chars: inout [<Type usr=\"s:SJ\">Character<\/Type>], maxLength: <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.doc.column": 10,
+          "key.doc.comment": "Read <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s from the stream.\n\n- Parameters:\n  - chars: The <code>[Array](https:\/\/developer.apple.com\/documentation\/swift\/Array)<\/code> to receive the\n           <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s. This\n           array will be cleared before the new characters are added to it.\n  - maxLength: The maximum number of\n               <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s to\n               receive. If -1 then all\n               <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s are\n               read until the end-of-file.\n- Returns: The number of\n           <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s read. Will\n           return 0 (<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>) if the stream is at\n           end-of-file.\n- Throws: If an I\/O error occurs.",
+          "key.doc.declaration": "func read(chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"66\" column=\"10\"><Name>read(chars:maxLength:)<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP4read5chars9maxLengthSiSaySJGz_SitKF<\/USR><Declaration>func read(chars: inout [Character], maxLength: Int) throws -&gt; Int<\/Declaration><CommentParts><Abstract><Para>Read <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s from the stream.<\/Para><\/Abstract><Parameters><Parameter><Name>chars<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Array\">Array<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> to receive the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s. This array will be cleared before the new characters are added to it.<\/Para><\/Discussion><\/Parameter><Parameter><Name>maxLength<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The maximum number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s to receive. If -1 then all <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s are read until the end-of-file.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s read. Will return 0 (<rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>) if the stream is at end-of-file.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 66,
+          "key.doc.name": "read(chars:maxLength:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The <code><\/code> to receive the <code><\/code>s. This array will be cleared before the new characters are added to it."
+                }
+              ],
+              "name": "chars"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The maximum number of <code><\/code>s to receive. If -1 then all <code><\/code>s are read until the end-of-file."
+                }
+              ],
+              "name": "maxLength"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The number of <code><\/code>s read. Will return 0 (<code><\/code>) if the stream is at end-of-file."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1149,
+          "key.docline": 49,
+          "key.docoffset": 2409,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>read<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>chars<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> [<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxLength<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 65,
+          "key.line": 66,
+          "key.name": "read(chars:maxLength:)",
+          "key.namecolumn": 10,
+          "key.namelength": 46,
+          "key.nameline": 66,
+          "key.nameoffset": 3567,
+          "key.offset": 3562,
+          "key.parsed_declaration": "func read(chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.parsed_scope.end": 66,
+          "key.parsed_scope.start": 66,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon21SimpleCharInputStreamP4readSJSgyKF\">read()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon21SimpleCharInputStreamPAAE4read5chars9maxLengthSiSaySJGz_SitKF\">read(chars: inout [Character], maxLength: Int = -1) throws -&gt; Int<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : SimpleCharInputStream> (Self) -> (inout [Character], Int) throws -> Int",
+          "key.typeusr": "$s5chars9maxLengthSiSaySJGz_SitKcD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP4read5chars9maxLengthSiSaySJGz_SitKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func append(to chars: inout [<Type usr=\"s:SJ\">Character<\/Type>], maxLength: <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.doc.column": 10,
+          "key.doc.comment": "Read <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s from the stream\nand append them to the given character array. This method is identical to `read(chars:,maxLength:)` except\nthat the receiving array is not cleared before the data is read.\n\n- Parameters:\n  - chars: The <code>[Array](https:\/\/developer.apple.com\/documentation\/swift\/Array)<\/code> to receive the\n           <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s.\n  - maxLength: The maximum number of\n               <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s to\n               receive. If -1 then all\n               <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s are\n               read until the end-of-file.\n- Returns: The number of\n           <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s read. Will\n           return 0 (<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>) if the stream is at\n           end-of-file.\n- Throws: If an I\/O error occurs.",
+          "key.doc.declaration": "func append(to chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"87\" column=\"10\"><Name>append(to:maxLength:)<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP6append2to9maxLengthSiSaySJGz_SitKF<\/USR><Declaration>func append(to chars: inout [Character], maxLength: Int) throws -&gt; Int<\/Declaration><CommentParts><Abstract><Para>Read <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s from the stream and append them to the given character array. This method is identical to <codeVoice>read(chars:,maxLength:)<\/codeVoice> except that the receiving array is not cleared before the data is read.<\/Para><\/Abstract><Parameters><Parameter><Name>chars<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Array\">Array<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> to receive the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s.<\/Para><\/Discussion><\/Parameter><Parameter><Name>maxLength<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The maximum number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s to receive. If -1 then all <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s are read until the end-of-file.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s read. Will return 0 (<rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>) if the stream is at end-of-file.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 87,
+          "key.doc.name": "append(to:maxLength:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The <code><\/code> to receive the <code><\/code>s."
+                }
+              ],
+              "name": "chars"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The maximum number of <code><\/code>s to receive. If -1 then all <code><\/code>s are read until the end-of-file."
+                }
+              ],
+              "name": "maxLength"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The number of <code><\/code>s read. Will return 0 (<code><\/code>) if the stream is at end-of-file."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1247,
+          "key.docline": 69,
+          "key.docoffset": 3748,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>append<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>to<\/decl.var.parameter.argument_label> <decl.var.parameter.name>chars<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> [<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxLength<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 70,
+          "key.line": 87,
+          "key.name": "append(to:maxLength:)",
+          "key.namecolumn": 10,
+          "key.namelength": 51,
+          "key.nameline": 87,
+          "key.nameoffset": 5004,
+          "key.offset": 4999,
+          "key.parsed_declaration": "func append(to chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.parsed_scope.end": 87,
+          "key.parsed_scope.start": 87,
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : SimpleCharInputStream> (Self) -> (inout [Character], Int) throws -> Int",
+          "key.typeusr": "$s2to9maxLengthSiSaySJGz_SitKcD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP6append2to9maxLengthSiSaySJGz_SitKF"
+        }
+      ],
+      "key.typename": "SimpleCharInputStream.Protocol",
+      "key.typeusr": "$s7Rubicon21SimpleCharInputStream_pmD",
+      "key.usr": "s:7Rubicon21SimpleCharInputStreamP"
+    },
+    {
+      "key.annotated_decl": "<Declaration>public protocol SimpleCharInputStream : <Type usr=\"s:7Rubicon10CharStreamP\">CharStream<\/Type><\/Declaration>",
+      "key.bodycolumn": 34,
+      "key.bodylength": 1497,
+      "key.bodyline": 90,
+      "key.bodyoffset": 5106,
+      "key.column": 1,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+      "key.fully_annotated_decl": "<decl.protocol><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>protocol<\/syntaxtype.keyword> <decl.name>SimpleCharInputStream<\/decl.name> : <ref.protocol usr=\"s:7Rubicon10CharStreamP\">CharStream<\/ref.protocol><\/decl.protocol>",
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 1531,
+      "key.line": 90,
+      "key.name": "SimpleCharInputStream",
+      "key.namecolumn": 11,
+      "key.namelength": 21,
+      "key.nameline": 90,
+      "key.nameoffset": 5083,
+      "key.offset": 5073,
+      "key.parsed_declaration": "extension SimpleCharInputStream",
+      "key.parsed_scope.end": 114,
+      "key.parsed_scope.start": 90,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func read(chars: inout [<Type usr=\"s:SJ\">Character<\/Type>], maxLength: <Type usr=\"s:Si\">Int<\/Type> = -1) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 110,
+              "key.offset": 6380
+            }
+          ],
+          "key.bodycolumn": 84,
+          "key.bodylength": 142,
+          "key.bodyline": 110,
+          "key.bodyoffset": 6459,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Read <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s from the stream.\n\n- Parameters:\n  - chars: The <code>[Array](https:\/\/developer.apple.com\/documentation\/swift\/Array)<\/code> to receive the\n           <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s. This\n           array will be cleared before the new characters are added to it.\n  - maxLength: The maximum number of\n               <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s to\n               receive. If -1 then all\n               <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s are\n               read until the end-of-file.\n- Returns: The number of\n           <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s read. Will\n           return 0 (<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>) if the stream is at\n           end-of-file.\n- Throws: If an I\/O error occurs.",
+          "key.doc.declaration": "public func read(chars: inout [Character], maxLength: Int = -1) throws -> Int",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"110\" column=\"17\"><Name>read(chars:maxLength:)<\/Name><USR>s:7Rubicon21SimpleCharInputStreamPAAE4read5chars9maxLengthSiSaySJGz_SitKF<\/USR><Declaration>public func read(chars: inout [Character], maxLength: Int = -1) throws -&gt; Int<\/Declaration><CommentParts><Abstract><Para>Read <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s from the stream.<\/Para><\/Abstract><Parameters><Parameter><Name>chars<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Array\">Array<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> to receive the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s. This array will be cleared before the new characters are added to it.<\/Para><\/Discussion><\/Parameter><Parameter><Name>maxLength<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The maximum number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s to receive. If -1 then all <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s are read until the end-of-file.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s read. Will return 0 (<rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>) if the stream is at end-of-file.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 110,
+          "key.doc.name": "read(chars:maxLength:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The <code><\/code> to receive the <code><\/code>s. This array will be cleared before the new characters are added to it."
+                }
+              ],
+              "name": "chars"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The maximum number of <code><\/code>s to receive. If -1 then all <code><\/code>s are read until the end-of-file."
+                }
+              ],
+              "name": "maxLength"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The number of <code><\/code>s read. Will return 0 (<code><\/code>) if the stream is at end-of-file."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1149,
+          "key.docline": 93,
+          "key.docoffset": 5227,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>read<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>chars<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> [<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxLength<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = -1<\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 215,
+          "key.line": 110,
+          "key.name": "read(chars:maxLength:)",
+          "key.namecolumn": 17,
+          "key.namelength": 51,
+          "key.nameline": 110,
+          "key.nameoffset": 6392,
+          "key.offset": 6387,
+          "key.parsed_declaration": "public func read(chars: inout [Character], maxLength: Int = -1) throws -> Int",
+          "key.parsed_scope.end": 113,
+          "key.parsed_scope.start": 110,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon21SimpleCharInputStreamP4readSJSgyKF\">read()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon21SimpleCharInputStreamP4read5chars9maxLengthSiSaySJGz_SitKF\">read(chars: inout [Character], maxLength: Int) throws -&gt; Int<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : SimpleCharInputStream> (Self) -> (inout [Character], Int) throws -> Int",
+          "key.typeusr": "$s5chars9maxLengthSiSaySJGz_SitKcD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamPAAE4read5chars9maxLengthSiSaySJGz_SitKF"
+        }
+      ],
+      "key.typename": "SimpleCharInputStream.Protocol",
+      "key.typeusr": "$s7Rubicon21SimpleCharInputStream_pmD",
+      "key.usr": "s:7Rubicon21SimpleCharInputStreamP"
+    }
+  ]
+}

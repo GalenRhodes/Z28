@@ -1,0 +1,2410 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 30363,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.annotated_decl": "<Declaration>protocol StringProtocol : <Type usr=\"s:SK\">BidirectionalCollection<\/Type>, <Type usr=\"s:SL\">Comparable<\/Type>, <Type usr=\"s:s32ExpressibleByStringInterpolationP\">ExpressibleByStringInterpolation<\/Type>, <Type usr=\"s:SH\">Hashable<\/Type>, <Type usr=\"s:s25LosslessStringConvertibleP\">LosslessStringConvertible<\/Type>, <Type usr=\"s:s16TextOutputStreamP\">TextOutputStream<\/Type>, <Type usr=\"s:s20TextOutputStreamableP\">TextOutputStreamable<\/Type> where <Type usr=\"s:Sy4Selfxmfp\">Self<\/Type>.<Type usr=\"s:ST7ElementQa\">Element<\/Type> == <Type usr=\"s:SJ\">Character<\/Type>, <Type usr=\"s:Sy4Selfxmfp\">Self<\/Type>.<Type usr=\"s:Sl5IndexQa\">Index<\/Type> == <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>, <Type usr=\"s:Sy4Selfxmfp\">Self<\/Type>.<Type usr=\"s:s32ExpressibleByStringInterpolationP0cD0Qa\">StringInterpolation<\/Type> == <Type usr=\"s:s26DefaultStringInterpolationV\">DefaultStringInterpolation<\/Type>, <Type usr=\"s:Sy4Selfxmfp\">Self<\/Type>.<Type usr=\"s:Sl11SubSequenceQa\">SubSequence<\/Type> : <Type usr=\"s:Sy\">StringProtocol<\/Type><\/Declaration>",
+      "key.bodycolumn": 27,
+      "key.bodylength": 28938,
+      "key.bodyline": 24,
+      "key.bodyoffset": 1423,
+      "key.column": 1,
+      "key.doc.comment": "",
+      "key.doc.declaration": "protocol StringProtocol : BidirectionalCollection, Comparable, ExpressibleByStringInterpolation, Hashable, LosslessStringConvertible, TextOutputStream, TextOutputStreamable where Self.Element == Character, Self.Index == String.Index, Self.StringInterpolation == DefaultStringInterpolation, Self.SubSequence : StringProtocol",
+      "key.doc.discussion": [
+        {
+          "Para": "Do not declare new conformances to `StringProtocol`. Only the `String` and `Substring` types in the standard library are valid conforming types."
+        }
+      ],
+      "key.doc.full_as_xml": "<Class><Name>StringProtocol<\/Name><USR>s:Sy<\/USR><Declaration>protocol StringProtocol : BidirectionalCollection, Comparable, ExpressibleByStringInterpolation, Hashable, LosslessStringConvertible, TextOutputStream, TextOutputStreamable where Self.Element == Character, Self.Index == String.Index, Self.StringInterpolation == DefaultStringInterpolation, Self.SubSequence : StringProtocol<\/Declaration><CommentParts><Abstract><Para>A type that can represent a string as a collection of characters.<\/Para><\/Abstract><Discussion><Para>Do not declare new conformances to <codeVoice>StringProtocol<\/codeVoice>. Only the <codeVoice>String<\/codeVoice> and <codeVoice>Substring<\/codeVoice> types in the standard library are valid conforming types.<\/Para><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name": "StringProtocol",
+      "key.doc.type": "Class",
+      "key.fully_annotated_decl": "<decl.protocol><syntaxtype.keyword>protocol<\/syntaxtype.keyword> <decl.name>StringProtocol<\/decl.name> : <ref.protocol usr=\"s:SK\">BidirectionalCollection<\/ref.protocol>, <ref.protocol usr=\"s:SL\">Comparable<\/ref.protocol>, <ref.protocol usr=\"s:s32ExpressibleByStringInterpolationP\">ExpressibleByStringInterpolation<\/ref.protocol>, <ref.protocol usr=\"s:SH\">Hashable<\/ref.protocol>, <ref.protocol usr=\"s:s25LosslessStringConvertibleP\">LosslessStringConvertible<\/ref.protocol>, <ref.protocol usr=\"s:s16TextOutputStreamP\">TextOutputStream<\/ref.protocol>, <ref.protocol usr=\"s:s20TextOutputStreamableP\">TextOutputStreamable<\/ref.protocol> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sy4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:ST7ElementQa\">Element<\/ref.associatedtype> == <ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sy4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:Sl5IndexQa\">Index<\/ref.associatedtype> == <ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sy4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:s32ExpressibleByStringInterpolationP0cD0Qa\">StringInterpolation<\/ref.associatedtype> == <ref.struct usr=\"s:s26DefaultStringInterpolationV\">DefaultStringInterpolation<\/ref.struct><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sy4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:Sl11SubSequenceQa\">SubSequence<\/ref.associatedtype> : <ref.protocol usr=\"s:Sy\">StringProtocol<\/ref.protocol><\/decl.generic_type_requirement><\/decl.protocol>",
+      "key.groupname": "String",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 28965,
+      "key.line": 24,
+      "key.modulename": "Swift",
+      "key.name": "StringProtocol",
+      "key.namecolumn": 11,
+      "key.namelength": 14,
+      "key.nameline": 24,
+      "key.nameoffset": 1407,
+      "key.offset": 1397,
+      "key.parsed_declaration": "extension StringProtocol",
+      "key.parsed_scope.end": 560,
+      "key.parsed_scope.start": 24,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var lastIndex: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>? { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 26,
+              "key.offset": 1440
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 26,
+              "key.offset": 1429
+            }
+          ],
+          "key.bodycolumn": 53,
+          "key.bodylength": 59,
+          "key.bodyline": 26,
+          "key.bodyoffset": 1477,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>lastIndex<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 90,
+          "key.line": 26,
+          "key.name": "lastIndex",
+          "key.namecolumn": 27,
+          "key.namelength": 9,
+          "key.nameline": 26,
+          "key.nameoffset": 1451,
+          "key.offset": 1447,
+          "key.parsed_declaration": "@inlinable public var lastIndex: String.Index?",
+          "key.parsed_scope.end": 26,
+          "key.parsed_scope.start": 26,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SKsE9lastIndex5where0B0QzSgSb7ElementQzKXE_tKF\">lastIndex(where:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SKsSQ7ElementRpzrlE9lastIndex2of0C0QzSgAB_tF\">lastIndex(of:)<\/RelatedName>"
+            }
+          ],
+          "key.typename": "String.Index?",
+          "key.typeusr": "$sSS5IndexVSgD",
+          "key.usr": "s:Sy7RubiconE9lastIndexSS0C0VSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func toInteger(defaultValue: <Type usr=\"s:Si\">Int<\/Type> = 0) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 28,
+              "key.offset": 1554
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 28,
+              "key.offset": 1543
+            }
+          ],
+          "key.bodycolumn": 69,
+          "key.bodylength": 103,
+          "key.bodyline": 28,
+          "key.bodyoffset": 1607,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>toInteger<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>defaultValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 0<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 150,
+          "key.line": 28,
+          "key.name": "toInteger(defaultValue:)",
+          "key.namecolumn": 28,
+          "key.namelength": 32,
+          "key.nameline": 28,
+          "key.nameoffset": 1566,
+          "key.offset": 1561,
+          "key.parsed_declaration": "@inlinable public func toInteger(defaultValue: Int = 0) -> Int",
+          "key.parsed_scope.end": 31,
+          "key.parsed_scope.start": 28,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let sstr: (<Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>sstr<\/decl.name>: <decl.var.type>(<ref.struct usr=\"s:SS\">String<\/ref.struct>)<\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 46,
+              "key.line": 29,
+              "key.name": "sstr",
+              "key.namecolumn": 13,
+              "key.namelength": 4,
+              "key.nameline": 29,
+              "key.nameoffset": 1620,
+              "key.offset": 1616,
+              "key.parsed_declaration": "let sstr = ((self as? String) ?? String(self))",
+              "key.parsed_scope.end": 29,
+              "key.parsed_scope.start": 29,
+              "key.typename": "(String)",
+              "key.typeusr": "$sSSD",
+              "key.usr": "s:Sy7RubiconE9toInteger12defaultValueS2i_tF4sstrL_SSvp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Int) -> Int",
+          "key.typeusr": "$s12defaultValueS2i_tcD",
+          "key.usr": "s:Sy7RubiconE9toInteger12defaultValueS2i_tF"
+        },
+        {
+          "key.annotated_decl": "<Declaration>@inlinable func withLastCharsRemoved(_ count: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 33,
+              "key.offset": 1717
+            }
+          ],
+          "key.bodycolumn": 67,
+          "key.bodylength": 153,
+          "key.bodyline": 33,
+          "key.bodyoffset": 1779,
+          "key.column": 16,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLastCharsRemoved<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>count<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 205,
+          "key.line": 33,
+          "key.name": "withLastCharsRemoved(_:)",
+          "key.namecolumn": 21,
+          "key.namelength": 34,
+          "key.nameline": 33,
+          "key.nameoffset": 1733,
+          "key.offset": 1728,
+          "key.parsed_declaration": "@inlinable func withLastCharsRemoved(_ count: Int) -> String",
+          "key.parsed_scope.end": 36,
+          "key.parsed_scope.start": 33,
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Int) -> String",
+          "key.typeusr": "$sySSSicD",
+          "key.usr": "s:Sy7RubiconE20withLastCharsRemovedySSSiF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public var isTrimEmpty: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 42,
+              "key.offset": 2192
+            }
+          ],
+          "key.bodycolumn": 35,
+          "key.bodylength": 17,
+          "key.bodyline": 42,
+          "key.bodyoffset": 2222,
+          "key.column": 12,
+          "key.doc.column": 16,
+          "key.doc.comment": "This property returns `true` if the string is empty after trimming whitespaces, newlines, and control\ncharacters.",
+          "key.doc.declaration": "public var isTrimEmpty: Bool { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"42\" column=\"16\"><Name>isTrimEmpty<\/Name><USR>s:Sy7RubiconE11isTrimEmptySbvp<\/USR><Declaration>public var isTrimEmpty: Bool { get }<\/Declaration><CommentParts><Abstract><Para>This property returns <codeVoice>true<\/codeVoice> if the string is empty after trimming whitespaces, newlines, and control characters.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 42,
+          "key.doc.name": "isTrimEmpty",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 134,
+          "key.docline": 39,
+          "key.docoffset": 2054,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isTrimEmpty<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 41,
+          "key.line": 42,
+          "key.name": "isTrimEmpty",
+          "key.namecolumn": 16,
+          "key.namelength": 11,
+          "key.nameline": 42,
+          "key.nameoffset": 2203,
+          "key.offset": 2199,
+          "key.parsed_declaration": "public var isTrimEmpty: Bool",
+          "key.parsed_scope.end": 42,
+          "key.parsed_scope.start": 42,
+          "key.typename": "Bool",
+          "key.typeusr": "$sSbD",
+          "key.usr": "s:Sy7RubiconE11isTrimEmptySbvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public var fullRange: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>&gt; { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 47,
+              "key.offset": 2424
+            }
+          ],
+          "key.bodycolumn": 50,
+          "key.bodylength": 27,
+          "key.bodyline": 47,
+          "key.bodyoffset": 2469,
+          "key.column": 12,
+          "key.doc.column": 16,
+          "key.doc.comment": "Returns an array that cover the entire string.",
+          "key.doc.declaration": "public var fullRange: Range<String.Index> { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"47\" column=\"16\"><Name>fullRange<\/Name><USR>s:Sy7RubiconE9fullRangeSnySS5IndexVGvp<\/USR><Declaration>public var fullRange: Range&lt;String.Index&gt; { get }<\/Declaration><CommentParts><Abstract><Para>Returns an array that cover the entire string.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 47,
+          "key.doc.name": "fullRange",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 59,
+          "key.docline": 45,
+          "key.docoffset": 2361,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fullRange<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct>&gt;<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 66,
+          "key.line": 47,
+          "key.name": "fullRange",
+          "key.namecolumn": 16,
+          "key.namelength": 9,
+          "key.nameline": 47,
+          "key.nameoffset": 2435,
+          "key.offset": 2431,
+          "key.parsed_declaration": "public var fullRange:   Range<String.Index>",
+          "key.parsed_scope.end": 47,
+          "key.parsed_scope.start": 47,
+          "key.typename": "Range<String.Index>",
+          "key.typeusr": "$sSnySS5IndexVGD",
+          "key.usr": "s:Sy7RubiconE9fullRangeSnySS5IndexVGvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public var trimmed: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 53,
+              "key.offset": 2774
+            }
+          ],
+          "key.bodycolumn": 37,
+          "key.bodylength": 81,
+          "key.bodyline": 53,
+          "key.bodyoffset": 2806,
+          "key.column": 12,
+          "key.doc.column": 16,
+          "key.doc.comment": "This property returns a copy of the string with whitespaces, newlines, and control characters trimmed from\nboth ends of the string.",
+          "key.doc.declaration": "public var trimmed: String { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"53\" column=\"16\"><Name>trimmed<\/Name><USR>s:Sy7RubiconE7trimmedSSvp<\/USR><Declaration>public var trimmed: String { get }<\/Declaration><CommentParts><Abstract><Para>This property returns a copy of the string with whitespaces, newlines, and control characters trimmed from both ends of the string.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 53,
+          "key.doc.name": "trimmed",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 152,
+          "key.docline": 50,
+          "key.docoffset": 2618,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>trimmed<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 107,
+          "key.line": 53,
+          "key.name": "trimmed",
+          "key.namecolumn": 16,
+          "key.namelength": 7,
+          "key.nameline": 53,
+          "key.nameoffset": 2785,
+          "key.offset": 2781,
+          "key.parsed_declaration": "public var trimmed:     String",
+          "key.parsed_scope.end": 53,
+          "key.parsed_scope.start": 53,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:Sy7RubiconE7trimmedSSvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public var urlDecoded: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 58,
+              "key.offset": 3119
+            }
+          ],
+          "key.bodycolumn": 37,
+          "key.bodylength": 82,
+          "key.bodyline": 58,
+          "key.bodyoffset": 3151,
+          "key.column": 12,
+          "key.doc.column": 16,
+          "key.doc.comment": "A copy of this string with '+' characters replaced with spaces and percent encodings decoded.",
+          "key.doc.declaration": "public var urlDecoded: String { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"58\" column=\"16\"><Name>urlDecoded<\/Name><USR>s:Sy7RubiconE10urlDecodedSSvp<\/USR><Declaration>public var urlDecoded: String { get }<\/Declaration><CommentParts><Abstract><Para>A copy of this string with ‘+’ characters replaced with spaces and percent encodings decoded.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 58,
+          "key.doc.name": "urlDecoded",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 106,
+          "key.docline": 56,
+          "key.docoffset": 3009,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>urlDecoded<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 108,
+          "key.line": 58,
+          "key.name": "urlDecoded",
+          "key.namecolumn": 16,
+          "key.namelength": 10,
+          "key.nameline": 58,
+          "key.nameoffset": 3130,
+          "key.offset": 3126,
+          "key.parsed_declaration": "public var urlDecoded:  String",
+          "key.parsed_scope.end": 58,
+          "key.parsed_scope.start": 58,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:Sy7RubiconE10urlDecodedSSvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public var fullNSRange: <Type usr=\"c:@T@NSRange\">NSRange<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 65,
+              "key.offset": 3540
+            }
+          ],
+          "key.bodycolumn": 38,
+          "key.bodylength": 30,
+          "key.bodyline": 65,
+          "key.bodyoffset": 3573,
+          "key.column": 12,
+          "key.doc.column": 16,
+          "key.doc.comment": "This property returns an instance of\n<code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code> that covers the\nentire string.",
+          "key.doc.declaration": "public var fullNSRange: NSRange { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"65\" column=\"16\"><Name>fullNSRange<\/Name><USR>s:Sy7RubiconE11fullNSRangeSo01_C0Vvp<\/USR><Declaration>public var fullNSRange: NSRange { get }<\/Declaration><CommentParts><Abstract><Para>This property returns an instance of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/nsrange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> that covers the entire string.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 65,
+          "key.doc.name": "fullNSRange",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 181,
+          "key.docline": 61,
+          "key.docoffset": 3355,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>fullNSRange<\/decl.name>: <decl.var.type><ref.typealias usr=\"c:@T@NSRange\">NSRange<\/ref.typealias><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 57,
+          "key.line": 65,
+          "key.name": "fullNSRange",
+          "key.namecolumn": 16,
+          "key.namelength": 11,
+          "key.nameline": 65,
+          "key.nameoffset": 3551,
+          "key.offset": 3547,
+          "key.parsed_declaration": "public var fullNSRange: NSRange",
+          "key.parsed_scope.end": 65,
+          "key.parsed_scope.start": 65,
+          "key.typename": "_NSRange",
+          "key.typeusr": "$sSo8_NSRangeVD",
+          "key.usr": "s:Sy7RubiconE11fullNSRangeSo01_C0Vvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public static func ==~ (lhs: <Type usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/Type>, rhs: <Type usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 75,
+              "key.offset": 3952
+            }
+          ],
+          "key.bodycolumn": 60,
+          "key.bodylength": 76,
+          "key.bodyline": 75,
+          "key.bodyoffset": 4007,
+          "key.column": 12,
+          "key.doc.column": 24,
+          "key.doc.comment": "Case insensitive equals.\n\n- Parameters:\n  - lhs: The left-hand string\n  - rhs: The right-hand string\n- Returns: `true` if they are equal when compared case insensitively.",
+          "key.doc.declaration": "public static func ==~ (lhs: Self, rhs: Self) -> Bool",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"75\" column=\"24\"><Name>==~(_:_:)<\/Name><USR>s:Sy7RubiconE3eetoiySbx_xtFZ<\/USR><Declaration>public static func ==~ (lhs: Self, rhs: Self) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Case insensitive equals.<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The left-hand string<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The right-hand string<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if they are equal when compared case insensitively.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 75,
+          "key.doc.name": "==~(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The left-hand string"
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The right-hand string"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if they are equal when compared case insensitively."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 223,
+          "key.docline": 68,
+          "key.docoffset": 3725,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>==~ <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 125,
+          "key.line": 75,
+          "key.name": "==~(_:_:)",
+          "key.namecolumn": 24,
+          "key.namelength": 26,
+          "key.nameline": 75,
+          "key.nameoffset": 3971,
+          "key.offset": 3959,
+          "key.parsed_declaration": "public static func ==~ (lhs: Self, rhs: Self) -> Bool",
+          "key.parsed_scope.end": 75,
+          "key.parsed_scope.start": 75,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: <Type usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
+              "key.column": 29,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 75,
+              "key.name": "lhs",
+              "key.offset": 3976,
+              "key.parent_loc": 3971,
+              "key.parsed_declaration": "public static func ==~ (lhs",
+              "key.parsed_scope.end": 75,
+              "key.parsed_scope.start": 75,
+              "key.typename": "Self",
+              "key.typeusr": "$sxD",
+              "key.usr": "s:Sy7RubiconE3eetoiySbx_xtFZ3lhsL_xvp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self.Type) -> (Self, Self) -> Bool",
+          "key.typeusr": "$sySbx_xtcD",
+          "key.usr": "s:Sy7RubiconE3eetoiySbx_xtFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public static func !=~ (lhs: <Type usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/Type>, rhs: <Type usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 85,
+              "key.offset": 4440
+            }
+          ],
+          "key.bodycolumn": 60,
+          "key.bodylength": 76,
+          "key.bodyline": 85,
+          "key.bodyoffset": 4495,
+          "key.column": 12,
+          "key.doc.column": 24,
+          "key.doc.comment": "Case insensitive NOT equals.\n\n- Parameters:\n  - lhs: The left-hand string\n  - rhs: The right-hand string\n- Returns: `true` if they are not equal when compared case insensitively.",
+          "key.doc.declaration": "public static func !=~ (lhs: Self, rhs: Self) -> Bool",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"85\" column=\"24\"><Name>!=~(_:_:)<\/Name><USR>s:Sy7RubiconE3netoiySbx_xtFZ<\/USR><Declaration>public static func !=~ (lhs: Self, rhs: Self) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Case insensitive NOT equals.<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The left-hand string<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The right-hand string<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if they are not equal when compared case insensitively.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 85,
+          "key.doc.name": "!=~(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The left-hand string"
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The right-hand string"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if they are not equal when compared case insensitively."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 231,
+          "key.docline": 78,
+          "key.docoffset": 4205,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>!=~ <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 125,
+          "key.line": 85,
+          "key.name": "!=~(_:_:)",
+          "key.namecolumn": 24,
+          "key.namelength": 26,
+          "key.nameline": 85,
+          "key.nameoffset": 4459,
+          "key.offset": 4447,
+          "key.parsed_declaration": "public static func !=~ (lhs: Self, rhs: Self) -> Bool",
+          "key.parsed_scope.end": 85,
+          "key.parsed_scope.start": 85,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: <Type usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
+              "key.column": 29,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sy7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 85,
+              "key.name": "lhs",
+              "key.offset": 4464,
+              "key.parent_loc": 4459,
+              "key.parsed_declaration": "public static func !=~ (lhs",
+              "key.parsed_scope.end": 85,
+              "key.parsed_scope.start": 85,
+              "key.typename": "Self",
+              "key.typeusr": "$sxD",
+              "key.usr": "s:Sy7RubiconE3netoiySbx_xtFZ3lhsL_xvp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self.Type) -> (Self, Self) -> Bool",
+          "key.typeusr": "$sySbx_xtcD",
+          "key.usr": "s:Sy7RubiconE3netoiySbx_xtFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func forEach(inRange: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>&gt;, _ body: (<Type usr=\"s:SJ\">Character<\/Type>) throws -&gt; <Type usr=\"s:s4Voida\">Void<\/Type>) rethrows<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 91,
+              "key.length": 8,
+              "key.line": 96,
+              "key.offset": 5152
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 96,
+              "key.offset": 5066
+            }
+          ],
+          "key.bodycolumn": 101,
+          "key.bodylength": 160,
+          "key.bodyline": 96,
+          "key.bodyoffset": 5162,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Calls the given closure on each element in the sub-sequence defined by the given range in the same order\nas a for-in loop.\n\n- Parameters:\n  - inRange: The range of characters to iterate over.\n  - body: A closure that takes an element of the sequence as a parameter.\n- Throws: Any error thrown by the closure.",
+          "key.doc.declaration": "public func forEach(inRange: Range<String.Index>, _ body: (Character) throws -> Void) rethrows",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"96\" column=\"17\"><Name>forEach(inRange:_:)<\/Name><USR>s:Sy7RubiconE7forEach7inRange_ySnySS5IndexVG_ySJKXEtKF<\/USR><Declaration>public func forEach(inRange: Range&lt;String.Index&gt;, _ body: (Character) throws -&gt; Void) rethrows<\/Declaration><CommentParts><Abstract><Para>Calls the given closure on each element in the sub-sequence defined by the given range in the same order as a for-in loop.<\/Para><\/Abstract><Parameters><Parameter><Name>inRange<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The range of characters to iterate over.<\/Para><\/Discussion><\/Parameter><Parameter><Name>body<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>A closure that takes an element of the sequence as a parameter.<\/Para><\/Discussion><\/Parameter><\/Parameters><ThrowsDiscussion><Para>Any error thrown by the closure.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 96,
+          "key.doc.name": "forEach(inRange:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The range of characters to iterate over."
+                }
+              ],
+              "name": "inRange"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "A closure that takes an element of the sequence as a parameter."
+                }
+              ],
+              "name": "body"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 369,
+          "key.docline": 88,
+          "key.docoffset": 4693,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>forEach<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>inRange<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.typealias usr=\"s:s4Voida\">Void<\/ref.typealias><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 250,
+          "key.line": 96,
+          "key.name": "forEach(inRange:_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 73,
+          "key.nameline": 96,
+          "key.nameoffset": 5078,
+          "key.offset": 5073,
+          "key.parsed_declaration": "public func forEach(inRange: Range<String.Index>, _ body: (Character) throws -> Void) rethrows",
+          "key.parsed_scope.end": 102,
+          "key.parsed_scope.start": 96,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE7forEach5match5group_SbAA17RegularExpressionC5MatchCSg_SiySJKXEtKF\">forEach(match:group:_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:STsE7forEachyyy7ElementQzKXEKF\">forEach(_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>var idx: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>idx<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 28,
+              "key.line": 97,
+              "key.name": "idx",
+              "key.namecolumn": 13,
+              "key.namelength": 3,
+              "key.nameline": 97,
+              "key.nameoffset": 5175,
+              "key.offset": 5171,
+              "key.parsed_declaration": "var idx = inRange.lowerBound",
+              "key.parsed_scope.end": 97,
+              "key.parsed_scope.start": 97,
+              "key.typename": "String.Index",
+              "key.typeusr": "$sSS5IndexVD",
+              "key.usr": "s:Sy7RubiconE7forEach7inRange_ySnySS5IndexVG_ySJKXEtKF3idxL_AEvp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Range<String.Index>, (Character) throws -> ()) throws -> ()",
+          "key.typeusr": "$s7inRange_ySnySS5IndexVG_ySJKXEtKcD",
+          "key.usr": "s:Sy7RubiconE7forEach7inRange_ySnySS5IndexVG_ySJKXEtKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@discardableResult public func forEach(match: <Type usr=\"s:7Rubicon17RegularExpressionC\">RegularExpression<\/Type>.<Type usr=\"s:7Rubicon17RegularExpressionC5MatchC\">Match<\/Type>?, group: <Type usr=\"s:Si\">Int<\/Type> = 0, _ body: (<Type usr=\"s:SJ\">Character<\/Type>) throws -&gt; <Type usr=\"s:s4Voida\">Void<\/Type>) rethrows -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 129,
+              "key.length": 8,
+              "key.line": 117,
+              "key.offset": 6435
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 24,
+              "key.length": 6,
+              "key.line": 117,
+              "key.offset": 6330
+            },
+            {
+              "key.attribute": "source.decl.attribute.discardableResult",
+              "key.column": 5,
+              "key.length": 18,
+              "key.line": 117,
+              "key.offset": 6311
+            }
+          ],
+          "key.bodycolumn": 147,
+          "key.bodylength": 153,
+          "key.bodyline": 117,
+          "key.bodyoffset": 6453,
+          "key.column": 31,
+          "key.doc.column": 36,
+          "key.doc.comment": "Calls the given closure on each element in the sub-sequence defined by the given match and group in the\nsame order as a for-in loop. In this method the range of the sub-sequence is taken from the given\n`RegularExpression.Match` object and an optional index for the capture group. If the group is not provided\nthen the entire match region is assumed.\n\n- Parameters:\n  - match: The `RegularExpression.Match` object from a previously executed `RegularExpression` search.\n  - group: The index of a capture group (`RegularExpression.Group`) within the given match.\n  - body: A closure that takes a character of the String or SubString as a parameter.\n- Returns: `false` if the match or the group are `nil`, otherwise returns `true`.\n- Throws: Any error thrown by the closure.",
+          "key.doc.declaration": "public func forEach(match: RegularExpression.Match?, group: Int = 0, _ body: (Character) throws -> Void) rethrows -> Bool",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"117\" column=\"36\"><Name>forEach(match:group:_:)<\/Name><USR>s:Sy7RubiconE7forEach5match5group_SbAA17RegularExpressionC5MatchCSg_SiySJKXEtKF<\/USR><Declaration>public func forEach(match: RegularExpression.Match?, group: Int = 0, _ body: (Character) throws -&gt; Void) rethrows -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Calls the given closure on each element in the sub-sequence defined by the given match and group in the same order as a for-in loop. In this method the range of the sub-sequence is taken from the given <codeVoice>RegularExpression.Match<\/codeVoice> object and an optional index for the capture group. If the group is not provided then the entire match region is assumed.<\/Para><\/Abstract><Parameters><Parameter><Name>match<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The <codeVoice>RegularExpression.Match<\/codeVoice> object from a previously executed <codeVoice>RegularExpression<\/codeVoice> search.<\/Para><\/Discussion><\/Parameter><Parameter><Name>group<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The index of a capture group (<codeVoice>RegularExpression.Group<\/codeVoice>) within the given match.<\/Para><\/Discussion><\/Parameter><Parameter><Name>body<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>A closure that takes a character of the String or SubString as a parameter.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>false<\/codeVoice> if the match or the group are <codeVoice>nil<\/codeVoice>, otherwise returns <codeVoice>true<\/codeVoice>.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any error thrown by the closure.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 117,
+          "key.doc.name": "forEach(match:group:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The `RegularExpression.Match` object from a previously executed `RegularExpression` search."
+                }
+              ],
+              "name": "match"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The index of a capture group (`RegularExpression.Group`) within the given match."
+                }
+              ],
+              "name": "group"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "A closure that takes a character of the String or SubString as a parameter."
+                }
+              ],
+              "name": "body"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`false` if the match or the group are `nil`, otherwise returns `true`."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 863,
+          "key.docline": 105,
+          "key.docoffset": 5444,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>forEach<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>match<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"s:7Rubicon17RegularExpressionC\">RegularExpression<\/ref.class>.<ref.class usr=\"s:7Rubicon17RegularExpressionC5MatchC\">Match<\/ref.class>?<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>group<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 0<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.typealias usr=\"s:s4Voida\">Void<\/ref.typealias><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 270,
+          "key.line": 117,
+          "key.name": "forEach(match:group:_:)",
+          "key.namecolumn": 36,
+          "key.namelength": 92,
+          "key.nameline": 117,
+          "key.nameoffset": 6342,
+          "key.offset": 6337,
+          "key.parsed_declaration": "@discardableResult public func forEach(match: RegularExpression.Match?, group: Int = 0, _ body: (Character) throws -> Void) rethrows -> Bool",
+          "key.parsed_scope.end": 123,
+          "key.parsed_scope.start": 117,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE7forEach7inRange_ySnySS5IndexVG_ySJKXEtKF\">forEach(inRange:_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:STsE7forEachyyy7ElementQzKXEKF\">forEach(_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (RegularExpression.Match?, Int, (Character) throws -> ()) throws -> Bool",
+          "key.typeusr": "$s5match5group_Sb7Rubicon17RegularExpressionC5MatchCSg_SiySJKXEtKcD",
+          "key.usr": "s:Sy7RubiconE7forEach5match5group_SbAA17RegularExpressionC5MatchCSg_SiySJKXEtKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func positionOfIndex(_ idx: <Type usr=\"s:SK5IndexQa\">Index<\/Type>, position: <Type usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/Type> = (1, 1), tabSize tx: <Type usr=\"s:s4Int8V\">Int8<\/Type> = 4) -&gt; <Type usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 135,
+              "key.offset": 7121
+            }
+          ],
+          "key.bodycolumn": 119,
+          "key.bodylength": 216,
+          "key.bodyline": 135,
+          "key.bodyoffset": 7235,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Get the position (line, column) of the index in the given string relative to the given starting position\n(line, column).\n\n- Parameters:\n  - idx: The index.\n  - position: The starting position. Defaults to (1, 1).\n  - tx: The tab size. Defaults to 4.\n- Returns: The position (line, column) of the index within the string.",
+          "key.doc.declaration": "public func positionOfIndex(_ idx: Index, position: TextPosition = (1, 1), tabSize tx: Int8 = 4) -> TextPosition",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"135\" column=\"17\"><Name>positionOfIndex(_:position:tabSize:)<\/Name><USR>s:Sy7RubiconE15positionOfIndex_0B07tabSizes5Int32V10lineNumber_AF06columnI0tSS0D0V_AfG_AfHts4Int8VtF<\/USR><Declaration>public func positionOfIndex(_ idx: Index, position: TextPosition = (1, 1), tabSize tx: Int8 = 4) -&gt; TextPosition<\/Declaration><CommentParts><Abstract><Para>Get the position (line, column) of the index in the given string relative to the given starting position (line, column).<\/Para><\/Abstract><Parameters><Parameter><Name>idx<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The index.<\/Para><\/Discussion><\/Parameter><Parameter><Name>position<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The starting position. Defaults to (1, 1).<\/Para><\/Discussion><\/Parameter><Parameter><Name>tx<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The tab size. Defaults to 4.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The position (line, column) of the index within the string.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 135,
+          "key.doc.name": "positionOfIndex(_:position:tabSize:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The index."
+                }
+              ],
+              "name": "idx"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The starting position. Defaults to (1, 1)."
+                }
+              ],
+              "name": "position"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The tab size. Defaults to 4."
+                }
+              ],
+              "name": "tx"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The position (line, column) of the index within the string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 389,
+          "key.docline": 126,
+          "key.docoffset": 6728,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>positionOfIndex<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>idx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.associatedtype usr=\"s:SK5IndexQa\">Index<\/ref.associatedtype><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>position<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/ref.typealias><\/decl.var.parameter.type> = (1, 1)<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>tabSize<\/decl.var.parameter.argument_label> <decl.var.parameter.name>tx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:s4Int8V\">Int8<\/ref.struct><\/decl.var.parameter.type> = 4<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.typealias usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/ref.typealias><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 324,
+          "key.line": 135,
+          "key.name": "positionOfIndex(_:position:tabSize:)",
+          "key.namecolumn": 17,
+          "key.namelength": 84,
+          "key.nameline": 135,
+          "key.nameoffset": 7133,
+          "key.offset": 7128,
+          "key.parsed_declaration": "public func positionOfIndex(_ idx: Index, position: TextPosition = (1, 1), tabSize tx: Int8 = 4) -> TextPosition",
+          "key.parsed_scope.end": 143,
+          "key.parsed_scope.start": 135,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>var idx: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>idx<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 13,
+              "key.line": 136,
+              "key.name": "idx",
+              "key.namecolumn": 13,
+              "key.namelength": 3,
+              "key.nameline": 136,
+              "key.nameoffset": 7248,
+              "key.offset": 7244,
+              "key.parsed_declaration": "var idx = idx",
+              "key.parsed_scope.end": 136,
+              "key.parsed_scope.start": 136,
+              "key.typename": "String.Index",
+              "key.typeusr": "$sSS5IndexVD",
+              "key.usr": "s:Sy7RubiconE15positionOfIndex_0B07tabSizes5Int32V10lineNumber_AF06columnI0tSS0D0V_AfG_AfHts4Int8VtF3idxL0_AJvp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>var pos: <Type usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>pos<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 18,
+              "key.line": 137,
+              "key.name": "pos",
+              "key.namecolumn": 13,
+              "key.namelength": 3,
+              "key.nameline": 137,
+              "key.nameoffset": 7270,
+              "key.offset": 7266,
+              "key.parsed_declaration": "var pos = position",
+              "key.parsed_scope.end": 137,
+              "key.parsed_scope.start": 137,
+              "key.typename": "(lineNumber: Int32, columnNumber: Int32)",
+              "key.typeusr": "$ss5Int32V10lineNumber_AB06columnC0tD",
+              "key.usr": "s:Sy7RubiconE15positionOfIndex_0B07tabSizes5Int32V10lineNumber_AF06columnI0tSS0D0V_AfG_AfHts4Int8VtF3posL_AfG_AfHtvp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Self.Index, (lineNumber: Int32, columnNumber: Int32), Int8) -> (lineNumber: Int32, columnNumber: Int32)",
+          "key.typeusr": "$s_8position7tabSizes5Int32V10lineNumber_AD06columnF0tSS5IndexV_AdE_AdFts4Int8VtcD",
+          "key.usr": "s:Sy7RubiconE15positionOfIndex_0B07tabSizes5Int32V10lineNumber_AF06columnI0tSS0D0V_AfG_AfHts4Int8VtF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public subscript(idx: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:SJ\">Character<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 154,
+              "key.offset": 8066
+            }
+          ],
+          "key.bodycolumn": 48,
+          "key.bodylength": 62,
+          "key.bodyline": 154,
+          "key.bodyoffset": 8109,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Returns the <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code> at the\n`idx`th integer position in the string.\n\n- Parameter idx: the integer offset into the\n                 <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/String)<\/code>.\n- Returns: The <code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code> at the\n           offset indicated by `idx`.",
+          "key.doc.declaration": "public subscript(idx: Int) -> Character { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"154\" column=\"12\"><Name>subscript(_:)<\/Name><USR>s:Sy7RubiconEySJSicip<\/USR><Declaration>public subscript(idx: Int) -&gt; Character { get }<\/Declaration><CommentParts><Abstract><Para>Returns the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> at the <codeVoice>idx<\/codeVoice>th integer position in the string.<\/Para><\/Abstract><Parameters><Parameter><Name>idx<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the integer offset into the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/String\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> at the offset indicated by <codeVoice>idx<\/codeVoice>.<\/Para><\/ResultDiscussion><\/CommentParts><\/Other>",
+          "key.doc.line": 154,
+          "key.doc.name": "subscript(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the integer offset into the <code><\/code>."
+                }
+              ],
+              "name": "idx"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The <code><\/code> at the offset indicated by `idx`."
+            }
+          ],
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 489,
+          "key.docline": 146,
+          "key.docoffset": 7573,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.subscript><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>subscript<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.name>idx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.function.returntype> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.function.subscript>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.subscript",
+          "key.length": 99,
+          "key.line": 154,
+          "key.name": "subscript(_:)",
+          "key.namecolumn": 12,
+          "key.namelength": 21,
+          "key.nameline": 154,
+          "key.nameoffset": 8073,
+          "key.offset": 8073,
+          "key.parsed_declaration": "public subscript(_ idx: Int) -> Character",
+          "key.parsed_scope.end": 156,
+          "key.parsed_scope.start": 154,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconEySsSnySiGcip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SKy11SubSequenceQzSny5IndexQzGcip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SKy7ElementQz5IndexQzcip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Slss5SliceVyxG11SubSequenceRtzrlEyACSny5IndexQzGcip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsEy11SubSequenceQzys15UnboundedRange_OXEcip\">subscript(_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Int) -> Character",
+          "key.typeusr": "$sySJSicD",
+          "key.usr": "s:Sy7RubiconEySJSicip"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public subscript(range: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:Si\">Int<\/Type>&gt;) -&gt; <Type usr=\"s:Ss\">Substring<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 167,
+              "key.offset": 8918
+            }
+          ],
+          "key.bodycolumn": 57,
+          "key.bodylength": 92,
+          "key.bodyline": 167,
+          "key.bodyoffset": 8970,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Returns the <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code> of the\ngiven <code>[Range](https:\/\/developer.apple.com\/documentation\/swift\/Range)<\/code>. A fatal error is thrown\nif the range is invalid for the string.\n\n- Parameter range: the <code>[Range](https:\/\/developer.apple.com\/documentation\/swift\/Range)<\/code> of the\n                   <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code>.\n- Returns: The <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code>.",
+          "key.doc.declaration": "public subscript(range: Range<Int>) -> Substring { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"167\" column=\"12\"><Name>subscript(_:)<\/Name><USR>s:Sy7RubiconEySsSnySiGcip<\/USR><Declaration>public subscript(range: Range&lt;Int&gt;) -&gt; Substring { get }<\/Declaration><CommentParts><Abstract><Para>Returns the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of the given <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Range\">Range<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>. A fatal error is thrown if the range is invalid for the string.<\/Para><\/Abstract><Parameters><Parameter><Name>range<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Range\">Range<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/ResultDiscussion><\/CommentParts><\/Other>",
+          "key.doc.line": 167,
+          "key.doc.name": "subscript(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the <code><\/code> of the <code><\/code>."
+                }
+              ],
+              "name": "range"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The <code><\/code>."
+            }
+          ],
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 621,
+          "key.docline": 159,
+          "key.docoffset": 8293,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.subscript><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>subscript<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.name>range<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.struct usr=\"s:Si\">Int<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Ss\">Substring<\/ref.struct><\/decl.function.returntype> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.function.subscript>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.subscript",
+          "key.length": 138,
+          "key.line": 167,
+          "key.name": "subscript(_:)",
+          "key.namecolumn": 12,
+          "key.namelength": 30,
+          "key.nameline": 167,
+          "key.nameoffset": 8925,
+          "key.offset": 8925,
+          "key.parsed_declaration": "public subscript(_ range: Range<Int>) -> Substring",
+          "key.parsed_scope.end": 169,
+          "key.parsed_scope.start": 167,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconEySJSicip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SKy11SubSequenceQzSny5IndexQzGcip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SKy7ElementQz5IndexQzcip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Slss5SliceVyxG11SubSequenceRtzrlEyACSny5IndexQzGcip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluip\">subscript(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsEy11SubSequenceQzys15UnboundedRange_OXEcip\">subscript(_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Range<Int>) -> Substring",
+          "key.typeusr": "$sySsSnySiGcD",
+          "key.usr": "s:Sy7RubiconEySsSnySiGcip"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func firstIndex(ofAnyOf chars: <Type usr=\"s:SJ\">Character<\/Type>..., from idx: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 179,
+              "key.offset": 9514
+            }
+          ],
+          "key.bodycolumn": 99,
+          "key.bodylength": 183,
+          "key.bodyline": 179,
+          "key.bodyoffset": 9608,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Returns the index of the first encounter of any of the given characters starting at the given index.\n\n- Parameters:\n  - chars: The characters to look for.\n  - idx: The index in this string to start looking.\n- Returns: The index or `nil` if none of the characters are found.",
+          "key.doc.declaration": "public func firstIndex(ofAnyOf chars: Character..., from idx: String.Index) -> String.Index?",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"179\" column=\"17\"><Name>firstIndex(ofAnyOf:from:)<\/Name><USR>s:Sy7RubiconE10firstIndex7ofAnyOf4fromSS0C0VSgSJd_AFtF<\/USR><Declaration>public func firstIndex(ofAnyOf chars: Character..., from idx: String.Index) -&gt; String.Index?<\/Declaration><CommentParts><Abstract><Para>Returns the index of the first encounter of any of the given characters starting at the given index.<\/Para><\/Abstract><Parameters><Parameter><Name>chars<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The characters to look for.<\/Para><\/Discussion><\/Parameter><Parameter><Name>idx<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The index in this string to start looking.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The index or <codeVoice>nil<\/codeVoice> if none of the characters are found.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 179,
+          "key.doc.name": "firstIndex(ofAnyOf:from:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The characters to look for."
+                }
+              ],
+              "name": "chars"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The index in this string to start looking."
+                }
+              ],
+              "name": "idx"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The index or `nil` if none of the characters are found."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 326,
+          "key.docline": 172,
+          "key.docoffset": 9184,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>firstIndex<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>ofAnyOf<\/decl.var.parameter.argument_label> <decl.var.parameter.name>chars<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.var.parameter.type>...<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>from<\/decl.var.parameter.argument_label> <decl.var.parameter.name>idx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 271,
+          "key.line": 179,
+          "key.name": "firstIndex(ofAnyOf:from:)",
+          "key.namecolumn": 17,
+          "key.namelength": 63,
+          "key.nameline": 179,
+          "key.nameoffset": 9526,
+          "key.offset": 9521,
+          "key.parsed_declaration": "public func firstIndex(ofAnyOf chars: Character..., from idx: String.Index) -> String.Index?",
+          "key.parsed_scope.end": 186,
+          "key.parsed_scope.start": 179,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tF\">firstIndex(of:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKF\">firstIndex(where:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>var oIdx: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>oIdx<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 14,
+              "key.line": 180,
+              "key.name": "oIdx",
+              "key.namecolumn": 13,
+              "key.namelength": 4,
+              "key.nameline": 180,
+              "key.nameoffset": 9621,
+              "key.offset": 9617,
+              "key.parsed_declaration": "var oIdx = idx",
+              "key.parsed_scope.end": 180,
+              "key.parsed_scope.start": 180,
+              "key.typename": "String.Index",
+              "key.typeusr": "$sSS5IndexVD",
+              "key.usr": "s:Sy7RubiconE10firstIndex7ofAnyOf4fromSS0C0VSgSJd_AFtF4oIdxL_AFvp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Character..., String.Index) -> String.Index?",
+          "key.typeusr": "$s7ofAnyOf4fromSS5IndexVSgSJd_ADtcD",
+          "key.usr": "s:Sy7RubiconE10firstIndex7ofAnyOf4fromSS0C0VSgSJd_AFtF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func index(idx: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 195,
+              "key.offset": 10251
+            }
+          ],
+          "key.bodycolumn": 50,
+          "key.bodylength": 46,
+          "key.bodyline": 195,
+          "key.bodyoffset": 10296,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Returns a `[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)>` into this string\nfrom an integer offset.\n\n- Parameter idx: the integer offset into the string\n- Returns: An instance of `[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)>`",
+          "key.doc.declaration": "public func index(idx: Int) -> String.Index",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"195\" column=\"17\"><Name>index(idx:)<\/Name><USR>s:Sy7RubiconE5index3idxSS5IndexVSi_tF<\/USR><Declaration>public func index(idx: Int) -&gt; String.Index<\/Declaration><CommentParts><Abstract><Para>Returns a <codeVoice>[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)&gt;<\/codeVoice> into this string from an integer offset.<\/Para><\/Abstract><Parameters><Parameter><Name>idx<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the integer offset into the string<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An instance of <codeVoice>[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)&gt;<\/codeVoice><\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 195,
+          "key.doc.name": "index(idx:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the integer offset into the string"
+                }
+              ],
+              "name": "idx"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An instance of `[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)>`"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 334,
+          "key.docline": 189,
+          "key.docoffset": 9913,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>index<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>idx<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 85,
+          "key.line": 195,
+          "key.name": "index(idx:)",
+          "key.namecolumn": 17,
+          "key.namelength": 15,
+          "key.nameline": 195,
+          "key.nameoffset": 10263,
+          "key.offset": 10258,
+          "key.parsed_declaration": "public func index(idx: Int) -> String.Index",
+          "key.parsed_scope.end": 197,
+          "key.parsed_scope.start": 195,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SK5index6before5IndexQzAD_tF\">index(before:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SK5index5after5IndexQzAD_tF\">index(after:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SK5index_8offsetBy5IndexQzAD_SitF\">index(_: Self.Index, offsetBy: Int) -&gt; Self.Index<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF\">index(_: Self.Index, offsetBy: Int, limitedBy: Self.Index) -&gt; Self.Index?<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SKsE5index_8offsetBy5IndexQzAD_SitF\">index(_: Self.Index, offsetBy: Int) -&gt; Self.Index<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SKsE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF\">index(_: Self.Index, offsetBy: Int, limitedBy: Self.Index) -&gt; Self.Index?<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sl5index_8offsetBy5IndexQzAD_SitF\">index(_: Self.Index, offsetBy: Int) -&gt; Self.Index<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF\">index(_: Self.Index, offsetBy: Int, limitedBy: Self.Index) -&gt; Self.Index?<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsE5index_8offsetBy5IndexQzAD_SitF\">index(_: Self.Index, offsetBy: Int) -&gt; Self.Index<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF\">index(_: Self.Index, offsetBy: Int, limitedBy: Self.Index) -&gt; Self.Index?<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsE5index5where5IndexQzSgSb7ElementQzKXE_tKF\">index(where:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsSQ7ElementRpzrlE5index2of5IndexQzSgAB_tF\">index(of:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Int) -> String.Index",
+          "key.typeusr": "$s3idxSS5IndexVSi_tcD",
+          "key.usr": "s:Sy7RubiconE5index3idxSS5IndexVSi_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func range(nsRange: <Type usr=\"c:@T@NSRange\">NSRange<\/Type>) -&gt; <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>&gt;?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 216,
+              "key.offset": 11607
+            }
+          ],
+          "key.bodycolumn": 66,
+          "key.bodylength": 136,
+          "key.bodyline": 216,
+          "key.bodyoffset": 11668,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Returns an instance of\n`[Range](https:\/\/developer.apple.com\/documentation\/swift\/range)<[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)>`\nfrom an instance of <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code>.\nIf <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code> is invalid for\nthis string then `nil` is returned.\n\n- Parameter nsRange: the\n                     <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code>\n                     to convert to\n                     `[Range](https:\/\/developer.apple.com\/documentation\/swift\/range\/)<Index>`\n- Returns: An instance of\n           `[Range](https:\/\/developer.apple.com\/documentation\/swift\/range)<[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)>`\n           or `nil` if the\n           <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code> was\n           invalid for this string.",
+          "key.doc.declaration": "public func range(nsRange: NSRange) -> Range<String.Index>?",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"216\" column=\"17\"><Name>range(nsRange:)<\/Name><USR>s:Sy7RubiconE5range7nsRangeSnySS5IndexVGSgSo8_NSRangeV_tF<\/USR><Declaration>public func range(nsRange: NSRange) -&gt; Range&lt;String.Index&gt;?<\/Declaration><CommentParts><Abstract><Para>Returns an instance of <codeVoice>[Range](https:\/\/developer.apple.com\/documentation\/swift\/range)&lt;[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)&gt;<\/codeVoice> from an instance of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/nsrange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>. If <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/nsrange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> is invalid for this string then <codeVoice>nil<\/codeVoice> is returned.<\/Para><\/Abstract><Parameters><Parameter><Name>nsRange<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/nsrange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> to convert to <codeVoice>[Range](https:\/\/developer.apple.com\/documentation\/swift\/range\/)&lt;Index&gt;<\/codeVoice><\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An instance of <codeVoice>[Range](https:\/\/developer.apple.com\/documentation\/swift\/range)&lt;[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)&gt;<\/codeVoice> or <codeVoice>nil<\/codeVoice> if the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/nsrange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> was invalid for this string.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 216,
+          "key.doc.name": "range(nsRange:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the <code><\/code> to convert to `[Range](https:\/\/developer.apple.com\/documentation\/swift\/range\/)<Index>`"
+                }
+              ],
+              "name": "nsRange"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An instance of `[Range](https:\/\/developer.apple.com\/documentation\/swift\/range)<[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)>` or `nil` if the <code><\/code> was invalid for this string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1139,
+          "key.docline": 200,
+          "key.docoffset": 10464,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>range<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>nsRange<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.typealias usr=\"c:@T@NSRange\">NSRange<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct>&gt;?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 191,
+          "key.line": 216,
+          "key.name": "range(nsRange:)",
+          "key.namecolumn": 17,
+          "key.namelength": 23,
+          "key.nameline": 216,
+          "key.nameoffset": 11619,
+          "key.offset": 11614,
+          "key.parsed_declaration": "public func range(nsRange: NSRange) -> Range<String.Index>?",
+          "key.parsed_scope.end": 221,
+          "key.parsed_scope.start": 216,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy10FoundationE5range2of7optionsAB6localeSnySS5IndexVGSgqd___So22NSStringCompareOptionsVAiA6LocaleVSgtSyRd__lF\">range(of:options:range:locale:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (_NSRange) -> Range<String.Index>?",
+          "key.typeusr": "$s7nsRangeSnySS5IndexVGSgSo8_NSRangeV_tcD",
+          "key.usr": "s:Sy7RubiconE5range7nsRangeSnySS5IndexVGSgSo8_NSRangeV_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func hasAnyPrefix(_ prefixes: <Type usr=\"s:SS\">String<\/Type>...) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 229,
+              "key.offset": 12129
+            }
+          ],
+          "key.bodycolumn": 62,
+          "key.bodylength": 88,
+          "key.bodyline": 229,
+          "key.bodyoffset": 12186,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Checks to see if this string has any of the given prefixes.\n\n- Parameter prefixes: the list of prefixes.\n- Returns: `true` if this string has any of the prefixes.",
+          "key.doc.declaration": "public func hasAnyPrefix(_ prefixes: String...) -> Bool",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"229\" column=\"17\"><Name>hasAnyPrefix(_:)<\/Name><USR>s:Sy7RubiconE12hasAnyPrefixySbSSd_tF<\/USR><Declaration>public func hasAnyPrefix(_ prefixes: String...) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Checks to see if this string has any of the given prefixes.<\/Para><\/Abstract><Parameters><Parameter><Name>prefixes<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the list of prefixes.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if this string has any of the prefixes.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 229,
+          "key.doc.name": "hasAnyPrefix(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the list of prefixes."
+                }
+              ],
+              "name": "prefixes"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if this string has any of the prefixes."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 199,
+          "key.docline": 224,
+          "key.docoffset": 11926,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>hasAnyPrefix<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>prefixes<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type>...<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 139,
+          "key.line": 229,
+          "key.name": "hasAnyPrefix(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 35,
+          "key.nameline": 229,
+          "key.nameoffset": 12141,
+          "key.offset": 12136,
+          "key.parsed_declaration": "public func hasAnyPrefix(_ prefixes: String...) -> Bool",
+          "key.parsed_scope.end": 232,
+          "key.parsed_scope.start": 229,
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (String...) -> Bool",
+          "key.typeusr": "$sySbSSd_tcD",
+          "key.usr": "s:Sy7RubiconE12hasAnyPrefixySbSSd_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func hasAnySuffix(_ suffixes: <Type usr=\"s:SS\">String<\/Type>...) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 240,
+              "key.offset": 12599
+            }
+          ],
+          "key.bodycolumn": 62,
+          "key.bodylength": 88,
+          "key.bodyline": 240,
+          "key.bodyoffset": 12656,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Checks to see if this string has any of the given suffixes.\n\n- Parameter suffixes: the list of suffixes.\n- Returns: `true` if this string has any of the suffixes.",
+          "key.doc.declaration": "public func hasAnySuffix(_ suffixes: String...) -> Bool",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"240\" column=\"17\"><Name>hasAnySuffix(_:)<\/Name><USR>s:Sy7RubiconE12hasAnySuffixySbSSd_tF<\/USR><Declaration>public func hasAnySuffix(_ suffixes: String...) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Checks to see if this string has any of the given suffixes.<\/Para><\/Abstract><Parameters><Parameter><Name>suffixes<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the list of suffixes.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if this string has any of the suffixes.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 240,
+          "key.doc.name": "hasAnySuffix(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the list of suffixes."
+                }
+              ],
+              "name": "suffixes"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if this string has any of the suffixes."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 199,
+          "key.docline": 235,
+          "key.docoffset": 12396,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>hasAnySuffix<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>suffixes<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type>...<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 139,
+          "key.line": 240,
+          "key.name": "hasAnySuffix(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 35,
+          "key.nameline": 240,
+          "key.nameoffset": 12611,
+          "key.offset": 12606,
+          "key.parsed_declaration": "public func hasAnySuffix(_ suffixes: String...) -> Bool",
+          "key.parsed_scope.end": 243,
+          "key.parsed_scope.start": 240,
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (String...) -> Bool",
+          "key.typeusr": "$sySbSSd_tcD",
+          "key.usr": "s:Sy7RubiconE12hasAnySuffixySbSSd_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func getCharacters(splitClusters: <Type usr=\"s:Sb\">Bool<\/Type> = true) -&gt; [<Type usr=\"s:SJ\">Character<\/Type>]<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 260,
+              "key.offset": 13884
+            }
+          ],
+          "key.bodycolumn": 75,
+          "key.bodylength": 252,
+          "key.bodyline": 260,
+          "key.bodyoffset": 13954,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Extract the characters of this\n<code>[String](https:\/\/developer.apple.com\/documentation\/swift\/String)<\/code> into an\n<code>[Array](https:\/\/developer.apple.com\/documentation\/swift\/Array)<\/code> of\n<code>[Character](https:\/\/developer.apple.com\/documentation\/swift\/Character)<\/code>s. If `splitClusters`\nis `true` then characters that are [Grapheme\nClusters](https:\/\/docs.swift.org\/swift-book\/LanguageGuide\/StringsAndCharacters.html#ID293) will be split\ninto there individual character components. For example, the American Flag Emoji (🇺🇸) will be split into\nthe individual unicode characters 🇺 and 🇸 instead of the single American Flag Emoji.\n\n- Parameter splitClusters: `true` if [Grapheme\n                           Clusters](https:\/\/docs.swift.org\/swift-book\/LanguageGuide\/StringsAndCharacters.html#ID293)\n                           should be broken apart.\n- Returns: The array of characters.",
+          "key.doc.declaration": "public func getCharacters(splitClusters: Bool = true) -> [Character]",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"260\" column=\"17\"><Name>getCharacters(splitClusters:)<\/Name><USR>s:Sy7RubiconE13getCharacters13splitClustersSaySJGSb_tF<\/USR><Declaration>public func getCharacters(splitClusters: Bool = true) -&gt; [Character]<\/Declaration><CommentParts><Abstract><Para>Extract the characters of this <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/String\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> into an <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Array\">Array<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s. If <codeVoice>splitClusters<\/codeVoice> is <codeVoice>true<\/codeVoice> then characters that are <Link href=\"https:\/\/docs.swift.org\/swift-book\/LanguageGuide\/StringsAndCharacters.html#ID293\">Grapheme Clusters<\/Link> will be split into there individual character components. For example, the American Flag Emoji (🇺🇸) will be split into the individual unicode characters 🇺 and 🇸 instead of the single American Flag Emoji.<\/Para><\/Abstract><Parameters><Parameter><Name>splitClusters<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para><codeVoice>true<\/codeVoice> if <Link href=\"https:\/\/docs.swift.org\/swift-book\/LanguageGuide\/StringsAndCharacters.html#ID293\">Grapheme Clusters<\/Link> should be broken apart.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The array of characters.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 260,
+          "key.doc.name": "getCharacters(splitClusters:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "`true` if  should be broken apart."
+                }
+              ],
+              "name": "splitClusters"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The array of characters."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1014,
+          "key.docline": 246,
+          "key.docoffset": 12866,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>getCharacters<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>splitClusters<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = true<\/decl.var.parameter>) -&gt; <decl.function.returntype>[<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 316,
+          "key.line": 260,
+          "key.name": "getCharacters(splitClusters:)",
+          "key.namecolumn": 17,
+          "key.namelength": 41,
+          "key.nameline": 260,
+          "key.nameoffset": 13896,
+          "key.offset": 13891,
+          "key.parsed_declaration": "public func getCharacters(splitClusters: Bool = true) -> [Character]",
+          "key.parsed_scope.end": 267,
+          "key.parsed_scope.start": 260,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>var characters: [<Type usr=\"s:SJ\">Character<\/Type>]<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>characters<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 32,
+              "key.line": 261,
+              "key.name": "characters",
+              "key.namecolumn": 13,
+              "key.namelength": 10,
+              "key.nameline": 261,
+              "key.nameoffset": 13967,
+              "key.offset": 13963,
+              "key.parsed_declaration": "var characters: [Character] = []",
+              "key.parsed_scope.end": 261,
+              "key.parsed_scope.start": 261,
+              "key.typename": "[Character]",
+              "key.typeusr": "$sSaySJGD",
+              "key.usr": "s:Sy7RubiconE13getCharacters13splitClustersSaySJGSb_tF10charactersL_ADvp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Bool) -> [Character]",
+          "key.typeusr": "$s13splitClustersSaySJGSb_tcD",
+          "key.usr": "s:Sy7RubiconE13getCharacters13splitClustersSaySJGSb_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func matches(pattern: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 276,
+              "key.offset": 14600
+            }
+          ],
+          "key.bodycolumn": 58,
+          "key.bodylength": 383,
+          "key.bodyline": 276,
+          "key.bodyoffset": 14653,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Test this string to see if it matches the given regular expression pattern.\n\n- Parameter pattern: the pattern.\n- Returns: `true` if the pattern matches this entire string exactly once.\n- Throws: If the pattern is malformed.",
+          "key.doc.declaration": "public func matches(pattern: String) throws -> Bool",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"276\" column=\"17\"><Name>matches(pattern:)<\/Name><USR>s:Sy7RubiconE7matches7patternSbSS_tKF<\/USR><Declaration>public func matches(pattern: String) throws -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Test this string to see if it matches the given regular expression pattern.<\/Para><\/Abstract><Parameters><Parameter><Name>pattern<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the pattern.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the pattern matches this entire string exactly once.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If the pattern is malformed.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 276,
+          "key.doc.name": "matches(pattern:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the pattern."
+                }
+              ],
+              "name": "pattern"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the pattern matches this entire string exactly once."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 268,
+          "key.docline": 270,
+          "key.docoffset": 14328,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>matches<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>pattern<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 430,
+          "key.line": 276,
+          "key.name": "matches(pattern:)",
+          "key.namecolumn": 17,
+          "key.namelength": 24,
+          "key.nameline": 276,
+          "key.nameoffset": 14612,
+          "key.offset": 14607,
+          "key.parsed_declaration": "public func matches(pattern: String) throws -> Bool",
+          "key.parsed_scope.end": 287,
+          "key.parsed_scope.start": 276,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>var e: <Type usr=\"s:s5ErrorP\">Error<\/Type>?<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>e<\/decl.name>: <decl.var.type><ref.protocol usr=\"s:s5ErrorP\">Error<\/ref.protocol>?<\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 19,
+              "key.line": 277,
+              "key.name": "e",
+              "key.namecolumn": 13,
+              "key.namelength": 1,
+              "key.nameline": 277,
+              "key.nameoffset": 14666,
+              "key.offset": 14662,
+              "key.parsed_declaration": "var e: Error? = nil",
+              "key.parsed_scope.end": 277,
+              "key.parsed_scope.start": 277,
+              "key.typename": "Error?",
+              "key.typeusr": "$ss5Error_pSgD",
+              "key.usr": "s:Sy7RubiconE7matches7patternSbSS_tKF1eL_s5Error_pSgvp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (String) throws -> Bool",
+          "key.typeusr": "$s7patternSbSS_tKcD",
+          "key.usr": "s:Sy7RubiconE7matches7patternSbSS_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func nsRange(_ range: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>&gt;) -&gt; <Type usr=\"c:@T@NSRange\">NSRange<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 295,
+              "key.offset": 15335
+            }
+          ],
+          "key.bodycolumn": 67,
+          "key.bodylength": 26,
+          "key.bodyline": 295,
+          "key.bodyoffset": 15397,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Given a valid range for for this string, return a UTF-16 based NSRange structure.\n\n- Parameter range: the range.\n- Returns: The NSRange.",
+          "key.doc.declaration": "public func nsRange(_ range: Range<String.Index>) -> NSRange",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"295\" column=\"17\"><Name>nsRange(_:)<\/Name><USR>s:Sy7RubiconE7nsRangeySo8_NSRangeVSnySS5IndexVGF<\/USR><Declaration>public func nsRange(_ range: Range&lt;String.Index&gt;) -&gt; NSRange<\/Declaration><CommentParts><Abstract><Para>Given a valid range for for this string, return a UTF-16 based NSRange structure.<\/Para><\/Abstract><Parameters><Parameter><Name>range<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the range.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The NSRange.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 295,
+          "key.doc.name": "nsRange(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the range."
+                }
+              ],
+              "name": "range"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The NSRange."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 173,
+          "key.docline": 290,
+          "key.docoffset": 15158,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>nsRange<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>range<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.typealias usr=\"c:@T@NSRange\">NSRange<\/ref.typealias><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 82,
+          "key.line": 295,
+          "key.name": "nsRange(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 37,
+          "key.nameline": 295,
+          "key.nameoffset": 15347,
+          "key.offset": 15342,
+          "key.parsed_declaration": "public func nsRange(_ range: Range<String.Index>) -> NSRange",
+          "key.parsed_scope.end": 295,
+          "key.parsed_scope.start": 295,
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Range<String.Index>) -> _NSRange",
+          "key.typeusr": "$sySo8_NSRangeVSnySS5IndexVGcD",
+          "key.usr": "s:Sy7RubiconE7nsRangeySo8_NSRangeVSnySS5IndexVGF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func substr(from fromIdx: <Type usr=\"s:Si\">Int<\/Type> = 0, to toIdx: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 309,
+              "key.offset": 16172
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 45,
+          "key.bodyline": 309,
+          "key.bodyoffset": 16240,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Returns a new <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> instance that\ncontains the <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code> of the\ngiven `from:` and `to:` bounds. A <code>[fatal\nerror](https:\/\/developer.apple.com\/documentation\/swift\/1538698-fatalerror)<\/code> is thrown if the bounds\nare invalid for the string.\n\n- Parameters:\n  - from: The index of the start of the substring.\n  - to: The index (exclusive) of the end of the string.\n- Returns: The substring",
+          "key.doc.declaration": "public func substr(from fromIdx: Int = 0, to toIdx: Int) -> String",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"309\" column=\"17\"><Name>substr(from:to:)<\/Name><USR>s:Sy7RubiconE6substr4from2toSSSi_SitF<\/USR><Declaration>public func substr(from fromIdx: Int = 0, to toIdx: Int) -&gt; String<\/Declaration><CommentParts><Abstract><Para>Returns a new <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> instance that contains the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of the given <codeVoice>from:<\/codeVoice> and <codeVoice>to:<\/codeVoice> bounds. A <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/1538698-fatalerror\">fatal error<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> is thrown if the bounds are invalid for the string.<\/Para><\/Abstract><Parameters><Parameter><Name>from<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The index of the start of the substring.<\/Para><\/Discussion><\/Parameter><Parameter><Name>to<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The index (exclusive) of the end of the string.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The substring<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 309,
+          "key.doc.name": "substr(from:to:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The index of the start of the substring."
+                }
+              ],
+              "name": "from"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The index (exclusive) of the end of the string."
+                }
+              ],
+              "name": "to"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The substring"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 623,
+          "key.docline": 298,
+          "key.docoffset": 15545,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>substr<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>from<\/decl.var.parameter.argument_label> <decl.var.parameter.name>fromIdx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 0<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>to<\/decl.var.parameter.argument_label> <decl.var.parameter.name>toIdx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 107,
+          "key.line": 309,
+          "key.name": "substr(from:to:)",
+          "key.namecolumn": 17,
+          "key.namelength": 44,
+          "key.nameline": 309,
+          "key.nameoffset": 16184,
+          "key.offset": 16179,
+          "key.parsed_declaration": "public func substr(from fromIdx: Int = 0, to toIdx: Int) -> String",
+          "key.parsed_scope.end": 311,
+          "key.parsed_scope.start": 309,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr4from6lengthSSSi_SitF\">substr(from:length:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr4fromSSSi_tF\">substr(from:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr7nsRangeSSSo8_NSRangeV_tF\">substr(nsRange:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Int, Int) -> String",
+          "key.typeusr": "$s4from2toSSSi_SitcD",
+          "key.usr": "s:Sy7RubiconE6substr4from2toSSSi_SitF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func substr(from fromIdx: <Type usr=\"s:Si\">Int<\/Type> = 0, length: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 325,
+              "key.offset": 17062
+            }
+          ],
+          "key.bodycolumn": 71,
+          "key.bodylength": 59,
+          "key.bodyline": 325,
+          "key.bodyoffset": 17128,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Returns a new <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> instance that\ncontains the <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code> of the\ngiven `from:` index for the `length:` characters. A <code>[fatal\nerror](https:\/\/developer.apple.com\/documentation\/swift\/1538698-fatalerror)<\/code> is thrown if the bounds\nare invalid for the string.\n\n- Parameters:\n  - from: The index of the start of the substring.\n  - length: The number of characters to include in the substring.\n- Returns: The substring",
+          "key.doc.declaration": "public func substr(from fromIdx: Int = 0, length: Int) -> String",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"325\" column=\"17\"><Name>substr(from:length:)<\/Name><USR>s:Sy7RubiconE6substr4from6lengthSSSi_SitF<\/USR><Declaration>public func substr(from fromIdx: Int = 0, length: Int) -&gt; String<\/Declaration><CommentParts><Abstract><Para>Returns a new <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> instance that contains the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of the given <codeVoice>from:<\/codeVoice> index for the <codeVoice>length:<\/codeVoice> characters. A <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/1538698-fatalerror\">fatal error<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> is thrown if the bounds are invalid for the string.<\/Para><\/Abstract><Parameters><Parameter><Name>from<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The index of the start of the substring.<\/Para><\/Discussion><\/Parameter><Parameter><Name>length<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of characters to include in the substring.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The substring<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 325,
+          "key.doc.name": "substr(from:length:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The index of the start of the substring."
+                }
+              ],
+              "name": "from"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The number of characters to include in the substring."
+                }
+              ],
+              "name": "length"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The substring"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 651,
+          "key.docline": 314,
+          "key.docoffset": 16407,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>substr<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>from<\/decl.var.parameter.argument_label> <decl.var.parameter.name>fromIdx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 0<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>length<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 119,
+          "key.line": 325,
+          "key.name": "substr(from:length:)",
+          "key.namecolumn": 17,
+          "key.namelength": 42,
+          "key.nameline": 325,
+          "key.nameoffset": 17074,
+          "key.offset": 17069,
+          "key.parsed_declaration": "public func substr(from fromIdx: Int = 0, length: Int) -> String",
+          "key.parsed_scope.end": 327,
+          "key.parsed_scope.start": 325,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr4from2toSSSi_SitF\">substr(from:to:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr4fromSSSi_tF\">substr(from:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr7nsRangeSSSo8_NSRangeV_tF\">substr(nsRange:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Int, Int) -> String",
+          "key.typeusr": "$s4from6lengthSSSi_SitcD",
+          "key.usr": "s:Sy7RubiconE6substr4from6lengthSSSi_SitF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func substr(from fromIdx: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 342,
+              "key.offset": 18289
+            }
+          ],
+          "key.bodycolumn": 54,
+          "key.bodylength": 60,
+          "key.bodyline": 342,
+          "key.bodyoffset": 18338,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Returns a new <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> instance that\ncontains the <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code> of the\ngiven <code>[Range](https:\/\/developer.apple.com\/documentation\/swift\/Range)<\/code>. A <code>[fatal\nerror](https:\/\/developer.apple.com\/documentation\/swift\/1538698-fatalerror)<\/code> is thrown if the bounds\nare invalid for the string.\n\n- Parameter range: the <code>[Range](https:\/\/developer.apple.com\/documentation\/swift\/Range)<\/code> of the\n                   <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code>.\n- Returns: A new <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> instance\n           that contains the\n           <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code>.",
+          "key.doc.declaration": "public func substr(from fromIdx: Int) -> String",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"342\" column=\"17\"><Name>substr(from:)<\/Name><USR>s:Sy7RubiconE6substr4fromSSSi_tF<\/USR><Declaration>public func substr(from fromIdx: Int) -&gt; String<\/Declaration><CommentParts><Abstract><Para>Returns a new <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> instance that contains the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of the given <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Range\">Range<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>. A <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/1538698-fatalerror\">fatal error<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> is thrown if the bounds are invalid for the string.<\/Para><\/Abstract><Parameters><Parameter><Name>range<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Range\">Range<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>A new <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> instance that contains the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 342,
+          "key.doc.name": "substr(from:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the <code><\/code> of the <code><\/code>."
+                }
+              ],
+              "name": "range"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "A new <code><\/code> instance that contains the <code><\/code>."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 976,
+          "key.docline": 330,
+          "key.docoffset": 17309,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>substr<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>from<\/decl.var.parameter.argument_label> <decl.var.parameter.name>fromIdx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 103,
+          "key.line": 342,
+          "key.name": "substr(from:)",
+          "key.namecolumn": 17,
+          "key.namelength": 25,
+          "key.nameline": 342,
+          "key.nameoffset": 18301,
+          "key.offset": 18296,
+          "key.parsed_declaration": "public func substr(from fromIdx: Int) -> String",
+          "key.parsed_scope.end": 344,
+          "key.parsed_scope.start": 342,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr4from2toSSSi_SitF\">substr(from:to:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr4from6lengthSSSi_SitF\">substr(from:length:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr7nsRangeSSSo8_NSRangeV_tF\">substr(nsRange:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (Int) -> String",
+          "key.typeusr": "$s4fromSSSi_tcD",
+          "key.usr": "s:Sy7RubiconE6substr4fromSSSi_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func substr(nsRange: <Type usr=\"c:@T@NSRange\">NSRange<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 361,
+              "key.offset": 19579
+            }
+          ],
+          "key.bodycolumn": 53,
+          "key.bodylength": 199,
+          "key.bodyline": 361,
+          "key.bodyoffset": 19627,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Returns a new <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> instance that\ncontains the <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code> of the\ngiven <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/NSRange)<\/code>. A <code>[fatal\nerror](https:\/\/developer.apple.com\/documentation\/swift\/1538698-fatalerror)<\/code> is thrown if the bounds\nare invalid for the string.\n\n- Parameter nsRange: the\n                     <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/NSRange)<\/code>\n                     of the\n                     <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code>\n- Returns: A new <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> instance\n           that contains the\n           <code>[Substring](https:\/\/developer.apple.com\/documentation\/swift\/Substring)<\/code>.",
+          "key.doc.declaration": "public func substr(nsRange: NSRange) -> String",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"361\" column=\"17\"><Name>substr(nsRange:)<\/Name><USR>s:Sy7RubiconE6substr7nsRangeSSSo8_NSRangeV_tF<\/USR><Declaration>public func substr(nsRange: NSRange) -&gt; String<\/Declaration><CommentParts><Abstract><Para>Returns a new <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> instance that contains the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of the given <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/NSRange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>. A <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/1538698-fatalerror\">fatal error<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> is thrown if the bounds are invalid for the string.<\/Para><\/Abstract><Parameters><Parameter><Name>nsRange<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/NSRange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML><\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>A new <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> instance that contains the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Substring\">Substring<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 361,
+          "key.doc.name": "substr(nsRange:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the <code><\/code> of the <code><\/code>"
+                }
+              ],
+              "name": "nsRange"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "A new <code><\/code> instance that contains the <code><\/code>."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1055,
+          "key.docline": 347,
+          "key.docoffset": 18520,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>substr<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>nsRange<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.typealias usr=\"c:@T@NSRange\">NSRange<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 241,
+          "key.line": 361,
+          "key.name": "substr(nsRange:)",
+          "key.namecolumn": 17,
+          "key.namelength": 24,
+          "key.nameline": 361,
+          "key.nameoffset": 19591,
+          "key.offset": 19586,
+          "key.parsed_declaration": "public func substr(nsRange: NSRange) -> String",
+          "key.parsed_scope.end": 366,
+          "key.parsed_scope.start": 361,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr4from2toSSSi_SitF\">substr(from:to:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr4from6lengthSSSi_SitF\">substr(from:length:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE6substr4fromSSSi_tF\">substr(from:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (_NSRange) -> String",
+          "key.typeusr": "$s7nsRangeSSSo8_NSRangeV_tcD",
+          "key.usr": "s:Sy7RubiconE6substr7nsRangeSSSo8_NSRangeV_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func split(on pattern: <Type usr=\"s:SS\">String<\/Type>, limit lim: <Type usr=\"s:Si\">Int<\/Type> = 0, error: inout <Type usr=\"s:s5ErrorP\">Error<\/Type>?) -&gt; [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 441,
+              "key.offset": 24268
+            }
+          ],
+          "key.bodycolumn": 97,
+          "key.bodylength": 1487,
+          "key.bodyline": 441,
+          "key.bodyoffset": 24360,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Splits this string around matches of the given regular expression pattern. This method works [just like it\ndoes in\nJava](https:\/\/docs.oracle.com\/javase\/10\/docs\/api\/java\/lang\/String.html#split%28java.lang.String,int%29).\nThe array returned by this method contains each substring of this string that is terminated by another\nsubstring that matches the given regular expression pattern or is terminated by the end of the string. The\nsubstrings in the array are in the order in which they occur in this string. If the regular expression\npattern does not match any part of the input or if the regular expression pattern is invalid then the\nresulting array has just one element, namely this string. When there is a positive-width match at the\nbeginning of this string then an empty leading substring is included at the beginning of the resulting\narray. A <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>-width match at the beginning however never\nproduces such empty leading substring. The `limit` parameter controls the number of times the regular\nexpression pattern is applied and therefore affects the length of the resulting array. If the limit n is\ngreater than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> then the regular expression pattern will\nbe applied at most n - 1 times, the array's length will be no greater than n, and the array's last entry\nwill contain all input beyond the last matched delimiter. If n is non-positive then the regular expression\npattern will be applied as many times as possible and the array can have any length. If n is\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> then the regular expression pattern will be applied\nas many times as possible, the array can have any length, and trailing empty strings will be discarded.\n\nThe string \"`boo:and:foo`\", for example, yields the following results with these parameters:\n\n<table class=\"gsr\">\n    <thead>\n        <tr>\n            <th align=\"left\">Regex<\/th>\n            <th align=\"left\">Limit<\/th>\n            <th align=\"left\">Result<\/th>\n        <\/tr>\n    <\/thead>\n    <tbody>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>2<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and:foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>5<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and\", \"foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>-2<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and\", \"foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>5<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\", \"\", \"\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>-2<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\", \"\", \"\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>0<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\" ]<\/code><\/td>\n        <\/tr>\n    <\/tbody>\n<\/table>\n\n- Parameters:\n  - pattern: The delimiting regular expression pattern.\n  - lim: The result threshold, as described above.\n  - error: If the pattern was invalid then this pass-by-reference parameter will hold the error.\n\n- Returns: The array of strings computed by splitting this string around matches of the given regular\n           expression pattern. If the regular expression pattern is invalid then this string will be\n           returned as the only element.",
+          "key.doc.declaration": "public func split(on pattern: String, limit lim: Int = 0, error: inout Error?) -> [String]",
+          "key.doc.discussion": [
+            {
+              "Para": "The string “`boo:and:foo`”, for example, yields the following results with these parameters:"
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"441\" column=\"17\"><Name>split(on:limit:error:)<\/Name><USR>s:Sy7RubiconE5split2on5limit5errorSaySSGSS_Sis5Error_pSgztF<\/USR><Declaration>public func split(on pattern: String, limit lim: Int = 0, error: inout Error?) -&gt; [String]<\/Declaration><CommentParts><Abstract><Para>Splits this string around matches of the given regular expression pattern. This method works <Link href=\"https:\/\/docs.oracle.com\/javase\/10\/docs\/api\/java\/lang\/String.html#split%28java.lang.String,int%29\">just like it does in Java<\/Link>. The array returned by this method contains each substring of this string that is terminated by another substring that matches the given regular expression pattern or is terminated by the end of the string. The substrings in the array are in the order in which they occur in this string. If the regular expression pattern does not match any part of the input or if the regular expression pattern is invalid then the resulting array has just one element, namely this string. When there is a positive-width match at the beginning of this string then an empty leading substring is included at the beginning of the resulting array. A <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>-width match at the beginning however never produces such empty leading substring. The <codeVoice>limit<\/codeVoice> parameter controls the number of times the regular expression pattern is applied and therefore affects the length of the resulting array. If the limit n is greater than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the regular expression pattern will be applied at most n - 1 times, the array’s length will be no greater than n, and the array’s last entry will contain all input beyond the last matched delimiter. If n is non-positive then the regular expression pattern will be applied as many times as possible and the array can have any length. If n is <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the regular expression pattern will be applied as many times as possible, the array can have any length, and trailing empty strings will be discarded.<\/Para><\/Abstract><Parameters><Parameter><Name>pattern<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The delimiting regular expression pattern.<\/Para><\/Discussion><\/Parameter><Parameter><Name>lim<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The result threshold, as described above.<\/Para><\/Discussion><\/Parameter><Parameter><Name>error<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>If the pattern was invalid then this pass-by-reference parameter will hold the error.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The array of strings computed by splitting this string around matches of the given regular expression pattern. If the regular expression pattern is invalid then this string will be returned as the only element.<\/Para><\/ResultDiscussion><Discussion><Para>The string “<codeVoice>boo:and:foo<\/codeVoice>”, for example, yields the following results with these parameters:<\/Para><rawHTML><![CDATA[<table class=\"gsr\">\n    <thead>\n        <tr>\n            <th align=\"left\">Regex<\/th>\n            <th align=\"left\">Limit<\/th>\n            <th align=\"left\">Result<\/th>\n        <\/tr>\n    <\/thead>\n    <tbody>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>2<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and:foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>5<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and\", \"foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>-2<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and\", \"foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>5<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\", \"\", \"\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>-2<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\", \"\", \"\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>0<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\" ]<\/code><\/td>\n        <\/tr>\n    <\/tbody>\n<\/table>\n]]><\/rawHTML><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 441,
+          "key.doc.name": "split(on:limit:error:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The delimiting regular expression pattern."
+                }
+              ],
+              "name": "pattern"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The result threshold, as described above."
+                }
+              ],
+              "name": "lim"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "If the pattern was invalid then this pass-by-reference parameter will hold the error."
+                }
+              ],
+              "name": "error"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The array of strings computed by splitting this string around matches of the given regular expression pattern. If the regular expression pattern is invalid then this string will be returned as the only element."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 4316,
+          "key.docline": 369,
+          "key.docoffset": 19948,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>split<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>on<\/decl.var.parameter.argument_label> <decl.var.parameter.name>pattern<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>limit<\/decl.var.parameter.argument_label> <decl.var.parameter.name>lim<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 0<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>error<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.protocol usr=\"s:s5ErrorP\">Error<\/ref.protocol>?<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 1573,
+          "key.line": 441,
+          "key.name": "split(on:limit:error:)",
+          "key.namecolumn": 17,
+          "key.namelength": 66,
+          "key.nameline": 441,
+          "key.nameoffset": 24280,
+          "key.offset": 24275,
+          "key.parsed_declaration": "public func split(on pattern: String, limit lim: Int = 0, error: inout Error?) -> [String]",
+          "key.parsed_scope.end": 482,
+          "key.parsed_scope.start": 441,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE5split2on5limitSaySSGSS_SitF\">split(on:limit:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKF\">split(maxSplits: Int = Int.max, omittingEmptySubsequences: Bool = true, whereSeparator: (Self.Element) throws -&gt; Bool) rethrows -&gt; [Self.SubSequence]<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSay11SubSequenceQzGAB_SiSbtF\">split(separator: Self.Element, maxSplits: Int = Int.max, omittingEmptySubsequences: Bool = true) -&gt; [Self.SubSequence]<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:STsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSays10ArraySliceVyABGGAB_SiSbtF\">split(separator: Self.Element, maxSplits: Int = Int.max, omittingEmptySubsequences: Bool = true) -&gt; [ArraySlice&lt;Self.Element&gt;]<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:STsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSays10ArraySliceVy7ElementQzGGSi_S2bAHKXEtKF\">split(maxSplits: Int = Int.max, omittingEmptySubsequences: Bool = true, whereSeparator: (Self.Element) throws -&gt; Bool) rethrows -&gt; [ArraySlice&lt;Self.Element&gt;]<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let str: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>str<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 22,
+              "key.line": 442,
+              "key.name": "str",
+              "key.namecolumn": 13,
+              "key.namelength": 3,
+              "key.nameline": 442,
+              "key.nameoffset": 24373,
+              "key.offset": 24369,
+              "key.parsed_declaration": "let str = String(self)",
+              "key.parsed_scope.end": 442,
+              "key.parsed_scope.start": 442,
+              "key.typename": "String",
+              "key.typeusr": "$sSSD",
+              "key.usr": "s:Sy7RubiconE5split2on5limit5errorSaySSGSS_Sis5Error_pSgztF3strL_SSvp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>var results: [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>results<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 33,
+              "key.line": 446,
+              "key.name": "results",
+              "key.namecolumn": 13,
+              "key.namelength": 7,
+              "key.nameline": 446,
+              "key.nameoffset": 24550,
+              "key.offset": 24546,
+              "key.parsed_declaration": "var results:    [String]     = []",
+              "key.parsed_scope.end": 446,
+              "key.parsed_scope.start": 446,
+              "key.typename": "[String]",
+              "key.typeusr": "$sSaySSGD",
+              "key.usr": "s:Sy7RubiconE5split2on5limit5errorSaySSGSS_Sis5Error_pSgztF7resultsL_AFvp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>var lIdx: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>lIdx<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 45,
+              "key.line": 447,
+              "key.name": "lIdx",
+              "key.namecolumn": 13,
+              "key.namelength": 4,
+              "key.nameline": 447,
+              "key.nameoffset": 24592,
+              "key.offset": 24588,
+              "key.parsed_declaration": "var lIdx:       String.Index = str.startIndex",
+              "key.parsed_scope.end": 447,
+              "key.parsed_scope.start": 447,
+              "key.typename": "String.Index",
+              "key.typeusr": "$sSS5IndexVD",
+              "key.usr": "s:Sy7RubiconE5split2on5limit5errorSaySSGSS_Sis5Error_pSgztF4lIdxL_SS5IndexVvp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>var limitWatch: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>limitWatch<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 32,
+              "key.line": 448,
+              "key.name": "limitWatch",
+              "key.namecolumn": 13,
+              "key.namelength": 10,
+              "key.nameline": 448,
+              "key.nameoffset": 24646,
+              "key.offset": 24642,
+              "key.parsed_declaration": "var limitWatch: Int          = 1",
+              "key.parsed_scope.end": 448,
+              "key.parsed_scope.start": 448,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:Sy7RubiconE5split2on5limit5errorSaySSGSS_Sis5Error_pSgztF0D5WatchL_Sivp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (String, Int, inout Error?) -> [String]",
+          "key.typeusr": "$s2on5limit5errorSaySSGSS_Sis5Error_pSgztcD",
+          "key.usr": "s:Sy7RubiconE5split2on5limit5errorSaySSGSS_Sis5Error_pSgztF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func split(on pattern: <Type usr=\"s:SS\">String<\/Type>, limit lim: <Type usr=\"s:Si\">Int<\/Type> = 0) -&gt; [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 556,
+              "key.offset": 30190
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 556,
+              "key.offset": 30179
+            }
+          ],
+          "key.bodycolumn": 87,
+          "key.bodylength": 98,
+          "key.bodyline": 556,
+          "key.bodyoffset": 30261,
+          "key.column": 23,
+          "key.doc.column": 28,
+          "key.doc.comment": "Splits this string around matches of the given regular expression pattern. This method works [just like it\ndoes in\nJava](https:\/\/docs.oracle.com\/javase\/10\/docs\/api\/java\/lang\/String.html#split%28java.lang.String,int%29).\nThe array returned by this method contains each substring of this string that is terminated by another\nsubstring that matches the given regular expression pattern or is terminated by the end of the string. The\nsubstrings in the array are in the order in which they occur in this string. If the regular expression\npattern does not match any part of the input or the regular expression pattern is invalid then the\nresulting array has just one element, namely this string. When there is a positive-width match at the\nbeginning of this string then an empty leading substring is included at the beginning of the resulting\narray. A <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>-width match at the beginning however never\nproduces such empty leading substring. The `limit` parameter controls the number of times the regular\nexpression pattern is applied and therefore affects the length of the resulting array. If the limit n is\ngreater than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> then the regular expression pattern will\nbe applied at most n - 1 times, the array's length will be no greater than n, and the array's last entry\nwill contain all input beyond the last matched delimiter. If n is non-positive then the regular expression\npattern will be applied as many times as possible and the array can have any length. If n is\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> then the regular expression pattern will be applied\nas many times as possible, the array can have any length, and trailing empty strings will be discarded.\n\nThe string \"`boo:and:foo`\", for example, yields the following results with these parameters:\n\n<table class=\"gsr\">\n    <thead>\n        <tr>\n            <th align=\"left\">Regex<\/th>\n            <th align=\"left\">Limit<\/th>\n            <th align=\"left\">Result<\/th>\n        <\/tr>\n    <\/thead>\n    <tbody>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>2<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and:foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>5<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and\", \"foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>-2<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and\", \"foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>5<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\", \"\", \"\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>-2<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\", \"\", \"\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>0<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\" ]<\/code><\/td>\n        <\/tr>\n    <\/tbody>\n<\/table>\n\n- Parameters:\n  - pattern: The delimiting regular expression pattern\n  - lim: The result threshold, as described above\n\n- Returns: The array of strings computed by splitting this string around matches of the given regular\n           expression pattern. If the regular expression pattern is invalid then this string will be\n           returned as the only element.",
+          "key.doc.declaration": "@inlinable public func split(on pattern: String, limit lim: Int = 0) -> [String]",
+          "key.doc.discussion": [
+            {
+              "Para": "The string “`boo:and:foo`”, for example, yields the following results with these parameters:"
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift\" line=\"556\" column=\"28\"><Name>split(on:limit:)<\/Name><USR>s:Sy7RubiconE5split2on5limitSaySSGSS_SitF<\/USR><Declaration>@inlinable public func split(on pattern: String, limit lim: Int = 0) -&gt; [String]<\/Declaration><CommentParts><Abstract><Para>Splits this string around matches of the given regular expression pattern. This method works <Link href=\"https:\/\/docs.oracle.com\/javase\/10\/docs\/api\/java\/lang\/String.html#split%28java.lang.String,int%29\">just like it does in Java<\/Link>. The array returned by this method contains each substring of this string that is terminated by another substring that matches the given regular expression pattern or is terminated by the end of the string. The substrings in the array are in the order in which they occur in this string. If the regular expression pattern does not match any part of the input or the regular expression pattern is invalid then the resulting array has just one element, namely this string. When there is a positive-width match at the beginning of this string then an empty leading substring is included at the beginning of the resulting array. A <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>-width match at the beginning however never produces such empty leading substring. The <codeVoice>limit<\/codeVoice> parameter controls the number of times the regular expression pattern is applied and therefore affects the length of the resulting array. If the limit n is greater than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the regular expression pattern will be applied at most n - 1 times, the array’s length will be no greater than n, and the array’s last entry will contain all input beyond the last matched delimiter. If n is non-positive then the regular expression pattern will be applied as many times as possible and the array can have any length. If n is <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the regular expression pattern will be applied as many times as possible, the array can have any length, and trailing empty strings will be discarded.<\/Para><\/Abstract><Parameters><Parameter><Name>pattern<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The delimiting regular expression pattern<\/Para><\/Discussion><\/Parameter><Parameter><Name>lim<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The result threshold, as described above<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The array of strings computed by splitting this string around matches of the given regular expression pattern. If the regular expression pattern is invalid then this string will be returned as the only element.<\/Para><\/ResultDiscussion><Discussion><Para>The string “<codeVoice>boo:and:foo<\/codeVoice>”, for example, yields the following results with these parameters:<\/Para><rawHTML><![CDATA[<table class=\"gsr\">\n    <thead>\n        <tr>\n            <th align=\"left\">Regex<\/th>\n            <th align=\"left\">Limit<\/th>\n            <th align=\"left\">Result<\/th>\n        <\/tr>\n    <\/thead>\n    <tbody>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>2<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and:foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>5<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and\", \"foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>:<\/code><\/td>\n            <td align=\"left\"><code>-2<\/code><\/td>\n            <td align=\"left\"><code>[ \"boo\", \"and\", \"foo\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>5<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\", \"\", \"\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>-2<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\", \"\", \"\" ]<\/code><\/td>\n        <\/tr>\n        <tr>\n            <td align=\"left\"><code>o<\/code><\/td>\n            <td align=\"left\"><code>0<\/code><\/td>\n            <td align=\"left\"><code>[ \"b\", \"\", \":and:f\" ]<\/code><\/td>\n        <\/tr>\n    <\/tbody>\n<\/table>\n]]><\/rawHTML><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 556,
+          "key.doc.name": "split(on:limit:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The delimiting regular expression pattern"
+                }
+              ],
+              "name": "pattern"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The result threshold, as described above"
+                }
+              ],
+              "name": "lim"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The array of strings computed by splitting this string around matches of the given regular expression pattern. If the regular expression pattern is invalid then this string will be returned as the only element."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 4206,
+          "key.docline": 485,
+          "key.docoffset": 25969,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>split<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>on<\/decl.var.parameter.argument_label> <decl.var.parameter.name>pattern<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>limit<\/decl.var.parameter.argument_label> <decl.var.parameter.name>lim<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 0<\/decl.var.parameter>) -&gt; <decl.function.returntype>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 163,
+          "key.line": 556,
+          "key.name": "split(on:limit:)",
+          "key.namecolumn": 28,
+          "key.namelength": 45,
+          "key.nameline": 556,
+          "key.nameoffset": 30202,
+          "key.offset": 30197,
+          "key.parsed_declaration": "@inlinable public func split(on pattern: String, limit lim: Int = 0) -> [String]",
+          "key.parsed_scope.end": 559,
+          "key.parsed_scope.start": 556,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sy7RubiconE5split2on5limit5errorSaySSGSS_Sis5Error_pSgztF\">split(on:limit:error:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKF\">split(maxSplits: Int = Int.max, omittingEmptySubsequences: Bool = true, whereSeparator: (Self.Element) throws -&gt; Bool) rethrows -&gt; [Self.SubSequence]<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SlsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSay11SubSequenceQzGAB_SiSbtF\">split(separator: Self.Element, maxSplits: Int = Int.max, omittingEmptySubsequences: Bool = true) -&gt; [Self.SubSequence]<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:STsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSays10ArraySliceVyABGGAB_SiSbtF\">split(separator: Self.Element, maxSplits: Int = Int.max, omittingEmptySubsequences: Bool = true) -&gt; [ArraySlice&lt;Self.Element&gt;]<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:STsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSays10ArraySliceVy7ElementQzGGSi_S2bAHKXEtKF\">split(maxSplits: Int = Int.max, omittingEmptySubsequences: Bool = true, whereSeparator: (Self.Element) throws -&gt; Bool) rethrows -&gt; [ArraySlice&lt;Self.Element&gt;]<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>var error: <Type usr=\"s:s5ErrorP\">Error<\/Type>?<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/StringProtocol.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>error<\/decl.name>: <decl.var.type><ref.protocol usr=\"s:s5ErrorP\">Error<\/ref.protocol>?<\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 23,
+              "key.line": 557,
+              "key.name": "error",
+              "key.namecolumn": 13,
+              "key.namelength": 5,
+              "key.nameline": 557,
+              "key.nameoffset": 30274,
+              "key.offset": 30270,
+              "key.parsed_declaration": "var error: Error? = nil",
+              "key.parsed_scope.end": 557,
+              "key.parsed_scope.start": 557,
+              "key.typename": "Error?",
+              "key.typeusr": "$ss5Error_pSgD",
+              "key.usr": "s:Sy7RubiconE5split2on5limitSaySSGSS_SitF5errorL_s5Error_pSgvp"
+            }
+          ],
+          "key.typename": "<Self where Self : StringProtocol> (Self) -> (String, Int) -> [String]",
+          "key.typeusr": "$s2on5limitSaySSGSS_SitcD",
+          "key.usr": "s:Sy7RubiconE5split2on5limitSaySSGSS_SitF"
+        }
+      ],
+      "key.typename": "StringProtocol.Protocol",
+      "key.typeusr": "$sSy_pmD",
+      "key.usr": "s:Sy"
+    }
+  ]
+}

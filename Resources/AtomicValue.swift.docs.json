@@ -1,0 +1,712 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 3746,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.open",
+      "key.annotated_decl": "<Declaration>open class AtomicValue&lt;T&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.open",
+          "key.column": 1,
+          "key.length": 4,
+          "key.line": 21,
+          "key.offset": 1134
+        }
+      ],
+      "key.bodycolumn": 28,
+      "key.bodylength": 2583,
+      "key.bodyline": 21,
+      "key.bodyoffset": 1161,
+      "key.column": 6,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>AtomicValue<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;<\/decl.class>",
+      "key.kind": "source.lang.swift.decl.class",
+      "key.length": 2606,
+      "key.line": 21,
+      "key.name": "AtomicValue",
+      "key.namecolumn": 12,
+      "key.namelength": 11,
+      "key.nameline": 21,
+      "key.nameoffset": 1145,
+      "key.offset": 1139,
+      "key.parsed_declaration": "open class AtomicValue<T>",
+      "key.parsed_scope.end": 81,
+      "key.parsed_scope.start": 21,
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T<\/Declaration>",
+          "key.column": 24,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 1,
+          "key.line": 21,
+          "key.name": "T",
+          "key.namecolumn": 24,
+          "key.namelength": 1,
+          "key.nameline": 21,
+          "key.nameoffset": 1157,
+          "key.offset": 1157,
+          "key.parsed_declaration": "open class AtomicValue<T",
+          "key.parsed_scope.end": 21,
+          "key.parsed_scope.start": 21,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon11AtomicValueC1Txmfp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.private",
+          "key.annotated_decl": "<Declaration>private var v: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private",
+              "key.column": 5,
+              "key.length": 7,
+              "key.line": 22,
+              "key.offset": 1166
+            }
+          ],
+          "key.column": 13,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>v<\/decl.name>: <decl.var.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 11,
+          "key.line": 22,
+          "key.name": "v",
+          "key.namecolumn": 17,
+          "key.namelength": 1,
+          "key.nameline": 22,
+          "key.nameoffset": 1178,
+          "key.offset": 1174,
+          "key.parsed_declaration": "private var v:    T",
+          "key.parsed_scope.end": 22,
+          "key.parsed_scope.start": 22,
+          "key.setter_accessibility": "source.lang.swift.accessibility.private",
+          "key.typename": "T",
+          "key.typeusr": "$sxD",
+          "key.usr": "s:7Rubicon11AtomicValueC1v33_44D84D184403B7A3E6FC4EB89A505B68LLxvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.private",
+          "key.annotated_decl": "<Declaration>private let lock: <Type usr=\"s:7Rubicon11ConditionalC\">Conditional<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private",
+              "key.column": 5,
+              "key.length": 7,
+              "key.line": 23,
+              "key.offset": 1190
+            }
+          ],
+          "key.column": 13,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>lock<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon11ConditionalC\">Conditional<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 37,
+          "key.line": 23,
+          "key.name": "lock",
+          "key.namecolumn": 17,
+          "key.namelength": 4,
+          "key.nameline": 23,
+          "key.nameoffset": 1202,
+          "key.offset": 1198,
+          "key.parsed_declaration": "private let lock: Conditional = Conditional()",
+          "key.parsed_scope.end": 23,
+          "key.parsed_scope.start": 23,
+          "key.typename": "Conditional",
+          "key.typeusr": "$s7Rubicon11ConditionalCD",
+          "key.usr": "s:7Rubicon11AtomicValueC4lock33_44D84D184403B7A3E6FC4EB89A505B68LLAA11ConditionalCvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open var value: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type> { get set }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 25,
+              "key.offset": 1241
+            }
+          ],
+          "key.bodycolumn": 24,
+          "key.bodylength": 88,
+          "key.bodyline": 25,
+          "key.bodyoffset": 1260,
+          "key.column": 10,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>value<\/decl.name>: <decl.var.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> <syntaxtype.keyword>set<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 103,
+          "key.line": 25,
+          "key.name": "value",
+          "key.namecolumn": 14,
+          "key.namelength": 5,
+          "key.nameline": 25,
+          "key.nameoffset": 1250,
+          "key.offset": 1246,
+          "key.parsed_declaration": "open var value: T",
+          "key.parsed_scope.end": 28,
+          "key.parsed_scope.start": 25,
+          "key.setter_accessibility": "source.lang.swift.accessibility.open",
+          "key.typename": "T",
+          "key.typeusr": "$sxD",
+          "key.usr": "s:7Rubicon11AtomicValueC5valuexvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(initialValue: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 30,
+              "key.offset": 1355
+            }
+          ],
+          "key.bodycolumn": 35,
+          "key.bodylength": 18,
+          "key.bodyline": 30,
+          "key.bodyoffset": 1385,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>initialValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 42,
+          "key.line": 30,
+          "key.name": "init(initialValue:)",
+          "key.namecolumn": 12,
+          "key.namelength": 21,
+          "key.nameline": 30,
+          "key.nameoffset": 1362,
+          "key.offset": 1362,
+          "key.parsed_declaration": "public init(initialValue: T)",
+          "key.parsed_scope.end": 30,
+          "key.parsed_scope.start": 30,
+          "key.substructure": [
+          ],
+          "key.typename": "<T> (AtomicValue<T>.Type) -> (T) -> AtomicValue<T>",
+          "key.typeusr": "$s12initialValue7Rubicon06AtomicB0CyxGx_tcD",
+          "key.usr": "s:7Rubicon11AtomicValueC07initialC0ACyxGx_tcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func waitUntil(valueIn c: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>..., thenWithVal val: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>? = nil) where <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type> : <Type usr=\"s:SQ\">Equatable<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 32,
+              "key.offset": 1410
+            }
+          ],
+          "key.bodycolumn": 89,
+          "key.bodylength": 23,
+          "key.bodyline": 32,
+          "key.bodyoffset": 1494,
+          "key.column": 10,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>waitUntil<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>valueIn<\/decl.var.parameter.argument_label> <decl.var.parameter.name>c<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type>...<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>thenWithVal<\/decl.var.parameter.argument_label> <decl.var.parameter.name>val<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param>?<\/decl.var.parameter.type> = nil<\/decl.var.parameter>) <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:SQ\">Equatable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 103,
+          "key.line": 32,
+          "key.name": "waitUntil(valueIn:thenWithVal:)",
+          "key.namecolumn": 15,
+          "key.namelength": 53,
+          "key.nameline": 32,
+          "key.nameoffset": 1420,
+          "key.offset": 1415,
+          "key.parsed_declaration": "open func waitUntil(valueIn c: T..., thenWithVal val: T? = nil) where T: Equatable",
+          "key.parsed_scope.end": 32,
+          "key.parsed_scope.start": 32,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValySayxG_xSgtSQRzlF\">waitUntil(valueIn: [T], thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithValySbxXE_xSgtF\">waitUntil(predicate:thenWithVal:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: T..., thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: [T], thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF\">waitUntil(predicate:thenWithVal:_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<T where T : Equatable> (AtomicValue<T>) -> (T..., T?) -> ()",
+          "key.typeusr": "$s7valueIn11thenWithValyxd_xSgtcSQRzluD",
+          "key.usr": "s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValyxd_xSgtSQRzlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func waitUntil(valueIn c: [<Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>], thenWithVal val: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>? = nil) where <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type> : <Type usr=\"s:SQ\">Equatable<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 34,
+              "key.offset": 1524
+            }
+          ],
+          "key.bodycolumn": 88,
+          "key.bodylength": 33,
+          "key.bodyline": 34,
+          "key.bodyoffset": 1607,
+          "key.column": 10,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>waitUntil<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>valueIn<\/decl.var.parameter.argument_label> <decl.var.parameter.name>c<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>thenWithVal<\/decl.var.parameter.argument_label> <decl.var.parameter.name>val<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param>?<\/decl.var.parameter.type> = nil<\/decl.var.parameter>) <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:SQ\">Equatable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 112,
+          "key.line": 34,
+          "key.name": "waitUntil(valueIn:thenWithVal:)",
+          "key.namecolumn": 15,
+          "key.namelength": 52,
+          "key.nameline": 34,
+          "key.nameoffset": 1534,
+          "key.offset": 1529,
+          "key.parsed_declaration": "open func waitUntil(valueIn c: [T], thenWithVal val: T? = nil) where T: Equatable",
+          "key.parsed_scope.end": 34,
+          "key.parsed_scope.start": 34,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValyxd_xSgtSQRzlF\">waitUntil(valueIn: T..., thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithValySbxXE_xSgtF\">waitUntil(predicate:thenWithVal:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: T..., thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: [T], thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF\">waitUntil(predicate:thenWithVal:_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<T where T : Equatable> (AtomicValue<T>) -> ([T], T?) -> ()",
+          "key.typeusr": "$s7valueIn11thenWithValySayxG_xSgtcSQRzluD",
+          "key.usr": "s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValySayxG_xSgtSQRzlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func waitUntil(predicate: (<Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type>, thenWithVal val: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>? = nil)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 36,
+              "key.offset": 1647
+            }
+          ],
+          "key.bodycolumn": 77,
+          "key.bodylength": 55,
+          "key.bodyline": 36,
+          "key.bodyoffset": 1719,
+          "key.column": 10,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>waitUntil<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>predicate<\/decl.var.parameter.argument_label>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>thenWithVal<\/decl.var.parameter.argument_label> <decl.var.parameter.name>val<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param>?<\/decl.var.parameter.type> = nil<\/decl.var.parameter>)<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 123,
+          "key.line": 36,
+          "key.name": "waitUntil(predicate:thenWithVal:)",
+          "key.namecolumn": 15,
+          "key.namelength": 60,
+          "key.nameline": 36,
+          "key.nameoffset": 1657,
+          "key.offset": 1652,
+          "key.parsed_declaration": "open func waitUntil(predicate: (T) -> Bool, thenWithVal val: T? = nil)",
+          "key.parsed_scope.end": 36,
+          "key.parsed_scope.start": 36,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValyxd_xSgtSQRzlF\">waitUntil(valueIn: T..., thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValySayxG_xSgtSQRzlF\">waitUntil(valueIn: [T], thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: T..., thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: [T], thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF\">waitUntil(predicate:thenWithVal:_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<T> (AtomicValue<T>) -> ((T) -> Bool, T?) -> ()",
+          "key.typeusr": "$s9predicate11thenWithValySbxXE_xSgtcD",
+          "key.usr": "s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithValySbxXE_xSgtF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func waitUntil&lt;V&gt;(valueIn c: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>..., thenWithVal val: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>? = nil, _ cl: () throws -&gt; <Type usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\">V<\/Type> where <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type> : <Type usr=\"s:SQ\">Equatable<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 94,
+              "key.length": 8,
+              "key.line": 48,
+              "key.offset": 2368
+            },
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 48,
+              "key.offset": 2279
+            }
+          ],
+          "key.bodycolumn": 128,
+          "key.bodylength": 49,
+          "key.bodyline": 48,
+          "key.bodyoffset": 2402,
+          "key.column": 10,
+          "key.doc.column": 15,
+          "key.doc.comment": "Wait Until\n\n- Parameters:\n  - c: The predicate values to test the variable for before the closure gets executed.\n  - val: The value you want the variable set to while executing the closure.\n  - cl: The closure to execute.\n- Returns: The value returned by the closure.\n- Throws: Any error thrown by the closure.",
+          "key.doc.declaration": "open func waitUntil<V>(valueIn c: T..., thenWithVal val: T? = nil, _ cl: () throws -> V) rethrows -> V where T : Equatable",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift\" line=\"48\" column=\"15\"><Name>waitUntil(valueIn:thenWithVal:_:)<\/Name><USR>s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF<\/USR><Declaration>open func waitUntil&lt;V&gt;(valueIn c: T..., thenWithVal val: T? = nil, _ cl: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/Declaration><CommentParts><Abstract><Para>Wait Until<\/Para><\/Abstract><Parameters><Parameter><Name>c<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The predicate values to test the variable for before the closure gets executed.<\/Para><\/Discussion><\/Parameter><Parameter><Name>val<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The value you want the variable set to while executing the closure.<\/Para><\/Discussion><\/Parameter><Parameter><Name>cl<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The closure to execute.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value returned by the closure.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any error thrown by the closure.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 48,
+          "key.doc.name": "waitUntil(valueIn:thenWithVal:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The predicate values to test the variable for before the closure gets executed."
+                }
+              ],
+              "name": "c"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The value you want the variable set to while executing the closure."
+                }
+              ],
+              "name": "val"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The closure to execute."
+                }
+              ],
+              "name": "cl"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The value returned by the closure."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 379,
+          "key.docline": 39,
+          "key.docoffset": 1896,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>waitUntil<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>valueIn<\/decl.var.parameter.argument_label> <decl.var.parameter.name>c<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type>...<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>thenWithVal<\/decl.var.parameter.argument_label> <decl.var.parameter.name>val<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param>?<\/decl.var.parameter.type> = nil<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cl<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\">V<\/ref.generic_type_param><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:SQ\">Equatable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 168,
+          "key.line": 48,
+          "key.name": "waitUntil(valueIn:thenWithVal:_:)",
+          "key.namecolumn": 15,
+          "key.namelength": 78,
+          "key.nameline": 48,
+          "key.nameoffset": 2289,
+          "key.offset": 2284,
+          "key.parsed_declaration": "open func waitUntil<V>(valueIn c: T..., thenWithVal val: T? = nil, _ cl: () throws -> V) rethrows -> V where T: Equatable",
+          "key.parsed_scope.end": 48,
+          "key.parsed_scope.start": 48,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValyxd_xSgtSQRzlF\">waitUntil(valueIn: T..., thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValySayxG_xSgtSQRzlF\">waitUntil(valueIn: [T], thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithValySbxXE_xSgtF\">waitUntil(predicate:thenWithVal:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: [T], thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF\">waitUntil(predicate:thenWithVal:_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>V<\/Declaration>",
+              "key.column": 25,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 48,
+              "key.name": "V",
+              "key.namecolumn": 25,
+              "key.namelength": 1,
+              "key.nameline": 48,
+              "key.nameoffset": 2299,
+              "key.offset": 2299,
+              "key.parsed_declaration": "open func waitUntil<V",
+              "key.parsed_scope.end": 48,
+              "key.parsed_scope.start": 48,
+              "key.typename": "V.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF1VL_qd__mfp"
+            }
+          ],
+          "key.typename": "<T, V where T : Equatable> (AtomicValue<T>) -> (T..., T?, () throws -> V) throws -> V",
+          "key.typeusr": "$s7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKcSQRzluD",
+          "key.usr": "s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func waitUntil&lt;V&gt;(valueIn c: [<Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>], thenWithVal val: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>? = nil, _ cl: () throws -&gt; <Type usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\">V<\/Type> where <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type> : <Type usr=\"s:SQ\">Equatable<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 93,
+              "key.length": 8,
+              "key.line": 50,
+              "key.offset": 2546
+            },
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 50,
+              "key.offset": 2458
+            }
+          ],
+          "key.bodycolumn": 127,
+          "key.bodylength": 71,
+          "key.bodyline": 50,
+          "key.bodyoffset": 2580,
+          "key.column": 10,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>waitUntil<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>valueIn<\/decl.var.parameter.argument_label> <decl.var.parameter.name>c<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>thenWithVal<\/decl.var.parameter.argument_label> <decl.var.parameter.name>val<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param>?<\/decl.var.parameter.type> = nil<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cl<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF1VL_qd__mfp\">V<\/ref.generic_type_param><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:SQ\">Equatable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 189,
+          "key.line": 50,
+          "key.name": "waitUntil(valueIn:thenWithVal:_:)",
+          "key.namecolumn": 15,
+          "key.namelength": 77,
+          "key.nameline": 50,
+          "key.nameoffset": 2468,
+          "key.offset": 2463,
+          "key.parsed_declaration": "open func waitUntil<V>(valueIn c: [T], thenWithVal val: T? = nil, _ cl: () throws -> V) rethrows -> V where T: Equatable",
+          "key.parsed_scope.end": 50,
+          "key.parsed_scope.start": 50,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValyxd_xSgtSQRzlF\">waitUntil(valueIn: T..., thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValySayxG_xSgtSQRzlF\">waitUntil(valueIn: [T], thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithValySbxXE_xSgtF\">waitUntil(predicate:thenWithVal:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: T..., thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF\">waitUntil(predicate:thenWithVal:_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>V<\/Declaration>",
+              "key.column": 25,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 50,
+              "key.name": "V",
+              "key.namecolumn": 25,
+              "key.namelength": 1,
+              "key.nameline": 50,
+              "key.nameoffset": 2478,
+              "key.offset": 2478,
+              "key.parsed_declaration": "open func waitUntil<V",
+              "key.parsed_scope.end": 50,
+              "key.parsed_scope.start": 50,
+              "key.typename": "V.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF1VL_qd__mfp"
+            }
+          ],
+          "key.typename": "<T, V where T : Equatable> (AtomicValue<T>) -> ([T], T?, () throws -> V) throws -> V",
+          "key.typeusr": "$s7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKcSQRzluD",
+          "key.usr": "s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func waitUntil&lt;V&gt;(predicate: (<Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type>, thenWithVal val: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>? = nil, _ cl: () throws -&gt; <Type usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF1VL_qd__mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF1VL_qd__mfp\">V<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 101,
+              "key.length": 8,
+              "key.line": 52,
+              "key.offset": 2754
+            },
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 52,
+              "key.offset": 2658
+            }
+          ],
+          "key.bodycolumn": 116,
+          "key.bodylength": 863,
+          "key.bodyline": 52,
+          "key.bodyoffset": 2769,
+          "key.column": 10,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>waitUntil<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF1VL_qd__mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>predicate<\/decl.var.parameter.argument_label>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>thenWithVal<\/decl.var.parameter.argument_label> <decl.var.parameter.name>val<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param>?<\/decl.var.parameter.type> = nil<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cl<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF1VL_qd__mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF1VL_qd__mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 970,
+          "key.line": 52,
+          "key.name": "waitUntil(predicate:thenWithVal:_:)",
+          "key.namecolumn": 15,
+          "key.namelength": 85,
+          "key.nameline": 52,
+          "key.nameoffset": 2668,
+          "key.offset": 2663,
+          "key.parsed_declaration": "open func waitUntil<V>(predicate: (T) -> Bool, thenWithVal val: T? = nil, _ cl: () throws -> V) rethrows -> V",
+          "key.parsed_scope.end": 78,
+          "key.parsed_scope.start": 52,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValyxd_xSgtSQRzlF\">waitUntil(valueIn: T..., thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithValySayxG_xSgtSQRzlF\">waitUntil(valueIn: [T], thenWithVal: T? = nil) where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithValySbxXE_xSgtF\">waitUntil(predicate:thenWithVal:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__xd_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: T..., thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon11AtomicValueC9waitUntil7valueIn11thenWithVal_qd__SayxG_xSgqd__yKXEtKSQRzlF\">waitUntil&lt;V&gt;(valueIn: [T], thenWithVal: T? = nil, _: () throws -&gt; V) rethrows -&gt; V where T : Equatable<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>V<\/Declaration>",
+              "key.column": 25,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 52,
+              "key.name": "V",
+              "key.namecolumn": 25,
+              "key.namelength": 1,
+              "key.nameline": 52,
+              "key.nameoffset": 2678,
+              "key.offset": 2678,
+              "key.parsed_declaration": "open func waitUntil<V",
+              "key.parsed_scope.end": 52,
+              "key.parsed_scope.start": 52,
+              "key.typename": "V.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF1VL_qd__mfp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let vt: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>vt<\/decl.name>: <decl.var.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 469,
+              "key.line": 57,
+              "key.name": "vt",
+              "key.namecolumn": 13,
+              "key.namelength": 2,
+              "key.nameline": 57,
+              "key.nameoffset": 2907,
+              "key.offset": 2903,
+              "key.parsed_declaration": "let vt: T = lock.withLock {\n    #if DEBUGRUBICON\n        nDebug(.In, \"Predicate Test\")\n        defer { nDebug(.Out, \"Predicate Test\") }\n    #endif\n    while !predicate(v) {\n        #if DEBUGRUBICON\n            nDebug(.In, \"Wait for Predicate\")\n            defer { nDebug(.Out, \"Wait for Predicate\") }\n        #endif\n        lock.broadcastWait()\n    }\n    return v\n}",
+              "key.parsed_scope.end": 57,
+              "key.parsed_scope.start": 57,
+              "key.typename": "T",
+              "key.typeusr": "$sxD",
+              "key.usr": "s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF2vtL_xvp"
+            }
+          ],
+          "key.typename": "<T, V> (AtomicValue<T>) -> ((T) -> Bool, T?, () throws -> V) throws -> V",
+          "key.typeusr": "$s9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKcluD",
+          "key.usr": "s:7Rubicon11AtomicValueC9waitUntil9predicate11thenWithVal_qd__SbxXE_xSgqd__yKXEtKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.private",
+          "key.annotated_decl": "<Declaration>private func check(_ list: [<Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>], for x: <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type> where <Type usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/Type> : <Type usr=\"s:SQ\">Equatable<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private",
+              "key.column": 5,
+              "key.length": 7,
+              "key.line": 80,
+              "key.offset": 3639
+            }
+          ],
+          "key.bodycolumn": 75,
+          "key.bodylength": 33,
+          "key.bodyline": 80,
+          "key.bodyoffset": 3709,
+          "key.column": 13,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/AtomicValue.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>check<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>list<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>for<\/decl.var.parameter.argument_label> <decl.var.parameter.name>x<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon11AtomicValueC1Txmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:SQ\">Equatable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 96,
+          "key.line": 80,
+          "key.name": "check(_:for:)",
+          "key.namecolumn": 18,
+          "key.namelength": 28,
+          "key.nameline": 80,
+          "key.nameoffset": 3652,
+          "key.offset": 3647,
+          "key.parsed_declaration": "private func check(_ list: [T], for x: T) -> Bool where T: Equatable",
+          "key.parsed_scope.end": 80,
+          "key.parsed_scope.start": 80,
+          "key.substructure": [
+          ],
+          "key.typename": "<T where T : Equatable> (AtomicValue<T>) -> ([T], T) -> Bool",
+          "key.typeusr": "$s_3forSbSayxG_xtcSQRzluD",
+          "key.usr": "s:7Rubicon11AtomicValueC5check33_44D84D184403B7A3E6FC4EB89A505B68LL_3forSbSayxG_xtSQRzlF"
+        }
+      ],
+      "key.typename": "AtomicValue<T>.Type",
+      "key.typeusr": "$s7Rubicon11AtomicValueCyxGmD",
+      "key.usr": "s:7Rubicon11AtomicValueC"
+    }
+  ]
+}

@@ -1,0 +1,2362 @@
+{
+  "key.dependencies": [
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Swift"
+    },
+    {
+      "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Rubicon-2R5RRMVLV2Q6N.pcm",
+      "key.kind": "source.lang.swift.import.module.clang",
+      "key.name": "Rubicon"
+    },
+    {
+      "key.dependencies": [
+        {
+          "key.dependencies": [
+            {
+              "key.dependencies": [
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "Darwin"
+                },
+                {
+                  "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.swift",
+                  "key.name": "Swift"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftOverlayShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftOverlayShims"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftShims"
+                }
+              ],
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Combine"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreFoundation-RZX25862PY17.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreFoundation"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreFoundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreGraphics-MC4FPA2MN9QR.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreGraphics"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreGraphics.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreGraphics"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Darwin"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Combine"
+            },
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Dispatch-2M9AOUJY3TW9V.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "Dispatch"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Dispatch.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Dispatch"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Foundation-2FJBXN8U6QRTS.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "Foundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/ObjectiveC-1A3ZNHZR9RRLF.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "ObjectiveC"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/ObjectiveC.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "ObjectiveC"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Swift"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "uuid"
+        }
+      ],
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Foundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Foundation"
+    }
+  ],
+  "key.entities": [
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 23,
+      "key.name": "Foundation",
+      "key.usr": "c:@M@Foundation"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public"
+        }
+      ],
+      "key.column": 13,
+      "key.effective_access": "source.decl.effective_access.public",
+      "key.entities": [
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 25,
+          "key.name": "Error",
+          "key.usr": "s:s5ErrorP"
+        },
+        {
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 44,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 26,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enumelement",
+          "key.line": 26,
+          "key.name": "UnexpectedEndOfInput(description:)",
+          "key.usr": "s:7Rubicon11StreamErrorO20UnexpectedEndOfInputyACSS_tcACmF"
+        },
+        {
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 27,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enumelement",
+          "key.line": 27,
+          "key.name": "UnknownError(description:)",
+          "key.usr": "s:7Rubicon11StreamErrorO07UnknownC0yACSS_tcACmF"
+        },
+        {
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 30,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 28,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enumelement",
+          "key.line": 28,
+          "key.name": "NoMark(description:)",
+          "key.usr": "s:7Rubicon11StreamErrorO6NoMarkyACSS_tcACmF"
+        },
+        {
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 30,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 29,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enumelement",
+          "key.line": 29,
+          "key.name": "Closed(description:)",
+          "key.usr": "s:7Rubicon11StreamErrorO6ClosedyACSS_tcACmF"
+        },
+        {
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 30,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enumelement",
+          "key.line": 30,
+          "key.name": "NotOpen(description:)",
+          "key.usr": "s:7Rubicon11StreamErrorO7NotOpenyACSS_tcACmF"
+        },
+        {
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 31,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enumelement",
+          "key.line": 31,
+          "key.name": "FileNotFound(description:)",
+          "key.usr": "s:7Rubicon11StreamErrorO12FileNotFoundyACSS_tcACmF"
+        },
+        {
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 41,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 32,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enumelement",
+          "key.line": 32,
+          "key.name": "OpenForWriteError(description:)",
+          "key.usr": "s:7Rubicon11StreamErrorO012OpenForWriteC0yACSS_tcACmF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.enum",
+      "key.line": 25,
+      "key.name": "StreamError",
+      "key.related": [
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 25,
+          "key.name": "Error",
+          "key.usr": "s:s5ErrorP"
+        }
+      ],
+      "key.usr": "s:7Rubicon11StreamErrorO"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.objc.name"
+        }
+      ],
+      "key.column": 11,
+      "key.entities": [
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 35,
+          "key.name": "Stream",
+          "key.usr": "c:objc(cs)NSStream"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 40,
+                  "key.entities": [
+                    {
+                      "key.column": 40,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 37,
+                      "key.receiver_usr": "c:objc(cs)NSStream",
+                      "key.usr": "c:objc(cs)NSStream(im)streamStatus"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 37,
+                  "key.name": "streamStatus",
+                  "key.usr": "c:objc(cs)NSStream(py)streamStatus"
+                },
+                {
+                  "key.column": 53,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 37,
+                  "key.name": "==(_:_:)",
+                  "key.usr": "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
+                },
+                {
+                  "key.column": 57,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 37,
+                  "key.name": "atEnd",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusAtEnd"
+                }
+              ],
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 37,
+              "key.name": "getter:isEOF",
+              "key.usr": "s:So8NSStreamC7RubiconE5isEOFSbvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 37,
+          "key.name": "isEOF",
+          "key.usr": "s:So8NSStreamC7RubiconE5isEOFSbvp"
+        },
+        {
+          "key.column": 32,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 37,
+          "key.name": "Bool",
+          "key.usr": "s:Sb"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 39,
+                  "key.kind": "source.lang.swift.ref.module",
+                  "key.line": 38,
+                  "key.name": "Rubicon",
+                  "key.usr": "c:@M@Rubicon"
+                },
+                {
+                  "key.column": 47,
+                  "key.kind": "source.lang.swift.ref.function.free",
+                  "key.line": 38,
+                  "key.name": "value(_:isOneOf:)",
+                  "key.usr": "s:7Rubicon5value_7isOneOfSbx_xdtSQRzlF"
+                },
+                {
+                  "key.column": 53,
+                  "key.entities": [
+                    {
+                      "key.column": 53,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 38,
+                      "key.receiver_usr": "c:objc(cs)NSStream",
+                      "key.usr": "c:objc(cs)NSStream(im)streamStatus"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 38,
+                  "key.name": "streamStatus",
+                  "key.usr": "c:objc(cs)NSStream(py)streamStatus"
+                },
+                {
+                  "key.column": 77,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 38,
+                  "key.name": "open",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusOpen"
+                },
+                {
+                  "key.column": 84,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 38,
+                  "key.name": "opening",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusOpening"
+                },
+                {
+                  "key.column": 94,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 38,
+                  "key.name": "reading",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusReading"
+                },
+                {
+                  "key.column": 104,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 38,
+                  "key.name": "writing",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusWriting"
+                }
+              ],
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 38,
+              "key.name": "getter:isInGoodStatus",
+              "key.usr": "s:So8NSStreamC7RubiconE14isInGoodStatusSbvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 38,
+          "key.name": "isInGoodStatus",
+          "key.usr": "s:So8NSStreamC7RubiconE14isInGoodStatusSbvp"
+        },
+        {
+          "key.column": 32,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 38,
+          "key.name": "Bool",
+          "key.usr": "s:Sb"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 20,
+          "key.effective_access": "source.decl.effective_access.internal",
+          "key.entities": [
+            {
+              "key.column": 41,
+              "key.entities": [
+                {
+                  "key.column": 20,
+                  "key.entities": [
+                    {
+                      "key.column": 20,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 48,
+                      "key.receiver_usr": "c:objc(cs)NSStream",
+                      "key.usr": "c:objc(cs)NSStream(im)streamError"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 48,
+                  "key.name": "streamError",
+                  "key.usr": "c:objc(cs)NSStream(py)streamError"
+                }
+              ],
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 44,
+              "key.name": "getter:_streamError",
+              "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 44,
+          "key.name": "_streamError",
+          "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvp"
+        },
+        {
+          "key.column": 34,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 44,
+          "key.name": "Error",
+          "key.usr": "s:s5ErrorP"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 57,
+              "key.name": "Stream",
+              "key.usr": "c:objc(cs)NSStream"
+            },
+            {
+              "key.column": 44,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 57,
+              "key.name": "Status",
+              "key.usr": "c:@E@NSStreamStatus"
+            },
+            {
+              "key.column": 58,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 57,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 20,
+              "key.entities": [
+                {
+                  "key.column": 20,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 58,
+                  "key.receiver_usr": "c:objc(cs)NSStream",
+                  "key.usr": "c:objc(cs)NSStream(im)streamStatus"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 58,
+              "key.name": "streamStatus",
+              "key.usr": "c:objc(cs)NSStream(py)streamStatus"
+            },
+            {
+              "key.column": 25,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 59,
+              "key.name": "contains(where:)",
+              "key.receiver_usr": "s:Sa",
+              "key.usr": "s:STsE8contains5whereS2b7ElementQzKXE_tKF"
+            },
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 59,
+              "key.name": "==(_:_:)",
+              "key.usr": "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 57,
+          "key.name": "status(in:)",
+          "key.usr": "s:So8NSStreamC7RubiconE6status2inSbSo0A6StatusVd_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 12,
+              "key.entities": [
+                {
+                  "key.column": 12,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 67,
+                  "key.receiver_usr": "c:objc(cs)NSStream",
+                  "key.usr": "c:objc(cs)NSStream(im)streamStatus"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 67,
+              "key.name": "streamStatus",
+              "key.usr": "c:objc(cs)NSStream(py)streamStatus"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 67,
+              "key.name": "==(_:_:)",
+              "key.usr": "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 67,
+              "key.name": "notOpen",
+              "key.usr": "c:@E@NSStreamStatus@NSStreamStatusNotOpen"
+            },
+            {
+              "key.column": 39,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 67,
+              "key.name": "open()",
+              "key.receiver_usr": "c:objc(cs)NSStream",
+              "key.usr": "c:objc(cs)NSStream(im)open"
+            },
+            {
+              "key.column": 15,
+              "key.entities": [
+                {
+                  "key.column": 15,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 68,
+                  "key.receiver_usr": "c:objc(cs)NSStream",
+                  "key.usr": "c:objc(cs)NSStream(im)streamStatus"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 68,
+              "key.name": "streamStatus",
+              "key.usr": "c:objc(cs)NSStream(py)streamStatus"
+            },
+            {
+              "key.column": 28,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 68,
+              "key.name": "==(_:_:)",
+              "key.usr": "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 68,
+              "key.name": "opening",
+              "key.usr": "c:@E@NSStreamStatus@NSStreamStatusOpening"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 66,
+          "key.name": "fullyOpen()",
+          "key.usr": "s:So8NSStreamC7RubiconE9fullyOpenyyF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.class",
+      "key.line": 35,
+      "key.name": "Stream",
+      "key.usr": "s:e:s:So8NSStreamC7RubiconE5isEOFSbvp"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.objc.name"
+        }
+      ],
+      "key.column": 11,
+      "key.entities": [
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 72,
+          "key.name": "InputStream",
+          "key.usr": "c:objc(cs)NSInputStream"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 89,
+              "key.name": "CCharPointer",
+              "key.usr": "s:7Rubicon12CCharPointera"
+            },
+            {
+              "key.column": 58,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 89,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 73,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 89,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 13,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 90,
+              "key.name": "read(to:maxLength:)",
+              "key.receiver_usr": "c:objc(cs)NSInputStream",
+              "key.usr": "s:So13NSInputStreamC7RubiconE4read2to9maxLengthSiSv_SitKF"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 90,
+              "key.name": "UnsafeMutableRawPointer",
+              "key.usr": "s:Sv"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 90,
+              "key.name": "init(_:)",
+              "key.usr": "s:SvySvSpyxGclufc"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 89,
+          "key.name": "read(to:maxLength:)",
+          "key.usr": "s:So13NSInputStreamC7RubiconE4read2to9maxLengthSiSpys4Int8VG_SitKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 108,
+              "key.name": "UnsafeMutableRawPointer",
+              "key.usr": "s:Sv"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 108,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 108,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 109,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 110,
+              "key.name": "bindMemory(to:capacity:)",
+              "key.receiver_usr": "s:Sv",
+              "key.usr": "s:Sv10bindMemory2to8capacitySpyxGxm_SitlF"
+            },
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 110,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 18,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 113,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 22,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 114,
+              "key.name": "read(_:maxLength:)",
+              "key.receiver_usr": "c:objc(cs)NSInputStream",
+              "key.usr": "c:objc(cs)NSInputStream(im)read:maxLength:"
+            },
+            {
+              "key.column": 30,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 114,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sxss8_PointerRzrlE1poiyxx_6StrideQztFZ"
+            },
+            {
+              "key.column": 59,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 114,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 115,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 116,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 44,
+              "key.entities": [
+                {
+                  "key.column": 44,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 116,
+                  "key.receiver_usr": "c:objc(cs)NSStream",
+                  "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 116,
+              "key.name": "_streamError",
+              "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvp"
+            },
+            {
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 116,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+            },
+            {
+              "key.column": 60,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 116,
+              "key.name": "StreamError",
+              "key.usr": "s:7Rubicon11StreamErrorO"
+            },
+            {
+              "key.column": 72,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 116,
+              "key.name": "UnknownError(description:)",
+              "key.usr": "s:7Rubicon11StreamErrorO07UnknownC0yACSS_tcACmF"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 119,
+              "key.name": "+=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2peoiyySiz_SitFZ"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 108,
+          "key.name": "read(to:maxLength:)",
+          "key.usr": "s:So13NSInputStreamC7RubiconE4read2to9maxLengthSiSv_SitKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 142,
+              "key.name": "Data",
+              "key.usr": "s:10Foundation4DataV"
+            },
+            {
+              "key.column": 58,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 142,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 77,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 142,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 100,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 142,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 143,
+              "key.name": "removeAll(keepingCapacity:)",
+              "key.usr": "s:SmsE9removeAll15keepingCapacityySb_tF"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 144,
+              "key.name": "!=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SzsE2neoiySbx_xtFZ"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 147,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 147,
+              "key.name": "*(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1moiyS2i_SitFZ"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 148,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 148,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 36,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 148,
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:SZss17FixedWidthIntegerRzrlE3maxxvgZ"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.static",
+              "key.line": 148,
+              "key.name": "max",
+              "key.usr": "s:SZss17FixedWidthIntegerRzrlE3maxxvpZ"
+            },
+            {
+              "key.column": 18,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 149,
+              "key.name": "UnsafeMutablePointer",
+              "key.usr": "s:Sp"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 149,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.function.method.static",
+              "key.line": 149,
+              "key.name": "allocate(capacity:)",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sp8allocate8capacitySpyxGSi_tFZ"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 149,
+              "key.name": "min(_:_:)",
+              "key.usr": "s:s3minyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 151,
+              "key.name": "deallocate()",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sp10deallocateyyF"
+            },
+            {
+              "key.column": 18,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 153,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 22,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 154,
+              "key.name": "read(_:maxLength:)",
+              "key.receiver_usr": "c:objc(cs)NSInputStream",
+              "key.usr": "c:objc(cs)NSInputStream(im)read:maxLength:"
+            },
+            {
+              "key.column": 41,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 154,
+              "key.name": "min(_:_:)",
+              "key.usr": "s:s3minyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 154,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 155,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 156,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 44,
+              "key.entities": [
+                {
+                  "key.column": 44,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 156,
+                  "key.receiver_usr": "c:objc(cs)NSStream",
+                  "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 156,
+              "key.name": "_streamError",
+              "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvp"
+            },
+            {
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 156,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+            },
+            {
+              "key.column": 60,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 156,
+              "key.name": "StreamError",
+              "key.usr": "s:7Rubicon11StreamErrorO"
+            },
+            {
+              "key.column": 72,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 156,
+              "key.name": "UnknownError(description:)",
+              "key.usr": "s:7Rubicon11StreamErrorO07UnknownC0yACSS_tcACmF"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 159,
+              "key.name": "+=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2peoiyySiz_SitFZ"
+            },
+            {
+              "key.column": 18,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 160,
+              "key.name": "append(_:count:)",
+              "key.usr": "s:10Foundation4DataV6append_5countySPys5UInt8VG_SitF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 142,
+          "key.name": "read(to:maxLength:truncate:)",
+          "key.usr": "s:So13NSInputStreamC7RubiconE4read2to9maxLength8truncateSi10Foundation4DataVz_SiSbtKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 28,
+              "key.kind": "source.lang.swift.ref.protocol",
+              "key.line": 180,
+              "key.name": "MutableManagedByteBuffer",
+              "key.usr": "s:7Rubicon24MutableManagedByteBufferP"
+            },
+            {
+              "key.column": 64,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 180,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 17,
+              "key.entities": [
+                {
+                  "key.column": 17,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 181,
+                  "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 181,
+              "key.name": "count",
+              "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivp"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 181,
+              "key.name": ">=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2geoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 28,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 181,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+            },
+            {
+              "key.column": 33,
+              "key.entities": [
+                {
+                  "key.column": 33,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 181,
+                  "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 181,
+              "key.name": "count",
+              "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivp"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 181,
+              "key.name": "<=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2leoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 44,
+              "key.entities": [
+                {
+                  "key.column": 44,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 181,
+                  "key.usr": "s:7Rubicon17ManagedByteBufferP6lengthSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 181,
+              "key.name": "length",
+              "key.usr": "s:7Rubicon17ManagedByteBufferP6lengthSivp"
+            },
+            {
+              "key.column": 64,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 181,
+              "key.name": "StreamError",
+              "key.usr": "s:7Rubicon11StreamErrorO"
+            },
+            {
+              "key.column": 76,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 181,
+              "key.name": "UnknownError(description:)",
+              "key.usr": "s:7Rubicon11StreamErrorO07UnknownC0yACSS_tcACmF"
+            },
+            {
+              "key.column": 20,
+              "key.entities": [
+                {
+                  "key.column": 20,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 182,
+                  "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 182,
+              "key.name": "count",
+              "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivp"
+            },
+            {
+              "key.column": 17,
+              "key.entities": [
+                {
+                  "key.column": 17,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 184,
+                  "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 184,
+              "key.name": "count",
+              "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivp"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 184,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 27,
+              "key.entities": [
+                {
+                  "key.column": 27,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 184,
+                  "key.usr": "s:7Rubicon17ManagedByteBufferP6lengthSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 184,
+              "key.name": "length",
+              "key.usr": "s:7Rubicon17ManagedByteBufferP6lengthSivp"
+            },
+            {
+              "key.column": 27,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 185,
+              "key.name": "withBytes(_:)",
+              "key.usr": "s:7Rubicon24MutableManagedByteBufferP9withBytesyqd__qd__Spys5UInt8VG_S2iztKXEKlF"
+            },
+            {
+              "key.column": 63,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 185,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 26,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 186,
+              "key.name": "read(_:maxLength:)",
+              "key.receiver_usr": "c:objc(cs)NSInputStream",
+              "key.usr": "c:objc(cs)NSInputStream(im)read:maxLength:"
+            },
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 186,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sxss8_PointerRzrlE1poiyxx_6StrideQztFZ"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 186,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 187,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 35,
+              "key.entities": [
+                {
+                  "key.column": 35,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 187,
+                  "key.receiver_usr": "c:objc(cs)NSStream",
+                  "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 187,
+              "key.name": "_streamError",
+              "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvp"
+            },
+            {
+              "key.column": 48,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 187,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+            },
+            {
+              "key.column": 51,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 187,
+              "key.name": "StreamError",
+              "key.usr": "s:7Rubicon11StreamErrorO"
+            },
+            {
+              "key.column": 63,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 187,
+              "key.name": "UnknownError(description:)",
+              "key.usr": "s:7Rubicon11StreamErrorO07UnknownC0yACSS_tcACmF"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 188,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 189,
+              "key.name": "+=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2peoiyySiz_SitFZ"
+            },
+            {
+              "key.column": 19,
+              "key.entities": [
+                {
+                  "key.column": 19,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 195,
+                  "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 195,
+              "key.name": "count",
+              "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivp"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 195,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 180,
+          "key.name": "read(to:)",
+          "key.usr": "s:So13NSInputStreamC7RubiconE4read2toSiAC24MutableManagedByteBuffer_p_tKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 215,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 62,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 215,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 81,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 215,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 104,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 215,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 216,
+              "key.name": "removeAll(keepingCapacity:)",
+              "key.usr": "s:Sa9removeAll15keepingCapacityySb_tF"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 217,
+              "key.name": "Data",
+              "key.usr": "s:10Foundation4DataV"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 217,
+              "key.name": "init()",
+              "key.usr": "s:10Foundation4DataVACycfc"
+            },
+            {
+              "key.column": 24,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 218,
+              "key.name": "read(to:maxLength:truncate:)",
+              "key.receiver_usr": "c:objc(cs)NSInputStream",
+              "key.usr": "s:So13NSInputStreamC7RubiconE4read2to9maxLength8truncateSi10Foundation4DataVz_SiSbtKF"
+            },
+            {
+              "key.column": 15,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 219,
+              "key.name": "append(contentsOf:)",
+              "key.usr": "s:Sa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 215,
+          "key.name": "read(to:maxLength:truncate:)",
+          "key.usr": "s:So13NSInputStreamC7RubiconE4read2to9maxLength8truncateSiSays5UInt8VGz_SiSbtKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 30,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 237,
+              "key.name": "UnsafeMutableRawBufferPointer",
+              "key.usr": "s:Sw"
+            },
+            {
+              "key.column": 71,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 237,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 238,
+              "key.name": "UnsafeMutableRawPointer",
+              "key.usr": "s:Sv"
+            },
+            {
+              "key.column": 53,
+              "key.entities": [
+                {
+                  "key.column": 53,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 238,
+                  "key.receiver_usr": "s:Sw",
+                  "key.usr": "s:Sw11baseAddressSvSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 238,
+              "key.name": "baseAddress",
+              "key.usr": "s:Sw11baseAddressSvSgvp"
+            },
+            {
+              "key.column": 20,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 239,
+              "key.name": "read(to:maxLength:)",
+              "key.receiver_usr": "c:objc(cs)NSInputStream",
+              "key.usr": "s:So13NSInputStreamC7RubiconE4read2to9maxLengthSiSv_SitKF"
+            },
+            {
+              "key.column": 48,
+              "key.entities": [
+                {
+                  "key.column": 48,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 239,
+                  "key.receiver_usr": "s:Sw",
+                  "key.usr": "s:Sw5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 239,
+              "key.name": "count",
+              "key.usr": "s:Sw5countSivp"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 237,
+          "key.name": "read(to:)",
+          "key.usr": "s:So13NSInputStreamC7RubiconE4read2toSiSw_tKF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.class",
+      "key.line": 72,
+      "key.name": "InputStream",
+      "key.usr": "s:e:s:So13NSInputStreamC7RubiconE4read2to9maxLengthSiSpys4Int8VG_SitKF"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.objc.name"
+        }
+      ],
+      "key.column": 11,
+      "key.entities": [
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 243,
+          "key.name": "OutputStream",
+          "key.usr": "c:objc(cs)NSOutputStream"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 244,
+              "key.name": "UnsafeRawBufferPointer",
+              "key.usr": "s:SW"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 244,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 85,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 244,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 28,
+              "key.entities": [
+                {
+                  "key.column": 28,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 245,
+                  "key.receiver_usr": "s:SW",
+                  "key.usr": "s:SW11baseAddressSVSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 245,
+              "key.name": "baseAddress",
+              "key.usr": "s:SW11baseAddressSVSgvp"
+            },
+            {
+              "key.column": 20,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 246,
+              "key.name": "write(from:length:)",
+              "key.receiver_usr": "c:objc(cs)NSOutputStream",
+              "key.usr": "s:So14NSOutputStreamC7RubiconE5write4from6lengthSiSV_SitKF"
+            },
+            {
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 246,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 64,
+              "key.entities": [
+                {
+                  "key.column": 64,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 246,
+                  "key.receiver_usr": "s:SW",
+                  "key.usr": "s:SW5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 246,
+              "key.name": "count",
+              "key.usr": "s:SW5countSivp"
+            },
+            {
+              "key.column": 72,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 246,
+              "key.name": "min(_:_:)",
+              "key.usr": "s:s3minyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 80,
+              "key.entities": [
+                {
+                  "key.column": 80,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 246,
+                  "key.receiver_usr": "s:SW",
+                  "key.usr": "s:SW5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 246,
+              "key.name": "count",
+              "key.usr": "s:SW5countSivp"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 244,
+          "key.name": "write(from:length:)",
+          "key.usr": "s:So14NSOutputStreamC7RubiconE5write4from6lengthSiSW_SitKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 249,
+              "key.name": "UnsafeRawPointer",
+              "key.usr": "s:SV"
+            },
+            {
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 249,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 72,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 249,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 250,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 18,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 251,
+              "key.name": "write(_:maxLength:)",
+              "key.receiver_usr": "c:objc(cs)NSOutputStream",
+              "key.usr": "c:objc(cs)NSOutputStream(im)write:maxLength:"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 251,
+              "key.name": "bindMemory(to:capacity:)",
+              "key.receiver_usr": "s:SV",
+              "key.usr": "s:SV10bindMemory2to8capacitySPyxGxm_SitlF"
+            },
+            {
+              "key.column": 41,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 251,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 18,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 252,
+              "key.name": ">=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2geoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 36,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 252,
+                  "key.receiver_usr": "c:objc(cs)NSStream",
+                  "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 252,
+              "key.name": "_streamError",
+              "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvp"
+            },
+            {
+              "key.column": 49,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 252,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+            },
+            {
+              "key.column": 52,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 252,
+              "key.name": "StreamError",
+              "key.usr": "s:7Rubicon11StreamErrorO"
+            },
+            {
+              "key.column": 64,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 252,
+              "key.name": "UnknownError(description:)",
+              "key.usr": "s:7Rubicon11StreamErrorO07UnknownC0yACSS_tcACmF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 249,
+          "key.name": "write(from:length:)",
+          "key.usr": "s:So14NSOutputStreamC7RubiconE5write4from6lengthSiSV_SitKF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.class",
+      "key.line": 243,
+      "key.name": "OutputStream",
+      "key.usr": "s:e:s:So14NSOutputStreamC7RubiconE5write4from6lengthSiSW_SitKF"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.__synthesized_protocol"
+        },
+        {
+          "key.attribute": "source.decl.attribute.objc.name"
+        }
+      ],
+      "key.column": 18,
+      "key.entities": [
+        {
+          "key.column": 18,
+          "key.kind": "source.lang.swift.ref.enum",
+          "key.line": 257,
+          "key.name": "Status",
+          "key.usr": "c:@E@NSStreamStatus"
+        },
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 257,
+          "key.name": "CustomStringConvertible",
+          "key.usr": "s:s23CustomStringConvertibleP"
+        },
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 257,
+          "key.name": "Stream",
+          "key.usr": "c:objc(cs)NSStream"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 23,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 261,
+                  "key.name": "notOpen",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusNotOpen"
+                },
+                {
+                  "key.column": 23,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 262,
+                  "key.name": "opening",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusOpening"
+                },
+                {
+                  "key.column": 23,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 263,
+                  "key.name": "open",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusOpen"
+                },
+                {
+                  "key.column": 23,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 264,
+                  "key.name": "reading",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusReading"
+                },
+                {
+                  "key.column": 23,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 265,
+                  "key.name": "writing",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusWriting"
+                },
+                {
+                  "key.column": 23,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 266,
+                  "key.name": "atEnd",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusAtEnd"
+                },
+                {
+                  "key.column": 23,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 267,
+                  "key.name": "closed",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusClosed"
+                },
+                {
+                  "key.column": 23,
+                  "key.kind": "source.lang.swift.ref.enumelement",
+                  "key.line": 268,
+                  "key.name": "error",
+                  "key.usr": "c:@E@NSStreamStatus@NSStreamStatusError"
+                }
+              ],
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 258,
+              "key.name": "getter:description",
+              "key.usr": "s:So14NSStreamStatusV7RubiconE11descriptionSSvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 258,
+          "key.name": "description",
+          "key.related": [
+            {
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.name": "description",
+              "key.usr": "s:s23CustomStringConvertibleP11descriptionSSvp"
+            }
+          ],
+          "key.usr": "s:So14NSStreamStatusV7RubiconE11descriptionSSvp"
+        },
+        {
+          "key.column": 29,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 258,
+          "key.name": "String",
+          "key.usr": "s:SS"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.enum",
+      "key.line": 257,
+      "key.name": "Status",
+      "key.related": [
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 257,
+          "key.name": "CustomStringConvertible",
+          "key.usr": "s:s23CustomStringConvertibleP"
+        }
+      ],
+      "key.usr": "s:e:s:So14NSStreamStatusV7RubiconE11descriptionSSvp"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.__synthesized_protocol"
+        }
+      ],
+      "key.column": 18,
+      "key.entities": [
+        {
+          "key.column": 18,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 286,
+          "key.name": "Event",
+          "key.usr": "c:@E@NSStreamEvent"
+        },
+        {
+          "key.column": 25,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 286,
+          "key.name": "CustomStringConvertible",
+          "key.usr": "s:s23CustomStringConvertibleP"
+        },
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 286,
+          "key.name": "Stream",
+          "key.usr": "c:objc(cs)NSStream"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 19,
+                  "key.entities": [
+                    {
+                      "key.column": 19,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 289,
+                      "key.receiver_usr": "c:@E@NSStreamEvent",
+                      "key.usr": "s:So13NSStreamEventV13openCompletedABvgZ"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 289,
+                  "key.name": "openCompleted",
+                  "key.usr": "c:@E@NSStreamEvent@NSStreamEventOpenCompleted"
+                },
+                {
+                  "key.column": 19,
+                  "key.entities": [
+                    {
+                      "key.column": 19,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 290,
+                      "key.receiver_usr": "c:@E@NSStreamEvent",
+                      "key.usr": "s:So13NSStreamEventV14endEncounteredABvgZ"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 290,
+                  "key.name": "endEncountered",
+                  "key.usr": "c:@E@NSStreamEvent@NSStreamEventEndEncountered"
+                },
+                {
+                  "key.column": 19,
+                  "key.entities": [
+                    {
+                      "key.column": 19,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 291,
+                      "key.receiver_usr": "c:@E@NSStreamEvent",
+                      "key.usr": "s:So13NSStreamEventV13errorOccurredABvgZ"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 291,
+                  "key.name": "errorOccurred",
+                  "key.usr": "c:@E@NSStreamEvent@NSStreamEventErrorOccurred"
+                },
+                {
+                  "key.column": 19,
+                  "key.entities": [
+                    {
+                      "key.column": 19,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 292,
+                      "key.receiver_usr": "c:@E@NSStreamEvent",
+                      "key.usr": "s:So13NSStreamEventV17hasBytesAvailableABvgZ"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 292,
+                  "key.name": "hasBytesAvailable",
+                  "key.usr": "c:@E@NSStreamEvent@NSStreamEventHasBytesAvailable"
+                },
+                {
+                  "key.column": 19,
+                  "key.entities": [
+                    {
+                      "key.column": 19,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 293,
+                      "key.receiver_usr": "c:@E@NSStreamEvent",
+                      "key.usr": "s:So13NSStreamEventV17hasSpaceAvailableABvgZ"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 293,
+                  "key.name": "hasSpaceAvailable",
+                  "key.usr": "c:@E@NSStreamEvent@NSStreamEventHasSpaceAvailable"
+                }
+              ],
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 287,
+              "key.name": "getter:description",
+              "key.usr": "s:So13NSStreamEventV7RubiconE11descriptionSSvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 287,
+          "key.name": "description",
+          "key.related": [
+            {
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.name": "description",
+              "key.usr": "s:s23CustomStringConvertibleP11descriptionSSvp"
+            }
+          ],
+          "key.usr": "s:So13NSStreamEventV7RubiconE11descriptionSSvp"
+        },
+        {
+          "key.column": 29,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 287,
+          "key.name": "String",
+          "key.usr": "s:SS"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.struct",
+      "key.line": 286,
+      "key.name": "Event",
+      "key.related": [
+        {
+          "key.column": 25,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 286,
+          "key.name": "CustomStringConvertible",
+          "key.usr": "s:s23CustomStringConvertibleP"
+        }
+      ],
+      "key.usr": "s:e:s:So13NSStreamEventV7RubiconE11descriptionSSvp"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.objc.name"
+        }
+      ],
+      "key.column": 11,
+      "key.entities": [
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 299,
+          "key.name": "InputStream",
+          "key.usr": "c:objc(cs)NSInputStream"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 28,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 300,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 301,
+              "key.name": "UInt8",
+              "key.usr": "s:s5UInt8V"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 302,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 27,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 302,
+              "key.name": "read(_:maxLength:)",
+              "key.receiver_usr": "c:objc(cs)NSInputStream",
+              "key.usr": "c:objc(cs)NSInputStream(im)read:maxLength:"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 303,
+              "key.name": ">=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2geoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 37,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 303,
+                  "key.receiver_usr": "c:objc(cs)NSStream",
+                  "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 303,
+              "key.name": "_streamError",
+              "key.usr": "s:So8NSStreamC7RubiconE12_streamErrors0D0_pSgvp"
+            },
+            {
+              "key.column": 50,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 303,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+            },
+            {
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 303,
+              "key.name": "StreamError",
+              "key.usr": "s:7Rubicon11StreamErrorO"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 303,
+              "key.name": "UnknownError(description:)",
+              "key.usr": "s:7Rubicon11StreamErrorO07UnknownC0yACSS_tcACmF"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 304,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 300,
+          "key.name": "read()",
+          "key.usr": "s:So13NSInputStreamC7RubiconE4reads5UInt8VSgyKF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.class",
+      "key.line": 299,
+      "key.name": "InputStream",
+      "key.usr": "s:e:s:So13NSInputStreamC7RubiconE4reads5UInt8VSgyKF"
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "key.dependencies": [
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Swift"
+    },
+    {
+      "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Rubicon-2R5RRMVLV2Q6N.pcm",
+      "key.kind": "source.lang.swift.import.module.clang",
+      "key.name": "Rubicon"
+    },
+    {
+      "key.dependencies": [
+        {
+          "key.dependencies": [
+            {
+              "key.dependencies": [
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "Darwin"
+                },
+                {
+                  "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.swift",
+                  "key.name": "Swift"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftOverlayShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftOverlayShims"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftShims"
+                }
+              ],
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Combine"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreFoundation-RZX25862PY17.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreFoundation"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreFoundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreGraphics-MC4FPA2MN9QR.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreGraphics"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreGraphics.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreGraphics"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Darwin"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Combine"
+            },
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Dispatch-2M9AOUJY3TW9V.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "Dispatch"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Dispatch.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Dispatch"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Foundation-2FJBXN8U6QRTS.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "Foundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/ObjectiveC-1A3ZNHZR9RRLF.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "ObjectiveC"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/ObjectiveC.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "ObjectiveC"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Swift"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "uuid"
+        }
+      ],
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Foundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Foundation"
+    },
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "CoreFoundation"
+    }
+  ],
+  "key.entities": [
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 18,
+      "key.name": "Foundation",
+      "key.usr": "c:@M@Foundation"
+    },
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 19,
+      "key.name": "CoreFoundation",
+      "key.usr": "c:@M@CoreFoundation"
+    },
+    {
+      "key.column": 11,
+      "key.entities": [
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 21,
+          "key.name": "RangeReplaceableCollection",
+          "key.usr": "s:Sm"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.mutating"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 37,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 56,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 27,
+              "key.name": "Element",
+              "key.usr": "s:ST7ElementQa"
+            },
+            {
+              "key.column": 68,
+              "key.entities": [
+                {
+                  "key.column": 68,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 27,
+                  "key.usr": "s:Sl7isEmptySbvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 27,
+              "key.name": "isEmpty",
+              "key.usr": "s:Sl7isEmptySbvp"
+            },
+            {
+              "key.column": 84,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 27,
+              "key.name": "removeFirst()",
+              "key.usr": "s:Sm11removeFirst7ElementQzyF"
+            }
+          ],
+          "key.groupname": "Collection",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 27,
+          "key.name": "popFirst()",
+          "key.usr": "s:Sm7RubiconE8popFirst7ElementQzSgyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows"
+            },
+            {
+              "key.attribute": "source.decl.attribute.mutating"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 37,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 68,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 38,
+              "key.name": "Element",
+              "key.usr": "s:Sl7ElementQa"
+            },
+            {
+              "key.column": 87,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 38,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 106,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 38,
+              "key.name": "Element",
+              "key.usr": "s:Sl7ElementQa"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 39,
+              "key.name": "Element",
+              "key.usr": "s:Sl7ElementQa"
+            },
+            {
+              "key.column": 13,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 40,
+              "key.name": "removeAll(where:)",
+              "key.usr": "s:Sm9removeAll5whereySb7ElementQzKXE_tKF"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 41,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 43,
+              "key.name": "append(_:)",
+              "key.usr": "s:Sa6appendyyxnF"
+            }
+          ],
+          "key.groupname": "Collection",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 38,
+          "key.name": "removeAllGet(where:)",
+          "key.usr": "s:Sm7RubiconE12removeAllGet5whereSay7ElementQzGSbAEKXE_tKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.mutating"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 37,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 49,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 61,
+              "key.name": "Element",
+              "key.usr": "s:Sl7ElementQa"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 61,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 84,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 61,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column": 97,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 61,
+              "key.name": "append(_:)",
+              "key.usr": "s:Sm6appendyy7ElementQznF"
+            }
+          ],
+          "key.groupname": "Collection",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 61,
+          "key.name": "append(_:count:)",
+          "key.usr": "s:Sm7RubiconE6append_5county7ElementQz_SitF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.mutating"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 37,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 50,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 75,
+              "key.name": "Element",
+              "key.usr": "s:Sl7ElementQa"
+            },
+            {
+              "key.column": 66,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 75,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 78,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 75,
+              "key.name": "Index",
+              "key.usr": "s:Sl5IndexQa"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 76,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column": 34,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 76,
+              "key.name": "insert(_:at:)",
+              "key.usr": "s:Sm6insert_2aty7ElementQzn_5IndexQztF"
+            },
+            {
+              "key.column": 48,
+              "key.entities": [
+                {
+                  "key.column": 48,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 76,
+                  "key.usr": "s:Sl10startIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 76,
+              "key.name": "startIndex",
+              "key.usr": "s:Sl10startIndex0B0Qzvp"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 77,
+              "key.name": "index(_:offsetBy:limitedBy:)",
+              "key.usr": "s:Sl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF"
+            },
+            {
+              "key.column": 23,
+              "key.entities": [
+                {
+                  "key.column": 23,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 77,
+                  "key.usr": "s:Sl10startIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 77,
+              "key.name": "startIndex",
+              "key.usr": "s:Sl10startIndex0B0Qzvp"
+            },
+            {
+              "key.column": 63,
+              "key.entities": [
+                {
+                  "key.column": 63,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 77,
+                  "key.usr": "s:Sl8endIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 77,
+              "key.name": "endIndex",
+              "key.usr": "s:Sl8endIndex0B0Qzvp"
+            },
+            {
+              "key.column": 73,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 77,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+            },
+            {
+              "key.column": 76,
+              "key.entities": [
+                {
+                  "key.column": 76,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 77,
+                  "key.usr": "s:Sl8endIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 77,
+              "key.name": "endIndex",
+              "key.usr": "s:Sl8endIndex0B0Qzvp"
+            }
+          ],
+          "key.groupname": "Collection",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 75,
+          "key.name": "prepend(_:count:)",
+          "key.usr": "s:Sm7RubiconE7prepend_5count5IndexQz7ElementQz_SitF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.mutating"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 37,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 68,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 90,
+              "key.name": "Index",
+              "key.usr": "s:Sl5IndexQa"
+            },
+            {
+              "key.column": 83,
+              "key.kind": "source.lang.swift.ref.protocol",
+              "key.line": 90,
+              "key.name": "Collection",
+              "key.usr": "s:Sl"
+            },
+            {
+              "key.column": 97,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 90,
+              "key.name": "Element",
+              "key.usr": "s:ST7ElementQa"
+            },
+            {
+              "key.column": 108,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 90,
+              "key.name": "Element",
+              "key.usr": "s:Sl7ElementQa"
+            },
+            {
+              "key.column": 9,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 91,
+              "key.name": "insert(contentsOf:at:)",
+              "key.usr": "s:Sm6insert10contentsOf2atyqd__n_5IndexQztSlRd__7ElementQyd__AFRtzlF"
+            },
+            {
+              "key.column": 35,
+              "key.entities": [
+                {
+                  "key.column": 35,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 91,
+                  "key.usr": "s:Sl10startIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 91,
+              "key.name": "startIndex",
+              "key.usr": "s:Sl10startIndex0B0Qzvp"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 92,
+              "key.name": "index(_:offsetBy:limitedBy:)",
+              "key.usr": "s:Sl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF"
+            },
+            {
+              "key.column": 23,
+              "key.entities": [
+                {
+                  "key.column": 23,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 92,
+                  "key.usr": "s:Sl10startIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 92,
+              "key.name": "startIndex",
+              "key.usr": "s:Sl10startIndex0B0Qzvp"
+            },
+            {
+              "key.column": 47,
+              "key.entities": [
+                {
+                  "key.column": 47,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 92,
+                  "key.usr": "s:Sl5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 92,
+              "key.name": "count",
+              "key.usr": "s:Sl5countSivp"
+            },
+            {
+              "key.column": 65,
+              "key.entities": [
+                {
+                  "key.column": 65,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 92,
+                  "key.usr": "s:Sl8endIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 92,
+              "key.name": "endIndex",
+              "key.usr": "s:Sl8endIndex0B0Qzvp"
+            },
+            {
+              "key.column": 75,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 92,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+            },
+            {
+              "key.column": 78,
+              "key.entities": [
+                {
+                  "key.column": 78,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 92,
+                  "key.usr": "s:Sl8endIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 92,
+              "key.name": "endIndex",
+              "key.usr": "s:Sl8endIndex0B0Qzvp"
+            }
+          ],
+          "key.groupname": "Collection",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 90,
+          "key.name": "prepend(contentsOf:)",
+          "key.usr": "s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.protocol",
+      "key.line": 21,
+      "key.name": "RangeReplaceableCollection",
+      "key.usr": "s:e:s:Sm7RubiconE8popFirst7ElementQzSgyF"
+    }
+  ]
+}

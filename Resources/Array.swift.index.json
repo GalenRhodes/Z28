@@ -1,0 +1,716 @@
+{
+  "key.dependencies": [
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Swift"
+    },
+    {
+      "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Rubicon-2R5RRMVLV2Q6N.pcm",
+      "key.kind": "source.lang.swift.import.module.clang",
+      "key.name": "Rubicon"
+    },
+    {
+      "key.dependencies": [
+        {
+          "key.dependencies": [
+            {
+              "key.dependencies": [
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "Darwin"
+                },
+                {
+                  "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.swift",
+                  "key.name": "Swift"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftOverlayShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftOverlayShims"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftShims"
+                }
+              ],
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Combine"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreFoundation-RZX25862PY17.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreFoundation"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreFoundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreGraphics-MC4FPA2MN9QR.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreGraphics"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreGraphics.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreGraphics"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Darwin"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Combine"
+            },
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Dispatch-2M9AOUJY3TW9V.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "Dispatch"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Dispatch.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Dispatch"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Foundation-2FJBXN8U6QRTS.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "Foundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/ObjectiveC-1A3ZNHZR9RRLF.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "ObjectiveC"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/ObjectiveC.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "ObjectiveC"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Swift"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "uuid"
+        }
+      ],
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Foundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Foundation"
+    }
+  ],
+  "key.entities": [
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 23,
+      "key.name": "Foundation",
+      "key.usr": "c:@M@Foundation"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.frozen"
+        }
+      ],
+      "key.column": 11,
+      "key.entities": [
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 25,
+          "key.name": "Array",
+          "key.usr": "s:Sa"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 28,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 43,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 36,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 51,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 36,
+              "key.name": "ArraySlice",
+              "key.usr": "s:s10ArraySliceV"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.operator.prefix",
+              "key.line": 37,
+              "key.name": "-(_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:s13SignedNumericPsE1sopyxxFZ"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.module",
+              "key.line": 37,
+              "key.name": "Swift",
+              "key.usr": "c:@M@Swift"
+            },
+            {
+              "key.column": 28,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 37,
+              "key.name": "min(_:_:)",
+              "key.usr": "s:s3minyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 36,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 37,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 37,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 21,
+              "key.entities": [
+                {
+                  "key.column": 21,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 38,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa8endIndexSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 38,
+              "key.name": "endIndex",
+              "key.usr": "s:Sa8endIndexSivp"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 39,
+              "key.name": "index(_:offsetBy:)",
+              "key.receiver_usr": "s:Sa",
+              "key.usr": "s:Sa5index_8offsetByS2i_SitF"
+            },
+            {
+              "key.column": 30,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 40,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column": 20,
+              "key.entities": [
+                {
+                  "key.column": 20,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 41,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Says10ArraySliceVyxGSnySiGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 41,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:Says10ArraySliceVyxGSnySiGcip"
+            }
+          ],
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 36,
+          "key.name": "last(count:)",
+          "key.usr": "s:Sa7RubiconE4last5counts10ArraySliceVyxGSi_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 28,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 44,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 54,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 52,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 54,
+              "key.name": "ArraySlice",
+              "key.usr": "s:s10ArraySliceV"
+            },
+            {
+              "key.column": 78,
+              "key.entities": [
+                {
+                  "key.column": 78,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 54,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Says10ArraySliceVyxGSnySiGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 54,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:Says10ArraySliceVyxGSnySiGcip"
+            },
+            {
+              "key.column": 79,
+              "key.entities": [
+                {
+                  "key.column": 79,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 54,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa10startIndexSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 54,
+              "key.name": "startIndex",
+              "key.usr": "s:Sa10startIndexSivp"
+            },
+            {
+              "key.column": 90,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 54,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column": 94,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 54,
+              "key.name": "index(_:offsetBy:)",
+              "key.receiver_usr": "s:Sa",
+              "key.usr": "s:Sa5index_8offsetByS2i_SitF"
+            },
+            {
+              "key.column": 100,
+              "key.entities": [
+                {
+                  "key.column": 100,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 54,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa10startIndexSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 54,
+              "key.name": "startIndex",
+              "key.usr": "s:Sa10startIndexSivp"
+            },
+            {
+              "key.column": 122,
+              "key.kind": "source.lang.swift.ref.module",
+              "key.line": 54,
+              "key.name": "Swift",
+              "key.usr": "c:@M@Swift"
+            },
+            {
+              "key.column": 128,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 54,
+              "key.name": "min(_:_:)",
+              "key.usr": "s:s3minyxx_xtSLRzlF"
+            },
+            {
+              "key.column": 136,
+              "key.entities": [
+                {
+                  "key.column": 136,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 54,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 54,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            }
+          ],
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 54,
+          "key.name": "first(count:)",
+          "key.usr": "s:Sa7RubiconE5first5counts10ArraySliceVyxGSi_tF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.struct",
+      "key.line": 25,
+      "key.name": "Array",
+      "key.usr": "s:e:s:Sa7RubiconE4last5counts10ArraySliceVyxGSi_tF"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.frozen"
+        }
+      ],
+      "key.column": 11,
+      "key.entities": [
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 57,
+          "key.name": "Array",
+          "key.usr": "s:Sa"
+        },
+        {
+          "key.column": 34,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 57,
+          "key.name": "Character",
+          "key.usr": "s:SJ"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 35,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 55,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 79,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 66,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 79,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 74,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 79,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 74,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 79,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcSTRzSJ7ElementRtzlufc"
+            },
+            {
+              "key.column": 86,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 79,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:SS",
+              "key.usr": "s:SS2eeoiySbSS_SStFZ"
+            }
+          ],
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.operator.infix",
+          "key.line": 79,
+          "key.name": "==(_:_:)",
+          "key.usr": "s:Sa7RubiconSJRszlE2eeoiySbSaySJG_SStFZ"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 35,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 55,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 102,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 66,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 102,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 74,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 102,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 74,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 102,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcSTRzSJ7ElementRtzlufc"
+            },
+            {
+              "key.column": 86,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 102,
+              "key.name": "!=(_:_:)",
+              "key.receiver_usr": "s:SS",
+              "key.usr": "s:SQsE2neoiySbx_xtFZ"
+            }
+          ],
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.operator.infix",
+          "key.line": 102,
+          "key.name": "!=(_:_:)",
+          "key.usr": "s:Sa7RubiconSJRszlE2neoiySbSaySJG_SStFZ"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 35,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 44,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 125,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 66,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 125,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 78,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 125,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:SS",
+              "key.usr": "s:SS2eeoiySbSS_SStFZ"
+            },
+            {
+              "key.column": 81,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 125,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 81,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 125,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcSTRzSJ7ElementRtzlufc"
+            }
+          ],
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.operator.infix",
+          "key.line": 125,
+          "key.name": "==(_:_:)",
+          "key.usr": "s:Sa7RubiconSJRszlE2eeoiySbSS_SaySJGtFZ"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 35,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 44,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 148,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 66,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 148,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 78,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 148,
+              "key.name": "!=(_:_:)",
+              "key.receiver_usr": "s:SS",
+              "key.usr": "s:SQsE2neoiySbx_xtFZ"
+            },
+            {
+              "key.column": 81,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 148,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 81,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 148,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcSTRzSJ7ElementRtzlufc"
+            }
+          ],
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.operator.infix",
+          "key.line": 148,
+          "key.name": "!=(_:_:)",
+          "key.usr": "s:Sa7RubiconSJRszlE2neoiySbSS_SaySJGtFZ"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.struct",
+      "key.line": 57,
+      "key.name": "Array",
+      "key.usr": "s:e:s:Sa7RubiconSJRszlE2eeoiySbSaySJG_SStFZ"
+    }
+  ]
+}

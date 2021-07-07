@@ -1,0 +1,116 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 1636,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>class DateFormatter : <Type usr=\"c:objc(cs)NSFormatter\">Formatter<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 25,
+          "key.offset": 1101
+        }
+      ],
+      "key.bodycolumn": 33,
+      "key.bodylength": 501,
+      "key.bodyline": 25,
+      "key.bodyoffset": 1133,
+      "key.column": 8,
+      "key.doc.comment": "",
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Headers\/NSDateFormatter.h",
+      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>DateFormatter<\/decl.name> : <ref.class usr=\"c:objc(cs)NSFormatter\">Formatter<\/ref.class><\/decl.class>",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 527,
+      "key.line": 25,
+      "key.modulename": "Foundation.NSDateFormatter",
+      "key.name": "DateFormatter",
+      "key.namecolumn": 18,
+      "key.namelength": 13,
+      "key.nameline": 25,
+      "key.nameoffset": 1118,
+      "key.offset": 1108,
+      "key.parsed_declaration": "public extension DateFormatter",
+      "key.parsed_scope.end": 40,
+      "key.parsed_scope.start": 25,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>convenience init(format formatString: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.convenience",
+              "key.column": 5,
+              "key.length": 11,
+              "key.line": 36,
+              "key.offset": 1521
+            }
+          ],
+          "key.bodycolumn": 52,
+          "key.bodylength": 64,
+          "key.bodyline": 36,
+          "key.bodyoffset": 1568,
+          "key.column": 17,
+          "key.doc.column": 17,
+          "key.doc.comment": "Equivalent to:\n<pre>\n    let fmt = DateFormatter()\n    fmt.dateFormat = formatString\n<\/pre>\n\n- Parameter formatString: the format string.",
+          "key.doc.declaration": "convenience init(format formatString: String)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/DateFormatter.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/DateFormatter.swift\" line=\"36\" column=\"17\"><Name>init(format:)<\/Name><USR>s:So15NSDateFormatterC7RubiconE6formatABSS_tcfc<\/USR><Declaration>convenience init(format formatString: String)<\/Declaration><CommentParts><Abstract><Para>Equivalent to:<\/Para><\/Abstract><Parameters><Parameter><Name>formatString<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the format string.<\/Para><\/Discussion><\/Parameter><\/Parameters><Discussion><rawHTML><![CDATA[<pre>\n    let fmt = DateFormatter()\n    fmt.dateFormat = formatString\n<\/pre>\n]]><\/rawHTML><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 36,
+          "key.doc.name": "init(format:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the format string."
+                }
+              ],
+              "name": "formatString"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 198,
+          "key.docline": 28,
+          "key.docoffset": 1319,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/DateFormatter.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>convenience<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>format<\/decl.var.parameter.argument_label> <decl.var.parameter.name>formatString<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 100,
+          "key.line": 36,
+          "key.name": "init(format:)",
+          "key.namecolumn": 17,
+          "key.namelength": 33,
+          "key.nameline": 36,
+          "key.nameoffset": 1533,
+          "key.offset": 1533,
+          "key.parsed_declaration": "convenience init(format formatString: String)",
+          "key.parsed_scope.end": 39,
+          "key.parsed_scope.start": 36,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"c:objc(cs)NSObject(im)init\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"c:objc(pl)NSCoding(im)initWithCoder:\">init(coder:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(DateFormatter.Type) -> (String) -> DateFormatter",
+          "key.typeusr": "$s6formatSo15NSDateFormatterCSS_tcD",
+          "key.usr": "s:So15NSDateFormatterC7RubiconE6formatABSS_tcfc"
+        }
+      ],
+      "key.typename": "DateFormatter.Type",
+      "key.typeusr": "$sSo15NSDateFormatterCmD",
+      "key.usr": "c:objc(cs)NSDateFormatter"
+    }
+  ]
+}

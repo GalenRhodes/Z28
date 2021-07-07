@@ -1,0 +1,1390 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 5465,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.open",
+      "key.annotated_decl": "<Declaration>open class SimpleStringCharInputStream : <Type usr=\"s:7Rubicon21SimpleCharInputStreamP\">SimpleCharInputStream<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.open",
+          "key.column": 1,
+          "key.length": 4,
+          "key.line": 21,
+          "key.offset": 1149
+        }
+      ],
+      "key.bodycolumn": 64,
+      "key.bodylength": 3292,
+      "key.bodyline": 21,
+      "key.bodyoffset": 1212,
+      "key.column": 6,
+      "key.elements": [
+        {
+          "key.column": 41,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 21,
+          "key.line": 21,
+          "key.offset": 1189
+        }
+      ],
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>SimpleStringCharInputStream<\/decl.name> : <ref.protocol usr=\"s:7Rubicon21SimpleCharInputStreamP\">SimpleCharInputStream<\/ref.protocol><\/decl.class>",
+      "key.inheritedtypes": [
+        {
+          "key.name": "SimpleCharInputStream"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.class",
+      "key.length": 3351,
+      "key.line": 21,
+      "key.name": "SimpleStringCharInputStream",
+      "key.namecolumn": 12,
+      "key.namelength": 27,
+      "key.nameline": 21,
+      "key.nameoffset": 1160,
+      "key.offset": 1154,
+      "key.parsed_declaration": "open class SimpleStringCharInputStream: SimpleCharInputStream",
+      "key.parsed_scope.end": 102,
+      "key.parsed_scope.start": 21,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public let encodingName: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 26,
+              "key.offset": 1403
+            }
+          ],
+          "key.column": 19,
+          "key.doc.column": 23,
+          "key.doc.comment": "Just for looks.  Encoding is always UTF-32.",
+          "key.doc.declaration": "public let encodingName: String",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift\" line=\"26\" column=\"23\"><Name>encodingName<\/Name><USR>s:7Rubicon27SimpleStringCharInputStreamC12encodingNameSSvp<\/USR><Declaration>public let encodingName: String<\/Declaration><CommentParts><Abstract><Para>Just for looks.  Encoding is always UTF-32.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 26,
+          "key.doc.name": "encodingName",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 56,
+          "key.docline": 24,
+          "key.docoffset": 1343,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>encodingName<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 47,
+          "key.line": 26,
+          "key.name": "encodingName",
+          "key.namecolumn": 23,
+          "key.namelength": 12,
+          "key.nameline": 26,
+          "key.nameoffset": 1421,
+          "key.offset": 1417,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon10CharStreamP12encodingNameSSvp"
+            }
+          ],
+          "key.parsed_declaration": "public        let encodingName:      String        = \"UTF-32\"",
+          "key.parsed_scope.end": 26,
+          "key.parsed_scope.start": 26,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC12encodingNameSSvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public let streamError: <Type usr=\"s:s5ErrorP\">Error<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 30,
+              "key.offset": 1643
+            }
+          ],
+          "key.column": 19,
+          "key.doc.column": 23,
+          "key.doc.comment": "Just for looks.  Errors will never happen.",
+          "key.doc.declaration": "public let streamError: Error?",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift\" line=\"30\" column=\"23\"><Name>streamError<\/Name><USR>s:7Rubicon27SimpleStringCharInputStreamC11streamErrors0H0_pSgvp<\/USR><Declaration>public let streamError: Error?<\/Declaration><CommentParts><Abstract><Para>Just for looks.  Errors will never happen.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 30,
+          "key.doc.name": "streamError",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 55,
+          "key.docline": 28,
+          "key.docoffset": 1584,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>streamError<\/decl.name>: <decl.var.type><ref.protocol usr=\"s:s5ErrorP\">Error<\/ref.protocol>?<\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 42,
+          "key.line": 30,
+          "key.name": "streamError",
+          "key.namecolumn": 23,
+          "key.namelength": 11,
+          "key.nameline": 30,
+          "key.nameoffset": 1661,
+          "key.offset": 1657,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon10CharStreamP11streamErrors0E0_pSgvp"
+            }
+          ],
+          "key.parsed_declaration": "public        let streamError:       Error?        = nil",
+          "key.parsed_scope.end": 30,
+          "key.parsed_scope.start": 30,
+          "key.typename": "Error?",
+          "key.typeusr": "$ss5Error_pSgD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC11streamErrors0H0_pSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open var streamStatus: <Type usr=\"c:objc(cs)NSStream\">Stream<\/Type>.<Type usr=\"c:@E@NSStreamStatus\">Status<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 32,
+              "key.offset": 1705
+            }
+          ],
+          "key.bodycolumn": 57,
+          "key.bodylength": 83,
+          "key.bodyline": 32,
+          "key.bodyoffset": 1757,
+          "key.column": 19,
+          "key.doc.column": 9,
+          "key.doc.declaration": "var streamStatus: Stream.Status { get }",
+          "key.doc.discussion": [
+            {
+              "Note": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/CharStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/CharStream.swift\" line=\"44\" column=\"9\"><Name>streamStatus<\/Name><USR>s:7Rubicon10CharStreamP12streamStatusSo08NSStreamE0Vvp<\/USR><Declaration>var streamStatus: Stream.Status { get }<\/Declaration><CommentParts><Abstract><Para>The status of the <codeVoice>CharInputStream<\/codeVoice>.<\/Para><\/Abstract><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>CharStream<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Other>",
+          "key.doc.line": 44,
+          "key.doc.name": "streamStatus",
+          "key.doc.type": "Other",
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>streamStatus<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSStream\">Stream<\/ref.class>.<ref.enum usr=\"c:@E@NSStreamStatus\">Status<\/ref.enum><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 122,
+          "key.line": 32,
+          "key.name": "streamStatus",
+          "key.namecolumn": 23,
+          "key.namelength": 12,
+          "key.nameline": 32,
+          "key.nameoffset": 1723,
+          "key.offset": 1719,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon10CharStreamP12streamStatusSo08NSStreamE0Vvp"
+            }
+          ],
+          "key.parsed_declaration": "open          var streamStatus:      Stream.Status",
+          "key.parsed_scope.end": 32,
+          "key.parsed_scope.start": 32,
+          "key.typename": "Stream.Status",
+          "key.typeusr": "$sSo14NSStreamStatusVD",
+          "key.usr": "s:7Rubicon10CharStreamP12streamStatusSo08NSStreamE0Vvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open var hasCharsAvailable: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 33,
+              "key.offset": 1846
+            }
+          ],
+          "key.bodycolumn": 57,
+          "key.bodylength": 83,
+          "key.bodyline": 33,
+          "key.bodyoffset": 1898,
+          "key.column": 19,
+          "key.doc.column": 9,
+          "key.doc.declaration": "var hasCharsAvailable: Bool { get }",
+          "key.doc.discussion": [
+            {
+              "Note": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"30\" column=\"9\"><Name>hasCharsAvailable<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP17hasCharsAvailableSbvp<\/USR><Declaration>var hasCharsAvailable: Bool { get }<\/Declaration><CommentParts><Abstract><Para><codeVoice>true<\/codeVoice> if the stream has characters ready to be read.<\/Para><\/Abstract><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>SimpleCharInputStream<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Other>",
+          "key.doc.line": 30,
+          "key.doc.name": "hasCharsAvailable",
+          "key.doc.type": "Other",
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>hasCharsAvailable<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 122,
+          "key.line": 33,
+          "key.name": "hasCharsAvailable",
+          "key.namecolumn": 23,
+          "key.namelength": 17,
+          "key.nameline": 33,
+          "key.nameoffset": 1864,
+          "key.offset": 1860,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon21SimpleCharInputStreamP17hasCharsAvailableSbvp"
+            }
+          ],
+          "key.parsed_declaration": "open          var hasCharsAvailable: Bool",
+          "key.parsed_scope.end": 33,
+          "key.parsed_scope.start": 33,
+          "key.typename": "Bool",
+          "key.typeusr": "$sSbD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP17hasCharsAvailableSbvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open var isEOF: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 34,
+              "key.offset": 1987
+            }
+          ],
+          "key.bodycolumn": 57,
+          "key.bodylength": 83,
+          "key.bodyline": 34,
+          "key.bodyoffset": 2039,
+          "key.column": 19,
+          "key.doc.column": 9,
+          "key.doc.declaration": "var isEOF: Bool { get }",
+          "key.doc.discussion": [
+            {
+              "Note": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"25\" column=\"9\"><Name>isEOF<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP5isEOFSbvp<\/USR><Declaration>var isEOF: Bool { get }<\/Declaration><CommentParts><Abstract><Para><codeVoice>true<\/codeVoice> if the stream is at the end-of-file.<\/Para><\/Abstract><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>SimpleCharInputStream<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Other>",
+          "key.doc.line": 25,
+          "key.doc.name": "isEOF",
+          "key.doc.type": "Other",
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isEOF<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 122,
+          "key.line": 34,
+          "key.name": "isEOF",
+          "key.namecolumn": 23,
+          "key.namelength": 5,
+          "key.nameline": 34,
+          "key.nameoffset": 2005,
+          "key.offset": 2001,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon21SimpleCharInputStreamP5isEOFSbvp"
+            }
+          ],
+          "key.parsed_declaration": "open          var isEOF:             Bool",
+          "key.parsed_scope.end": 34,
+          "key.parsed_scope.start": 34,
+          "key.typename": "Bool",
+          "key.typeusr": "$sSbD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP5isEOFSbvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>internal let string: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.internal",
+              "key.column": 5,
+              "key.length": 8,
+              "key.line": 36,
+              "key.offset": 2129
+            }
+          ],
+          "key.column": 19,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>internal<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>string<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 29,
+          "key.line": 36,
+          "key.name": "string",
+          "key.namecolumn": 23,
+          "key.namelength": 6,
+          "key.nameline": 36,
+          "key.nameoffset": 2147,
+          "key.offset": 2143,
+          "key.parsed_declaration": "internal      let string:            String",
+          "key.parsed_scope.end": 36,
+          "key.parsed_scope.start": 36,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC6stringSSvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>internal let eIdx: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.internal",
+              "key.column": 5,
+              "key.length": 8,
+              "key.line": 37,
+              "key.offset": 2177
+            }
+          ],
+          "key.column": 19,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>internal<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>eIdx<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 35,
+          "key.line": 37,
+          "key.name": "eIdx",
+          "key.namecolumn": 23,
+          "key.namelength": 4,
+          "key.nameline": 37,
+          "key.nameoffset": 2195,
+          "key.offset": 2191,
+          "key.parsed_declaration": "internal      let eIdx:              String.Index",
+          "key.parsed_scope.end": 37,
+          "key.parsed_scope.start": 37,
+          "key.typename": "String.Index",
+          "key.typeusr": "$sSS5IndexVD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC4eIdxSS5IndexVvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>internal var index: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.internal",
+              "key.column": 5,
+              "key.length": 8,
+              "key.line": 38,
+              "key.offset": 2231
+            }
+          ],
+          "key.column": 19,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>internal<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>index<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 35,
+          "key.line": 38,
+          "key.name": "index",
+          "key.namecolumn": 23,
+          "key.namelength": 5,
+          "key.nameline": 38,
+          "key.nameoffset": 2249,
+          "key.offset": 2245,
+          "key.parsed_declaration": "internal      var index:             String.Index",
+          "key.parsed_scope.end": 38,
+          "key.parsed_scope.start": 38,
+          "key.setter_accessibility": "source.lang.swift.accessibility.internal",
+          "key.typename": "String.Index",
+          "key.typeusr": "$sSS5IndexVD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC5indexSS5IndexVvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>internal var status: <Type usr=\"c:objc(cs)NSStream\">Stream<\/Type>.<Type usr=\"c:@E@NSStreamStatus\">Status<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.internal",
+              "key.column": 5,
+              "key.length": 8,
+              "key.line": 39,
+              "key.offset": 2285
+            }
+          ],
+          "key.column": 19,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>internal<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>status<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSStream\">Stream<\/ref.class>.<ref.enum usr=\"c:@E@NSStreamStatus\">Status<\/ref.enum><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 47,
+          "key.line": 39,
+          "key.name": "status",
+          "key.namecolumn": 23,
+          "key.namelength": 6,
+          "key.nameline": 39,
+          "key.nameoffset": 2303,
+          "key.offset": 2299,
+          "key.parsed_declaration": "internal      var status:            Stream.Status = .notOpen",
+          "key.parsed_scope.end": 39,
+          "key.parsed_scope.start": 39,
+          "key.setter_accessibility": "source.lang.swift.accessibility.internal",
+          "key.typename": "Stream.Status",
+          "key.typeusr": "$sSo14NSStreamStatusVD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC6statusSo14NSStreamStatusVvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>internal lazy var lck: <Type usr=\"s:7Rubicon13RecursiveLocka\">RecursiveLock<\/Type> { get set }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.lazy",
+              "key.column": 14,
+              "key.length": 4,
+              "key.line": 40,
+              "key.offset": 2360
+            },
+            {
+              "key.attribute": "source.decl.attribute.internal",
+              "key.column": 5,
+              "key.length": 8,
+              "key.line": 40,
+              "key.offset": 2351
+            }
+          ],
+          "key.column": 19,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>internal<\/syntaxtype.keyword> <syntaxtype.keyword>lazy<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>lck<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon13RecursiveLocka\">RecursiveLock<\/ref.typealias><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> <syntaxtype.keyword>set<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 54,
+          "key.line": 40,
+          "key.name": "lck",
+          "key.namecolumn": 23,
+          "key.namelength": 3,
+          "key.nameline": 40,
+          "key.nameoffset": 2369,
+          "key.offset": 2365,
+          "key.parsed_declaration": "internal lazy var lck:               RecursiveLock = RecursiveLock()",
+          "key.parsed_scope.end": 40,
+          "key.parsed_scope.start": 40,
+          "key.setter_accessibility": "source.lang.swift.accessibility.internal",
+          "key.typename": "NSRecursiveLock",
+          "key.typeusr": "$sSo15NSRecursiveLockCD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC3lckSo15NSRecursiveLockCvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(string: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 43,
+              "key.offset": 2436
+            }
+          ],
+          "key.bodycolumn": 34,
+          "key.bodylength": 119,
+          "key.bodyline": 43,
+          "key.bodyoffset": 2465,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>string<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 142,
+          "key.line": 43,
+          "key.name": "init(string:)",
+          "key.namecolumn": 12,
+          "key.namelength": 20,
+          "key.nameline": 43,
+          "key.nameoffset": 2443,
+          "key.offset": 2443,
+          "key.parsed_declaration": "public init(string: String)",
+          "key.parsed_scope.end": 47,
+          "key.parsed_scope.start": 43,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon27SimpleStringCharInputStreamC4data12encodingNameAC10Foundation4DataV_SStKcfc\">init(data:encodingName:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream.Type) -> (String) -> SimpleStringCharInputStream",
+          "key.typeusr": "$s6string7Rubicon27SimpleStringCharInputStreamCSS_tcD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC6stringACSS_tcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public convenience init(data: <Type usr=\"s:10Foundation4DataV\">Data<\/Type>, encodingName: <Type usr=\"s:SS\">String<\/Type>) throws<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.convenience",
+              "key.column": 12,
+              "key.length": 11,
+              "key.line": 49,
+              "key.offset": 2598
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 49,
+              "key.offset": 2591
+            }
+          ],
+          "key.bodycolumn": 71,
+          "key.bodylength": 68,
+          "key.bodyline": 49,
+          "key.bodyoffset": 2657,
+          "key.column": 24,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>convenience<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>data<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DataV\">Data<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encodingName<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword><\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 116,
+          "key.line": 49,
+          "key.name": "init(data:encodingName:)",
+          "key.namecolumn": 24,
+          "key.namelength": 38,
+          "key.nameline": 49,
+          "key.nameoffset": 2610,
+          "key.offset": 2610,
+          "key.parsed_declaration": "public convenience init(data: Data, encodingName: String) throws",
+          "key.parsed_scope.end": 51,
+          "key.parsed_scope.start": 49,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon27SimpleStringCharInputStreamC6stringACSS_tcfc\">init(string:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream.Type) -> (Data, String) throws -> SimpleStringCharInputStream",
+          "key.typeusr": "$s4data12encodingName7Rubicon27SimpleStringCharInputStreamC10Foundation4DataV_SStKcD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC4data12encodingNameAC10Foundation4DataV_SStKcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>deinit<\/Declaration>",
+          "key.bodycolumn": 13,
+          "key.bodylength": 10,
+          "key.bodyline": 53,
+          "key.bodyoffset": 2740,
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.destructor><syntaxtype.keyword>deinit<\/syntaxtype.keyword><\/decl.function.destructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 19,
+          "key.line": 53,
+          "key.name": "deinit",
+          "key.namecolumn": 5,
+          "key.namelength": 6,
+          "key.nameline": 53,
+          "key.nameoffset": 2732,
+          "key.offset": 2732,
+          "key.parsed_declaration": "deinit",
+          "key.parsed_scope.end": 53,
+          "key.parsed_scope.start": 53,
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamCfd"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func lock()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 55,
+              "key.offset": 2757
+            }
+          ],
+          "key.bodycolumn": 23,
+          "key.bodylength": 12,
+          "key.bodyline": 55,
+          "key.bodyoffset": 2775,
+          "key.column": 10,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>lock<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 26,
+          "key.line": 55,
+          "key.name": "lock()",
+          "key.namecolumn": 15,
+          "key.namelength": 6,
+          "key.nameline": 55,
+          "key.nameoffset": 2767,
+          "key.offset": 2762,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon10CharStreamP4lockyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func lock()",
+          "key.parsed_scope.end": 55,
+          "key.parsed_scope.start": 55,
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC4lockyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func unlock()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 57,
+              "key.offset": 2794
+            }
+          ],
+          "key.bodycolumn": 25,
+          "key.bodylength": 14,
+          "key.bodyline": 57,
+          "key.bodyoffset": 2814,
+          "key.column": 10,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>unlock<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 30,
+          "key.line": 57,
+          "key.name": "unlock()",
+          "key.namecolumn": 15,
+          "key.namelength": 8,
+          "key.nameline": 57,
+          "key.nameoffset": 2804,
+          "key.offset": 2799,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon10CharStreamP6unlockyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func unlock()",
+          "key.parsed_scope.end": 57,
+          "key.parsed_scope.start": 57,
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC6unlockyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func withLock&lt;T&gt;(_ body: () throws -&gt; <Type usr=\"s:7Rubicon27SimpleStringCharInputStreamC8withLockyxxyKXEKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon27SimpleStringCharInputStreamC8withLockyxxyKXEKlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 51,
+              "key.length": 8,
+              "key.line": 59,
+              "key.offset": 2881
+            },
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 59,
+              "key.offset": 2835
+            }
+          ],
+          "key.bodycolumn": 66,
+          "key.bodylength": 24,
+          "key.bodyline": 59,
+          "key.bodyoffset": 2896,
+          "key.column": 10,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLock<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon27SimpleStringCharInputStreamC8withLockyxxyKXEKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon27SimpleStringCharInputStreamC8withLockyxxyKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon27SimpleStringCharInputStreamC8withLockyxxyKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 81,
+          "key.line": 59,
+          "key.name": "withLock(_:)",
+          "key.namecolumn": 15,
+          "key.namelength": 35,
+          "key.nameline": 59,
+          "key.nameoffset": 2845,
+          "key.offset": 2840,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon10CharStreamP8withLockyqd__qd__yKXEKlF"
+            }
+          ],
+          "key.parsed_declaration": "open func withLock<T>(_ body: () throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 59,
+          "key.parsed_scope.start": 59,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 24,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 59,
+              "key.name": "T",
+              "key.namecolumn": 24,
+              "key.namelength": 1,
+              "key.nameline": 59,
+              "key.nameoffset": 2854,
+              "key.offset": 2854,
+              "key.parsed_declaration": "open func withLock<T",
+              "key.parsed_scope.end": 59,
+              "key.parsed_scope.start": 59,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC8withLockyxxyKXEKlF1TL_xmfp"
+            }
+          ],
+          "key.typename": "<T> (SimpleStringCharInputStream) -> (() throws -> T) throws -> T",
+          "key.typeusr": "$syxxyKXEKcluD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC8withLockyxxyKXEKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func read() throws -&gt; <Type usr=\"s:SJ\">Character<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 61,
+              "key.offset": 2927
+            }
+          ],
+          "key.bodycolumn": 44,
+          "key.bodylength": 34,
+          "key.bodyline": 61,
+          "key.bodyoffset": 2966,
+          "key.column": 10,
+          "key.doc.column": 10,
+          "key.doc.declaration": "func read() throws -> Character?",
+          "key.doc.discussion": [
+            {
+              "Note": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"38\" column=\"10\"><Name>read()<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP4readSJSgyKF<\/USR><Declaration>func read() throws -&gt; Character?<\/Declaration><CommentParts><Abstract><Para>Read one character.<\/Para><\/Abstract><ResultDiscussion><Para>The next character or <codeVoice>nil<\/codeVoice> if EOF.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs.<\/Para><\/ThrowsDiscussion><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>SimpleCharInputStream<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 38,
+          "key.doc.name": "read()",
+          "key.doc.result_discussion": [
+            {
+              "Para": "The next character or `nil` if EOF."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>read<\/decl.name>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SJ\">Character<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 69,
+          "key.line": 61,
+          "key.name": "read()",
+          "key.namecolumn": 15,
+          "key.namelength": 6,
+          "key.nameline": 61,
+          "key.nameoffset": 2937,
+          "key.offset": 2932,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon21SimpleCharInputStreamP4readSJSgyKF"
+            }
+          ],
+          "key.parsed_declaration": "open func read() throws -> Character?",
+          "key.parsed_scope.end": 61,
+          "key.parsed_scope.start": 61,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon27SimpleStringCharInputStreamC4read5chars9maxLengthSiSaySJGz_SitKF\">read(chars:maxLength:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () throws -> Character?",
+          "key.typeusr": "$sSJSgyKcD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP4readSJSgyKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func peek() throws -&gt; <Type usr=\"s:SJ\">Character<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 63,
+              "key.offset": 3007
+            }
+          ],
+          "key.bodycolumn": 44,
+          "key.bodylength": 100,
+          "key.bodyline": 63,
+          "key.bodyoffset": 3046,
+          "key.column": 10,
+          "key.doc.column": 10,
+          "key.doc.declaration": "func peek() throws -> Character?",
+          "key.doc.discussion": [
+            {
+              "Note": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"46\" column=\"10\"><Name>peek()<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP4peekSJSgyKF<\/USR><Declaration>func peek() throws -&gt; Character?<\/Declaration><CommentParts><Abstract><Para>Read and return one character without actually removing it from the input stream.<\/Para><\/Abstract><ResultDiscussion><Para>The next character or <codeVoice>nil<\/codeVoice> if EOF.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs.<\/Para><\/ThrowsDiscussion><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>SimpleCharInputStream<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 46,
+          "key.doc.name": "peek()",
+          "key.doc.result_discussion": [
+            {
+              "Para": "The next character or `nil` if EOF."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>peek<\/decl.name>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SJ\">Character<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 135,
+          "key.line": 63,
+          "key.name": "peek()",
+          "key.namecolumn": 15,
+          "key.namelength": 6,
+          "key.nameline": 63,
+          "key.nameoffset": 3017,
+          "key.offset": 3012,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon21SimpleCharInputStreamP4peekSJSgyKF"
+            }
+          ],
+          "key.parsed_declaration": "open func peek() throws -> Character?",
+          "key.parsed_scope.end": 66,
+          "key.parsed_scope.start": 63,
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () throws -> Character?",
+          "key.typeusr": "$sSJSgyKcD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP4peekSJSgyKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func read(chars: inout [<Type usr=\"s:SJ\">Character<\/Type>], maxLength: <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 68,
+              "key.offset": 3153
+            }
+          ],
+          "key.bodycolumn": 77,
+          "key.bodylength": 69,
+          "key.bodyline": 68,
+          "key.bodyoffset": 3225,
+          "key.column": 10,
+          "key.doc.column": 10,
+          "key.doc.declaration": "func read(chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.doc.discussion": [
+            {
+              "Note": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"66\" column=\"10\"><Name>read(chars:maxLength:)<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP4read5chars9maxLengthSiSaySJGz_SitKF<\/USR><Declaration>func read(chars: inout [Character], maxLength: Int) throws -&gt; Int<\/Declaration><CommentParts><Abstract><Para>Read <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s from the stream.<\/Para><\/Abstract><Parameters><Parameter><Name>chars<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Array\">Array<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> to receive the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s. This array will be cleared before the new characters are added to it.<\/Para><\/Discussion><\/Parameter><Parameter><Name>maxLength<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The maximum number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s to receive. If -1 then all <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s are read until the end-of-file.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s read. Will return 0 (<rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>) if the stream is at end-of-file.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs.<\/Para><\/ThrowsDiscussion><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>SimpleCharInputStream<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 66,
+          "key.doc.name": "read(chars:maxLength:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The <code><\/code> to receive the <code><\/code>s. This array will be cleared before the new characters are added to it."
+                }
+              ],
+              "name": "chars"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The maximum number of <code><\/code>s to receive. If -1 then all <code><\/code>s are read until the end-of-file."
+                }
+              ],
+              "name": "maxLength"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The number of <code><\/code>s read. Will return 0 (<code><\/code>) if the stream is at end-of-file."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>read<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>chars<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> [<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxLength<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 137,
+          "key.line": 68,
+          "key.name": "read(chars:maxLength:)",
+          "key.namecolumn": 15,
+          "key.namelength": 46,
+          "key.nameline": 68,
+          "key.nameoffset": 3163,
+          "key.offset": 3158,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon21SimpleCharInputStreamP4read5chars9maxLengthSiSaySJGz_SitKF"
+            }
+          ],
+          "key.parsed_declaration": "open func read(chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.parsed_scope.end": 68,
+          "key.parsed_scope.start": 68,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon27SimpleStringCharInputStreamC4readSJSgyKF\">read()<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> (inout [Character], Int) throws -> Int",
+          "key.typeusr": "$s5chars9maxLengthSiSaySJGz_SitKcD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP4read5chars9maxLengthSiSaySJGz_SitKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func append(to chars: inout [<Type usr=\"s:SJ\">Character<\/Type>], maxLength: <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 70,
+              "key.offset": 3301
+            }
+          ],
+          "key.bodycolumn": 82,
+          "key.bodylength": 68,
+          "key.bodyline": 70,
+          "key.bodyoffset": 3378,
+          "key.column": 10,
+          "key.doc.column": 10,
+          "key.doc.declaration": "func append(to chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.doc.discussion": [
+            {
+              "Note": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleCharInputStream.swift\" line=\"87\" column=\"10\"><Name>append(to:maxLength:)<\/Name><USR>s:7Rubicon21SimpleCharInputStreamP6append2to9maxLengthSiSaySJGz_SitKF<\/USR><Declaration>func append(to chars: inout [Character], maxLength: Int) throws -&gt; Int<\/Declaration><CommentParts><Abstract><Para>Read <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s from the stream and append them to the given character array. This method is identical to <codeVoice>read(chars:,maxLength:)<\/codeVoice> except that the receiving array is not cleared before the data is read.<\/Para><\/Abstract><Parameters><Parameter><Name>chars<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Array\">Array<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> to receive the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s.<\/Para><\/Discussion><\/Parameter><Parameter><Name>maxLength<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The maximum number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s to receive. If -1 then all <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s are read until the end-of-file.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The number of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/Character\">Character<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>s read. Will return 0 (<rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>) if the stream is at end-of-file.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>If an I\/O error occurs.<\/Para><\/ThrowsDiscussion><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>SimpleCharInputStream<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 87,
+          "key.doc.name": "append(to:maxLength:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The <code><\/code> to receive the <code><\/code>s."
+                }
+              ],
+              "name": "chars"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The maximum number of <code><\/code>s to receive. If -1 then all <code><\/code>s are read until the end-of-file."
+                }
+              ],
+              "name": "maxLength"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The number of <code><\/code>s read. Will return 0 (<code><\/code>) if the stream is at end-of-file."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>append<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>to<\/decl.var.parameter.argument_label> <decl.var.parameter.name>chars<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> [<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxLength<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 141,
+          "key.line": 70,
+          "key.name": "append(to:maxLength:)",
+          "key.namecolumn": 15,
+          "key.namelength": 51,
+          "key.nameline": 70,
+          "key.nameoffset": 3311,
+          "key.offset": 3306,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon21SimpleCharInputStreamP6append2to9maxLengthSiSaySJGz_SitKF"
+            }
+          ],
+          "key.parsed_declaration": "open func append(to chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.parsed_scope.end": 70,
+          "key.parsed_scope.start": 70,
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> (inout [Character], Int) throws -> Int",
+          "key.typeusr": "$s2to9maxLengthSiSaySJGz_SitKcD",
+          "key.usr": "s:7Rubicon21SimpleCharInputStreamP6append2to9maxLengthSiSaySJGz_SitKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func open()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 72,
+              "key.offset": 3453
+            }
+          ],
+          "key.bodycolumn": 23,
+          "key.bodylength": 26,
+          "key.bodyline": 72,
+          "key.bodyoffset": 3471,
+          "key.column": 10,
+          "key.doc.column": 10,
+          "key.doc.declaration": "func open()",
+          "key.doc.discussion": [
+            {
+              "Note": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/CharStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/CharStream.swift\" line=\"49\" column=\"10\"><Name>open()<\/Name><USR>s:7Rubicon10CharStreamP4openyyF<\/USR><Declaration>func open()<\/Declaration><CommentParts><Abstract><Para>Open the stream. Once a stream has been opened it can never be re-opened.<\/Para><\/Abstract><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>CharStream<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 49,
+          "key.doc.name": "open()",
+          "key.doc.type": "Function",
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>open<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 40,
+          "key.line": 72,
+          "key.name": "open()",
+          "key.namecolumn": 15,
+          "key.namelength": 6,
+          "key.nameline": 72,
+          "key.nameoffset": 3463,
+          "key.offset": 3458,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon10CharStreamP4openyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func open()",
+          "key.parsed_scope.end": 72,
+          "key.parsed_scope.start": 72,
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon10CharStreamP4openyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func close()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 74,
+              "key.offset": 3504
+            }
+          ],
+          "key.bodycolumn": 24,
+          "key.bodylength": 27,
+          "key.bodyline": 74,
+          "key.bodyoffset": 3523,
+          "key.column": 10,
+          "key.doc.column": 10,
+          "key.doc.declaration": "func close()",
+          "key.doc.discussion": [
+            {
+              "Note": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/CharStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/CharStream.swift\" line=\"54\" column=\"10\"><Name>close()<\/Name><USR>s:7Rubicon10CharStreamP5closeyyF<\/USR><Declaration>func close()<\/Declaration><CommentParts><Abstract><Para>Close the stream.<\/Para><\/Abstract><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>CharStream<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 54,
+          "key.doc.name": "close()",
+          "key.doc.type": "Function",
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>close<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 42,
+          "key.line": 74,
+          "key.name": "close()",
+          "key.namecolumn": 15,
+          "key.namelength": 7,
+          "key.nameline": 74,
+          "key.nameoffset": 3514,
+          "key.offset": 3509,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon10CharStreamP5closeyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func close()",
+          "key.parsed_scope.end": 74,
+          "key.parsed_scope.start": 74,
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon10CharStreamP5closeyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _open()<\/Declaration>",
+          "key.bodycolumn": 19,
+          "key.bodylength": 42,
+          "key.bodyline": 76,
+          "key.bodyoffset": 3571,
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_open<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 57,
+          "key.line": 76,
+          "key.name": "_open()",
+          "key.namecolumn": 10,
+          "key.namelength": 7,
+          "key.nameline": 76,
+          "key.nameoffset": 3562,
+          "key.offset": 3557,
+          "key.parsed_declaration": "func _open()",
+          "key.parsed_scope.end": 76,
+          "key.parsed_scope.start": 76,
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC5_openyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _close()<\/Declaration>",
+          "key.bodycolumn": 20,
+          "key.bodylength": 41,
+          "key.bodyline": 78,
+          "key.bodyoffset": 3635,
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_close<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 57,
+          "key.line": 78,
+          "key.name": "_close()",
+          "key.namecolumn": 10,
+          "key.namelength": 8,
+          "key.nameline": 78,
+          "key.nameoffset": 3625,
+          "key.offset": 3620,
+          "key.parsed_declaration": "func _close()",
+          "key.parsed_scope.end": 78,
+          "key.parsed_scope.start": 78,
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC6_closeyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _read() throws -&gt; <Type usr=\"s:SJ\">Character<\/Type>?<\/Declaration>",
+          "key.bodycolumn": 40,
+          "key.bodylength": 158,
+          "key.bodyline": 80,
+          "key.bodyoffset": 3718,
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_read<\/decl.name>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SJ\">Character<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 194,
+          "key.line": 80,
+          "key.name": "_read()",
+          "key.namecolumn": 10,
+          "key.namelength": 7,
+          "key.nameline": 80,
+          "key.nameoffset": 3688,
+          "key.offset": 3683,
+          "key.parsed_declaration": "func _read() throws -> Character?",
+          "key.parsed_scope.end": 85,
+          "key.parsed_scope.start": 80,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon27SimpleStringCharInputStreamC5_read5chars9maxLengthSiSaySJGz_SitKF\">_read(chars:maxLength:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let i: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>i<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 13,
+              "key.line": 82,
+              "key.name": "i",
+              "key.namecolumn": 13,
+              "key.namelength": 1,
+              "key.nameline": 82,
+              "key.nameoffset": 3797,
+              "key.offset": 3793,
+              "key.parsed_declaration": "let i = index",
+              "key.parsed_scope.end": 82,
+              "key.parsed_scope.start": 82,
+              "key.typename": "String.Index",
+              "key.typeusr": "$sSS5IndexVD",
+              "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC5_readSJSgyKF1iL_SS5IndexVvp"
+            }
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> () throws -> Character?",
+          "key.typeusr": "$sSJSgyKcD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC5_readSJSgyKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _read(chars: inout [<Type usr=\"s:SJ\">Character<\/Type>], maxLength: <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.bodycolumn": 73,
+          "key.bodylength": 135,
+          "key.bodyline": 87,
+          "key.bodyoffset": 3951,
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_read<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>chars<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> [<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxLength<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 204,
+          "key.line": 87,
+          "key.name": "_read(chars:maxLength:)",
+          "key.namecolumn": 10,
+          "key.namelength": 47,
+          "key.nameline": 87,
+          "key.nameoffset": 3888,
+          "key.offset": 3883,
+          "key.parsed_declaration": "func _read(chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.parsed_scope.end": 90,
+          "key.parsed_scope.start": 87,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon27SimpleStringCharInputStreamC5_readSJSgyKF\">_read()<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> (inout [Character], Int) throws -> Int",
+          "key.typeusr": "$s5chars9maxLengthSiSaySJGz_SitKcD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC5_read5chars9maxLengthSiSaySJGz_SitKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _append(to chars: inout [<Type usr=\"s:SJ\">Character<\/Type>], maxLength: <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.bodycolumn": 78,
+          "key.bodylength": 336,
+          "key.bodyline": 92,
+          "key.bodyoffset": 4166,
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_append<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>to<\/decl.var.parameter.argument_label> <decl.var.parameter.name>chars<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> [<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxLength<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 410,
+          "key.line": 92,
+          "key.name": "_append(to:maxLength:)",
+          "key.namecolumn": 10,
+          "key.namelength": 52,
+          "key.nameline": 92,
+          "key.nameoffset": 4098,
+          "key.offset": 4093,
+          "key.parsed_declaration": "func _append(to chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.parsed_scope.end": 101,
+          "key.parsed_scope.start": 92,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let c: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>c<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 19,
+              "key.line": 95,
+              "key.name": "c",
+              "key.namecolumn": 13,
+              "key.namelength": 1,
+              "key.nameline": 95,
+              "key.nameoffset": 4262,
+              "key.offset": 4258,
+              "key.parsed_declaration": "let c = chars.count",
+              "key.parsed_scope.end": 95,
+              "key.parsed_scope.start": 95,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC7_append2to9maxLengthSiSaySJGz_SitKF1cL_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let i: (<Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>)<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>i<\/decl.name>: <decl.var.type>(<ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct>)<\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 105,
+              "key.line": 96,
+              "key.name": "i",
+              "key.namecolumn": 13,
+              "key.namelength": 1,
+              "key.nameline": 96,
+              "key.nameoffset": 4290,
+              "key.offset": 4286,
+              "key.parsed_declaration": "let i = (string.index(index, offsetBy: ((maxLength < 0) ? Int.max : maxLength), limitedBy: eIdx) ?? eIdx)",
+              "key.parsed_scope.end": 96,
+              "key.parsed_scope.start": 96,
+              "key.typename": "(String.Index)",
+              "key.typeusr": "$sSS5IndexVD",
+              "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC7_append2to9maxLengthSiSaySJGz_SitKF1iL_SS5IndexVvp"
+            }
+          ],
+          "key.typename": "(SimpleStringCharInputStream) -> (inout [Character], Int) throws -> Int",
+          "key.typeusr": "$s2to9maxLengthSiSaySJGz_SitKcD",
+          "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC7_append2to9maxLengthSiSaySJGz_SitKF"
+        }
+      ],
+      "key.typename": "SimpleStringCharInputStream.Type",
+      "key.typeusr": "$s7Rubicon27SimpleStringCharInputStreamCmD",
+      "key.usr": "s:7Rubicon27SimpleStringCharInputStreamC"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.private",
+      "key.annotated_decl": "<Declaration>private func convertData(_ data: <Type usr=\"s:10Foundation4DataV\">Data<\/Type>, _ encodingName: <Type usr=\"s:SS\">String<\/Type>) throws -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.private",
+          "key.column": 1,
+          "key.length": 7,
+          "key.line": 104,
+          "key.offset": 4507
+        }
+      ],
+      "key.bodycolumn": 82,
+      "key.bodylength": 875,
+      "key.bodyline": 104,
+      "key.bodyoffset": 4588,
+      "key.column": 9,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/SimpleStringCharInputStream.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>convertData<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>data<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DataV\">Data<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>encodingName<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 949,
+      "key.line": 104,
+      "key.name": "convertData(_:_:)",
+      "key.namecolumn": 14,
+      "key.namelength": 49,
+      "key.nameline": 104,
+      "key.nameoffset": 4520,
+      "key.offset": 4515,
+      "key.parsed_declaration": "private func convertData(_ data: Data, _ encodingName: String) throws -> String",
+      "key.parsed_scope.end": 120,
+      "key.parsed_scope.start": 104,
+      "key.substructure": [
+      ],
+      "key.typename": "(Data, String) throws -> String",
+      "key.typeusr": "$sySS10Foundation4DataV_SStKcD",
+      "key.usr": "s:7Rubicon11convertData33_B73066503E09727F71C840873F733DA0LLySS10Foundation0C0V_SStKF"
+    }
+  ]
+}

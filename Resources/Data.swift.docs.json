@@ -1,0 +1,336 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 3862,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>@frozen struct Data : <Type usr=\"s:10Foundation20ReferenceConvertibleP\">ReferenceConvertible<\/Type>, <Type usr=\"s:SQ\">Equatable<\/Type>, <Type usr=\"s:SH\">Hashable<\/Type>, <Type usr=\"s:Sk\">RandomAccessCollection<\/Type>, <Type usr=\"s:SM\">MutableCollection<\/Type>, <Type usr=\"s:Sm\">RangeReplaceableCollection<\/Type>, <Type usr=\"s:10Foundation19MutableDataProtocolP\">MutableDataProtocol<\/Type>, <Type usr=\"s:10Foundation15ContiguousBytesP\">ContiguousBytes<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 25,
+          "key.offset": 1098
+        }
+      ],
+      "key.bodycolumn": 24,
+      "key.bodylength": 2739,
+      "key.bodyline": 25,
+      "key.bodyoffset": 1121,
+      "key.column": 8,
+      "key.doc.comment": "",
+      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Data<\/decl.name> : <ref.protocol usr=\"s:10Foundation20ReferenceConvertibleP\">ReferenceConvertible<\/ref.protocol>, <ref.protocol usr=\"s:SQ\">Equatable<\/ref.protocol>, <ref.protocol usr=\"s:SH\">Hashable<\/ref.protocol>, <ref.protocol usr=\"s:Sk\">RandomAccessCollection<\/ref.protocol>, <ref.protocol usr=\"s:SM\">MutableCollection<\/ref.protocol>, <ref.protocol usr=\"s:Sm\">RangeReplaceableCollection<\/ref.protocol>, <ref.protocol usr=\"s:10Foundation19MutableDataProtocolP\">MutableDataProtocol<\/ref.protocol>, <ref.protocol usr=\"s:10Foundation15ContiguousBytesP\">ContiguousBytes<\/ref.protocol><\/decl.struct>",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 2756,
+      "key.line": 25,
+      "key.modulename": "Foundation",
+      "key.name": "Data",
+      "key.namecolumn": 18,
+      "key.namelength": 4,
+      "key.nameline": 25,
+      "key.nameoffset": 1115,
+      "key.offset": 1105,
+      "key.parsed_declaration": "public extension Data",
+      "key.parsed_scope.end": 84,
+      "key.parsed_scope.start": 25,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>init?(inputStream: <Type usr=\"c:objc(cs)NSInputStream\">InputStream<\/Type>)<\/Declaration>",
+          "key.bodycolumn": 38,
+          "key.bodylength": 283,
+          "key.bodyline": 35,
+          "key.bodyoffset": 1692,
+          "key.column": 5,
+          "key.doc.column": 5,
+          "key.doc.comment": "Allows creating of a <code>[Data](https:\/\/developer.apple.com\/documentation\/foundation\/data\/)<\/code>\nstruct from an <code>[input\nstream](https:\/\/developer.apple.com\/documentation\/foundation\/inputstream)<\/code>.\n\n- Parameter inputStream: the <code>[input\n                         stream](https:\/\/developer.apple.com\/documentation\/foundation\/inputstream)<\/code>.",
+          "key.doc.declaration": "init?(inputStream: InputStream)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift\" line=\"35\" column=\"5\"><Name>init(inputStream:)<\/Name><USR>s:10Foundation4DataV7RubiconE11inputStreamACSgSo07NSInputE0C_tcfc<\/USR><Declaration>init?(inputStream: InputStream)<\/Declaration><CommentParts><Abstract><Para>Allows creating of a <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/data\/\">Data<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> struct from an <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/inputstream\">input stream<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Abstract><Parameters><Parameter><Name>inputStream<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/inputstream\">input stream<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 35,
+          "key.doc.name": "init(inputStream:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the <code><\/code>."
+                }
+              ],
+              "name": "inputStream"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 413,
+          "key.docline": 28,
+          "key.docoffset": 1242,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>init<\/syntaxtype.keyword>?(<decl.var.parameter><decl.var.parameter.argument_label>inputStream<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSInputStream\">InputStream<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 317,
+          "key.line": 35,
+          "key.name": "init(inputStream:)",
+          "key.namecolumn": 5,
+          "key.namelength": 31,
+          "key.nameline": 35,
+          "key.nameoffset": 1659,
+          "key.offset": 1659,
+          "key.parsed_declaration": "init?(inputStream: InputStream)",
+          "key.parsed_scope.end": 45,
+          "key.parsed_scope.start": 35,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV5bytes5countACSV_Sitcfc\">init(bytes:count:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV6bufferACSRyxG_tclufc\">init&lt;SourceType&gt;(buffer: UnsafeBufferPointer&lt;SourceType&gt;)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV6bufferACSryxG_tclufc\">init&lt;SourceType&gt;(buffer: UnsafeMutableBufferPointer&lt;SourceType&gt;)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV9repeating5countACs5UInt8V_Sitcfc\">init(repeating:count:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV8capacityACSi_tcfc\">init(capacity:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV5countACSi_tcfc\">init(count:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataVACycfc\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV11bytesNoCopy5count11deallocatorACSv_SiAC11DeallocatorOtcfc\">init(bytesNoCopy:count:deallocator:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfc\">init(contentsOf:options:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV13base64Encoded7optionsACSgSSh_So27NSDataBase64DecodingOptionsVtcfc\">init?(base64Encoded: __shared String, options: Data.Base64DecodingOptions = [])<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV13base64Encoded7optionsACSgACh_So27NSDataBase64DecodingOptionsVtcfc\">init?(base64Encoded: __shared Data, options: Data.Base64DecodingOptions = [])<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV11referencingACSo6NSDataCh_tcfc\">init(referencing:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc\">init(_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV5bytesACx_tcSTRzs5UInt8V7ElementRtzlufc\">init(bytes:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:10Foundation4DataV4fromACs7Decoder_p_tKcfc\">init(from:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(Data.Type) -> (InputStream) -> Data?",
+          "key.typeusr": "$s11inputStream10Foundation4DataVSgSo07NSInputB0C_tcD",
+          "key.usr": "s:10Foundation4DataV7RubiconE11inputStreamACSgSo07NSInputE0C_tcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@discardableResult mutating func withUnsafeMutableBytes2&lt;T&gt;(_ block: (<Type usr=\"s:7Rubicon11BytePointera\">BytePointer<\/Type>) throws -&gt; <Type usr=\"s:10Foundation4DataV7RubiconE23withUnsafeMutableBytes2yxxSpys5UInt8VGKXEKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:10Foundation4DataV7RubiconE23withUnsafeMutableBytes2yxxSpys5UInt8VGKXEKlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 101,
+              "key.length": 8,
+              "key.line": 56,
+              "key.offset": 2625
+            },
+            {
+              "key.attribute": "source.decl.attribute.mutating",
+              "key.column": 24,
+              "key.length": 8,
+              "key.line": 56,
+              "key.offset": 2548
+            },
+            {
+              "key.attribute": "source.decl.attribute.discardableResult",
+              "key.column": 5,
+              "key.length": 18,
+              "key.line": 56,
+              "key.offset": 2529
+            }
+          ],
+          "key.bodycolumn": 116,
+          "key.bodylength": 293,
+          "key.bodyline": 56,
+          "key.bodyoffset": 2640,
+          "key.column": 33,
+          "key.doc.column": 38,
+          "key.doc.comment": "For some reason `withUnsafeMutableBytes<T>(block:)` was deprecated on the grounds that the\n[Data](https:\/\/developer.apple.com\/documentation\/foundation\/data\/) object could have a\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> length.\n\n- Parameter block: the closure.\n- Returns: The results of executing the closure.\n- Throws: Any exception thrown by the closure.",
+          "key.doc.declaration": "mutating func withUnsafeMutableBytes2<T>(_ block: (BytePointer) throws -> T) rethrows -> T",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift\" line=\"56\" column=\"38\"><Name>withUnsafeMutableBytes2(_:)<\/Name><USR>s:10Foundation4DataV7RubiconE23withUnsafeMutableBytes2yxxSpys5UInt8VGKXEKlF<\/USR><Declaration>mutating func withUnsafeMutableBytes2&lt;T&gt;(_ block: (BytePointer) throws -&gt; T) rethrows -&gt; T<\/Declaration><CommentParts><Abstract><Para>For some reason <codeVoice>withUnsafeMutableBytes&lt;T&gt;(block:)<\/codeVoice> was deprecated on the grounds that the <Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/data\/\">Data<\/Link> object could have a <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> length.<\/Para><\/Abstract><Parameters><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the closure.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The results of executing the closure.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any exception thrown by the closure.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 56,
+          "key.doc.name": "withUnsafeMutableBytes2(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the closure."
+                }
+              ],
+              "name": "block"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The results of executing the closure."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 428,
+          "key.docline": 48,
+          "key.docoffset": 2097,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withUnsafeMutableBytes2<\/decl.name>&lt;<decl.generic_type_param usr=\"s:10Foundation4DataV7RubiconE23withUnsafeMutableBytes2yxxSpys5UInt8VGKXEKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>block<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon11BytePointera\">BytePointer<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:10Foundation4DataV7RubiconE23withUnsafeMutableBytes2yxxSpys5UInt8VGKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:10Foundation4DataV7RubiconE23withUnsafeMutableBytes2yxxSpys5UInt8VGKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 377,
+          "key.line": 56,
+          "key.name": "withUnsafeMutableBytes2(_:)",
+          "key.namecolumn": 38,
+          "key.namelength": 62,
+          "key.nameline": 56,
+          "key.nameoffset": 2562,
+          "key.offset": 2557,
+          "key.parsed_declaration": "@discardableResult mutating func withUnsafeMutableBytes2<T>(_ block: (BytePointer) throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 64,
+          "key.parsed_scope.start": 56,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 62,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 56,
+              "key.name": "T",
+              "key.namecolumn": 62,
+              "key.namelength": 1,
+              "key.nameline": 56,
+              "key.nameoffset": 2586,
+              "key.offset": 2586,
+              "key.parsed_declaration": "@discardableResult mutating func withUnsafeMutableBytes2<T",
+              "key.parsed_scope.end": 56,
+              "key.parsed_scope.start": 56,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:10Foundation4DataV7RubiconE23withUnsafeMutableBytes2yxxSpys5UInt8VGKXEKlF1TL_xmfp"
+            }
+          ],
+          "key.typename": "<T> (inout Data) -> ((UnsafeMutablePointer<UInt8>) throws -> T) throws -> T",
+          "key.typeusr": "$syxxSpys5UInt8VGKXEKcluD",
+          "key.usr": "s:10Foundation4DataV7RubiconE23withUnsafeMutableBytes2yxxSpys5UInt8VGKXEKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@discardableResult func withUnsafeBytes2&lt;T&gt;(_ block: (<Type usr=\"s:7Rubicon13ByteROPointera\">ByteROPointer<\/Type>) throws -&gt; <Type usr=\"s:10Foundation4DataV7RubiconE16withUnsafeBytes2yxxSPys5UInt8VGKXEKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:10Foundation4DataV7RubiconE16withUnsafeBytes2yxxSPys5UInt8VGKXEKlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 87,
+              "key.length": 8,
+              "key.line": 75,
+              "key.offset": 3562
+            },
+            {
+              "key.attribute": "source.decl.attribute.discardableResult",
+              "key.column": 5,
+              "key.length": 18,
+              "key.line": 75,
+              "key.offset": 3480
+            }
+          ],
+          "key.bodycolumn": 102,
+          "key.bodylength": 281,
+          "key.bodyline": 75,
+          "key.bodyoffset": 3577,
+          "key.column": 24,
+          "key.doc.column": 29,
+          "key.doc.comment": "For some reason `withUnsafeBytes<T>(block:)` was deprecated on the grounds that the\n[Data](https:\/\/developer.apple.com\/documentation\/foundation\/data\/) object could have a\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> length.\n\n- Parameter block: the closure.\n- Returns: The results of executing the closure.\n- Throws: Any exception thrown by the closure.",
+          "key.doc.declaration": "func withUnsafeBytes2<T>(_ block: (ByteROPointer) throws -> T) rethrows -> T",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift\" line=\"75\" column=\"29\"><Name>withUnsafeBytes2(_:)<\/Name><USR>s:10Foundation4DataV7RubiconE16withUnsafeBytes2yxxSPys5UInt8VGKXEKlF<\/USR><Declaration>func withUnsafeBytes2&lt;T&gt;(_ block: (ByteROPointer) throws -&gt; T) rethrows -&gt; T<\/Declaration><CommentParts><Abstract><Para>For some reason <codeVoice>withUnsafeBytes&lt;T&gt;(block:)<\/codeVoice> was deprecated on the grounds that the <Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/data\/\">Data<\/Link> object could have a <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> length.<\/Para><\/Abstract><Parameters><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the closure.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The results of executing the closure.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any exception thrown by the closure.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 75,
+          "key.doc.name": "withUnsafeBytes2(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the closure."
+                }
+              ],
+              "name": "block"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The results of executing the closure."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 421,
+          "key.docline": 67,
+          "key.docoffset": 3055,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withUnsafeBytes2<\/decl.name>&lt;<decl.generic_type_param usr=\"s:10Foundation4DataV7RubiconE16withUnsafeBytes2yxxSPys5UInt8VGKXEKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>block<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon13ByteROPointera\">ByteROPointer<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:10Foundation4DataV7RubiconE16withUnsafeBytes2yxxSPys5UInt8VGKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:10Foundation4DataV7RubiconE16withUnsafeBytes2yxxSPys5UInt8VGKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 360,
+          "key.line": 75,
+          "key.name": "withUnsafeBytes2(_:)",
+          "key.namecolumn": 29,
+          "key.namelength": 57,
+          "key.nameline": 75,
+          "key.nameoffset": 3504,
+          "key.offset": 3499,
+          "key.parsed_declaration": "@discardableResult func withUnsafeBytes2<T>(_ block: (ByteROPointer) throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 83,
+          "key.parsed_scope.start": 75,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 46,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Data.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 75,
+              "key.name": "T",
+              "key.namecolumn": 46,
+              "key.namelength": 1,
+              "key.nameline": 75,
+              "key.nameoffset": 3521,
+              "key.offset": 3521,
+              "key.parsed_declaration": "@discardableResult func withUnsafeBytes2<T",
+              "key.parsed_scope.end": 75,
+              "key.parsed_scope.start": 75,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:10Foundation4DataV7RubiconE16withUnsafeBytes2yxxSPys5UInt8VGKXEKlF1TL_xmfp"
+            }
+          ],
+          "key.typename": "<T> (Data) -> ((UnsafePointer<UInt8>) throws -> T) throws -> T",
+          "key.typeusr": "$syxxSPys5UInt8VGKXEKcluD",
+          "key.usr": "s:10Foundation4DataV7RubiconE16withUnsafeBytes2yxxSPys5UInt8VGKXEKlF"
+        }
+      ],
+      "key.typename": "Data.Type",
+      "key.typeusr": "$s10Foundation4DataVmD",
+      "key.usr": "s:10Foundation4DataV"
+    }
+  ]
+}

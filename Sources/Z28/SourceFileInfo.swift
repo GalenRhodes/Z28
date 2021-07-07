@@ -119,7 +119,8 @@ open class SourceFileInfo {
     }
 
     private func getStructure(_ file: File) throws -> [String: Any] {
-        addLinesAndColumns(source: lineMap, dictionary: toDictionary(try Structure(file: file).dictionary))
+        let res = toDictionary(try Request.editorOpen(file: file).send())
+        return addLinesAndColumns(source: lineMap, dictionary: res)
     }
 
     private func getSwiftDocs(_ file: File) throws -> [String: Any] {

@@ -1,0 +1,557 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 4692,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.annotated_decl": "<Declaration>protocol RangeReplaceableCollection : <Type usr=\"s:Sl\">Collection<\/Type> where <Type usr=\"s:Sm4Selfxmfp\">Self<\/Type>.<Type usr=\"s:Sl11SubSequenceQa\">SubSequence<\/Type> : <Type usr=\"s:Sm\">RangeReplaceableCollection<\/Type><\/Declaration>",
+      "key.bodycolumn": 39,
+      "key.bodylength": 3326,
+      "key.bodyline": 21,
+      "key.bodyoffset": 1364,
+      "key.column": 1,
+      "key.doc.comment": "",
+      "key.doc.declaration": "protocol RangeReplaceableCollection : Collection where Self.SubSequence : RangeReplaceableCollection",
+      "key.doc.discussion": [
+        {
+          "Para": "Range-replaceable collections provide operations that insert and remove elements. For example, you can add elements to an array of strings by calling any of the inserting or appending operations that the `RangeReplaceableCollection` protocol defines."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Likewise, `RangeReplaceableCollection` types can remove one or more elements using a single operation."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Lastly, use the eponymous `replaceSubrange(_:with:)` method to replace a subrange of elements with the contents of another collection. Here, three elements in the middle of an array of integers are replaced by the five elements of a `Repeated<Int>` instance."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "To add `RangeReplaceableCollection` conformance to your custom collection, add an empty initializer and the `replaceSubrange(_:with:)` method to your custom type. `RangeReplaceableCollection` provides default implementations of all its other methods using this initializer and method. For example, the `removeSubrange(_:)` method is implemented by calling `replaceSubrange(_:with:)` with an empty collection for the `newElements` parameter. You can override any of the protocol’s required methods to provide your own custom implementation."
+        }
+      ],
+      "key.doc.full_as_xml": "<Class><Name>RangeReplaceableCollection<\/Name><USR>s:Sm<\/USR><Declaration>protocol RangeReplaceableCollection : Collection where Self.SubSequence : RangeReplaceableCollection<\/Declaration><CommentParts><Abstract><Para>A collection that supports replacement of an arbitrary subrange of elements with the elements of another collection.<\/Para><\/Abstract><Discussion><Para>Range-replaceable collections provide operations that insert and remove elements. For example, you can add elements to an array of strings by calling any of the inserting or appending operations that the <codeVoice>RangeReplaceableCollection<\/codeVoice> protocol defines.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var bugs = [\"Aphid\", \"Damselfly\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[bugs.append(\"Earwig\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[bugs.insert(contentsOf: [\"Bumblebee\", \"Cicada\"], at: 1)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(bugs)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[\"Aphid\", \"Bumblebee\", \"Cicada\", \"Damselfly\", \"Earwig\"]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Likewise, <codeVoice>RangeReplaceableCollection<\/codeVoice> types can remove one or more elements using a single operation.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[bugs.removeLast()]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[bugs.removeSubrange(1...2)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(bugs)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[\"Aphid\", \"Damselfly\"]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[bugs.removeAll()]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(bugs)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Lastly, use the eponymous <codeVoice>replaceSubrange(_:with:)<\/codeVoice> method to replace a subrange of elements with the contents of another collection. Here, three elements in the middle of an array of integers are replaced by the five elements of a <codeVoice>Repeated&lt;Int&gt;<\/codeVoice> instance.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[ var nums = [10, 20, 30, 40, 50]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[ nums.replaceSubrange(1...3, with: repeatElement(1, count: 5))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[ print(nums)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[ \/\/ Prints \"[10, 1, 1, 1, 1, 1, 50]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Conforming to the RangeReplaceableCollection Protocol<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>To add <codeVoice>RangeReplaceableCollection<\/codeVoice> conformance to your custom collection, add an empty initializer and the <codeVoice>replaceSubrange(_:with:)<\/codeVoice> method to your custom type. <codeVoice>RangeReplaceableCollection<\/codeVoice> provides default implementations of all its other methods using this initializer and method. For example, the <codeVoice>removeSubrange(_:)<\/codeVoice> method is implemented by calling <codeVoice>replaceSubrange(_:with:)<\/codeVoice> with an empty collection for the <codeVoice>newElements<\/codeVoice> parameter. You can override any of the protocol’s required methods to provide your own custom implementation.<\/Para><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name": "RangeReplaceableCollection",
+      "key.doc.type": "Class",
+      "key.fully_annotated_decl": "<decl.protocol><syntaxtype.keyword>protocol<\/syntaxtype.keyword> <decl.name>RangeReplaceableCollection<\/decl.name> : <ref.protocol usr=\"s:Sl\">Collection<\/ref.protocol> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sm4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:Sl11SubSequenceQa\">SubSequence<\/ref.associatedtype> : <ref.protocol usr=\"s:Sm\">RangeReplaceableCollection<\/ref.protocol><\/decl.generic_type_requirement><\/decl.protocol>",
+      "key.groupname": "Collection",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 3365,
+      "key.line": 21,
+      "key.modulename": "Swift",
+      "key.name": "RangeReplaceableCollection",
+      "key.namecolumn": 11,
+      "key.namelength": 26,
+      "key.nameline": 21,
+      "key.nameoffset": 1336,
+      "key.offset": 1326,
+      "key.parsed_declaration": "extension RangeReplaceableCollection",
+      "key.parsed_scope.end": 94,
+      "key.parsed_scope.start": 21,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public mutating func popFirst() -&gt; <Type usr=\"s:Sm7RubiconE4Selfxmfp\">Self<\/Type>.<Type usr=\"s:ST7ElementQa\">Element<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.mutating",
+              "key.column": 23,
+              "key.length": 8,
+              "key.line": 27,
+              "key.offset": 1710
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 27,
+              "key.offset": 1703
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 27,
+              "key.offset": 1692
+            }
+          ],
+          "key.bodycolumn": 66,
+          "key.bodylength": 33,
+          "key.bodyline": 27,
+          "key.bodyoffset": 1753,
+          "key.column": 32,
+          "key.doc.column": 37,
+          "key.doc.comment": "Pops the first element off the collection. If the collection is empty then returns `nil`.\n\n- Returns: The first element off the collection or `nil` if the collection is empty.",
+          "key.doc.declaration": "@inlinable public mutating func popFirst() -> Self.Element?",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift\" line=\"27\" column=\"37\"><Name>popFirst()<\/Name><USR>s:Sm7RubiconE8popFirst7ElementQzSgyF<\/USR><Declaration>@inlinable public mutating func popFirst() -&gt; Self.Element?<\/Declaration><CommentParts><Abstract><Para>Pops the first element off the collection. If the collection is empty then returns <codeVoice>nil<\/codeVoice>.<\/Para><\/Abstract><ResultDiscussion><Para>The first element off the collection or <codeVoice>nil<\/codeVoice> if the collection is empty.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 27,
+          "key.doc.name": "popFirst()",
+          "key.doc.result_discussion": [
+            {
+              "Para": "The first element off the collection or `nil` if the collection is empty."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 204,
+          "key.docline": 23,
+          "key.docoffset": 1484,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>popFirst<\/decl.name>() -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sm7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:ST7ElementQa\">Element<\/ref.associatedtype>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "Collection",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 68,
+          "key.line": 27,
+          "key.name": "popFirst()",
+          "key.namecolumn": 37,
+          "key.namelength": 10,
+          "key.nameline": 27,
+          "key.nameoffset": 1724,
+          "key.offset": 1719,
+          "key.parsed_declaration": "@inlinable public mutating func popFirst() -> Self.Element?",
+          "key.parsed_scope.end": 27,
+          "key.parsed_scope.start": 27,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sls11SubSequenceQzRszrlE8popFirst7ElementQzSgyF\">popFirst() -&gt; Self.Element?<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : RangeReplaceableCollection> (inout Self) -> () -> Self.Element?",
+          "key.typeusr": "$s7ElementQzSgycD",
+          "key.usr": "s:Sm7RubiconE8popFirst7ElementQzSgyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public mutating func removeAllGet(where predicate: (<Type usr=\"s:Sl7ElementQa\">Element<\/Type>) throws -&gt; <Type usr=\"s:Sb\">Bool<\/Type>) rethrows -&gt; [<Type usr=\"s:Sl7ElementQa\">Element<\/Type>]<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 93,
+              "key.length": 8,
+              "key.line": 38,
+              "key.offset": 2496
+            },
+            {
+              "key.attribute": "source.decl.attribute.mutating",
+              "key.column": 23,
+              "key.length": 8,
+              "key.line": 38,
+              "key.offset": 2426
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 38,
+              "key.offset": 2419
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 38,
+              "key.offset": 2408
+            }
+          ],
+          "key.bodycolumn": 116,
+          "key.bodylength": 222,
+          "key.bodyline": 38,
+          "key.bodyoffset": 2519,
+          "key.column": 32,
+          "key.doc.column": 37,
+          "key.doc.comment": "Works like `removeAll(where:)` except this version returns an array containing the elements that were\nremoved.\n\n- Parameter predicate: A closure that takes an element of the sequence as its argument and returns a\n                       Boolean value indicating whether the element should be removed from the collection.\n- Returns: An array containing the elements that were removed.\n- Throws: Any error thrown by the predicate closure.",
+          "key.doc.declaration": "@inlinable public mutating func removeAllGet(where predicate: (Element) throws -> Bool) rethrows -> [Element]",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift\" line=\"38\" column=\"37\"><Name>removeAllGet(where:)<\/Name><USR>s:Sm7RubiconE12removeAllGet5whereSay7ElementQzGSbAEKXE_tKF<\/USR><Declaration>@inlinable public mutating func removeAllGet(where predicate: (Element) throws -&gt; Bool) rethrows -&gt; [Element]<\/Declaration><CommentParts><Abstract><Para>Works like <codeVoice>removeAll(where:)<\/codeVoice> except this version returns an array containing the elements that were removed.<\/Para><\/Abstract><Parameters><Parameter><Name>predicate<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>A closure that takes an element of the sequence as its argument and returns a Boolean value indicating whether the element should be removed from the collection.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An array containing the elements that were removed.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any error thrown by the predicate closure.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 38,
+          "key.doc.name": "removeAllGet(where:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "A closure that takes an element of the sequence as its argument and returns a Boolean value indicating whether the element should be removed from the collection."
+                }
+              ],
+              "name": "predicate"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An array containing the elements that were removed."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 496,
+          "key.docline": 30,
+          "key.docoffset": 1908,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>removeAllGet<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>where<\/decl.var.parameter.argument_label> <decl.var.parameter.name>predicate<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.associatedtype usr=\"s:Sl7ElementQa\">Element<\/ref.associatedtype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype>[<ref.associatedtype usr=\"s:Sl7ElementQa\">Element<\/ref.associatedtype>]<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "Collection",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 307,
+          "key.line": 38,
+          "key.name": "removeAllGet(where:)",
+          "key.namecolumn": 37,
+          "key.namelength": 55,
+          "key.nameline": 38,
+          "key.nameoffset": 2440,
+          "key.offset": 2435,
+          "key.parsed_declaration": "@inlinable public mutating func removeAllGet(where predicate: (Element) throws -> Bool) rethrows -> [Element]",
+          "key.parsed_scope.end": 48,
+          "key.parsed_scope.start": 38,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>var temp: [<Type usr=\"s:Sl7ElementQa\">Element<\/Type>]<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>temp<\/decl.name>: <decl.var.type>[<ref.associatedtype usr=\"s:Sl7ElementQa\">Element<\/ref.associatedtype>]<\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "Collection",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 24,
+              "key.line": 39,
+              "key.name": "temp",
+              "key.namecolumn": 13,
+              "key.namelength": 4,
+              "key.nameline": 39,
+              "key.nameoffset": 2532,
+              "key.offset": 2528,
+              "key.parsed_declaration": "var temp: [Element] = []",
+              "key.parsed_scope.end": 39,
+              "key.parsed_scope.start": 39,
+              "key.typename": "[Self.Element]",
+              "key.typeusr": "$sSay7ElementSTQzGD",
+              "key.usr": "s:Sm7RubiconE12removeAllGet5whereSay7ElementQzGSbAEKXE_tKF4tempL_AFvp"
+            }
+          ],
+          "key.typename": "<Self where Self : RangeReplaceableCollection> (inout Self) -> ((Self.Element) throws -> Bool) throws -> [Self.Element]",
+          "key.typeusr": "$s5whereSay7ElementQzGSbACKXE_tKcD",
+          "key.usr": "s:Sm7RubiconE12removeAllGet5whereSay7ElementQzGSbAEKXE_tKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public mutating func append(_ e: <Type usr=\"s:Sl7ElementQa\">Element<\/Type>, count: <Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.mutating",
+              "key.column": 23,
+              "key.length": 8,
+              "key.line": 61,
+              "key.offset": 3152
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 61,
+              "key.offset": 3145
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 61,
+              "key.offset": 3134
+            }
+          ],
+          "key.bodycolumn": 71,
+          "key.bodylength": 38,
+          "key.bodyline": 61,
+          "key.bodyoffset": 3200,
+          "key.column": 32,
+          "key.doc.column": 37,
+          "key.doc.comment": "Shorthand for:\n\n```\nfor _ in (0 ..< count) { aCollection.append(e) }\n```\n\n- Parameters:\n  - e: The element to append to this collection.\n  - count: The number of times to append the element.",
+          "key.doc.declaration": "@inlinable public mutating func append(_ e: Element, count: Int)",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift\" line=\"61\" column=\"37\"><Name>append(_:count:)<\/Name><USR>s:Sm7RubiconE6append_5county7ElementQz_SitF<\/USR><Declaration>@inlinable public mutating func append(_ e: Element, count: Int)<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>e<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The element to append to this collection.<\/Para><\/Discussion><\/Parameter><Parameter><Name>count<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of times to append the element.<\/Para><\/Discussion><\/Parameter><\/Parameters><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for _ in (0 ..< count) { aCollection.append(e) }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 61,
+          "key.doc.name": "append(_:count:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The element to append to this collection."
+                }
+              ],
+              "name": "e"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The number of times to append the element."
+                }
+              ],
+              "name": "count"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 267,
+          "key.docline": 51,
+          "key.docoffset": 2863,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>append<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>e<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.associatedtype usr=\"s:Sl7ElementQa\">Element<\/ref.associatedtype><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+          "key.groupname": "Collection",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 78,
+          "key.line": 61,
+          "key.name": "append(_:count:)",
+          "key.namecolumn": 37,
+          "key.namelength": 32,
+          "key.nameline": 61,
+          "key.nameoffset": 3166,
+          "key.offset": 3161,
+          "key.parsed_declaration": "@inlinable public mutating func append(_ e: Element, count: Int)",
+          "key.parsed_scope.end": 61,
+          "key.parsed_scope.start": 61,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sm6appendyy7ElementQznF\">append(_: __owned Self.Element)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sm6append10contentsOfyqd__n_tSTRd__7ElementQyd__ACRtzlF\">append&lt;S&gt;(contentsOf: __owned S) where S : Sequence, Self.Element == S.Element<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SmsE6appendyy7ElementQznF\">append(_: __owned Self.Element)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:SmsE6append10contentsOfyqd__n_tSTRd__7ElementQyd__ACRtzlF\">append&lt;S&gt;(contentsOf: __owned S) where S : Sequence, Self.Element == S.Element<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : RangeReplaceableCollection> (inout Self) -> (Self.Element, Int) -> ()",
+          "key.typeusr": "$s_5county7ElementQz_SitcD",
+          "key.usr": "s:Sm7RubiconE6append_5county7ElementQz_SitF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public mutating func prepend(_ e: <Type usr=\"s:Sl7ElementQa\">Element<\/Type>, count: <Type usr=\"s:Si\">Int<\/Type> = 1) -&gt; <Type usr=\"s:Sl5IndexQa\">Index<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.mutating",
+              "key.column": 23,
+              "key.length": 8,
+              "key.line": 75,
+              "key.offset": 3789
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 75,
+              "key.offset": 3782
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 75,
+              "key.offset": 3771
+            }
+          ],
+          "key.bodycolumn": 85,
+          "key.bodylength": 151,
+          "key.bodyline": 75,
+          "key.bodyoffset": 3851,
+          "key.column": 32,
+          "key.doc.column": 37,
+          "key.doc.comment": "Shorthand for:\n\n```\nfor _ in (0 ..< count) { aCollection.insert(e, at: aCollection.startIndex) }\n```\n\n- Parameters:\n  - e: The element to prepend to the beginning of this collection.\n  - count: The number of times to prepend the element.\n- Returns: The index of first element in this collection BEFORE calling this method.",
+          "key.doc.declaration": "@inlinable public mutating func prepend(_ e: Element, count: Int = 1) -> Index",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift\" line=\"75\" column=\"37\"><Name>prepend(_:count:)<\/Name><USR>s:Sm7RubiconE7prepend_5count5IndexQz7ElementQz_SitF<\/USR><Declaration>@inlinable public mutating func prepend(_ e: Element, count: Int = 1) -&gt; Index<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>e<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The element to prepend to the beginning of this collection.<\/Para><\/Discussion><\/Parameter><Parameter><Name>count<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of times to prepend the element.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The index of first element in this collection BEFORE calling this method.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for _ in (0 ..< count) { aCollection.insert(e, at: aCollection.startIndex) }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 75,
+          "key.doc.name": "prepend(_:count:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The element to prepend to the beginning of this collection."
+                }
+              ],
+              "name": "e"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The number of times to prepend the element."
+                }
+              ],
+              "name": "count"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The index of first element in this collection BEFORE calling this method."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 407,
+          "key.docline": 64,
+          "key.docoffset": 3360,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>prepend<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>e<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.associatedtype usr=\"s:Sl7ElementQa\">Element<\/ref.associatedtype><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 1<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.associatedtype usr=\"s:Sl5IndexQa\">Index<\/ref.associatedtype><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "Collection",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 205,
+          "key.line": 75,
+          "key.name": "prepend(_:count:)",
+          "key.namecolumn": 37,
+          "key.namelength": 37,
+          "key.nameline": 75,
+          "key.nameoffset": 3803,
+          "key.offset": 3798,
+          "key.parsed_declaration": "@inlinable public mutating func prepend(_ e: Element, count: Int = 1) -> Index",
+          "key.parsed_scope.end": 78,
+          "key.parsed_scope.start": 75,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF\">prepend(contentsOf:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : RangeReplaceableCollection> (inout Self) -> (Self.Element, Int) -> Self.Index",
+          "key.typeusr": "$s_5count5IndexQz7ElementQz_SitcD",
+          "key.usr": "s:Sm7RubiconE7prepend_5count5IndexQz7ElementQz_SitF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public mutating func prepend&lt;C&gt;(contentsOf c: <Type usr=\"s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF1CL_qd__mfp\">C<\/Type>) -&gt; <Type usr=\"s:Sl5IndexQa\">Index<\/Type> where <Type usr=\"s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF1CL_qd__mfp\">C<\/Type> : <Type usr=\"s:Sl\">Collection<\/Type>, <Type usr=\"s:Sm4Selfxmfp\">Self<\/Type>.<Type usr=\"s:ST7ElementQa\">Element<\/Type> == <Type usr=\"s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF1CL_qd__mfp\">C<\/Type>.<Type usr=\"s:ST7ElementQa\">Element<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.mutating",
+              "key.column": 23,
+              "key.length": 8,
+              "key.line": 90,
+              "key.offset": 4456
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 90,
+              "key.offset": 4449
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 90,
+              "key.offset": 4438
+            }
+          ],
+          "key.bodycolumn": 117,
+          "key.bodylength": 138,
+          "key.bodyline": 90,
+          "key.bodyoffset": 4550,
+          "key.column": 32,
+          "key.doc.column": 37,
+          "key.doc.comment": "Shorthand for:\n\n```\naCollection.insert(contentsOf: anotherCollection, at: aCollection.startIndex)\n```\n\n- Parameter c: The collection of elements to prepend.\n- Returns: The index of first element in this collection BEFORE calling this method.",
+          "key.doc.declaration": "@inlinable public mutating func prepend<C>(contentsOf c: C) -> Index where C : Collection, Self.Element == C.Element",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift\" line=\"90\" column=\"37\"><Name>prepend(contentsOf:)<\/Name><USR>s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF<\/USR><Declaration>@inlinable public mutating func prepend&lt;C&gt;(contentsOf c: C) -&gt; Index where C : Collection, Self.Element == C.Element<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>c<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The collection of elements to prepend.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The index of first element in this collection BEFORE calling this method.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[aCollection.insert(contentsOf: anotherCollection, at: aCollection.startIndex)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 90,
+          "key.doc.name": "prepend(contentsOf:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The collection of elements to prepend."
+                }
+              ],
+              "name": "c"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The index of first element in this collection BEFORE calling this method."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 310,
+          "key.docline": 81,
+          "key.docoffset": 4124,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>prepend<\/decl.name>&lt;<decl.generic_type_param usr=\"s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF1CL_qd__mfp\"><decl.generic_type_param.name>C<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>contentsOf<\/decl.var.parameter.argument_label> <decl.var.parameter.name>c<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF1CL_qd__mfp\">C<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.associatedtype usr=\"s:Sl5IndexQa\">Index<\/ref.associatedtype><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF1CL_qd__mfp\">C<\/ref.generic_type_param> : <ref.protocol usr=\"s:Sl\">Collection<\/ref.protocol><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sm4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:ST7ElementQa\">Element<\/ref.associatedtype> == <ref.generic_type_param usr=\"s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF1CL_qd__mfp\">C<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:ST7ElementQa\">Element<\/ref.associatedtype><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.groupname": "Collection",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 224,
+          "key.line": 90,
+          "key.name": "prepend(contentsOf:)",
+          "key.namecolumn": 37,
+          "key.namelength": 27,
+          "key.nameline": 90,
+          "key.nameoffset": 4470,
+          "key.offset": 4465,
+          "key.parsed_declaration": "@inlinable public mutating func prepend<C>(contentsOf c: C) -> Index where C: Collection, C.Element == Element",
+          "key.parsed_scope.end": 93,
+          "key.parsed_scope.start": 90,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:Sm7RubiconE7prepend_5count5IndexQz7ElementQz_SitF\">prepend(_:count:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>C<\/Declaration>",
+              "key.column": 45,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/RangeReplaceableCollection.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>C<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.groupname": "Collection",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 90,
+              "key.name": "C",
+              "key.namecolumn": 45,
+              "key.namelength": 1,
+              "key.nameline": 90,
+              "key.nameoffset": 4478,
+              "key.offset": 4478,
+              "key.parsed_declaration": "@inlinable public mutating func prepend<C",
+              "key.parsed_scope.end": 90,
+              "key.parsed_scope.start": 90,
+              "key.typename": "C.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF1CL_qd__mfp"
+            }
+          ],
+          "key.typename": "<Self, C where Self : RangeReplaceableCollection, C : Collection, Self.Element == C.Element> (inout Self) -> (C) -> Self.Index",
+          "key.typeusr": "$s10contentsOf5IndexQzqd___tcSlRd__7ElementQyd__ADRtzluD",
+          "key.usr": "s:Sm7RubiconE7prepend10contentsOf5IndexQzqd___tSlRd__7ElementQyd__AFRtzlF"
+        }
+      ],
+      "key.typename": "RangeReplaceableCollection.Protocol",
+      "key.typeusr": "$sSm_pmD",
+      "key.usr": "s:Sm"
+    }
+  ]
+}

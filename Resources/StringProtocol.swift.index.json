@@ -1,0 +1,3460 @@
+{
+  "key.dependencies": [
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Swift"
+    },
+    {
+      "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Rubicon-2R5RRMVLV2Q6N.pcm",
+      "key.kind": "source.lang.swift.import.module.clang",
+      "key.name": "Rubicon"
+    },
+    {
+      "key.dependencies": [
+        {
+          "key.dependencies": [
+            {
+              "key.dependencies": [
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "Darwin"
+                },
+                {
+                  "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.swift",
+                  "key.name": "Swift"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftOverlayShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftOverlayShims"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftShims"
+                }
+              ],
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Combine"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreFoundation-RZX25862PY17.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreFoundation"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreFoundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreGraphics-MC4FPA2MN9QR.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreGraphics"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreGraphics.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreGraphics"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Darwin"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Combine"
+            },
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Dispatch-2M9AOUJY3TW9V.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "Dispatch"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Dispatch.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Dispatch"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Foundation-2FJBXN8U6QRTS.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "Foundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/ObjectiveC-1A3ZNHZR9RRLF.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "ObjectiveC"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/ObjectiveC.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "ObjectiveC"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Swift"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "uuid"
+        }
+      ],
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Foundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Foundation"
+    },
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "CoreFoundation"
+    }
+  ],
+  "key.entities": [
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 18,
+      "key.name": "Foundation",
+      "key.usr": "c:@M@Foundation"
+    },
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 19,
+      "key.name": "CoreFoundation",
+      "key.usr": "c:@M@CoreFoundation"
+    },
+    {
+      "key.column": 11,
+      "key.entities": [
+        {
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.protocol",
+          "key.line": 24,
+          "key.name": "StringProtocol",
+          "key.usr": "s:Sy"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 27,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 52,
+              "key.entities": [
+                {
+                  "key.column": 56,
+                  "key.entities": [
+                    {
+                      "key.column": 56,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 26,
+                      "key.usr": "s:SK8endIndex0B0Qzvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 26,
+                  "key.name": "endIndex",
+                  "key.usr": "s:SK8endIndex0B0Qzvp"
+                },
+                {
+                  "key.column": 65,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 26,
+                  "key.name": ">(_:_:)",
+                  "key.receiver_usr": "s:SS5IndexV",
+                  "key.usr": "s:SLsE1goiySbx_xtFZ"
+                },
+                {
+                  "key.column": 67,
+                  "key.entities": [
+                    {
+                      "key.column": 67,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 26,
+                      "key.usr": "s:SK10startIndex0B0Qzvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 26,
+                  "key.name": "startIndex",
+                  "key.usr": "s:SK10startIndex0B0Qzvp"
+                },
+                {
+                  "key.column": 81,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 26,
+                  "key.name": "index(before:)",
+                  "key.usr": "s:SK5index6before5IndexQzAD_tF"
+                },
+                {
+                  "key.column": 95,
+                  "key.entities": [
+                    {
+                      "key.column": 95,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 26,
+                      "key.usr": "s:SK8endIndex0B0Qzvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 26,
+                  "key.name": "endIndex",
+                  "key.usr": "s:SK8endIndex0B0Qzvp"
+                }
+              ],
+              "key.groupname": "String",
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 26,
+              "key.name": "getter:lastIndex",
+              "key.usr": "s:Sy7RubiconE9lastIndexSS0C0VSgvg"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 26,
+          "key.name": "lastIndex",
+          "key.usr": "s:Sy7RubiconE9lastIndexSS0C0VSgvp"
+        },
+        {
+          "key.column": 38,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 26,
+          "key.name": "String",
+          "key.usr": "s:SS"
+        },
+        {
+          "key.column": 45,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 26,
+          "key.name": "Index",
+          "key.usr": "s:SS5IndexV"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 28,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 52,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 28,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 64,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 28,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 29,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 29,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+            },
+            {
+              "key.column": 42,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 29,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 42,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 29,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufc"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 30,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 30,
+              "key.name": "init(_:)",
+              "key.usr": "s:s17FixedWidthIntegerPsEyxSgSScfc"
+            },
+            {
+              "key.column": 27,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 30,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 28,
+          "key.name": "toInteger(defaultValue:)",
+          "key.usr": "s:Sy7RubiconE9toInteger12defaultValueS2i_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 21,
+          "key.effective_access": "source.decl.effective_access.internal",
+          "key.entities": [
+            {
+              "key.column": 51,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 33,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 59,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 33,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 34,
+              "key.name": "index(_:offsetBy:limitedBy:)",
+              "key.usr": "s:SK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF"
+            },
+            {
+              "key.column": 31,
+              "key.entities": [
+                {
+                  "key.column": 31,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 34,
+                  "key.usr": "s:SK8endIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 34,
+              "key.name": "endIndex",
+              "key.usr": "s:SK8endIndex0B0Qzvp"
+            },
+            {
+              "key.column": 51,
+              "key.kind": "source.lang.swift.ref.function.operator.prefix",
+              "key.line": 34,
+              "key.name": "-(_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:s13SignedNumericPsE1sopyxxFZ"
+            },
+            {
+              "key.column": 70,
+              "key.entities": [
+                {
+                  "key.column": 70,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 34,
+                  "key.usr": "s:SK10startIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 34,
+              "key.name": "startIndex",
+              "key.usr": "s:SK10startIndex0B0Qzvp"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 35,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 35,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufc"
+            },
+            {
+              "key.column": 27,
+              "key.entities": [
+                {
+                  "key.column": 27,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 35,
+                  "key.usr": "s:SKy11SubSequenceQzSny5IndexQzGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 35,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SKy11SubSequenceQzSny5IndexQzGcip"
+            },
+            {
+              "key.column": 28,
+              "key.entities": [
+                {
+                  "key.column": 28,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 35,
+                  "key.usr": "s:SK10startIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 35,
+              "key.name": "startIndex",
+              "key.usr": "s:SK10startIndex0B0Qzvp"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 35,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 33,
+          "key.name": "withLastCharsRemoved(_:)",
+          "key.usr": "s:Sy7RubiconE20withLastCharsRemovedySSSiF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 34,
+              "key.entities": [
+                {
+                  "key.column": 36,
+                  "key.entities": [
+                    {
+                      "key.column": 36,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 42,
+                      "key.usr": "s:Sy7RubiconE7trimmedSSvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 42,
+                  "key.name": "trimmed",
+                  "key.usr": "s:Sy7RubiconE7trimmedSSvp"
+                },
+                {
+                  "key.column": 44,
+                  "key.entities": [
+                    {
+                      "key.column": 44,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 42,
+                      "key.receiver_usr": "s:SS",
+                      "key.usr": "s:SS7isEmptySbvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 42,
+                  "key.name": "isEmpty",
+                  "key.usr": "s:SS7isEmptySbvp"
+                }
+              ],
+              "key.groupname": "String",
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 42,
+              "key.name": "getter:isTrimEmpty",
+              "key.usr": "s:Sy7RubiconE11isTrimEmptySbvg"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 42,
+          "key.name": "isTrimEmpty",
+          "key.usr": "s:Sy7RubiconE11isTrimEmptySbvp"
+        },
+        {
+          "key.column": 29,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 42,
+          "key.name": "Bool",
+          "key.usr": "s:Sb"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 49,
+              "key.entities": [
+                {
+                  "key.column": 52,
+                  "key.entities": [
+                    {
+                      "key.column": 52,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 47,
+                      "key.usr": "s:SK10startIndex0B0Qzvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 47,
+                  "key.name": "startIndex",
+                  "key.usr": "s:SK10startIndex0B0Qzvp"
+                },
+                {
+                  "key.column": 63,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 47,
+                  "key.name": "..<(_:_:)",
+                  "key.receiver_usr": "s:SS5IndexV",
+                  "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+                },
+                {
+                  "key.column": 67,
+                  "key.entities": [
+                    {
+                      "key.column": 67,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 47,
+                      "key.usr": "s:SK8endIndex0B0Qzvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 47,
+                  "key.name": "endIndex",
+                  "key.usr": "s:SK8endIndex0B0Qzvp"
+                }
+              ],
+              "key.groupname": "String",
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 47,
+              "key.name": "getter:fullRange",
+              "key.usr": "s:Sy7RubiconE9fullRangeSnySS5IndexVGvg"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 47,
+          "key.name": "fullRange",
+          "key.usr": "s:Sy7RubiconE9fullRangeSnySS5IndexVGvp"
+        },
+        {
+          "key.column": 29,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 47,
+          "key.name": "Range",
+          "key.usr": "s:Sn"
+        },
+        {
+          "key.column": 35,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 47,
+          "key.name": "String",
+          "key.usr": "s:SS"
+        },
+        {
+          "key.column": 42,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 47,
+          "key.name": "Index",
+          "key.usr": "s:SS5IndexV"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 38,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 53,
+                  "key.name": "trimmingCharacters(in:)",
+                  "key.usr": "s:Sy10FoundationE18trimmingCharacters2inSSAA12CharacterSetV_tF"
+                },
+                {
+                  "key.column": 61,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 53,
+                  "key.name": "CharacterSet",
+                  "key.usr": "s:10Foundation12CharacterSetV"
+                },
+                {
+                  "key.column": 74,
+                  "key.entities": [
+                    {
+                      "key.column": 74,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 53,
+                      "key.receiver_usr": "s:10Foundation12CharacterSetV",
+                      "key.usr": "s:10Foundation12CharacterSetV7RubiconE022whitespacesAndNewlinesF17ControlCharactersACvgZ"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 53,
+                  "key.name": "whitespacesAndNewlinesAndControlCharacters",
+                  "key.usr": "s:10Foundation12CharacterSetV7RubiconE022whitespacesAndNewlinesF17ControlCharactersACvpZ"
+                }
+              ],
+              "key.groupname": "String",
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 53,
+              "key.name": "getter:trimmed",
+              "key.usr": "s:Sy7RubiconE7trimmedSSvg"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 53,
+          "key.name": "trimmed",
+          "key.usr": "s:Sy7RubiconE7trimmedSSvp"
+        },
+        {
+          "key.column": 29,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 53,
+          "key.name": "String",
+          "key.usr": "s:SS"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 38,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 58,
+                  "key.name": "replacingOccurrences(of:with:options:range:)",
+                  "key.usr": "s:Sy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF"
+                },
+                {
+                  "key.column": 79,
+                  "key.entities": [
+                    {
+                      "key.column": 79,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 58,
+                      "key.receiver_usr": "s:SS",
+                      "key.usr": "s:Sy10FoundationE23removingPercentEncodingSSSgvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 58,
+                  "key.name": "removingPercentEncoding",
+                  "key.usr": "s:Sy10FoundationE23removingPercentEncodingSSSgvp"
+                },
+                {
+                  "key.column": 103,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 58,
+                  "key.name": "??(_:_:)",
+                  "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
+                },
+                {
+                  "key.column": 106,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 58,
+                  "key.name": "String",
+                  "key.usr": "s:SS"
+                },
+                {
+                  "key.column": 106,
+                  "key.kind": "source.lang.swift.ref.function.constructor",
+                  "key.line": 58,
+                  "key.name": "init(_:)",
+                  "key.usr": "s:SSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufc"
+                }
+              ],
+              "key.groupname": "String",
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 58,
+              "key.name": "getter:urlDecoded",
+              "key.usr": "s:Sy7RubiconE10urlDecodedSSvg"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 58,
+          "key.name": "urlDecoded",
+          "key.usr": "s:Sy7RubiconE10urlDecodedSSvp"
+        },
+        {
+          "key.column": 29,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 58,
+          "key.name": "String",
+          "key.usr": "s:SS"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 39,
+                  "key.kind": "source.lang.swift.ref.typealias",
+                  "key.line": 65,
+                  "key.name": "NSRange",
+                  "key.usr": "c:@T@NSRange"
+                },
+                {
+                  "key.column": 39,
+                  "key.kind": "source.lang.swift.ref.function.constructor",
+                  "key.line": 65,
+                  "key.name": "init(_:in:)",
+                  "key.usr": "s:So8_NSRangeV10FoundationE_2inABx_q_tcSXRzSyR_SS5IndexV5BoundRtzr0_lufc"
+                },
+                {
+                  "key.column": 47,
+                  "key.entities": [
+                    {
+                      "key.column": 47,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 65,
+                      "key.usr": "s:Sy7RubiconE9fullRangeSnySS5IndexVGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 65,
+                  "key.name": "fullRange",
+                  "key.usr": "s:Sy7RubiconE9fullRangeSnySS5IndexVGvp"
+                }
+              ],
+              "key.groupname": "String",
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 65,
+              "key.name": "getter:fullNSRange",
+              "key.usr": "s:Sy7RubiconE11fullNSRangeSo01_C0Vvg"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 65,
+          "key.name": "fullNSRange",
+          "key.usr": "s:Sy7RubiconE11fullNSRangeSo01_C0Vvp"
+        },
+        {
+          "key.column": 29,
+          "key.kind": "source.lang.swift.ref.typealias",
+          "key.line": 65,
+          "key.name": "NSRange",
+          "key.usr": "c:@T@NSRange"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 24,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 54,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 75,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 66,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 75,
+              "key.name": "localizedCaseInsensitiveCompare(_:)",
+              "key.usr": "s:Sy10FoundationE31localizedCaseInsensitiveCompareySo18NSComparisonResultVqd__SyRd__lF"
+            },
+            {
+              "key.column": 103,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 75,
+              "key.name": "==(_:_:)",
+              "key.usr": "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
+            },
+            {
+              "key.column": 106,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 75,
+              "key.name": "ComparisonResult",
+              "key.usr": "c:@E@NSComparisonResult"
+            },
+            {
+              "key.column": 123,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 75,
+              "key.name": "orderedSame",
+              "key.usr": "c:@E@NSComparisonResult@NSOrderedSame"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.operator.infix",
+          "key.line": 75,
+          "key.name": "==~(_:_:)",
+          "key.usr": "s:Sy7RubiconE3eetoiySbx_xtFZ"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 24,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 54,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 85,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 66,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 85,
+              "key.name": "localizedCaseInsensitiveCompare(_:)",
+              "key.usr": "s:Sy10FoundationE31localizedCaseInsensitiveCompareySo18NSComparisonResultVqd__SyRd__lF"
+            },
+            {
+              "key.column": 103,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 85,
+              "key.name": "!=(_:_:)",
+              "key.receiver_usr": "c:@E@NSComparisonResult",
+              "key.usr": "s:SQsE2neoiySbx_xtFZ"
+            },
+            {
+              "key.column": 106,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 85,
+              "key.name": "ComparisonResult",
+              "key.usr": "c:@E@NSComparisonResult"
+            },
+            {
+              "key.column": 123,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 85,
+              "key.name": "orderedSame",
+              "key.usr": "c:@E@NSComparisonResult@NSOrderedSame"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.operator.infix",
+          "key.line": 85,
+          "key.name": "!=~(_:_:)",
+          "key.usr": "s:Sy7RubiconE3netoiySbx_xtFZ"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 34,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 96,
+              "key.name": "Range",
+              "key.usr": "s:Sn"
+            },
+            {
+              "key.column": 40,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 96,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 96,
+              "key.name": "Index",
+              "key.usr": "s:SS5IndexV"
+            },
+            {
+              "key.column": 64,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 96,
+              "key.name": "Character",
+              "key.usr": "s:SJ"
+            },
+            {
+              "key.column": 85,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 96,
+              "key.name": "Void",
+              "key.usr": "s:s4Voida"
+            },
+            {
+              "key.column": 27,
+              "key.entities": [
+                {
+                  "key.column": 27,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 97,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10lowerBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 97,
+              "key.name": "lowerBound",
+              "key.usr": "s:Sn10lowerBoundxvp"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 98,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SS5IndexV1loiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 29,
+              "key.entities": [
+                {
+                  "key.column": 29,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 98,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10upperBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 98,
+              "key.name": "upperBound",
+              "key.usr": "s:Sn10upperBoundxvp"
+            },
+            {
+              "key.column": 26,
+              "key.entities": [
+                {
+                  "key.column": 26,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 99,
+                  "key.usr": "s:SKy7ElementQz5IndexQzcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 99,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SKy7ElementQz5IndexQzcip"
+            },
+            {
+              "key.column": 13,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 100,
+              "key.name": "formIndex(after:)",
+              "key.usr": "s:SK9formIndex5aftery0B0Qzz_tF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 96,
+          "key.name": "forEach(inRange:_:)",
+          "key.usr": "s:Sy7RubiconE7forEach7inRange_ySnySS5IndexVG_ySJKXEtKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.discardableResult"
+            }
+          ],
+          "key.column": 36,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 51,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 117,
+              "key.name": "RegularExpression",
+              "key.usr": "s:7Rubicon17RegularExpressionC"
+            },
+            {
+              "key.column": 69,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 117,
+              "key.name": "Match",
+              "key.usr": "s:7Rubicon17RegularExpressionC5MatchC"
+            },
+            {
+              "key.column": 84,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 117,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 102,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 117,
+              "key.name": "Character",
+              "key.usr": "s:SJ"
+            },
+            {
+              "key.column": 123,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 117,
+              "key.name": "Void",
+              "key.usr": "s:s4Voida"
+            },
+            {
+              "key.column": 141,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 117,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 36,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 118,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5MatchC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5MatchCyAC5GroupCSicig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 118,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:7Rubicon17RegularExpressionC5MatchCyAC5GroupCSicip"
+            },
+            {
+              "key.column": 44,
+              "key.entities": [
+                {
+                  "key.column": 44,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 118,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5GroupC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5GroupC5rangeSnySS5IndexVGSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 118,
+              "key.name": "range",
+              "key.usr": "s:7Rubicon17RegularExpressionC5GroupC5rangeSnySS5IndexVGSgvp"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 119,
+              "key.name": "forEach(inRange:_:)",
+              "key.usr": "s:Sy7RubiconE7forEach7inRange_ySnySS5IndexVG_ySJKXEtKF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 117,
+          "key.name": "forEach(match:group:_:)",
+          "key.usr": "s:Sy7RubiconE7forEach5match5group_SbAA17RegularExpressionC5MatchCSg_SiySJKXEtKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 40,
+              "key.kind": "source.lang.swift.ref.associatedtype",
+              "key.line": 135,
+              "key.name": "Index",
+              "key.usr": "s:SK5IndexQa"
+            },
+            {
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 135,
+              "key.name": "TextPosition",
+              "key.usr": "s:7Rubicon12TextPositiona"
+            },
+            {
+              "key.column": 92,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 135,
+              "key.name": "Int8",
+              "key.usr": "s:s4Int8V"
+            },
+            {
+              "key.column": 105,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 135,
+              "key.name": "TextPosition",
+              "key.usr": "s:7Rubicon12TextPositiona"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 138,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SS5IndexV1loiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 21,
+              "key.entities": [
+                {
+                  "key.column": 21,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 138,
+                  "key.usr": "s:SK8endIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 138,
+              "key.name": "endIndex",
+              "key.usr": "s:SK8endIndex0B0Qzvp"
+            },
+            {
+              "key.column": 13,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 139,
+              "key.name": "textPositionUpdate(_:pos:tabWidth:)",
+              "key.usr": "s:7Rubicon18textPositionUpdate_3pos8tabWidthySJ_s5Int32V10lineNumber_AF06columnJ0tzs4Int8VtF"
+            },
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 36,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 139,
+                  "key.usr": "s:SKy7ElementQz5IndexQzcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 139,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SKy7ElementQz5IndexQzcip"
+            },
+            {
+              "key.column": 13,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 140,
+              "key.name": "formIndex(after:)",
+              "key.usr": "s:SK9formIndex5aftery0B0Qzz_tF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 135,
+          "key.name": "positionOfIndex(_:position:tabSize:)",
+          "key.usr": "s:Sy7RubiconE15positionOfIndex_0B07tabSizes5Int32V10lineNumber_AF06columnI0tSS0D0V_AfG_AfHts4Int8VtF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 12,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 47,
+              "key.entities": [
+                {
+                  "key.column": 13,
+                  "key.entities": [
+                    {
+                      "key.column": 13,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 155,
+                      "key.usr": "s:SKy7ElementQz5IndexQzcig"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 155,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:SKy7ElementQz5IndexQzcip"
+                },
+                {
+                  "key.column": 19,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 155,
+                  "key.name": "index(_:offsetBy:)",
+                  "key.usr": "s:SK5index_8offsetBy5IndexQzAD_SitF"
+                },
+                {
+                  "key.column": 30,
+                  "key.entities": [
+                    {
+                      "key.column": 30,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 155,
+                      "key.usr": "s:SK10startIndex0B0Qzvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 155,
+                  "key.name": "startIndex",
+                  "key.usr": "s:SK10startIndex0B0Qzvp"
+                }
+              ],
+              "key.groupname": "String",
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 154,
+              "key.name": "getter:subscript(_:)",
+              "key.usr": "s:Sy7RubiconEySJSicig"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 154,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 154,
+              "key.name": "Character",
+              "key.usr": "s:SJ"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.subscript",
+          "key.line": 154,
+          "key.name": "subscript(_:)",
+          "key.usr": "s:Sy7RubiconEySJSicip"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 12,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 56,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 168,
+                  "key.name": "Substring",
+                  "key.usr": "s:Ss"
+                },
+                {
+                  "key.column": 9,
+                  "key.kind": "source.lang.swift.ref.function.constructor",
+                  "key.line": 168,
+                  "key.name": "init(_:)",
+                  "key.usr": "s:SsySsxcSTRzSJ7ElementRtzlufc"
+                },
+                {
+                  "key.column": 23,
+                  "key.entities": [
+                    {
+                      "key.column": 23,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 168,
+                      "key.usr": "s:SKy11SubSequenceQzSny5IndexQzGcig"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 168,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:SKy11SubSequenceQzSny5IndexQzGcip"
+                },
+                {
+                  "key.column": 24,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 168,
+                  "key.name": "index(idx:)",
+                  "key.usr": "s:Sy7RubiconE5index3idxSS5IndexVSi_tF"
+                },
+                {
+                  "key.column": 41,
+                  "key.entities": [
+                    {
+                      "key.column": 41,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 168,
+                      "key.receiver_usr": "s:Sn",
+                      "key.usr": "s:Sn10lowerBoundxvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 168,
+                  "key.name": "lowerBound",
+                  "key.usr": "s:Sn10lowerBoundxvp"
+                },
+                {
+                  "key.column": 53,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 168,
+                  "key.name": "..<(_:_:)",
+                  "key.receiver_usr": "s:SS5IndexV",
+                  "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+                },
+                {
+                  "key.column": 57,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 168,
+                  "key.name": "index(idx:)",
+                  "key.usr": "s:Sy7RubiconE5index3idxSS5IndexVSi_tF"
+                },
+                {
+                  "key.column": 74,
+                  "key.entities": [
+                    {
+                      "key.column": 74,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 168,
+                      "key.receiver_usr": "s:Sn",
+                      "key.usr": "s:Sn10upperBoundxvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 168,
+                  "key.name": "upperBound",
+                  "key.usr": "s:Sn10upperBoundxvp"
+                }
+              ],
+              "key.groupname": "String",
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 167,
+              "key.name": "getter:subscript(_:)",
+              "key.usr": "s:Sy7RubiconEySsSnySiGcig"
+            },
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 167,
+              "key.name": "Range",
+              "key.usr": "s:Sn"
+            },
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 167,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 167,
+              "key.name": "Substring",
+              "key.usr": "s:Ss"
+            }
+          ],
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.subscript",
+          "key.line": 167,
+          "key.name": "subscript(_:)",
+          "key.usr": "s:Sy7RubiconEySsSnySiGcip"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 43,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 179,
+              "key.name": "Character",
+              "key.usr": "s:SJ"
+            },
+            {
+              "key.column": 67,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 179,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 74,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 179,
+              "key.name": "Index",
+              "key.usr": "s:SS5IndexV"
+            },
+            {
+              "key.column": 84,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 179,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 91,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 179,
+              "key.name": "Index",
+              "key.usr": "s:SS5IndexV"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 181,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SS5IndexV1loiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 22,
+              "key.entities": [
+                {
+                  "key.column": 22,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 181,
+                  "key.usr": "s:SK8endIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 181,
+              "key.name": "endIndex",
+              "key.usr": "s:SK8endIndex0B0Qzvp"
+            },
+            {
+              "key.column": 22,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 182,
+              "key.name": "contains(_:)",
+              "key.receiver_usr": "s:Sa",
+              "key.usr": "s:STsSQ7ElementRpzrlE8containsySbABF"
+            },
+            {
+              "key.column": 35,
+              "key.entities": [
+                {
+                  "key.column": 35,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 182,
+                  "key.usr": "s:SKy7ElementQz5IndexQzcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 182,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SKy7ElementQz5IndexQzcip"
+            },
+            {
+              "key.column": 13,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 183,
+              "key.name": "formIndex(after:)",
+              "key.usr": "s:SK9formIndex5aftery0B0Qzz_tF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 179,
+          "key.name": "firstIndex(ofAnyOf:from:)",
+          "key.usr": "s:Sy7RubiconE10firstIndex7ofAnyOf4fromSS0C0VSgSJd_AFtF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 28,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 195,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 195,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 43,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 195,
+              "key.name": "Index",
+              "key.usr": "s:SS5IndexV"
+            },
+            {
+              "key.column": 9,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 196,
+              "key.name": "index(_:offsetBy:)",
+              "key.usr": "s:SK5index_8offsetBy5IndexQzAD_SitF"
+            },
+            {
+              "key.column": 15,
+              "key.entities": [
+                {
+                  "key.column": 15,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 196,
+                  "key.usr": "s:SK10startIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 196,
+              "key.name": "startIndex",
+              "key.usr": "s:SK10startIndex0B0Qzvp"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 195,
+          "key.name": "index(idx:)",
+          "key.usr": "s:Sy7RubiconE5index3idxSS5IndexVSi_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 216,
+              "key.name": "NSRange",
+              "key.usr": "c:@T@NSRange"
+            },
+            {
+              "key.column": 44,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 216,
+              "key.name": "Range",
+              "key.usr": "s:Sn"
+            },
+            {
+              "key.column": 50,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 216,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 216,
+              "key.name": "Index",
+              "key.usr": "s:SS5IndexV"
+            },
+            {
+              "key.column": 23,
+              "key.entities": [
+                {
+                  "key.column": 23,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 217,
+                  "key.receiver_usr": "c:@S@_NSRange",
+                  "key.usr": "s:So8_NSRangeV8locationSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 217,
+              "key.name": "location",
+              "key.usr": "c:@S@_NSRange@FI@location"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 217,
+              "key.name": "!=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SzsE2neoiySbx_xtFZ"
+            },
+            {
+              "key.column": 35,
+              "key.entities": [
+                {
+                  "key.column": 35,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 217,
+                  "key.usr": "s:10Foundation10NSNotFoundSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.global",
+              "key.line": 217,
+              "key.name": "NSNotFound",
+              "key.usr": "s:10Foundation10NSNotFoundSivp"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 220,
+              "key.name": "strRange(string:)",
+              "key.receiver_usr": "c:@S@_NSRange",
+              "key.usr": "s:So8_NSRangeV7RubiconE8strRange6stringSnySS5IndexVGSgx_tSyRzlF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 216,
+          "key.name": "range(nsRange:)",
+          "key.usr": "s:Sy7RubiconE5range7nsRangeSnySS5IndexVGSgSo8_NSRangeV_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 42,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 229,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 56,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 229,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 230,
+              "key.name": "hasPrefix(_:)",
+              "key.usr": "s:Sy9hasPrefixySbSSF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 229,
+          "key.name": "hasAnyPrefix(_:)",
+          "key.usr": "s:Sy7RubiconE12hasAnyPrefixySbSSd_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 42,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 240,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 56,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 240,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 241,
+              "key.name": "hasSuffix(_:)",
+              "key.usr": "s:Sy9hasSuffixySbSSF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 240,
+          "key.name": "hasAnySuffix(_:)",
+          "key.usr": "s:Sy7RubiconE12hasAnySuffixySbSSd_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 260,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 63,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 260,
+              "key.name": "Character",
+              "key.usr": "s:SJ"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 261,
+              "key.name": "Character",
+              "key.usr": "s:SJ"
+            },
+            {
+              "key.column": 51,
+              "key.entities": [
+                {
+                  "key.column": 51,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 263,
+                  "key.receiver_usr": "s:SJ",
+                  "key.usr": "s:SJ14unicodeScalarsSS17UnicodeScalarViewVvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 263,
+              "key.name": "unicodeScalars",
+              "key.usr": "s:SJ14unicodeScalarsSS17UnicodeScalarViewVvp"
+            },
+            {
+              "key.column": 79,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 263,
+              "key.name": "<+(_:_:)",
+              "key.usr": "s:7Rubicon2lpoiyySayxGz_xtlF"
+            },
+            {
+              "key.column": 82,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 263,
+              "key.name": "Character",
+              "key.usr": "s:SJ"
+            },
+            {
+              "key.column": 82,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 263,
+              "key.name": "init(_:)",
+              "key.usr": "s:SJySJs7UnicodeO6ScalarVcfc"
+            },
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 264,
+              "key.name": "<+(_:_:)",
+              "key.usr": "s:7Rubicon2lpoiyySayxGz_xtlF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 260,
+          "key.name": "getCharacters(splitClusters:)",
+          "key.usr": "s:Sy7RubiconE13getCharacters13splitClustersSaySJGSb_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 34,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 276,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 52,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 276,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.protocol",
+              "key.line": 277,
+              "key.name": "Error",
+              "key.usr": "s:s5ErrorP"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 278,
+              "key.name": "RegularExpression",
+              "key.usr": "s:7Rubicon17RegularExpressionC"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 278,
+              "key.name": "init(pattern:options:error:)",
+              "key.usr": "s:7Rubicon17RegularExpressionC7pattern7options5errorACSgSS_SayAC7OptionsOGs5Error_pSgztcfc"
+            },
+            {
+              "key.column": 34,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 279,
+              "key.name": "firstMatch(in:options:range:)",
+              "key.receiver_usr": "s:7Rubicon17RegularExpressionC",
+              "key.usr": "s:7Rubicon17RegularExpressionC10firstMatch2in7options5rangeAC0E0CSgSS_SayAC15MatchingOptionsOGSnySS5IndexVGSgtF"
+            },
+            {
+              "key.column": 49,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 279,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 49,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 279,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufc"
+            },
+            {
+              "key.column": 33,
+              "key.entities": [
+                {
+                  "key.column": 33,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 280,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5MatchC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5MatchCyAC5GroupCSicig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 280,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:7Rubicon17RegularExpressionC5MatchCyAC5GroupCSicip"
+            },
+            {
+              "key.column": 37,
+              "key.entities": [
+                {
+                  "key.column": 37,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 280,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5GroupC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5GroupC5rangeSnySS5IndexVGSgvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 280,
+              "key.name": "range",
+              "key.usr": "s:7Rubicon17RegularExpressionC5GroupC5rangeSnySS5IndexVGSgvp"
+            },
+            {
+              "key.column": 31,
+              "key.entities": [
+                {
+                  "key.column": 31,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 281,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10lowerBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 281,
+              "key.name": "lowerBound",
+              "key.usr": "s:Sn10lowerBoundxvp"
+            },
+            {
+              "key.column": 42,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 281,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SS5IndexV2eeoiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 45,
+              "key.entities": [
+                {
+                  "key.column": 45,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 281,
+                  "key.usr": "s:SK10startIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 281,
+              "key.name": "startIndex",
+              "key.usr": "s:SK10startIndex0B0Qzvp"
+            },
+            {
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 281,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+            },
+            {
+              "key.column": 63,
+              "key.entities": [
+                {
+                  "key.column": 63,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 281,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10upperBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 281,
+              "key.name": "upperBound",
+              "key.usr": "s:Sn10upperBoundxvp"
+            },
+            {
+              "key.column": 74,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 281,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SS5IndexV2eeoiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 77,
+              "key.entities": [
+                {
+                  "key.column": 77,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 281,
+                  "key.usr": "s:SK8endIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 281,
+              "key.name": "endIndex",
+              "key.usr": "s:SK8endIndex0B0Qzvp"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 276,
+          "key.name": "matches(pattern:)",
+          "key.usr": "s:Sy7RubiconE7matches7patternSbSS_tKF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 34,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 295,
+              "key.name": "Range",
+              "key.usr": "s:Sn"
+            },
+            {
+              "key.column": 40,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 295,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 295,
+              "key.name": "Index",
+              "key.usr": "s:SS5IndexV"
+            },
+            {
+              "key.column": 58,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 295,
+              "key.name": "NSRange",
+              "key.usr": "c:@T@NSRange"
+            },
+            {
+              "key.column": 68,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 295,
+              "key.name": "NSRange",
+              "key.usr": "c:@T@NSRange"
+            },
+            {
+              "key.column": 68,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 295,
+              "key.name": "init(_:in:)",
+              "key.usr": "s:So8_NSRangeV10FoundationE_2inABx_q_tcSXRzSyR_SS5IndexV5BoundRtzr0_lufc"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 295,
+          "key.name": "nsRange(_:)",
+          "key.usr": "s:Sy7RubiconE7nsRangeySo8_NSRangeVSnySS5IndexVGF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 309,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 309,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 309,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 9,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 310,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 9,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 310,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSSshcfc"
+            },
+            {
+              "key.column": 20,
+              "key.entities": [
+                {
+                  "key.column": 20,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 310,
+                  "key.usr": "s:Sy7RubiconEySsSnySiGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 310,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:Sy7RubiconEySsSnySiGcip"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 310,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 309,
+          "key.name": "substr(from:to:)",
+          "key.usr": "s:Sy7RubiconE6substr4from2toSSSi_SitF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 325,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 55,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 325,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 63,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 325,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 9,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 326,
+              "key.name": "substr(from:to:)",
+              "key.usr": "s:Sy7RubiconE6substr4from2toSSSi_SitF"
+            },
+            {
+              "key.column": 44,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 326,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1poiyS2i_SitFZ"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 325,
+          "key.name": "substr(from:length:)",
+          "key.usr": "s:Sy7RubiconE6substr4from6lengthSSSi_SitF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 342,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 342,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 9,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 343,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 9,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 343,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufc"
+            },
+            {
+              "key.column": 20,
+              "key.entities": [
+                {
+                  "key.column": 20,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 343,
+                  "key.usr": "s:SKy11SubSequenceQzSny5IndexQzGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 343,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SKy11SubSequenceQzSny5IndexQzGcip"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 343,
+              "key.name": "index(idx:)",
+              "key.usr": "s:Sy7RubiconE5index3idxSS5IndexVSi_tF"
+            },
+            {
+              "key.column": 41,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 343,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column": 45,
+              "key.entities": [
+                {
+                  "key.column": 45,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 343,
+                  "key.usr": "s:SK8endIndex0B0Qzvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 343,
+              "key.name": "endIndex",
+              "key.usr": "s:SK8endIndex0B0Qzvp"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 342,
+          "key.name": "substr(from:)",
+          "key.usr": "s:Sy7RubiconE6substr4fromSSSi_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 361,
+              "key.name": "NSRange",
+              "key.usr": "c:@T@NSRange"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 361,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 362,
+              "key.name": "Range",
+              "key.usr": "s:Sn"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 362,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 362,
+              "key.name": "Index",
+              "key.usr": "s:SS5IndexV"
+            },
+            {
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 362,
+              "key.name": "range(nsRange:)",
+              "key.usr": "s:Sy7RubiconE5range7nsRangeSnySS5IndexVGSgSo8_NSRangeV_tF"
+            },
+            {
+              "key.column": 13,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 363,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 365,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 365,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufc"
+            },
+            {
+              "key.column": 27,
+              "key.entities": [
+                {
+                  "key.column": 27,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 365,
+                  "key.usr": "s:SKy11SubSequenceQzSny5IndexQzGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 365,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SKy11SubSequenceQzSny5IndexQzGcip"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 361,
+          "key.name": "substr(nsRange:)",
+          "key.usr": "s:Sy7RubiconE6substr7nsRangeSSSo8_NSRangeV_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 17,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 35,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 441,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 54,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 441,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 76,
+              "key.kind": "source.lang.swift.ref.protocol",
+              "key.line": 441,
+              "key.name": "Error",
+              "key.usr": "s:s5ErrorP"
+            },
+            {
+              "key.column": 88,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 441,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 442,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 442,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufc"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 443,
+              "key.name": "!=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SzsE2neoiySbx_xtFZ"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 444,
+              "key.name": "RegularExpression",
+              "key.usr": "s:7Rubicon17RegularExpressionC"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 444,
+              "key.name": "init(pattern:options:error:)",
+              "key.usr": "s:7Rubicon17RegularExpressionC7pattern7options5errorACSgSS_SayAC7OptionsOGs5Error_pSgztcfc"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 446,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 447,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 447,
+              "key.name": "Index",
+              "key.usr": "s:SS5IndexV"
+            },
+            {
+              "key.column": 44,
+              "key.entities": [
+                {
+                  "key.column": 44,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 447,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS10startIndexSS0B0Vvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 447,
+              "key.name": "startIndex",
+              "key.usr": "s:SS10startIndexSS0B0Vvp"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 448,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 12,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 450,
+              "key.name": "forEachMatch(in:options:range:using:)",
+              "key.receiver_usr": "s:7Rubicon17RegularExpressionC",
+              "key.usr": "s:7Rubicon17RegularExpressionC12forEachMatch2in7options5range5usingySS_SayAC15MatchingOptionsOGSnySS5IndexVGSgyAC0F0CSg_SayAC0K5FlagsOGSbztXEtF"
+            },
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 452,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 452,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+            },
+            {
+              "key.column": 41,
+              "key.entities": [
+                {
+                  "key.column": 41,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 452,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5MatchC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 452,
+              "key.name": "range",
+              "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvp"
+            },
+            {
+              "key.column": 47,
+              "key.entities": [
+                {
+                  "key.column": 47,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 452,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10lowerBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 452,
+              "key.name": "lowerBound",
+              "key.usr": "s:Sn10lowerBoundxvp"
+            },
+            {
+              "key.column": 58,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 452,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SS5IndexV2eeoiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 65,
+              "key.entities": [
+                {
+                  "key.column": 65,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 452,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS10startIndexSS0B0Vvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 452,
+              "key.name": "startIndex",
+              "key.usr": "s:SS10startIndexSS0B0Vvp"
+            },
+            {
+              "key.column": 26,
+              "key.entities": [
+                {
+                  "key.column": 26,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 453,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5MatchC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 453,
+              "key.name": "range",
+              "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvp"
+            },
+            {
+              "key.column": 32,
+              "key.entities": [
+                {
+                  "key.column": 32,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 453,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10upperBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 453,
+              "key.name": "upperBound",
+              "key.usr": "s:Sn10upperBoundxvp"
+            },
+            {
+              "key.column": 43,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 453,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SLsE1goiySbx_xtFZ"
+            },
+            {
+              "key.column": 47,
+              "key.entities": [
+                {
+                  "key.column": 47,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 453,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5MatchC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 453,
+              "key.name": "range",
+              "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvp"
+            },
+            {
+              "key.column": 53,
+              "key.entities": [
+                {
+                  "key.column": 53,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 453,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10lowerBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 453,
+              "key.name": "lowerBound",
+              "key.usr": "s:Sn10lowerBoundxvp"
+            },
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 454,
+              "key.name": "<+(_:_:)",
+              "key.usr": "s:7Rubicon2lpoiyySayxGz_xtlF"
+            },
+            {
+              "key.column": 34,
+              "key.entities": [
+                {
+                  "key.column": 34,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 455,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5MatchC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 455,
+              "key.name": "range",
+              "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvp"
+            },
+            {
+              "key.column": 40,
+              "key.entities": [
+                {
+                  "key.column": 40,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 455,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10upperBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 455,
+              "key.name": "upperBound",
+              "key.usr": "s:Sn10upperBoundxvp"
+            },
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 456,
+              "key.name": "+=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2peoiyySiz_SitFZ"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 460,
+              "key.name": "<+(_:_:)",
+              "key.usr": "s:7Rubicon2lpoiyySayxGz_xtlF"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 460,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 460,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSSshcfc"
+            },
+            {
+              "key.column": 42,
+              "key.entities": [
+                {
+                  "key.column": 42,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 460,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SSySsSnySS5IndexVGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 460,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SSySsSnySS5IndexVGcip"
+            },
+            {
+              "key.column": 48,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 460,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column": 54,
+              "key.entities": [
+                {
+                  "key.column": 54,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 460,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5MatchC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 460,
+              "key.name": "range",
+              "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvp"
+            },
+            {
+              "key.column": 60,
+              "key.entities": [
+                {
+                  "key.column": 60,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 460,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10lowerBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 460,
+              "key.name": "lowerBound",
+              "key.usr": "s:Sn10lowerBoundxvp"
+            },
+            {
+              "key.column": 30,
+              "key.entities": [
+                {
+                  "key.column": 30,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 461,
+                  "key.receiver_usr": "s:7Rubicon17RegularExpressionC5MatchC",
+                  "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 461,
+              "key.name": "range",
+              "key.usr": "s:7Rubicon17RegularExpressionC5MatchC5rangeSnySS5IndexVGvp"
+            },
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 36,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 461,
+                  "key.receiver_usr": "s:Sn",
+                  "key.usr": "s:Sn10upperBoundxvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 461,
+              "key.name": "upperBound",
+              "key.usr": "s:Sn10upperBoundxvp"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 462,
+              "key.name": "+=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2peoiyySiz_SitFZ"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 464,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 28,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 464,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+            },
+            {
+              "key.column": 42,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 464,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 465,
+              "key.name": "<+(_:_:)",
+              "key.usr": "s:7Rubicon2lpoiyySayxGz_xtlF"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 465,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 465,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSSshcfc"
+            },
+            {
+              "key.column": 42,
+              "key.entities": [
+                {
+                  "key.column": 42,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 465,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SSySsSnySS5IndexVGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 465,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SSySsSnySS5IndexVGcip"
+            },
+            {
+              "key.column": 48,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 465,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column": 56,
+              "key.entities": [
+                {
+                  "key.column": 56,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 465,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS8endIndexSS0B0Vvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 465,
+              "key.name": "endIndex",
+              "key.usr": "s:SS8endIndexSS0B0Vvp"
+            },
+            {
+              "key.column": 32,
+              "key.entities": [
+                {
+                  "key.column": 32,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 466,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS8endIndexSS0B0Vvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 466,
+              "key.name": "endIndex",
+              "key.usr": "s:SS8endIndexSS0B0Vvp"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 472,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SS5IndexV1loiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 23,
+              "key.entities": [
+                {
+                  "key.column": 23,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 472,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS8endIndexSS0B0Vvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 472,
+              "key.name": "endIndex",
+              "key.usr": "s:SS8endIndexSS0B0Vvp"
+            },
+            {
+              "key.column": 42,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 472,
+              "key.name": "<+(_:_:)",
+              "key.usr": "s:7Rubicon2lpoiyySayxGz_xtlF"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 472,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 472,
+              "key.name": "init(_:)",
+              "key.usr": "s:SSySSSshcfc"
+            },
+            {
+              "key.column": 55,
+              "key.entities": [
+                {
+                  "key.column": 55,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 472,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SSySsSnySS5IndexVGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 472,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SSySsSnySS5IndexVGcip"
+            },
+            {
+              "key.column": 61,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 472,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:SS5IndexV",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column": 69,
+              "key.entities": [
+                {
+                  "key.column": 69,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 472,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS8endIndexSS0B0Vvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 472,
+              "key.name": "endIndex",
+              "key.usr": "s:SS8endIndexSS0B0Vvp"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 474,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 474,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+            },
+            {
+              "key.column": 32,
+              "key.entities": [
+                {
+                  "key.column": 32,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 474,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 474,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 474,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 29,
+              "key.entities": [
+                {
+                  "key.column": 29,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 475,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa8endIndexSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 475,
+              "key.name": "endIndex",
+              "key.usr": "s:Sa8endIndexSivp"
+            },
+            {
+              "key.column": 24,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 476,
+              "key.name": "-=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2seoiyySiz_SitFZ"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 476,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 49,
+              "key.entities": [
+                {
+                  "key.column": 49,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 476,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa10startIndexSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 476,
+              "key.name": "startIndex",
+              "key.usr": "s:Sa10startIndexSivp"
+            },
+            {
+              "key.column": 60,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 476,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+            },
+            {
+              "key.column": 70,
+              "key.entities": [
+                {
+                  "key.column": 70,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 476,
+                  "key.usr": "s:SayxSicig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 476,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SayxSicip"
+            },
+            {
+              "key.column": 74,
+              "key.entities": [
+                {
+                  "key.column": 74,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 476,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS7isEmptySbvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 476,
+              "key.name": "isEmpty",
+              "key.usr": "s:SS7isEmptySbvp"
+            },
+            {
+              "key.column": 15,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 477,
+              "key.name": "+=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2peoiyySiz_SitFZ"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 478,
+              "key.name": "removeSubrange(_:)",
+              "key.usr": "s:SmsE14removeSubrangeyySny5IndexQzGF"
+            },
+            {
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 478,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            },
+            {
+              "key.column": 50,
+              "key.entities": [
+                {
+                  "key.column": 50,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 478,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa8endIndexSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 478,
+              "key.name": "endIndex",
+              "key.usr": "s:Sa8endIndexSivp"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 441,
+          "key.name": "split(on:limit:error:)",
+          "key.usr": "s:Sy7RubiconE5split2on5limit5errorSaySSGSS_Sis5Error_pSgztF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column": 28,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 556,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 556,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 78,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 556,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.protocol",
+              "key.line": 557,
+              "key.name": "Error",
+              "key.usr": "s:s5ErrorP"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 558,
+              "key.name": "split(on:limit:error:)",
+              "key.usr": "s:Sy7RubiconE5split2on5limit5errorSaySSGSS_Sis5Error_pSgztF"
+            }
+          ],
+          "key.groupname": "String",
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 556,
+          "key.name": "split(on:limit:)",
+          "key.usr": "s:Sy7RubiconE5split2on5limitSaySSGSS_SitF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension.protocol",
+      "key.line": 24,
+      "key.name": "StringProtocol",
+      "key.usr": "s:e:s:Sy7RubiconE9lastIndexSS0C0VSgvp"
+    }
+  ]
+}

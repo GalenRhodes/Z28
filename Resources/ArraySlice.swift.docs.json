@@ -1,0 +1,1402 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 9742,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.annotated_decl": "<Declaration>@frozen struct ArraySlice&lt;Element&gt; : <Type usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/Type><\/Declaration>",
+      "key.bodycolumn": 23,
+      "key.bodylength": 1114,
+      "key.bodyline": 21,
+      "key.bodyoffset": 1332,
+      "key.column": 1,
+      "key.doc.comment": "",
+      "key.doc.declaration": "@frozen struct ArraySlice<Element> : _DestructorSafeContainer",
+      "key.doc.discussion": [
+        {
+          "Para": "The `ArraySlice` type makes it fast and efficient for you to perform operations on sections of a larger array. Instead of copying over the elements of a slice to new storage, an `ArraySlice` instance presents a view onto the storage of a larger array. And because `ArraySlice` presents the same interface as `Array`, you can generally perform the same operations on a slice as you could on the original array."
+        },
+        {
+          "Para": "For more information about using arrays, see `Array` and `ContiguousArray`, with which `ArraySlice` shares most properties and methods."
+        },
+        {
+          "Para": "For example, suppose you have an array holding the number of absences from each class during a session."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You want to compare the absences in the first half of the session with those in the second half. To do so, start by creating two slices of the `absences` array."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Neither the `firstHalf` nor `secondHalf` slices allocate any new storage of their own. Instead, each presents a view onto the storage of the `absences` array."
+        },
+        {
+          "Para": "You can call any method on the slices that you might have called on the `absences` array. To learn which half had more absences, use the `reduce(_:_:)` method to calculate each sum."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Important": ""
+        },
+        {
+          "Para": "Unlike `Array` and `ContiguousArray`, the starting index for an `ArraySlice` instance isn’t always zero. Slices maintain the same indices of the larger array for the same elements, so the starting index of a slice depends on how it was created, letting you perform index-based operations on either a full array or a slice."
+        },
+        {
+          "Para": "Sharing indices between collections and their subsequences is an important part of the design of Swift’s collection algorithms. Suppose you are tasked with finding the first two days with absences in the session. To find the indices of the two days in question, follow these steps:"
+        },
+        {
+          "List-Number": ""
+        },
+        {
+          "Para": "Here’s an implementation of those steps:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "In particular, note that `j`, the index of the second day with absences, was found in a slice of the original array and then used to access a value in the original `absences` array itself."
+        },
+        {
+          "Note": ""
+        }
+      ],
+      "key.doc.full_as_xml": "<Class><Name>ArraySlice<\/Name><USR>s:s10ArraySliceV<\/USR><Declaration>@frozen struct ArraySlice&lt;Element&gt; : _DestructorSafeContainer<\/Declaration><CommentParts><Abstract><Para>A slice of an <codeVoice>Array<\/codeVoice>, <codeVoice>ContiguousArray<\/codeVoice>, or <codeVoice>ArraySlice<\/codeVoice> instance.<\/Para><\/Abstract><Discussion><Para>The <codeVoice>ArraySlice<\/codeVoice> type makes it fast and efficient for you to perform operations on sections of a larger array. Instead of copying over the elements of a slice to new storage, an <codeVoice>ArraySlice<\/codeVoice> instance presents a view onto the storage of a larger array. And because <codeVoice>ArraySlice<\/codeVoice> presents the same interface as <codeVoice>Array<\/codeVoice>, you can generally perform the same operations on a slice as you could on the original array.<\/Para><Para>For more information about using arrays, see <codeVoice>Array<\/codeVoice> and <codeVoice>ContiguousArray<\/codeVoice>, with which <codeVoice>ArraySlice<\/codeVoice> shares most properties and methods.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Slices Are Views onto Arrays<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>For example, suppose you have an array holding the number of absences from each class during a session.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let absences = [0, 2, 0, 4, 0, 3, 1, 0]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You want to compare the absences in the first half of the session with those in the second half. To do so, start by creating two slices of the <codeVoice>absences<\/codeVoice> array.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let midpoint = absences.count \/ 2]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstHalf = absences[..<midpoint]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let secondHalf = absences[midpoint...]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Neither the <codeVoice>firstHalf<\/codeVoice> nor <codeVoice>secondHalf<\/codeVoice> slices allocate any new storage of their own. Instead, each presents a view onto the storage of the <codeVoice>absences<\/codeVoice> array.<\/Para><Para>You can call any method on the slices that you might have called on the <codeVoice>absences<\/codeVoice> array. To learn which half had more absences, use the <codeVoice>reduce(_:_:)<\/codeVoice> method to calculate each sum.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let firstHalfSum = firstHalf.reduce(0, +)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let secondHalfSum = secondHalf.reduce(0, +)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if firstHalfSum > secondHalfSum {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"More absences in the first half.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"More absences in the second half.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"More absences in the first half.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Important><Para>Long-term storage of <codeVoice>ArraySlice<\/codeVoice> instances is discouraged. A slice holds a reference to the entire storage of a larger array, not just to the portion it presents, even after the original array’s lifetime ends. Long-term storage of a slice may therefore prolong the lifetime of elements that are no longer otherwise accessible, which can appear to be memory and object leakage.<\/Para><\/Important><rawHTML><![CDATA[<h1>]]><\/rawHTML>Slices Maintain Indices<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Unlike <codeVoice>Array<\/codeVoice> and <codeVoice>ContiguousArray<\/codeVoice>, the starting index for an <codeVoice>ArraySlice<\/codeVoice> instance isn’t always zero. Slices maintain the same indices of the larger array for the same elements, so the starting index of a slice depends on how it was created, letting you perform index-based operations on either a full array or a slice.<\/Para><Para>Sharing indices between collections and their subsequences is an important part of the design of Swift’s collection algorithms. Suppose you are tasked with finding the first two days with absences in the session. To find the indices of the two days in question, follow these steps:<\/Para><List-Number><Item><Para>Call <codeVoice>firstIndex(where:)<\/codeVoice> to find the index of the first element in the <codeVoice>absences<\/codeVoice> array that is greater than zero.<\/Para><\/Item><Item><Para>Create a slice of the <codeVoice>absences<\/codeVoice> array starting after the index found in step 1.<\/Para><\/Item><Item><Para>Call <codeVoice>firstIndex(where:)<\/codeVoice> again, this time on the slice created in step 2. Where in some languages you might pass a starting index into an <codeVoice>indexOf<\/codeVoice> method to find the second day, in Swift you perform the same operation on a slice of the original array.<\/Para><\/Item><Item><Para>Print the results using the indices found in steps 1 and 3 on the original <codeVoice>absences<\/codeVoice> array.<\/Para><\/Item><\/List-Number><Para>Here’s an implementation of those steps:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if let i = absences.firstIndex(where: { $0 > 0 }) {                 \/\/ 1]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    let absencesAfterFirst = absences[(i + 1)...]                   \/\/ 2]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    if let j = absencesAfterFirst.firstIndex(where: { $0 > 0 }) {   \/\/ 3]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"The first day with absences had \\(absences[i]).\")    \/\/ 4]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"The second day with absences had \\(absences[j]).\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    }]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The first day with absences had 2.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The second day with absences had 4.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>In particular, note that <codeVoice>j<\/codeVoice>, the index of the second day with absences, was found in a slice of the original array and then used to access a value in the original <codeVoice>absences<\/codeVoice> array itself.<\/Para><Note><Para>To safely reference the starting and ending indices of a slice, always use the <codeVoice>startIndex<\/codeVoice> and <codeVoice>endIndex<\/codeVoice> properties instead of specific values.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name": "ArraySlice",
+      "key.doc.type": "Class",
+      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>ArraySlice<\/decl.name>&lt;<decl.generic_type_param usr=\"s:s10ArraySliceV7Elementxmfp\"><decl.generic_type_param.name>Element<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; : <ref.protocol usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/ref.protocol><\/decl.struct>",
+      "key.groupname": "Collection\/Array",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 1137,
+      "key.line": 21,
+      "key.modulename": "Swift",
+      "key.name": "ArraySlice",
+      "key.namecolumn": 11,
+      "key.namelength": 10,
+      "key.nameline": 21,
+      "key.nameoffset": 1320,
+      "key.offset": 1310,
+      "key.parsed_declaration": "extension ArraySlice",
+      "key.parsed_scope.end": 45,
+      "key.parsed_scope.start": 21,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func last(count cc: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:s10ArraySliceV\">ArraySlice<\/Type>&lt;<Type usr=\"s:s10ArraySliceV7RubiconE7Elementxmfp\">Element<\/Type>&gt;<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 32,
+              "key.offset": 1758
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 32,
+              "key.offset": 1747
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 69,
+          "key.bodyline": 32,
+          "key.bodyoffset": 1814,
+          "key.column": 23,
+          "key.doc.column": 28,
+          "key.doc.comment": "Shorthand for:\n\n```\naSlice[aSlice.index(aSlice.endIndex, offsetBy: -Swift.min(cc, aSlice.count)) ..< aSlice.endIndex]\n```\n\n- Parameter cc: The number of elements to get.\n- Returns: An array slice of the last `cc` elements.",
+          "key.doc.declaration": "@inlinable public func last(count cc: Int) -> ArraySlice<Element>",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"32\" column=\"28\"><Name>last(count:)<\/Name><USR>s:s10ArraySliceV7RubiconE4last5countAByxGSi_tF<\/USR><Declaration>@inlinable public func last(count cc: Int) -&gt; ArraySlice&lt;Element&gt;<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>cc<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of elements to get.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An array slice of the last <codeVoice>cc<\/codeVoice> elements.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[aSlice[aSlice.index(aSlice.endIndex, offsetBy: -Swift.min(cc, aSlice.count)) ..< aSlice.endIndex]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 32,
+          "key.doc.name": "last(count:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The number of elements to get."
+                }
+              ],
+              "name": "cc"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An array slice of the last `cc` elements."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 291,
+          "key.docline": 23,
+          "key.docoffset": 1452,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>last<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cc<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:s10ArraySliceV\">ArraySlice<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:s10ArraySliceV7RubiconE7Elementxmfp\">Element<\/ref.generic_type_param>&gt;<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 119,
+          "key.line": 32,
+          "key.name": "last(count:)",
+          "key.namecolumn": 28,
+          "key.namelength": 19,
+          "key.nameline": 32,
+          "key.nameoffset": 1770,
+          "key.offset": 1765,
+          "key.parsed_declaration": "@inlinable public func last(count cc: Int) -> ArraySlice<Element>",
+          "key.parsed_scope.end": 32,
+          "key.parsed_scope.start": 32,
+          "key.substructure": [
+          ],
+          "key.typename": "<Element> (ArraySlice<Element>) -> (Int) -> ArraySlice<Element>",
+          "key.typeusr": "$s5counts10ArraySliceVyxGSi_tcD",
+          "key.usr": "s:s10ArraySliceV7RubiconE4last5countAByxGSi_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public func first(count cc: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:s10ArraySliceV\">ArraySlice<\/Type>&lt;<Type usr=\"s:s10ArraySliceV7RubiconE7Elementxmfp\">Element<\/Type>&gt;<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 44,
+              "key.offset": 2315
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 44,
+              "key.offset": 2304
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 72,
+          "key.bodyline": 44,
+          "key.bodyoffset": 2372,
+          "key.column": 23,
+          "key.doc.column": 28,
+          "key.doc.comment": "Shorthand for:\n\n```\naSlice[aSlice.startIndex ..< aSlice.index(aSlice.startIndex, offsetBy: Swift.min(cc, aSlice.count))]\n```\n\n- Parameter cc: The number of elements to get.\n- Returns: An array slice of the first `cc` elements.",
+          "key.doc.declaration": "@inlinable public func first(count cc: Int) -> ArraySlice<Element>",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"44\" column=\"28\"><Name>first(count:)<\/Name><USR>s:s10ArraySliceV7RubiconE5first5countAByxGSi_tF<\/USR><Declaration>@inlinable public func first(count cc: Int) -&gt; ArraySlice&lt;Element&gt;<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>cc<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of elements to get.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An array slice of the first <codeVoice>cc<\/codeVoice> elements.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[aSlice[aSlice.startIndex ..< aSlice.index(aSlice.startIndex, offsetBy: Swift.min(cc, aSlice.count))]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 44,
+          "key.doc.name": "first(count:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The number of elements to get."
+                }
+              ],
+              "name": "cc"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An array slice of the first `cc` elements."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 295,
+          "key.docline": 35,
+          "key.docoffset": 2005,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>first<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cc<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:s10ArraySliceV\">ArraySlice<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:s10ArraySliceV7RubiconE7Elementxmfp\">Element<\/ref.generic_type_param>&gt;<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 123,
+          "key.line": 44,
+          "key.name": "first(count:)",
+          "key.namecolumn": 28,
+          "key.namelength": 20,
+          "key.nameline": 44,
+          "key.nameoffset": 2327,
+          "key.offset": 2322,
+          "key.parsed_declaration": "@inlinable public func first(count cc: Int) -> ArraySlice<Element>",
+          "key.parsed_scope.end": 44,
+          "key.parsed_scope.start": 44,
+          "key.substructure": [
+          ],
+          "key.typename": "<Element> (ArraySlice<Element>) -> (Int) -> ArraySlice<Element>",
+          "key.typeusr": "$s5counts10ArraySliceVyxGSi_tcD",
+          "key.usr": "s:s10ArraySliceV7RubiconE5first5countAByxGSi_tF"
+        }
+      ],
+      "key.typename": "ArraySlice<Element>.Type",
+      "key.typeusr": "$ss10ArraySliceVyxGmD",
+      "key.usr": "s:s10ArraySliceV"
+    },
+    {
+      "key.annotated_decl": "<Declaration>@frozen struct ArraySlice&lt;Element&gt; : <Type usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/Type><\/Declaration>",
+      "key.bodycolumn": 48,
+      "key.bodylength": 3252,
+      "key.bodyline": 47,
+      "key.bodyoffset": 2496,
+      "key.column": 1,
+      "key.doc.declaration": "@frozen struct ArraySlice<Element> : _DestructorSafeContainer",
+      "key.doc.discussion": [
+        {
+          "Para": "The `ArraySlice` type makes it fast and efficient for you to perform operations on sections of a larger array. Instead of copying over the elements of a slice to new storage, an `ArraySlice` instance presents a view onto the storage of a larger array. And because `ArraySlice` presents the same interface as `Array`, you can generally perform the same operations on a slice as you could on the original array."
+        },
+        {
+          "Para": "For more information about using arrays, see `Array` and `ContiguousArray`, with which `ArraySlice` shares most properties and methods."
+        },
+        {
+          "Para": "For example, suppose you have an array holding the number of absences from each class during a session."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You want to compare the absences in the first half of the session with those in the second half. To do so, start by creating two slices of the `absences` array."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Neither the `firstHalf` nor `secondHalf` slices allocate any new storage of their own. Instead, each presents a view onto the storage of the `absences` array."
+        },
+        {
+          "Para": "You can call any method on the slices that you might have called on the `absences` array. To learn which half had more absences, use the `reduce(_:_:)` method to calculate each sum."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Important": ""
+        },
+        {
+          "Para": "Unlike `Array` and `ContiguousArray`, the starting index for an `ArraySlice` instance isn’t always zero. Slices maintain the same indices of the larger array for the same elements, so the starting index of a slice depends on how it was created, letting you perform index-based operations on either a full array or a slice."
+        },
+        {
+          "Para": "Sharing indices between collections and their subsequences is an important part of the design of Swift’s collection algorithms. Suppose you are tasked with finding the first two days with absences in the session. To find the indices of the two days in question, follow these steps:"
+        },
+        {
+          "List-Number": ""
+        },
+        {
+          "Para": "Here’s an implementation of those steps:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "In particular, note that `j`, the index of the second day with absences, was found in a slice of the original array and then used to access a value in the original `absences` array itself."
+        },
+        {
+          "Note": ""
+        }
+      ],
+      "key.doc.full_as_xml": "<Class><Name>ArraySlice<\/Name><USR>s:s10ArraySliceV<\/USR><Declaration>@frozen struct ArraySlice&lt;Element&gt; : _DestructorSafeContainer<\/Declaration><CommentParts><Abstract><Para>A slice of an <codeVoice>Array<\/codeVoice>, <codeVoice>ContiguousArray<\/codeVoice>, or <codeVoice>ArraySlice<\/codeVoice> instance.<\/Para><\/Abstract><Discussion><Para>The <codeVoice>ArraySlice<\/codeVoice> type makes it fast and efficient for you to perform operations on sections of a larger array. Instead of copying over the elements of a slice to new storage, an <codeVoice>ArraySlice<\/codeVoice> instance presents a view onto the storage of a larger array. And because <codeVoice>ArraySlice<\/codeVoice> presents the same interface as <codeVoice>Array<\/codeVoice>, you can generally perform the same operations on a slice as you could on the original array.<\/Para><Para>For more information about using arrays, see <codeVoice>Array<\/codeVoice> and <codeVoice>ContiguousArray<\/codeVoice>, with which <codeVoice>ArraySlice<\/codeVoice> shares most properties and methods.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Slices Are Views onto Arrays<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>For example, suppose you have an array holding the number of absences from each class during a session.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let absences = [0, 2, 0, 4, 0, 3, 1, 0]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You want to compare the absences in the first half of the session with those in the second half. To do so, start by creating two slices of the <codeVoice>absences<\/codeVoice> array.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let midpoint = absences.count \/ 2]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstHalf = absences[..<midpoint]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let secondHalf = absences[midpoint...]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Neither the <codeVoice>firstHalf<\/codeVoice> nor <codeVoice>secondHalf<\/codeVoice> slices allocate any new storage of their own. Instead, each presents a view onto the storage of the <codeVoice>absences<\/codeVoice> array.<\/Para><Para>You can call any method on the slices that you might have called on the <codeVoice>absences<\/codeVoice> array. To learn which half had more absences, use the <codeVoice>reduce(_:_:)<\/codeVoice> method to calculate each sum.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let firstHalfSum = firstHalf.reduce(0, +)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let secondHalfSum = secondHalf.reduce(0, +)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if firstHalfSum > secondHalfSum {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"More absences in the first half.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"More absences in the second half.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"More absences in the first half.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Important><Para>Long-term storage of <codeVoice>ArraySlice<\/codeVoice> instances is discouraged. A slice holds a reference to the entire storage of a larger array, not just to the portion it presents, even after the original array’s lifetime ends. Long-term storage of a slice may therefore prolong the lifetime of elements that are no longer otherwise accessible, which can appear to be memory and object leakage.<\/Para><\/Important><rawHTML><![CDATA[<h1>]]><\/rawHTML>Slices Maintain Indices<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Unlike <codeVoice>Array<\/codeVoice> and <codeVoice>ContiguousArray<\/codeVoice>, the starting index for an <codeVoice>ArraySlice<\/codeVoice> instance isn’t always zero. Slices maintain the same indices of the larger array for the same elements, so the starting index of a slice depends on how it was created, letting you perform index-based operations on either a full array or a slice.<\/Para><Para>Sharing indices between collections and their subsequences is an important part of the design of Swift’s collection algorithms. Suppose you are tasked with finding the first two days with absences in the session. To find the indices of the two days in question, follow these steps:<\/Para><List-Number><Item><Para>Call <codeVoice>firstIndex(where:)<\/codeVoice> to find the index of the first element in the <codeVoice>absences<\/codeVoice> array that is greater than zero.<\/Para><\/Item><Item><Para>Create a slice of the <codeVoice>absences<\/codeVoice> array starting after the index found in step 1.<\/Para><\/Item><Item><Para>Call <codeVoice>firstIndex(where:)<\/codeVoice> again, this time on the slice created in step 2. Where in some languages you might pass a starting index into an <codeVoice>indexOf<\/codeVoice> method to find the second day, in Swift you perform the same operation on a slice of the original array.<\/Para><\/Item><Item><Para>Print the results using the indices found in steps 1 and 3 on the original <codeVoice>absences<\/codeVoice> array.<\/Para><\/Item><\/List-Number><Para>Here’s an implementation of those steps:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if let i = absences.firstIndex(where: { $0 > 0 }) {                 \/\/ 1]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    let absencesAfterFirst = absences[(i + 1)...]                   \/\/ 2]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    if let j = absencesAfterFirst.firstIndex(where: { $0 > 0 }) {   \/\/ 3]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"The first day with absences had \\(absences[i]).\")    \/\/ 4]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"The second day with absences had \\(absences[j]).\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    }]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The first day with absences had 2.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The second day with absences had 4.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>In particular, note that <codeVoice>j<\/codeVoice>, the index of the second day with absences, was found in a slice of the original array and then used to access a value in the original <codeVoice>absences<\/codeVoice> array itself.<\/Para><Note><Para>To safely reference the starting and ending indices of a slice, always use the <codeVoice>startIndex<\/codeVoice> and <codeVoice>endIndex<\/codeVoice> properties instead of specific values.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name": "ArraySlice",
+      "key.doc.type": "Class",
+      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>ArraySlice<\/decl.name>&lt;<decl.generic_type_param usr=\"s:s10ArraySliceV7Elementxmfp\"><decl.generic_type_param.name>Element<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; : <ref.protocol usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/ref.protocol><\/decl.struct>",
+      "key.groupname": "Collection\/Array",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 3300,
+      "key.line": 47,
+      "key.modulename": "Swift",
+      "key.name": "ArraySlice",
+      "key.namecolumn": 11,
+      "key.namelength": 10,
+      "key.nameline": 47,
+      "key.nameoffset": 2459,
+      "key.offset": 2449,
+      "key.parsed_declaration": "extension ArraySlice where Element: Equatable",
+      "key.parsed_scope.end": 127,
+      "key.parsed_scope.start": 47,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func == (lhs: `Self`, rhs: [<Type usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/Type>]) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 66,
+              "key.offset": 3221
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 66,
+              "key.offset": 3210
+            }
+          ],
+          "key.bodycolumn": 75,
+          "key.bodylength": 30,
+          "key.bodyline": 66,
+          "key.bodyoffset": 3280,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Convienience method to allow direct comparison of Arrays and ArraySlices for equality. Instead of having\nto write:\n\n```\nif aSlice == anArray[anArray.startIndex ..< anArray.endIndex] { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nif aSlice == anArray { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: an instance of ArraySlice\n  - rhs: an instance of Array\n- Returns: `true` if the ArraySlice and the Array have the same elements in the same order.",
+          "key.doc.declaration": "@inlinable public static func == (lhs: `Self`, rhs: [Element]) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"66\" column=\"35\"><Name>==(_:_:)<\/Name><USR>s:s10ArraySliceV7RubiconSQRzlE2eeoiySbAByxG_SayxGtFZ<\/USR><Declaration>@inlinable public static func == (lhs: `Self`, rhs: [Element]) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Convienience method to allow direct comparison of Arrays and ArraySlices for equality. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>an instance of ArraySlice<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>an instance of Array<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the ArraySlice and the Array have the same elements in the same order.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if aSlice == anArray[anArray.startIndex ..< anArray.endIndex] { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if aSlice == anArray { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 66,
+          "key.doc.name": "==(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "an instance of ArraySlice"
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "an instance of Array"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the ArraySlice and the Array have the same elements in the same order."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 590,
+          "key.docline": 49,
+          "key.docoffset": 2616,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>== <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.generic_type_param usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/ref.generic_type_param>]<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 83,
+          "key.line": 66,
+          "key.name": "==(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 30,
+          "key.nameline": 66,
+          "key.nameoffset": 3240,
+          "key.offset": 3228,
+          "key.parsed_declaration": "@inlinable public static func == (lhs: Self, rhs: [Element]) -> Bool",
+          "key.parsed_scope.end": 66,
+          "key.parsed_scope.start": 66,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2eeoiySbSayxG_AByxGtFZ\">== (_: [Element], _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2eeoiySbABySJG_SStFZ\">== (_: `Self`, _: String) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2eeoiySbSS_ABySJGtFZ\">== (_: String, _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceVsSQRzlE2eeoiySbAByxG_ADtFZ\">== (_: ArraySlice&lt;Element&gt;, _: ArraySlice&lt;Element&gt;) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: `Self`<\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 66,
+              "key.name": "lhs",
+              "key.offset": 3244,
+              "key.parent_loc": 3240,
+              "key.parsed_declaration": "@inlinable public static func == (lhs",
+              "key.parsed_scope.end": 66,
+              "key.parsed_scope.start": 66,
+              "key.typename": "ArraySlice<Element>",
+              "key.typeusr": "$ss10ArraySliceVyxGD",
+              "key.usr": "s:s10ArraySliceV7RubiconSQRzlE2eeoiySbAByxG_SayxGtFZ3lhsL_AEvp"
+            }
+          ],
+          "key.typename": "<Element where Element : Equatable> (ArraySlice<Element>.Type) -> (ArraySlice<Element>, [Element]) -> Bool",
+          "key.typeusr": "$sySbs10ArraySliceVyxG_SayxGtcD",
+          "key.usr": "s:s10ArraySliceV7RubiconSQRzlE2eeoiySbAByxG_SayxGtFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func == (lhs: [<Type usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/Type>], rhs: `Self`) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 86,
+              "key.offset": 4037
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 86,
+              "key.offset": 4026
+            }
+          ],
+          "key.bodycolumn": 75,
+          "key.bodylength": 30,
+          "key.bodyline": 86,
+          "key.bodyoffset": 4096,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Convienience method to allow direct comparison of Arrays and ArraySlices for equality. Instead of having\nto write:\n\n```\nif anArray[anArray.startIndex ..< anArray.endIndex] == aSlice { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nif anArray == aSlice { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: an instance of Array\n  - rhs: an instance of ArraySlice\n- Returns: `true` if the ArraySlice and the Array have the same elements in the same order.",
+          "key.doc.declaration": "@inlinable public static func == (lhs: [Element], rhs: `Self`) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"86\" column=\"35\"><Name>==(_:_:)<\/Name><USR>s:s10ArraySliceV7RubiconSQRzlE2eeoiySbSayxG_AByxGtFZ<\/USR><Declaration>@inlinable public static func == (lhs: [Element], rhs: `Self`) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Convienience method to allow direct comparison of Arrays and ArraySlices for equality. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>an instance of Array<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>an instance of ArraySlice<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the ArraySlice and the Array have the same elements in the same order.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if anArray[anArray.startIndex ..< anArray.endIndex] == aSlice { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if anArray == aSlice { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 86,
+          "key.doc.name": "==(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "an instance of Array"
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "an instance of ArraySlice"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the ArraySlice and the Array have the same elements in the same order."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 590,
+          "key.docline": 69,
+          "key.docoffset": 3432,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>== <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.generic_type_param usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/ref.generic_type_param>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 83,
+          "key.line": 86,
+          "key.name": "==(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 30,
+          "key.nameline": 86,
+          "key.nameoffset": 4056,
+          "key.offset": 4044,
+          "key.parsed_declaration": "@inlinable public static func == (lhs: [Element], rhs: Self) -> Bool",
+          "key.parsed_scope.end": 86,
+          "key.parsed_scope.start": 86,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2eeoiySbAByxG_SayxGtFZ\">== (_: `Self`, _: [Element]) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2eeoiySbABySJG_SStFZ\">== (_: `Self`, _: String) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2eeoiySbSS_ABySJGtFZ\">== (_: String, _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceVsSQRzlE2eeoiySbAByxG_ADtFZ\">== (_: ArraySlice&lt;Element&gt;, _: ArraySlice&lt;Element&gt;) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: [<Type usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/Type>]<\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.generic_type_param usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/ref.generic_type_param>]<\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 86,
+              "key.name": "lhs",
+              "key.offset": 4060,
+              "key.parent_loc": 4056,
+              "key.parsed_declaration": "@inlinable public static func == (lhs",
+              "key.parsed_scope.end": 86,
+              "key.parsed_scope.start": 86,
+              "key.typename": "[Element]",
+              "key.typeusr": "$sSayxGD",
+              "key.usr": "s:s10ArraySliceV7RubiconSQRzlE2eeoiySbSayxG_AByxGtFZ3lhsL_AEvp"
+            }
+          ],
+          "key.typename": "<Element where Element : Equatable> (ArraySlice<Element>.Type) -> ([Element], ArraySlice<Element>) -> Bool",
+          "key.typeusr": "$sySbSayxG_s10ArraySliceVyxGtcD",
+          "key.usr": "s:s10ArraySliceV7RubiconSQRzlE2eeoiySbSayxG_AByxGtFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func != (lhs: `Self`, rhs: [<Type usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/Type>]) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 106,
+              "key.offset": 4862
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 106,
+              "key.offset": 4851
+            }
+          ],
+          "key.bodycolumn": 75,
+          "key.bodylength": 15,
+          "key.bodyline": 106,
+          "key.bodyoffset": 4921,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Convienience method to allow direct comparison of Arrays and ArraySlices for inequality. Instead of having\nto write:\n\n```\nif aSlice != anArray[anArray.startIndex ..< anArray.endIndex] { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nif aSlice != anArray { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: an instance of ArraySlice\n  - rhs: an instance of Array\n- Returns: `true` if the ArraySlice and the Array do not have the same elements in the same order.",
+          "key.doc.declaration": "@inlinable public static func != (lhs: `Self`, rhs: [Element]) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"106\" column=\"35\"><Name>!=(_:_:)<\/Name><USR>s:s10ArraySliceV7RubiconSQRzlE2neoiySbAByxG_SayxGtFZ<\/USR><Declaration>@inlinable public static func != (lhs: `Self`, rhs: [Element]) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Convienience method to allow direct comparison of Arrays and ArraySlices for inequality. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>an instance of ArraySlice<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>an instance of Array<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the ArraySlice and the Array do not have the same elements in the same order.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if aSlice != anArray[anArray.startIndex ..< anArray.endIndex] { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if aSlice != anArray { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 106,
+          "key.doc.name": "!=(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "an instance of ArraySlice"
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "an instance of Array"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the ArraySlice and the Array do not have the same elements in the same order."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 599,
+          "key.docline": 89,
+          "key.docoffset": 4248,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>!= <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.generic_type_param usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/ref.generic_type_param>]<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 68,
+          "key.line": 106,
+          "key.name": "!=(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 30,
+          "key.nameline": 106,
+          "key.nameoffset": 4881,
+          "key.offset": 4869,
+          "key.parsed_declaration": "@inlinable public static func != (lhs: Self, rhs: [Element]) -> Bool",
+          "key.parsed_scope.end": 106,
+          "key.parsed_scope.start": 106,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2neoiySbSayxG_AByxGtFZ\">!= (_: [Element], _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2neoiySbABySJG_SStFZ\">!= (_: `Self`, _: String) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2neoiySbSS_ABySJGtFZ\">!= (_: String, _: `Self`) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: `Self`<\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 106,
+              "key.name": "lhs",
+              "key.offset": 4885,
+              "key.parent_loc": 4881,
+              "key.parsed_declaration": "@inlinable public static func != (lhs",
+              "key.parsed_scope.end": 106,
+              "key.parsed_scope.start": 106,
+              "key.typename": "ArraySlice<Element>",
+              "key.typeusr": "$ss10ArraySliceVyxGD",
+              "key.usr": "s:s10ArraySliceV7RubiconSQRzlE2neoiySbAByxG_SayxGtFZ3lhsL_AEvp"
+            }
+          ],
+          "key.typename": "<Element where Element : Equatable> (ArraySlice<Element>.Type) -> (ArraySlice<Element>, [Element]) -> Bool",
+          "key.typeusr": "$sySbs10ArraySliceVyxG_SayxGtcD",
+          "key.usr": "s:s10ArraySliceV7RubiconSQRzlE2neoiySbAByxG_SayxGtFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func != (lhs: [<Type usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/Type>], rhs: `Self`) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 126,
+              "key.offset": 5672
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 126,
+              "key.offset": 5661
+            }
+          ],
+          "key.bodycolumn": 75,
+          "key.bodylength": 15,
+          "key.bodyline": 126,
+          "key.bodyoffset": 5731,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Convienience method to allow direct comparison of Arrays and ArraySlices for inequality. Instead of having\nto write:\n\n```\nif anArray[anArray.startIndex ..< anArray.endIndex] != aSlice { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nif anArray != aSlice { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: an instance of Array\n  - rhs: an instance of ArraySlice\n- Returns: `true` if the ArraySlice and the Array do not have the same elements in the same order.",
+          "key.doc.declaration": "@inlinable public static func != (lhs: [Element], rhs: `Self`) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"126\" column=\"35\"><Name>!=(_:_:)<\/Name><USR>s:s10ArraySliceV7RubiconSQRzlE2neoiySbSayxG_AByxGtFZ<\/USR><Declaration>@inlinable public static func != (lhs: [Element], rhs: `Self`) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Convienience method to allow direct comparison of Arrays and ArraySlices for inequality. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>an instance of Array<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>an instance of ArraySlice<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the ArraySlice and the Array do not have the same elements in the same order.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if anArray[anArray.startIndex ..< anArray.endIndex] != aSlice { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if anArray != aSlice { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 126,
+          "key.doc.name": "!=(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "an instance of Array"
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "an instance of ArraySlice"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the ArraySlice and the Array do not have the same elements in the same order."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 599,
+          "key.docline": 109,
+          "key.docoffset": 5058,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>!= <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.generic_type_param usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/ref.generic_type_param>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 68,
+          "key.line": 126,
+          "key.name": "!=(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 30,
+          "key.nameline": 126,
+          "key.nameoffset": 5691,
+          "key.offset": 5679,
+          "key.parsed_declaration": "@inlinable public static func != (lhs: [Element], rhs: Self) -> Bool",
+          "key.parsed_scope.end": 126,
+          "key.parsed_scope.start": 126,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2neoiySbAByxG_SayxGtFZ\">!= (_: `Self`, _: [Element]) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2neoiySbABySJG_SStFZ\">!= (_: `Self`, _: String) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2neoiySbSS_ABySJGtFZ\">!= (_: String, _: `Self`) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: [<Type usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/Type>]<\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.generic_type_param usr=\"s:s10ArraySliceV7RubiconSQRzlE7Elementxmfp\">Element<\/ref.generic_type_param>]<\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 126,
+              "key.name": "lhs",
+              "key.offset": 5695,
+              "key.parent_loc": 5691,
+              "key.parsed_declaration": "@inlinable public static func != (lhs",
+              "key.parsed_scope.end": 126,
+              "key.parsed_scope.start": 126,
+              "key.typename": "[Element]",
+              "key.typeusr": "$sSayxGD",
+              "key.usr": "s:s10ArraySliceV7RubiconSQRzlE2neoiySbSayxG_AByxGtFZ3lhsL_AEvp"
+            }
+          ],
+          "key.typename": "<Element where Element : Equatable> (ArraySlice<Element>.Type) -> ([Element], ArraySlice<Element>) -> Bool",
+          "key.typeusr": "$sySbSayxG_s10ArraySliceVyxGtcD",
+          "key.usr": "s:s10ArraySliceV7RubiconSQRzlE2neoiySbSayxG_AByxGtFZ"
+        }
+      ],
+      "key.typename": "ArraySlice<Element>.Type",
+      "key.typeusr": "$ss10ArraySliceVyxGmD",
+      "key.usr": "s:s10ArraySliceV"
+    },
+    {
+      "key.annotated_decl": "<Declaration>@frozen struct ArraySlice&lt;Element&gt; : <Type usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/Type><\/Declaration>",
+      "key.bodycolumn": 50,
+      "key.bodylength": 3940,
+      "key.bodyline": 129,
+      "key.bodyoffset": 5800,
+      "key.column": 1,
+      "key.doc.declaration": "@frozen struct ArraySlice<Element> : _DestructorSafeContainer",
+      "key.doc.discussion": [
+        {
+          "Para": "The `ArraySlice` type makes it fast and efficient for you to perform operations on sections of a larger array. Instead of copying over the elements of a slice to new storage, an `ArraySlice` instance presents a view onto the storage of a larger array. And because `ArraySlice` presents the same interface as `Array`, you can generally perform the same operations on a slice as you could on the original array."
+        },
+        {
+          "Para": "For more information about using arrays, see `Array` and `ContiguousArray`, with which `ArraySlice` shares most properties and methods."
+        },
+        {
+          "Para": "For example, suppose you have an array holding the number of absences from each class during a session."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "You want to compare the absences in the first half of the session with those in the second half. To do so, start by creating two slices of the `absences` array."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "Neither the `firstHalf` nor `secondHalf` slices allocate any new storage of their own. Instead, each presents a view onto the storage of the `absences` array."
+        },
+        {
+          "Para": "You can call any method on the slices that you might have called on the `absences` array. To learn which half had more absences, use the `reduce(_:_:)` method to calculate each sum."
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Important": ""
+        },
+        {
+          "Para": "Unlike `Array` and `ContiguousArray`, the starting index for an `ArraySlice` instance isn’t always zero. Slices maintain the same indices of the larger array for the same elements, so the starting index of a slice depends on how it was created, letting you perform index-based operations on either a full array or a slice."
+        },
+        {
+          "Para": "Sharing indices between collections and their subsequences is an important part of the design of Swift’s collection algorithms. Suppose you are tasked with finding the first two days with absences in the session. To find the indices of the two days in question, follow these steps:"
+        },
+        {
+          "List-Number": ""
+        },
+        {
+          "Para": "Here’s an implementation of those steps:"
+        },
+        {
+          "CodeListing": ""
+        },
+        {
+          "Para": "In particular, note that `j`, the index of the second day with absences, was found in a slice of the original array and then used to access a value in the original `absences` array itself."
+        },
+        {
+          "Note": ""
+        }
+      ],
+      "key.doc.full_as_xml": "<Class><Name>ArraySlice<\/Name><USR>s:s10ArraySliceV<\/USR><Declaration>@frozen struct ArraySlice&lt;Element&gt; : _DestructorSafeContainer<\/Declaration><CommentParts><Abstract><Para>A slice of an <codeVoice>Array<\/codeVoice>, <codeVoice>ContiguousArray<\/codeVoice>, or <codeVoice>ArraySlice<\/codeVoice> instance.<\/Para><\/Abstract><Discussion><Para>The <codeVoice>ArraySlice<\/codeVoice> type makes it fast and efficient for you to perform operations on sections of a larger array. Instead of copying over the elements of a slice to new storage, an <codeVoice>ArraySlice<\/codeVoice> instance presents a view onto the storage of a larger array. And because <codeVoice>ArraySlice<\/codeVoice> presents the same interface as <codeVoice>Array<\/codeVoice>, you can generally perform the same operations on a slice as you could on the original array.<\/Para><Para>For more information about using arrays, see <codeVoice>Array<\/codeVoice> and <codeVoice>ContiguousArray<\/codeVoice>, with which <codeVoice>ArraySlice<\/codeVoice> shares most properties and methods.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Slices Are Views onto Arrays<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>For example, suppose you have an array holding the number of absences from each class during a session.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let absences = [0, 2, 0, 4, 0, 3, 1, 0]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You want to compare the absences in the first half of the session with those in the second half. To do so, start by creating two slices of the <codeVoice>absences<\/codeVoice> array.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let midpoint = absences.count \/ 2]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstHalf = absences[..<midpoint]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let secondHalf = absences[midpoint...]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Neither the <codeVoice>firstHalf<\/codeVoice> nor <codeVoice>secondHalf<\/codeVoice> slices allocate any new storage of their own. Instead, each presents a view onto the storage of the <codeVoice>absences<\/codeVoice> array.<\/Para><Para>You can call any method on the slices that you might have called on the <codeVoice>absences<\/codeVoice> array. To learn which half had more absences, use the <codeVoice>reduce(_:_:)<\/codeVoice> method to calculate each sum.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let firstHalfSum = firstHalf.reduce(0, +)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let secondHalfSum = secondHalf.reduce(0, +)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if firstHalfSum > secondHalfSum {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"More absences in the first half.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"More absences in the second half.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"More absences in the first half.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Important><Para>Long-term storage of <codeVoice>ArraySlice<\/codeVoice> instances is discouraged. A slice holds a reference to the entire storage of a larger array, not just to the portion it presents, even after the original array’s lifetime ends. Long-term storage of a slice may therefore prolong the lifetime of elements that are no longer otherwise accessible, which can appear to be memory and object leakage.<\/Para><\/Important><rawHTML><![CDATA[<h1>]]><\/rawHTML>Slices Maintain Indices<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Unlike <codeVoice>Array<\/codeVoice> and <codeVoice>ContiguousArray<\/codeVoice>, the starting index for an <codeVoice>ArraySlice<\/codeVoice> instance isn’t always zero. Slices maintain the same indices of the larger array for the same elements, so the starting index of a slice depends on how it was created, letting you perform index-based operations on either a full array or a slice.<\/Para><Para>Sharing indices between collections and their subsequences is an important part of the design of Swift’s collection algorithms. Suppose you are tasked with finding the first two days with absences in the session. To find the indices of the two days in question, follow these steps:<\/Para><List-Number><Item><Para>Call <codeVoice>firstIndex(where:)<\/codeVoice> to find the index of the first element in the <codeVoice>absences<\/codeVoice> array that is greater than zero.<\/Para><\/Item><Item><Para>Create a slice of the <codeVoice>absences<\/codeVoice> array starting after the index found in step 1.<\/Para><\/Item><Item><Para>Call <codeVoice>firstIndex(where:)<\/codeVoice> again, this time on the slice created in step 2. Where in some languages you might pass a starting index into an <codeVoice>indexOf<\/codeVoice> method to find the second day, in Swift you perform the same operation on a slice of the original array.<\/Para><\/Item><Item><Para>Print the results using the indices found in steps 1 and 3 on the original <codeVoice>absences<\/codeVoice> array.<\/Para><\/Item><\/List-Number><Para>Here’s an implementation of those steps:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if let i = absences.firstIndex(where: { $0 > 0 }) {                 \/\/ 1]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    let absencesAfterFirst = absences[(i + 1)...]                   \/\/ 2]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    if let j = absencesAfterFirst.firstIndex(where: { $0 > 0 }) {   \/\/ 3]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"The first day with absences had \\(absences[i]).\")    \/\/ 4]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"The second day with absences had \\(absences[j]).\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    }]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The first day with absences had 2.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The second day with absences had 4.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>In particular, note that <codeVoice>j<\/codeVoice>, the index of the second day with absences, was found in a slice of the original array and then used to access a value in the original <codeVoice>absences<\/codeVoice> array itself.<\/Para><Note><Para>To safely reference the starting and ending indices of a slice, always use the <codeVoice>startIndex<\/codeVoice> and <codeVoice>endIndex<\/codeVoice> properties instead of specific values.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name": "ArraySlice",
+      "key.doc.type": "Class",
+      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>ArraySlice<\/decl.name>&lt;<decl.generic_type_param usr=\"s:s10ArraySliceV7Elementxmfp\"><decl.generic_type_param.name>Element<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; : <ref.protocol usr=\"s:s24_DestructorSafeContainerP\">_DestructorSafeContainer<\/ref.protocol><\/decl.struct>",
+      "key.groupname": "Collection\/Array",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 3990,
+      "key.line": 129,
+      "key.modulename": "Swift",
+      "key.name": "ArraySlice",
+      "key.namecolumn": 11,
+      "key.namelength": 10,
+      "key.nameline": 129,
+      "key.nameoffset": 5761,
+      "key.offset": 5751,
+      "key.parsed_declaration": "extension ArraySlice where Element == Character",
+      "key.parsed_scope.end": 223,
+      "key.parsed_scope.start": 129,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func == (lhs: `Self`, rhs: <Type usr=\"s:SS\">String<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 151,
+              "key.offset": 6699
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 151,
+              "key.offset": 6688
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 22,
+          "key.bodyline": 151,
+          "key.bodyoffset": 6755,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Allows for easy equality check between Strings and Character ArraySlices. Instead of having to write:\n\n```\nlet array:  ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif String(array) == string { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nlet array:  ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String                = \"Galen\"\nif array == string { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: The Character ArraySlice.\n  - rhs: The String\n- Returns: `true` if the array slice contains the same characters, in the same order, as the string.",
+          "key.doc.declaration": "@inlinable public static func == (lhs: `Self`, rhs: String) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"151\" column=\"35\"><Name>==(_:_:)<\/Name><USR>s:s10ArraySliceV7RubiconSJRszlE2eeoiySbABySJG_SStFZ<\/USR><Declaration>@inlinable public static func == (lhs: `Self`, rhs: String) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Allows for easy equality check between Strings and Character ArraySlices. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The Character ArraySlice.<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The String<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the array slice contains the same characters, in the same order, as the string.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array:  ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if String(array) == string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array:  ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String                = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if array == string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 151,
+          "key.doc.name": "==(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The Character ArraySlice."
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The String"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the array slice contains the same characters, in the same order, as the string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 764,
+          "key.docline": 131,
+          "key.docoffset": 5920,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>== <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 72,
+          "key.line": 151,
+          "key.name": "==(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 27,
+          "key.nameline": 151,
+          "key.nameoffset": 6718,
+          "key.offset": 6706,
+          "key.parsed_declaration": "@inlinable public static func == (lhs: Self, rhs: String) -> Bool",
+          "key.parsed_scope.end": 151,
+          "key.parsed_scope.start": 151,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2eeoiySbAByxG_SayxGtFZ\">== (_: `Self`, _: [Element]) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2eeoiySbSayxG_AByxGtFZ\">== (_: [Element], _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2eeoiySbSS_ABySJGtFZ\">== (_: String, _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceVsSQRzlE2eeoiySbAByxG_ADtFZ\">== (_: ArraySlice&lt;Element&gt;, _: ArraySlice&lt;Element&gt;) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: `Self`<\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 151,
+              "key.name": "lhs",
+              "key.offset": 6722,
+              "key.parent_loc": 6718,
+              "key.parsed_declaration": "@inlinable public static func == (lhs",
+              "key.parsed_scope.end": 151,
+              "key.parsed_scope.start": 151,
+              "key.typename": "ArraySlice<Element>",
+              "key.typeusr": "$ss10ArraySliceVyxGD",
+              "key.usr": "s:s10ArraySliceV7RubiconSJRszlE2eeoiySbABySJG_SStFZ3lhsL_AByxGvp"
+            }
+          ],
+          "key.typename": "<Element where Element == Character> (ArraySlice<Element>.Type) -> (ArraySlice<Element>, String) -> Bool",
+          "key.typeusr": "$sySbs10ArraySliceVySJG_SStcD",
+          "key.usr": "s:s10ArraySliceV7RubiconSJRszlE2eeoiySbABySJG_SStFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func != (lhs: `Self`, rhs: <Type usr=\"s:SS\">String<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 175,
+              "key.offset": 7707
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 175,
+              "key.offset": 7696
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 22,
+          "key.bodyline": 175,
+          "key.bodyoffset": 7763,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Allows for easy inequality check between Strings and Character ArraySlices. Instead of having to write:\n\n```\nlet array:  ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif string != String(array) { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nlet array:  ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String                = \"Galen\"\nif string != array { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: The Character ArraySlice.\n  - rhs: The String\n- Returns: `true` if the array slice does not contain the same characters, in the same order, as the\n           string.",
+          "key.doc.declaration": "@inlinable public static func != (lhs: `Self`, rhs: String) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"175\" column=\"35\"><Name>!=(_:_:)<\/Name><USR>s:s10ArraySliceV7RubiconSJRszlE2neoiySbABySJG_SStFZ<\/USR><Declaration>@inlinable public static func != (lhs: `Self`, rhs: String) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Allows for easy inequality check between Strings and Character ArraySlices. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The Character ArraySlice.<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The String<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the array slice does not contain the same characters, in the same order, as the string.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array:  ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if string != String(array) { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array:  ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String                = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if string != array { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 175,
+          "key.doc.name": "!=(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The Character ArraySlice."
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The String"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the array slice does not contain the same characters, in the same order, as the string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 793,
+          "key.docline": 154,
+          "key.docoffset": 6899,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>!= <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 72,
+          "key.line": 175,
+          "key.name": "!=(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 27,
+          "key.nameline": 175,
+          "key.nameoffset": 7726,
+          "key.offset": 7714,
+          "key.parsed_declaration": "@inlinable public static func != (lhs: Self, rhs: String) -> Bool",
+          "key.parsed_scope.end": 175,
+          "key.parsed_scope.start": 175,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2neoiySbAByxG_SayxGtFZ\">!= (_: `Self`, _: [Element]) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2neoiySbSayxG_AByxGtFZ\">!= (_: [Element], _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2neoiySbSS_ABySJGtFZ\">!= (_: String, _: `Self`) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: `Self`<\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 175,
+              "key.name": "lhs",
+              "key.offset": 7730,
+              "key.parent_loc": 7726,
+              "key.parsed_declaration": "@inlinable public static func != (lhs",
+              "key.parsed_scope.end": 175,
+              "key.parsed_scope.start": 175,
+              "key.typename": "ArraySlice<Element>",
+              "key.typeusr": "$ss10ArraySliceVyxGD",
+              "key.usr": "s:s10ArraySliceV7RubiconSJRszlE2neoiySbABySJG_SStFZ3lhsL_AByxGvp"
+            }
+          ],
+          "key.typename": "<Element where Element == Character> (ArraySlice<Element>.Type) -> (ArraySlice<Element>, String) -> Bool",
+          "key.typeusr": "$sySbs10ArraySliceVySJG_SStcD",
+          "key.usr": "s:s10ArraySliceV7RubiconSJRszlE2neoiySbABySJG_SStFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func == (lhs: <Type usr=\"s:SS\">String<\/Type>, rhs: `Self`) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 198,
+              "key.offset": 8669
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 198,
+              "key.offset": 8658
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 22,
+          "key.bodyline": 198,
+          "key.bodyoffset": 8725,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Allows for easy equality check between Strings and Character ArraySlices. Instead of having to write:\n\n```\nlet array: ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif String(array) == string { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nlet array: ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif array == string { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: The String\n  - rhs: The Character ArraySlice.\n- Returns: `true` if the array slice contains the same characters, in the same order, as the string.",
+          "key.doc.declaration": "@inlinable public static func == (lhs: String, rhs: `Self`) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"198\" column=\"35\"><Name>==(_:_:)<\/Name><USR>s:s10ArraySliceV7RubiconSJRszlE2eeoiySbSS_ABySJGtFZ<\/USR><Declaration>@inlinable public static func == (lhs: String, rhs: `Self`) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Allows for easy equality check between Strings and Character ArraySlices. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The String<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The Character ArraySlice.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the array slice contains the same characters, in the same order, as the string.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array: ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if String(array) == string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array: ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if array == string { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 198,
+          "key.doc.name": "==(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The String"
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The Character ArraySlice."
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the array slice contains the same characters, in the same order, as the string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 747,
+          "key.docline": 178,
+          "key.docoffset": 7907,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>== <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 72,
+          "key.line": 198,
+          "key.name": "==(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 27,
+          "key.nameline": 198,
+          "key.nameoffset": 8688,
+          "key.offset": 8676,
+          "key.parsed_declaration": "@inlinable public static func == (lhs: String, rhs: Self) -> Bool",
+          "key.parsed_scope.end": 198,
+          "key.parsed_scope.start": 198,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2eeoiySbAByxG_SayxGtFZ\">== (_: `Self`, _: [Element]) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2eeoiySbSayxG_AByxGtFZ\">== (_: [Element], _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2eeoiySbABySJG_SStFZ\">== (_: `Self`, _: String) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceVsSQRzlE2eeoiySbAByxG_ADtFZ\">== (_: ArraySlice&lt;Element&gt;, _: ArraySlice&lt;Element&gt;) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 198,
+              "key.name": "lhs",
+              "key.offset": 8692,
+              "key.parent_loc": 8688,
+              "key.parsed_declaration": "@inlinable public static func == (lhs",
+              "key.parsed_scope.end": 198,
+              "key.parsed_scope.start": 198,
+              "key.typename": "String",
+              "key.typeusr": "$sSSD",
+              "key.usr": "s:s10ArraySliceV7RubiconSJRszlE2eeoiySbSS_ABySJGtFZ3lhsL_SSvp"
+            }
+          ],
+          "key.typename": "<Element where Element == Character> (ArraySlice<Element>.Type) -> (String, ArraySlice<Element>) -> Bool",
+          "key.typeusr": "$sySbSS_s10ArraySliceVySJGtcD",
+          "key.usr": "s:s10ArraySliceV7RubiconSJRszlE2eeoiySbSS_ABySJGtFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public static func != (lhs: <Type usr=\"s:SS\">String<\/Type>, rhs: `Self`) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 222,
+              "key.offset": 9660
+            },
+            {
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 222,
+              "key.offset": 9649
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 22,
+          "key.bodyline": 222,
+          "key.bodyoffset": 9716,
+          "key.column": 23,
+          "key.doc.column": 35,
+          "key.doc.comment": "Allows for easy inequality check between Strings and Character ArraySlices. Instead of having to write:\n\n```\nlet array: ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif string != String(array) { \/* do something *\/ }\n```\nYou can now just write:\n\n```\nlet array: ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]\nlet string: String = \"Galen\"\nif string != array { \/* do something *\/ }\n```\n\n- Parameters:\n  - lhs: The Character ArraySlice.\n  - rhs: The String\n- Returns: `true` if the array slice does not contain the same characters, in the same order, as the\n           string.",
+          "key.doc.declaration": "@inlinable public static func != (lhs: String, rhs: `Self`) -> Bool",
+          "key.doc.discussion": [
+            {
+              "CodeListing": ""
+            },
+            {
+              "Para": "You can now just write:"
+            },
+            {
+              "CodeListing": ""
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift\" line=\"222\" column=\"35\"><Name>!=(_:_:)<\/Name><USR>s:s10ArraySliceV7RubiconSJRszlE2neoiySbSS_ABySJGtFZ<\/USR><Declaration>@inlinable public static func != (lhs: String, rhs: `Self`) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Allows for easy inequality check between Strings and Character ArraySlices. Instead of having to write:<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The Character ArraySlice.<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The String<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the array slice does not contain the same characters, in the same order, as the string.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array: ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if string != String(array) { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can now just write:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let array: ArraySlice<Character> = [ \"G\", \"a\", \"l\", \"e\", \"n\" ]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let string: String = \"Galen\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if string != array { \/* do something *\/ }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 222,
+          "key.doc.name": "!=(_:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The Character ArraySlice."
+                }
+              ],
+              "name": "lhs"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The String"
+                }
+              ],
+              "name": "rhs"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if the array slice does not contain the same characters, in the same order, as the string."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 776,
+          "key.docline": 201,
+          "key.docoffset": 8869,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>!= <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname": "Collection\/Array",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 72,
+          "key.line": 222,
+          "key.name": "!=(_:_:)",
+          "key.namecolumn": 35,
+          "key.namelength": 27,
+          "key.nameline": 222,
+          "key.nameoffset": 9679,
+          "key.offset": 9667,
+          "key.parsed_declaration": "@inlinable public static func != (lhs: String, rhs: Self) -> Bool",
+          "key.parsed_scope.end": 222,
+          "key.parsed_scope.start": 222,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2neoiySbAByxG_SayxGtFZ\">!= (_: `Self`, _: [Element]) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSQRzlE2neoiySbSayxG_AByxGtFZ\">!= (_: [Element], _: `Self`) -&gt; Bool<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:s10ArraySliceV7RubiconSJRszlE2neoiySbABySJG_SStFZ\">!= (_: `Self`, _: String) -&gt; Bool<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let lhs: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+              "key.column": 39,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/ArraySlice.swift",
+              "key.fully_annotated_decl": "<decl.var.parameter><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>",
+              "key.groupname": "Collection\/Array",
+              "key.kind": "source.lang.swift.decl.var.parameter",
+              "key.length": 3,
+              "key.line": 222,
+              "key.name": "lhs",
+              "key.offset": 9683,
+              "key.parent_loc": 9679,
+              "key.parsed_declaration": "@inlinable public static func != (lhs",
+              "key.parsed_scope.end": 222,
+              "key.parsed_scope.start": 222,
+              "key.typename": "String",
+              "key.typeusr": "$sSSD",
+              "key.usr": "s:s10ArraySliceV7RubiconSJRszlE2neoiySbSS_ABySJGtFZ3lhsL_SSvp"
+            }
+          ],
+          "key.typename": "<Element where Element == Character> (ArraySlice<Element>.Type) -> (String, ArraySlice<Element>) -> Bool",
+          "key.typeusr": "$sySbSS_s10ArraySliceVySJGtcD",
+          "key.usr": "s:s10ArraySliceV7RubiconSJRszlE2neoiySbSS_ABySJGtFZ"
+        }
+      ],
+      "key.typename": "ArraySlice<Element>.Type",
+      "key.typeusr": "$ss10ArraySliceVyxGmD",
+      "key.usr": "s:s10ArraySliceV"
+    }
+  ]
+}

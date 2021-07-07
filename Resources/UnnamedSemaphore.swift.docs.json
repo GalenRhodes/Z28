@@ -1,0 +1,560 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 7261,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.open",
+      "key.annotated_decl": "<Declaration>open class UnnamedSemaphore : <Type usr=\"s:7Rubicon11PGSemaphoreP\">PGSemaphore<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.open",
+          "key.column": 1,
+          "key.length": 4,
+          "key.line": 26,
+          "key.offset": 1668
+        }
+      ],
+      "key.bodycolumn": 43,
+      "key.bodylength": 5549,
+      "key.bodyline": 26,
+      "key.bodyoffset": 1710,
+      "key.column": 6,
+      "key.doc.column": 12,
+      "key.doc.comment": "This class implements an unnamed (inter-process) semaphore. This type of semaphore is visible only to threads\nof the same process. If you need a semaphore that is visible to multiple processes then use a\n`NamedSemaphore`.",
+      "key.doc.declaration": "open class UnnamedSemaphore : PGSemaphore",
+      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+      "key.doc.full_as_xml": "<Class file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift\" line=\"26\" column=\"12\"><Name>UnnamedSemaphore<\/Name><USR>s:7Rubicon16UnnamedSemaphoreC<\/USR><Declaration>open class UnnamedSemaphore : PGSemaphore<\/Declaration><CommentParts><Abstract><Para>This class implements an unnamed (inter-process) semaphore. This type of semaphore is visible only to threads of the same process. If you need a semaphore that is visible to multiple processes then use a <codeVoice>NamedSemaphore<\/codeVoice>.<\/Para><\/Abstract><\/CommentParts><\/Class>",
+      "key.doc.line": 26,
+      "key.doc.name": "UnnamedSemaphore",
+      "key.doc.type": "Class",
+      "key.doccolumn": 1,
+      "key.doclength": 238,
+      "key.docline": 22,
+      "key.docoffset": 1430,
+      "key.elements": [
+        {
+          "key.column": 30,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 11,
+          "key.line": 26,
+          "key.offset": 1697
+        }
+      ],
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>UnnamedSemaphore<\/decl.name> : <ref.protocol usr=\"s:7Rubicon11PGSemaphoreP\">PGSemaphore<\/ref.protocol><\/decl.class>",
+      "key.inheritedtypes": [
+        {
+          "key.name": "PGSemaphore"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.class",
+      "key.length": 5587,
+      "key.line": 26,
+      "key.name": "UnnamedSemaphore",
+      "key.namecolumn": 12,
+      "key.namelength": 16,
+      "key.nameline": 26,
+      "key.nameoffset": 1679,
+      "key.offset": 1673,
+      "key.parsed_declaration": "open class UnnamedSemaphore: PGSemaphore",
+      "key.parsed_scope.end": 128,
+      "key.parsed_scope.start": 26,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public let maxValue: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 30,
+              "key.offset": 1932
+            }
+          ],
+          "key.column": 12,
+          "key.doc.column": 16,
+          "key.doc.comment": "The maximum value of the semaphore. The current value will never go above this value.",
+          "key.doc.declaration": "public let maxValue: Int",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift\" line=\"30\" column=\"16\"><Name>maxValue<\/Name><USR>s:7Rubicon16UnnamedSemaphoreC8maxValueSivp<\/USR><Declaration>public let maxValue: Int<\/Declaration><CommentParts><Abstract><Para>The maximum value of the semaphore. The current value will never go above this value.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 30,
+          "key.doc.name": "maxValue",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 98,
+          "key.docline": 28,
+          "key.docoffset": 1830,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>maxValue<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 17,
+          "key.line": 30,
+          "key.name": "maxValue",
+          "key.namecolumn": 16,
+          "key.namelength": 8,
+          "key.nameline": 30,
+          "key.nameoffset": 1943,
+          "key.offset": 1939,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon11PGSemaphoreP8maxValueSivp"
+            }
+          ],
+          "key.parsed_declaration": "public let maxValue: Int",
+          "key.parsed_scope.end": 30,
+          "key.parsed_scope.start": 30,
+          "key.typename": "Int",
+          "key.typeusr": "$sSiD",
+          "key.usr": "s:7Rubicon16UnnamedSemaphoreC8maxValueSivp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public var value: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 37,
+              "key.offset": 2467
+            }
+          ],
+          "key.bodycolumn": 28,
+          "key.bodylength": 27,
+          "key.bodyline": 37,
+          "key.bodyoffset": 2490,
+          "key.column": 12,
+          "key.doc.column": 16,
+          "key.doc.comment": "The current value of the semaphore. If this value is less than or equal to\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> then any call to `acquire()`, `tryAcquire()`, or\n`tryAcquire(until:)` will respectively either block, fail, or potentially timeout until this value becomes\ngreater than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>.",
+          "key.doc.declaration": "public var value: Int { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift\" line=\"37\" column=\"16\"><Name>value<\/Name><USR>s:7Rubicon16UnnamedSemaphoreC5valueSivp<\/USR><Declaration>public var value: Int { get }<\/Declaration><CommentParts><Abstract><Para>The current value of the semaphore. If this value is less than or equal to <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then any call to <codeVoice>acquire()<\/codeVoice>, <codeVoice>tryAcquire()<\/codeVoice>, or <codeVoice>tryAcquire(until:)<\/codeVoice> will respectively either block, fail, or potentially timeout until this value becomes greater than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 37,
+          "key.doc.name": "value",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 387,
+          "key.docline": 32,
+          "key.docoffset": 2076,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>value<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 44,
+          "key.line": 37,
+          "key.name": "value",
+          "key.namecolumn": 16,
+          "key.namelength": 5,
+          "key.nameline": 37,
+          "key.nameoffset": 2478,
+          "key.offset": 2474,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon11PGSemaphoreP5valueSivp"
+            }
+          ],
+          "key.parsed_declaration": "public var value: Int",
+          "key.parsed_scope.end": 37,
+          "key.parsed_scope.start": 37,
+          "key.typename": "Int",
+          "key.typeusr": "$sSiD",
+          "key.usr": "s:7Rubicon16UnnamedSemaphoreC5valueSivp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.private",
+          "key.annotated_decl": "<Declaration>private var _value: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private",
+              "key.column": 5,
+              "key.length": 7,
+              "key.line": 39,
+              "key.offset": 2524
+            }
+          ],
+          "key.column": 13,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>_value<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 15,
+          "key.line": 39,
+          "key.name": "_value",
+          "key.namecolumn": 17,
+          "key.namelength": 6,
+          "key.nameline": 39,
+          "key.nameoffset": 2536,
+          "key.offset": 2532,
+          "key.parsed_declaration": "private var _value: Int",
+          "key.parsed_scope.end": 39,
+          "key.parsed_scope.start": 39,
+          "key.setter_accessibility": "source.lang.swift.accessibility.private",
+          "key.typename": "Int",
+          "key.typeusr": "$sSiD",
+          "key.usr": "s:7Rubicon16UnnamedSemaphoreC6_value33_E33E3BF4D10080971F5128E734ED019ELLSivp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.private",
+          "key.annotated_decl": "<Declaration>private let _lock: <Type usr=\"s:7Rubicon11ConditionalC\">Conditional<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private",
+              "key.column": 5,
+              "key.length": 7,
+              "key.line": 40,
+              "key.offset": 2552
+            }
+          ],
+          "key.column": 13,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>_lock<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon11ConditionalC\">Conditional<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 39,
+          "key.line": 40,
+          "key.name": "_lock",
+          "key.namecolumn": 17,
+          "key.namelength": 5,
+          "key.nameline": 40,
+          "key.nameoffset": 2564,
+          "key.offset": 2560,
+          "key.parsed_declaration": "private let _lock:  Conditional = Conditional()",
+          "key.parsed_scope.end": 40,
+          "key.parsed_scope.start": 40,
+          "key.typename": "Conditional",
+          "key.typeusr": "$s7Rubicon11ConditionalCD",
+          "key.usr": "s:7Rubicon16UnnamedSemaphoreC5_lock33_E33E3BF4D10080971F5128E734ED019ELLAA11ConditionalCvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(initialValue: <Type usr=\"s:Si\">Int<\/Type>, maxValue: <Type usr=\"s:Si\">Int<\/Type> = Int.max)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 58,
+              "key.offset": 3931
+            }
+          ],
+          "key.bodycolumn": 62,
+          "key.bodylength": 222,
+          "key.bodyline": 58,
+          "key.bodyoffset": 3988,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Create a new semaphore with the given initial `value`. Optionally you can give a maximum value as well. If\nyou don't specify a maximum value then the value of\n<code>[Int.max](https:\/\/developer.apple.com\/documentation\/swift\/int)<\/code> (9,223,372,036,854,775,807 on\n64-bit CPUs or 2,147,483,647 on 32-bit CPUs) is used. _NOTE:_ If you use a value less than one (1) then\nthe semaphore will need one or more calls to `release()` before any calls to `acquire()`, `tryAcquire()`,\nor `tryAcquire(until:)` will be allowed to acquire the semaphore.\n\n- Parameters:\n  - initialValue: The initial value. May be less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>\n                  but cannot be greater than the maximum value nor less than the value of\n                  <code>[Int.min](https:\/\/developer.apple.com\/documentation\/swift\/int)<\/code>\n                  (-9,223,372,036,854,775,808 on 64-bit CPUs or -2,147,483,648 on 32-bit CPUs)\n  - maxValue: The maximum value. Defaults to the value of\n              <code>[Int.max](https:\/\/developer.apple.com\/documentation\/swift\/int)<\/code>.",
+          "key.doc.declaration": "public init(initialValue: Int, maxValue: Int = Int.max)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift\" line=\"58\" column=\"12\"><Name>init(initialValue:maxValue:)<\/Name><USR>s:7Rubicon16UnnamedSemaphoreC12initialValue03maxE0ACSi_Sitcfc<\/USR><Declaration>public init(initialValue: Int, maxValue: Int = Int.max)<\/Declaration><CommentParts><Abstract><Para>Create a new semaphore with the given initial <codeVoice>value<\/codeVoice>. Optionally you can give a maximum value as well. If you don’t specify a maximum value then the value of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/int\">Int.max<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> (9,223,372,036,854,775,807 on 64-bit CPUs or 2,147,483,647 on 32-bit CPUs) is used. <emphasis>NOTE:<\/emphasis> If you use a value less than one (1) then the semaphore will need one or more calls to <codeVoice>release()<\/codeVoice> before any calls to <codeVoice>acquire()<\/codeVoice>, <codeVoice>tryAcquire()<\/codeVoice>, or <codeVoice>tryAcquire(until:)<\/codeVoice> will be allowed to acquire the semaphore.<\/Para><\/Abstract><Parameters><Parameter><Name>initialValue<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The initial value. May be less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> but cannot be greater than the maximum value nor less than the value of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/int\">Int.min<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> (-9,223,372,036,854,775,808 on 64-bit CPUs or -2,147,483,648 on 32-bit CPUs)<\/Para><\/Discussion><\/Parameter><Parameter><Name>maxValue<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The maximum value. Defaults to the value of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/int\">Int.max<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 58,
+          "key.doc.name": "init(initialValue:maxValue:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The initial value. May be less than <code><\/code> but cannot be greater than the maximum value nor less than the value of <code><\/code> (-9,223,372,036,854,775,808 on 64-bit CPUs or -2,147,483,648 on 32-bit CPUs)"
+                }
+              ],
+              "name": "initialValue"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The maximum value. Defaults to the value of <code><\/code>."
+                }
+              ],
+              "name": "maxValue"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1207,
+          "key.docline": 43,
+          "key.docoffset": 2720,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>initialValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = Int.max<\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 273,
+          "key.line": 58,
+          "key.name": "init(initialValue:maxValue:)",
+          "key.namecolumn": 12,
+          "key.namelength": 48,
+          "key.nameline": 58,
+          "key.nameoffset": 3938,
+          "key.offset": 3938,
+          "key.parsed_declaration": "public init(initialValue: Int, maxValue: Int = Int.max)",
+          "key.parsed_scope.end": 62,
+          "key.parsed_scope.start": 58,
+          "key.substructure": [
+          ],
+          "key.typename": "(UnnamedSemaphore.Type) -> (Int, Int) -> UnnamedSemaphore",
+          "key.typeusr": "$s12initialValue03maxB07Rubicon16UnnamedSemaphoreCSi_SitcD",
+          "key.usr": "s:7Rubicon16UnnamedSemaphoreC12initialValue03maxE0ACSi_Sitcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>@discardableResult open func release() -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 24,
+              "key.length": 4,
+              "key.line": 72,
+              "key.offset": 4821
+            },
+            {
+              "key.attribute": "source.decl.attribute.discardableResult",
+              "key.column": 5,
+              "key.length": 18,
+              "key.line": 72,
+              "key.offset": 4802
+            }
+          ],
+          "key.bodycolumn": 53,
+          "key.bodylength": 146,
+          "key.bodyline": 72,
+          "key.bodyoffset": 4850,
+          "key.column": 29,
+          "key.doc.column": 34,
+          "key.doc.comment": "Release the semaphore. Increments the value by one (1). If the value was previously less than or equal to\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> (0) then a waiting thread will be woken up and\nallowed to acquire the semaphore.\n\n- Returns: `true` if successful. If the value before calling `release()` is already equal to the maximum\n           value then it is left unchanged and `false` is returned.",
+          "key.doc.declaration": "open func release() -> Bool",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift\" line=\"72\" column=\"34\"><Name>release()<\/Name><USR>s:7Rubicon16UnnamedSemaphoreC7releaseSbyF<\/USR><Declaration>open func release() -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Release the semaphore. Increments the value by one (1). If the value was previously less than or equal to <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> (0) then a waiting thread will be woken up and allowed to acquire the semaphore.<\/Para><\/Abstract><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if successful. If the value before calling <codeVoice>release()<\/codeVoice> is already equal to the maximum value then it is left unchanged and <codeVoice>false<\/codeVoice> is returned.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 72,
+          "key.doc.name": "release()",
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if successful. If the value before calling `release()` is already equal to the maximum value then it is left unchanged and `false` is returned."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 466,
+          "key.docline": 65,
+          "key.docoffset": 4332,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>release<\/decl.name>() -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 171,
+          "key.line": 72,
+          "key.name": "release()",
+          "key.namecolumn": 34,
+          "key.namelength": 9,
+          "key.nameline": 72,
+          "key.nameoffset": 4831,
+          "key.offset": 4826,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon11PGSemaphoreP7releaseSbyF"
+            }
+          ],
+          "key.parsed_declaration": "@discardableResult open func release() -> Bool",
+          "key.parsed_scope.end": 78,
+          "key.parsed_scope.start": 72,
+          "key.substructure": [
+          ],
+          "key.typename": "(UnnamedSemaphore) -> () -> Bool",
+          "key.typeusr": "$sSbycD",
+          "key.usr": "s:7Rubicon16UnnamedSemaphoreC7releaseSbyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func acquire()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 85,
+              "key.offset": 5401
+            }
+          ],
+          "key.bodycolumn": 26,
+          "key.bodylength": 119,
+          "key.bodyline": 85,
+          "key.bodyoffset": 5422,
+          "key.column": 10,
+          "key.doc.column": 15,
+          "key.doc.comment": "Acquire the semaphore. If the value before calling is less than or equal to\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> (0) then the calling thread is blocked until it is\ngreater than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> (0).",
+          "key.doc.declaration": "open func acquire()",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift\" line=\"85\" column=\"15\"><Name>acquire()<\/Name><USR>s:7Rubicon16UnnamedSemaphoreC7acquireyyF<\/USR><Declaration>open func acquire()<\/Declaration><CommentParts><Abstract><Para>Acquire the semaphore. If the value before calling is less than or equal to <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> (0) then the calling thread is blocked until it is greater than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> (0).<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line": 85,
+          "key.doc.name": "acquire()",
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 279,
+          "key.docline": 81,
+          "key.docoffset": 5118,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>acquire<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 136,
+          "key.line": 85,
+          "key.name": "acquire()",
+          "key.namecolumn": 15,
+          "key.namelength": 9,
+          "key.nameline": 85,
+          "key.nameoffset": 5411,
+          "key.offset": 5406,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon11PGSemaphoreP7acquireyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func acquire()",
+          "key.parsed_scope.end": 90,
+          "key.parsed_scope.start": 85,
+          "key.substructure": [
+          ],
+          "key.typename": "(UnnamedSemaphore) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon16UnnamedSemaphoreC7acquireyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func tryAcquire() -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 99,
+              "key.offset": 6045
+            }
+          ],
+          "key.bodycolumn": 37,
+          "key.bodylength": 139,
+          "key.bodyline": 99,
+          "key.bodyoffset": 6077,
+          "key.column": 10,
+          "key.doc.column": 15,
+          "key.doc.comment": "Attempt to acquire the semaphore. If the value before calling is less than or equal to\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> (0) then this method fails by returning `false`.\n\n- Returns: `true` if successful. `false` if value is less than or equal to\n           <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> (0).",
+          "key.doc.declaration": "open func tryAcquire() -> Bool",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift\" line=\"99\" column=\"15\"><Name>tryAcquire()<\/Name><USR>s:7Rubicon16UnnamedSemaphoreC10tryAcquireSbyF<\/USR><Declaration>open func tryAcquire() -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Attempt to acquire the semaphore. If the value before calling is less than or equal to <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> (0) then this method fails by returning <codeVoice>false<\/codeVoice>.<\/Para><\/Abstract><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if successful. <codeVoice>false<\/codeVoice> if value is less than or equal to <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> (0).<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 99,
+          "key.doc.name": "tryAcquire()",
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if successful. `false` if value is less than or equal to <code><\/code> (0)."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 378,
+          "key.docline": 93,
+          "key.docoffset": 5663,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tryAcquire<\/decl.name>() -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 167,
+          "key.line": 99,
+          "key.name": "tryAcquire()",
+          "key.namecolumn": 15,
+          "key.namelength": 12,
+          "key.nameline": 99,
+          "key.nameoffset": 6055,
+          "key.offset": 6050,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon11PGSemaphoreP10tryAcquireSbyF"
+            }
+          ],
+          "key.parsed_declaration": "open func tryAcquire() -> Bool",
+          "key.parsed_scope.end": 105,
+          "key.parsed_scope.start": 99,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon16UnnamedSemaphoreC10tryAcquire5untilSb10Foundation4DateV_tF\">tryAcquire(until:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(UnnamedSemaphore) -> () -> Bool",
+          "key.typeusr": "$sSbycD",
+          "key.usr": "s:7Rubicon16UnnamedSemaphoreC10tryAcquireSbyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func tryAcquire(until: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 5,
+              "key.length": 4,
+              "key.line": 116,
+              "key.offset": 6915
+            }
+          ],
+          "key.bodycolumn": 48,
+          "key.bodylength": 299,
+          "key.bodyline": 116,
+          "key.bodyoffset": 6958,
+          "key.column": 10,
+          "key.doc.column": 15,
+          "key.doc.comment": "Attempt to acquire the semaphore. If the value before calling is less than or equal to\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> (0) then the calling thread is blocked until either\nthe value is greater than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> (0) or until the amount of\ntime specified by `until` has elapsed.\n\n- Parameter until: the absolute time that this method will wait trying to acquire the semaphore.\n- Returns: `true` if successful or `false` if the specified time has elapsed.",
+          "key.doc.declaration": "open func tryAcquire(until: Date) -> Bool",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift\" line=\"116\" column=\"15\"><Name>tryAcquire(until:)<\/Name><USR>s:7Rubicon16UnnamedSemaphoreC10tryAcquire5untilSb10Foundation4DateV_tF<\/USR><Declaration>open func tryAcquire(until: Date) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Attempt to acquire the semaphore. If the value before calling is less than or equal to <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> (0) then the calling thread is blocked until either the value is greater than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> (0) or until the amount of time specified by <codeVoice>until<\/codeVoice> has elapsed.<\/Para><\/Abstract><Parameters><Parameter><Name>until<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the absolute time that this method will wait trying to acquire the semaphore.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if successful or <codeVoice>false<\/codeVoice> if the specified time has elapsed.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 116,
+          "key.doc.name": "tryAcquire(until:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the absolute time that this method will wait trying to acquire the semaphore."
+                }
+              ],
+              "name": "until"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "`true` if successful or `false` if the specified time has elapsed."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 573,
+          "key.docline": 108,
+          "key.docoffset": 6338,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/UnnamedSemaphore.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tryAcquire<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>until<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 338,
+          "key.line": 116,
+          "key.name": "tryAcquire(until:)",
+          "key.namecolumn": 15,
+          "key.namelength": 23,
+          "key.nameline": 116,
+          "key.nameoffset": 6925,
+          "key.offset": 6920,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon11PGSemaphoreP10tryAcquire5untilSb10Foundation4DateV_tF"
+            }
+          ],
+          "key.parsed_declaration": "open func tryAcquire(until: Date) -> Bool",
+          "key.parsed_scope.end": 127,
+          "key.parsed_scope.start": 116,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon16UnnamedSemaphoreC10tryAcquireSbyF\">tryAcquire()<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(UnnamedSemaphore) -> (Date) -> Bool",
+          "key.typeusr": "$s5untilSb10Foundation4DateV_tcD",
+          "key.usr": "s:7Rubicon16UnnamedSemaphoreC10tryAcquire5untilSb10Foundation4DateV_tF"
+        }
+      ],
+      "key.typename": "UnnamedSemaphore.Type",
+      "key.typeusr": "$s7Rubicon16UnnamedSemaphoreCmD",
+      "key.usr": "s:7Rubicon16UnnamedSemaphoreC"
+    }
+  ]
+}

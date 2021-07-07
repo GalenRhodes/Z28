@@ -1,0 +1,2380 @@
+{
+  "key.dependencies": [
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Swift"
+    },
+    {
+      "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Rubicon-2R5RRMVLV2Q6N.pcm",
+      "key.kind": "source.lang.swift.import.module.clang",
+      "key.name": "Rubicon"
+    },
+    {
+      "key.dependencies": [
+        {
+          "key.dependencies": [
+            {
+              "key.dependencies": [
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "Darwin"
+                },
+                {
+                  "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.swift",
+                  "key.name": "Swift"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftOverlayShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftOverlayShims"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftShims"
+                }
+              ],
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Combine"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreFoundation-RZX25862PY17.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreFoundation"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreFoundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreGraphics-MC4FPA2MN9QR.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreGraphics"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreGraphics.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreGraphics"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Darwin"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Combine"
+            },
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Dispatch-2M9AOUJY3TW9V.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "Dispatch"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Dispatch.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Dispatch"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Foundation-2FJBXN8U6QRTS.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "Foundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/ObjectiveC-1A3ZNHZR9RRLF.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "ObjectiveC"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/ObjectiveC.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "ObjectiveC"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Swift"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "uuid"
+        }
+      ],
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Foundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Foundation"
+    }
+  ],
+  "key.entities": [
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 23,
+      "key.name": "Foundation",
+      "key.usr": "c:@M@Foundation"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.open"
+        }
+      ],
+      "key.column": 12,
+      "key.effective_access": "source.decl.effective_access.public",
+      "key.entities": [
+        {
+          "key.column": 30,
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.line": 25,
+          "key.name": "T",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC1Txmfp"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute": "source.decl.attribute.public"
+                }
+              ],
+              "key.column": 16,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 27,
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivg"
+            },
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute": "source.decl.attribute.public"
+                }
+              ],
+              "key.column": 16,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.setter",
+              "key.line": 27,
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivs"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 27,
+          "key.name": "count",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivp"
+        },
+        {
+          "key.column": 28,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 27,
+          "key.name": "Int",
+          "key.usr": "s:Si"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final"
+            },
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 16,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute": "source.decl.attribute.public"
+                }
+              ],
+              "key.column": 16,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 28,
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+            },
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute": "source.decl.attribute.public"
+                }
+              ],
+              "key.column": 16,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.setter",
+              "key.line": 28,
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvs"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 28,
+          "key.name": "dimensions",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+        },
+        {
+          "key.column": 29,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 28,
+          "key.name": "Int",
+          "key.usr": "s:Si"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 14,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 41,
+              "key.entities": [
+                {
+                  "key.column": 43,
+                  "key.entities": [
+                    {
+                      "key.column": 43,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 30,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvg"
+                    },
+                    {
+                      "key.column": 43,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                      "key.line": 30,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvs"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 30,
+                  "key.name": "matrix",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvp"
+                },
+                {
+                  "key.column": 49,
+                  "key.entities": [
+                    {
+                      "key.column": 49,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 30,
+                      "key.usr": "s:Says10ArraySliceVyxGSnySiGcig"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 30,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:Says10ArraySliceVyxGSnySiGcip"
+                },
+                {
+                  "key.column": 51,
+                  "key.entities": [
+                    {
+                      "key.column": 51,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 30,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 30,
+                  "key.name": "count",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivp"
+                },
+                {
+                  "key.column": 57,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 30,
+                  "key.name": "-(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:Si1soiyS2i_SitFZ"
+                },
+                {
+                  "key.column": 59,
+                  "key.entities": [
+                    {
+                      "key.column": 59,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 30,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 30,
+                  "key.name": "dimensions",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+                },
+                {
+                  "key.column": 69,
+                  "key.entities": [
+                    {
+                      "key.column": 69,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 30,
+                      "key.receiver_usr": "s:Sa",
+                      "key.usr": "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 30,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:SayxSicip"
+                },
+                {
+                  "key.column": 70,
+                  "key.entities": [
+                    {
+                      "key.column": 70,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 30,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 30,
+                  "key.name": "count",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivp"
+                },
+                {
+                  "key.column": 76,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 30,
+                  "key.name": "-(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:Si1soiyS2i_SitFZ"
+                },
+                {
+                  "key.column": 82,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 30,
+                  "key.name": "..<(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+                },
+                {
+                  "key.column": 86,
+                  "key.entities": [
+                    {
+                      "key.column": 86,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 30,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 30,
+                  "key.name": "count",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivp"
+                }
+              ],
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 30,
+              "key.name": "getter:lastArray",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC04lastD0s0D5SliceVyxSgGvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 30,
+          "key.name": "lastArray",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC04lastD0s0D5SliceVyxSgGvp"
+        },
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 30,
+          "key.name": "ArraySlice",
+          "key.usr": "s:s10ArraySliceV"
+        },
+        {
+          "key.column": 37,
+          "key.kind": "source.lang.swift.ref.generic_type_param",
+          "key.line": 30,
+          "key.name": "T",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC1Txmfp"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 14,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 41,
+              "key.entities": [
+                {
+                  "key.column": 43,
+                  "key.entities": [
+                    {
+                      "key.column": 43,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 31,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvg"
+                    },
+                    {
+                      "key.column": 43,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                      "key.line": 31,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvs"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 31,
+                  "key.name": "matrix",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvp"
+                },
+                {
+                  "key.column": 49,
+                  "key.entities": [
+                    {
+                      "key.column": 49,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 31,
+                      "key.usr": "s:Says10ArraySliceVyxGSnySiGcig"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 31,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:Says10ArraySliceVyxGSnySiGcip"
+                },
+                {
+                  "key.column": 52,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 31,
+                  "key.name": "..<(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+                },
+                {
+                  "key.column": 56,
+                  "key.entities": [
+                    {
+                      "key.column": 56,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 31,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 31,
+                  "key.name": "dimensions",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+                },
+                {
+                  "key.column": 66,
+                  "key.entities": [
+                    {
+                      "key.column": 66,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 31,
+                      "key.receiver_usr": "s:Sa",
+                      "key.usr": "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 31,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:SayxSicip"
+                },
+                {
+                  "key.column": 67,
+                  "key.entities": [
+                    {
+                      "key.column": 67,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 31,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 31,
+                  "key.name": "count",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivp"
+                },
+                {
+                  "key.column": 73,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 31,
+                  "key.name": "-(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:Si1soiyS2i_SitFZ"
+                }
+              ],
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 31,
+              "key.name": "getter:firstArray",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC05firstD0s0D5SliceVyxSgGvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 31,
+          "key.name": "firstArray",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC05firstD0s0D5SliceVyxSgGvp"
+        },
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 31,
+          "key.name": "ArraySlice",
+          "key.usr": "s:s10ArraySliceV"
+        },
+        {
+          "key.column": 37,
+          "key.kind": "source.lang.swift.ref.generic_type_param",
+          "key.line": 31,
+          "key.name": "T",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC1Txmfp"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 14,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 29,
+              "key.entities": [
+                {
+                  "key.column": 31,
+                  "key.entities": [
+                    {
+                      "key.column": 31,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 32,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvg"
+                    },
+                    {
+                      "key.column": 31,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                      "key.line": 32,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvs"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 32,
+                  "key.name": "matrix",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvp"
+                },
+                {
+                  "key.column": 37,
+                  "key.entities": [
+                    {
+                      "key.column": 37,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 32,
+                      "key.usr": "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 32,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:SayxSicip"
+                },
+                {
+                  "key.column": 38,
+                  "key.entities": [
+                    {
+                      "key.column": 38,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 32,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 32,
+                  "key.name": "count",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivp"
+                },
+                {
+                  "key.column": 44,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 32,
+                  "key.name": "-(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:Si1soiyS2i_SitFZ"
+                }
+              ],
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 32,
+              "key.name": "getter:last",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC4lastxSgvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 32,
+          "key.name": "last",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC4lastxSgvp"
+        },
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.ref.generic_type_param",
+          "key.line": 32,
+          "key.name": "T",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC1Txmfp"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 14,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 29,
+              "key.entities": [
+                {
+                  "key.column": 31,
+                  "key.entities": [
+                    {
+                      "key.column": 31,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 33,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvg"
+                    },
+                    {
+                      "key.column": 31,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                      "key.line": 33,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvs"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 33,
+                  "key.name": "matrix",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvp"
+                },
+                {
+                  "key.column": 37,
+                  "key.entities": [
+                    {
+                      "key.column": 37,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 33,
+                      "key.usr": "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 33,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:SayxSicip"
+                }
+              ],
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 33,
+              "key.name": "getter:first",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5firstxSgvg"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 33,
+          "key.name": "first",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5firstxSgvp"
+        },
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.ref.generic_type_param",
+          "key.line": 33,
+          "key.name": "T",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC1Txmfp"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.lazy"
+            },
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 22,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.lazy"
+                },
+                {
+                  "key.attribute": "source.decl.attribute.private"
+                }
+              ],
+              "key.column": 22,
+              "key.is_dynamic": true,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 35,
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvg"
+            },
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.lazy"
+                },
+                {
+                  "key.attribute": "source.decl.attribute.private"
+                }
+              ],
+              "key.column": 22,
+              "key.is_dynamic": true,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.setter",
+              "key.line": 35,
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvs"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 35,
+          "key.name": "matrix",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvp"
+        },
+        {
+          "key.column": 31,
+          "key.kind": "source.lang.swift.ref.generic_type_param",
+          "key.line": 35,
+          "key.name": "T",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC1Txmfp"
+        },
+        {
+          "key.column": 37,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 35,
+          "key.name": "Array",
+          "key.usr": "s:Sa"
+        },
+        {
+          "key.column": 43,
+          "key.kind": "source.lang.swift.ref.generic_type_param",
+          "key.line": 35,
+          "key.name": "T",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC1Txmfp"
+        },
+        {
+          "key.column": 70,
+          "key.entities": [
+            {
+              "key.column": 70,
+              "key.is_dynamic": true,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.ref.function.accessor.getter",
+              "key.line": 35,
+              "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivg"
+            }
+          ],
+          "key.kind": "source.lang.swift.ref.var.instance",
+          "key.line": 35,
+          "key.name": "count",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivp"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 12,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 37,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 19,
+              "key.entities": [
+                {
+                  "key.column": 19,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 38,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 38,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 38,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 38,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 106,
+              "key.entities": [
+                {
+                  "key.column": 106,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 38,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 38,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 39,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 39,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 18,
+              "key.entities": [
+                {
+                  "key.column": 18,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 41,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 41,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 42,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 42,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 43,
+              "key.name": "*(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1moiyS2i_SitFZ"
+            },
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 45,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 45,
+              "key.name": "count",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.constructor",
+          "key.line": 37,
+          "key.name": "init(dimensions:)",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsACyxGSid_tcfc"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 48,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 48,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 48,
+              "key.name": "ArraySlice",
+              "key.usr": "s:s10ArraySliceV"
+            },
+            {
+              "key.column": 59,
+              "key.kind": "source.lang.swift.ref.generic_type_param",
+              "key.line": 48,
+              "key.name": "T",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC1Txmfp"
+            },
+            {
+              "key.column": 23,
+              "key.entities": [
+                {
+                  "key.column": 23,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 49,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 49,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 49,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 33,
+              "key.entities": [
+                {
+                  "key.column": 33,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 49,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 49,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 44,
+              "key.entities": [
+                {
+                  "key.column": 44,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 49,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 49,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 50,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 49,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 62,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 49,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 73,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 49,
+              "key.name": "msg02(_:)",
+              "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0233_9BB7DF65B59FDD785E35FBF270B20905LLySSSaySiGF"
+            },
+            {
+              "key.column": 18,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 50,
+              "key.name": "index(indexes:)",
+              "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5index33_9BB7DF65B59FDD785E35FBF270B20905LL7indexesSiSaySiG_tF"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 51,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1poiyS2i_SitFZ"
+            },
+            {
+              "key.column": 24,
+              "key.entities": [
+                {
+                  "key.column": 24,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 51,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 51,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 34,
+              "key.entities": [
+                {
+                  "key.column": 34,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 51,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:SayxSicig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 51,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SayxSicip"
+            },
+            {
+              "key.column": 35,
+              "key.entities": [
+                {
+                  "key.column": 35,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 51,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 51,
+              "key.name": "count",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5countSivp"
+            },
+            {
+              "key.column": 41,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 51,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 16,
+              "key.entities": [
+                {
+                  "key.column": 16,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 52,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvg"
+                },
+                {
+                  "key.column": 16,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 52,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 52,
+              "key.name": "matrix",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvp"
+            },
+            {
+              "key.column": 22,
+              "key.entities": [
+                {
+                  "key.column": 22,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 52,
+                  "key.usr": "s:Says10ArraySliceVyxGSnySiGcig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 52,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:Says10ArraySliceVyxGSnySiGcip"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 52,
+              "key.name": "..<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:SLsE3zzloiySnyxGx_xtFZ"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 48,
+          "key.name": "lastArray(at:)",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC04lastD02ats0D5SliceVyxSgGSid_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 10,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 27,
+                  "key.entities": [
+                    {
+                      "key.column": 27,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 57,
+                      "key.receiver_usr": "s:Sa",
+                      "key.usr": "s:Sa5countSivg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 57,
+                  "key.name": "count",
+                  "key.usr": "s:Sa5countSivp"
+                },
+                {
+                  "key.column": 33,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 57,
+                  "key.name": "==(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:Si2eeoiySbSi_SitFZ"
+                },
+                {
+                  "key.column": 36,
+                  "key.entities": [
+                    {
+                      "key.column": 36,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 57,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 57,
+                  "key.name": "dimensions",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+                },
+                {
+                  "key.column": 47,
+                  "key.entities": [
+                    {
+                      "key.column": 47,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 57,
+                      "key.receiver_usr": "s:Sa",
+                      "key.usr": "s:Sa5countSivg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 57,
+                  "key.name": "count",
+                  "key.usr": "s:Sa5countSivp"
+                },
+                {
+                  "key.column": 60,
+                  "key.kind": "source.lang.swift.ref.function.free",
+                  "key.line": 57,
+                  "key.name": "fatalError(_:file:line:)",
+                  "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+                },
+                {
+                  "key.column": 71,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 57,
+                  "key.name": "msg01(_:)",
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0133_9BB7DF65B59FDD785E35FBF270B20905LLySSSaySiGF"
+                },
+                {
+                  "key.column": 20,
+                  "key.entities": [
+                    {
+                      "key.column": 20,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 58,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvg"
+                    },
+                    {
+                      "key.column": 20,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                      "key.line": 58,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvs"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 58,
+                  "key.name": "matrix",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvp"
+                },
+                {
+                  "key.column": 26,
+                  "key.entities": [
+                    {
+                      "key.column": 26,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 58,
+                      "key.usr": "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 58,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:SayxSicip"
+                },
+                {
+                  "key.column": 27,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 58,
+                  "key.name": "index(indexes:)",
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5index33_9BB7DF65B59FDD785E35FBF270B20905LL7indexesSiSaySiG_tF"
+                }
+              ],
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 56,
+              "key.name": "getter:subscript(_:)",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayCyxSgSid_tcig"
+            },
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 27,
+                  "key.entities": [
+                    {
+                      "key.column": 27,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 61,
+                      "key.receiver_usr": "s:Sa",
+                      "key.usr": "s:Sa5countSivg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 61,
+                  "key.name": "count",
+                  "key.usr": "s:Sa5countSivp"
+                },
+                {
+                  "key.column": 33,
+                  "key.kind": "source.lang.swift.ref.function.operator.infix",
+                  "key.line": 61,
+                  "key.name": "==(_:_:)",
+                  "key.receiver_usr": "s:Si",
+                  "key.usr": "s:Si2eeoiySbSi_SitFZ"
+                },
+                {
+                  "key.column": 36,
+                  "key.entities": [
+                    {
+                      "key.column": 36,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 61,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 61,
+                  "key.name": "dimensions",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+                },
+                {
+                  "key.column": 47,
+                  "key.entities": [
+                    {
+                      "key.column": 47,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 61,
+                      "key.receiver_usr": "s:Sa",
+                      "key.usr": "s:Sa5countSivg"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 61,
+                  "key.name": "count",
+                  "key.usr": "s:Sa5countSivp"
+                },
+                {
+                  "key.column": 60,
+                  "key.kind": "source.lang.swift.ref.function.free",
+                  "key.line": 61,
+                  "key.name": "fatalError(_:file:line:)",
+                  "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+                },
+                {
+                  "key.column": 71,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 61,
+                  "key.name": "msg01(_:)",
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0133_9BB7DF65B59FDD785E35FBF270B20905LLySSSaySiGF"
+                },
+                {
+                  "key.column": 13,
+                  "key.entities": [
+                    {
+                      "key.column": 13,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 62,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvg"
+                    },
+                    {
+                      "key.column": 13,
+                      "key.is_dynamic": true,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                      "key.line": 62,
+                      "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                      "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvs"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.var.instance",
+                  "key.line": 62,
+                  "key.name": "matrix",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC6matrix33_9BB7DF65B59FDD785E35FBF270B20905LLSayxSgGvp"
+                },
+                {
+                  "key.column": 19,
+                  "key.entities": [
+                    {
+                      "key.column": 19,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                      "key.line": 62,
+                      "key.usr": "s:SayxSicis"
+                    }
+                  ],
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 62,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:SayxSicip"
+                },
+                {
+                  "key.column": 20,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 62,
+                  "key.name": "index(indexes:)",
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC5index33_9BB7DF65B59FDD785E35FBF270B20905LL7indexesSiSaySiG_tF"
+                }
+              ],
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.setter",
+              "key.line": 60,
+              "key.name": "setter:subscript(_:)",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayCyxSgSid_tcis"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 55,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 40,
+              "key.kind": "source.lang.swift.ref.generic_type_param",
+              "key.line": 55,
+              "key.name": "T",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC1Txmfp"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.subscript",
+          "key.line": 55,
+          "key.name": "subscript(_:)",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayCyxSgSid_tcip"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 34,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 66,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 43,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 66,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 26,
+              "key.entities": [
+                {
+                  "key.column": 26,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 67,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 67,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 68,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 18,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 70,
+              "key.name": "<=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2leoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 21,
+              "key.entities": [
+                {
+                  "key.column": 21,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 70,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 70,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 32,
+              "key.entities": [
+                {
+                  "key.column": 32,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 70,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 70,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 70,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 56,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 70,
+              "key.name": "msg06(_:)",
+              "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0633_9BB7DF65B59FDD785E35FBF270B20905LLySSSiF"
+            },
+            {
+              "key.column": 18,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 71,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 71,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 40,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 71,
+              "key.name": "msg05()",
+              "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0533_9BB7DF65B59FDD785E35FBF270B20905LLSSyF"
+            },
+            {
+              "key.column": 26,
+              "key.entities": [
+                {
+                  "key.column": 26,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 73,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:SayxSicig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 73,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SayxSicip"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 74,
+              "key.name": ">=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2geoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 74,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 42,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 74,
+              "key.name": "msg04(_:_:)",
+              "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0433_9BB7DF65B59FDD785E35FBF270B20905LLySSSi_SitF"
+            },
+            {
+              "key.column": 20,
+              "key.entities": [
+                {
+                  "key.column": 20,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 75,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 75,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 30,
+              "key.entities": [
+                {
+                  "key.column": 30,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 75,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:SayxSicig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 75,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SayxSicip"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 76,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 76,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 44,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 76,
+              "key.name": "msg03(_:_:_:)",
+              "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0333_9BB7DF65B59FDD785E35FBF270B20905LLySSSi_S2itF"
+            },
+            {
+              "key.column": 15,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 78,
+              "key.name": ">(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 79,
+              "key.name": "stride(from:through:by:)",
+              "key.usr": "s:s6stride4from7through2bys13StrideThroughVyxGx_x0E0QztSxRzlF"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 79,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 80,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 38,
+              "key.entities": [
+                {
+                  "key.column": 38,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 80,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:SayxSicig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 80,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SayxSicip"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 81,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 31,
+              "key.entities": [
+                {
+                  "key.column": 31,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 81,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 81,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 41,
+              "key.entities": [
+                {
+                  "key.column": 41,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 81,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:SayxSicig"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.function.subscript",
+              "key.line": 81,
+              "key.name": "subscript(_:)",
+              "key.usr": "s:SayxSicip"
+            },
+            {
+              "key.column": 28,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 83,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1poiyS2i_SitFZ"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 84,
+              "key.name": ">=(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si2geoiySbSi_SitFZ"
+            },
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 84,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 48,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 84,
+              "key.name": "msg04(_:_:)",
+              "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0433_9BB7DF65B59FDD785E35FBF270B20905LLySSSi_SitF"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 85,
+              "key.name": "<(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 85,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 48,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 85,
+              "key.name": "msg03(_:_:_:)",
+              "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0333_9BB7DF65B59FDD785E35FBF270B20905LLySSSi_S2itF"
+            },
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 87,
+              "key.name": "*(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1moiyS2i_SitFZ"
+            },
+            {
+              "key.column": 35,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 87,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1poiyS2i_SitFZ"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 66,
+          "key.name": "index(indexes:)",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5index33_9BB7DF65B59FDD785E35FBF270B20905LL7indexesSiSaySiG_tF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 94,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 94,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 90,
+              "key.entities": [
+                {
+                  "key.column": 90,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 95,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 95,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 102,
+              "key.entities": [
+                {
+                  "key.column": 102,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 95,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 95,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 113,
+              "key.entities": [
+                {
+                  "key.column": 113,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 95,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 95,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 94,
+          "key.name": "msg01(_:)",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0133_9BB7DF65B59FDD785E35FBF270B20905LLySSSaySiGF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 98,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 98,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 105,
+              "key.entities": [
+                {
+                  "key.column": 105,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 99,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 99,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 117,
+              "key.entities": [
+                {
+                  "key.column": 117,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 99,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 99,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 128,
+              "key.entities": [
+                {
+                  "key.column": 128,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 99,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 99,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            },
+            {
+              "key.column": 134,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 99,
+              "key.name": "-(_:_:)",
+              "key.receiver_usr": "s:Si",
+              "key.usr": "s:Si1soiyS2i_SitFZ"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 98,
+          "key.name": "msg02(_:)",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0233_9BB7DF65B59FDD785E35FBF270B20905LLySSSaySiGF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 102,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 102,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 59,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 102,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 67,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 102,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 102,
+          "key.name": "msg03(_:_:_:)",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0333_9BB7DF65B59FDD785E35FBF270B20905LLySSSi_S2itF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 31,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 106,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 106,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 106,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 106,
+          "key.name": "msg04(_:_:)",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0433_9BB7DF65B59FDD785E35FBF270B20905LLySSSi_SitF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 29,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 110,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 110,
+          "key.name": "msg05()",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0533_9BB7DF65B59FDD785E35FBF270B20905LLSSyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 114,
+              "key.name": "Int",
+              "key.usr": "s:Si"
+            },
+            {
+              "key.column": 40,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 114,
+              "key.name": "String",
+              "key.usr": "s:SS"
+            },
+            {
+              "key.column": 62,
+              "key.entities": [
+                {
+                  "key.column": 62,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 115,
+                  "key.receiver_usr": "s:7Rubicon17DynamicFixedArrayC",
+                  "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 115,
+              "key.name": "dimensions",
+              "key.usr": "s:7Rubicon17DynamicFixedArrayC10dimensionsSaySiGvp"
+            },
+            {
+              "key.column": 73,
+              "key.entities": [
+                {
+                  "key.column": 73,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 115,
+                  "key.receiver_usr": "s:Sa",
+                  "key.usr": "s:Sa5countSivg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 115,
+              "key.name": "count",
+              "key.usr": "s:Sa5countSivp"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 114,
+          "key.name": "msg06(_:)",
+          "key.usr": "s:7Rubicon17DynamicFixedArrayC5msg0633_9BB7DF65B59FDD785E35FBF270B20905LLySSSiF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.class",
+      "key.line": 25,
+      "key.name": "DynamicFixedArray",
+      "key.usr": "s:7Rubicon17DynamicFixedArrayC"
+    }
+  ]
+}

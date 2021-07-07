@@ -1,0 +1,455 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 1506,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 21,
+          "key.offset": 1132
+        }
+      ],
+      "key.bodycolumn": 24,
+      "key.bodylength": 65,
+      "key.bodyline": 21,
+      "key.bodyoffset": 1155,
+      "key.column": 8,
+      "key.kind": "source.lang.swift.decl.enum",
+      "key.length": 82,
+      "key.line": 21,
+      "key.name": "ByteOrder",
+      "key.namecolumn": 13,
+      "key.namelength": 9,
+      "key.nameline": 21,
+      "key.nameoffset": 1144,
+      "key.offset": 1139,
+      "key.substructure": [
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 14,
+          "key.line": 22,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1160,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.column": 10,
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 9,
+              "key.line": 22,
+              "key.name": "BigEndian",
+              "key.namecolumn": 10,
+              "key.namelength": 9,
+              "key.nameline": 22,
+              "key.nameoffset": 1165,
+              "key.offset": 1165
+            }
+          ]
+        },
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 17,
+          "key.line": 23,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1179,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.column": 10,
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 12,
+              "key.line": 23,
+              "key.name": "LittleEndian",
+              "key.namecolumn": 10,
+              "key.namelength": 12,
+              "key.nameline": 23,
+              "key.nameoffset": 1184,
+              "key.offset": 1184
+            }
+          ]
+        },
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 18,
+          "key.line": 24,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1201,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.column": 10,
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 13,
+              "key.line": 24,
+              "key.name": "UnknownEndian",
+              "key.namecolumn": 10,
+              "key.namelength": 13,
+              "key.nameline": 24,
+              "key.nameoffset": 1206,
+              "key.offset": 1206
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.private",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.private",
+          "key.column": 1,
+          "key.length": 7,
+          "key.line": 27,
+          "key.offset": 1223
+        }
+      ],
+      "key.column": 9,
+      "key.kind": "source.lang.swift.decl.var.global",
+      "key.length": 85,
+      "key.line": 27,
+      "key.name": "machEndian",
+      "key.namecolumn": 13,
+      "key.namelength": 10,
+      "key.nameline": 27,
+      "key.nameoffset": 1235,
+      "key.offset": 1231,
+      "key.typename": "UInt32"
+    },
+    {
+      "key.bodycolumn": 50,
+      "key.bodylength": 43,
+      "key.bodyline": 27,
+      "key.bodyoffset": 1272,
+      "key.column": 43,
+      "key.kind": "source.lang.swift.expr.call",
+      "key.length": 51,
+      "key.line": 27,
+      "key.name": "UInt32",
+      "key.namecolumn": 43,
+      "key.namelength": 6,
+      "key.nameline": 27,
+      "key.nameoffset": 1265,
+      "key.offset": 1265,
+      "key.substructure": [
+        {
+          "key.bodycolumn": 70,
+          "key.bodylength": 23,
+          "key.bodyline": 27,
+          "key.bodyoffset": 1292,
+          "key.column": 50,
+          "key.kind": "source.lang.swift.expr.argument",
+          "key.length": 43,
+          "key.line": 27,
+          "key.name": "truncatingIfNeeded",
+          "key.namecolumn": 50,
+          "key.namelength": 18,
+          "key.nameline": 27,
+          "key.nameoffset": 1272,
+          "key.offset": 1272,
+          "key.substructure": [
+            {
+              "key.bodycolumn": 92,
+              "key.bodylength": 0,
+              "key.bodyline": 27,
+              "key.bodyoffset": 1314,
+              "key.column": 70,
+              "key.kind": "source.lang.swift.expr.call",
+              "key.length": 23,
+              "key.line": 27,
+              "key.name": "CFByteOrderGetCurrent",
+              "key.namecolumn": 70,
+              "key.namelength": 21,
+              "key.nameline": 27,
+              "key.nameoffset": 1292,
+              "key.offset": 1292
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 28,
+          "key.offset": 1317
+        }
+      ],
+      "key.column": 8,
+      "key.kind": "source.lang.swift.decl.var.global",
+      "key.length": 181,
+      "key.line": 28,
+      "key.name": "MachineByteOrder",
+      "key.namecolumn": 13,
+      "key.namelength": 16,
+      "key.nameline": 28,
+      "key.nameoffset": 1329,
+      "key.offset": 1324,
+      "key.setter_accessibility": "source.lang.swift.accessibility.public",
+      "key.typename": "ByteOrder"
+    }
+  ],
+  "key.syntaxmap": [
+    {
+      "key.column": 1,
+      "key.kind": "source.lang.swift.syntaxtype.comment",
+      "key.length": 913,
+      "key.line": 1,
+      "key.offset": 0
+    },
+    {
+      "key.column": 4,
+      "key.kind": "source.lang.swift.syntaxtype.comment",
+      "key.length": 176,
+      "key.line": 16,
+      "key.offset": 913
+    },
+    {
+      "key.column": 1,
+      "key.kind": "source.lang.swift.syntaxtype.keyword",
+      "key.length": 6,
+      "key.line": 18,
+      "key.offset": 1091
+    },
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 10,
+      "key.line": 18,
+      "key.offset": 1098
+    },
+    {
+      "key.column": 1,
+      "key.kind": "source.lang.swift.syntaxtype.keyword",
+      "key.length": 6,
+      "key.line": 19,
+      "key.offset": 1109
+    },
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 14,
+      "key.line": 19,
+      "key.offset": 1116
+    },
+    {
+      "key.column": 1,
+      "key.kind": "source.lang.swift.syntaxtype.attribute.builtin",
+      "key.length": 6,
+      "key.line": 21,
+      "key.offset": 1132
+    },
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.syntaxtype.keyword",
+      "key.length": 4,
+      "key.line": 21,
+      "key.offset": 1139
+    },
+    {
+      "key.column": 13,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 9,
+      "key.line": 21,
+      "key.offset": 1144
+    },
+    {
+      "key.column": 5,
+      "key.kind": "source.lang.swift.syntaxtype.keyword",
+      "key.length": 4,
+      "key.line": 22,
+      "key.offset": 1160
+    },
+    {
+      "key.column": 10,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 9,
+      "key.line": 22,
+      "key.offset": 1165
+    },
+    {
+      "key.column": 5,
+      "key.kind": "source.lang.swift.syntaxtype.keyword",
+      "key.length": 4,
+      "key.line": 23,
+      "key.offset": 1179
+    },
+    {
+      "key.column": 10,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 12,
+      "key.line": 23,
+      "key.offset": 1184
+    },
+    {
+      "key.column": 5,
+      "key.kind": "source.lang.swift.syntaxtype.keyword",
+      "key.length": 4,
+      "key.line": 24,
+      "key.offset": 1201
+    },
+    {
+      "key.column": 10,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 13,
+      "key.line": 24,
+      "key.offset": 1206
+    },
+    {
+      "key.column": 1,
+      "key.kind": "source.lang.swift.syntaxtype.attribute.builtin",
+      "key.length": 7,
+      "key.line": 27,
+      "key.offset": 1223
+    },
+    {
+      "key.column": 9,
+      "key.kind": "source.lang.swift.syntaxtype.keyword",
+      "key.length": 3,
+      "key.line": 27,
+      "key.offset": 1231
+    },
+    {
+      "key.column": 13,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 10,
+      "key.line": 27,
+      "key.offset": 1235
+    },
+    {
+      "key.column": 31,
+      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length": 6,
+      "key.line": 27,
+      "key.offset": 1253
+    },
+    {
+      "key.column": 43,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 6,
+      "key.line": 27,
+      "key.offset": 1265
+    },
+    {
+      "key.column": 50,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 18,
+      "key.line": 27,
+      "key.offset": 1272
+    },
+    {
+      "key.column": 70,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 21,
+      "key.line": 27,
+      "key.offset": 1292
+    },
+    {
+      "key.column": 1,
+      "key.kind": "source.lang.swift.syntaxtype.attribute.builtin",
+      "key.length": 6,
+      "key.line": 28,
+      "key.offset": 1317
+    },
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.syntaxtype.keyword",
+      "key.length": 3,
+      "key.line": 28,
+      "key.offset": 1324
+    },
+    {
+      "key.column": 13,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 16,
+      "key.line": 28,
+      "key.offset": 1329
+    },
+    {
+      "key.column": 31,
+      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length": 9,
+      "key.line": 28,
+      "key.offset": 1347
+    },
+    {
+      "key.column": 45,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 10,
+      "key.line": 28,
+      "key.offset": 1361
+    },
+    {
+      "key.column": 59,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 20,
+      "key.line": 28,
+      "key.offset": 1375
+    },
+    {
+      "key.column": 80,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 8,
+      "key.line": 28,
+      "key.offset": 1396
+    },
+    {
+      "key.column": 93,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 9,
+      "key.line": 28,
+      "key.offset": 1409
+    },
+    {
+      "key.column": 107,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 10,
+      "key.line": 28,
+      "key.offset": 1423
+    },
+    {
+      "key.column": 121,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 23,
+      "key.line": 28,
+      "key.offset": 1437
+    },
+    {
+      "key.column": 145,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 8,
+      "key.line": 28,
+      "key.offset": 1461
+    },
+    {
+      "key.column": 158,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 12,
+      "key.line": 28,
+      "key.offset": 1474
+    },
+    {
+      "key.column": 174,
+      "key.kind": "source.lang.swift.syntaxtype.identifier",
+      "key.length": 13,
+      "key.line": 28,
+      "key.offset": 1490
+    }
+  ]
+}

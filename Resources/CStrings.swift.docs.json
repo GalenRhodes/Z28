@@ -1,0 +1,1990 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 19393,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.open",
+      "key.annotated_decl": "<Declaration>open class CString<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.open",
+          "key.column": 1,
+          "key.length": 4,
+          "key.line": 32,
+          "key.offset": 1703
+        }
+      ],
+      "key.bodycolumn": 21,
+      "key.bodylength": 16749,
+      "key.bodyline": 32,
+      "key.bodyoffset": 1723,
+      "key.column": 6,
+      "key.doc.column": 12,
+      "key.doc.comment": "This is a class to help with the conversion between C strings and the Swift\n<code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> class. One note about the use\nof signed and unsigned chars. Some C functions make a distinction between a signed char (usually the default -\nwhen only the lower 7-bits are significant) and an unsigned char (usually in conjunction with the UTF-8\ncharacter encoding scheme). This class has methods to handle both.",
+      "key.doc.declaration": "open class CString",
+      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+      "key.doc.full_as_xml": "<Class file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"32\" column=\"12\"><Name>CString<\/Name><USR>s:7Rubicon7CStringC<\/USR><Declaration>open class CString<\/Declaration><CommentParts><Abstract><Para>This is a class to help with the conversion between C strings and the Swift <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> class. One note about the use of signed and unsigned chars. Some C functions make a distinction between a signed char (usually the default - when only the lower 7-bits are significant) and an unsigned char (usually in conjunction with the UTF-8 character encoding scheme). This class has methods to handle both.<\/Para><\/Abstract><\/CommentParts><\/Class>",
+      "key.doc.line": 32,
+      "key.doc.name": "CString",
+      "key.doc.type": "Class",
+      "key.doccolumn": 1,
+      "key.doclength": 491,
+      "key.docline": 26,
+      "key.docoffset": 1212,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>CString<\/decl.name><\/decl.class>",
+      "key.kind": "source.lang.swift.decl.class",
+      "key.length": 16765,
+      "key.line": 32,
+      "key.name": "CString",
+      "key.namecolumn": 12,
+      "key.namelength": 7,
+      "key.nameline": 32,
+      "key.nameoffset": 1714,
+      "key.offset": 1708,
+      "key.parsed_declaration": "open class CString",
+      "key.parsed_scope.end": 357,
+      "key.parsed_scope.start": 32,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>let cString: <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.doc.column": 9,
+          "key.doc.comment": "internal buffer.",
+          "key.doc.declaration": "let cString: CCharBuffer",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"37\" column=\"9\"><Name>cString<\/Name><USR>s:7Rubicon7CStringC7cStringSrys4Int8VGvp<\/USR><Declaration>let cString: CCharBuffer<\/Declaration><CommentParts><Abstract><Para>internal buffer.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 37,
+          "key.doc.name": "cString",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 29,
+          "key.docline": 35,
+          "key.docoffset": 1844,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cString<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 24,
+          "key.line": 37,
+          "key.name": "cString",
+          "key.namecolumn": 9,
+          "key.namelength": 7,
+          "key.nameline": 37,
+          "key.nameoffset": 1881,
+          "key.offset": 1877,
+          "key.parsed_declaration": "let cString: CCharBuffer",
+          "key.parsed_scope.end": 37,
+          "key.parsed_scope.start": 37,
+          "key.typename": "UnsafeMutableBufferPointer<Int8>",
+          "key.typeusr": "$sSrys4Int8VGD",
+          "key.usr": "s:7Rubicon7CStringC7cStringSrys4Int8VGvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public let encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 42,
+              "key.offset": 2076
+            }
+          ],
+          "key.column": 12,
+          "key.doc.column": 16,
+          "key.doc.comment": "The character encoding of the string.",
+          "key.doc.declaration": "public let encoding: String.Encoding",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"42\" column=\"16\"><Name>encoding<\/Name><USR>s:7Rubicon7CStringC8encodingSS10FoundationE8EncodingVvp<\/USR><Declaration>public let encoding: String.Encoding<\/Declaration><CommentParts><Abstract><Para>The character encoding of the string.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 42,
+          "key.doc.name": "encoding",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 50,
+          "key.docline": 40,
+          "key.docoffset": 2022,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>encoding<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 29,
+          "key.line": 42,
+          "key.name": "encoding",
+          "key.namecolumn": 16,
+          "key.namelength": 8,
+          "key.nameline": 42,
+          "key.nameoffset": 2087,
+          "key.offset": 2083,
+          "key.parsed_declaration": "public let encoding: String.Encoding",
+          "key.parsed_scope.end": 42,
+          "key.parsed_scope.start": 42,
+          "key.typename": "String.Encoding",
+          "key.typeusr": "$sSS10FoundationE8EncodingVD",
+          "key.usr": "s:7Rubicon7CStringC8encodingSS10FoundationE8EncodingVvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public var string: <Type usr=\"s:SS\">String<\/Type>? { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 49,
+              "key.offset": 2470
+            }
+          ],
+          "key.bodycolumn": 33,
+          "key.bodylength": 158,
+          "key.bodyline": 49,
+          "key.bodyoffset": 2498,
+          "key.column": 12,
+          "key.doc.column": 16,
+          "key.doc.comment": "The C string converted to a Swift\n<code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code>. If the string cannot be\ndecoded using the provided encoding then this field will be `nil`.",
+          "key.doc.declaration": "public var string: String? { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"49\" column=\"16\"><Name>string<\/Name><USR>s:7Rubicon7CStringC6stringSSSgvp<\/USR><Declaration>public var string: String? { get }<\/Declaration><CommentParts><Abstract><Para>The C string converted to a Swift <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>. If the string cannot be decoded using the provided encoding then this field will be <codeVoice>nil<\/codeVoice>.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 49,
+          "key.doc.name": "string",
+          "key.doc.type": "Other",
+          "key.doccolumn": 5,
+          "key.doclength": 233,
+          "key.docline": 45,
+          "key.docoffset": 2233,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>string<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 180,
+          "key.line": 49,
+          "key.name": "string",
+          "key.namecolumn": 16,
+          "key.namelength": 6,
+          "key.nameline": 49,
+          "key.nameoffset": 2481,
+          "key.offset": 2477,
+          "key.parsed_declaration": "public var string: String?",
+          "key.parsed_scope.end": 53,
+          "key.parsed_scope.start": 49,
+          "key.typename": "String?",
+          "key.typeusr": "$sSSSgD",
+          "key.usr": "s:7Rubicon7CStringC6stringSSSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(string: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 63,
+              "key.offset": 3136
+            }
+          ],
+          "key.bodycolumn": 34,
+          "key.bodylength": 82,
+          "key.bodyline": 63,
+          "key.bodyoffset": 3165,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Initialize this object with the given Swift\n<code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code>. The characters of the\n<code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> will be encoded as a series\nof UTF-8 bytes.\n\n- Parameter string: the string.",
+          "key.doc.declaration": "public init(string: String)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"63\" column=\"12\"><Name>init(string:)<\/Name><USR>s:7Rubicon7CStringC6stringACSS_tcfc<\/USR><Declaration>public init(string: String)<\/Declaration><CommentParts><Abstract><Para>Initialize this object with the given Swift <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>. The characters of the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> will be encoded as a series of UTF-8 bytes.<\/Para><\/Abstract><Parameters><Parameter><Name>string<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the string.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 63,
+          "key.doc.name": "init(string:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the string."
+                }
+              ],
+              "name": "string"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 354,
+          "key.docline": 56,
+          "key.docoffset": 2778,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>string<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 105,
+          "key.line": 63,
+          "key.name": "init(string:)",
+          "key.namecolumn": 12,
+          "key.namelength": 20,
+          "key.nameline": 63,
+          "key.nameoffset": 3143,
+          "key.offset": 3143,
+          "key.parsed_declaration": "public init(string: String)",
+          "key.parsed_scope.end": 66,
+          "key.parsed_scope.start": 63,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringCACycfc\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc\">init(byteBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc\">init(charBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafeMutablePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(_:length:encoding:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(CString.Type) -> (String) -> CString",
+          "key.typeusr": "$s6string7Rubicon7CStringCSS_tcD",
+          "key.usr": "s:7Rubicon7CStringC6stringACSS_tcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public convenience init()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.convenience",
+              "key.column": 12,
+              "key.length": 11,
+              "key.line": 71,
+              "key.offset": 3459
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 71,
+              "key.offset": 3452
+            }
+          ],
+          "key.bodycolumn": 32,
+          "key.bodylength": 35,
+          "key.bodyline": 71,
+          "key.bodyoffset": 3479,
+          "key.column": 24,
+          "key.doc.column": 24,
+          "key.doc.comment": "Initialize this object as an empty string with the UTF-8 encoding.",
+          "key.doc.declaration": "public convenience init()",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"71\" column=\"24\"><Name>init()<\/Name><USR>s:7Rubicon7CStringCACycfc<\/USR><Declaration>public convenience init()<\/Declaration><CommentParts><Abstract><Para>Initialize this object as an empty string with the UTF-8 encoding.<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line": 71,
+          "key.doc.name": "init()",
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 79,
+          "key.docline": 69,
+          "key.docoffset": 3369,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>convenience<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>()<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 44,
+          "key.line": 71,
+          "key.name": "init()",
+          "key.namecolumn": 24,
+          "key.namelength": 6,
+          "key.nameline": 71,
+          "key.nameoffset": 3471,
+          "key.offset": 3471,
+          "key.parsed_declaration": "public convenience init()",
+          "key.parsed_scope.end": 73,
+          "key.parsed_scope.start": 71,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC6stringACSS_tcfc\">init(string:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc\">init(byteBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc\">init(charBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafeMutablePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(_:length:encoding:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(CString.Type) -> () -> CString",
+          "key.typeusr": "$s7Rubicon7CStringCycD",
+          "key.usr": "s:7Rubicon7CStringCACycfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(byteBuffer: <Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;, hasNullTerminator: <Type usr=\"s:Sb\">Bool<\/Type> = false, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 84,
+              "key.offset": 4091
+            }
+          ],
+          "key.bodycolumn": 141,
+          "key.bodylength": 98,
+          "key.bodyline": 84,
+          "key.bodyoffset": 4227,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Initialize this object with the contents of the byte (unsigned char) buffer. The bytes will be interpreted\nas a series of characters encoded with the given character encoding.\n\n- Parameters:\n  - byteBuffer: The byte buffer.\n  - hasNullTerminator: `true` if the buffer includes a `nil` terminating character. Defaults to `false`.\n  - encoding: The character encoding used. Defaults to UTF-8.",
+          "key.doc.declaration": "public init(byteBuffer: UnsafeBufferPointer<UInt8>, hasNullTerminator: Bool = false, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"84\" column=\"12\"><Name>init(byteBuffer:hasNullTerminator:encoding:)<\/Name><USR>s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc<\/USR><Declaration>public init(byteBuffer: UnsafeBufferPointer&lt;UInt8&gt;, hasNullTerminator: Bool = false, encoding: String.Encoding = String.Encoding.utf8)<\/Declaration><CommentParts><Abstract><Para>Initialize this object with the contents of the byte (unsigned char) buffer. The bytes will be interpreted as a series of characters encoded with the given character encoding.<\/Para><\/Abstract><Parameters><Parameter><Name>byteBuffer<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The byte buffer.<\/Para><\/Discussion><\/Parameter><Parameter><Name>hasNullTerminator<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para><codeVoice>true<\/codeVoice> if the buffer includes a <codeVoice>nil<\/codeVoice> terminating character. Defaults to <codeVoice>false<\/codeVoice>.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character encoding used. Defaults to UTF-8.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 84,
+          "key.doc.name": "init(byteBuffer:hasNullTerminator:encoding:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The byte buffer."
+                }
+              ],
+              "name": "byteBuffer"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "`true` if the buffer includes a `nil` terminating character. Defaults to `false`."
+                }
+              ],
+              "name": "hasNullTerminator"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The character encoding used. Defaults to UTF-8."
+                }
+              ],
+              "name": "encoding"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 451,
+          "key.docline": 76,
+          "key.docoffset": 3636,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>byteBuffer<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>hasNullTerminator<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type> = String.Encoding.utf8<\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 228,
+          "key.line": 84,
+          "key.name": "init(byteBuffer:hasNullTerminator:encoding:)",
+          "key.namecolumn": 12,
+          "key.namelength": 127,
+          "key.nameline": 84,
+          "key.nameoffset": 4098,
+          "key.offset": 4098,
+          "key.parsed_declaration": "public init(byteBuffer: UnsafeBufferPointer<UInt8>, hasNullTerminator: Bool = false, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.parsed_scope.end": 87,
+          "key.parsed_scope.start": 84,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC6stringACSS_tcfc\">init(string:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringCACycfc\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc\">init(charBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafeMutablePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(_:length:encoding:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(CString.Type) -> (UnsafeBufferPointer<UInt8>, Bool, String.Encoding) -> CString",
+          "key.typeusr": "$s10byteBuffer17hasNullTerminator8encoding7Rubicon7CStringCSRys5UInt8VG_SbSS10FoundationE8EncodingVtcD",
+          "key.usr": "s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(charBuffer: <Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;, hasNullTerminator: <Type usr=\"s:Sb\">Bool<\/Type> = false, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 98,
+              "key.offset": 4915
+            }
+          ],
+          "key.bodycolumn": 141,
+          "key.bodylength": 98,
+          "key.bodyline": 98,
+          "key.bodyoffset": 5051,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Initialize this object with the contents of the character (signed char) buffer. The characters will be\ninterpreted as a series of characters encoded with the given character encoding.\n\n- Parameters:\n  - charBuffer: The character buffer.\n  - hasNullTerminator: `true` if the buffer includes a `nil` terminating character. Defaults to `false`.\n  - encoding: The character encoding used. Defaults to UTF-8.",
+          "key.doc.declaration": "public init(charBuffer: UnsafeBufferPointer<CChar>, hasNullTerminator: Bool = false, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"98\" column=\"12\"><Name>init(charBuffer:hasNullTerminator:encoding:)<\/Name><USR>s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc<\/USR><Declaration>public init(charBuffer: UnsafeBufferPointer&lt;CChar&gt;, hasNullTerminator: Bool = false, encoding: String.Encoding = String.Encoding.utf8)<\/Declaration><CommentParts><Abstract><Para>Initialize this object with the contents of the character (signed char) buffer. The characters will be interpreted as a series of characters encoded with the given character encoding.<\/Para><\/Abstract><Parameters><Parameter><Name>charBuffer<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character buffer.<\/Para><\/Discussion><\/Parameter><Parameter><Name>hasNullTerminator<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para><codeVoice>true<\/codeVoice> if the buffer includes a <codeVoice>nil<\/codeVoice> terminating character. Defaults to <codeVoice>false<\/codeVoice>.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character encoding used. Defaults to UTF-8.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 98,
+          "key.doc.name": "init(charBuffer:hasNullTerminator:encoding:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The character buffer."
+                }
+              ],
+              "name": "charBuffer"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "`true` if the buffer includes a `nil` terminating character. Defaults to `false`."
+                }
+              ],
+              "name": "hasNullTerminator"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The character encoding used. Defaults to UTF-8."
+                }
+              ],
+              "name": "encoding"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 464,
+          "key.docline": 90,
+          "key.docoffset": 4447,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>charBuffer<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>hasNullTerminator<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type> = String.Encoding.utf8<\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 228,
+          "key.line": 98,
+          "key.name": "init(charBuffer:hasNullTerminator:encoding:)",
+          "key.namecolumn": 12,
+          "key.namelength": 127,
+          "key.nameline": 98,
+          "key.nameoffset": 4922,
+          "key.offset": 4922,
+          "key.parsed_declaration": "public init(charBuffer: UnsafeBufferPointer<CChar>, hasNullTerminator: Bool = false, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.parsed_scope.end": 101,
+          "key.parsed_scope.start": 98,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC6stringACSS_tcfc\">init(string:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringCACycfc\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc\">init(byteBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafeMutablePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(_:length:encoding:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(CString.Type) -> (UnsafeBufferPointer<Int8>, Bool, String.Encoding) -> CString",
+          "key.typeusr": "$s10charBuffer17hasNullTerminator8encoding7Rubicon7CStringCSRys4Int8VG_SbSS10FoundationE8EncodingVtcD",
+          "key.usr": "s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(cString: <Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;, length: <Type usr=\"s:Si\">Int<\/Type> = -1, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 116,
+              "key.offset": 6058
+            }
+          ],
+          "key.bodycolumn": 117,
+          "key.bodylength": 319,
+          "key.bodyline": 116,
+          "key.bodyoffset": 6170,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Initializes this object with the contents of the immutable character (signed char) from the given pointer.\nIf length is not given or is less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> then the\nstring MUST be `nil` terminated. If the length is less than\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> and the string is NOT `nil` terminated then the\nbehavior of this initializer is undefined.\n\n- Parameters:\n  - cString: The pointer to the characters.\n  - length: The length of the string. If less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>\n            then the string MUST be `nil` terminated.\n  - encoding: The character encoding used. Defaults to UTF-8.",
+          "key.doc.declaration": "public init(cString: UnsafePointer<CChar>, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"116\" column=\"12\"><Name>init(cString:length:encoding:)<\/Name><USR>s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc<\/USR><Declaration>public init(cString: UnsafePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/Declaration><CommentParts><Abstract><Para>Initializes this object with the contents of the immutable character (signed char) from the given pointer. If length is not given or is less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the string MUST be <codeVoice>nil<\/codeVoice> terminated. If the length is less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> and the string is NOT <codeVoice>nil<\/codeVoice> terminated then the behavior of this initializer is undefined.<\/Para><\/Abstract><Parameters><Parameter><Name>cString<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The pointer to the characters.<\/Para><\/Discussion><\/Parameter><Parameter><Name>length<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The length of the string. If less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the string MUST be <codeVoice>nil<\/codeVoice> terminated.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character encoding used. Defaults to UTF-8.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 116,
+          "key.doc.name": "init(cString:length:encoding:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The pointer to the characters."
+                }
+              ],
+              "name": "cString"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The length of the string. If less than <code><\/code> then the string MUST be `nil` terminated."
+                }
+              ],
+              "name": "length"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The character encoding used. Defaults to UTF-8."
+                }
+              ],
+              "name": "encoding"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 783,
+          "key.docline": 104,
+          "key.docoffset": 5271,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>cString<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>length<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = -1<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type> = String.Encoding.utf8<\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 425,
+          "key.line": 116,
+          "key.name": "init(cString:length:encoding:)",
+          "key.namecolumn": 12,
+          "key.namelength": 103,
+          "key.nameline": 116,
+          "key.nameoffset": 6065,
+          "key.offset": 6065,
+          "key.parsed_declaration": "public init(cString: UnsafePointer<CChar>, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.parsed_scope.end": 123,
+          "key.parsed_scope.start": 116,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC6stringACSS_tcfc\">init(string:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringCACycfc\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc\">init(byteBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc\">init(charBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafeMutablePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(_:length:encoding:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let length: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>length<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 92,
+              "key.line": 117,
+              "key.name": "length",
+              "key.namecolumn": 13,
+              "key.namelength": 6,
+              "key.nameline": 117,
+              "key.nameoffset": 6183,
+              "key.offset": 6179,
+              "key.parsed_declaration": "let length:   Int            = (cStrLen(cStringPtr: cString, length: fixLength(length)) + 1)",
+              "key.parsed_scope.end": 117,
+              "key.parsed_scope.start": 117,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfcAEL0_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let mcString: <Type usr=\"s:7Rubicon14CCharROPointera\">CCharROPointer<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>mcString<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon14CCharROPointera\">CCharROPointer<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 38,
+              "key.line": 118,
+              "key.name": "mcString",
+              "key.namecolumn": 13,
+              "key.namelength": 8,
+              "key.nameline": 118,
+              "key.nameoffset": 6284,
+              "key.offset": 6280,
+              "key.parsed_declaration": "let mcString: CCharROPointer = cString",
+              "key.parsed_scope.end": 118,
+              "key.parsed_scope.start": 118,
+              "key.typename": "UnsafePointer<Int8>",
+              "key.typeusr": "$sSPys4Int8VGD",
+              "key.usr": "s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc02mcC0L_AIvp"
+            }
+          ],
+          "key.typename": "(CString.Type) -> (UnsafePointer<Int8>, Int, String.Encoding) -> CString",
+          "key.typeusr": "$s7cString6length8encoding7Rubicon7CStringCSPys4Int8VG_SiSS10FoundationE8EncodingVtcD",
+          "key.usr": "s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(cString: <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;, length: <Type usr=\"s:Si\">Int<\/Type> = -1, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 138,
+              "key.offset": 7396
+            }
+          ],
+          "key.bodycolumn": 124,
+          "key.bodylength": 225,
+          "key.bodyline": 138,
+          "key.bodyoffset": 7515,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Initializes this object with the contents of the mutable character (signed char) from the given pointer.\nIf length is not given or is less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> then the\nstring MUST be `nil` terminated. If the length is less than\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> and the string is NOT `nil` terminated then the\nbehavior of this initializer is undefined.\n\n- Parameters:\n  - cString: The pointer to the characters.\n  - length: The length of the string. If less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>\n            then the string MUST be `nil` terminated.\n  - encoding: The character encoding used. Defaults to UTF-8.",
+          "key.doc.declaration": "public init(cString: UnsafeMutablePointer<CChar>, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"138\" column=\"12\"><Name>init(cString:length:encoding:)<\/Name><USR>s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc<\/USR><Declaration>public init(cString: UnsafeMutablePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/Declaration><CommentParts><Abstract><Para>Initializes this object with the contents of the mutable character (signed char) from the given pointer. If length is not given or is less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the string MUST be <codeVoice>nil<\/codeVoice> terminated. If the length is less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> and the string is NOT <codeVoice>nil<\/codeVoice> terminated then the behavior of this initializer is undefined.<\/Para><\/Abstract><Parameters><Parameter><Name>cString<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The pointer to the characters.<\/Para><\/Discussion><\/Parameter><Parameter><Name>length<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The length of the string. If less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the string MUST be <codeVoice>nil<\/codeVoice> terminated.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character encoding used. Defaults to UTF-8.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 138,
+          "key.doc.name": "init(cString:length:encoding:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The pointer to the characters."
+                }
+              ],
+              "name": "cString"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The length of the string. If less than <code><\/code> then the string MUST be `nil` terminated."
+                }
+              ],
+              "name": "length"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The character encoding used. Defaults to UTF-8."
+                }
+              ],
+              "name": "encoding"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 781,
+          "key.docline": 126,
+          "key.docoffset": 6611,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>cString<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>length<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = -1<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type> = String.Encoding.utf8<\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 338,
+          "key.line": 138,
+          "key.name": "init(cString:length:encoding:)",
+          "key.namecolumn": 12,
+          "key.namelength": 110,
+          "key.nameline": 138,
+          "key.nameoffset": 7403,
+          "key.offset": 7403,
+          "key.parsed_declaration": "public init(cString: UnsafeMutablePointer<CChar>, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.parsed_scope.end": 143,
+          "key.parsed_scope.start": 138,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC6stringACSS_tcfc\">init(string:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringCACycfc\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc\">init(byteBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc\">init(charBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(_:length:encoding:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let length: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>length<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 79,
+              "key.line": 139,
+              "key.name": "length",
+              "key.namecolumn": 13,
+              "key.namelength": 6,
+              "key.nameline": 139,
+              "key.nameoffset": 7528,
+              "key.offset": 7524,
+              "key.parsed_declaration": "let length: Int = (cStrLen(cStringPtr: cString, length: fixLength(length)) + 1)",
+              "key.parsed_scope.end": 139,
+              "key.parsed_scope.start": 139,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfcAEL0_Sivp"
+            }
+          ],
+          "key.typename": "(CString.Type) -> (UnsafeMutablePointer<Int8>, Int, String.Encoding) -> CString",
+          "key.typeusr": "$s7cString6length8encoding7Rubicon7CStringCSpys4Int8VG_SiSS10FoundationE8EncodingVtcD",
+          "key.usr": "s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(utf8String: <Type usr=\"s:7Rubicon13ByteROPointera\">ByteROPointer<\/Type>, length: <Type usr=\"s:Si\">Int<\/Type> = -1, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 158,
+              "key.offset": 8642
+            }
+          ],
+          "key.bodycolumn": 113,
+          "key.bodylength": 430,
+          "key.bodyline": 158,
+          "key.bodyoffset": 8750,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Initializes this object with the contents of the immutable bytes (unsigned char) from the given pointer.\nIf length is not given or is less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> then the\nstring MUST be `nil` terminated. If the length is less than\n<code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> and the string is NOT `nil` terminated then the\nbehavior of this initializer is undefined.\n\n- Parameters:\n  - cString: The pointer to the bytes.\n  - length: The length of the string. If less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>\n            then the string MUST be `nil` terminated.\n  - encoding: The character encoding used. Defaults to UTF-8.",
+          "key.doc.declaration": "public init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"158\" column=\"12\"><Name>init(utf8String:length:encoding:)<\/Name><USR>s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc<\/USR><Declaration>public init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/Declaration><CommentParts><Abstract><Para>Initializes this object with the contents of the immutable bytes (unsigned char) from the given pointer. If length is not given or is less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the string MUST be <codeVoice>nil<\/codeVoice> terminated. If the length is less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> and the string is NOT <codeVoice>nil<\/codeVoice> terminated then the behavior of this initializer is undefined.<\/Para><\/Abstract><Parameters><Parameter><Name>cString<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The pointer to the bytes.<\/Para><\/Discussion><\/Parameter><Parameter><Name>length<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The length of the string. If less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the string MUST be <codeVoice>nil<\/codeVoice> terminated.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character encoding used. Defaults to UTF-8.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 158,
+          "key.doc.name": "init(utf8String:length:encoding:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The pointer to the bytes."
+                }
+              ],
+              "name": "cString"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The length of the string. If less than <code><\/code> then the string MUST be `nil` terminated."
+                }
+              ],
+              "name": "length"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The character encoding used. Defaults to UTF-8."
+                }
+              ],
+              "name": "encoding"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 776,
+          "key.docline": 146,
+          "key.docoffset": 7862,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>utf8String<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon13ByteROPointera\">ByteROPointer<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>length<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = -1<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type> = String.Encoding.utf8<\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 532,
+          "key.line": 158,
+          "key.name": "init(utf8String:length:encoding:)",
+          "key.namecolumn": 12,
+          "key.namelength": 99,
+          "key.nameline": 158,
+          "key.nameoffset": 8649,
+          "key.offset": 8649,
+          "key.parsed_declaration": "public init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.parsed_scope.end": 167,
+          "key.parsed_scope.start": 158,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC6stringACSS_tcfc\">init(string:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringCACycfc\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc\">init(byteBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc\">init(charBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafeMutablePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(_:length:encoding:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let length: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>length<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 55,
+              "key.line": 159,
+              "key.name": "length",
+              "key.namecolumn": 13,
+              "key.namelength": 6,
+              "key.nameline": 159,
+              "key.nameoffset": 8763,
+              "key.offset": 8759,
+              "key.parsed_declaration": "let length: Int = (cStrLen(cStringPtr: utf8String) + 1)",
+              "key.parsed_scope.end": 159,
+              "key.parsed_scope.start": 159,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfcAEL0_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let s: <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>s<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 261,
+              "key.line": 160,
+              "key.name": "s",
+              "key.namecolumn": 13,
+              "key.namelength": 1,
+              "key.nameline": 160,
+              "key.nameoffset": 8827,
+              "key.offset": 8823,
+              "key.parsed_declaration": "let s: CCharBuffer = utf8String.withMemoryRebound(to: CChar.self, capacity: length) { (p: CCharROPointer) -> CCharBuffer in\n    let p2: CCharROPointer = p\n    return CCharBuffer(start: UnsafeMutablePointer(mutating: p2), count: length)\n}",
+              "key.parsed_scope.end": 160,
+              "key.parsed_scope.start": 160,
+              "key.typename": "UnsafeMutableBufferPointer<Int8>",
+              "key.typeusr": "$sSrys4Int8VGD",
+              "key.usr": "s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc1sL_Srys4Int8VGvp"
+            }
+          ],
+          "key.typename": "(CString.Type) -> (UnsafePointer<UInt8>, Int, String.Encoding) -> CString",
+          "key.typeusr": "$s10utf8String6length8encoding7Rubicon7CStringCSPys5UInt8VG_SiSS10FoundationE8EncodingVtcD",
+          "key.usr": "s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public init(utf8String: <Type usr=\"s:7Rubicon11BytePointera\">BytePointer<\/Type>, length: <Type usr=\"s:Si\">Int<\/Type> = -1, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 181,
+              "key.offset": 10072
+            }
+          ],
+          "key.bodycolumn": 111,
+          "key.bodylength": 349,
+          "key.bodyline": 181,
+          "key.bodyoffset": 10178,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Initializes this object with the contents of the mutable bytes (unsigned char) from the given pointer. If\nlength is not given or is less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code> then the string\nMUST be `nil` terminated. If the length is less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>\nand the string is NOT `nil` terminated then the behavior of this initializer is undefined.\n\n- Parameters:\n  - cString: The pointer to the bytes.\n  - length: The length of the string. If less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>\n            then the string MUST be `nil` terminated.\n  - encoding: The character encoding used. Defaults to UTF-8.",
+          "key.doc.declaration": "public init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"181\" column=\"12\"><Name>init(utf8String:length:encoding:)<\/Name><USR>s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc<\/USR><Declaration>public init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/Declaration><CommentParts><Abstract><Para>Initializes this object with the contents of the mutable bytes (unsigned char) from the given pointer. If length is not given or is less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the string MUST be <codeVoice>nil<\/codeVoice> terminated. If the length is less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> and the string is NOT <codeVoice>nil<\/codeVoice> terminated then the behavior of this initializer is undefined.<\/Para><\/Abstract><Parameters><Parameter><Name>cString<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The pointer to the bytes.<\/Para><\/Discussion><\/Parameter><Parameter><Name>length<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The length of the string. If less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> then the string MUST be <codeVoice>nil<\/codeVoice> terminated.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character encoding used. Defaults to UTF-8.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 181,
+          "key.doc.name": "init(utf8String:length:encoding:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The pointer to the bytes."
+                }
+              ],
+              "name": "cString"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The length of the string. If less than <code><\/code> then the string MUST be `nil` terminated."
+                }
+              ],
+              "name": "length"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The character encoding used. Defaults to UTF-8."
+                }
+              ],
+              "name": "encoding"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 766,
+          "key.docline": 170,
+          "key.docoffset": 9302,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>utf8String<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon11BytePointera\">BytePointer<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>length<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = -1<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type> = String.Encoding.utf8<\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 449,
+          "key.line": 181,
+          "key.name": "init(utf8String:length:encoding:)",
+          "key.namecolumn": 12,
+          "key.namelength": 97,
+          "key.nameline": 181,
+          "key.nameoffset": 10079,
+          "key.offset": 10079,
+          "key.parsed_declaration": "public init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.parsed_scope.end": 189,
+          "key.parsed_scope.start": 181,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC6stringACSS_tcfc\">init(string:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringCACycfc\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc\">init(byteBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc\">init(charBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafeMutablePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(_:length:encoding:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let length: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>length<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 55,
+              "key.line": 182,
+              "key.name": "length",
+              "key.namecolumn": 13,
+              "key.namelength": 6,
+              "key.nameline": 182,
+              "key.nameoffset": 10191,
+              "key.offset": 10187,
+              "key.parsed_declaration": "let length: Int = (cStrLen(cStringPtr: utf8String) + 1)",
+              "key.parsed_scope.end": 182,
+              "key.parsed_scope.start": 182,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfcAEL0_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let s: <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>s<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 180,
+              "key.line": 183,
+              "key.name": "s",
+              "key.namecolumn": 13,
+              "key.namelength": 1,
+              "key.nameline": 183,
+              "key.nameoffset": 10255,
+              "key.offset": 10251,
+              "key.parsed_declaration": "let s: CCharBuffer = utf8String.withMemoryRebound(to: CChar.self, capacity: length) { (p: CCharPointer) -> CCharBuffer in\n    CCharBuffer(start: p, count: length)\n}",
+              "key.parsed_scope.end": 183,
+              "key.parsed_scope.start": 183,
+              "key.typename": "UnsafeMutableBufferPointer<Int8>",
+              "key.typeusr": "$sSrys4Int8VGD",
+              "key.usr": "s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc1sL_Srys4Int8VGvp"
+            }
+          ],
+          "key.typename": "(CString.Type) -> (UnsafeMutablePointer<UInt8>, Int, String.Encoding) -> CString",
+          "key.typeusr": "$s10utf8String6length8encoding7Rubicon7CStringCSpys5UInt8VG_SiSS10FoundationE8EncodingVtcD",
+          "key.usr": "s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>init(_ cString: <Type usr=\"s:7Rubicon12CCharPointera\">CCharPointer<\/Type>, length: <Type usr=\"s:Si\">Int<\/Type>, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type>)<\/Declaration>",
+          "key.bodycolumn": 76,
+          "key.bodylength": 108,
+          "key.bodyline": 199,
+          "key.bodyoffset": 10903,
+          "key.column": 5,
+          "key.doc.column": 5,
+          "key.doc.comment": "Used internally.\n\n- Parameters:\n  - cString: The characters.\n  - length: The number of characters.\n  - encoding: The encoding.",
+          "key.doc.declaration": "init(_ cString: CCharPointer, length: Int, encoding: String.Encoding)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"199\" column=\"5\"><Name>init(_:length:encoding:)<\/Name><USR>s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc<\/USR><Declaration>init(_ cString: CCharPointer, length: Int, encoding: String.Encoding)<\/Declaration><CommentParts><Abstract><Para>Used internally.<\/Para><\/Abstract><Parameters><Parameter><Name>cString<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The characters.<\/Para><\/Discussion><\/Parameter><Parameter><Name>length<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of characters.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The encoding.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 199,
+          "key.doc.name": "init(_:length:encoding:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The characters."
+                }
+              ],
+              "name": "cString"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The number of characters."
+                }
+              ],
+              "name": "length"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The encoding."
+                }
+              ],
+              "name": "encoding"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 179,
+          "key.docline": 192,
+          "key.docoffset": 10649,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cString<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon12CCharPointera\">CCharPointer<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>length<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 180,
+          "key.line": 199,
+          "key.name": "init(_:length:encoding:)",
+          "key.namecolumn": 5,
+          "key.namelength": 69,
+          "key.nameline": 199,
+          "key.nameoffset": 10832,
+          "key.offset": 10832,
+          "key.parsed_declaration": "init(_ cString: CCharPointer, length: Int, encoding: String.Encoding)",
+          "key.parsed_scope.end": 202,
+          "key.parsed_scope.start": 199,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC6stringACSS_tcfc\">init(string:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringCACycfc\">init()<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10byteBuffer17hasNullTerminator8encodingACSRys5UInt8VG_SbSS10FoundationE8EncodingVtcfc\">init(byteBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10charBuffer17hasNullTerminator8encodingACSRys4Int8VG_SbSS10FoundationE8EncodingVtcfc\">init(charBuffer:hasNullTerminator:encoding:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSPys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC7cString6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc\">init(cString: UnsafeMutablePointer&lt;CChar&gt;, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSPys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: ByteROPointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7CStringC10utf8String6length8encodingACSpys5UInt8VG_SiSS10FoundationE8EncodingVtcfc\">init(utf8String: BytePointer, length: Int = -1, encoding: String.Encoding = String.Encoding.utf8)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(CString.Type) -> (UnsafeMutablePointer<Int8>, Int, String.Encoding) -> CString",
+          "key.typeusr": "$s_6length8encoding7Rubicon7CStringCSpys4Int8VG_SiSS10FoundationE8EncodingVtcD",
+          "key.usr": "s:7Rubicon7CStringC_6length8encodingACSpys4Int8VG_SiSS10FoundationE8EncodingVtcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>deinit<\/Declaration>",
+          "key.bodycolumn": 13,
+          "key.bodylength": 34,
+          "key.bodyline": 204,
+          "key.bodyoffset": 11026,
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.destructor><syntaxtype.keyword>deinit<\/syntaxtype.keyword><\/decl.function.destructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 43,
+          "key.line": 204,
+          "key.name": "deinit",
+          "key.namecolumn": 5,
+          "key.namelength": 6,
+          "key.nameline": 204,
+          "key.nameoffset": 11018,
+          "key.offset": 11018,
+          "key.parsed_declaration": "deinit",
+          "key.parsed_scope.end": 206,
+          "key.parsed_scope.start": 204,
+          "key.substructure": [
+          ],
+          "key.typename": "(CString) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon7CStringCfd"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withCString&lt;T&gt;(_ block: (<Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;) throws -&gt; <Type usr=\"s:7Rubicon7CStringC04withB0yxxSRys4Int8VGKXEKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7CStringC04withB0yxxSRys4Int8VGKXEKlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 83,
+              "key.length": 8,
+              "key.line": 217,
+              "key.offset": 11672
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 217,
+              "key.offset": 11594
+            }
+          ],
+          "key.bodycolumn": 98,
+          "key.bodylength": 53,
+          "key.bodyline": 217,
+          "key.bodyoffset": 11687,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Execute the block with an\n<code>[UnsafeBufferPointer](https:\/\/developer.apple.com\/documentation\/swift\/unsafebufferpointer\/)<\/code>\nof <code>[Int8](https:\/\/developer.apple.com\/documentation\/swift\/int8\/)<\/code> characters.\n\n- Parameter block: the block to execute.\n- Returns: The value returned by the block.\n- Throws: Any error thrown by the block.",
+          "key.doc.declaration": "public func withCString<T>(_ block: (UnsafeBufferPointer<CChar>) throws -> T) rethrows -> T",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"217\" column=\"17\"><Name>withCString(_:)<\/Name><USR>s:7Rubicon7CStringC04withB0yxxSRys4Int8VGKXEKlF<\/USR><Declaration>public func withCString&lt;T&gt;(_ block: (UnsafeBufferPointer&lt;CChar&gt;) throws -&gt; T) rethrows -&gt; T<\/Declaration><CommentParts><Abstract><Para>Execute the block with an <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/unsafebufferpointer\/\">UnsafeBufferPointer<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/int8\/\">Int8<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> characters.<\/Para><\/Abstract><Parameters><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the block to execute.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value returned by the block.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any error thrown by the block.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 217,
+          "key.doc.name": "withCString(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the block to execute."
+                }
+              ],
+              "name": "block"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The value returned by the block."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 408,
+          "key.docline": 209,
+          "key.docoffset": 11182,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withCString<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7CStringC04withB0yxxSRys4Int8VGKXEKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>block<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7CStringC04withB0yxxSRys4Int8VGKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7CStringC04withB0yxxSRys4Int8VGKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 140,
+          "key.line": 217,
+          "key.name": "withCString(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 65,
+          "key.nameline": 217,
+          "key.nameoffset": 11606,
+          "key.offset": 11601,
+          "key.parsed_declaration": "public func withCString<T>(_ block: (UnsafeBufferPointer<CChar>) throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 219,
+          "key.parsed_scope.start": 217,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 29,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 217,
+              "key.name": "T",
+              "key.namecolumn": 29,
+              "key.namelength": 1,
+              "key.nameline": 217,
+              "key.nameoffset": 11618,
+              "key.offset": 11618,
+              "key.parsed_declaration": "public func withCString<T",
+              "key.parsed_scope.end": 217,
+              "key.parsed_scope.start": 217,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:7Rubicon7CStringC04withB0yxxSRys4Int8VGKXEKlF1TL_xmfp"
+            }
+          ],
+          "key.typename": "<T> (CString) -> ((UnsafeBufferPointer<Int8>) throws -> T) throws -> T",
+          "key.typeusr": "$syxxSRys4Int8VGKXEKcluD",
+          "key.usr": "s:7Rubicon7CStringC04withB0yxxSRys4Int8VGKXEKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withUTF8String&lt;T&gt;(_ block: (<Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;) throws -&gt; <Type usr=\"s:7Rubicon7CStringC14withUTF8StringyxxSRys5UInt8VGKXEKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7CStringC14withUTF8StringyxxSRys5UInt8VGKXEKlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 86,
+              "key.length": 8,
+              "key.line": 230,
+              "key.offset": 12294
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 230,
+              "key.offset": 12213
+            }
+          ],
+          "key.bodycolumn": 101,
+          "key.bodylength": 159,
+          "key.bodyline": 230,
+          "key.bodyoffset": 12309,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Execute the block with an\n<code>[UnsafeBufferPointer](https:\/\/developer.apple.com\/documentation\/swift\/unsafebufferpointer\/)<\/code>\nof UTF-8 encoded characters.\n\n- Parameter block: the block to execute.\n- Returns: The value returned by the block.\n- Throws: Any error thrown by the block.",
+          "key.doc.declaration": "public func withUTF8String<T>(_ block: (UnsafeBufferPointer<UInt8>) throws -> T) rethrows -> T",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"230\" column=\"17\"><Name>withUTF8String(_:)<\/Name><USR>s:7Rubicon7CStringC14withUTF8StringyxxSRys5UInt8VGKXEKlF<\/USR><Declaration>public func withUTF8String&lt;T&gt;(_ block: (UnsafeBufferPointer&lt;UInt8&gt;) throws -&gt; T) rethrows -&gt; T<\/Declaration><CommentParts><Abstract><Para>Execute the block with an <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/unsafebufferpointer\/\">UnsafeBufferPointer<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> of UTF-8 encoded characters.<\/Para><\/Abstract><Parameters><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the block to execute.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value returned by the block.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any error thrown by the block.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 230,
+          "key.doc.name": "withUTF8String(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the block to execute."
+                }
+              ],
+              "name": "block"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The value returned by the block."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 347,
+          "key.docline": 222,
+          "key.docoffset": 11862,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withUTF8String<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7CStringC14withUTF8StringyxxSRys5UInt8VGKXEKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>block<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7CStringC14withUTF8StringyxxSRys5UInt8VGKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7CStringC14withUTF8StringyxxSRys5UInt8VGKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 249,
+          "key.line": 230,
+          "key.name": "withUTF8String(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 68,
+          "key.nameline": 230,
+          "key.nameoffset": 12225,
+          "key.offset": 12220,
+          "key.parsed_declaration": "public func withUTF8String<T>(_ block: (UnsafeBufferPointer<UInt8>) throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 234,
+          "key.parsed_scope.start": 230,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 32,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 230,
+              "key.name": "T",
+              "key.namecolumn": 32,
+              "key.namelength": 1,
+              "key.nameline": 230,
+              "key.nameoffset": 12240,
+              "key.offset": 12240,
+              "key.parsed_declaration": "public func withUTF8String<T",
+              "key.parsed_scope.end": 230,
+              "key.parsed_scope.start": 230,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:7Rubicon7CStringC14withUTF8StringyxxSRys5UInt8VGKXEKlF1TL_xmfp"
+            }
+          ],
+          "key.typename": "<T> (CString) -> ((UnsafeBufferPointer<UInt8>) throws -> T) throws -> T",
+          "key.typeusr": "$syxxSRys5UInt8VGKXEKcluD",
+          "key.usr": "s:7Rubicon7CStringC14withUTF8StringyxxSRys5UInt8VGKXEKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withNullTerminatedCString&lt;T&gt;(_ block: (<Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;, <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon7CStringC018withNullTerminatedB0yxxSPys4Int8VG_SitKXEKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7CStringC018withNullTerminatedB0yxxSPys4Int8VG_SitKXEKlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 96,
+              "key.length": 8,
+              "key.line": 244,
+              "key.offset": 12994
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 244,
+              "key.offset": 12903
+            }
+          ],
+          "key.bodycolumn": 111,
+          "key.bodylength": 194,
+          "key.bodyline": 244,
+          "key.bodyoffset": 13009,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Execute the block with an UnsafePointer of\n<code>[Int8](https:\/\/developer.apple.com\/documentation\/swift\/int8\/)<\/code> characters.\n\n- Parameter block: the block to execute.\n- Returns: The value returned by the block.\n- Throws: Any error thrown by the block.",
+          "key.doc.declaration": "public func withNullTerminatedCString<T>(_ block: (UnsafePointer<CChar>, Int) throws -> T) rethrows -> T",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"244\" column=\"17\"><Name>withNullTerminatedCString(_:)<\/Name><USR>s:7Rubicon7CStringC018withNullTerminatedB0yxxSPys4Int8VG_SitKXEKlF<\/USR><Declaration>public func withNullTerminatedCString&lt;T&gt;(_ block: (UnsafePointer&lt;CChar&gt;, Int) throws -&gt; T) rethrows -&gt; T<\/Declaration><CommentParts><Abstract><Para>Execute the block with an UnsafePointer of <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/int8\/\">Int8<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> characters.<\/Para><\/Abstract><Parameters><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the block to execute.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value returned by the block.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any error thrown by the block.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 244,
+          "key.doc.name": "withNullTerminatedCString(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the block to execute."
+                }
+              ],
+              "name": "block"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The value returned by the block."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 309,
+          "key.docline": 237,
+          "key.docoffset": 12590,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withNullTerminatedCString<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7CStringC018withNullTerminatedB0yxxSPys4Int8VG_SitKXEKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>block<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7CStringC018withNullTerminatedB0yxxSPys4Int8VG_SitKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7CStringC018withNullTerminatedB0yxxSPys4Int8VG_SitKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 294,
+          "key.line": 244,
+          "key.name": "withNullTerminatedCString(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 78,
+          "key.nameline": 244,
+          "key.nameoffset": 12915,
+          "key.offset": 12910,
+          "key.parsed_declaration": "public func withNullTerminatedCString<T>(_ block: (UnsafePointer<CChar>, Int) throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 250,
+          "key.parsed_scope.start": 244,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 43,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 244,
+              "key.name": "T",
+              "key.namecolumn": 43,
+              "key.namelength": 1,
+              "key.nameline": 244,
+              "key.nameoffset": 12941,
+              "key.offset": 12941,
+              "key.parsed_declaration": "public func withNullTerminatedCString<T",
+              "key.parsed_scope.end": 244,
+              "key.parsed_scope.start": 244,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:7Rubicon7CStringC018withNullTerminatedB0yxxSPys4Int8VG_SitKXEKlF1TL_xmfp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>var nullChar: <Type usr=\"s:s5CChara\">CChar<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>nullChar<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 23,
+              "key.line": 248,
+              "key.name": "nullChar",
+              "key.namecolumn": 13,
+              "key.namelength": 8,
+              "key.nameline": 248,
+              "key.nameoffset": 13140,
+              "key.offset": 13136,
+              "key.parsed_declaration": "var nullChar: CChar = 0",
+              "key.parsed_scope.end": 248,
+              "key.parsed_scope.start": 248,
+              "key.typename": "Int8",
+              "key.typeusr": "$ss4Int8VD",
+              "key.usr": "s:7Rubicon7CStringC018withNullTerminatedB0yxxSPys4Int8VG_SitKXEKlF8nullCharL_AFvp"
+            }
+          ],
+          "key.typename": "<T> (CString) -> ((UnsafePointer<Int8>, Int) throws -> T) throws -> T",
+          "key.typeusr": "$syxxSPys4Int8VG_SitKXEKcluD",
+          "key.usr": "s:7Rubicon7CStringC018withNullTerminatedB0yxxSPys4Int8VG_SitKXEKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withNullTerminatedUTF8String&lt;T&gt;(_ block: (<Type usr=\"s:7Rubicon13ByteROPointera\">ByteROPointer<\/Type>, <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon7CStringC28withNullTerminatedUTF8StringyxxSPys5UInt8VG_SitKXEKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7CStringC28withNullTerminatedUTF8StringyxxSPys5UInt8VG_SitKXEKlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 92,
+              "key.length": 8,
+              "key.line": 259,
+              "key.offset": 13648
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 259,
+              "key.offset": 13561
+            }
+          ],
+          "key.bodycolumn": 107,
+          "key.bodylength": 294,
+          "key.bodyline": 259,
+          "key.bodyoffset": 13663,
+          "key.column": 12,
+          "key.doc.column": 17,
+          "key.doc.comment": "Execute the block with an UnsafePointer of UTF-8 characters.\n\n- Parameter block: the block to execute.\n- Returns: The value returned by the block.\n- Throws: Any error thrown by the block.",
+          "key.doc.declaration": "public func withNullTerminatedUTF8String<T>(_ block: (ByteROPointer, Int) throws -> T) rethrows -> T",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"259\" column=\"17\"><Name>withNullTerminatedUTF8String(_:)<\/Name><USR>s:7Rubicon7CStringC28withNullTerminatedUTF8StringyxxSPys5UInt8VG_SitKXEKlF<\/USR><Declaration>public func withNullTerminatedUTF8String&lt;T&gt;(_ block: (ByteROPointer, Int) throws -&gt; T) rethrows -&gt; T<\/Declaration><CommentParts><Abstract><Para>Execute the block with an UnsafePointer of UTF-8 characters.<\/Para><\/Abstract><Parameters><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the block to execute.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value returned by the block.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any error thrown by the block.<\/Para><\/ThrowsDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 259,
+          "key.doc.name": "withNullTerminatedUTF8String(_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the block to execute."
+                }
+              ],
+              "name": "block"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The value returned by the block."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 232,
+          "key.docline": 253,
+          "key.docoffset": 13325,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withNullTerminatedUTF8String<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7CStringC28withNullTerminatedUTF8StringyxxSPys5UInt8VG_SitKXEKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>block<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon13ByteROPointera\">ByteROPointer<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7CStringC28withNullTerminatedUTF8StringyxxSPys5UInt8VG_SitKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7CStringC28withNullTerminatedUTF8StringyxxSPys5UInt8VG_SitKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 390,
+          "key.line": 259,
+          "key.name": "withNullTerminatedUTF8String(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 74,
+          "key.nameline": 259,
+          "key.nameoffset": 13573,
+          "key.offset": 13568,
+          "key.parsed_declaration": "public func withNullTerminatedUTF8String<T>(_ block: (ByteROPointer, Int) throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 267,
+          "key.parsed_scope.start": 259,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 46,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 259,
+              "key.name": "T",
+              "key.namecolumn": 46,
+              "key.namelength": 1,
+              "key.nameline": 259,
+              "key.nameoffset": 13602,
+              "key.offset": 13602,
+              "key.parsed_declaration": "public func withNullTerminatedUTF8String<T",
+              "key.parsed_scope.end": 259,
+              "key.parsed_scope.start": 259,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:7Rubicon7CStringC28withNullTerminatedUTF8StringyxxSPys5UInt8VG_SitKXEKlF1TL_xmfp"
+            }
+          ],
+          "key.typename": "<T> (CString) -> ((UnsafePointer<UInt8>, Int) throws -> T) throws -> T",
+          "key.typeusr": "$syxxSPys5UInt8VG_SitKXEKcluD",
+          "key.usr": "s:7Rubicon7CStringC28withNullTerminatedUTF8StringyxxSPys5UInt8VG_SitKXEKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public static func newUtf8BufferOf(length: <Type usr=\"s:Si\">Int<\/Type>, _ block: (<Type usr=\"s:7Rubicon11BytePointera\">BytePointer<\/Type>, <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:7Rubicon7CStringC\">CString<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 294,
+              "key.offset": 15438
+            }
+          ],
+          "key.bodycolumn": 109,
+          "key.bodylength": 259,
+          "key.bodyline": 294,
+          "key.bodyoffset": 15542,
+          "key.column": 12,
+          "key.doc.column": 24,
+          "key.doc.comment": "Create a new CString and do something with it right away. So, for example, instead of having to do this:\n\n<pre>\n   let buffer = UnsafeMutablePointer<Int8>.allocate(capacity: 256)\n   defer { buffer.deallocate() }\n   guard strerror_r(code, buffer, 255) == 0 else { return \"Unknown Error: \\(code)\" }\n   let str = String(utf8String: buffer) ?? \"Unknown Error: \\(code)\"\n<\/pre>\n\nYou can, instead, do this:\n\n<pre>\n    let str = (CString.newUtf8BufferOf(length: 255) { ((strerror_r(code, $0, $1) == 0) ? strlen($0) : -1) })?.string ?? \"Unknown Error: \\(code)\"\n<\/pre>\n\n- Parameters:\n  - length: The length of the buffer to create NOT INCLUDING the `nil` terminator.\n  - block: The closure that will get executed. The buffer and it's length, NOT INCLUDING the `nil`\n           terminator, will be passed to the closure. Upon success the closure should return the actual\n           length of the C string in the buffer, NOT INCLUDING, the `nil` terminator. If there was an\n           error then the closure should return -1 to indicate that the buffer does not contain a valid C\n           string.\n- Returns: An instance of CString or `nil` if -1 was returned from the closure.",
+          "key.doc.declaration": "public static func newUtf8BufferOf(length: Int, _ block: (BytePointer, Int) throws -> Int) -> CString?",
+          "key.doc.discussion": [
+            {
+              "Para": "You can, instead, do this:"
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"294\" column=\"24\"><Name>newUtf8BufferOf(length:_:)<\/Name><USR>s:7Rubicon7CStringC15newUtf8BufferOf6length_ACSgSi_SiSpys5UInt8VG_SitKXEtFZ<\/USR><Declaration>public static func newUtf8BufferOf(length: Int, _ block: (BytePointer, Int) throws -&gt; Int) -&gt; CString?<\/Declaration><CommentParts><Abstract><Para>Create a new CString and do something with it right away. So, for example, instead of having to do this:<\/Para><\/Abstract><Parameters><Parameter><Name>length<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The length of the buffer to create NOT INCLUDING the <codeVoice>nil<\/codeVoice> terminator.<\/Para><\/Discussion><\/Parameter><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The closure that will get executed. The buffer and it’s length, NOT INCLUDING the <codeVoice>nil<\/codeVoice> terminator, will be passed to the closure. Upon success the closure should return the actual length of the C string in the buffer, NOT INCLUDING, the <codeVoice>nil<\/codeVoice> terminator. If there was an error then the closure should return -1 to indicate that the buffer does not contain a valid C string.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An instance of CString or <codeVoice>nil<\/codeVoice> if -1 was returned from the closure.<\/Para><\/ResultDiscussion><Discussion><rawHTML><![CDATA[<pre>\n   let buffer = UnsafeMutablePointer<Int8>.allocate(capacity: 256)\n   defer { buffer.deallocate() }\n   guard strerror_r(code, buffer, 255) == 0 else { return \"Unknown Error: \\(code)\" }\n   let str = String(utf8String: buffer) ?? \"Unknown Error: \\(code)\"\n<\/pre>\n]]><\/rawHTML><Para>You can, instead, do this:<\/Para><rawHTML><![CDATA[<pre>\n    let str = (CString.newUtf8BufferOf(length: 255) { ((strerror_r(code, $0, $1) == 0) ? strlen($0) : -1) })?.string ?? \"Unknown Error: \\(code)\"\n<\/pre>\n]]><\/rawHTML><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 294,
+          "key.doc.name": "newUtf8BufferOf(length:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The length of the buffer to create NOT INCLUDING the `nil` terminator."
+                }
+              ],
+              "name": "length"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The closure that will get executed. The buffer and it’s length, NOT INCLUDING the `nil` terminator, will be passed to the closure. Upon success the closure should return the actual length of the C string in the buffer, NOT INCLUDING, the `nil` terminator. If there was an error then the closure should return -1 to indicate that the buffer does not contain a valid C string."
+                }
+              ],
+              "name": "block"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An instance of CString or `nil` if -1 was returned from the closure."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1355,
+          "key.docline": 270,
+          "key.docoffset": 14079,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.method.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>newUtf8BufferOf<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>length<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>block<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon11BytePointera\">BytePointer<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.class usr=\"s:7Rubicon7CStringC\">CString<\/ref.class>?<\/decl.function.returntype><\/decl.function.method.static>",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 357,
+          "key.line": 294,
+          "key.name": "newUtf8BufferOf(length:_:)",
+          "key.namecolumn": 24,
+          "key.namelength": 71,
+          "key.nameline": 294,
+          "key.nameoffset": 15457,
+          "key.offset": 15445,
+          "key.parsed_declaration": "public static func newUtf8BufferOf(length: Int, _ block: (BytePointer, Int) throws -> Int) -> CString?",
+          "key.parsed_scope.end": 300,
+          "key.parsed_scope.start": 294,
+          "key.substructure": [
+          ],
+          "key.typename": "(CString.Type) -> (Int, (UnsafeMutablePointer<UInt8>, Int) throws -> Int) -> CString?",
+          "key.typeusr": "$s6length_7Rubicon7CStringCSgSi_SiSpys5UInt8VG_SitKXEtcD",
+          "key.usr": "s:7Rubicon7CStringC15newUtf8BufferOf6length_ACSgSi_SiSpys5UInt8VG_SitKXEtFZ"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public static func newCCharBufferOf(length: <Type usr=\"s:Si\">Int<\/Type>, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8, _ block: (<Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;, <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:7Rubicon7CStringC\">CString<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 328,
+              "key.offset": 17459
+            }
+          ],
+          "key.bodycolumn": 176,
+          "key.bodylength": 840,
+          "key.bodyline": 328,
+          "key.bodyoffset": 17630,
+          "key.column": 12,
+          "key.doc.column": 24,
+          "key.doc.comment": "Create a new CString and do something with it right away. So, for example, instead of having to do this:\n\n<pre>\n   let buffer = UnsafeMutablePointer<Int8>.allocate(capacity: 256)\n   defer { buffer.deallocate() }\n   guard strerror_r(code, buffer, 255) == 0 else { return \"Unknown Error: \\(code)\" }\n   let str = String(cString: buffer, encoding: String.Encoding.windowsCP1250) ?? \"Unknown Error: \\(code)\"\n<\/pre>\n\nYou can, instead, do this:\n\n<pre>\n    let str = (CString.newCCharBufferOf(length: 255, encoding: String.Encoding.windowsCP1250) { ((strerror_r(code, $0, $1) == 0) ? strlen($0) : -1) })?.string ?? \"Unknown Error: \\(code)\"\n<\/pre>\n\n- Parameters:\n  - length: The length of the buffer to create NOT INCLUDING the `nil` terminator.\n  - encoding: The encoding that the characters are expected to be in. Defaults to UTF-8.\n  - block: The closure that will get executed. The buffer and it's length, NOT INCLUDING the `nil`\n           terminator, will be passed to the closure. Upon success the closure should return the actual\n           length of the C string in the buffer, NOT INCLUDING, the `nil` terminator. If there was an\n           error then the closure should return -1 to indicate that the buffer does not contain a valid C\n           string.\n- Returns: An instance of CString or `nil` if -1 was returned from the closure.",
+          "key.doc.declaration": "public static func newCCharBufferOf(length: Int, encoding: String.Encoding = String.Encoding.utf8, _ block: (UnsafeMutablePointer<CChar>, Int) throws -> Int) -> CString?",
+          "key.doc.discussion": [
+            {
+              "Para": "You can, instead, do this:"
+            }
+          ],
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift\" line=\"328\" column=\"24\"><Name>newCCharBufferOf(length:encoding:_:)<\/Name><USR>s:7Rubicon7CStringC16newCCharBufferOf6length8encoding_ACSgSi_SS10FoundationE8EncodingVSiSpys4Int8VG_SitKXEtFZ<\/USR><Declaration>public static func newCCharBufferOf(length: Int, encoding: String.Encoding = String.Encoding.utf8, _ block: (UnsafeMutablePointer&lt;CChar&gt;, Int) throws -&gt; Int) -&gt; CString?<\/Declaration><CommentParts><Abstract><Para>Create a new CString and do something with it right away. So, for example, instead of having to do this:<\/Para><\/Abstract><Parameters><Parameter><Name>length<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The length of the buffer to create NOT INCLUDING the <codeVoice>nil<\/codeVoice> terminator.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The encoding that the characters are expected to be in. Defaults to UTF-8.<\/Para><\/Discussion><\/Parameter><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The closure that will get executed. The buffer and it’s length, NOT INCLUDING the <codeVoice>nil<\/codeVoice> terminator, will be passed to the closure. Upon success the closure should return the actual length of the C string in the buffer, NOT INCLUDING, the <codeVoice>nil<\/codeVoice> terminator. If there was an error then the closure should return -1 to indicate that the buffer does not contain a valid C string.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>An instance of CString or <codeVoice>nil<\/codeVoice> if -1 was returned from the closure.<\/Para><\/ResultDiscussion><Discussion><rawHTML><![CDATA[<pre>\n   let buffer = UnsafeMutablePointer<Int8>.allocate(capacity: 256)\n   defer { buffer.deallocate() }\n   guard strerror_r(code, buffer, 255) == 0 else { return \"Unknown Error: \\(code)\" }\n   let str = String(cString: buffer, encoding: String.Encoding.windowsCP1250) ?? \"Unknown Error: \\(code)\"\n<\/pre>\n]]><\/rawHTML><Para>You can, instead, do this:<\/Para><rawHTML><![CDATA[<pre>\n    let str = (CString.newCCharBufferOf(length: 255, encoding: String.Encoding.windowsCP1250) { ((strerror_r(code, $0, $1) == 0) ? strlen($0) : -1) })?.string ?? \"Unknown Error: \\(code)\"\n<\/pre>\n]]><\/rawHTML><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 328,
+          "key.doc.name": "newCCharBufferOf(length:encoding:_:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The length of the buffer to create NOT INCLUDING the `nil` terminator."
+                }
+              ],
+              "name": "length"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The encoding that the characters are expected to be in. Defaults to UTF-8."
+                }
+              ],
+              "name": "encoding"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The closure that will get executed. The buffer and it’s length, NOT INCLUDING the `nil` terminator, will be passed to the closure. Upon success the closure should return the actual length of the C string in the buffer, NOT INCLUDING, the `nil` terminator. If there was an error then the closure should return -1 to indicate that the buffer does not contain a valid C string."
+                }
+              ],
+              "name": "block"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "An instance of CString or `nil` if -1 was returned from the closure."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1532,
+          "key.docline": 303,
+          "key.docoffset": 15923,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.function.method.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>newCCharBufferOf<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>length<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type> = String.Encoding.utf8<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>block<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.class usr=\"s:7Rubicon7CStringC\">CString<\/ref.class>?<\/decl.function.returntype><\/decl.function.method.static>",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 1005,
+          "key.line": 328,
+          "key.name": "newCCharBufferOf(length:encoding:_:)",
+          "key.namecolumn": 24,
+          "key.namelength": 138,
+          "key.nameline": 328,
+          "key.nameoffset": 17478,
+          "key.offset": 17466,
+          "key.parsed_declaration": "public static func newCCharBufferOf(length: Int, encoding: String.Encoding = String.Encoding.utf8, _ block: (UnsafeMutablePointer<CChar>, Int) throws -> Int) -> CString?",
+          "key.parsed_scope.end": 356,
+          "key.parsed_scope.start": 328,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let length: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>length<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 53,
+              "key.line": 329,
+              "key.name": "length",
+              "key.namecolumn": 13,
+              "key.namelength": 6,
+              "key.nameline": 329,
+              "key.nameoffset": 17643,
+              "key.offset": 17639,
+              "key.parsed_declaration": "let length: Int         = ((length < 0) ? 0 : length)",
+              "key.parsed_scope.end": 329,
+              "key.parsed_scope.start": 329,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon7CStringC16newCCharBufferOf6length8encoding_ACSgSi_SS10FoundationE8EncodingVSiSpys4Int8VG_SitKXEtFZAEL0_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let buffer: <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>buffer<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 68,
+              "key.line": 330,
+              "key.name": "buffer",
+              "key.namecolumn": 13,
+              "key.namelength": 6,
+              "key.nameline": 330,
+              "key.nameoffset": 17705,
+              "key.offset": 17701,
+              "key.parsed_declaration": "let buffer: CCharBuffer = CCharBuffer.allocate(capacity: length + 1)",
+              "key.parsed_scope.end": 330,
+              "key.parsed_scope.start": 330,
+              "key.typename": "UnsafeMutableBufferPointer<Int8>",
+              "key.typeusr": "$sSrys4Int8VGD",
+              "key.usr": "s:7Rubicon7CStringC16newCCharBufferOf6length8encoding_ACSgSi_SS10FoundationE8EncodingVSiSpys4Int8VG_SitKXEtFZ6bufferL_SryALGvp"
+            }
+          ],
+          "key.typename": "(CString.Type) -> (Int, String.Encoding, (UnsafeMutablePointer<Int8>, Int) throws -> Int) -> CString?",
+          "key.typeusr": "$s6length8encoding_7Rubicon7CStringCSgSi_SS10FoundationE8EncodingVSiSpys4Int8VG_SitKXEtcD",
+          "key.usr": "s:7Rubicon7CStringC16newCCharBufferOf6length8encoding_ACSgSi_SS10FoundationE8EncodingVSiSpys4Int8VG_SitKXEtFZ"
+        }
+      ],
+      "key.typename": "CString.Type",
+      "key.typeusr": "$s7Rubicon7CStringCmD",
+      "key.usr": "s:7Rubicon7CStringC"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.internal",
+      "key.annotated_decl": "<Declaration>func cString004() -&gt; <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+      "key.bodycolumn": 35,
+      "key.bodylength": 107,
+      "key.bodyline": 359,
+      "key.bodyoffset": 18509,
+      "key.column": 1,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>cString004<\/decl.name>() -&gt; <decl.function.returntype><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.function.returntype><\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 142,
+      "key.line": 359,
+      "key.name": "cString004()",
+      "key.namecolumn": 6,
+      "key.namelength": 12,
+      "key.nameline": 359,
+      "key.nameoffset": 18480,
+      "key.offset": 18475,
+      "key.parsed_declaration": "func cString004() -> CCharBuffer",
+      "key.parsed_scope.end": 363,
+      "key.parsed_scope.start": 359,
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>let cb: <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cb<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+          "key.kind": "source.lang.swift.decl.var.local",
+          "key.length": 55,
+          "key.line": 360,
+          "key.name": "cb",
+          "key.namecolumn": 9,
+          "key.namelength": 2,
+          "key.nameline": 360,
+          "key.nameoffset": 18518,
+          "key.offset": 18514,
+          "key.parsed_declaration": "let cb: CCharBuffer = CCharBuffer.allocate(capacity: 1)",
+          "key.parsed_scope.end": 360,
+          "key.parsed_scope.start": 360,
+          "key.typename": "UnsafeMutableBufferPointer<Int8>",
+          "key.typeusr": "$sSrys4Int8VGD",
+          "key.usr": "s:7Rubicon10cString004Srys4Int8VGyF2cbL_AEvp"
+        }
+      ],
+      "key.typename": "() -> UnsafeMutableBufferPointer<Int8>",
+      "key.typeusr": "$sSrys4Int8VGycD",
+      "key.usr": "s:7Rubicon10cString004Srys4Int8VGyF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.internal",
+      "key.annotated_decl": "<Declaration>func cString003(_ charBuffer: <Type usr=\"s:7Rubicon13CCharROBuffera\">CCharROBuffer<\/Type>, _ hasNullTerminator: <Type usr=\"s:Sb\">Bool<\/Type>) -&gt; <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+      "key.bodycolumn": 89,
+      "key.bodylength": 276,
+      "key.bodyline": 365,
+      "key.bodyoffset": 18707,
+      "key.column": 1,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>cString003<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>charBuffer<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon13CCharROBuffera\">CCharROBuffer<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>hasNullTerminator<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.function.returntype><\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 365,
+      "key.line": 365,
+      "key.name": "cString003(_:_:)",
+      "key.namecolumn": 6,
+      "key.namelength": 66,
+      "key.nameline": 365,
+      "key.nameoffset": 18624,
+      "key.offset": 18619,
+      "key.parsed_declaration": "func cString003(_ charBuffer: CCharROBuffer, _ hasNullTerminator: Bool) -> CCharBuffer",
+      "key.parsed_scope.end": 373,
+      "key.parsed_scope.start": 365,
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>let p2c: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>p2c<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+          "key.kind": "source.lang.swift.decl.var.local",
+          "key.length": 40,
+          "key.line": 366,
+          "key.name": "p2c",
+          "key.namecolumn": 9,
+          "key.namelength": 3,
+          "key.nameline": 366,
+          "key.nameoffset": 18716,
+          "key.offset": 18712,
+          "key.parsed_declaration": "let p2c:  Int         = charBuffer.count",
+          "key.parsed_scope.end": 366,
+          "key.parsed_scope.start": 366,
+          "key.typename": "Int",
+          "key.typeusr": "$sSiD",
+          "key.usr": "s:7Rubicon10cString003ySrys4Int8VGSRyADG_SbtF3p2cL_Sivp"
+        },
+        {
+          "key.annotated_decl": "<Declaration>let cstr: <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+          "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cstr<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+          "key.kind": "source.lang.swift.decl.var.local",
+          "key.length": 91,
+          "key.line": 367,
+          "key.name": "cstr",
+          "key.namecolumn": 9,
+          "key.namelength": 4,
+          "key.nameline": 367,
+          "key.nameoffset": 18761,
+          "key.offset": 18757,
+          "key.parsed_declaration": "let cstr: CCharBuffer = CCharBuffer.allocate(capacity: hasNullTerminator ? p2c : (p2c + 1))",
+          "key.parsed_scope.end": 367,
+          "key.parsed_scope.start": 367,
+          "key.typename": "UnsafeMutableBufferPointer<Int8>",
+          "key.typeusr": "$sSrys4Int8VGD",
+          "key.usr": "s:7Rubicon10cString003ySrys4Int8VGSRyADG_SbtF4cstrL_AEvp"
+        }
+      ],
+      "key.typename": "(UnsafeBufferPointer<Int8>, Bool) -> UnsafeMutableBufferPointer<Int8>",
+      "key.typeusr": "$sySrys4Int8VGSRyABG_SbtcD",
+      "key.usr": "s:7Rubicon10cString003ySrys4Int8VGSRyADG_SbtF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.internal",
+      "key.annotated_decl": "<Declaration>func cString002(_ byteBuffer: <Type usr=\"s:7Rubicon12ByteROBuffera\">ByteROBuffer<\/Type>, _ hasNullTerminator: <Type usr=\"s:Sb\">Bool<\/Type>) -&gt; <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+      "key.bodycolumn": 88,
+      "key.bodylength": 123,
+      "key.bodyline": 375,
+      "key.bodyoffset": 19073,
+      "key.column": 1,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>cString002<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>byteBuffer<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon12ByteROBuffera\">ByteROBuffer<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>hasNullTerminator<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.function.returntype><\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 211,
+      "key.line": 375,
+      "key.name": "cString002(_:_:)",
+      "key.namecolumn": 6,
+      "key.namelength": 65,
+      "key.nameline": 375,
+      "key.nameoffset": 18991,
+      "key.offset": 18986,
+      "key.parsed_declaration": "func cString002(_ byteBuffer: ByteROBuffer, _ hasNullTerminator: Bool) -> CCharBuffer",
+      "key.parsed_scope.end": 379,
+      "key.parsed_scope.start": 375,
+      "key.substructure": [
+      ],
+      "key.typename": "(UnsafeBufferPointer<UInt8>, Bool) -> UnsafeMutableBufferPointer<Int8>",
+      "key.typeusr": "$sySrys4Int8VGSRys5UInt8VG_SbtcD",
+      "key.usr": "s:7Rubicon10cString002ySrys4Int8VGSRys5UInt8VG_SbtF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.internal",
+      "key.annotated_decl": "<Declaration>func cString001(_ string: <Type usr=\"s:SS\">String<\/Type>) -&gt; <Type usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/Type><\/Declaration>",
+      "key.bodycolumn": 51,
+      "key.bodylength": 142,
+      "key.bodyline": 381,
+      "key.bodyoffset": 19249,
+      "key.column": 1,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/CStrings.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>cString001<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>string<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.typealias usr=\"s:7Rubicon11CCharBuffera\">CCharBuffer<\/ref.typealias><\/decl.function.returntype><\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 193,
+      "key.line": 381,
+      "key.name": "cString001(_:)",
+      "key.namecolumn": 6,
+      "key.namelength": 28,
+      "key.nameline": 381,
+      "key.nameoffset": 19204,
+      "key.offset": 19199,
+      "key.parsed_declaration": "func cString001(_ string: String) -> CCharBuffer",
+      "key.parsed_scope.end": 385,
+      "key.parsed_scope.start": 381,
+      "key.substructure": [
+      ],
+      "key.typename": "(String) -> UnsafeMutableBufferPointer<Int8>",
+      "key.typeusr": "$sySrys4Int8VGSScD",
+      "key.usr": "s:7Rubicon10cString001ySrys4Int8VGSSF"
+    }
+  ]
+}

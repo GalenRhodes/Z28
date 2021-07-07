@@ -1,0 +1,129 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 2652,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>typealias NSRange = <Type usr=\"c:@S@_NSRange\">_NSRange<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 28,
+          "key.offset": 1316
+        }
+      ],
+      "key.bodycolumn": 27,
+      "key.bodylength": 1308,
+      "key.bodyline": 28,
+      "key.bodyoffset": 1342,
+      "key.column": 8,
+      "key.doc.comment": "Extensions to <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code>",
+      "key.doccolumn": 1,
+      "key.doclength": 107,
+      "key.docline": 26,
+      "key.docoffset": 1209,
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Headers\/NSRange.h",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>NSRange<\/decl.name> = <ref.struct usr=\"c:@S@_NSRange\">_NSRange<\/ref.struct><\/decl.typealias>",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 1328,
+      "key.line": 28,
+      "key.modulename": "Foundation.NSRange",
+      "key.name": "NSRange",
+      "key.namecolumn": 18,
+      "key.namelength": 7,
+      "key.nameline": 28,
+      "key.nameoffset": 1333,
+      "key.offset": 1323,
+      "key.parsed_declaration": "public extension NSRange",
+      "key.parsed_scope.end": 45,
+      "key.parsed_scope.start": 28,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func strRange&lt;S&gt;(string: <Type usr=\"s:So8_NSRangeV7RubiconE8strRange6stringSnySS5IndexVGSgx_tSyRzlF1SL_xmfp\">S<\/Type>) -&gt; <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type>&gt;? where <Type usr=\"s:So8_NSRangeV7RubiconE8strRange6stringSnySS5IndexVGSgx_tSyRzlF1SL_xmfp\">S<\/Type> : <Type usr=\"s:Sy\">StringProtocol<\/Type><\/Declaration>",
+          "key.bodycolumn": 83,
+          "key.bodylength": 59,
+          "key.bodyline": 42,
+          "key.bodyoffset": 2589,
+          "key.column": 5,
+          "key.doc.column": 10,
+          "key.doc.comment": "Converts this <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code> into a\n[Range](https:\/\/developer.apple.com\/documentation\/swift\/range)&lt;[String.Index](https:\/\/developer.apple.com\/documentation\/swift\/string\/index)&gt;\nfor the given <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string)<\/code>. Returns `nil`\nif this <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code> is not valid\nfor the given [String](https:\/\/developer.apple.com\/documentation\/swift\/string)<\/code>.\n\n- Parameter string: the <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string)<\/code>.\n- Returns: The slice range for the given string based on this\n           <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code> or `nil`\n           if this <code>[NSRange](https:\/\/developer.apple.com\/documentation\/foundation\/nsrange)<\/code> is\n           not valid.",
+          "key.doc.declaration": "func strRange<S>(string: S) -> Range<String.Index>? where S : StringProtocol",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/NSRange.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/NSRange.swift\" line=\"42\" column=\"10\"><Name>strRange(string:)<\/Name><USR>s:So8_NSRangeV7RubiconE8strRange6stringSnySS5IndexVGSgx_tSyRzlF<\/USR><Declaration>func strRange&lt;S&gt;(string: S) -&gt; Range&lt;String.Index&gt;? where S : StringProtocol<\/Declaration><CommentParts><Abstract><Para>Converts this <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/nsrange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> into a <Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/range\">Range<\/Link>&lt;<Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/index\">String.Index<\/Link>&gt; for the given <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>. Returns <codeVoice>nil<\/codeVoice> if this <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/nsrange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> is not valid for the given <Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Abstract><Parameters><Parameter><Name>string<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The slice range for the given string based on this <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/nsrange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> or <codeVoice>nil<\/codeVoice> if this <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/nsrange\">NSRange<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> is not valid.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 42,
+          "key.doc.name": "strRange(string:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the <code><\/code>."
+                }
+              ],
+              "name": "string"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The slice range for the given string based on this <code><\/code> or `nil` if this <code><\/code> is not valid."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 1045,
+          "key.docline": 30,
+          "key.docoffset": 1462,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/NSRange.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>strRange<\/decl.name>&lt;<decl.generic_type_param usr=\"s:So8_NSRangeV7RubiconE8strRange6stringSnySS5IndexVGSgx_tSyRzlF1SL_xmfp\"><decl.generic_type_param.name>S<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>string<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:So8_NSRangeV7RubiconE8strRange6stringSnySS5IndexVGSgx_tSyRzlF1SL_xmfp\">S<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct>&gt;?<\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:So8_NSRangeV7RubiconE8strRange6stringSnySS5IndexVGSgx_tSyRzlF1SL_xmfp\">S<\/ref.generic_type_param> : <ref.protocol usr=\"s:Sy\">StringProtocol<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 138,
+          "key.line": 42,
+          "key.name": "strRange(string:)",
+          "key.namecolumn": 10,
+          "key.namelength": 22,
+          "key.nameline": 42,
+          "key.nameoffset": 2516,
+          "key.offset": 2511,
+          "key.parsed_declaration": "func strRange<S>(string: S) -> Range<String.Index>? where S : StringProtocol",
+          "key.parsed_scope.end": 44,
+          "key.parsed_scope.start": 42,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>S<\/Declaration>",
+              "key.column": 19,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/NSRange.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>S<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 42,
+              "key.name": "S",
+              "key.namecolumn": 19,
+              "key.namelength": 1,
+              "key.nameline": 42,
+              "key.nameoffset": 2525,
+              "key.offset": 2525,
+              "key.parsed_declaration": "func strRange<S",
+              "key.parsed_scope.end": 42,
+              "key.parsed_scope.start": 42,
+              "key.typename": "S.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:So8_NSRangeV7RubiconE8strRange6stringSnySS5IndexVGSgx_tSyRzlF1SL_xmfp"
+            }
+          ],
+          "key.typename": "<S where S : StringProtocol> (_NSRange) -> (S) -> Range<String.Index>?",
+          "key.typeusr": "$s6stringSnySS5IndexVGSgx_tcSyRzluD",
+          "key.usr": "s:So8_NSRangeV7RubiconE8strRange6stringSnySS5IndexVGSgx_tSyRzlF"
+        }
+      ],
+      "key.typename": "_NSRange.Type",
+      "key.typeusr": "$sSo8_NSRangeVmD",
+      "key.usr": "c:@T@NSRange"
+    }
+  ]
+}

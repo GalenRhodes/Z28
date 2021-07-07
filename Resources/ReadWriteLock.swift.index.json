@@ -1,0 +1,1520 @@
+{
+  "key.dependencies": [
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Swift"
+    },
+    {
+      "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Rubicon-2R5RRMVLV2Q6N.pcm",
+      "key.kind": "source.lang.swift.import.module.clang",
+      "key.name": "Rubicon"
+    },
+    {
+      "key.dependencies": [
+        {
+          "key.dependencies": [
+            {
+              "key.dependencies": [
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "Darwin"
+                },
+                {
+                  "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.swift",
+                  "key.name": "Swift"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftOverlayShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftOverlayShims"
+                },
+                {
+                  "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/SwiftShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system": true,
+                  "key.kind": "source.lang.swift.import.module.clang",
+                  "key.name": "SwiftShims"
+                }
+              ],
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Combine"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreFoundation-RZX25862PY17.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreFoundation"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreFoundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/CoreGraphics-MC4FPA2MN9QR.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "CoreGraphics"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Darwin"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreGraphics.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "CoreGraphics"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Darwin"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Combine"
+            },
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Dispatch-2M9AOUJY3TW9V.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "Dispatch"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Dispatch.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Dispatch"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Foundation-2FJBXN8U6QRTS.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "Foundation"
+        },
+        {
+          "key.dependencies": [
+            {
+              "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/ObjectiveC-1A3ZNHZR9RRLF.pcm",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.clang",
+              "key.name": "ObjectiveC"
+            },
+            {
+              "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+              "key.is_system": true,
+              "key.kind": "source.lang.swift.import.module.swift",
+              "key.name": "Swift"
+            }
+          ],
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/ObjectiveC.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "ObjectiveC"
+        },
+        {
+          "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/x86_64-apple-macos.swiftinterface",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.swift",
+          "key.name": "Swift"
+        },
+        {
+          "key.filepath": "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/7GCZNIU52ZBT\/Darwin-1IVCWVLR6MT9T.pcm",
+          "key.is_system": true,
+          "key.kind": "source.lang.swift.import.module.clang",
+          "key.name": "uuid"
+        }
+      ],
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Foundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "Foundation"
+    },
+    {
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/x86_64-apple-macos.swiftinterface",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.import.module.swift",
+      "key.name": "CoreFoundation"
+    }
+  ],
+  "key.entities": [
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 18,
+      "key.name": "Foundation",
+      "key.usr": "c:@M@Foundation"
+    },
+    {
+      "key.column": 8,
+      "key.kind": "source.lang.swift.ref.module",
+      "key.line": 19,
+      "key.name": "CoreFoundation",
+      "key.usr": "c:@M@CoreFoundation"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.fileprivate"
+        }
+      ],
+      "key.column": 27,
+      "key.effective_access": "source.decl.effective_access.fileprivate",
+      "key.entities": [
+        {
+          "key.column": 38,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 29,
+          "key.name": "UnsafeMutablePointer",
+          "key.usr": "s:Sp"
+        },
+        {
+          "key.column": 59,
+          "key.kind": "source.lang.swift.ref.typealias",
+          "key.line": 29,
+          "key.name": "pthread_rwlock_t",
+          "key.usr": "c:@T@pthread_rwlock_t"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.line": 29,
+      "key.name": "OSRWLock",
+      "key.usr": "s:7Rubicon8OSRWLock33_6CEBF4EDDA5249F085750ADC76DE2741LLa"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.fileprivate"
+        }
+      ],
+      "key.column": 27,
+      "key.effective_access": "source.decl.effective_access.fileprivate",
+      "key.entities": [
+        {
+          "key.column": 41,
+          "key.kind": "source.lang.swift.ref.typealias",
+          "key.line": 30,
+          "key.name": "pthread_key_t",
+          "key.usr": "c:@T@pthread_key_t"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.line": 30,
+      "key.name": "OSThreadKey",
+      "key.usr": "s:7Rubicon11OSThreadKey33_6CEBF4EDDA5249F085750ADC76DE2741LLa"
+    },
+    {
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.open"
+        }
+      ],
+      "key.column": 12,
+      "key.effective_access": "source.decl.effective_access.public",
+      "key.entities": [
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 18,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.column": 33,
+              "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.line": 34,
+              "key.name": "None",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO4NoneyA2FmF"
+            },
+            {
+              "key.column": 39,
+              "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.line": 34,
+              "key.name": "Read",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0B0yA2FmF"
+            },
+            {
+              "key.column": 45,
+              "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.line": 34,
+              "key.name": "Write",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0C0yA2FmF"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.enum",
+          "key.line": 34,
+          "key.name": "RWState",
+          "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO"
+        },
+        {
+          "key.column": 6,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 36,
+          "key.name": "ThreadLocal",
+          "key.usr": "s:7Rubicon11ThreadLocalC"
+        },
+        {
+          "key.column": 6,
+          "key.is_implicit": true,
+          "key.kind": "source.lang.swift.ref.function.constructor",
+          "key.line": 36,
+          "key.usr": "s:7Rubicon11ThreadLocalC12wrappedValueACyxGx_tcfc"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            },
+            {
+              "key.attribute": "source.decl.attribute._custom"
+            }
+          ],
+          "key.column": 30,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.private"
+                },
+                {
+                  "key.attribute": "source.decl.attribute._custom"
+                }
+              ],
+              "key.column": 30,
+              "key.is_dynamic": true,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 36,
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+            },
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.private"
+                },
+                {
+                  "key.attribute": "source.decl.attribute._custom"
+                }
+              ],
+              "key.column": 30,
+              "key.is_dynamic": true,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.setter",
+              "key.line": 36,
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvs"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 36,
+          "key.name": "rwState",
+          "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+        },
+        {
+          "key.column": 39,
+          "key.kind": "source.lang.swift.ref.enum",
+          "key.line": 36,
+          "key.name": "RWState",
+          "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO"
+        },
+        {
+          "key.column": 50,
+          "key.kind": "source.lang.swift.ref.enumelement",
+          "key.line": 36,
+          "key.name": "None",
+          "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO4NoneyA2FmF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private"
+            }
+          ],
+          "key.column": 30,
+          "key.effective_access": "source.decl.effective_access.less_than_fileprivate",
+          "key.entities": [
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.private"
+                }
+              ],
+              "key.column": 30,
+              "key.is_dynamic": true,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 37,
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+            },
+            {
+              "key.attributes": [
+                {
+                  "key.attribute": "source.decl.attribute.private"
+                }
+              ],
+              "key.column": 30,
+              "key.is_dynamic": true,
+              "key.is_implicit": true,
+              "key.kind": "source.lang.swift.decl.function.accessor.setter",
+              "key.line": 37,
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvs"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 37,
+          "key.name": "lock",
+          "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+        },
+        {
+          "key.column": 39,
+          "key.kind": "source.lang.swift.ref.typealias",
+          "key.line": 37,
+          "key.name": "OSRWLock",
+          "key.usr": "s:7Rubicon8OSRWLock33_6CEBF4EDDA5249F085750ADC76DE2741LLa"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public"
+            }
+          ],
+          "key.column": 12,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 40,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 40,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 16,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 40,
+              "key.name": "OSRWLock",
+              "key.usr": "s:7Rubicon8OSRWLock33_6CEBF4EDDA5249F085750ADC76DE2741LLa"
+            },
+            {
+              "key.column": 25,
+              "key.kind": "source.lang.swift.ref.function.method.static",
+              "key.line": 40,
+              "key.name": "allocate(capacity:)",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sp8allocate8capacitySpyxGSi_tFZ"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 44,
+              "key.name": "pthread_rwlock_init(_:_:)",
+              "key.usr": "c:@F@pthread_rwlock_init"
+            },
+            {
+              "key.column": 39,
+              "key.entities": [
+                {
+                  "key.column": 39,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 44,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 44,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 50,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 44,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:s5Int32V",
+              "key.usr": "s:s5Int32V2eeoiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 62,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 44,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 46,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 46,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 46,
+              "key.name": "None",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO4NoneyA2FmF"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.constructor",
+          "key.line": 39,
+          "key.name": "init()",
+          "key.usr": "s:7Rubicon13ReadWriteLockCACycfc"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.objc"
+            }
+          ],
+          "key.column": 5,
+          "key.entities": [
+            {
+              "key.column": 13,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 51,
+              "key.name": "pthread_rwlock_destroy(_:)",
+              "key.usr": "c:@F@pthread_rwlock_destroy"
+            },
+            {
+              "key.column": 36,
+              "key.entities": [
+                {
+                  "key.column": 36,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 51,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 51,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 53,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 53,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 14,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 53,
+              "key.name": "deallocate()",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sp10deallocateyyF"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.function.destructor",
+          "key.line": 49,
+          "key.name": "deinit",
+          "key.usr": "s:7Rubicon13ReadWriteLockCfd"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 15,
+              "key.entities": [
+                {
+                  "key.column": 15,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 57,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 57,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 27,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 57,
+              "key.name": "None",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO4NoneyA2FmF"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 57,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 87,
+              "key.entities": [
+                {
+                  "key.column": 87,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 57,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 57,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 99,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 57,
+              "key.name": "Read",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0B0yA2FmF"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 61,
+              "key.name": "pthread_rwlock_rdlock(_:)",
+              "key.usr": "c:@F@pthread_rwlock_rdlock"
+            },
+            {
+              "key.column": 41,
+              "key.entities": [
+                {
+                  "key.column": 41,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 61,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 61,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 61,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:s5Int32V",
+              "key.usr": "s:s5Int32V2eeoiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 59,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 61,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 63,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 63,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 63,
+              "key.name": "Read",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0B0yA2FmF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 56,
+          "key.name": "readLock()",
+          "key.usr": "s:7Rubicon13ReadWriteLockC04readD0yyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 32,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 66,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 15,
+              "key.entities": [
+                {
+                  "key.column": 15,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 67,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 67,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 27,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 67,
+              "key.name": "None",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO4NoneyA2FmF"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 67,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 87,
+              "key.entities": [
+                {
+                  "key.column": 87,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 67,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 67,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 99,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 67,
+              "key.name": "Read",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0B0yA2FmF"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 68,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 72,
+              "key.name": "pthread_rwlock_tryrdlock(_:)",
+              "key.usr": "c:@F@pthread_rwlock_tryrdlock"
+            },
+            {
+              "key.column": 46,
+              "key.entities": [
+                {
+                  "key.column": 46,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 72,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 72,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 73,
+              "key.name": "value(_:isOneOf:)",
+              "key.usr": "s:7Rubicon5value_7isOneOfSbx_xdtSQRzlF"
+            },
+            {
+              "key.column": 40,
+              "key.entities": [
+                {
+                  "key.column": 40,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 73,
+                  "key.usr": "s:SC5EBUSYs5Int32Vvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.global",
+              "key.line": 73,
+              "key.name": "EBUSY",
+              "key.usr": "c:@macro@EBUSY"
+            },
+            {
+              "key.column": 54,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 73,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 74,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:s5Int32V",
+              "key.usr": "s:s5Int32V2eeoiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 22,
+              "key.entities": [
+                {
+                  "key.column": 22,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 76,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 76,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 76,
+              "key.name": "Read",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0B0yA2FmF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 66,
+          "key.name": "tryReadLock()",
+          "key.usr": "s:7Rubicon13ReadWriteLockC03trybD0SbyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 15,
+              "key.entities": [
+                {
+                  "key.column": 15,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 81,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 81,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 27,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 81,
+              "key.name": "None",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO4NoneyA2FmF"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 81,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 87,
+              "key.entities": [
+                {
+                  "key.column": 87,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 81,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 81,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 99,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 81,
+              "key.name": "Read",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0B0yA2FmF"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 85,
+              "key.name": "pthread_rwlock_wrlock(_:)",
+              "key.usr": "c:@F@pthread_rwlock_wrlock"
+            },
+            {
+              "key.column": 41,
+              "key.entities": [
+                {
+                  "key.column": 41,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 85,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 85,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 85,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:s5Int32V",
+              "key.usr": "s:s5Int32V2eeoiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 59,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 85,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 87,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 87,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 87,
+              "key.name": "Write",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0C0yA2FmF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 80,
+          "key.name": "writeLock()",
+          "key.usr": "s:7Rubicon13ReadWriteLockC05writeD0yyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 90,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 15,
+              "key.entities": [
+                {
+                  "key.column": 15,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 91,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 91,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 27,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 91,
+              "key.name": "None",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO4NoneyA2FmF"
+            },
+            {
+              "key.column": 39,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 91,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 87,
+              "key.entities": [
+                {
+                  "key.column": 87,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 91,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 91,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 99,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 91,
+              "key.name": "Read",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0B0yA2FmF"
+            },
+            {
+              "key.column": 22,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 92,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 96,
+              "key.name": "pthread_rwlock_tryrdlock(_:)",
+              "key.usr": "c:@F@pthread_rwlock_tryrdlock"
+            },
+            {
+              "key.column": 46,
+              "key.entities": [
+                {
+                  "key.column": 46,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 96,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 96,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 97,
+              "key.name": "value(_:isOneOf:)",
+              "key.usr": "s:7Rubicon5value_7isOneOfSbx_xdtSQRzlF"
+            },
+            {
+              "key.column": 40,
+              "key.entities": [
+                {
+                  "key.column": 40,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 97,
+                  "key.usr": "s:SC5EBUSYs5Int32Vvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.global",
+              "key.line": 97,
+              "key.name": "EBUSY",
+              "key.usr": "c:@macro@EBUSY"
+            },
+            {
+              "key.column": 54,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 97,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 26,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 98,
+              "key.name": "==(_:_:)",
+              "key.receiver_usr": "s:s5Int32V",
+              "key.usr": "s:s5Int32V2eeoiySbAB_ABtFZ"
+            },
+            {
+              "key.column": 22,
+              "key.entities": [
+                {
+                  "key.column": 22,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 100,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 100,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 100,
+              "key.name": "Write",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0C0yA2FmF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 90,
+          "key.name": "tryWriteLock()",
+          "key.usr": "s:7Rubicon13ReadWriteLockC03trycD0SbyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 16,
+              "key.entities": [
+                {
+                  "key.column": 16,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 105,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 105,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 106,
+              "key.name": "Read",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0B0yA2FmF"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 110,
+              "key.name": "pthread_rwlock_unlock(_:)",
+              "key.usr": "c:@F@pthread_rwlock_unlock"
+            },
+            {
+              "key.column": 43,
+              "key.entities": [
+                {
+                  "key.column": 43,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 110,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 110,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 112,
+              "key.name": "Write",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO0C0yA2FmF"
+            },
+            {
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 116,
+              "key.name": "pthread_rwlock_unlock(_:)",
+              "key.usr": "c:@F@pthread_rwlock_unlock"
+            },
+            {
+              "key.column": 43,
+              "key.entities": [
+                {
+                  "key.column": 43,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 116,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvg"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 116,
+              "key.name": "lock",
+              "key.usr": "s:7Rubicon13ReadWriteLockC4lock33_6CEBF4EDDA5249F085750ADC76DE2741LLSpySo24_opaque_pthread_rwlock_tVGvp"
+            },
+            {
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 119,
+              "key.name": "fatalError(_:file:line:)",
+              "key.usr": "s:s10fatalError_4file4lines5NeverOSSyXK_s12StaticStringVSutF"
+            },
+            {
+              "key.column": 9,
+              "key.entities": [
+                {
+                  "key.column": 9,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.setter",
+                  "key.line": 121,
+                  "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+                  "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvs"
+                }
+              ],
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 121,
+              "key.name": "rwState",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7rwState33_6CEBF4EDDA5249F085750ADC76DE2741LLAC7RWStateAELLOvp"
+            },
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 121,
+              "key.name": "None",
+              "key.usr": "s:7Rubicon13ReadWriteLockC7RWState33_6CEBF4EDDA5249F085750ADC76DE2741LLO4NoneyA2FmF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 104,
+          "key.name": "unlock()",
+          "key.usr": "s:7Rubicon13ReadWriteLockC6unlockyyF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows"
+            },
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 9,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 125,
+              "key.name": "readLock()",
+              "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+              "key.usr": "s:7Rubicon13ReadWriteLockC04readD0yyF"
+            },
+            {
+              "key.column": 17,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 126,
+              "key.name": "unlock()",
+              "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+              "key.usr": "s:7Rubicon13ReadWriteLockC6unlockyyF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 124,
+          "key.name": "withReadLock(_:)",
+          "key.usr": "s:7Rubicon13ReadWriteLockC04withbD0yxxyKXEKlF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows"
+            },
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 9,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 131,
+              "key.name": "writeLock()",
+              "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+              "key.usr": "s:7Rubicon13ReadWriteLockC05writeD0yyF"
+            },
+            {
+              "key.column": 17,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 132,
+              "key.name": "unlock()",
+              "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+              "key.usr": "s:7Rubicon13ReadWriteLockC6unlockyyF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 130,
+          "key.name": "withWriteLock(_:)",
+          "key.usr": "s:7Rubicon13ReadWriteLockC04withcD0yxxyKXEKlF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows"
+            },
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 15,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 137,
+              "key.name": "tryReadLock()",
+              "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+              "key.usr": "s:7Rubicon13ReadWriteLockC03trybD0SbyF"
+            },
+            {
+              "key.column": 17,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 138,
+              "key.name": "unlock()",
+              "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+              "key.usr": "s:7Rubicon13ReadWriteLockC6unlockyyF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 136,
+          "key.name": "tryWithReadLock(_:)",
+          "key.usr": "s:7Rubicon13ReadWriteLockC07tryWithbD0yxSgxyKXEKlF"
+        },
+        {
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows"
+            },
+            {
+              "key.attribute": "source.decl.attribute.open"
+            }
+          ],
+          "key.column": 15,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
+            {
+              "key.column": 15,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 143,
+              "key.name": "tryWriteLock()",
+              "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+              "key.usr": "s:7Rubicon13ReadWriteLockC03trycD0SbyF"
+            },
+            {
+              "key.column": 17,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 144,
+              "key.name": "unlock()",
+              "key.receiver_usr": "s:7Rubicon13ReadWriteLockC",
+              "key.usr": "s:7Rubicon13ReadWriteLockC6unlockyyF"
+            }
+          ],
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 142,
+          "key.name": "tryWithWriteLock(_:)",
+          "key.usr": "s:7Rubicon13ReadWriteLockC07tryWithcD0yxSgxyKXEKlF"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.class",
+      "key.line": 33,
+      "key.name": "ReadWriteLock",
+      "key.usr": "s:7Rubicon13ReadWriteLockC"
+    }
+  ]
+}

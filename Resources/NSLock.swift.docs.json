@@ -1,0 +1,1228 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 3710,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias RecursiveLock = <Type usr=\"c:objc(cs)NSRecursiveLock\">NSRecursiveLock<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 26,
+          "key.offset": 1117
+        }
+      ],
+      "key.column": 8,
+      "key.doc.comment": "",
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>RecursiveLock<\/decl.name> = <ref.class usr=\"c:objc(cs)NSRecursiveLock\">NSRecursiveLock<\/ref.class><\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 41,
+      "key.line": 26,
+      "key.name": "RecursiveLock",
+      "key.namecolumn": 18,
+      "key.namelength": 13,
+      "key.nameline": 26,
+      "key.nameoffset": 1134,
+      "key.offset": 1124,
+      "key.parsed_declaration": "public typealias RecursiveLock = NSRecursiveLock",
+      "key.parsed_scope.end": 26,
+      "key.parsed_scope.start": 26,
+      "key.typename": "NSRecursiveLock.Type",
+      "key.typeusr": "$sSo15NSRecursiveLockCmD",
+      "key.usr": "s:7Rubicon13RecursiveLocka"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias MutexLock = <Type usr=\"c:objc(cs)NSLock\">NSLock<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 27,
+          "key.offset": 1166
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>MutexLock<\/decl.name> = <ref.class usr=\"c:objc(cs)NSLock\">NSLock<\/ref.class><\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 28,
+      "key.line": 27,
+      "key.name": "MutexLock",
+      "key.namecolumn": 18,
+      "key.namelength": 9,
+      "key.nameline": 27,
+      "key.nameoffset": 1183,
+      "key.offset": 1173,
+      "key.parsed_declaration": "public typealias MutexLock = NSLock",
+      "key.parsed_scope.end": 27,
+      "key.parsed_scope.start": 27,
+      "key.typename": "NSLock.Type",
+      "key.typeusr": "$sSo6NSLockCmD",
+      "key.usr": "s:7Rubicon9MutexLocka"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public protocol Locking : <Type usr=\"c:objc(pl)NSLocking\">NSLocking<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 29,
+          "key.offset": 1203
+        }
+      ],
+      "key.bodycolumn": 37,
+      "key.bodylength": 311,
+      "key.bodyline": 29,
+      "key.bodyoffset": 1239,
+      "key.column": 8,
+      "key.elements": [
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 9,
+          "key.line": 29,
+          "key.offset": 1228
+        }
+      ],
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+      "key.fully_annotated_decl": "<decl.protocol><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>protocol<\/syntaxtype.keyword> <decl.name>Locking<\/decl.name> : <ref.protocol usr=\"c:objc(pl)NSLocking\">NSLocking<\/ref.protocol><\/decl.protocol>",
+      "key.inheritedtypes": [
+        {
+          "key.name": "NSLocking"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.protocol",
+      "key.length": 341,
+      "key.line": 29,
+      "key.name": "Locking",
+      "key.namecolumn": 17,
+      "key.namelength": 7,
+      "key.nameline": 29,
+      "key.nameoffset": 1219,
+      "key.offset": 1210,
+      "key.parsed_declaration": "public protocol Locking: NSLocking",
+      "key.parsed_scope.end": 42,
+      "key.parsed_scope.start": 29,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>var name: <Type usr=\"s:SS\">String<\/Type>? { get set }<\/Declaration>",
+          "key.bodycolumn": 24,
+          "key.bodylength": 9,
+          "key.bodyline": 31,
+          "key.bodyoffset": 1264,
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>name<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> <syntaxtype.keyword>set<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 29,
+          "key.line": 31,
+          "key.name": "name",
+          "key.namecolumn": 9,
+          "key.namelength": 4,
+          "key.nameline": 31,
+          "key.nameoffset": 1249,
+          "key.offset": 1245,
+          "key.parsed_declaration": "var name: String?",
+          "key.parsed_scope.end": 31,
+          "key.parsed_scope.start": 31,
+          "key.setter_accessibility": "source.lang.swift.accessibility.public",
+          "key.typename": "String?",
+          "key.typeusr": "$sSSSgD",
+          "key.usr": "s:7Rubicon7LockingP4nameSSSgvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func tryLock() -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tryLock<\/decl.name>() -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 22,
+          "key.line": 33,
+          "key.name": "tryLock()",
+          "key.namecolumn": 10,
+          "key.namelength": 9,
+          "key.nameline": 33,
+          "key.nameoffset": 1285,
+          "key.offset": 1280,
+          "key.parsed_declaration": "func tryLock() -> Bool",
+          "key.parsed_scope.end": 33,
+          "key.parsed_scope.start": 33,
+          "key.typename": "<Self where Self : Locking> (Self) -> () -> Bool",
+          "key.typeusr": "$sSbycD",
+          "key.usr": "s:7Rubicon7LockingP7tryLockSbyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func lock(before limit: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>lock<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>before<\/decl.var.parameter.argument_label> <decl.var.parameter.name>limit<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 37,
+          "key.line": 35,
+          "key.name": "lock(before:)",
+          "key.namecolumn": 10,
+          "key.namelength": 24,
+          "key.nameline": 35,
+          "key.nameoffset": 1313,
+          "key.offset": 1308,
+          "key.parsed_declaration": "func lock(before limit: Date) -> Bool",
+          "key.parsed_scope.end": 35,
+          "key.parsed_scope.start": 35,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"c:objc(pl)NSLocking(im)lock\">lock()<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "<Self where Self : Locking> (Self) -> (Date) -> Bool",
+          "key.typeusr": "$s6beforeSb10Foundation4DateV_tcD",
+          "key.usr": "s:7Rubicon7LockingP4lock6beforeSb10Foundation4DateV_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func withLock&lt;T&gt;(_ body: () throws -&gt; <Type usr=\"s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF1TL_qd__mfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF1TL_qd__mfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 46,
+              "key.length": 8,
+              "key.line": 37,
+              "key.offset": 1392
+            }
+          ],
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLock<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF1TL_qd__mfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF1TL_qd__mfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF1TL_qd__mfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 54,
+          "key.line": 37,
+          "key.name": "withLock(_:)",
+          "key.namecolumn": 10,
+          "key.namelength": 35,
+          "key.nameline": 37,
+          "key.nameoffset": 1356,
+          "key.offset": 1351,
+          "key.parsed_declaration": "func withLock<T>(_ body: () throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 37,
+          "key.parsed_scope.start": 37,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF\">withLock&lt;T&gt;(before: Date, _: () throws -&gt; T) rethrows -&gt; T?<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF\">withLock&lt;T&gt;(_: () throws -&gt; T) rethrows -&gt; T<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF\">withLock&lt;T&gt;(before: Date, _: () throws -&gt; T) rethrows -&gt; T?<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 19,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 37,
+              "key.name": "T",
+              "key.namecolumn": 19,
+              "key.namelength": 1,
+              "key.nameline": 37,
+              "key.nameoffset": 1365,
+              "key.offset": 1365,
+              "key.parsed_declaration": "func withLock<T",
+              "key.parsed_scope.end": 37,
+              "key.parsed_scope.start": 37,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF1TL_qd__mfp"
+            }
+          ],
+          "key.typename": "<Self, T where Self : Locking> (Self) -> (() throws -> T) throws -> T",
+          "key.typeusr": "$syqd__qd__yKXEKcluD",
+          "key.usr": "s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func withLock&lt;T&gt;(before date: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>, _ body: () throws -&gt; <Type usr=\"s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\">T<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 65,
+              "key.length": 8,
+              "key.line": 39,
+              "key.offset": 1471
+            }
+          ],
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLock<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>before<\/decl.var.parameter.argument_label> <decl.var.parameter.name>date<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\">T<\/ref.generic_type_param>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 74,
+          "key.line": 39,
+          "key.name": "withLock(before:_:)",
+          "key.namecolumn": 10,
+          "key.namelength": 54,
+          "key.nameline": 39,
+          "key.nameoffset": 1416,
+          "key.offset": 1411,
+          "key.parsed_declaration": "func withLock<T>(before date: Date, _ body: () throws -> T) rethrows -> T?",
+          "key.parsed_scope.end": 39,
+          "key.parsed_scope.start": 39,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF\">withLock&lt;T&gt;(_: () throws -&gt; T) rethrows -&gt; T<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF\">withLock&lt;T&gt;(_: () throws -&gt; T) rethrows -&gt; T<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF\">withLock&lt;T&gt;(before: Date, _: () throws -&gt; T) rethrows -&gt; T?<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 19,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 39,
+              "key.name": "T",
+              "key.namecolumn": 19,
+              "key.namelength": 1,
+              "key.nameline": 39,
+              "key.nameoffset": 1425,
+              "key.offset": 1425,
+              "key.parsed_declaration": "func withLock<T",
+              "key.parsed_scope.end": 39,
+              "key.parsed_scope.start": 39,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp"
+            }
+          ],
+          "key.typename": "<Self, T where Self : Locking> (Self) -> (Date, () throws -> T) throws -> T?",
+          "key.typeusr": "$s6before_qd__Sg10Foundation4DateV_qd__yKXEtKcluD",
+          "key.usr": "s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>func withLockTry&lt;T&gt;(_ body: () throws -&gt; <Type usr=\"s:7Rubicon7LockingP11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7LockingP11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\">T<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 49,
+              "key.length": 8,
+              "key.line": 41,
+              "key.offset": 1535
+            }
+          ],
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLockTry<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7LockingP11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingP11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingP11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\">T<\/ref.generic_type_param>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 58,
+          "key.line": 41,
+          "key.name": "withLockTry(_:)",
+          "key.namecolumn": 10,
+          "key.namelength": 38,
+          "key.nameline": 41,
+          "key.nameoffset": 1496,
+          "key.offset": 1491,
+          "key.parsed_declaration": "func withLockTry<T>(_ body: () throws -> T) rethrows -> T?",
+          "key.parsed_scope.end": 41,
+          "key.parsed_scope.start": 41,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingPAAE11withLockTryyqd__Sgqd__yKXEKlF\">withLockTry&lt;T&gt;(_: () throws -&gt; T) rethrows -&gt; T?<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 22,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 41,
+              "key.name": "T",
+              "key.namecolumn": 22,
+              "key.namelength": 1,
+              "key.nameline": 41,
+              "key.nameoffset": 1508,
+              "key.offset": 1508,
+              "key.parsed_declaration": "func withLockTry<T",
+              "key.parsed_scope.end": 41,
+              "key.parsed_scope.start": 41,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:7Rubicon7LockingP11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp"
+            }
+          ],
+          "key.typename": "<Self, T where Self : Locking> (Self) -> (() throws -> T) throws -> T?",
+          "key.typeusr": "$syqd__Sgqd__yKXEKcluD",
+          "key.usr": "s:7Rubicon7LockingP11withLockTryyqd__Sgqd__yKXEKlF"
+        }
+      ],
+      "key.typename": "Locking.Protocol",
+      "key.typeusr": "$s7Rubicon7Locking_pmD",
+      "key.usr": "s:7Rubicon7LockingP"
+    },
+    {
+      "key.annotated_decl": "<Declaration>public protocol Locking : <Type usr=\"c:objc(pl)NSLocking\">NSLocking<\/Type><\/Declaration>",
+      "key.bodycolumn": 20,
+      "key.bodylength": 521,
+      "key.bodyline": 44,
+      "key.bodyoffset": 1572,
+      "key.column": 1,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+      "key.fully_annotated_decl": "<decl.protocol><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>protocol<\/syntaxtype.keyword> <decl.name>Locking<\/decl.name> : <ref.protocol usr=\"c:objc(pl)NSLocking\">NSLocking<\/ref.protocol><\/decl.protocol>",
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 541,
+      "key.line": 44,
+      "key.name": "Locking",
+      "key.namecolumn": 11,
+      "key.namelength": 7,
+      "key.nameline": 44,
+      "key.nameoffset": 1563,
+      "key.offset": 1553,
+      "key.parsed_declaration": "extension Locking",
+      "key.parsed_scope.end": 63,
+      "key.parsed_scope.start": 44,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withLock&lt;T&gt;(_ body: () throws -&gt; <Type usr=\"s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF1TL_qd__mfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF1TL_qd__mfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 53,
+              "key.length": 8,
+              "key.line": 46,
+              "key.offset": 1626
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 46,
+              "key.offset": 1578
+            }
+          ],
+          "key.bodycolumn": 68,
+          "key.bodylength": 73,
+          "key.bodyline": 46,
+          "key.bodyoffset": 1641,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLock<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF1TL_qd__mfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF1TL_qd__mfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF1TL_qd__mfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 130,
+          "key.line": 46,
+          "key.name": "withLock(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 35,
+          "key.nameline": 46,
+          "key.nameoffset": 1590,
+          "key.offset": 1585,
+          "key.parsed_declaration": "public func withLock<T>(_ body: () throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 50,
+          "key.parsed_scope.start": 46,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF\">withLock&lt;T&gt;(_: () throws -&gt; T) rethrows -&gt; T<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF\">withLock&lt;T&gt;(before: Date, _: () throws -&gt; T) rethrows -&gt; T?<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF\">withLock&lt;T&gt;(before: Date, _: () throws -&gt; T) rethrows -&gt; T?<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 26,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 46,
+              "key.name": "T",
+              "key.namecolumn": 26,
+              "key.namelength": 1,
+              "key.nameline": 46,
+              "key.nameoffset": 1599,
+              "key.offset": 1599,
+              "key.parsed_declaration": "public func withLock<T",
+              "key.parsed_scope.end": 46,
+              "key.parsed_scope.start": 46,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF1TL_qd__mfp"
+            }
+          ],
+          "key.typename": "<Self, T where Self : Locking> (Self) -> (() throws -> T) throws -> T",
+          "key.typeusr": "$syqd__qd__yKXEKcluD",
+          "key.usr": "s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withLock&lt;T&gt;(before date: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>, _ body: () throws -&gt; <Type usr=\"s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\">T<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 72,
+              "key.length": 8,
+              "key.line": 52,
+              "key.offset": 1788
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 52,
+              "key.offset": 1721
+            }
+          ],
+          "key.bodycolumn": 88,
+          "key.bodylength": 111,
+          "key.bodyline": 52,
+          "key.bodyoffset": 1804,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLock<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>before<\/decl.var.parameter.argument_label> <decl.var.parameter.name>date<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp\">T<\/ref.generic_type_param>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 188,
+          "key.line": 52,
+          "key.name": "withLock(before:_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 54,
+          "key.nameline": 52,
+          "key.nameoffset": 1733,
+          "key.offset": 1728,
+          "key.parsed_declaration": "public func withLock<T>(before date: Date, _ body: () throws -> T) rethrows -> T?",
+          "key.parsed_scope.end": 56,
+          "key.parsed_scope.start": 52,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingP8withLockyqd__qd__yKXEKlF\">withLock&lt;T&gt;(_: () throws -&gt; T) rethrows -&gt; T<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingP8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF\">withLock&lt;T&gt;(before: Date, _: () throws -&gt; T) rethrows -&gt; T?<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingPAAE8withLockyqd__qd__yKXEKlF\">withLock&lt;T&gt;(_: () throws -&gt; T) rethrows -&gt; T<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 26,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 52,
+              "key.name": "T",
+              "key.namecolumn": 26,
+              "key.namelength": 1,
+              "key.nameline": 52,
+              "key.nameoffset": 1742,
+              "key.offset": 1742,
+              "key.parsed_declaration": "public func withLock<T",
+              "key.parsed_scope.end": 52,
+              "key.parsed_scope.start": 52,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF1TL_qd__mfp"
+            }
+          ],
+          "key.typename": "<Self, T where Self : Locking> (Self) -> (Date, () throws -> T) throws -> T?",
+          "key.typeusr": "$s6before_qd__Sg10Foundation4DateV_qd__yKXEtKcluD",
+          "key.usr": "s:7Rubicon7LockingPAAE8withLock6before_qd__Sg10Foundation4DateV_qd__yKXEtKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withLockTry&lt;T&gt;(_ body: () throws -&gt; <Type usr=\"s:7Rubicon7LockingPAAE11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon7LockingPAAE11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\">T<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 56,
+              "key.length": 8,
+              "key.line": 58,
+              "key.offset": 1973
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 58,
+              "key.offset": 1922
+            }
+          ],
+          "key.bodycolumn": 72,
+          "key.bodylength": 102,
+          "key.bodyline": 58,
+          "key.bodyoffset": 1989,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLockTry<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon7LockingPAAE11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingPAAE11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon7LockingPAAE11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp\">T<\/ref.generic_type_param>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 163,
+          "key.line": 58,
+          "key.name": "withLockTry(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 38,
+          "key.nameline": 58,
+          "key.nameoffset": 1934,
+          "key.offset": 1929,
+          "key.parsed_declaration": "public func withLockTry<T>(_ body: () throws -> T) rethrows -> T?",
+          "key.parsed_scope.end": 62,
+          "key.parsed_scope.start": 58,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon7LockingP11withLockTryyqd__Sgqd__yKXEKlF\">withLockTry&lt;T&gt;(_: () throws -&gt; T) rethrows -&gt; T?<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 29,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 58,
+              "key.name": "T",
+              "key.namecolumn": 29,
+              "key.namelength": 1,
+              "key.nameline": 58,
+              "key.nameoffset": 1946,
+              "key.offset": 1946,
+              "key.parsed_declaration": "public func withLockTry<T",
+              "key.parsed_scope.end": 58,
+              "key.parsed_scope.start": 58,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sqd__mD",
+              "key.usr": "s:7Rubicon7LockingPAAE11withLockTryyqd__Sgqd__yKXEKlF1TL_qd__mfp"
+            }
+          ],
+          "key.typename": "<Self, T where Self : Locking> (Self) -> (() throws -> T) throws -> T?",
+          "key.typeusr": "$syqd__Sgqd__yKXEKcluD",
+          "key.usr": "s:7Rubicon7LockingPAAE11withLockTryyqd__Sgqd__yKXEKlF"
+        }
+      ],
+      "key.typename": "Locking.Protocol",
+      "key.typeusr": "$s7Rubicon7Locking_pmD",
+      "key.usr": "s:7Rubicon7LockingP"
+    },
+    {
+      "key.annotated_decl": "<Declaration>public typealias MutexLock = <Type usr=\"c:objc(cs)NSLock\">NSLock<\/Type><\/Declaration>",
+      "key.bodycolumn": 31,
+      "key.bodylength": 47,
+      "key.bodyline": 65,
+      "key.bodyoffset": 2126,
+      "key.column": 1,
+      "key.elements": [
+        {
+          "key.column": 22,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 7,
+          "key.line": 65,
+          "key.offset": 2117
+        }
+      ],
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>MutexLock<\/decl.name> = <ref.class usr=\"c:objc(cs)NSLock\">NSLock<\/ref.class><\/decl.typealias>",
+      "key.inheritedtypes": [
+        {
+          "key.name": "Locking"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 78,
+      "key.line": 65,
+      "key.name": "MutexLock",
+      "key.namecolumn": 11,
+      "key.namelength": 9,
+      "key.nameline": 65,
+      "key.nameoffset": 2106,
+      "key.offset": 2096,
+      "key.parsed_declaration": "extension MutexLock: Locking",
+      "key.parsed_scope.end": 67,
+      "key.parsed_scope.start": 65,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func tryLock() -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 66,
+              "key.offset": 2131
+            }
+          ],
+          "key.bodycolumn": 36,
+          "key.bodylength": 9,
+          "key.bodyline": 66,
+          "key.bodyoffset": 2162,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tryLock<\/decl.name>() -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 34,
+          "key.line": 66,
+          "key.name": "tryLock()",
+          "key.namecolumn": 17,
+          "key.namelength": 9,
+          "key.nameline": 66,
+          "key.nameoffset": 2143,
+          "key.offset": 2138,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon7LockingP7tryLockSbyF"
+            }
+          ],
+          "key.parsed_declaration": "public func tryLock() -> Bool",
+          "key.parsed_scope.end": 66,
+          "key.parsed_scope.start": 66,
+          "key.substructure": [
+          ],
+          "key.typename": "(NSLock) -> () -> Bool",
+          "key.typeusr": "$sSbycD",
+          "key.usr": "s:So6NSLockC7RubiconE7tryLockSbyF"
+        }
+      ],
+      "key.typename": "NSLock.Type",
+      "key.typeusr": "$sSo6NSLockCmD",
+      "key.usr": "s:7Rubicon9MutexLocka"
+    },
+    {
+      "key.annotated_decl": "<Declaration>public typealias RecursiveLock = <Type usr=\"c:objc(cs)NSRecursiveLock\">NSRecursiveLock<\/Type><\/Declaration>",
+      "key.bodycolumn": 35,
+      "key.bodylength": 47,
+      "key.bodyline": 69,
+      "key.bodyoffset": 2210,
+      "key.column": 1,
+      "key.elements": [
+        {
+          "key.column": 26,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 7,
+          "key.line": 69,
+          "key.offset": 2201
+        }
+      ],
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>RecursiveLock<\/decl.name> = <ref.class usr=\"c:objc(cs)NSRecursiveLock\">NSRecursiveLock<\/ref.class><\/decl.typealias>",
+      "key.inheritedtypes": [
+        {
+          "key.name": "Locking"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 82,
+      "key.line": 69,
+      "key.name": "RecursiveLock",
+      "key.namecolumn": 11,
+      "key.namelength": 13,
+      "key.nameline": 69,
+      "key.nameoffset": 2186,
+      "key.offset": 2176,
+      "key.parsed_declaration": "extension RecursiveLock: Locking",
+      "key.parsed_scope.end": 71,
+      "key.parsed_scope.start": 69,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func tryLock() -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 70,
+              "key.offset": 2215
+            }
+          ],
+          "key.bodycolumn": 36,
+          "key.bodylength": 9,
+          "key.bodyline": 70,
+          "key.bodyoffset": 2246,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tryLock<\/decl.name>() -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 34,
+          "key.line": 70,
+          "key.name": "tryLock()",
+          "key.namecolumn": 17,
+          "key.namelength": 9,
+          "key.nameline": 70,
+          "key.nameoffset": 2227,
+          "key.offset": 2222,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon7LockingP7tryLockSbyF"
+            }
+          ],
+          "key.parsed_declaration": "public func tryLock() -> Bool",
+          "key.parsed_scope.end": 70,
+          "key.parsed_scope.start": 70,
+          "key.substructure": [
+          ],
+          "key.typename": "(NSRecursiveLock) -> () -> Bool",
+          "key.typeusr": "$sSbycD",
+          "key.usr": "s:So15NSRecursiveLockC7RubiconE03tryB0SbyF"
+        }
+      ],
+      "key.typename": "NSRecursiveLock.Type",
+      "key.typeusr": "$sSo15NSRecursiveLockCmD",
+      "key.usr": "s:7Rubicon13RecursiveLocka"
+    },
+    {
+      "key.annotated_decl": "<Declaration>class NSCondition : <Type usr=\"c:objc(cs)NSObject\">NSObject<\/Type>, <Type usr=\"c:objc(pl)NSLocking\">NSLocking<\/Type><\/Declaration>",
+      "key.bodycolumn": 24,
+      "key.bodylength": 1425,
+      "key.bodyline": 73,
+      "key.bodyoffset": 2283,
+      "key.column": 1,
+      "key.filepath": "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Headers\/NSLock.h",
+      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>NSCondition<\/decl.name> : <ref.class usr=\"c:objc(cs)NSObject\">NSObject<\/ref.class>, <ref.protocol usr=\"c:objc(pl)NSLocking\">NSLocking<\/ref.protocol><\/decl.class>",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 1449,
+      "key.line": 73,
+      "key.modulename": "Foundation.NSLock",
+      "key.name": "NSCondition",
+      "key.namecolumn": 11,
+      "key.namelength": 11,
+      "key.nameline": 73,
+      "key.nameoffset": 2270,
+      "key.offset": 2260,
+      "key.parsed_declaration": "extension NSCondition",
+      "key.parsed_scope.end": 111,
+      "key.parsed_scope.start": 73,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withLock&lt;T&gt;(_ body: () throws -&gt; <Type usr=\"s:So11NSConditionC7RubiconE8withLockyxxyKXEKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:So11NSConditionC7RubiconE8withLockyxxyKXEKlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 53,
+              "key.length": 8,
+              "key.line": 75,
+              "key.offset": 2337
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 75,
+              "key.offset": 2289
+            }
+          ],
+          "key.bodycolumn": 68,
+          "key.bodylength": 78,
+          "key.bodyline": 75,
+          "key.bodyoffset": 2352,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLock<\/decl.name>&lt;<decl.generic_type_param usr=\"s:So11NSConditionC7RubiconE8withLockyxxyKXEKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:So11NSConditionC7RubiconE8withLockyxxyKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:So11NSConditionC7RubiconE8withLockyxxyKXEKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 135,
+          "key.line": 75,
+          "key.name": "withLock(_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 35,
+          "key.nameline": 75,
+          "key.nameoffset": 2301,
+          "key.offset": 2296,
+          "key.parsed_declaration": "public func withLock<T>(_ body: () throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 79,
+          "key.parsed_scope.start": 75,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 26,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 75,
+              "key.name": "T",
+              "key.namecolumn": 26,
+              "key.namelength": 1,
+              "key.nameline": 75,
+              "key.nameoffset": 2310,
+              "key.offset": 2310,
+              "key.parsed_declaration": "public func withLock<T",
+              "key.parsed_scope.end": 75,
+              "key.parsed_scope.start": 75,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:So11NSConditionC7RubiconE8withLockyxxyKXEKlF1TL_xmfp"
+            }
+          ],
+          "key.typename": "<T> (NSCondition) -> (() throws -> T) throws -> T",
+          "key.typeusr": "$syxxyKXEKcluD",
+          "key.usr": "s:So11NSConditionC7RubiconE8withLockyxxyKXEKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withLockWait&lt;T&gt;(broadcastBeforeWait bcast: <Type usr=\"s:Sb\">Bool<\/Type> = false, _ cond: () -&gt; <Type usr=\"s:Sb\">Bool<\/Type>, do body: () throws -&gt; <Type usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 119,
+              "key.length": 8,
+              "key.line": 81,
+              "key.offset": 2551
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 81,
+              "key.offset": 2437
+            }
+          ],
+          "key.bodycolumn": 134,
+          "key.bodylength": 130,
+          "key.bodyline": 81,
+          "key.bodyoffset": 2566,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLockWait<\/decl.name>&lt;<decl.generic_type_param usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>broadcastBeforeWait<\/decl.var.parameter.argument_label> <decl.var.parameter.name>bcast<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cond<\/decl.var.parameter.name>: <decl.var.parameter.type>() -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>do<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 253,
+          "key.line": 81,
+          "key.name": "withLockWait(broadcastBeforeWait:_:do:)",
+          "key.namecolumn": 17,
+          "key.namelength": 101,
+          "key.nameline": 81,
+          "key.nameoffset": 2449,
+          "key.offset": 2444,
+          "key.parsed_declaration": "public func withLockWait<T>(broadcastBeforeWait bcast: Bool = false, _ cond: () -> Bool, do body: () throws -> T) rethrows -> T",
+          "key.parsed_scope.end": 86,
+          "key.parsed_scope.start": 81,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_ySb_SbyXEtF\">withLockWait(broadcastBeforeWait:_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF\">withLockWait(until:broadcastBeforeWait:_:do:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_Sb10Foundation4DateV_S2byXEtF\">withLockWait(until:broadcastBeforeWait:_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 30,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 81,
+              "key.name": "T",
+              "key.namecolumn": 30,
+              "key.namelength": 1,
+              "key.nameline": 81,
+              "key.nameoffset": 2462,
+              "key.offset": 2462,
+              "key.parsed_declaration": "public func withLockWait<T",
+              "key.parsed_scope.end": 81,
+              "key.parsed_scope.start": 81,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF1TL_xmfp"
+            }
+          ],
+          "key.typename": "<T> (NSCondition) -> (Bool, () -> Bool, () throws -> T) throws -> T",
+          "key.typeusr": "$s19broadcastBeforeWait_2doxSb_SbyXExyKXEtKcluD",
+          "key.usr": "s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withLockWait(broadcastBeforeWait bcast: <Type usr=\"s:Sb\">Bool<\/Type> = false, _ cond: () -&gt; <Type usr=\"s:Sb\">Bool<\/Type>)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 88,
+              "key.offset": 2703
+            }
+          ],
+          "key.bodycolumn": 92,
+          "key.bodylength": 76,
+          "key.bodyline": 88,
+          "key.bodyoffset": 2790,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLockWait<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>broadcastBeforeWait<\/decl.var.parameter.argument_label> <decl.var.parameter.name>bcast<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cond<\/decl.var.parameter.name>: <decl.var.parameter.type>() -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 157,
+          "key.line": 88,
+          "key.name": "withLockWait(broadcastBeforeWait:_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 73,
+          "key.nameline": 88,
+          "key.nameoffset": 2715,
+          "key.offset": 2710,
+          "key.parsed_declaration": "public func withLockWait(broadcastBeforeWait bcast: Bool = false, _ cond: () -> Bool)",
+          "key.parsed_scope.end": 90,
+          "key.parsed_scope.start": 88,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF\">withLockWait(broadcastBeforeWait:_:do:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF\">withLockWait(until:broadcastBeforeWait:_:do:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_Sb10Foundation4DateV_S2byXEtF\">withLockWait(until:broadcastBeforeWait:_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(NSCondition) -> (Bool, () -> Bool) -> ()",
+          "key.typeusr": "$s19broadcastBeforeWait_ySb_SbyXEtcD",
+          "key.usr": "s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_ySb_SbyXEtF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withLockWait&lt;T&gt;(until limit: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>, broadcastBeforeWait bcast: <Type usr=\"s:Sb\">Bool<\/Type> = false, _ cond: () -&gt; <Type usr=\"s:Sb\">Bool<\/Type>, do body: () throws -&gt; <Type usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF1TL_xmfp\">T<\/Type>) rethrows -&gt; <Type usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF1TL_xmfp\">T<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.rethrows",
+              "key.column": 138,
+              "key.length": 8,
+              "key.line": 92,
+              "key.offset": 3006
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 92,
+              "key.offset": 2873
+            }
+          ],
+          "key.bodycolumn": 154,
+          "key.bodylength": 134,
+          "key.bodyline": 92,
+          "key.bodyoffset": 3022,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLockWait<\/decl.name>&lt;<decl.generic_type_param usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>until<\/decl.var.parameter.argument_label> <decl.var.parameter.name>limit<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>broadcastBeforeWait<\/decl.var.parameter.argument_label> <decl.var.parameter.name>bcast<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cond<\/decl.var.parameter.name>: <decl.var.parameter.type>() -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>do<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF1TL_xmfp\">T<\/ref.generic_type_param>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 277,
+          "key.line": 92,
+          "key.name": "withLockWait(until:broadcastBeforeWait:_:do:)",
+          "key.namecolumn": 17,
+          "key.namelength": 120,
+          "key.nameline": 92,
+          "key.nameoffset": 2885,
+          "key.offset": 2880,
+          "key.parsed_declaration": "public func withLockWait<T>(until limit: Date, broadcastBeforeWait bcast: Bool = false, _ cond: () -> Bool, do body: () throws -> T) rethrows -> T?",
+          "key.parsed_scope.end": 94,
+          "key.parsed_scope.start": 92,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF\">withLockWait(broadcastBeforeWait:_:do:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_ySb_SbyXEtF\">withLockWait(broadcastBeforeWait:_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_Sb10Foundation4DateV_S2byXEtF\">withLockWait(until:broadcastBeforeWait:_:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>T<\/Declaration>",
+              "key.column": 30,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 92,
+              "key.name": "T",
+              "key.namecolumn": 30,
+              "key.namelength": 1,
+              "key.nameline": 92,
+              "key.nameoffset": 2898,
+              "key.offset": 2898,
+              "key.parsed_declaration": "public func withLockWait<T",
+              "key.parsed_scope.end": 92,
+              "key.parsed_scope.start": 92,
+              "key.typename": "T.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF1TL_xmfp"
+            }
+          ],
+          "key.typename": "<T> (NSCondition) -> (Date, Bool, () -> Bool, () throws -> T) throws -> T?",
+          "key.typeusr": "$s5until19broadcastBeforeWait_2doxSg10Foundation4DateV_S2byXExyKXEtKcluD",
+          "key.usr": "s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public func withLockWait(until limit: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>, broadcastBeforeWait bcast: <Type usr=\"s:Sb\">Bool<\/Type> = false, _ cond: () -&gt; <Type usr=\"s:Sb\">Bool<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 96,
+              "key.offset": 3163
+            }
+          ],
+          "key.bodycolumn": 119,
+          "key.bodylength": 109,
+          "key.bodyline": 96,
+          "key.bodyoffset": 3277,
+          "key.column": 12,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withLockWait<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>until<\/decl.var.parameter.argument_label> <decl.var.parameter.name>limit<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>broadcastBeforeWait<\/decl.var.parameter.argument_label> <decl.var.parameter.name>bcast<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cond<\/decl.var.parameter.name>: <decl.var.parameter.type>() -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 217,
+          "key.line": 96,
+          "key.name": "withLockWait(until:broadcastBeforeWait:_:)",
+          "key.namecolumn": 17,
+          "key.namelength": 92,
+          "key.nameline": 96,
+          "key.nameoffset": 3175,
+          "key.offset": 3170,
+          "key.parsed_declaration": "public func withLockWait(until limit: Date, broadcastBeforeWait bcast: Bool = false, _ cond: () -> Bool) -> Bool",
+          "key.parsed_scope.end": 98,
+          "key.parsed_scope.start": 96,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_2doxSb_SbyXExyKXEtKlF\">withLockWait(broadcastBeforeWait:_:do:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait015broadcastBeforeE0_ySb_SbyXEtF\">withLockWait(broadcastBeforeWait:_:)<\/RelatedName>"
+            },
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_2doxSg10Foundation4DateV_S2byXExyKXEtKlF\">withLockWait(until:broadcastBeforeWait:_:do:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(NSCondition) -> (Date, Bool, () -> Bool) -> Bool",
+          "key.typeusr": "$s5until19broadcastBeforeWait_Sb10Foundation4DateV_S2byXEtcD",
+          "key.usr": "s:So11NSConditionC7RubiconE12withLockWait5until015broadcastBeforeE0_Sb10Foundation4DateV_S2byXEtF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.private",
+          "key.annotated_decl": "<Declaration>private func bcastUnlock()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private",
+              "key.column": 5,
+              "key.length": 7,
+              "key.line": 100,
+              "key.offset": 3393
+            }
+          ],
+          "key.bodycolumn": 33,
+          "key.bodylength": 42,
+          "key.bodyline": 100,
+          "key.bodyoffset": 3421,
+          "key.column": 13,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>bcastUnlock<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 63,
+          "key.line": 100,
+          "key.name": "bcastUnlock()",
+          "key.namecolumn": 18,
+          "key.namelength": 13,
+          "key.nameline": 100,
+          "key.nameoffset": 3406,
+          "key.offset": 3401,
+          "key.parsed_declaration": "private func bcastUnlock()",
+          "key.parsed_scope.end": 103,
+          "key.parsed_scope.start": 100,
+          "key.substructure": [
+          ],
+          "key.typename": "(NSCondition) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:So11NSConditionC7RubiconE11bcastUnlock33_1C971A921DCEA3B75F3CBEB94A061373LLyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.private",
+          "key.annotated_decl": "<Declaration>@discardableResult private func bcastWait(until limit: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>? = nil, willBroadcast bcast: <Type usr=\"s:Sb\">Bool<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.private",
+              "key.column": 24,
+              "key.length": 7,
+              "key.line": 105,
+              "key.offset": 3489
+            },
+            {
+              "key.attribute": "source.decl.attribute.discardableResult",
+              "key.column": 5,
+              "key.length": 18,
+              "key.line": 105,
+              "key.offset": 3470
+            }
+          ],
+          "key.bodycolumn": 109,
+          "key.bodylength": 132,
+          "key.bodyline": 105,
+          "key.bodyoffset": 3574,
+          "key.column": 32,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/NSLock.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>bcastWait<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>until<\/decl.var.parameter.argument_label> <decl.var.parameter.name>limit<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct>?<\/decl.var.parameter.type> = nil<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>willBroadcast<\/decl.var.parameter.argument_label> <decl.var.parameter.name>bcast<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 210,
+          "key.line": 105,
+          "key.name": "bcastWait(until:willBroadcast:)",
+          "key.namecolumn": 37,
+          "key.namelength": 62,
+          "key.nameline": 105,
+          "key.nameoffset": 3502,
+          "key.offset": 3497,
+          "key.parsed_declaration": "@discardableResult private func bcastWait(until limit: Date? = nil, willBroadcast bcast: Bool) -> Bool",
+          "key.parsed_scope.end": 110,
+          "key.parsed_scope.start": 105,
+          "key.substructure": [
+          ],
+          "key.typename": "(NSCondition) -> (Date?, Bool) -> Bool",
+          "key.typeusr": "$s5until13willBroadcastSb10Foundation4DateVSg_SbtcD",
+          "key.usr": "s:So11NSConditionC7RubiconE9bcastWait33_1C971A921DCEA3B75F3CBEB94A061373LL5until13willBroadcastSb10Foundation4DateVSg_SbtF"
+        }
+      ],
+      "key.typename": "NSCondition.Type",
+      "key.typeusr": "$sSo11NSConditionCmD",
+      "key.usr": "c:objc(cs)NSCondition"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 1654,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public enum PGErrors : <Type usr=\"s:s5ErrorP\">Error<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 28,
+          "key.offset": 1435
+        }
+      ],
+      "key.bodycolumn": 30,
+      "key.bodylength": 188,
+      "key.bodyline": 28,
+      "key.bodyoffset": 1464,
+      "key.column": 8,
+      "key.doc.comment": "",
+      "key.elements": [
+        {
+          "key.column": 23,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 5,
+          "key.line": 28,
+          "key.offset": 1457
+        }
+      ],
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/PGErrors.swift",
+      "key.fully_annotated_decl": "<decl.enum><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>enum<\/syntaxtype.keyword> <decl.name>PGErrors<\/decl.name> : <ref.protocol usr=\"s:s5ErrorP\">Error<\/ref.protocol><\/decl.enum>",
+      "key.inheritedtypes": [
+        {
+          "key.name": "Error"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.enum",
+      "key.length": 211,
+      "key.line": 28,
+      "key.name": "PGErrors",
+      "key.namecolumn": 13,
+      "key.namelength": 8,
+      "key.nameline": 28,
+      "key.nameoffset": 1447,
+      "key.offset": 1442,
+      "key.parsed_declaration": "public enum PGErrors: Error",
+      "key.parsed_scope.end": 33,
+      "key.parsed_scope.start": 28,
+      "key.substructure": [
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 38,
+          "key.line": 29,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1469,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case GeneralError(description: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/PGErrors.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>GeneralError<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>description<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 33,
+              "key.line": 29,
+              "key.name": "GeneralError(description:)",
+              "key.namecolumn": 10,
+              "key.namelength": 33,
+              "key.nameline": 29,
+              "key.nameoffset": 1474,
+              "key.offset": 1474,
+              "key.parsed_declaration": "case GeneralError(description: String)",
+              "key.parsed_scope.end": 29,
+              "key.parsed_scope.start": 29,
+              "key.substructure": [
+              ],
+              "key.typename": "(PGErrors.Type) -> (String) -> PGErrors",
+              "key.typeusr": "$sy7Rubicon8PGErrorsOSS_tcACmcD",
+              "key.usr": "s:7Rubicon8PGErrorsO12GeneralErroryACSS_tcACmF"
+            }
+          ]
+        },
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 41,
+          "key.line": 30,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1512,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case UnexpectedError(description: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/PGErrors.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>UnexpectedError<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>description<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 36,
+              "key.line": 30,
+              "key.name": "UnexpectedError(description:)",
+              "key.namecolumn": 10,
+              "key.namelength": 36,
+              "key.nameline": 30,
+              "key.nameoffset": 1517,
+              "key.offset": 1517,
+              "key.parsed_declaration": "case UnexpectedError(description: String)",
+              "key.parsed_scope.end": 30,
+              "key.parsed_scope.start": 30,
+              "key.substructure": [
+              ],
+              "key.typename": "(PGErrors.Type) -> (String) -> PGErrors",
+              "key.typeusr": "$sy7Rubicon8PGErrorsOSS_tcACmcD",
+              "key.usr": "s:7Rubicon8PGErrorsO15UnexpectedErroryACSS_tcACmF"
+            }
+          ]
+        },
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 41,
+          "key.line": 31,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1558,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case IllegalArgument(description: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/PGErrors.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>IllegalArgument<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>description<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 36,
+              "key.line": 31,
+              "key.name": "IllegalArgument(description:)",
+              "key.namecolumn": 10,
+              "key.namelength": 36,
+              "key.nameline": 31,
+              "key.nameoffset": 1563,
+              "key.offset": 1563,
+              "key.parsed_declaration": "case IllegalArgument(description: String)",
+              "key.parsed_scope.end": 31,
+              "key.parsed_scope.start": 31,
+              "key.substructure": [
+              ],
+              "key.typename": "(PGErrors.Type) -> (String) -> PGErrors",
+              "key.typeusr": "$sy7Rubicon8PGErrorsOSS_tcACmcD",
+              "key.usr": "s:7Rubicon8PGErrorsO15IllegalArgumentyACSS_tcACmF"
+            }
+          ]
+        },
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 47,
+          "key.line": 32,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1604,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case InternalInconsistency(description: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/PGErrors.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>InternalInconsistency<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>description<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 42,
+              "key.line": 32,
+              "key.name": "InternalInconsistency(description:)",
+              "key.namecolumn": 10,
+              "key.namelength": 42,
+              "key.nameline": 32,
+              "key.nameoffset": 1609,
+              "key.offset": 1609,
+              "key.parsed_declaration": "case InternalInconsistency(description: String)",
+              "key.parsed_scope.end": 32,
+              "key.parsed_scope.start": 32,
+              "key.substructure": [
+              ],
+              "key.typename": "(PGErrors.Type) -> (String) -> PGErrors",
+              "key.typeusr": "$sy7Rubicon8PGErrorsOSS_tcACmcD",
+              "key.usr": "s:7Rubicon8PGErrorsO21InternalInconsistencyyACSS_tcACmF"
+            }
+          ]
+        }
+      ],
+      "key.typename": "PGErrors.Type",
+      "key.typeusr": "$s7Rubicon8PGErrorsOmD",
+      "key.usr": "s:7Rubicon8PGErrorsO"
+    }
+  ]
+}

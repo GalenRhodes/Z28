@@ -1,0 +1,772 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 4564,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public prefix func ~~ &lt;T&gt;(n: <Type usr=\"s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type>) -&gt; <Type usr=\"s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> where <Type usr=\"s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.prefix",
+          "key.column": 8,
+          "key.length": 6,
+          "key.line": 42,
+          "key.offset": 1570
+        },
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 42,
+          "key.offset": 1563
+        }
+      ],
+      "key.bodycolumn": 60,
+      "key.bodylength": 16,
+      "key.bodyline": 42,
+      "key.bodyoffset": 1622,
+      "key.column": 15,
+      "key.doc.column": 20,
+      "key.doc.comment": "Returns the two's compliment of the integer value.\n\n- Parameter n: the integer value.\n- Returns: The two's compliment.",
+      "key.doc.declaration": "public prefix func ~~ <T>(n: T) -> T where T : FixedWidthInteger",
+      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift\" line=\"42\" column=\"20\"><Name>~~(_:)<\/Name><USR>s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF<\/USR><Declaration>public prefix func ~~ &lt;T&gt;(n: T) -&gt; T where T : FixedWidthInteger<\/Declaration><CommentParts><Abstract><Para>Returns the two’s compliment of the integer value.<\/Para><\/Abstract><Parameters><Parameter><Name>n<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the integer value.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The two’s compliment.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+      "key.doc.line": 42,
+      "key.doc.name": "~~(_:)",
+      "key.doc.parameters": [
+        {
+          "discussion": [
+            {
+              "Para": "the integer value."
+            }
+          ],
+          "name": "n"
+        }
+      ],
+      "key.doc.result_discussion": [
+        {
+          "Para": "The two’s compliment."
+        }
+      ],
+      "key.doc.type": "Function",
+      "key.doccolumn": 1,
+      "key.doclength": 139,
+      "key.docline": 37,
+      "key.docoffset": 1424,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.fully_annotated_decl": "<decl.function.operator.prefix><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>prefix<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>~~ <\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.name>n<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.operator.prefix>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 62,
+      "key.line": 42,
+      "key.name": "~~(_:)",
+      "key.namecolumn": 20,
+      "key.namelength": 33,
+      "key.nameline": 42,
+      "key.nameoffset": 1582,
+      "key.offset": 1577,
+      "key.parsed_declaration": "public prefix func ~~ <T: FixedWidthInteger>(_ n: T) -> T",
+      "key.parsed_scope.end": 44,
+      "key.parsed_scope.start": 42,
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+          "key.column": 24,
+          "key.elements": [
+            {
+              "key.column": 27,
+              "key.kind": "source.lang.swift.structure.elem.typeref",
+              "key.length": 17,
+              "key.line": 42,
+              "key.offset": 1589
+            }
+          ],
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name> : <decl.generic_type_param.constraint><ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_param.constraint><\/decl.generic_type_param>",
+          "key.inheritedtypes": [
+            {
+              "key.name": "FixedWidthInteger"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 20,
+          "key.line": 42,
+          "key.name": "T",
+          "key.namecolumn": 24,
+          "key.namelength": 1,
+          "key.nameline": 42,
+          "key.nameoffset": 1586,
+          "key.offset": 1586,
+          "key.parsed_declaration": "public prefix func ~~ <T: FixedWidthInteger",
+          "key.parsed_scope.end": 42,
+          "key.parsed_scope.start": 42,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF1TL_xmfp"
+        }
+      ],
+      "key.typename": "<T where T : FixedWidthInteger> (T) -> T",
+      "key.typeusr": "$syxxcs17FixedWidthIntegerRzluD",
+      "key.usr": "s:7Rubicon2ttopyxxs17FixedWidthIntegerRzlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public func ^^ &lt;T&gt;(base: <Type usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/Type>, power: <Type usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/Type>) -&gt; <Type usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/Type> where <Type usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 60,
+          "key.offset": 2203
+        }
+      ],
+      "key.bodycolumn": 60,
+      "key.bodylength": 328,
+      "key.bodyline": 60,
+      "key.bodyoffset": 2262,
+      "key.column": 8,
+      "key.doc.column": 13,
+      "key.doc.comment": "Raise a `base` number to a `power`. This is often written as base<sup><smaller>power<\/smaller><\/sup>. Throws a\nfatal error if `power` is negative (less than <code>[zero](https:\/\/en.wikipedia.org\/wiki\/0)<\/code>).\n\nFor example 2<sup><smaller>7<\/smaller><\/sup> is:\n```\n2 ^^ 7 = 128\n```\n\n- Parameters:\n  - base: The base number.\n  - power: The power.\n- Returns: The base number raised to the power.",
+      "key.doc.declaration": "public func ^^ <T>(base: T, power: T) -> T where T : BinaryInteger",
+      "key.doc.discussion": [
+        {
+          "Para": "For example 2<sup><smaller>7<\/smaller><\/sup> is:"
+        },
+        {
+          "CodeListing": ""
+        }
+      ],
+      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift\" line=\"60\" column=\"13\"><Name>^^(_:_:)<\/Name><USR>s:7Rubicon2xxoiyxx_xtSzRzlF<\/USR><Declaration>public func ^^ &lt;T&gt;(base: T, power: T) -&gt; T where T : BinaryInteger<\/Declaration><CommentParts><Abstract><Para>Raise a <codeVoice>base<\/codeVoice> number to a <codeVoice>power<\/codeVoice>. This is often written as base<rawHTML><![CDATA[<sup>]]><\/rawHTML><rawHTML><![CDATA[<smaller>]]><\/rawHTML>power<rawHTML><![CDATA[<\/smaller>]]><\/rawHTML><rawHTML><![CDATA[<\/sup>]]><\/rawHTML>. Throws a fatal error if <codeVoice>power<\/codeVoice> is negative (less than <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/en.wikipedia.org\/wiki\/0\">zero<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>).<\/Para><\/Abstract><Parameters><Parameter><Name>base<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The base number.<\/Para><\/Discussion><\/Parameter><Parameter><Name>power<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The power.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The base number raised to the power.<\/Para><\/ResultDiscussion><Discussion><Para>For example 2<rawHTML><![CDATA[<sup>]]><\/rawHTML><rawHTML><![CDATA[<smaller>]]><\/rawHTML>7<rawHTML><![CDATA[<\/smaller>]]><\/rawHTML><rawHTML><![CDATA[<\/sup>]]><\/rawHTML> is:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[2 ^^ 7 = 128]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+      "key.doc.line": 60,
+      "key.doc.name": "^^(_:_:)",
+      "key.doc.parameters": [
+        {
+          "discussion": [
+            {
+              "Para": "The base number."
+            }
+          ],
+          "name": "base"
+        },
+        {
+          "discussion": [
+            {
+              "Para": "The power."
+            }
+          ],
+          "name": "power"
+        }
+      ],
+      "key.doc.result_discussion": [
+        {
+          "Para": "The base number raised to the power."
+        }
+      ],
+      "key.doc.type": "Function",
+      "key.doccolumn": 1,
+      "key.doclength": 447,
+      "key.docline": 47,
+      "key.docoffset": 1756,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>^^ <\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.name>base<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>power<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:Sz\">BinaryInteger<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.operator.infix>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 381,
+      "key.line": 60,
+      "key.name": "^^(_:_:)",
+      "key.namecolumn": 13,
+      "key.namelength": 40,
+      "key.nameline": 60,
+      "key.nameoffset": 2215,
+      "key.offset": 2210,
+      "key.parsed_declaration": "public func ^^ <T: BinaryInteger>(base: T, power: T) -> T",
+      "key.parsed_scope.end": 70,
+      "key.parsed_scope.start": 60,
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
+          "key.column": 17,
+          "key.elements": [
+            {
+              "key.column": 20,
+              "key.kind": "source.lang.swift.structure.elem.typeref",
+              "key.length": 13,
+              "key.line": 60,
+              "key.offset": 2222
+            }
+          ],
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name> : <decl.generic_type_param.constraint><ref.protocol usr=\"s:Sz\">BinaryInteger<\/ref.protocol><\/decl.generic_type_param.constraint><\/decl.generic_type_param>",
+          "key.inheritedtypes": [
+            {
+              "key.name": "BinaryInteger"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 16,
+          "key.line": 60,
+          "key.name": "T",
+          "key.namecolumn": 17,
+          "key.namelength": 1,
+          "key.nameline": 60,
+          "key.nameoffset": 2219,
+          "key.offset": 2219,
+          "key.parsed_declaration": "public func ^^ <T: BinaryInteger",
+          "key.parsed_scope.end": 60,
+          "key.parsed_scope.start": 60,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.private",
+          "key.annotated_decl": "<Declaration>func expBySq(_ y: <Type usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/Type>, _ x: <Type usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/Type>, _ n: <Type usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/Type>) -&gt; <Type usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.bodycolumn": 48,
+          "key.bodylength": 137,
+          "key.bodyline": 65,
+          "key.bodyoffset": 2415,
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+          "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>expBySq<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>y<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>x<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>n<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon2xxoiyxx_xtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.free>",
+          "key.kind": "source.lang.swift.decl.function.free",
+          "key.length": 181,
+          "key.line": 65,
+          "key.name": "expBySq(_:_:_:)",
+          "key.namecolumn": 10,
+          "key.namelength": 31,
+          "key.nameline": 65,
+          "key.nameoffset": 2377,
+          "key.offset": 2372,
+          "key.parsed_declaration": "func expBySq(_ y: T, _ x: T, _ n: T) -> T",
+          "key.parsed_scope.end": 67,
+          "key.parsed_scope.start": 65,
+          "key.substructure": [
+          ],
+          "key.typename": "<T where T : BinaryInteger> (T, T, T) -> T",
+          "key.typeusr": "$syxx_xxtcSzRzluD",
+          "key.usr": "s:7Rubicon2xxoiyxx_xtSzRzlF7expBySqL_yxx_xxtSzRzlF"
+        }
+      ],
+      "key.typename": "<T where T : BinaryInteger> (T, T) -> T",
+      "key.typeusr": "$syxx_xtcSzRzluD",
+      "key.usr": "s:7Rubicon2xxoiyxx_xtSzRzlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>@discardableResult public prefix func ++ &lt;T&gt;(operand: inout <Type usr=\"s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type>) -&gt; <Type usr=\"s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> where <Type usr=\"s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.prefix",
+          "key.column": 27,
+          "key.length": 6,
+          "key.line": 78,
+          "key.offset": 2973
+        },
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 20,
+          "key.length": 6,
+          "key.line": 78,
+          "key.offset": 2966
+        },
+        {
+          "key.attribute": "source.decl.attribute.discardableResult",
+          "key.column": 1,
+          "key.length": 18,
+          "key.line": 78,
+          "key.offset": 2947
+        }
+      ],
+      "key.bodycolumn": 89,
+      "key.bodylength": 38,
+      "key.bodyline": 78,
+      "key.bodyoffset": 3035,
+      "key.column": 34,
+      "key.doc.column": 39,
+      "key.doc.comment": "Implements the `++` prefix operator as found in C, C++, Objective-C, Java, and many other languages.\n\n- Parameter operand: the integer variable.\n- Returns: The value of the `operand` AFTER incrementing it's value by 1.",
+      "key.doc.declaration": "public prefix func ++ <T>(operand: inout T) -> T where T : FixedWidthInteger",
+      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift\" line=\"78\" column=\"39\"><Name>++(_:)<\/Name><USR>s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF<\/USR><Declaration>public prefix func ++ &lt;T&gt;(operand: inout T) -&gt; T where T : FixedWidthInteger<\/Declaration><CommentParts><Abstract><Para>Implements the <codeVoice>++<\/codeVoice> prefix operator as found in C, C++, Objective-C, Java, and many other languages.<\/Para><\/Abstract><Parameters><Parameter><Name>operand<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the integer variable.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value of the <codeVoice>operand<\/codeVoice> AFTER incrementing it’s value by 1.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+      "key.doc.line": 78,
+      "key.doc.name": "++(_:)",
+      "key.doc.parameters": [
+        {
+          "discussion": [
+            {
+              "Para": "the integer variable."
+            }
+          ],
+          "name": "operand"
+        }
+      ],
+      "key.doc.result_discussion": [
+        {
+          "Para": "The value of the `operand` AFTER incrementing it’s value by 1."
+        }
+      ],
+      "key.doc.type": "Function",
+      "key.doccolumn": 1,
+      "key.doclength": 239,
+      "key.docline": 73,
+      "key.docoffset": 2708,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.fully_annotated_decl": "<decl.function.operator.prefix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>prefix<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>++ <\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.name>operand<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.generic_type_param usr=\"s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.operator.prefix>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 94,
+      "key.line": 78,
+      "key.name": "++(_:)",
+      "key.namecolumn": 39,
+      "key.namelength": 43,
+      "key.nameline": 78,
+      "key.nameoffset": 2985,
+      "key.offset": 2980,
+      "key.parsed_declaration": "@discardableResult public prefix func ++ <T: FixedWidthInteger>(operand: inout T) -> T",
+      "key.parsed_scope.end": 81,
+      "key.parsed_scope.start": 78,
+      "key.related_decls": [
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF\">++ &lt;T&gt;(_: inout T) -&gt; T where T : FixedWidthInteger<\/RelatedName>"
+        }
+      ],
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+          "key.column": 43,
+          "key.elements": [
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.structure.elem.typeref",
+              "key.length": 17,
+              "key.line": 78,
+              "key.offset": 2992
+            }
+          ],
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name> : <decl.generic_type_param.constraint><ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_param.constraint><\/decl.generic_type_param>",
+          "key.inheritedtypes": [
+            {
+              "key.name": "FixedWidthInteger"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 20,
+          "key.line": 78,
+          "key.name": "T",
+          "key.namecolumn": 43,
+          "key.namelength": 1,
+          "key.nameline": 78,
+          "key.nameoffset": 2989,
+          "key.offset": 2989,
+          "key.parsed_declaration": "@discardableResult public prefix func ++ <T: FixedWidthInteger",
+          "key.parsed_scope.end": 78,
+          "key.parsed_scope.start": 78,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF1TL_xmfp"
+        }
+      ],
+      "key.typename": "<T where T : FixedWidthInteger> (inout T) -> T",
+      "key.typeusr": "$syxxzcs17FixedWidthIntegerRzluD",
+      "key.usr": "s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>@discardableResult public prefix func -- &lt;T&gt;(operand: inout <Type usr=\"s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type>) -&gt; <Type usr=\"s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> where <Type usr=\"s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.prefix",
+          "key.column": 27,
+          "key.length": 6,
+          "key.line": 89,
+          "key.offset": 3456
+        },
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 20,
+          "key.length": 6,
+          "key.line": 89,
+          "key.offset": 3449
+        },
+        {
+          "key.attribute": "source.decl.attribute.discardableResult",
+          "key.column": 1,
+          "key.length": 18,
+          "key.line": 89,
+          "key.offset": 3430
+        }
+      ],
+      "key.bodycolumn": 89,
+      "key.bodylength": 38,
+      "key.bodyline": 89,
+      "key.bodyoffset": 3518,
+      "key.column": 34,
+      "key.doc.column": 39,
+      "key.doc.comment": "Implements the `--` prefix operator as found in C, C++, Objective-C, Java, and many other languages.\n\n- Parameter operand: the integer variable.\n- Returns: The value of the `operand` AFTER decrementing it's value by 1.",
+      "key.doc.declaration": "public prefix func -- <T>(operand: inout T) -> T where T : FixedWidthInteger",
+      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift\" line=\"89\" column=\"39\"><Name>--(_:)<\/Name><USR>s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF<\/USR><Declaration>public prefix func -- &lt;T&gt;(operand: inout T) -&gt; T where T : FixedWidthInteger<\/Declaration><CommentParts><Abstract><Para>Implements the <codeVoice>--<\/codeVoice> prefix operator as found in C, C++, Objective-C, Java, and many other languages.<\/Para><\/Abstract><Parameters><Parameter><Name>operand<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the integer variable.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value of the <codeVoice>operand<\/codeVoice> AFTER decrementing it’s value by 1.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+      "key.doc.line": 89,
+      "key.doc.name": "--(_:)",
+      "key.doc.parameters": [
+        {
+          "discussion": [
+            {
+              "Para": "the integer variable."
+            }
+          ],
+          "name": "operand"
+        }
+      ],
+      "key.doc.result_discussion": [
+        {
+          "Para": "The value of the `operand` AFTER decrementing it’s value by 1."
+        }
+      ],
+      "key.doc.type": "Function",
+      "key.doccolumn": 1,
+      "key.doclength": 239,
+      "key.docline": 84,
+      "key.docoffset": 3191,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.fully_annotated_decl": "<decl.function.operator.prefix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>prefix<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>-- <\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.name>operand<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.generic_type_param usr=\"s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.operator.prefix>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 94,
+      "key.line": 89,
+      "key.name": "--(_:)",
+      "key.namecolumn": 39,
+      "key.namelength": 43,
+      "key.nameline": 89,
+      "key.nameoffset": 3468,
+      "key.offset": 3463,
+      "key.parsed_declaration": "@discardableResult public prefix func -- <T: FixedWidthInteger>(operand: inout T) -> T",
+      "key.parsed_scope.end": 92,
+      "key.parsed_scope.start": 89,
+      "key.related_decls": [
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF\">-- &lt;T&gt;(_: inout T) -&gt; T where T : FixedWidthInteger<\/RelatedName>"
+        }
+      ],
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+          "key.column": 43,
+          "key.elements": [
+            {
+              "key.column": 46,
+              "key.kind": "source.lang.swift.structure.elem.typeref",
+              "key.length": 17,
+              "key.line": 89,
+              "key.offset": 3475
+            }
+          ],
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name> : <decl.generic_type_param.constraint><ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_param.constraint><\/decl.generic_type_param>",
+          "key.inheritedtypes": [
+            {
+              "key.name": "FixedWidthInteger"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 20,
+          "key.line": 89,
+          "key.name": "T",
+          "key.namecolumn": 43,
+          "key.namelength": 1,
+          "key.nameline": 89,
+          "key.nameoffset": 3472,
+          "key.offset": 3472,
+          "key.parsed_declaration": "@discardableResult public prefix func -- <T: FixedWidthInteger",
+          "key.parsed_scope.end": 89,
+          "key.parsed_scope.start": 89,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF1TL_xmfp"
+        }
+      ],
+      "key.typename": "<T where T : FixedWidthInteger> (inout T) -> T",
+      "key.typeusr": "$syxxzcs17FixedWidthIntegerRzluD",
+      "key.usr": "s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>@discardableResult public postfix func ++ &lt;T&gt;(operand: inout <Type usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type>) -&gt; <Type usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> where <Type usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.postfix",
+          "key.column": 27,
+          "key.length": 7,
+          "key.line": 100,
+          "key.offset": 3941
+        },
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 20,
+          "key.length": 6,
+          "key.line": 100,
+          "key.offset": 3934
+        },
+        {
+          "key.attribute": "source.decl.attribute.discardableResult",
+          "key.column": 1,
+          "key.length": 18,
+          "key.line": 100,
+          "key.offset": 3915
+        }
+      ],
+      "key.bodycolumn": 90,
+      "key.bodylength": 55,
+      "key.bodyline": 100,
+      "key.bodyoffset": 4004,
+      "key.column": 35,
+      "key.doc.column": 40,
+      "key.doc.comment": "Implements the `++` postfix operator as found in C, C++, Objective-C, Java, and many other languages.\n\n- Parameter operand: the integer variable.\n- Returns: The value of the `operand` BEFORE incrementing it's value by 1.",
+      "key.doc.declaration": "public postfix func ++ <T>(operand: inout T) -> T where T : FixedWidthInteger",
+      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift\" line=\"100\" column=\"40\"><Name>++(_:)<\/Name><USR>s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF<\/USR><Declaration>public postfix func ++ &lt;T&gt;(operand: inout T) -&gt; T where T : FixedWidthInteger<\/Declaration><CommentParts><Abstract><Para>Implements the <codeVoice>++<\/codeVoice> postfix operator as found in C, C++, Objective-C, Java, and many other languages.<\/Para><\/Abstract><Parameters><Parameter><Name>operand<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the integer variable.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value of the <codeVoice>operand<\/codeVoice> BEFORE incrementing it’s value by 1.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+      "key.doc.line": 100,
+      "key.doc.name": "++(_:)",
+      "key.doc.parameters": [
+        {
+          "discussion": [
+            {
+              "Para": "the integer variable."
+            }
+          ],
+          "name": "operand"
+        }
+      ],
+      "key.doc.result_discussion": [
+        {
+          "Para": "The value of the `operand` BEFORE incrementing it’s value by 1."
+        }
+      ],
+      "key.doc.type": "Function",
+      "key.doccolumn": 1,
+      "key.doclength": 241,
+      "key.docline": 95,
+      "key.docoffset": 3674,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.fully_annotated_decl": "<decl.function.operator.postfix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>postfix<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>++ <\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.name>operand<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.generic_type_param usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.operator.postfix>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 111,
+      "key.line": 100,
+      "key.name": "++(_:)",
+      "key.namecolumn": 40,
+      "key.namelength": 43,
+      "key.nameline": 100,
+      "key.nameoffset": 3954,
+      "key.offset": 3949,
+      "key.parsed_declaration": "@discardableResult public postfix func ++ <T: FixedWidthInteger>(operand: inout T) -> T",
+      "key.parsed_scope.end": 104,
+      "key.parsed_scope.start": 100,
+      "key.related_decls": [
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon2ppopyxxzs17FixedWidthIntegerRzlF\">++ &lt;T&gt;(_: inout T) -&gt; T where T : FixedWidthInteger<\/RelatedName>"
+        }
+      ],
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+          "key.column": 44,
+          "key.elements": [
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.structure.elem.typeref",
+              "key.length": 17,
+              "key.line": 100,
+              "key.offset": 3961
+            }
+          ],
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name> : <decl.generic_type_param.constraint><ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_param.constraint><\/decl.generic_type_param>",
+          "key.inheritedtypes": [
+            {
+              "key.name": "FixedWidthInteger"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 20,
+          "key.line": 100,
+          "key.name": "T",
+          "key.namecolumn": 44,
+          "key.namelength": 1,
+          "key.nameline": 100,
+          "key.nameoffset": 3958,
+          "key.offset": 3958,
+          "key.parsed_declaration": "@discardableResult public postfix func ++ <T: FixedWidthInteger",
+          "key.parsed_scope.end": 100,
+          "key.parsed_scope.start": 100,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp"
+        },
+        {
+          "key.annotated_decl": "<Declaration>let i: <Type usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+          "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>i<\/decl.name>: <decl.var.type><ref.generic_type_param usr=\"s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.type><\/decl.var.local>",
+          "key.kind": "source.lang.swift.decl.var.local",
+          "key.length": 18,
+          "key.line": 101,
+          "key.name": "i",
+          "key.namecolumn": 9,
+          "key.namelength": 1,
+          "key.nameline": 101,
+          "key.nameoffset": 4013,
+          "key.offset": 4009,
+          "key.parsed_declaration": "let i: T = operand",
+          "key.parsed_scope.end": 101,
+          "key.parsed_scope.start": 101,
+          "key.typename": "T",
+          "key.typeusr": "$sxD",
+          "key.usr": "s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF1iL_xvp"
+        }
+      ],
+      "key.typename": "<T where T : FixedWidthInteger> (inout T) -> T",
+      "key.typeusr": "$syxxzcs17FixedWidthIntegerRzluD",
+      "key.usr": "s:7Rubicon2ppoPyxxzs17FixedWidthIntegerRzlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>@discardableResult public postfix func -- &lt;T&gt;(operand: inout <Type usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type>) -&gt; <Type usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> where <Type usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.postfix",
+          "key.column": 27,
+          "key.length": 7,
+          "key.line": 112,
+          "key.offset": 4444
+        },
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 20,
+          "key.length": 6,
+          "key.line": 112,
+          "key.offset": 4437
+        },
+        {
+          "key.attribute": "source.decl.attribute.discardableResult",
+          "key.column": 1,
+          "key.length": 18,
+          "key.line": 112,
+          "key.offset": 4418
+        }
+      ],
+      "key.bodycolumn": 90,
+      "key.bodylength": 55,
+      "key.bodyline": 112,
+      "key.bodyoffset": 4507,
+      "key.column": 35,
+      "key.doc.column": 40,
+      "key.doc.comment": "Implements the `--` postfix operator as found in C, C++, Objective-C, Java, and many other languages.\n\n- Parameter operand: the integer variable.\n- Returns: The value of the `operand` BEFORE decrementing it's value by 1.",
+      "key.doc.declaration": "public postfix func -- <T>(operand: inout T) -> T where T : FixedWidthInteger",
+      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift\" line=\"112\" column=\"40\"><Name>--(_:)<\/Name><USR>s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF<\/USR><Declaration>public postfix func -- &lt;T&gt;(operand: inout T) -&gt; T where T : FixedWidthInteger<\/Declaration><CommentParts><Abstract><Para>Implements the <codeVoice>--<\/codeVoice> postfix operator as found in C, C++, Objective-C, Java, and many other languages.<\/Para><\/Abstract><Parameters><Parameter><Name>operand<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the integer variable.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value of the <codeVoice>operand<\/codeVoice> BEFORE decrementing it’s value by 1.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+      "key.doc.line": 112,
+      "key.doc.name": "--(_:)",
+      "key.doc.parameters": [
+        {
+          "discussion": [
+            {
+              "Para": "the integer variable."
+            }
+          ],
+          "name": "operand"
+        }
+      ],
+      "key.doc.result_discussion": [
+        {
+          "Para": "The value of the `operand` BEFORE decrementing it’s value by 1."
+        }
+      ],
+      "key.doc.type": "Function",
+      "key.doccolumn": 1,
+      "key.doclength": 241,
+      "key.docline": 107,
+      "key.docoffset": 4177,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+      "key.fully_annotated_decl": "<decl.function.operator.postfix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>postfix<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>-- <\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.name>operand<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.generic_type_param usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.operator.postfix>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 111,
+      "key.line": 112,
+      "key.name": "--(_:)",
+      "key.namecolumn": 40,
+      "key.namelength": 43,
+      "key.nameline": 112,
+      "key.nameoffset": 4457,
+      "key.offset": 4452,
+      "key.parsed_declaration": "@discardableResult public postfix func -- <T: FixedWidthInteger>(operand: inout T) -> T",
+      "key.parsed_scope.end": 116,
+      "key.parsed_scope.start": 112,
+      "key.related_decls": [
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon2ssopyxxzs17FixedWidthIntegerRzlF\">-- &lt;T&gt;(_: inout T) -&gt; T where T : FixedWidthInteger<\/RelatedName>"
+        }
+      ],
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T : <Type usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/Type><\/Declaration>",
+          "key.column": 44,
+          "key.elements": [
+            {
+              "key.column": 47,
+              "key.kind": "source.lang.swift.structure.elem.typeref",
+              "key.length": 17,
+              "key.line": 112,
+              "key.offset": 4464
+            }
+          ],
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name> : <decl.generic_type_param.constraint><ref.protocol usr=\"s:s17FixedWidthIntegerP\">FixedWidthInteger<\/ref.protocol><\/decl.generic_type_param.constraint><\/decl.generic_type_param>",
+          "key.inheritedtypes": [
+            {
+              "key.name": "FixedWidthInteger"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 20,
+          "key.line": 112,
+          "key.name": "T",
+          "key.namecolumn": 44,
+          "key.namelength": 1,
+          "key.nameline": 112,
+          "key.nameoffset": 4461,
+          "key.offset": 4461,
+          "key.parsed_declaration": "@discardableResult public postfix func -- <T: FixedWidthInteger",
+          "key.parsed_scope.end": 112,
+          "key.parsed_scope.start": 112,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp"
+        },
+        {
+          "key.annotated_decl": "<Declaration>let i: <Type usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/MathTools.swift",
+          "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>i<\/decl.name>: <decl.var.type><ref.generic_type_param usr=\"s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.type><\/decl.var.local>",
+          "key.kind": "source.lang.swift.decl.var.local",
+          "key.length": 18,
+          "key.line": 113,
+          "key.name": "i",
+          "key.namecolumn": 9,
+          "key.namelength": 1,
+          "key.nameline": 113,
+          "key.nameoffset": 4516,
+          "key.offset": 4512,
+          "key.parsed_declaration": "let i: T = operand",
+          "key.parsed_scope.end": 113,
+          "key.parsed_scope.start": 113,
+          "key.typename": "T",
+          "key.typeusr": "$sxD",
+          "key.usr": "s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF1iL_xvp"
+        }
+      ],
+      "key.typename": "<T where T : FixedWidthInteger> (inout T) -> T",
+      "key.typeusr": "$syxxzcs17FixedWidthIntegerRzluD",
+      "key.usr": "s:7Rubicon2ssoPyxxzs17FixedWidthIntegerRzlF"
+    }
+  ]
+}

@@ -32,55 +32,307 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1117D03AE696E138B8B0CB10 /* SimpleStringCharInputStream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleStringCharInputStream.swift.syntax.json; sourceTree = "<group>"; };
+		1117D03CC502C860F580DFF8 /* AtomicValue.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AtomicValue.swift.structure.json; sourceTree = "<group>"; };
 		1117D05F75C0AEC94E376A97 /* LineColumn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LineColumn.html; sourceTree = "<group>"; };
+		1117D0EE379F6E14CFC29A58 /* NanoTimer.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NanoTimer.swift.syntax.json; sourceTree = "<group>"; };
+		1117D0F07251F36CB6726654 /* SimpleIConvCharInputStream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleIConvCharInputStream.swift.docs.json; sourceTree = "<group>"; };
+		1117D1012096CD9B610472DA /* Buffers.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Buffers.swift.structure.json; sourceTree = "<group>"; };
+		1117D11A3C6697DC6FBBD30C /* BinaryInteger.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BinaryInteger.swift.index.json; sourceTree = "<group>"; };
+		1117D11C58C84C8D5E16E308 /* MarkInputStream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarkInputStream.swift.index.json; sourceTree = "<group>"; };
+		1117D13535A483FC13E4D639 /* StringProtocol.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringProtocol.swift.docs.json; sourceTree = "<group>"; };
+		1117D13BC59BDAFF9B49E317 /* StringCharInputStream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringCharInputStream.swift.index.json; sourceTree = "<group>"; };
 		1117D142BCD42AF89506B4E4 /* gh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gh.png; sourceTree = "<group>"; };
+		1117D1531612631749A6F63D /* Conditional.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Conditional.swift.docs.json; sourceTree = "<group>"; };
 		1117D1545E585E0B30EC7492 /* Z28.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Z28.html; sourceTree = "<group>"; };
+		1117D18D591A2BB31693133A /* CStrings.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CStrings.swift.structure.json; sourceTree = "<group>"; };
+		1117D1995962CA8908A6BF24 /* StringProtocol.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringProtocol.swift.index.json; sourceTree = "<group>"; };
 		1117D19F2B0F472A5966CB58 /* LineMap.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LineMap.html; sourceTree = "<group>"; };
+		1117D1A25A587D11D6318424 /* TreeNode.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TreeNode.swift.docs.json; sourceTree = "<group>"; };
+		1117D1A385E73B931B4A636F /* DataByteBuffer.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataByteBuffer.swift.docs.json; sourceTree = "<group>"; };
+		1117D1A738D92F9F839A48A3 /* String.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = String.swift.index.json; sourceTree = "<group>"; };
 		1117D1BE62399DD0236C5BE3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		1117D1C25DC5E20FD7C3176D /* AtomicProperty.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AtomicProperty.swift.index.json; sourceTree = "<group>"; };
+		1117D1C32DE63B5244DF79DC /* BinaryTreeDictionary.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BinaryTreeDictionary.swift.docs.json; sourceTree = "<group>"; };
+		1117D1D795474452A4977BD5 /* PGErrors.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGErrors.swift.structure.json; sourceTree = "<group>"; };
+		1117D1E44EB86B79E3EF2D12 /* main.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.swift.index.json; sourceTree = "<group>"; };
+		1117D202F86D6B9ED7A8D0CF /* MarkInputStream.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarkInputStream.swift.structure.json; sourceTree = "<group>"; };
+		1117D20D89022BBB5D68D7F6 /* Thread.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thread.swift.docs.json; sourceTree = "<group>"; };
+		1117D213C22941E2EBF2FAFC /* Buffers.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Buffers.swift.docs.json; sourceTree = "<group>"; };
+		1117D21524A6796ACC128D9E /* NSLock.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NSLock.swift.docs.json; sourceTree = "<group>"; };
+		1117D222E75205B9448EAE6A /* Collections.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Collections.swift.docs.json; sourceTree = "<group>"; };
+		1117D230CFB78C9492602DFE /* PGSemaphore.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGSemaphore.swift.docs.json; sourceTree = "<group>"; };
+		1117D239936C8C676AE42B81 /* LinesColumnsAndOffsets.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LinesColumnsAndOffsets.swift.docs.json; sourceTree = "<group>"; };
+		1117D23AE89A981B1969FC5C /* Array.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Array.swift.index.json; sourceTree = "<group>"; };
+		1117D23D1CFFF7C1DF80C2DA /* Extensions.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Extensions.swift.index.json; sourceTree = "<group>"; };
+		1117D240CB7001EB8DA2367C /* FileList.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FileList.swift.docs.json; sourceTree = "<group>"; };
+		1117D2448B3C9A3D9442B11F /* ArraySlice.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArraySlice.swift.docs.json; sourceTree = "<group>"; };
+		1117D247BD657CFCBF4E442E /* Character.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Character.swift.structure.json; sourceTree = "<group>"; };
+		1117D2532A4B963B122A5BC3 /* BinaryTreeDictionary.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BinaryTreeDictionary.swift.index.json; sourceTree = "<group>"; };
+		1117D253CE09A9098FC4BC92 /* DateComponents.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateComponents.swift.index.json; sourceTree = "<group>"; };
+		1117D25405CBE30E98B86CE2 /* DateComponents.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateComponents.swift.structure.json; sourceTree = "<group>"; };
+		1117D25DFE854C5A34521B8A /* SimpleCharInputStream.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleCharInputStream.swift.structure.json; sourceTree = "<group>"; };
+		1117D2617F649B1676569230 /* SimpleCharInputStream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleCharInputStream.swift.docs.json; sourceTree = "<group>"; };
+		1117D2697BA0ABA6935F72F8 /* Dictionary.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dictionary.swift.index.json; sourceTree = "<group>"; };
+		1117D27AD5B28539529A4CB2 /* Conditional.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Conditional.swift.syntax.json; sourceTree = "<group>"; };
+		1117D2838EC7B15B01A63609 /* Stream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Stream.swift.syntax.json; sourceTree = "<group>"; };
+		1117D2AE76703DC86212F98D /* RingByteBuffer.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RingByteBuffer.swift.structure.json; sourceTree = "<group>"; };
 		1117D2BCD863AF71184C262A /* jazzy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.js; sourceTree = "<group>"; };
+		1117D2BF471866848542C078 /* NSRange.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NSRange.swift.docs.json; sourceTree = "<group>"; };
 		1117D2C8D2C96BB87916C446 /* badge.svg */ = {isa = PBXFileReference; lastKnownFileType = file.svg; path = badge.svg; sourceTree = "<group>"; };
+		1117D2E47AED3E68045FF74F /* ThreadLocal.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ThreadLocal.swift.structure.json; sourceTree = "<group>"; };
+		1117D320CF7EE58CC612155A /* SimpleCharInputStream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleCharInputStream.swift.syntax.json; sourceTree = "<group>"; };
+		1117D32352F8BD9419370593 /* PGErrors.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGErrors.swift.docs.json; sourceTree = "<group>"; };
 		1117D32D0ABEBE0D81E41757 /* jazzy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.js; sourceTree = "<group>"; };
+		1117D34DB511D7BC65C52A5E /* main.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.swift.docs.json; sourceTree = "<group>"; };
+		1117D35A88DD2D0187D058F1 /* CharacterSet.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharacterSet.swift.syntax.json; sourceTree = "<group>"; };
 		1117D372A50645484919D868 /* LineMap.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LineMap.html; sourceTree = "<group>"; };
+		1117D37408E77D135E9159E2 /* DynamicFixedArray.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DynamicFixedArray.swift.index.json; sourceTree = "<group>"; };
+		1117D38A99BE53FA9CF3C77A /* NanoTimer.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NanoTimer.swift.docs.json; sourceTree = "<group>"; };
+		1117D39C74C5AAF168D9AE18 /* DataByteBuffer.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataByteBuffer.swift.syntax.json; sourceTree = "<group>"; };
+		1117D3A48119FD9C7EACAF5A /* MarkInputStream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarkInputStream.swift.syntax.json; sourceTree = "<group>"; };
+		1117D3AD98BB2E079B3A4DC8 /* EasyByteBuffer.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EasyByteBuffer.swift.structure.json; sourceTree = "<group>"; };
+		1117D3BE0F39348429DE2BDE /* ShadowInt.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShadowInt.swift.index.json; sourceTree = "<group>"; };
+		1117D3BEC253599ED44AB8B6 /* FloatingPoint.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FloatingPoint.swift.syntax.json; sourceTree = "<group>"; };
+		1117D3E37501D2A2E32EE269 /* ManagedByteBuffer.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ManagedByteBuffer.swift.index.json; sourceTree = "<group>"; };
+		1117D3E4D38E601B710ADEE6 /* StringXForm.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringXForm.swift.index.json; sourceTree = "<group>"; };
+		1117D3F2FCA6CCAAD6794216 /* CharacterSet.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharacterSet.swift.structure.json; sourceTree = "<group>"; };
+		1117D40F85AB455E4F738AAE /* Closable.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Closable.swift.syntax.json; sourceTree = "<group>"; };
+		1117D427784FFF1A6F27795E /* SimpleCharInputStream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleCharInputStream.swift.index.json; sourceTree = "<group>"; };
+		1117D42F708DBD221D11D3CE /* IConv.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IConv.swift.docs.json; sourceTree = "<group>"; };
+		1117D447ED472082C486A985 /* MathTools.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MathTools.swift.syntax.json; sourceTree = "<group>"; };
+		1117D44B8924BD6A85969B3D /* CErrors.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CErrors.swift.docs.json; sourceTree = "<group>"; };
 		1117D4519FA4D41A2E9C0E11 /* jazzy.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jazzy.css; sourceTree = "<group>"; };
 		1117D4565B262C0E28BA0BB3 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		1117D47B4CABAA4FB0048DB1 /* BinaryInteger.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BinaryInteger.swift.syntax.json; sourceTree = "<group>"; };
+		1117D48434D667242F06C420 /* AtomicProperty.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AtomicProperty.swift.docs.json; sourceTree = "<group>"; };
+		1117D49EB87972A151A84D8C /* AtomicProperty.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AtomicProperty.swift.structure.json; sourceTree = "<group>"; };
+		1117D4C0C1CC7E72E6804C81 /* RegularExpression.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RegularExpression.swift.index.json; sourceTree = "<group>"; };
+		1117D4C57DDE97B1AC71EA0F /* TreeNode.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TreeNode.swift.index.json; sourceTree = "<group>"; };
 		1117D4D0096CA629E213E2C5 /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
+		1117D4D14599C535CF03BDCC /* ArraySlice.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArraySlice.swift.index.json; sourceTree = "<group>"; };
+		1117D4D2FA37CCEB9272DAB3 /* NanoTimer.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NanoTimer.swift.index.json; sourceTree = "<group>"; };
+		1117D4E9117F2C1A7763ADBB /* LinesColumnsAndOffsets.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LinesColumnsAndOffsets.swift.index.json; sourceTree = "<group>"; };
+		1117D4F979213026B496EA76 /* CharInputStream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharInputStream.swift.syntax.json; sourceTree = "<group>"; };
+		1117D50608A438654927748F /* BinaryInteger.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BinaryInteger.swift.docs.json; sourceTree = "<group>"; };
+		1117D50AE9B5614D0CD40607 /* RegularExpression.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RegularExpression.swift.syntax.json; sourceTree = "<group>"; };
+		1117D5258B0485018EC353A1 /* RangeReplaceableCollection.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RangeReplaceableCollection.swift.index.json; sourceTree = "<group>"; };
+		1117D525CF1D3F464C65500A /* NSLock.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NSLock.swift.structure.json; sourceTree = "<group>"; };
+		1117D534BA293A42D9CBE39A /* IConvCharInputStream.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IConvCharInputStream.swift.structure.json; sourceTree = "<group>"; };
+		1117D53BAC3A4E1C0ED89062 /* Character.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Character.swift.syntax.json; sourceTree = "<group>"; };
+		1117D53BF0B8309D921262DD /* PGErrors.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGErrors.swift.syntax.json; sourceTree = "<group>"; };
+		1117D55500AED8667B703266 /* MathTools.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MathTools.swift.docs.json; sourceTree = "<group>"; };
+		1117D5593A60125D8830CBC1 /* Hasher.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hasher.swift.structure.json; sourceTree = "<group>"; };
+		1117D559BA5FAF0CC9685D0A /* NSRange.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NSRange.swift.structure.json; sourceTree = "<group>"; };
 		1117D55CEA50D38A8F7AB297 /* lunr.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lunr.min.js; sourceTree = "<group>"; };
+		1117D5605F513DF645891C5B /* TreeNode.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TreeNode.swift.syntax.json; sourceTree = "<group>"; };
+		1117D561CC82576C586691A3 /* StringProtocol.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringProtocol.swift.structure.json; sourceTree = "<group>"; };
+		1117D5648F02EAB7D845392E /* MarkInputStream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarkInputStream.swift.docs.json; sourceTree = "<group>"; };
+		1117D579837FBCC6F10928FA /* CStrings.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CStrings.swift.docs.json; sourceTree = "<group>"; };
+		1117D57D8EC12F2E0E61984B /* CharacterSet.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharacterSet.swift.docs.json; sourceTree = "<group>"; };
+		1117D5807A9399B35B6A0893 /* Array.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Array.swift.docs.json; sourceTree = "<group>"; };
+		1117D589C819C52F35B77BA9 /* Character.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Character.swift.docs.json; sourceTree = "<group>"; };
 		1117D58DF18F490F4B047420 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
 		1117D5A01F16F191E58A3CBF /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		1117D5A70C7032E5130EBC54 /* Thread.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thread.swift.index.json; sourceTree = "<group>"; };
+		1117D5FBAD7533FE2639FE84 /* CharStream.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharStream.swift.structure.json; sourceTree = "<group>"; };
+		1117D60C07640A5CED237A6E /* Array.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Array.swift.structure.json; sourceTree = "<group>"; };
+		1117D60FA04F85B11018AE35 /* Data.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.swift.syntax.json; sourceTree = "<group>"; };
+		1117D618B4443887BBE49AD3 /* ThreadLocal.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ThreadLocal.swift.docs.json; sourceTree = "<group>"; };
+		1117D6338523034F401442F7 /* CErrors.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CErrors.swift.syntax.json; sourceTree = "<group>"; };
+		1117D64A8F939DD186AFB40F /* PGThread.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGThread.swift.syntax.json; sourceTree = "<group>"; };
+		1117D64DCDCD67C6FA47517E /* PGErrors.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGErrors.swift.index.json; sourceTree = "<group>"; };
 		1117D663390EF6C8AE14DA07 /* Z28.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z28.swift.docs.json; sourceTree = "<group>"; };
 		1117D66A92840362E89BE8A2 /* Z28.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z28.swift.index.json; sourceTree = "<group>"; };
+		1117D66CF3122C06C8144715 /* IConvCharInputStream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IConvCharInputStream.swift.docs.json; sourceTree = "<group>"; };
+		1117D6751E7E4013738630AD /* CharInputStream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharInputStream.swift.docs.json; sourceTree = "<group>"; };
+		1117D682C66A064717A08965 /* Closable.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Closable.swift.structure.json; sourceTree = "<group>"; };
 		1117D684CD03109650419AF9 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
+		1117D6B64609A4F979D5996D /* Hasher.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hasher.swift.docs.json; sourceTree = "<group>"; };
+		1117D6B70813948F9EBF902F /* FileList.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FileList.swift.structure.json; sourceTree = "<group>"; };
+		1117D6BEC7C46F2F329D3AA0 /* ShadowInt.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShadowInt.swift.docs.json; sourceTree = "<group>"; };
+		1117D6E0A5380BD211DF09CD /* IConv.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IConv.swift.syntax.json; sourceTree = "<group>"; };
+		1117D6F0A0C87BB5DEC3E000 /* RegularExpression.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RegularExpression.swift.docs.json; sourceTree = "<group>"; };
+		1117D6F0D5DC86D6531F60A6 /* BinaryTreeDictionary.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BinaryTreeDictionary.swift.structure.json; sourceTree = "<group>"; };
+		1117D705D0A6292AC8A272ED /* NamedSemaphore.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NamedSemaphore.swift.docs.json; sourceTree = "<group>"; };
+		1117D71DF612147E7D2D67D7 /* CStrings.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CStrings.swift.syntax.json; sourceTree = "<group>"; };
 		1117D71F993BF240D8A40C3A /* Z28.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z28.swift.syntax.json; sourceTree = "<group>"; };
+		1117D7371A55B93A6DE95A12 /* Dictionary.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dictionary.swift.docs.json; sourceTree = "<group>"; };
+		1117D74B1E288684434ED522 /* RingByteBuffer.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RingByteBuffer.swift.docs.json; sourceTree = "<group>"; };
+		1117D74B28F13AB4D2B0235C /* StringFormat.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringFormat.swift.structure.json; sourceTree = "<group>"; };
+		1117D76B24BD4A3B86FBB016 /* SimpleIConvCharInputStream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleIConvCharInputStream.swift.syntax.json; sourceTree = "<group>"; };
+		1117D76B882C0A122F98EE53 /* StringFormat.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringFormat.swift.index.json; sourceTree = "<group>"; };
+		1117D78335308189158C6C41 /* NSRange.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NSRange.swift.index.json; sourceTree = "<group>"; };
 		1117D7B32B1B306C73E9B211 /* SourceFileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceFileInfo.swift; sourceTree = "<group>"; };
+		1117D7D6DF12E55F81752A45 /* String.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = String.swift.docs.json; sourceTree = "<group>"; };
+		1117D7E8CA40D6913F7688EE /* Hasher.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hasher.swift.index.json; sourceTree = "<group>"; };
+		1117D7F1510D5E97D6EBA5AF /* String.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = String.swift.syntax.json; sourceTree = "<group>"; };
 		1117D7F58DE7F56E3BF5F5E8 /* typeahead.jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typeahead.jquery.js; sourceTree = "<group>"; };
 		1117D7FC86AB81798F0786CF /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		1117D80FFF97FA081C7D9E68 /* StringXForm.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringXForm.swift.structure.json; sourceTree = "<group>"; };
+		1117D8194AFD3404F88A5FB1 /* String.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = String.swift.structure.json; sourceTree = "<group>"; };
 		1117D84FC59F771BF0C489B7 /* highlight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = highlight.css; sourceTree = "<group>"; };
+		1117D852D48C04E5ACB727B3 /* StringFormat.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringFormat.swift.syntax.json; sourceTree = "<group>"; };
+		1117D862B5A9CDAE95B03816 /* SourceFileInfo.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SourceFileInfo.swift.syntax.json; sourceTree = "<group>"; };
 		1117D8748F4710193132E040 /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
+		1117D88F1DC73326B7E97A84 /* Range.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Range.swift.structure.json; sourceTree = "<group>"; };
+		1117D8A0F2E0CA35459F4E4F /* ByteOrder.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ByteOrder.swift.docs.json; sourceTree = "<group>"; };
+		1117D8B95D476766BEC9872B /* ArraySlice.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArraySlice.swift.structure.json; sourceTree = "<group>"; };
+		1117D8BFC804587747891967 /* Collections.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Collections.swift.syntax.json; sourceTree = "<group>"; };
+		1117D8C1C6EAEBA4E133C1D3 /* Conditional.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Conditional.swift.index.json; sourceTree = "<group>"; };
+		1117D8C66D6FF3A550515B28 /* AtomicValue.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AtomicValue.swift.index.json; sourceTree = "<group>"; };
+		1117D8CBF11030F0B7BA8B66 /* FloatingPoint.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FloatingPoint.swift.structure.json; sourceTree = "<group>"; };
+		1117D8D1DE7D9AB3EE3EADFA /* TreeNode.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TreeNode.swift.structure.json; sourceTree = "<group>"; };
+		1117D8D86A2703A3620773FB /* UnnamedSemaphore.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UnnamedSemaphore.swift.index.json; sourceTree = "<group>"; };
+		1117D8F09A252481DA8BA0B4 /* CErrors.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CErrors.swift.index.json; sourceTree = "<group>"; };
 		1117D900E2C64BB5B2733B89 /* gh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gh.png; sourceTree = "<group>"; };
+		1117D909A14D842A735DBA3B /* ArraySlice.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArraySlice.swift.syntax.json; sourceTree = "<group>"; };
 		1117D918021151D9F827A056 /* Classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Classes.html; sourceTree = "<group>"; };
+		1117D92CABB834D373599090 /* Stream.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Stream.swift.structure.json; sourceTree = "<group>"; };
 		1117D949AE27C49335C8D127 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1117D949FA93E16923036CFB /* typeahead.jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typeahead.jquery.js; sourceTree = "<group>"; };
+		1117D957FD2902EBD278CD1C /* LinesColumnsAndOffsets.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LinesColumnsAndOffsets.swift.structure.json; sourceTree = "<group>"; };
+		1117D95A8A10F614203A9A24 /* DateFormatter.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateFormatter.swift.syntax.json; sourceTree = "<group>"; };
+		1117D9674BA73B02675EB03B /* Dictionary.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dictionary.swift.structure.json; sourceTree = "<group>"; };
+		1117D981E00E21F9120C408C /* Extensions.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Extensions.swift.syntax.json; sourceTree = "<group>"; };
+		1117D9845890ABE14380B78D /* MathTools.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MathTools.swift.structure.json; sourceTree = "<group>"; };
+		1117D98FEBA7D73E28414906 /* Thread.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thread.swift.structure.json; sourceTree = "<group>"; };
+		1117D9A4ACAD974D08FCD21C /* DynamicFixedArray.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DynamicFixedArray.swift.docs.json; sourceTree = "<group>"; };
+		1117D9B63EA41B731E1951D8 /* CharInputStream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharInputStream.swift.index.json; sourceTree = "<group>"; };
+		1117D9BED7E3A4156D4DD749 /* ShadowInt.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShadowInt.swift.syntax.json; sourceTree = "<group>"; };
+		1117D9C90EB1F9B375EA1961 /* Range.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Range.swift.syntax.json; sourceTree = "<group>"; };
+		1117D9DC2632F90DF952DF52 /* FileList.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FileList.swift.index.json; sourceTree = "<group>"; };
+		1117D9DD2D31FACC0422746B /* EasyByteBuffer.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EasyByteBuffer.swift.syntax.json; sourceTree = "<group>"; };
+		1117D9E856EBB8D63C667702 /* IConv.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IConv.swift.structure.json; sourceTree = "<group>"; };
+		1117D9F6C8518F720A0643EE /* Tools.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.swift.syntax.json; sourceTree = "<group>"; };
 		1117D9FD2ECB4175C5B2A040 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		1117D9FD36E002AF1DA63C9B /* FloatingPoint.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FloatingPoint.swift.docs.json; sourceTree = "<group>"; };
+		1117DA06E86DC4A85137AD1A /* Extensions.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Extensions.swift.structure.json; sourceTree = "<group>"; };
+		1117DA1277F9522D6D33E204 /* BinaryTreeDictionary.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BinaryTreeDictionary.swift.syntax.json; sourceTree = "<group>"; };
+		1117DA1C0F5456DCB7A0F92A /* CErrors.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CErrors.swift.structure.json; sourceTree = "<group>"; };
 		1117DA36920612C6E16D2D15 /* jazzy.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jazzy.css; sourceTree = "<group>"; };
+		1117DA3A600256CCFD532873 /* PGSemaphore.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGSemaphore.swift.syntax.json; sourceTree = "<group>"; };
+		1117DA4407DE3E57FEFA33DC /* ManagedByteBuffer.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ManagedByteBuffer.swift.docs.json; sourceTree = "<group>"; };
+		1117DA449BD212D504270559 /* CharStream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharStream.swift.index.json; sourceTree = "<group>"; };
+		1117DA480077DB340731B836 /* FloatingPoint.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FloatingPoint.swift.index.json; sourceTree = "<group>"; };
 		1117DA54A96F3EAB6F4DC8FF /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		1117DA5509B7DF77F33FE168 /* Conditional.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Conditional.swift.structure.json; sourceTree = "<group>"; };
 		1117DA65BC602C277AEF25F0 /* Classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Classes.html; sourceTree = "<group>"; };
+		1117DA6C7A797103BCC5876F /* Data.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.swift.docs.json; sourceTree = "<group>"; };
+		1117DA756EC6FB4401B36100 /* NSRange.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NSRange.swift.syntax.json; sourceTree = "<group>"; };
+		1117DA8B8A90782079E65740 /* StringCharInputStream.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringCharInputStream.swift.structure.json; sourceTree = "<group>"; };
 		1117DA8D53A85A3D4506115A /* docSet.dsidx */ = {isa = PBXFileReference; lastKnownFileType = file.dsidx; path = docSet.dsidx; sourceTree = "<group>"; };
+		1117DA92AB37A78D7A8CED98 /* RingByteBuffer.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RingByteBuffer.swift.syntax.json; sourceTree = "<group>"; };
+		1117DAB080C5B81A554BBD68 /* CharacterSet.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharacterSet.swift.index.json; sourceTree = "<group>"; };
+		1117DAB6475AF4D5D3E3C792 /* LinesColumnsAndOffsets.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LinesColumnsAndOffsets.swift.syntax.json; sourceTree = "<group>"; };
+		1117DAC3C5843AA73C6D7DB0 /* Buffers.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Buffers.swift.index.json; sourceTree = "<group>"; };
 		1117DAC4E54FF222B99C84A5 /* ThreadWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadWorker.swift; sourceTree = "<group>"; };
 		1117DAE45647CFED57C210AA /* jazzy.search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.search.js; sourceTree = "<group>"; };
 		1117DAF61229C53AC1BA5113 /* Z28.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z28.swift.structure.json; sourceTree = "<group>"; };
+		1117DAF8F33411E420F407AB /* RangeReplaceableCollection.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RangeReplaceableCollection.swift.syntax.json; sourceTree = "<group>"; };
+		1117DAFD9803B996A1F9C64C /* IConv.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IConv.swift.index.json; sourceTree = "<group>"; };
 		1117DB061CF50BA6985A8316 /* LineColumn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LineColumn.html; sourceTree = "<group>"; };
+		1117DB0BC342AB112918F070 /* Data.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.swift.structure.json; sourceTree = "<group>"; };
+		1117DB0D70D707195327F86B /* Extensions.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Extensions.swift.docs.json; sourceTree = "<group>"; };
+		1117DB19A84DFF546F81E3E1 /* IConvCharInputStream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IConvCharInputStream.swift.index.json; sourceTree = "<group>"; };
+		1117DB1B1DFC50A4FD36D92D /* SourceFileInfo.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SourceFileInfo.swift.structure.json; sourceTree = "<group>"; };
+		1117DB29711E9A3F505087BB /* NamedSemaphore.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NamedSemaphore.swift.structure.json; sourceTree = "<group>"; };
+		1117DB3BF61D60943E73AAFC /* ManagedByteBuffer.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ManagedByteBuffer.swift.structure.json; sourceTree = "<group>"; };
+		1117DB441B6175754E82D284 /* ByteOrder.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ByteOrder.swift.structure.json; sourceTree = "<group>"; };
+		1117DB4889F38E4B1040B459 /* UnnamedSemaphore.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UnnamedSemaphore.swift.structure.json; sourceTree = "<group>"; };
 		1117DB4B453D190827F2B99E /* highlight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = highlight.css; sourceTree = "<group>"; };
+		1117DB4C8C2BECC72E85C7CC /* Closable.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Closable.swift.index.json; sourceTree = "<group>"; };
+		1117DB727DF33815DC74F909 /* DateFormatter.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateFormatter.swift.docs.json; sourceTree = "<group>"; };
 		1117DB778753EAA89C7CCF8C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		1117DB8D35861970A5BD5A71 /* SimpleStringCharInputStream.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleStringCharInputStream.swift.structure.json; sourceTree = "<group>"; };
 		1117DBA3B6D6A3A53A439EA3 /* Z28.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Z28.html; sourceTree = "<group>"; };
 		1117DBA4DE92E0DE58D5F5E6 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
+		1117DBA9E960CC1C3EF3FA1A /* UnnamedSemaphore.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UnnamedSemaphore.swift.docs.json; sourceTree = "<group>"; };
+		1117DBB1DD5AECAA8FD492B6 /* StringCharInputStream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringCharInputStream.swift.docs.json; sourceTree = "<group>"; };
+		1117DBB283E1E2FC192EC2C5 /* UnnamedSemaphore.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UnnamedSemaphore.swift.syntax.json; sourceTree = "<group>"; };
+		1117DBBFC67A818F18C4295A /* IConvCharInputStream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IConvCharInputStream.swift.syntax.json; sourceTree = "<group>"; };
+		1117DBC2AA016735EE44C481 /* ManagedByteBuffer.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ManagedByteBuffer.swift.syntax.json; sourceTree = "<group>"; };
+		1117DBC589D021D4FA2718FA /* StringProtocol.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringProtocol.swift.syntax.json; sourceTree = "<group>"; };
 		1117DBDC9AE9622C14AD4C90 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1117DBE24786BE5DE2CC6048 /* BinaryInteger.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BinaryInteger.swift.structure.json; sourceTree = "<group>"; };
+		1117DBED4FA8D1DBD862301C /* ReadWriteLock.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReadWriteLock.swift.docs.json; sourceTree = "<group>"; };
+		1117DBF30DDEECD599FEEEA5 /* SimpleIConvCharInputStream.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleIConvCharInputStream.swift.structure.json; sourceTree = "<group>"; };
+		1117DBFD5577530DE2F20E1C /* main.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.swift.syntax.json; sourceTree = "<group>"; };
+		1117DC209DB5CF43490C93F9 /* ThreadLocal.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ThreadLocal.swift.index.json; sourceTree = "<group>"; };
+		1117DC2315AC5BB3283EA8B7 /* NSLock.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NSLock.swift.index.json; sourceTree = "<group>"; };
+		1117DC3321E8DD861AF6048C /* DynamicFixedArray.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DynamicFixedArray.swift.structure.json; sourceTree = "<group>"; };
+		1117DC3C1E2066AD577D4E53 /* DateFormatter.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateFormatter.swift.structure.json; sourceTree = "<group>"; };
+		1117DC5ADD24A083C1E40A05 /* NSLock.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NSLock.swift.syntax.json; sourceTree = "<group>"; };
+		1117DC6F50C2437074AA97B1 /* Thread.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thread.swift.syntax.json; sourceTree = "<group>"; };
 		1117DC71A82309085B4DA1FD /* .tgz */ = {isa = PBXFileReference; lastKnownFileType = file.tgz; path = .tgz; sourceTree = "<group>"; };
+		1117DC76154AC2A9152FF0B3 /* NanoTimer.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NanoTimer.swift.structure.json; sourceTree = "<group>"; };
+		1117DC89BB732BC6B55F0A98 /* Closable.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Closable.swift.docs.json; sourceTree = "<group>"; };
 		1117DC8F20217F944B263C9C /* jazzy.search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.search.js; sourceTree = "<group>"; };
+		1117DC93047122CF93FFDA7F /* DataByteBuffer.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataByteBuffer.swift.structure.json; sourceTree = "<group>"; };
+		1117DC9D1719F3F7A9D49908 /* ThreadLocal.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ThreadLocal.swift.syntax.json; sourceTree = "<group>"; };
+		1117DCA67D7E62FA487636E7 /* Tools.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.swift.index.json; sourceTree = "<group>"; };
+		1117DCC0DBBC6051DF1D292F /* PGThread.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGThread.swift.structure.json; sourceTree = "<group>"; };
+		1117DCC94DA1AE9F0ECA48B9 /* Range.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Range.swift.docs.json; sourceTree = "<group>"; };
+		1117DCCB7FFE2A264603D5AD /* RangeReplaceableCollection.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RangeReplaceableCollection.swift.structure.json; sourceTree = "<group>"; };
+		1117DCD0FDEB614C5824947F /* SimpleStringCharInputStream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleStringCharInputStream.swift.docs.json; sourceTree = "<group>"; };
+		1117DCDDDB021B2FA09FE822 /* AtomicValue.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AtomicValue.swift.syntax.json; sourceTree = "<group>"; };
+		1117DCDF972E63638E135F1A /* DateComponents.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateComponents.swift.docs.json; sourceTree = "<group>"; };
+		1117DCE39F71A184AD11E31D /* main.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.swift.structure.json; sourceTree = "<group>"; };
+		1117DCE61FB9109774572056 /* StringXForm.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringXForm.swift.syntax.json; sourceTree = "<group>"; };
+		1117DCF1A590B37F80F6C95A /* CharStream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharStream.swift.docs.json; sourceTree = "<group>"; };
 		1117DD29537A728C8F4C198C /* undocumented.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = undocumented.json; sourceTree = "<group>"; };
+		1117DD42A865F7A52DA0315E /* ShadowInt.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShadowInt.swift.structure.json; sourceTree = "<group>"; };
 		1117DD45068D5EA491C24660 /* lunr.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lunr.min.js; sourceTree = "<group>"; };
+		1117DD4EF2012C1B15F2DD24 /* FileList.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FileList.swift.syntax.json; sourceTree = "<group>"; };
+		1117DD4FB96DC7B4B31C19DB /* Collections.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Collections.swift.structure.json; sourceTree = "<group>"; };
+		1117DD56364C3336D0D7587B /* Stream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Stream.swift.docs.json; sourceTree = "<group>"; };
+		1117DD5920C71B4629B88DDC /* RegularExpression.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RegularExpression.swift.structure.json; sourceTree = "<group>"; };
 		1117DD859FBAD802C9D7141D /* Z28.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z28.swift; sourceTree = "<group>"; };
+		1117DD87FCE3CFFC8C8C93B5 /* CharStream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharStream.swift.syntax.json; sourceTree = "<group>"; };
+		1117DD8E558580A7D81CE57E /* ByteOrder.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ByteOrder.swift.syntax.json; sourceTree = "<group>"; };
+		1117DD903AB85D8787A97440 /* EasyByteBuffer.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EasyByteBuffer.swift.docs.json; sourceTree = "<group>"; };
+		1117DD969002D5A78B7E0DDD /* Array.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Array.swift.syntax.json; sourceTree = "<group>"; };
+		1117DD9AC1516A915FDF3940 /* AtomicValue.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AtomicValue.swift.docs.json; sourceTree = "<group>"; };
+		1117DDA323B2C650965C3763 /* StringFormat.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringFormat.swift.docs.json; sourceTree = "<group>"; };
+		1117DDC58AC628C8ADA419CD /* RangeReplaceableCollection.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RangeReplaceableCollection.swift.docs.json; sourceTree = "<group>"; };
 		1117DDC8AE79B94ECA7AC0F9 /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		1117DDD59236A9A8C63F81FB /* StringCharInputStream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringCharInputStream.swift.syntax.json; sourceTree = "<group>"; };
+		1117DDD757DBC8D1F66674CF /* MathTools.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MathTools.swift.index.json; sourceTree = "<group>"; };
+		1117DDF614A73148C3E86B54 /* Tools.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.swift.structure.json; sourceTree = "<group>"; };
+		1117DE10BA594F1DADEF7B85 /* Range.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Range.swift.index.json; sourceTree = "<group>"; };
+		1117DE28C4AD8ABE01DB5BE7 /* PGSemaphore.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGSemaphore.swift.structure.json; sourceTree = "<group>"; };
+		1117DE2C9E6B0B11A9BCDA93 /* SourceFileInfo.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SourceFileInfo.swift.index.json; sourceTree = "<group>"; };
+		1117DE303391AB22DD69F3FA /* AtomicProperty.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AtomicProperty.swift.syntax.json; sourceTree = "<group>"; };
+		1117DE3BF824DDC9BCDE29F5 /* Character.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Character.swift.index.json; sourceTree = "<group>"; };
+		1117DE3CE1F99BC6C9001066 /* SimpleIConvCharInputStream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleIConvCharInputStream.swift.index.json; sourceTree = "<group>"; };
+		1117DE3E12183803B7F8A111 /* Dictionary.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dictionary.swift.syntax.json; sourceTree = "<group>"; };
+		1117DE477E1315BC5232996B /* Collections.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Collections.swift.index.json; sourceTree = "<group>"; };
+		1117DE4CB75E42EF10E146D7 /* SourceFileInfo.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SourceFileInfo.swift.docs.json; sourceTree = "<group>"; };
+		1117DE6495DB835EC8E05C23 /* StringXForm.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringXForm.swift.docs.json; sourceTree = "<group>"; };
+		1117DE65EF3CD1909BBD227D /* Buffers.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Buffers.swift.syntax.json; sourceTree = "<group>"; };
+		1117DE910F36A85DBB243E05 /* Data.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.swift.index.json; sourceTree = "<group>"; };
+		1117DE986479E864BBFD4661 /* CharInputStream.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharInputStream.swift.structure.json; sourceTree = "<group>"; };
+		1117DEB69CA0D54F06540B46 /* CStrings.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CStrings.swift.index.json; sourceTree = "<group>"; };
+		1117DEC8966F150021FFABCB /* Tools.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.swift.docs.json; sourceTree = "<group>"; };
+		1117DEDFAFD083FE5939FB38 /* DateFormatter.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateFormatter.swift.index.json; sourceTree = "<group>"; };
+		1117DEE48EAE1ABDE02D189B /* RingByteBuffer.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RingByteBuffer.swift.index.json; sourceTree = "<group>"; };
+		1117DEEB314921DB7041ADA4 /* NamedSemaphore.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NamedSemaphore.swift.index.json; sourceTree = "<group>"; };
+		1117DEED6C843CAF058F16FC /* ByteOrder.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ByteOrder.swift.index.json; sourceTree = "<group>"; };
+		1117DF0249963FAC7AD7ECBB /* PGSemaphore.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGSemaphore.swift.index.json; sourceTree = "<group>"; };
+		1117DF0F7D295863EABF1C65 /* DataByteBuffer.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataByteBuffer.swift.index.json; sourceTree = "<group>"; };
+		1117DF20DBA7CDF8354F74F4 /* NamedSemaphore.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NamedSemaphore.swift.syntax.json; sourceTree = "<group>"; };
 		1117DF330F404256EE898CE9 /* LinesColumnsAndOffsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinesColumnsAndOffsets.swift; sourceTree = "<group>"; };
+		1117DF67424EA3A5B1880E05 /* ReadWriteLock.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReadWriteLock.swift.structure.json; sourceTree = "<group>"; };
+		1117DF79770BC110F2BA32D5 /* Stream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Stream.swift.index.json; sourceTree = "<group>"; };
+		1117DF82863041CD008ACC70 /* ReadWriteLock.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReadWriteLock.swift.index.json; sourceTree = "<group>"; };
+		1117DF8B99975FC4E40543B2 /* SimpleStringCharInputStream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleStringCharInputStream.swift.index.json; sourceTree = "<group>"; };
+		1117DF9A2C35CD6C11DC8A10 /* DynamicFixedArray.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DynamicFixedArray.swift.syntax.json; sourceTree = "<group>"; };
+		1117DFBD6402DBF240560800 /* PGThread.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGThread.swift.docs.json; sourceTree = "<group>"; };
+		1117DFD0092FCC7FDB74EA59 /* Hasher.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hasher.swift.syntax.json; sourceTree = "<group>"; };
+		1117DFD0C651C3ADD2E7745A /* DateComponents.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateComponents.swift.syntax.json; sourceTree = "<group>"; };
+		1117DFDCCB398F401C657120 /* ReadWriteLock.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ReadWriteLock.swift.syntax.json; sourceTree = "<group>"; };
+		1117DFDCE906B555C74A6975 /* EasyByteBuffer.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EasyByteBuffer.swift.index.json; sourceTree = "<group>"; };
+		1117DFDEF0E0F4AFAA9277FB /* PGThread.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGThread.swift.index.json; sourceTree = "<group>"; };
 		836FD0BE2685118F008F0835 /* Z28 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Z28; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FD0C12685118F008F0835 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		836FD0D526851394008F0835 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -341,6 +593,258 @@
 				1117D663390EF6C8AE14DA07 /* Z28.swift.docs.json */,
 				1117DAF61229C53AC1BA5113 /* Z28.swift.structure.json */,
 				1117D66A92840362E89BE8A2 /* Z28.swift.index.json */,
+				1117D5807A9399B35B6A0893 /* Array.swift.docs.json */,
+				1117D23AE89A981B1969FC5C /* Array.swift.index.json */,
+				1117D60C07640A5CED237A6E /* Array.swift.structure.json */,
+				1117DD969002D5A78B7E0DDD /* Array.swift.syntax.json */,
+				1117D2448B3C9A3D9442B11F /* ArraySlice.swift.docs.json */,
+				1117D4D14599C535CF03BDCC /* ArraySlice.swift.index.json */,
+				1117D8B95D476766BEC9872B /* ArraySlice.swift.structure.json */,
+				1117D909A14D842A735DBA3B /* ArraySlice.swift.syntax.json */,
+				1117D48434D667242F06C420 /* AtomicProperty.swift.docs.json */,
+				1117D1C25DC5E20FD7C3176D /* AtomicProperty.swift.index.json */,
+				1117D49EB87972A151A84D8C /* AtomicProperty.swift.structure.json */,
+				1117DE303391AB22DD69F3FA /* AtomicProperty.swift.syntax.json */,
+				1117DD9AC1516A915FDF3940 /* AtomicValue.swift.docs.json */,
+				1117D8C66D6FF3A550515B28 /* AtomicValue.swift.index.json */,
+				1117D03CC502C860F580DFF8 /* AtomicValue.swift.structure.json */,
+				1117DCDDDB021B2FA09FE822 /* AtomicValue.swift.syntax.json */,
+				1117D50608A438654927748F /* BinaryInteger.swift.docs.json */,
+				1117D11A3C6697DC6FBBD30C /* BinaryInteger.swift.index.json */,
+				1117DBE24786BE5DE2CC6048 /* BinaryInteger.swift.structure.json */,
+				1117D47B4CABAA4FB0048DB1 /* BinaryInteger.swift.syntax.json */,
+				1117D1C32DE63B5244DF79DC /* BinaryTreeDictionary.swift.docs.json */,
+				1117D2532A4B963B122A5BC3 /* BinaryTreeDictionary.swift.index.json */,
+				1117D6F0D5DC86D6531F60A6 /* BinaryTreeDictionary.swift.structure.json */,
+				1117DA1277F9522D6D33E204 /* BinaryTreeDictionary.swift.syntax.json */,
+				1117D213C22941E2EBF2FAFC /* Buffers.swift.docs.json */,
+				1117DAC3C5843AA73C6D7DB0 /* Buffers.swift.index.json */,
+				1117D1012096CD9B610472DA /* Buffers.swift.structure.json */,
+				1117DE65EF3CD1909BBD227D /* Buffers.swift.syntax.json */,
+				1117D8A0F2E0CA35459F4E4F /* ByteOrder.swift.docs.json */,
+				1117DEED6C843CAF058F16FC /* ByteOrder.swift.index.json */,
+				1117DB441B6175754E82D284 /* ByteOrder.swift.structure.json */,
+				1117DD8E558580A7D81CE57E /* ByteOrder.swift.syntax.json */,
+				1117D44B8924BD6A85969B3D /* CErrors.swift.docs.json */,
+				1117D8F09A252481DA8BA0B4 /* CErrors.swift.index.json */,
+				1117DA1C0F5456DCB7A0F92A /* CErrors.swift.structure.json */,
+				1117D6338523034F401442F7 /* CErrors.swift.syntax.json */,
+				1117D589C819C52F35B77BA9 /* Character.swift.docs.json */,
+				1117DE3BF824DDC9BCDE29F5 /* Character.swift.index.json */,
+				1117D247BD657CFCBF4E442E /* Character.swift.structure.json */,
+				1117D53BAC3A4E1C0ED89062 /* Character.swift.syntax.json */,
+				1117D57D8EC12F2E0E61984B /* CharacterSet.swift.docs.json */,
+				1117DAB080C5B81A554BBD68 /* CharacterSet.swift.index.json */,
+				1117D3F2FCA6CCAAD6794216 /* CharacterSet.swift.structure.json */,
+				1117D35A88DD2D0187D058F1 /* CharacterSet.swift.syntax.json */,
+				1117D6751E7E4013738630AD /* CharInputStream.swift.docs.json */,
+				1117D9B63EA41B731E1951D8 /* CharInputStream.swift.index.json */,
+				1117DE986479E864BBFD4661 /* CharInputStream.swift.structure.json */,
+				1117D4F979213026B496EA76 /* CharInputStream.swift.syntax.json */,
+				1117DCF1A590B37F80F6C95A /* CharStream.swift.docs.json */,
+				1117DA449BD212D504270559 /* CharStream.swift.index.json */,
+				1117D5FBAD7533FE2639FE84 /* CharStream.swift.structure.json */,
+				1117DD87FCE3CFFC8C8C93B5 /* CharStream.swift.syntax.json */,
+				1117DC89BB732BC6B55F0A98 /* Closable.swift.docs.json */,
+				1117DB4C8C2BECC72E85C7CC /* Closable.swift.index.json */,
+				1117D682C66A064717A08965 /* Closable.swift.structure.json */,
+				1117D40F85AB455E4F738AAE /* Closable.swift.syntax.json */,
+				1117D222E75205B9448EAE6A /* Collections.swift.docs.json */,
+				1117DE477E1315BC5232996B /* Collections.swift.index.json */,
+				1117DD4FB96DC7B4B31C19DB /* Collections.swift.structure.json */,
+				1117D8BFC804587747891967 /* Collections.swift.syntax.json */,
+				1117D1531612631749A6F63D /* Conditional.swift.docs.json */,
+				1117D8C1C6EAEBA4E133C1D3 /* Conditional.swift.index.json */,
+				1117DA5509B7DF77F33FE168 /* Conditional.swift.structure.json */,
+				1117D27AD5B28539529A4CB2 /* Conditional.swift.syntax.json */,
+				1117D579837FBCC6F10928FA /* CStrings.swift.docs.json */,
+				1117DEB69CA0D54F06540B46 /* CStrings.swift.index.json */,
+				1117D18D591A2BB31693133A /* CStrings.swift.structure.json */,
+				1117D71DF612147E7D2D67D7 /* CStrings.swift.syntax.json */,
+				1117DA6C7A797103BCC5876F /* Data.swift.docs.json */,
+				1117DE910F36A85DBB243E05 /* Data.swift.index.json */,
+				1117DB0BC342AB112918F070 /* Data.swift.structure.json */,
+				1117D60FA04F85B11018AE35 /* Data.swift.syntax.json */,
+				1117D1A385E73B931B4A636F /* DataByteBuffer.swift.docs.json */,
+				1117DF0F7D295863EABF1C65 /* DataByteBuffer.swift.index.json */,
+				1117DC93047122CF93FFDA7F /* DataByteBuffer.swift.structure.json */,
+				1117D39C74C5AAF168D9AE18 /* DataByteBuffer.swift.syntax.json */,
+				1117DCDF972E63638E135F1A /* DateComponents.swift.docs.json */,
+				1117D253CE09A9098FC4BC92 /* DateComponents.swift.index.json */,
+				1117D25405CBE30E98B86CE2 /* DateComponents.swift.structure.json */,
+				1117DFD0C651C3ADD2E7745A /* DateComponents.swift.syntax.json */,
+				1117DB727DF33815DC74F909 /* DateFormatter.swift.docs.json */,
+				1117DEDFAFD083FE5939FB38 /* DateFormatter.swift.index.json */,
+				1117DC3C1E2066AD577D4E53 /* DateFormatter.swift.structure.json */,
+				1117D95A8A10F614203A9A24 /* DateFormatter.swift.syntax.json */,
+				1117D7371A55B93A6DE95A12 /* Dictionary.swift.docs.json */,
+				1117D2697BA0ABA6935F72F8 /* Dictionary.swift.index.json */,
+				1117D9674BA73B02675EB03B /* Dictionary.swift.structure.json */,
+				1117DE3E12183803B7F8A111 /* Dictionary.swift.syntax.json */,
+				1117D9A4ACAD974D08FCD21C /* DynamicFixedArray.swift.docs.json */,
+				1117D37408E77D135E9159E2 /* DynamicFixedArray.swift.index.json */,
+				1117DC3321E8DD861AF6048C /* DynamicFixedArray.swift.structure.json */,
+				1117DF9A2C35CD6C11DC8A10 /* DynamicFixedArray.swift.syntax.json */,
+				1117DD903AB85D8787A97440 /* EasyByteBuffer.swift.docs.json */,
+				1117DFDCE906B555C74A6975 /* EasyByteBuffer.swift.index.json */,
+				1117D3AD98BB2E079B3A4DC8 /* EasyByteBuffer.swift.structure.json */,
+				1117D9DD2D31FACC0422746B /* EasyByteBuffer.swift.syntax.json */,
+				1117DB0D70D707195327F86B /* Extensions.swift.docs.json */,
+				1117D23D1CFFF7C1DF80C2DA /* Extensions.swift.index.json */,
+				1117DA06E86DC4A85137AD1A /* Extensions.swift.structure.json */,
+				1117D981E00E21F9120C408C /* Extensions.swift.syntax.json */,
+				1117D240CB7001EB8DA2367C /* FileList.swift.docs.json */,
+				1117D9DC2632F90DF952DF52 /* FileList.swift.index.json */,
+				1117D6B70813948F9EBF902F /* FileList.swift.structure.json */,
+				1117DD4EF2012C1B15F2DD24 /* FileList.swift.syntax.json */,
+				1117D9FD36E002AF1DA63C9B /* FloatingPoint.swift.docs.json */,
+				1117DA480077DB340731B836 /* FloatingPoint.swift.index.json */,
+				1117D8CBF11030F0B7BA8B66 /* FloatingPoint.swift.structure.json */,
+				1117D3BEC253599ED44AB8B6 /* FloatingPoint.swift.syntax.json */,
+				1117D6B64609A4F979D5996D /* Hasher.swift.docs.json */,
+				1117D7E8CA40D6913F7688EE /* Hasher.swift.index.json */,
+				1117D5593A60125D8830CBC1 /* Hasher.swift.structure.json */,
+				1117DFD0092FCC7FDB74EA59 /* Hasher.swift.syntax.json */,
+				1117D42F708DBD221D11D3CE /* IConv.swift.docs.json */,
+				1117DAFD9803B996A1F9C64C /* IConv.swift.index.json */,
+				1117D9E856EBB8D63C667702 /* IConv.swift.structure.json */,
+				1117D6E0A5380BD211DF09CD /* IConv.swift.syntax.json */,
+				1117D66CF3122C06C8144715 /* IConvCharInputStream.swift.docs.json */,
+				1117DB19A84DFF546F81E3E1 /* IConvCharInputStream.swift.index.json */,
+				1117D534BA293A42D9CBE39A /* IConvCharInputStream.swift.structure.json */,
+				1117DBBFC67A818F18C4295A /* IConvCharInputStream.swift.syntax.json */,
+				1117D239936C8C676AE42B81 /* LinesColumnsAndOffsets.swift.docs.json */,
+				1117D4E9117F2C1A7763ADBB /* LinesColumnsAndOffsets.swift.index.json */,
+				1117D957FD2902EBD278CD1C /* LinesColumnsAndOffsets.swift.structure.json */,
+				1117DAB6475AF4D5D3E3C792 /* LinesColumnsAndOffsets.swift.syntax.json */,
+				1117D34DB511D7BC65C52A5E /* main.swift.docs.json */,
+				1117D1E44EB86B79E3EF2D12 /* main.swift.index.json */,
+				1117DCE39F71A184AD11E31D /* main.swift.structure.json */,
+				1117DBFD5577530DE2F20E1C /* main.swift.syntax.json */,
+				1117DA4407DE3E57FEFA33DC /* ManagedByteBuffer.swift.docs.json */,
+				1117D3E37501D2A2E32EE269 /* ManagedByteBuffer.swift.index.json */,
+				1117DB3BF61D60943E73AAFC /* ManagedByteBuffer.swift.structure.json */,
+				1117DBC2AA016735EE44C481 /* ManagedByteBuffer.swift.syntax.json */,
+				1117D5648F02EAB7D845392E /* MarkInputStream.swift.docs.json */,
+				1117D11C58C84C8D5E16E308 /* MarkInputStream.swift.index.json */,
+				1117D202F86D6B9ED7A8D0CF /* MarkInputStream.swift.structure.json */,
+				1117D3A48119FD9C7EACAF5A /* MarkInputStream.swift.syntax.json */,
+				1117D55500AED8667B703266 /* MathTools.swift.docs.json */,
+				1117DDD757DBC8D1F66674CF /* MathTools.swift.index.json */,
+				1117D9845890ABE14380B78D /* MathTools.swift.structure.json */,
+				1117D447ED472082C486A985 /* MathTools.swift.syntax.json */,
+				1117D705D0A6292AC8A272ED /* NamedSemaphore.swift.docs.json */,
+				1117DEEB314921DB7041ADA4 /* NamedSemaphore.swift.index.json */,
+				1117DB29711E9A3F505087BB /* NamedSemaphore.swift.structure.json */,
+				1117DF20DBA7CDF8354F74F4 /* NamedSemaphore.swift.syntax.json */,
+				1117D38A99BE53FA9CF3C77A /* NanoTimer.swift.docs.json */,
+				1117D4D2FA37CCEB9272DAB3 /* NanoTimer.swift.index.json */,
+				1117DC76154AC2A9152FF0B3 /* NanoTimer.swift.structure.json */,
+				1117D0EE379F6E14CFC29A58 /* NanoTimer.swift.syntax.json */,
+				1117D21524A6796ACC128D9E /* NSLock.swift.docs.json */,
+				1117DC2315AC5BB3283EA8B7 /* NSLock.swift.index.json */,
+				1117D525CF1D3F464C65500A /* NSLock.swift.structure.json */,
+				1117DC5ADD24A083C1E40A05 /* NSLock.swift.syntax.json */,
+				1117D2BF471866848542C078 /* NSRange.swift.docs.json */,
+				1117D78335308189158C6C41 /* NSRange.swift.index.json */,
+				1117D559BA5FAF0CC9685D0A /* NSRange.swift.structure.json */,
+				1117DA756EC6FB4401B36100 /* NSRange.swift.syntax.json */,
+				1117D32352F8BD9419370593 /* PGErrors.swift.docs.json */,
+				1117D64DCDCD67C6FA47517E /* PGErrors.swift.index.json */,
+				1117D1D795474452A4977BD5 /* PGErrors.swift.structure.json */,
+				1117D53BF0B8309D921262DD /* PGErrors.swift.syntax.json */,
+				1117D230CFB78C9492602DFE /* PGSemaphore.swift.docs.json */,
+				1117DF0249963FAC7AD7ECBB /* PGSemaphore.swift.index.json */,
+				1117DE28C4AD8ABE01DB5BE7 /* PGSemaphore.swift.structure.json */,
+				1117DA3A600256CCFD532873 /* PGSemaphore.swift.syntax.json */,
+				1117DFBD6402DBF240560800 /* PGThread.swift.docs.json */,
+				1117DFDEF0E0F4AFAA9277FB /* PGThread.swift.index.json */,
+				1117DCC0DBBC6051DF1D292F /* PGThread.swift.structure.json */,
+				1117D64A8F939DD186AFB40F /* PGThread.swift.syntax.json */,
+				1117DCC94DA1AE9F0ECA48B9 /* Range.swift.docs.json */,
+				1117DE10BA594F1DADEF7B85 /* Range.swift.index.json */,
+				1117D88F1DC73326B7E97A84 /* Range.swift.structure.json */,
+				1117D9C90EB1F9B375EA1961 /* Range.swift.syntax.json */,
+				1117DDC58AC628C8ADA419CD /* RangeReplaceableCollection.swift.docs.json */,
+				1117D5258B0485018EC353A1 /* RangeReplaceableCollection.swift.index.json */,
+				1117DCCB7FFE2A264603D5AD /* RangeReplaceableCollection.swift.structure.json */,
+				1117DAF8F33411E420F407AB /* RangeReplaceableCollection.swift.syntax.json */,
+				1117DBED4FA8D1DBD862301C /* ReadWriteLock.swift.docs.json */,
+				1117DF82863041CD008ACC70 /* ReadWriteLock.swift.index.json */,
+				1117DF67424EA3A5B1880E05 /* ReadWriteLock.swift.structure.json */,
+				1117DFDCCB398F401C657120 /* ReadWriteLock.swift.syntax.json */,
+				1117D6F0A0C87BB5DEC3E000 /* RegularExpression.swift.docs.json */,
+				1117D4C0C1CC7E72E6804C81 /* RegularExpression.swift.index.json */,
+				1117DD5920C71B4629B88DDC /* RegularExpression.swift.structure.json */,
+				1117D50AE9B5614D0CD40607 /* RegularExpression.swift.syntax.json */,
+				1117D74B1E288684434ED522 /* RingByteBuffer.swift.docs.json */,
+				1117DEE48EAE1ABDE02D189B /* RingByteBuffer.swift.index.json */,
+				1117D2AE76703DC86212F98D /* RingByteBuffer.swift.structure.json */,
+				1117DA92AB37A78D7A8CED98 /* RingByteBuffer.swift.syntax.json */,
+				1117D6BEC7C46F2F329D3AA0 /* ShadowInt.swift.docs.json */,
+				1117D3BE0F39348429DE2BDE /* ShadowInt.swift.index.json */,
+				1117DD42A865F7A52DA0315E /* ShadowInt.swift.structure.json */,
+				1117D9BED7E3A4156D4DD749 /* ShadowInt.swift.syntax.json */,
+				1117D2617F649B1676569230 /* SimpleCharInputStream.swift.docs.json */,
+				1117D427784FFF1A6F27795E /* SimpleCharInputStream.swift.index.json */,
+				1117D25DFE854C5A34521B8A /* SimpleCharInputStream.swift.structure.json */,
+				1117D320CF7EE58CC612155A /* SimpleCharInputStream.swift.syntax.json */,
+				1117D0F07251F36CB6726654 /* SimpleIConvCharInputStream.swift.docs.json */,
+				1117DE3CE1F99BC6C9001066 /* SimpleIConvCharInputStream.swift.index.json */,
+				1117DBF30DDEECD599FEEEA5 /* SimpleIConvCharInputStream.swift.structure.json */,
+				1117D76B24BD4A3B86FBB016 /* SimpleIConvCharInputStream.swift.syntax.json */,
+				1117DCD0FDEB614C5824947F /* SimpleStringCharInputStream.swift.docs.json */,
+				1117DF8B99975FC4E40543B2 /* SimpleStringCharInputStream.swift.index.json */,
+				1117DB8D35861970A5BD5A71 /* SimpleStringCharInputStream.swift.structure.json */,
+				1117D03AE696E138B8B0CB10 /* SimpleStringCharInputStream.swift.syntax.json */,
+				1117DE4CB75E42EF10E146D7 /* SourceFileInfo.swift.docs.json */,
+				1117DE2C9E6B0B11A9BCDA93 /* SourceFileInfo.swift.index.json */,
+				1117DB1B1DFC50A4FD36D92D /* SourceFileInfo.swift.structure.json */,
+				1117D862B5A9CDAE95B03816 /* SourceFileInfo.swift.syntax.json */,
+				1117DD56364C3336D0D7587B /* Stream.swift.docs.json */,
+				1117DF79770BC110F2BA32D5 /* Stream.swift.index.json */,
+				1117D92CABB834D373599090 /* Stream.swift.structure.json */,
+				1117D2838EC7B15B01A63609 /* Stream.swift.syntax.json */,
+				1117D7D6DF12E55F81752A45 /* String.swift.docs.json */,
+				1117D1A738D92F9F839A48A3 /* String.swift.index.json */,
+				1117D8194AFD3404F88A5FB1 /* String.swift.structure.json */,
+				1117D7F1510D5E97D6EBA5AF /* String.swift.syntax.json */,
+				1117DBB1DD5AECAA8FD492B6 /* StringCharInputStream.swift.docs.json */,
+				1117D13BC59BDAFF9B49E317 /* StringCharInputStream.swift.index.json */,
+				1117DA8B8A90782079E65740 /* StringCharInputStream.swift.structure.json */,
+				1117DDD59236A9A8C63F81FB /* StringCharInputStream.swift.syntax.json */,
+				1117DDA323B2C650965C3763 /* StringFormat.swift.docs.json */,
+				1117D76B882C0A122F98EE53 /* StringFormat.swift.index.json */,
+				1117D74B28F13AB4D2B0235C /* StringFormat.swift.structure.json */,
+				1117D852D48C04E5ACB727B3 /* StringFormat.swift.syntax.json */,
+				1117D13535A483FC13E4D639 /* StringProtocol.swift.docs.json */,
+				1117D1995962CA8908A6BF24 /* StringProtocol.swift.index.json */,
+				1117D561CC82576C586691A3 /* StringProtocol.swift.structure.json */,
+				1117DBC589D021D4FA2718FA /* StringProtocol.swift.syntax.json */,
+				1117DE6495DB835EC8E05C23 /* StringXForm.swift.docs.json */,
+				1117D3E4D38E601B710ADEE6 /* StringXForm.swift.index.json */,
+				1117D80FFF97FA081C7D9E68 /* StringXForm.swift.structure.json */,
+				1117DCE61FB9109774572056 /* StringXForm.swift.syntax.json */,
+				1117D20D89022BBB5D68D7F6 /* Thread.swift.docs.json */,
+				1117D5A70C7032E5130EBC54 /* Thread.swift.index.json */,
+				1117D98FEBA7D73E28414906 /* Thread.swift.structure.json */,
+				1117DC6F50C2437074AA97B1 /* Thread.swift.syntax.json */,
+				1117D618B4443887BBE49AD3 /* ThreadLocal.swift.docs.json */,
+				1117DC209DB5CF43490C93F9 /* ThreadLocal.swift.index.json */,
+				1117D2E47AED3E68045FF74F /* ThreadLocal.swift.structure.json */,
+				1117DC9D1719F3F7A9D49908 /* ThreadLocal.swift.syntax.json */,
+				1117DEC8966F150021FFABCB /* Tools.swift.docs.json */,
+				1117DCA67D7E62FA487636E7 /* Tools.swift.index.json */,
+				1117DDF614A73148C3E86B54 /* Tools.swift.structure.json */,
+				1117D9F6C8518F720A0643EE /* Tools.swift.syntax.json */,
+				1117D1A25A587D11D6318424 /* TreeNode.swift.docs.json */,
+				1117D4C57DDE97B1AC71EA0F /* TreeNode.swift.index.json */,
+				1117D8D1DE7D9AB3EE3EADFA /* TreeNode.swift.structure.json */,
+				1117D5605F513DF645891C5B /* TreeNode.swift.syntax.json */,
+				1117DBA9E960CC1C3EF3FA1A /* UnnamedSemaphore.swift.docs.json */,
+				1117D8D86A2703A3620773FB /* UnnamedSemaphore.swift.index.json */,
+				1117DB4889F38E4B1040B459 /* UnnamedSemaphore.swift.structure.json */,
+				1117DBB283E1E2FC192EC2C5 /* UnnamedSemaphore.swift.syntax.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";

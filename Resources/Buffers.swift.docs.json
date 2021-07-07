@@ -1,0 +1,1119 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 4257,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias CCharPointer = <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 26,
+          "key.offset": 1102
+        }
+      ],
+      "key.column": 8,
+      "key.doc.comment": "",
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>CCharPointer<\/decl.name> = <ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 54,
+      "key.line": 26,
+      "key.name": "CCharPointer",
+      "key.namecolumn": 18,
+      "key.namelength": 12,
+      "key.nameline": 26,
+      "key.nameoffset": 1119,
+      "key.offset": 1109,
+      "key.parsed_declaration": "public typealias CCharPointer   = UnsafeMutablePointer<CChar>",
+      "key.parsed_scope.end": 26,
+      "key.parsed_scope.start": 26,
+      "key.typename": "UnsafeMutablePointer<Int8>.Type",
+      "key.typeusr": "$sSpys4Int8VGmD",
+      "key.usr": "s:7Rubicon12CCharPointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias CCharBuffer = <Type usr=\"s:Sr\">UnsafeMutableBufferPointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 27,
+          "key.offset": 1164
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>CCharBuffer<\/decl.name> = <ref.struct usr=\"s:Sr\">UnsafeMutableBufferPointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 60,
+      "key.line": 27,
+      "key.name": "CCharBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 11,
+      "key.nameline": 27,
+      "key.nameoffset": 1181,
+      "key.offset": 1171,
+      "key.parsed_declaration": "public typealias CCharBuffer    = UnsafeMutableBufferPointer<CChar>",
+      "key.parsed_scope.end": 27,
+      "key.parsed_scope.start": 27,
+      "key.typename": "UnsafeMutableBufferPointer<Int8>.Type",
+      "key.typeusr": "$sSrys4Int8VGmD",
+      "key.usr": "s:7Rubicon11CCharBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias CCharROPointer = <Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 28,
+          "key.offset": 1232
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>CCharROPointer<\/decl.name> = <ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 47,
+      "key.line": 28,
+      "key.name": "CCharROPointer",
+      "key.namecolumn": 18,
+      "key.namelength": 14,
+      "key.nameline": 28,
+      "key.nameoffset": 1249,
+      "key.offset": 1239,
+      "key.parsed_declaration": "public typealias CCharROPointer = UnsafePointer<CChar>",
+      "key.parsed_scope.end": 28,
+      "key.parsed_scope.start": 28,
+      "key.typename": "UnsafePointer<Int8>.Type",
+      "key.typeusr": "$sSPys4Int8VGmD",
+      "key.usr": "s:7Rubicon14CCharROPointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias CCharROBuffer = <Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s5CChara\">CChar<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 29,
+          "key.offset": 1287
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>CCharROBuffer<\/decl.name> = <ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.typealias usr=\"s:s5CChara\">CChar<\/ref.typealias>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 53,
+      "key.line": 29,
+      "key.name": "CCharROBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 13,
+      "key.nameline": 29,
+      "key.nameoffset": 1304,
+      "key.offset": 1294,
+      "key.parsed_declaration": "public typealias CCharROBuffer  = UnsafeBufferPointer<CChar>",
+      "key.parsed_scope.end": 29,
+      "key.parsed_scope.start": 29,
+      "key.typename": "UnsafeBufferPointer<Int8>.Type",
+      "key.typeusr": "$sSRys4Int8VGmD",
+      "key.usr": "s:7Rubicon13CCharROBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias BytePointer = <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 31,
+          "key.offset": 1349
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>BytePointer<\/decl.name> = <ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 54,
+      "key.line": 31,
+      "key.name": "BytePointer",
+      "key.namecolumn": 18,
+      "key.namelength": 11,
+      "key.nameline": 31,
+      "key.nameoffset": 1366,
+      "key.offset": 1356,
+      "key.parsed_declaration": "public typealias BytePointer    = UnsafeMutablePointer<UInt8>",
+      "key.parsed_scope.end": 31,
+      "key.parsed_scope.start": 31,
+      "key.typename": "UnsafeMutablePointer<UInt8>.Type",
+      "key.typeusr": "$sSpys5UInt8VGmD",
+      "key.usr": "s:7Rubicon11BytePointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias ByteBuffer = <Type usr=\"s:Sr\">UnsafeMutableBufferPointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 32,
+          "key.offset": 1411
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>ByteBuffer<\/decl.name> = <ref.struct usr=\"s:Sr\">UnsafeMutableBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 60,
+      "key.line": 32,
+      "key.name": "ByteBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 10,
+      "key.nameline": 32,
+      "key.nameoffset": 1428,
+      "key.offset": 1418,
+      "key.parsed_declaration": "public typealias ByteBuffer     = UnsafeMutableBufferPointer<UInt8>",
+      "key.parsed_scope.end": 32,
+      "key.parsed_scope.start": 32,
+      "key.typename": "UnsafeMutableBufferPointer<UInt8>.Type",
+      "key.typeusr": "$sSrys5UInt8VGmD",
+      "key.usr": "s:7Rubicon10ByteBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias ByteROPointer = <Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 33,
+          "key.offset": 1479
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>ByteROPointer<\/decl.name> = <ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 47,
+      "key.line": 33,
+      "key.name": "ByteROPointer",
+      "key.namecolumn": 18,
+      "key.namelength": 13,
+      "key.nameline": 33,
+      "key.nameoffset": 1496,
+      "key.offset": 1486,
+      "key.parsed_declaration": "public typealias ByteROPointer  = UnsafePointer<UInt8>",
+      "key.parsed_scope.end": 33,
+      "key.parsed_scope.start": 33,
+      "key.typename": "UnsafePointer<UInt8>.Type",
+      "key.typeusr": "$sSPys5UInt8VGmD",
+      "key.usr": "s:7Rubicon13ByteROPointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias ByteROBuffer = <Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 34,
+          "key.offset": 1534
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>ByteROBuffer<\/decl.name> = <ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 53,
+      "key.line": 34,
+      "key.name": "ByteROBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 12,
+      "key.nameline": 34,
+      "key.nameoffset": 1551,
+      "key.offset": 1541,
+      "key.parsed_declaration": "public typealias ByteROBuffer   = UnsafeBufferPointer<UInt8>",
+      "key.parsed_scope.end": 34,
+      "key.parsed_scope.start": 34,
+      "key.typename": "UnsafeBufferPointer<UInt8>.Type",
+      "key.typeusr": "$sSRys5UInt8VGmD",
+      "key.usr": "s:7Rubicon12ByteROBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias WordPointer = <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s6UInt16V\">UInt16<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 36,
+          "key.offset": 1596
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>WordPointer<\/decl.name> = <ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt16V\">UInt16<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 55,
+      "key.line": 36,
+      "key.name": "WordPointer",
+      "key.namecolumn": 18,
+      "key.namelength": 11,
+      "key.nameline": 36,
+      "key.nameoffset": 1613,
+      "key.offset": 1603,
+      "key.parsed_declaration": "public typealias WordPointer    = UnsafeMutablePointer<UInt16>",
+      "key.parsed_scope.end": 36,
+      "key.parsed_scope.start": 36,
+      "key.typename": "UnsafeMutablePointer<UInt16>.Type",
+      "key.typeusr": "$sSpys6UInt16VGmD",
+      "key.usr": "s:7Rubicon11WordPointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias WordROPointer = <Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:s6UInt16V\">UInt16<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 37,
+          "key.offset": 1659
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>WordROPointer<\/decl.name> = <ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt16V\">UInt16<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 48,
+      "key.line": 37,
+      "key.name": "WordROPointer",
+      "key.namecolumn": 18,
+      "key.namelength": 13,
+      "key.nameline": 37,
+      "key.nameoffset": 1676,
+      "key.offset": 1666,
+      "key.parsed_declaration": "public typealias WordROPointer  = UnsafePointer<UInt16>",
+      "key.parsed_scope.end": 37,
+      "key.parsed_scope.start": 37,
+      "key.typename": "UnsafePointer<UInt16>.Type",
+      "key.typeusr": "$sSPys6UInt16VGmD",
+      "key.usr": "s:7Rubicon13WordROPointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias WordBuffer = <Type usr=\"s:Sr\">UnsafeMutableBufferPointer<\/Type>&lt;<Type usr=\"s:s6UInt16V\">UInt16<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 38,
+          "key.offset": 1715
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>WordBuffer<\/decl.name> = <ref.struct usr=\"s:Sr\">UnsafeMutableBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt16V\">UInt16<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 61,
+      "key.line": 38,
+      "key.name": "WordBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 10,
+      "key.nameline": 38,
+      "key.nameoffset": 1732,
+      "key.offset": 1722,
+      "key.parsed_declaration": "public typealias WordBuffer     = UnsafeMutableBufferPointer<UInt16>",
+      "key.parsed_scope.end": 38,
+      "key.parsed_scope.start": 38,
+      "key.typename": "UnsafeMutableBufferPointer<UInt16>.Type",
+      "key.typeusr": "$sSrys6UInt16VGmD",
+      "key.usr": "s:7Rubicon10WordBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias WordROBuffer = <Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s6UInt16V\">UInt16<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 39,
+          "key.offset": 1784
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>WordROBuffer<\/decl.name> = <ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt16V\">UInt16<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 54,
+      "key.line": 39,
+      "key.name": "WordROBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 12,
+      "key.nameline": 39,
+      "key.nameoffset": 1801,
+      "key.offset": 1791,
+      "key.parsed_declaration": "public typealias WordROBuffer   = UnsafeBufferPointer<UInt16>",
+      "key.parsed_scope.end": 39,
+      "key.parsed_scope.start": 39,
+      "key.typename": "UnsafeBufferPointer<UInt16>.Type",
+      "key.typeusr": "$sSRys6UInt16VGmD",
+      "key.usr": "s:7Rubicon12WordROBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias DWordPointer = <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s6UInt32V\">UInt32<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 41,
+          "key.offset": 1847
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>DWordPointer<\/decl.name> = <ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt32V\">UInt32<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 55,
+      "key.line": 41,
+      "key.name": "DWordPointer",
+      "key.namecolumn": 18,
+      "key.namelength": 12,
+      "key.nameline": 41,
+      "key.nameoffset": 1864,
+      "key.offset": 1854,
+      "key.parsed_declaration": "public typealias DWordPointer   = UnsafeMutablePointer<UInt32>",
+      "key.parsed_scope.end": 41,
+      "key.parsed_scope.start": 41,
+      "key.typename": "UnsafeMutablePointer<UInt32>.Type",
+      "key.typeusr": "$sSpys6UInt32VGmD",
+      "key.usr": "s:7Rubicon12DWordPointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias DWordROPointer = <Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:s6UInt32V\">UInt32<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 42,
+          "key.offset": 1910
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>DWordROPointer<\/decl.name> = <ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt32V\">UInt32<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 48,
+      "key.line": 42,
+      "key.name": "DWordROPointer",
+      "key.namecolumn": 18,
+      "key.namelength": 14,
+      "key.nameline": 42,
+      "key.nameoffset": 1927,
+      "key.offset": 1917,
+      "key.parsed_declaration": "public typealias DWordROPointer = UnsafePointer<UInt32>",
+      "key.parsed_scope.end": 42,
+      "key.parsed_scope.start": 42,
+      "key.typename": "UnsafePointer<UInt32>.Type",
+      "key.typeusr": "$sSPys6UInt32VGmD",
+      "key.usr": "s:7Rubicon14DWordROPointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias DWordBuffer = <Type usr=\"s:Sr\">UnsafeMutableBufferPointer<\/Type>&lt;<Type usr=\"s:s6UInt32V\">UInt32<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 43,
+          "key.offset": 1966
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>DWordBuffer<\/decl.name> = <ref.struct usr=\"s:Sr\">UnsafeMutableBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt32V\">UInt32<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 61,
+      "key.line": 43,
+      "key.name": "DWordBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 11,
+      "key.nameline": 43,
+      "key.nameoffset": 1983,
+      "key.offset": 1973,
+      "key.parsed_declaration": "public typealias DWordBuffer    = UnsafeMutableBufferPointer<UInt32>",
+      "key.parsed_scope.end": 43,
+      "key.parsed_scope.start": 43,
+      "key.typename": "UnsafeMutableBufferPointer<UInt32>.Type",
+      "key.typeusr": "$sSrys6UInt32VGmD",
+      "key.usr": "s:7Rubicon11DWordBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias DWordROBuffer = <Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s6UInt32V\">UInt32<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 44,
+          "key.offset": 2035
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>DWordROBuffer<\/decl.name> = <ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt32V\">UInt32<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 54,
+      "key.line": 44,
+      "key.name": "DWordROBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 13,
+      "key.nameline": 44,
+      "key.nameoffset": 2052,
+      "key.offset": 2042,
+      "key.parsed_declaration": "public typealias DWordROBuffer  = UnsafeBufferPointer<UInt32>",
+      "key.parsed_scope.end": 44,
+      "key.parsed_scope.start": 44,
+      "key.typename": "UnsafeBufferPointer<UInt32>.Type",
+      "key.typeusr": "$sSRys6UInt32VGmD",
+      "key.usr": "s:7Rubicon13DWordROBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias QWordPointer = <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s6UInt64V\">UInt64<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 46,
+          "key.offset": 2098
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>QWordPointer<\/decl.name> = <ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt64V\">UInt64<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 55,
+      "key.line": 46,
+      "key.name": "QWordPointer",
+      "key.namecolumn": 18,
+      "key.namelength": 12,
+      "key.nameline": 46,
+      "key.nameoffset": 2115,
+      "key.offset": 2105,
+      "key.parsed_declaration": "public typealias QWordPointer   = UnsafeMutablePointer<UInt64>",
+      "key.parsed_scope.end": 46,
+      "key.parsed_scope.start": 46,
+      "key.typename": "UnsafeMutablePointer<UInt64>.Type",
+      "key.typeusr": "$sSpys6UInt64VGmD",
+      "key.usr": "s:7Rubicon12QWordPointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias QWordROPointer = <Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:s6UInt64V\">UInt64<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 47,
+          "key.offset": 2161
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>QWordROPointer<\/decl.name> = <ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt64V\">UInt64<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 48,
+      "key.line": 47,
+      "key.name": "QWordROPointer",
+      "key.namecolumn": 18,
+      "key.namelength": 14,
+      "key.nameline": 47,
+      "key.nameoffset": 2178,
+      "key.offset": 2168,
+      "key.parsed_declaration": "public typealias QWordROPointer = UnsafePointer<UInt64>",
+      "key.parsed_scope.end": 47,
+      "key.parsed_scope.start": 47,
+      "key.typename": "UnsafePointer<UInt64>.Type",
+      "key.typeusr": "$sSPys6UInt64VGmD",
+      "key.usr": "s:7Rubicon14QWordROPointera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias QWordBuffer = <Type usr=\"s:Sr\">UnsafeMutableBufferPointer<\/Type>&lt;<Type usr=\"s:s6UInt64V\">UInt64<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 48,
+          "key.offset": 2217
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>QWordBuffer<\/decl.name> = <ref.struct usr=\"s:Sr\">UnsafeMutableBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt64V\">UInt64<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 61,
+      "key.line": 48,
+      "key.name": "QWordBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 11,
+      "key.nameline": 48,
+      "key.nameoffset": 2234,
+      "key.offset": 2224,
+      "key.parsed_declaration": "public typealias QWordBuffer    = UnsafeMutableBufferPointer<UInt64>",
+      "key.parsed_scope.end": 48,
+      "key.parsed_scope.start": 48,
+      "key.typename": "UnsafeMutableBufferPointer<UInt64>.Type",
+      "key.typeusr": "$sSrys6UInt64VGmD",
+      "key.usr": "s:7Rubicon11QWordBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public typealias QWordROBuffer = <Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s6UInt64V\">UInt64<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 49,
+          "key.offset": 2286
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>QWordROBuffer<\/decl.name> = <ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s6UInt64V\">UInt64<\/ref.struct>&gt;<\/decl.typealias>",
+      "key.kind": "source.lang.swift.decl.typealias",
+      "key.length": 54,
+      "key.line": 49,
+      "key.name": "QWordROBuffer",
+      "key.namecolumn": 18,
+      "key.namelength": 13,
+      "key.nameline": 49,
+      "key.nameoffset": 2303,
+      "key.offset": 2293,
+      "key.parsed_declaration": "public typealias QWordROBuffer  = UnsafeBufferPointer<UInt64>",
+      "key.parsed_scope.end": 49,
+      "key.parsed_scope.start": 49,
+      "key.typename": "UnsafeBufferPointer<UInt64>.Type",
+      "key.typeusr": "$sSRys6UInt64VGmD",
+      "key.usr": "s:7Rubicon13QWordROBuffera"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public func discardMutablePointer&lt;T&gt;(_ buffer: <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:7Rubicon21discardMutablePointeryySpyxG_SitlF1TL_xmfp\">T<\/Type>&gt;, _ count: <Type usr=\"s:Si\">Int<\/Type> = 1)<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 61,
+          "key.offset": 2770
+        }
+      ],
+      "key.bodycolumn": 92,
+      "key.bodylength": 63,
+      "key.bodyline": 61,
+      "key.bodyoffset": 2861,
+      "key.column": 8,
+      "key.doc.column": 13,
+      "key.doc.comment": "Deinitialzies and deallocates an\n<code>[UnsaveMutablePointer](https:\/\/developer.apple.com\/documentation\/swift\/UnsaveMutablePointer)<\/code> in\none call.\n\n- Parameters:\n  - buffer: The buffer to discard.\n  - count: The number of elements in the buffer to deinitialize.",
+      "key.doc.declaration": "public func discardMutablePointer<T>(_ buffer: UnsafeMutablePointer<T>, _ count: Int = 1)",
+      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift\" line=\"61\" column=\"13\"><Name>discardMutablePointer(_:_:)<\/Name><USR>s:7Rubicon21discardMutablePointeryySpyxG_SitlF<\/USR><Declaration>public func discardMutablePointer&lt;T&gt;(_ buffer: UnsafeMutablePointer&lt;T&gt;, _ count: Int = 1)<\/Declaration><CommentParts><Abstract><Para>Deinitialzies and deallocates an <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/UnsaveMutablePointer\">UnsaveMutablePointer<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> in one call.<\/Para><\/Abstract><Parameters><Parameter><Name>buffer<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The buffer to discard.<\/Para><\/Discussion><\/Parameter><Parameter><Name>count<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of elements in the buffer to deinitialize.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+      "key.doc.line": 61,
+      "key.doc.name": "discardMutablePointer(_:_:)",
+      "key.doc.parameters": [
+        {
+          "discussion": [
+            {
+              "Para": "The buffer to discard."
+            }
+          ],
+          "name": "buffer"
+        },
+        {
+          "discussion": [
+            {
+              "Para": "The number of elements in the buffer to deinitialize."
+            }
+          ],
+          "name": "count"
+        }
+      ],
+      "key.doc.type": "Function",
+      "key.doccolumn": 1,
+      "key.doclength": 299,
+      "key.docline": 53,
+      "key.docoffset": 2471,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>discardMutablePointer<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon21discardMutablePointeryySpyxG_SitlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>buffer<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon21discardMutablePointeryySpyxG_SitlF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>count<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 1<\/decl.var.parameter>)<\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 148,
+      "key.line": 61,
+      "key.name": "discardMutablePointer(_:_:)",
+      "key.namecolumn": 13,
+      "key.namelength": 77,
+      "key.nameline": 61,
+      "key.nameoffset": 2782,
+      "key.offset": 2777,
+      "key.parsed_declaration": "public func discardMutablePointer<T>(_ buffer: UnsafeMutablePointer<T>, _ count: Int = 1)",
+      "key.parsed_scope.end": 64,
+      "key.parsed_scope.start": 61,
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T<\/Declaration>",
+          "key.column": 35,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 1,
+          "key.line": 61,
+          "key.name": "T",
+          "key.namecolumn": 35,
+          "key.namelength": 1,
+          "key.nameline": 61,
+          "key.nameoffset": 2804,
+          "key.offset": 2804,
+          "key.parsed_declaration": "public func discardMutablePointer<T",
+          "key.parsed_scope.end": 61,
+          "key.parsed_scope.start": 61,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon21discardMutablePointeryySpyxG_SitlF1TL_xmfp"
+        }
+      ],
+      "key.typename": "<T> (UnsafeMutablePointer<T>, Int) -> ()",
+      "key.typeusr": "$syySpyxG_SitcluD",
+      "key.usr": "s:7Rubicon21discardMutablePointeryySpyxG_SitlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public func discardMutableRawPointer&lt;T&gt;(_ buffer: <Type usr=\"s:Sv\">UnsafeMutableRawPointer<\/Type>, _ type: <Type usr=\"s:7Rubicon24discardMutableRawPointeryySv_xmSitlF1TL_xmfp\">T<\/Type>.Type, _ count: <Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 66,
+          "key.offset": 2927
+        }
+      ],
+      "key.bodycolumn": 107,
+      "key.bodylength": 101,
+      "key.bodyline": 66,
+      "key.bodyoffset": 3033,
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>discardMutableRawPointer<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon24discardMutableRawPointeryySv_xmSitlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>buffer<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sv\">UnsafeMutableRawPointer<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>type<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon24discardMutableRawPointeryySv_xmSitlF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>count<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 201,
+      "key.line": 66,
+      "key.name": "discardMutableRawPointer(_:_:_:)",
+      "key.namecolumn": 13,
+      "key.namelength": 92,
+      "key.nameline": 66,
+      "key.nameoffset": 2939,
+      "key.offset": 2934,
+      "key.parsed_declaration": "public func discardMutableRawPointer<T>(_ buffer: UnsafeMutableRawPointer, _ type: T.Type, _ count: Int)",
+      "key.parsed_scope.end": 69,
+      "key.parsed_scope.start": 66,
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T<\/Declaration>",
+          "key.column": 38,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 1,
+          "key.line": 66,
+          "key.name": "T",
+          "key.namecolumn": 38,
+          "key.namelength": 1,
+          "key.nameline": 66,
+          "key.nameoffset": 2964,
+          "key.offset": 2964,
+          "key.parsed_declaration": "public func discardMutableRawPointer<T",
+          "key.parsed_scope.end": 66,
+          "key.parsed_scope.start": 66,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon24discardMutableRawPointeryySv_xmSitlF1TL_xmfp"
+        }
+      ],
+      "key.typename": "<T> (UnsafeMutableRawPointer, T.Type, Int) -> ()",
+      "key.typeusr": "$syySv_xmSitcluD",
+      "key.usr": "s:7Rubicon24discardMutableRawPointeryySv_xmSitlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public func createMutablePointer&lt;T&gt;(capacity: <Type usr=\"s:Si\">Int<\/Type>, initialValue: <Type usr=\"s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF1TL_xmfp\">T<\/Type>) -&gt; <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF1TL_xmfp\">T<\/Type>&gt;<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 71,
+          "key.offset": 3137
+        }
+      ],
+      "key.bodycolumn": 97,
+      "key.bodylength": 192,
+      "key.bodyline": 71,
+      "key.bodyoffset": 3233,
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>createMutablePointer<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>capacity<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>initialValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.function.returntype><\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 282,
+      "key.line": 71,
+      "key.name": "createMutablePointer(capacity:initialValue:)",
+      "key.namecolumn": 13,
+      "key.namelength": 55,
+      "key.nameline": 71,
+      "key.nameoffset": 3149,
+      "key.offset": 3144,
+      "key.parsed_declaration": "public func createMutablePointer<T>(capacity: Int, initialValue: T) -> UnsafeMutablePointer<T>",
+      "key.parsed_scope.end": 75,
+      "key.parsed_scope.start": 71,
+      "key.related_decls": [
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF\">createMutablePointer(capacity:)<\/RelatedName>"
+        }
+      ],
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T<\/Declaration>",
+          "key.column": 34,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 1,
+          "key.line": 71,
+          "key.name": "T",
+          "key.namecolumn": 34,
+          "key.namelength": 1,
+          "key.nameline": 71,
+          "key.nameoffset": 3170,
+          "key.offset": 3170,
+          "key.parsed_declaration": "public func createMutablePointer<T",
+          "key.parsed_scope.end": 71,
+          "key.parsed_scope.start": 71,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF1TL_xmfp"
+        },
+        {
+          "key.annotated_decl": "<Declaration>let buffer: <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF1TL_xmfp\">T<\/Type>&gt;<\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+          "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>buffer<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.type><\/decl.var.local>",
+          "key.kind": "source.lang.swift.decl.var.local",
+          "key.length": 97,
+          "key.line": 72,
+          "key.name": "buffer",
+          "key.namecolumn": 9,
+          "key.namelength": 6,
+          "key.nameline": 72,
+          "key.nameoffset": 3242,
+          "key.offset": 3238,
+          "key.parsed_declaration": "let buffer: UnsafeMutablePointer<T> = UnsafeMutablePointer<T>.allocate(capacity: BasicBufferSize)",
+          "key.parsed_scope.end": 72,
+          "key.parsed_scope.start": 72,
+          "key.typename": "UnsafeMutablePointer<T>",
+          "key.typeusr": "$sSpyxGD",
+          "key.usr": "s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF6bufferL_AEvp"
+        }
+      ],
+      "key.typename": "<T> (capacity: Int, initialValue: T) -> UnsafeMutablePointer<T>",
+      "key.typeusr": "$s8capacity12initialValueSpyxGSi_xtcluD",
+      "key.usr": "s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public func createMutablePointer&lt;T&gt;(capacity: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF1TL_xmfp\">T<\/Type>&gt; where <Type usr=\"s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 77,
+          "key.offset": 3428
+        }
+      ],
+      "key.bodycolumn": 95,
+      "key.bodylength": 167,
+      "key.bodyline": 77,
+      "key.bodyoffset": 3522,
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>createMutablePointer<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>capacity<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF1TL_xmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:Sz\">BinaryInteger<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 255,
+      "key.line": 77,
+      "key.name": "createMutablePointer(capacity:)",
+      "key.namecolumn": 13,
+      "key.namelength": 53,
+      "key.nameline": 77,
+      "key.nameoffset": 3440,
+      "key.offset": 3435,
+      "key.parsed_declaration": "public func createMutablePointer<T: BinaryInteger>(capacity: Int) -> UnsafeMutablePointer<T>",
+      "key.parsed_scope.end": 81,
+      "key.parsed_scope.start": 77,
+      "key.related_decls": [
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon20createMutablePointer8capacity12initialValueSpyxGSi_xtlF\">createMutablePointer(capacity:initialValue:)<\/RelatedName>"
+        }
+      ],
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
+          "key.column": 34,
+          "key.elements": [
+            {
+              "key.column": 37,
+              "key.kind": "source.lang.swift.structure.elem.typeref",
+              "key.length": 13,
+              "key.line": 77,
+              "key.offset": 3464
+            }
+          ],
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name> : <decl.generic_type_param.constraint><ref.protocol usr=\"s:Sz\">BinaryInteger<\/ref.protocol><\/decl.generic_type_param.constraint><\/decl.generic_type_param>",
+          "key.inheritedtypes": [
+            {
+              "key.name": "BinaryInteger"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 16,
+          "key.line": 77,
+          "key.name": "T",
+          "key.namecolumn": 34,
+          "key.namelength": 1,
+          "key.nameline": 77,
+          "key.nameoffset": 3461,
+          "key.offset": 3461,
+          "key.parsed_declaration": "public func createMutablePointer<T: BinaryInteger",
+          "key.parsed_scope.end": 77,
+          "key.parsed_scope.start": 77,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF1TL_xmfp"
+        },
+        {
+          "key.annotated_decl": "<Declaration>let buffer: <Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF1TL_xmfp\">T<\/Type>&gt;<\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+          "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>buffer<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.type><\/decl.var.local>",
+          "key.kind": "source.lang.swift.decl.var.local",
+          "key.length": 90,
+          "key.line": 78,
+          "key.name": "buffer",
+          "key.namecolumn": 9,
+          "key.namelength": 6,
+          "key.nameline": 78,
+          "key.nameoffset": 3531,
+          "key.offset": 3527,
+          "key.parsed_declaration": "let buffer: UnsafeMutablePointer<T> = UnsafeMutablePointer<T>.allocate(capacity: capacity)",
+          "key.parsed_scope.end": 78,
+          "key.parsed_scope.start": 78,
+          "key.typename": "UnsafeMutablePointer<T>",
+          "key.typeusr": "$sSpyxGD",
+          "key.usr": "s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF6bufferL_ADvp"
+        }
+      ],
+      "key.typename": "<T where T : BinaryInteger> (capacity: Int) -> UnsafeMutablePointer<T>",
+      "key.typeusr": "$s8capacitySpyxGSi_tcSzRzluD",
+      "key.usr": "s:7Rubicon20createMutablePointer8capacitySpyxGSi_tSzRzlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public func createMutableRawPointer&lt;T&gt;(capacity: <Type usr=\"s:Si\">Int<\/Type>, type: <Type usr=\"s:7Rubicon23createMutableRawPointer8capacity4type12initialValueSvSi_xmxtlF1TL_xmfp\">T<\/Type>.Type, initialValue: <Type usr=\"s:7Rubicon23createMutableRawPointer8capacity4type12initialValueSvSi_xmxtlF1TL_xmfp\">T<\/Type>) -&gt; <Type usr=\"s:Sv\">UnsafeMutableRawPointer<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 83,
+          "key.offset": 3692
+        }
+      ],
+      "key.bodycolumn": 114,
+      "key.bodylength": 258,
+      "key.bodyline": 83,
+      "key.bodyoffset": 3805,
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>createMutableRawPointer<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon23createMutableRawPointer8capacity4type12initialValueSvSi_xmxtlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>capacity<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon23createMutableRawPointer8capacity4type12initialValueSvSi_xmxtlF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>initialValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon23createMutableRawPointer8capacity4type12initialValueSvSi_xmxtlF1TL_xmfp\">T<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sv\">UnsafeMutableRawPointer<\/ref.struct><\/decl.function.returntype><\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 365,
+      "key.line": 83,
+      "key.name": "createMutableRawPointer(capacity:type:initialValue:)",
+      "key.namecolumn": 13,
+      "key.namelength": 72,
+      "key.nameline": 83,
+      "key.nameoffset": 3704,
+      "key.offset": 3699,
+      "key.parsed_declaration": "public func createMutableRawPointer<T>(capacity: Int, type: T.Type, initialValue: T) -> UnsafeMutableRawPointer",
+      "key.parsed_scope.end": 87,
+      "key.parsed_scope.start": 83,
+      "key.related_decls": [
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon23createMutableRawPointer8capacity4typeSvSi_xmtSzRzlF\">createMutableRawPointer(capacity:type:)<\/RelatedName>"
+        }
+      ],
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T<\/Declaration>",
+          "key.column": 37,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 1,
+          "key.line": 83,
+          "key.name": "T",
+          "key.namecolumn": 37,
+          "key.namelength": 1,
+          "key.nameline": 83,
+          "key.nameoffset": 3728,
+          "key.offset": 3728,
+          "key.parsed_declaration": "public func createMutableRawPointer<T",
+          "key.parsed_scope.end": 83,
+          "key.parsed_scope.start": 83,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon23createMutableRawPointer8capacity4type12initialValueSvSi_xmxtlF1TL_xmfp"
+        },
+        {
+          "key.annotated_decl": "<Declaration>let buffer: <Type usr=\"s:Sv\">UnsafeMutableRawPointer<\/Type><\/Declaration>",
+          "key.column": 5,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+          "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>buffer<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sv\">UnsafeMutableRawPointer<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+          "key.kind": "source.lang.swift.decl.var.local",
+          "key.length": 154,
+          "key.line": 84,
+          "key.name": "buffer",
+          "key.namecolumn": 9,
+          "key.namelength": 6,
+          "key.nameline": 84,
+          "key.nameoffset": 3814,
+          "key.offset": 3810,
+          "key.parsed_declaration": "let buffer: UnsafeMutableRawPointer = UnsafeMutableRawPointer.allocate(byteCount: capacity * MemoryLayout<T>.stride, alignment: MemoryLayout<T>.alignment)",
+          "key.parsed_scope.end": 84,
+          "key.parsed_scope.start": 84,
+          "key.typename": "UnsafeMutableRawPointer",
+          "key.typeusr": "$sSvD",
+          "key.usr": "s:7Rubicon23createMutableRawPointer8capacity4type12initialValueSvSi_xmxtlF6bufferL_Svvp"
+        }
+      ],
+      "key.typename": "<T> (capacity: Int, type: T.Type, initialValue: T) -> UnsafeMutableRawPointer",
+      "key.typeusr": "$s8capacity4type12initialValueSvSi_xmxtcluD",
+      "key.usr": "s:7Rubicon23createMutableRawPointer8capacity4type12initialValueSvSi_xmxtlF"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public func createMutableRawPointer&lt;T&gt;(capacity: <Type usr=\"s:Si\">Int<\/Type>, type: <Type usr=\"s:7Rubicon23createMutableRawPointer8capacity4typeSvSi_xmtSzRzlF1TL_xmfp\">T<\/Type>.Type) -&gt; <Type usr=\"s:Sv\">UnsafeMutableRawPointer<\/Type> where <Type usr=\"s:7Rubicon23createMutableRawPointer8capacity4typeSvSi_xmtSzRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 89,
+          "key.offset": 4066
+        }
+      ],
+      "key.bodycolumn": 112,
+      "key.bodylength": 78,
+      "key.bodyline": 89,
+      "key.bodyoffset": 4177,
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+      "key.fully_annotated_decl": "<decl.function.free><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>createMutableRawPointer<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon23createMutableRawPointer8capacity4typeSvSi_xmtSzRzlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>capacity<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon23createMutableRawPointer8capacity4typeSvSi_xmtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sv\">UnsafeMutableRawPointer<\/ref.struct><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon23createMutableRawPointer8capacity4typeSvSi_xmtSzRzlF1TL_xmfp\">T<\/ref.generic_type_param> : <ref.protocol usr=\"s:Sz\">BinaryInteger<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.free>",
+      "key.kind": "source.lang.swift.decl.function.free",
+      "key.length": 183,
+      "key.line": 89,
+      "key.name": "createMutableRawPointer(capacity:type:)",
+      "key.namecolumn": 13,
+      "key.namelength": 70,
+      "key.nameline": 89,
+      "key.nameoffset": 4078,
+      "key.offset": 4073,
+      "key.parsed_declaration": "public func createMutableRawPointer<T: BinaryInteger>(capacity: Int, type: T.Type) -> UnsafeMutableRawPointer",
+      "key.parsed_scope.end": 91,
+      "key.parsed_scope.start": 89,
+      "key.related_decls": [
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon23createMutableRawPointer8capacity4type12initialValueSvSi_xmxtlF\">createMutableRawPointer(capacity:type:initialValue:)<\/RelatedName>"
+        }
+      ],
+      "key.substructure": [
+        {
+          "key.annotated_decl": "<Declaration>T : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
+          "key.column": 37,
+          "key.elements": [
+            {
+              "key.column": 40,
+              "key.kind": "source.lang.swift.structure.elem.typeref",
+              "key.length": 13,
+              "key.line": 89,
+              "key.offset": 4105
+            }
+          ],
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/Buffers.swift",
+          "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name> : <decl.generic_type_param.constraint><ref.protocol usr=\"s:Sz\">BinaryInteger<\/ref.protocol><\/decl.generic_type_param.constraint><\/decl.generic_type_param>",
+          "key.inheritedtypes": [
+            {
+              "key.name": "BinaryInteger"
+            }
+          ],
+          "key.kind": "source.lang.swift.decl.generic_type_param",
+          "key.length": 16,
+          "key.line": 89,
+          "key.name": "T",
+          "key.namecolumn": 37,
+          "key.namelength": 1,
+          "key.nameline": 89,
+          "key.nameoffset": 4102,
+          "key.offset": 4102,
+          "key.parsed_declaration": "public func createMutableRawPointer<T: BinaryInteger",
+          "key.parsed_scope.end": 89,
+          "key.parsed_scope.start": 89,
+          "key.typename": "T.Type",
+          "key.typeusr": "$sxmD",
+          "key.usr": "s:7Rubicon23createMutableRawPointer8capacity4typeSvSi_xmtSzRzlF1TL_xmfp"
+        }
+      ],
+      "key.typename": "<T where T : BinaryInteger> (capacity: Int, type: T.Type) -> UnsafeMutableRawPointer",
+      "key.typeusr": "$s8capacity4typeSvSi_xmtcSzRzluD",
+      "key.usr": "s:7Rubicon23createMutableRawPointer8capacity4typeSvSi_xmtSzRzlF"
+    }
+  ]
+}

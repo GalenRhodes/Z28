@@ -1,0 +1,208 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 1506,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public enum ByteOrder<\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 21,
+          "key.offset": 1132
+        }
+      ],
+      "key.bodycolumn": 24,
+      "key.bodylength": 65,
+      "key.bodyline": 21,
+      "key.bodyoffset": 1155,
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/ByteOrder.swift",
+      "key.fully_annotated_decl": "<decl.enum><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>enum<\/syntaxtype.keyword> <decl.name>ByteOrder<\/decl.name><\/decl.enum>",
+      "key.kind": "source.lang.swift.decl.enum",
+      "key.length": 82,
+      "key.line": 21,
+      "key.name": "ByteOrder",
+      "key.namecolumn": 13,
+      "key.namelength": 9,
+      "key.nameline": 21,
+      "key.nameoffset": 1144,
+      "key.offset": 1139,
+      "key.parsed_declaration": "public enum ByteOrder",
+      "key.parsed_scope.end": 25,
+      "key.parsed_scope.start": 21,
+      "key.substructure": [
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 14,
+          "key.line": 22,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1160,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case BigEndian<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/ByteOrder.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>BigEndian<\/decl.name><\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 9,
+              "key.line": 22,
+              "key.name": "BigEndian",
+              "key.namecolumn": 10,
+              "key.namelength": 9,
+              "key.nameline": 22,
+              "key.nameoffset": 1165,
+              "key.offset": 1165,
+              "key.parsed_declaration": "case BigEndian",
+              "key.parsed_scope.end": 22,
+              "key.parsed_scope.start": 22,
+              "key.typename": "(ByteOrder.Type) -> ByteOrder",
+              "key.typeusr": "$sy7Rubicon9ByteOrderOACmcD",
+              "key.usr": "s:7Rubicon9ByteOrderO9BigEndianyA2CmF"
+            }
+          ]
+        },
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 17,
+          "key.line": 23,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1179,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case LittleEndian<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/ByteOrder.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>LittleEndian<\/decl.name><\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 12,
+              "key.line": 23,
+              "key.name": "LittleEndian",
+              "key.namecolumn": 10,
+              "key.namelength": 12,
+              "key.nameline": 23,
+              "key.nameoffset": 1184,
+              "key.offset": 1184,
+              "key.parsed_declaration": "case LittleEndian",
+              "key.parsed_scope.end": 23,
+              "key.parsed_scope.start": 23,
+              "key.typename": "(ByteOrder.Type) -> ByteOrder",
+              "key.typeusr": "$sy7Rubicon9ByteOrderOACmcD",
+              "key.usr": "s:7Rubicon9ByteOrderO12LittleEndianyA2CmF"
+            }
+          ]
+        },
+        {
+          "key.column": 5,
+          "key.kind": "source.lang.swift.decl.enumcase",
+          "key.length": 18,
+          "key.line": 24,
+          "key.namelength": 0,
+          "key.nameoffset": 0,
+          "key.offset": 1201,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.public",
+              "key.annotated_decl": "<Declaration>case UnknownEndian<\/Declaration>",
+              "key.column": 10,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/ByteOrder.swift",
+              "key.fully_annotated_decl": "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>UnknownEndian<\/decl.name><\/decl.enumelement>",
+              "key.kind": "source.lang.swift.decl.enumelement",
+              "key.length": 13,
+              "key.line": 24,
+              "key.name": "UnknownEndian",
+              "key.namecolumn": 10,
+              "key.namelength": 13,
+              "key.nameline": 24,
+              "key.nameoffset": 1206,
+              "key.offset": 1206,
+              "key.parsed_declaration": "case UnknownEndian",
+              "key.parsed_scope.end": 24,
+              "key.parsed_scope.start": 24,
+              "key.typename": "(ByteOrder.Type) -> ByteOrder",
+              "key.typeusr": "$sy7Rubicon9ByteOrderOACmcD",
+              "key.usr": "s:7Rubicon9ByteOrderO13UnknownEndianyA2CmF"
+            }
+          ]
+        }
+      ],
+      "key.typename": "ByteOrder.Type",
+      "key.typeusr": "$s7Rubicon9ByteOrderOmD",
+      "key.usr": "s:7Rubicon9ByteOrderO"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.private",
+      "key.annotated_decl": "<Declaration>private let machEndian: <Type usr=\"s:s6UInt32V\">UInt32<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.private",
+          "key.column": 1,
+          "key.length": 7,
+          "key.line": 27,
+          "key.offset": 1223
+        }
+      ],
+      "key.column": 9,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/ByteOrder.swift",
+      "key.fully_annotated_decl": "<decl.var.global><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>machEndian<\/decl.name>: <decl.var.type><ref.struct usr=\"s:s6UInt32V\">UInt32<\/ref.struct><\/decl.var.type><\/decl.var.global>",
+      "key.kind": "source.lang.swift.decl.var.global",
+      "key.length": 85,
+      "key.line": 27,
+      "key.name": "machEndian",
+      "key.namecolumn": 13,
+      "key.namelength": 10,
+      "key.nameline": 27,
+      "key.nameoffset": 1235,
+      "key.offset": 1231,
+      "key.parsed_declaration": "private let machEndian:       UInt32    = UInt32(truncatingIfNeeded: CFByteOrderGetCurrent())",
+      "key.parsed_scope.end": 27,
+      "key.parsed_scope.start": 27,
+      "key.typename": "UInt32",
+      "key.typeusr": "$ss6UInt32VD",
+      "key.usr": "s:7Rubicon10machEndian33_9ABE6F0F792A4396D2A627270B8E1F37LLs6UInt32Vvp"
+    },
+    {
+      "key.accessibility": "source.lang.swift.accessibility.public",
+      "key.annotated_decl": "<Declaration>public var MachineByteOrder: <Type usr=\"s:7Rubicon9ByteOrderO\">ByteOrder<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.public",
+          "key.column": 1,
+          "key.length": 6,
+          "key.line": 28,
+          "key.offset": 1317
+        }
+      ],
+      "key.column": 8,
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/ByteOrder.swift",
+      "key.fully_annotated_decl": "<decl.var.global><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>MachineByteOrder<\/decl.name>: <decl.var.type><ref.enum usr=\"s:7Rubicon9ByteOrderO\">ByteOrder<\/ref.enum><\/decl.var.type><\/decl.var.global>",
+      "key.kind": "source.lang.swift.decl.var.global",
+      "key.length": 181,
+      "key.line": 28,
+      "key.name": "MachineByteOrder",
+      "key.namecolumn": 13,
+      "key.namelength": 16,
+      "key.nameline": 28,
+      "key.nameoffset": 1329,
+      "key.offset": 1324,
+      "key.parsed_declaration": "public var  MachineByteOrder: ByteOrder = ((machEndian == CFByteOrderBigEndian.rawValue) ? .BigEndian : ((machEndian == CFByteOrderLittleEndian.rawValue) ? .LittleEndian : .UnknownEndian))",
+      "key.parsed_scope.end": 28,
+      "key.parsed_scope.start": 28,
+      "key.setter_accessibility": "source.lang.swift.accessibility.public",
+      "key.typename": "ByteOrder",
+      "key.typeusr": "$s7Rubicon9ByteOrderOD",
+      "key.usr": "s:7Rubicon16MachineByteOrderAA0cD0Ovp"
+    }
+  ]
+}

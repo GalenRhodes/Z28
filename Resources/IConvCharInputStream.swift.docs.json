@@ -1,0 +1,1418 @@
+{
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 8303,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
+    {
+      "key.accessibility": "source.lang.swift.accessibility.open",
+      "key.annotated_decl": "<Declaration>open class IConvCharInputStream : <Type usr=\"s:7Rubicon26SimpleIConvCharInputStreamC\">SimpleIConvCharInputStream<\/Type>, <Type usr=\"s:7Rubicon15CharInputStreamP\">CharInputStream<\/Type><\/Declaration>",
+      "key.attributes": [
+        {
+          "key.attribute": "source.decl.attribute.open",
+          "key.column": 5,
+          "key.length": 4,
+          "key.line": 27,
+          "key.offset": 1151
+        }
+      ],
+      "key.bodycolumn": 83,
+      "key.bodylength": 7065,
+      "key.bodyline": 27,
+      "key.bodyoffset": 1229,
+      "key.column": 10,
+      "key.doc.comment": "",
+      "key.elements": [
+        {
+          "key.column": 38,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 26,
+          "key.line": 27,
+          "key.offset": 1184
+        },
+        {
+          "key.column": 66,
+          "key.kind": "source.lang.swift.structure.elem.typeref",
+          "key.length": 15,
+          "key.line": 27,
+          "key.offset": 1212
+        }
+      ],
+      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>IConvCharInputStream<\/decl.name> : <ref.class usr=\"s:7Rubicon26SimpleIConvCharInputStreamC\">SimpleIConvCharInputStream<\/ref.class>, <ref.protocol usr=\"s:7Rubicon15CharInputStreamP\">CharInputStream<\/ref.protocol><\/decl.class>",
+      "key.inheritedtypes": [
+        {
+          "key.name": "SimpleIConvCharInputStream"
+        },
+        {
+          "key.name": "CharInputStream"
+        }
+      ],
+      "key.kind": "source.lang.swift.decl.class",
+      "key.length": 7139,
+      "key.line": 27,
+      "key.name": "IConvCharInputStream",
+      "key.namecolumn": 16,
+      "key.namelength": 20,
+      "key.nameline": 27,
+      "key.nameoffset": 1162,
+      "key.offset": 1156,
+      "key.parsed_declaration": "open class IConvCharInputStream: SimpleIConvCharInputStream, CharInputStream",
+      "key.parsed_scope.end": 175,
+      "key.parsed_scope.start": 27,
+      "key.substructure": [
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open var markCount: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 9,
+              "key.length": 4,
+              "key.line": 32,
+              "key.offset": 1427
+            }
+          ],
+          "key.bodycolumn": 48,
+          "key.bodylength": 31,
+          "key.bodyline": 32,
+          "key.bodyoffset": 1466,
+          "key.column": 18,
+          "key.doc.column": 22,
+          "key.doc.comment": "The number of marks on the stream.",
+          "key.doc.declaration": "open var markCount: Int { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"32\" column=\"22\"><Name>markCount<\/Name><USR>s:7Rubicon20IConvCharInputStreamC9markCountSivp<\/USR><Declaration>open var markCount: Int { get }<\/Declaration><CommentParts><Abstract><Para>The number of marks on the stream.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 32,
+          "key.doc.name": "markCount",
+          "key.doc.type": "Other",
+          "key.doccolumn": 9,
+          "key.doclength": 51,
+          "key.docline": 30,
+          "key.docoffset": 1368,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>markCount<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 62,
+          "key.line": 32,
+          "key.name": "markCount",
+          "key.namecolumn": 22,
+          "key.namelength": 9,
+          "key.nameline": 32,
+          "key.nameoffset": 1440,
+          "key.offset": 1436,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon15CharInputStreamP9markCountSivp"
+            }
+          ],
+          "key.parsed_declaration": "open     var markCount:  Int",
+          "key.parsed_scope.end": 32,
+          "key.parsed_scope.start": 32,
+          "key.typename": "Int",
+          "key.typeusr": "$sSiD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC9markCountSivp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open var tabWidth: <Type usr=\"s:s4Int8V\">Int8<\/Type> { get set }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 9,
+              "key.length": 4,
+              "key.line": 36,
+              "key.offset": 1683
+            }
+          ],
+          "key.bodycolumn": 48,
+          "key.bodylength": 74,
+          "key.bodyline": 36,
+          "key.bodyoffset": 1722,
+          "key.column": 18,
+          "key.doc.column": 22,
+          "key.doc.comment": "The current line and column numbers.",
+          "key.doc.declaration": "open var tabWidth: Int8 { get set }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"36\" column=\"22\"><Name>tabWidth<\/Name><USR>s:7Rubicon20IConvCharInputStreamC8tabWidths4Int8Vvp<\/USR><Declaration>open var tabWidth: Int8 { get set }<\/Declaration><CommentParts><Abstract><Para>The current line and column numbers.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 36,
+          "key.doc.name": "tabWidth",
+          "key.doc.type": "Other",
+          "key.doccolumn": 9,
+          "key.doclength": 53,
+          "key.docline": 34,
+          "key.docoffset": 1622,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>tabWidth<\/decl.name>: <decl.var.type><ref.struct usr=\"s:s4Int8V\">Int8<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> <syntaxtype.keyword>set<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 105,
+          "key.line": 36,
+          "key.name": "tabWidth",
+          "key.namecolumn": 22,
+          "key.namelength": 8,
+          "key.nameline": 36,
+          "key.nameoffset": 1696,
+          "key.offset": 1692,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon15CharInputStreamP8tabWidths4Int8Vvp"
+            }
+          ],
+          "key.parsed_declaration": "open     var tabWidth:   Int8",
+          "key.parsed_scope.end": 36,
+          "key.parsed_scope.start": 36,
+          "key.setter_accessibility": "source.lang.swift.accessibility.open",
+          "key.typename": "Int8",
+          "key.typeusr": "$ss4Int8VD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC8tabWidths4Int8Vvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open var position: <Type usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 9,
+              "key.length": 4,
+              "key.line": 40,
+              "key.offset": 1984
+            }
+          ],
+          "key.bodycolumn": 48,
+          "key.bodylength": 24,
+          "key.bodyline": 40,
+          "key.bodyoffset": 2023,
+          "key.column": 18,
+          "key.doc.column": 22,
+          "key.doc.comment": "The number of spaces in each tab stop.",
+          "key.doc.declaration": "open var position: TextPosition { get }",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"40\" column=\"22\"><Name>position<\/Name><USR>s:7Rubicon20IConvCharInputStreamC8positions5Int32V10lineNumber_AF06columnI0tvp<\/USR><Declaration>open var position: TextPosition { get }<\/Declaration><CommentParts><Abstract><Para>The number of spaces in each tab stop.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line": 40,
+          "key.doc.name": "position",
+          "key.doc.type": "Other",
+          "key.doccolumn": 9,
+          "key.doclength": 55,
+          "key.docline": 38,
+          "key.docoffset": 1921,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>position<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/ref.typealias><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 55,
+          "key.line": 40,
+          "key.name": "position",
+          "key.namecolumn": 22,
+          "key.namelength": 8,
+          "key.nameline": 40,
+          "key.nameoffset": 1997,
+          "key.offset": 1993,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon15CharInputStreamP8positions5Int32V10lineNumber_AF06columnH0tvp"
+            }
+          ],
+          "key.parsed_declaration": "open     var position:   TextPosition",
+          "key.parsed_scope.end": 40,
+          "key.parsed_scope.start": 40,
+          "key.typename": "(lineNumber: Int32, columnNumber: Int32)",
+          "key.typeusr": "$ss5Int32V10lineNumber_AB06columnC0tD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC8positions5Int32V10lineNumber_AF06columnI0tvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>internal var _position: <Type usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.internal",
+              "key.column": 9,
+              "key.length": 8,
+              "key.line": 41,
+              "key.offset": 2057
+            }
+          ],
+          "key.column": 18,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>internal<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>_position<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/ref.typealias><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 37,
+          "key.line": 41,
+          "key.name": "_position",
+          "key.namecolumn": 22,
+          "key.namelength": 9,
+          "key.nameline": 41,
+          "key.nameoffset": 2070,
+          "key.offset": 2066,
+          "key.parsed_declaration": "internal var _position:  TextPosition = (0, 0)",
+          "key.parsed_scope.end": 41,
+          "key.parsed_scope.start": 41,
+          "key.setter_accessibility": "source.lang.swift.accessibility.internal",
+          "key.typename": "(lineNumber: Int32, columnNumber: Int32)",
+          "key.typeusr": "$ss5Int32V10lineNumber_AB06columnC0tD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC9_positions5Int32V10lineNumber_AF06columnI0tvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>internal var _tabWidth: <Type usr=\"s:s4Int8V\">Int8<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.internal",
+              "key.column": 9,
+              "key.length": 8,
+              "key.line": 42,
+              "key.offset": 2112
+            }
+          ],
+          "key.column": 18,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>internal<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>_tabWidth<\/decl.name>: <decl.var.type><ref.struct usr=\"s:s4Int8V\">Int8<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 32,
+          "key.line": 42,
+          "key.name": "_tabWidth",
+          "key.namecolumn": 22,
+          "key.namelength": 9,
+          "key.nameline": 42,
+          "key.nameoffset": 2125,
+          "key.offset": 2121,
+          "key.parsed_declaration": "internal var _tabWidth:  Int8         = 4",
+          "key.parsed_scope.end": 42,
+          "key.parsed_scope.start": 42,
+          "key.setter_accessibility": "source.lang.swift.accessibility.internal",
+          "key.typename": "Int8",
+          "key.typeusr": "$ss4Int8VD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC9_tabWidths4Int8Vvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>internal var _markStack: [<Type usr=\"s:7Rubicon20IConvCharInputStreamC8MarkItemC\">MarkItem<\/Type>]<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.internal",
+              "key.column": 9,
+              "key.length": 8,
+              "key.line": 43,
+              "key.offset": 2162
+            }
+          ],
+          "key.column": 18,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>internal<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>_markStack<\/decl.name>: <decl.var.type>[<ref.class usr=\"s:7Rubicon20IConvCharInputStreamC8MarkItemC\">MarkItem<\/ref.class>]<\/decl.var.type><\/decl.var.instance>",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 33,
+          "key.line": 43,
+          "key.name": "_markStack",
+          "key.namecolumn": 22,
+          "key.namelength": 10,
+          "key.nameline": 43,
+          "key.nameoffset": 2175,
+          "key.offset": 2171,
+          "key.parsed_declaration": "internal var _markStack: [MarkItem]   = []",
+          "key.parsed_scope.end": 43,
+          "key.parsed_scope.start": 43,
+          "key.setter_accessibility": "source.lang.swift.accessibility.internal",
+          "key.typename": "[IConvCharInputStream.MarkItem]",
+          "key.typeusr": "$sSay7Rubicon20IConvCharInputStreamC8MarkItemCGD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC10_markStackSayAC8MarkItemCGvp"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>public override init(inputStream: <Type usr=\"c:objc(cs)NSInputStream\">InputStream<\/Type>, encodingName: <Type usr=\"s:SS\">String<\/Type>, autoClose: <Type usr=\"s:Sb\">Bool<\/Type>)<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.override",
+              "key.column": 16,
+              "key.length": 8,
+              "key.line": 56,
+              "key.offset": 2906
+            },
+            {
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 9,
+              "key.length": 6,
+              "key.line": 56,
+              "key.offset": 2899
+            }
+          ],
+          "key.bodycolumn": 96,
+          "key.bodylength": 108,
+          "key.bodyline": 56,
+          "key.bodyoffset": 2986,
+          "key.column": 25,
+          "key.doc.column": 25,
+          "key.doc.comment": "Creates a new instance of IConvCharInputStream with the given InputStream, encodingName, and whether\nor not the given InputStream should be closed when this stream is discarded or closed.\n\n- Parameters:\n  - inputStream: The underlying byte InputStream.\n  - encodingName: The character encoding name.\n  - autoClose: If `true` then the underlying byte InputStream will be closed when this\n               IConvCharInputStream is closed or discarded.",
+          "key.doc.declaration": "public override init(inputStream: InputStream, encodingName: String, autoClose: Bool)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"56\" column=\"25\"><Name>init(inputStream:encodingName:autoClose:)<\/Name><USR>s:7Rubicon20IConvCharInputStreamC05inputE012encodingName9autoCloseACSo07NSInputE0C_SSSbtcfc<\/USR><Declaration>public override init(inputStream: InputStream, encodingName: String, autoClose: Bool)<\/Declaration><CommentParts><Abstract><Para>Creates a new instance of IConvCharInputStream with the given InputStream, encodingName, and whether or not the given InputStream should be closed when this stream is discarded or closed.<\/Para><\/Abstract><Parameters><Parameter><Name>inputStream<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The underlying byte InputStream.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encodingName<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character encoding name.<\/Para><\/Discussion><\/Parameter><Parameter><Name>autoClose<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>If <codeVoice>true<\/codeVoice> then the underlying byte InputStream will be closed when this IConvCharInputStream is closed or discarded.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 56,
+          "key.doc.name": "init(inputStream:encodingName:autoClose:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "The underlying byte InputStream."
+                }
+              ],
+              "name": "inputStream"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "The character encoding name."
+                }
+              ],
+              "name": "encodingName"
+            },
+            {
+              "discussion": [
+                {
+                  "Para": "If `true` then the underlying byte InputStream will be closed when this IConvCharInputStream is closed or discarded."
+                }
+              ],
+              "name": "autoClose"
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 9,
+          "key.doclength": 547,
+          "key.docline": 47,
+          "key.docoffset": 2344,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>inputStream<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSInputStream\">InputStream<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encodingName<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>autoClose<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 180,
+          "key.line": 56,
+          "key.name": "init(inputStream:encodingName:autoClose:)",
+          "key.namecolumn": 25,
+          "key.namelength": 69,
+          "key.nameline": 56,
+          "key.nameoffset": 2915,
+          "key.offset": 2915,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon26SimpleIConvCharInputStreamC05inputF012encodingName9autoCloseACSo07NSInputF0C_SSSbtcfc"
+            }
+          ],
+          "key.parsed_declaration": "public override init(inputStream: InputStream, encodingName: String, autoClose: Bool)",
+          "key.parsed_scope.end": 58,
+          "key.parsed_scope.start": 56,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream.Type) -> (InputStream, String, Bool) -> IConvCharInputStream",
+          "key.typeusr": "$s11inputStream12encodingName9autoClose7Rubicon014IConvCharInputB0CSo07NSInputB0C_SSSbtcD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC05inputE012encodingName9autoCloseACSo07NSInputE0C_SSSbtcfc"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func markSet()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 9,
+              "key.length": 4,
+              "key.line": 64,
+              "key.offset": 3419
+            }
+          ],
+          "key.bodycolumn": 30,
+          "key.bodylength": 39,
+          "key.bodyline": 64,
+          "key.bodyoffset": 3440,
+          "key.column": 14,
+          "key.doc.column": 19,
+          "key.doc.comment": "Marks the current point in the stream so that it can be returned to later. You can set more than one\nmark but all operations happen on the most recently set mark.",
+          "key.doc.declaration": "open func markSet()",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"64\" column=\"19\"><Name>markSet()<\/Name><USR>s:7Rubicon20IConvCharInputStreamC7markSetyyF<\/USR><Declaration>open func markSet()<\/Declaration><CommentParts><Abstract><Para>Marks the current point in the stream so that it can be returned to later. You can set more than one mark but all operations happen on the most recently set mark.<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line": 64,
+          "key.doc.name": "markSet()",
+          "key.doc.type": "Function",
+          "key.doccolumn": 9,
+          "key.doclength": 191,
+          "key.docline": 61,
+          "key.docoffset": 3220,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>markSet<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 56,
+          "key.line": 64,
+          "key.name": "markSet()",
+          "key.namecolumn": 19,
+          "key.namelength": 9,
+          "key.nameline": 64,
+          "key.nameoffset": 3429,
+          "key.offset": 3424,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon15CharInputStreamP7markSetyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func markSet()",
+          "key.parsed_scope.end": 64,
+          "key.parsed_scope.start": 64,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC7markSetyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func markReturn()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 9,
+              "key.length": 4,
+              "key.line": 69,
+              "key.offset": 3680
+            }
+          ],
+          "key.bodycolumn": 33,
+          "key.bodylength": 42,
+          "key.bodyline": 69,
+          "key.bodyoffset": 3704,
+          "key.column": 14,
+          "key.doc.column": 19,
+          "key.doc.comment": "Removes and returns to the most recently set mark.",
+          "key.doc.declaration": "open func markReturn()",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"69\" column=\"19\"><Name>markReturn()<\/Name><USR>s:7Rubicon20IConvCharInputStreamC10markReturnyyF<\/USR><Declaration>open func markReturn()<\/Declaration><CommentParts><Abstract><Para>Removes and returns to the most recently set mark.<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line": 69,
+          "key.doc.name": "markReturn()",
+          "key.doc.type": "Function",
+          "key.doccolumn": 9,
+          "key.doclength": 67,
+          "key.docline": 67,
+          "key.docoffset": 3605,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>markReturn<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 62,
+          "key.line": 69,
+          "key.name": "markReturn()",
+          "key.namecolumn": 19,
+          "key.namelength": 12,
+          "key.nameline": 69,
+          "key.nameoffset": 3690,
+          "key.offset": 3685,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon15CharInputStreamP10markReturnyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func markReturn()",
+          "key.parsed_scope.end": 69,
+          "key.parsed_scope.start": 69,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC10markReturnyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func markDelete()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 9,
+              "key.length": 4,
+              "key.line": 74,
+              "key.offset": 3956
+            }
+          ],
+          "key.bodycolumn": 33,
+          "key.bodylength": 42,
+          "key.bodyline": 74,
+          "key.bodyoffset": 3980,
+          "key.column": 14,
+          "key.doc.column": 19,
+          "key.doc.comment": "Removes the most recently set mark WITHOUT returning to it.",
+          "key.doc.declaration": "open func markDelete()",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"74\" column=\"19\"><Name>markDelete()<\/Name><USR>s:7Rubicon20IConvCharInputStreamC10markDeleteyyF<\/USR><Declaration>open func markDelete()<\/Declaration><CommentParts><Abstract><Para>Removes the most recently set mark WITHOUT returning to it.<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line": 74,
+          "key.doc.name": "markDelete()",
+          "key.doc.type": "Function",
+          "key.doccolumn": 9,
+          "key.doclength": 76,
+          "key.docline": 72,
+          "key.docoffset": 3872,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>markDelete<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 62,
+          "key.line": 74,
+          "key.name": "markDelete()",
+          "key.namecolumn": 19,
+          "key.namelength": 12,
+          "key.nameline": 74,
+          "key.nameoffset": 3966,
+          "key.offset": 3961,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon15CharInputStreamP10markDeleteyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func markDelete()",
+          "key.parsed_scope.end": 74,
+          "key.parsed_scope.start": 74,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC10markDeleteyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func markReset()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 9,
+              "key.length": 4,
+              "key.line": 81,
+              "key.offset": 4420
+            }
+          ],
+          "key.bodycolumn": 32,
+          "key.bodylength": 41,
+          "key.bodyline": 81,
+          "key.bodyoffset": 4443,
+          "key.column": 14,
+          "key.doc.column": 19,
+          "key.doc.comment": "Returns to the most recently set mark WITHOUT removing it. If there was no previously set mark then a\nnew one is created. This is functionally equivalent to performing a `markReturn()` followed\nimmediately by a `markSet()`.",
+          "key.doc.declaration": "open func markReset()",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"81\" column=\"19\"><Name>markReset()<\/Name><USR>s:7Rubicon20IConvCharInputStreamC9markResetyyF<\/USR><Declaration>open func markReset()<\/Declaration><CommentParts><Abstract><Para>Returns to the most recently set mark WITHOUT removing it. If there was no previously set mark then a new one is created. This is functionally equivalent to performing a <codeVoice>markReturn()<\/codeVoice> followed immediately by a <codeVoice>markSet()<\/codeVoice>.<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line": 81,
+          "key.doc.name": "markReset()",
+          "key.doc.type": "Function",
+          "key.doccolumn": 9,
+          "key.doclength": 264,
+          "key.docline": 77,
+          "key.docoffset": 4148,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>markReset<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 60,
+          "key.line": 81,
+          "key.name": "markReset()",
+          "key.namecolumn": 19,
+          "key.namelength": 11,
+          "key.nameline": 81,
+          "key.nameoffset": 4430,
+          "key.offset": 4425,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon15CharInputStreamP9markResetyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func markReset()",
+          "key.parsed_scope.end": 81,
+          "key.parsed_scope.start": 81,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC9markResetyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>open func markClear()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 9,
+              "key.length": 4,
+              "key.line": 88,
+              "key.offset": 4883
+            }
+          ],
+          "key.bodycolumn": 32,
+          "key.bodylength": 42,
+          "key.bodyline": 88,
+          "key.bodyoffset": 4906,
+          "key.column": 14,
+          "key.doc.column": 19,
+          "key.doc.comment": "Updates the most recently set mark to the current position. If there was no previously set mark then a\nnew one is created. This is functionally equivalent to performing a `markDelete()` followed\nimmediately by a `markSet()`.",
+          "key.doc.declaration": "open func markClear()",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"88\" column=\"19\"><Name>markClear()<\/Name><USR>s:7Rubicon20IConvCharInputStreamC9markClearyyF<\/USR><Declaration>open func markClear()<\/Declaration><CommentParts><Abstract><Para>Updates the most recently set mark to the current position. If there was no previously set mark then a new one is created. This is functionally equivalent to performing a <codeVoice>markDelete()<\/codeVoice> followed immediately by a <codeVoice>markSet()<\/codeVoice>.<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line": 88,
+          "key.doc.name": "markClear()",
+          "key.doc.type": "Function",
+          "key.doccolumn": 9,
+          "key.doclength": 265,
+          "key.docline": 84,
+          "key.docoffset": 4610,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>markClear<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 61,
+          "key.line": 88,
+          "key.name": "markClear()",
+          "key.namecolumn": 19,
+          "key.namelength": 11,
+          "key.nameline": 88,
+          "key.nameoffset": 4893,
+          "key.offset": 4888,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon15CharInputStreamP9markClearyyF"
+            }
+          ],
+          "key.parsed_declaration": "open func markClear()",
+          "key.parsed_scope.end": 88,
+          "key.parsed_scope.start": 88,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC9markClearyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.open",
+          "key.annotated_decl": "<Declaration>@discardableResult open func markBackup(count: <Type usr=\"s:Si\">Int<\/Type> = 1) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.open",
+              "key.column": 28,
+              "key.length": 4,
+              "key.line": 98,
+              "key.offset": 5550
+            },
+            {
+              "key.attribute": "source.decl.attribute.discardableResult",
+              "key.column": 9,
+              "key.length": 18,
+              "key.line": 98,
+              "key.offset": 5531
+            }
+          ],
+          "key.bodycolumn": 73,
+          "key.bodylength": 53,
+          "key.bodyline": 98,
+          "key.bodyoffset": 5595,
+          "key.column": 33,
+          "key.doc.column": 38,
+          "key.doc.comment": "Backs out the last `count` characters from the most recently set mark without actually removing the\nentire mark. You have to have previously called `markSet()` otherwise this method does nothing.\n\n- Parameter count: the number of characters to back out.\n- Returns: The number of characters actually backed out in case there weren't `count` characters\n           available.",
+          "key.doc.declaration": "open func markBackup(count: Int = 1) -> Int",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift\" line=\"98\" column=\"38\"><Name>markBackup(count:)<\/Name><USR>s:7Rubicon20IConvCharInputStreamC10markBackup5countS2i_tF<\/USR><Declaration>open func markBackup(count: Int = 1) -&gt; Int<\/Declaration><CommentParts><Abstract><Para>Backs out the last <codeVoice>count<\/codeVoice> characters from the most recently set mark without actually removing the entire mark. You have to have previously called <codeVoice>markSet()<\/codeVoice> otherwise this method does nothing.<\/Para><\/Abstract><Parameters><Parameter><Name>count<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the number of characters to back out.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The number of characters actually backed out in case there weren’t <codeVoice>count<\/codeVoice> characters available.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line": 98,
+          "key.doc.name": "markBackup(count:)",
+          "key.doc.parameters": [
+            {
+              "discussion": [
+                {
+                  "Para": "the number of characters to back out."
+                }
+              ],
+              "name": "count"
+            }
+          ],
+          "key.doc.result_discussion": [
+            {
+              "Para": "The number of characters actually backed out in case there weren’t `count` characters available."
+            }
+          ],
+          "key.doc.type": "Function",
+          "key.doccolumn": 9,
+          "key.doclength": 449,
+          "key.docline": 91,
+          "key.docoffset": 5074,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>markBackup<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 1<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 94,
+          "key.line": 98,
+          "key.name": "markBackup(count:)",
+          "key.namecolumn": 38,
+          "key.namelength": 26,
+          "key.nameline": 98,
+          "key.nameoffset": 5560,
+          "key.offset": 5555,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon15CharInputStreamP10markBackup5countS2i_tF"
+            }
+          ],
+          "key.parsed_declaration": "@discardableResult open func markBackup(count: Int = 1) -> Int",
+          "key.parsed_scope.end": 98,
+          "key.parsed_scope.start": 98,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> (Int) -> Int",
+          "key.typeusr": "$s5countS2i_tcD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC10markBackup5countS2i_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>override func _open()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.override",
+              "key.column": 9,
+              "key.length": 8,
+              "key.line": 100,
+              "key.offset": 5659
+            }
+          ],
+          "key.bodycolumn": 32,
+          "key.bodylength": 119,
+          "key.bodyline": 100,
+          "key.bodyoffset": 5682,
+          "key.column": 18,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_open<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 134,
+          "key.line": 100,
+          "key.name": "_open()",
+          "key.namecolumn": 23,
+          "key.namelength": 7,
+          "key.nameline": 100,
+          "key.nameoffset": 5673,
+          "key.offset": 5668,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon26SimpleIConvCharInputStreamC5_openyyF"
+            }
+          ],
+          "key.parsed_declaration": "override func _open()",
+          "key.parsed_scope.end": 104,
+          "key.parsed_scope.start": 100,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC5_openyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>override func _close()<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.override",
+              "key.column": 9,
+              "key.length": 8,
+              "key.line": 106,
+              "key.offset": 5812
+            }
+          ],
+          "key.bodycolumn": 33,
+          "key.bodylength": 102,
+          "key.bodyline": 106,
+          "key.bodyoffset": 5836,
+          "key.column": 18,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_close<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 118,
+          "key.line": 106,
+          "key.name": "_close()",
+          "key.namecolumn": 23,
+          "key.namelength": 8,
+          "key.nameline": 106,
+          "key.nameoffset": 5826,
+          "key.offset": 5821,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon26SimpleIConvCharInputStreamC6_closeyyF"
+            }
+          ],
+          "key.parsed_declaration": "override func _close()",
+          "key.parsed_scope.end": 110,
+          "key.parsed_scope.start": 106,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC6_closeyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>override func _read() throws -&gt; <Type usr=\"s:SJ\">Character<\/Type>?<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.override",
+              "key.column": 9,
+              "key.length": 8,
+              "key.line": 112,
+              "key.offset": 5949
+            }
+          ],
+          "key.bodycolumn": 53,
+          "key.bodylength": 225,
+          "key.bodyline": 112,
+          "key.bodyoffset": 5993,
+          "key.column": 18,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_read<\/decl.name>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SJ\">Character<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 261,
+          "key.line": 112,
+          "key.name": "_read()",
+          "key.namecolumn": 23,
+          "key.namelength": 7,
+          "key.nameline": 112,
+          "key.nameoffset": 5963,
+          "key.offset": 5958,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon26SimpleIConvCharInputStreamC5_readSJSgyKF"
+            }
+          ],
+          "key.parsed_declaration": "override func _read() throws -> Character?",
+          "key.parsed_scope.end": 117,
+          "key.parsed_scope.start": 112,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () throws -> Character?",
+          "key.typeusr": "$sSJSgyKcD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC5_readSJSgyKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>override func _append(to chars: inout [<Type usr=\"s:SJ\">Character<\/Type>], maxLength: <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.override",
+              "key.column": 9,
+              "key.length": 8,
+              "key.line": 119,
+              "key.offset": 6229
+            }
+          ],
+          "key.bodycolumn": 91,
+          "key.bodylength": 430,
+          "key.bodyline": 119,
+          "key.bodyoffset": 6311,
+          "key.column": 18,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_append<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>to<\/decl.var.parameter.argument_label> <decl.var.parameter.name>chars<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> [<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxLength<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 504,
+          "key.line": 119,
+          "key.name": "_append(to:maxLength:)",
+          "key.namecolumn": 23,
+          "key.namelength": 52,
+          "key.nameline": 119,
+          "key.nameoffset": 6243,
+          "key.offset": 6238,
+          "key.overrides": [
+            {
+              "key.usr": "s:7Rubicon26SimpleIConvCharInputStreamC7_append2to9maxLengthSiSaySJGz_SitKF"
+            }
+          ],
+          "key.parsed_declaration": "override func _append(to chars: inout [Character], maxLength: Int) throws -> Int",
+          "key.parsed_scope.end": 125,
+          "key.parsed_scope.start": 119,
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let eidx: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>eidx<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 25,
+              "key.line": 120,
+              "key.name": "eidx",
+              "key.namecolumn": 17,
+              "key.namelength": 4,
+              "key.nameline": 120,
+              "key.nameoffset": 6328,
+              "key.offset": 6324,
+              "key.parsed_declaration": "let eidx = chars.endIndex",
+              "key.parsed_scope.end": 120,
+              "key.parsed_scope.start": 120,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC7_append2to9maxLengthSiSaySJGz_SitKF4eidxL_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let cc: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cc<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 62,
+              "key.line": 121,
+              "key.name": "cc",
+              "key.namecolumn": 17,
+              "key.namelength": 2,
+              "key.nameline": 121,
+              "key.nameoffset": 6366,
+              "key.offset": 6362,
+              "key.parsed_declaration": "let cc   = try super._append(to: &chars, maxLength: maxLength)",
+              "key.parsed_scope.end": 121,
+              "key.parsed_scope.start": 121,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC7_append2to9maxLengthSiSaySJGz_SitKF2ccL_Sivp"
+            }
+          ],
+          "key.typename": "(IConvCharInputStream) -> (inout [Character], Int) throws -> Int",
+          "key.typeusr": "$s2to9maxLengthSiSaySJGz_SitKcD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC7_append2to9maxLengthSiSaySJGz_SitKF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _markSet()<\/Declaration>",
+          "key.bodycolumn": 26,
+          "key.bodylength": 45,
+          "key.bodyline": 127,
+          "key.bodyoffset": 6769,
+          "key.column": 9,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_markSet<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 63,
+          "key.line": 127,
+          "key.name": "_markSet()",
+          "key.namecolumn": 14,
+          "key.namelength": 10,
+          "key.nameline": 127,
+          "key.nameoffset": 6757,
+          "key.offset": 6752,
+          "key.parsed_declaration": "func _markSet()",
+          "key.parsed_scope.end": 127,
+          "key.parsed_scope.start": 127,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC8_markSetyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _markReturn()<\/Declaration>",
+          "key.bodycolumn": 29,
+          "key.bodylength": 73,
+          "key.bodyline": 129,
+          "key.bodyoffset": 6845,
+          "key.column": 9,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_markReturn<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 94,
+          "key.line": 129,
+          "key.name": "_markReturn()",
+          "key.namecolumn": 14,
+          "key.namelength": 13,
+          "key.nameline": 129,
+          "key.nameoffset": 6830,
+          "key.offset": 6825,
+          "key.parsed_declaration": "func _markReturn()",
+          "key.parsed_scope.end": 129,
+          "key.parsed_scope.start": 129,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markReturnyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _markDelete()<\/Declaration>",
+          "key.bodycolumn": 29,
+          "key.bodylength": 106,
+          "key.bodyline": 131,
+          "key.bodyoffset": 6949,
+          "key.column": 9,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_markDelete<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 127,
+          "key.line": 131,
+          "key.name": "_markDelete()",
+          "key.namecolumn": 14,
+          "key.namelength": 13,
+          "key.nameline": 131,
+          "key.nameoffset": 6934,
+          "key.offset": 6929,
+          "key.parsed_declaration": "func _markDelete()",
+          "key.parsed_scope.end": 131,
+          "key.parsed_scope.start": 131,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markDeleteyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _markReset()<\/Declaration>",
+          "key.bodycolumn": 28,
+          "key.bodylength": 58,
+          "key.bodyline": 133,
+          "key.bodyoffset": 7085,
+          "key.column": 9,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_markReset<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 78,
+          "key.line": 133,
+          "key.name": "_markReset()",
+          "key.namecolumn": 14,
+          "key.namelength": 12,
+          "key.nameline": 133,
+          "key.nameoffset": 7071,
+          "key.offset": 7066,
+          "key.parsed_declaration": "func _markReset()",
+          "key.parsed_scope.end": 136,
+          "key.parsed_scope.start": 133,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC10_markResetyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _markUpdate()<\/Declaration>",
+          "key.bodycolumn": 29,
+          "key.bodylength": 58,
+          "key.bodyline": 138,
+          "key.bodyoffset": 7174,
+          "key.column": 9,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_markUpdate<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 79,
+          "key.line": 138,
+          "key.name": "_markUpdate()",
+          "key.namecolumn": 14,
+          "key.namelength": 13,
+          "key.nameline": 138,
+          "key.nameoffset": 7159,
+          "key.offset": 7154,
+          "key.parsed_declaration": "func _markUpdate()",
+          "key.parsed_scope.end": 141,
+          "key.parsed_scope.start": 138,
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> () -> ()",
+          "key.typeusr": "$syycD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markUpdateyyF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>func _markBackup(count: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.bodycolumn": 46,
+          "key.bodylength": 117,
+          "key.bodyline": 143,
+          "key.bodyoffset": 7280,
+          "key.column": 9,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_markBackup<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 155,
+          "key.line": 143,
+          "key.name": "_markBackup(count:)",
+          "key.namecolumn": 14,
+          "key.namelength": 23,
+          "key.nameline": 143,
+          "key.nameoffset": 7248,
+          "key.offset": 7243,
+          "key.parsed_declaration": "func _markBackup(count: Int) -> Int",
+          "key.parsed_scope.end": 146,
+          "key.parsed_scope.start": 143,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon20IConvCharInputStreamC11_markBackup_5countSiAC8MarkItemC_SitF\">_markBackup(_:count:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+          ],
+          "key.typename": "(IConvCharInputStream) -> (Int) -> Int",
+          "key.typeusr": "$s5countS2i_tcD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markBackup5countS2i_tF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>@discardableResult func _markBackup(_ m: <Type usr=\"s:7Rubicon20IConvCharInputStreamC8MarkItemC\">MarkItem<\/Type>, count: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.discardableResult",
+              "key.column": 9,
+              "key.length": 18,
+              "key.line": 148,
+              "key.offset": 7408
+            }
+          ],
+          "key.bodycolumn": 80,
+          "key.bodylength": 628,
+          "key.bodyline": 148,
+          "key.bodyoffset": 7479,
+          "key.column": 28,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_markBackup<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>m<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"s:7Rubicon20IConvCharInputStreamC8MarkItemC\">MarkItem<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 681,
+          "key.line": 148,
+          "key.name": "_markBackup(_:count:)",
+          "key.namecolumn": 33,
+          "key.namelength": 38,
+          "key.nameline": 148,
+          "key.nameoffset": 7432,
+          "key.offset": 7427,
+          "key.parsed_declaration": "@discardableResult func _markBackup(_ m: MarkItem, count: Int) -> Int",
+          "key.parsed_scope.end": 167,
+          "key.parsed_scope.start": 148,
+          "key.related_decls": [
+            {
+              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon20IConvCharInputStreamC11_markBackup5countS2i_tF\">_markBackup(count:)<\/RelatedName>"
+            }
+          ],
+          "key.substructure": [
+            {
+              "key.annotated_decl": "<Declaration>let s: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>s<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 30,
+              "key.line": 151,
+              "key.name": "s",
+              "key.namecolumn": 17,
+              "key.namelength": 1,
+              "key.nameline": 151,
+              "key.nameoffset": 7543,
+              "key.offset": 7539,
+              "key.parsed_declaration": "let s: Int = m.data.startIndex",
+              "key.parsed_scope.end": 151,
+              "key.parsed_scope.start": 151,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markBackup_5countSiAC8MarkItemC_SitF1sL_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let e: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>e<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 28,
+              "key.line": 152,
+              "key.name": "e",
+              "key.namecolumn": 17,
+              "key.namelength": 1,
+              "key.nameline": 152,
+              "key.nameoffset": 7586,
+              "key.offset": 7582,
+              "key.parsed_declaration": "let e: Int = m.data.endIndex",
+              "key.parsed_scope.end": 152,
+              "key.parsed_scope.start": 152,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markBackup_5countSiAC8MarkItemC_SitF1eL_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let c: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>c<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 32,
+              "key.line": 153,
+              "key.name": "c",
+              "key.namecolumn": 17,
+              "key.namelength": 1,
+              "key.nameline": 153,
+              "key.nameoffset": 7627,
+              "key.offset": 7623,
+              "key.parsed_declaration": "let c: Int = min((e - s), count)",
+              "key.parsed_scope.end": 153,
+              "key.parsed_scope.start": 153,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markBackup_5countSiAC8MarkItemC_SitF1cL_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let p: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>p<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 33,
+              "key.line": 157,
+              "key.name": "p",
+              "key.namecolumn": 17,
+              "key.namelength": 1,
+              "key.nameline": 157,
+              "key.nameoffset": 7716,
+              "key.offset": 7712,
+              "key.parsed_declaration": "let p:       Int        = (e - c)",
+              "key.parsed_scope.end": 157,
+              "key.parsed_scope.start": 157,
+              "key.typename": "Int",
+              "key.typeusr": "$sSiD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markBackup_5countSiAC8MarkItemC_SitF1pL_Sivp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let rAfter: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:Si\">Int<\/Type>&gt;<\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>rAfter<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.struct usr=\"s:Si\">Int<\/ref.struct>&gt;<\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 35,
+              "key.line": 158,
+              "key.name": "rAfter",
+              "key.namecolumn": 17,
+              "key.namelength": 6,
+              "key.nameline": 158,
+              "key.nameoffset": 7762,
+              "key.offset": 7758,
+              "key.parsed_declaration": "let rAfter:  Range<Int> = (p ..< e)",
+              "key.parsed_scope.end": 158,
+              "key.parsed_scope.start": 158,
+              "key.typename": "Range<Int>",
+              "key.typeusr": "$sSnySiGD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markBackup_5countSiAC8MarkItemC_SitF6rAfterL_SnySiGvp"
+            },
+            {
+              "key.annotated_decl": "<Declaration>let rBefore: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:Si\">Int<\/Type>&gt;<\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>rBefore<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.struct usr=\"s:Si\">Int<\/ref.struct>&gt;<\/decl.var.type><\/decl.var.local>",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 35,
+              "key.line": 159,
+              "key.name": "rBefore",
+              "key.namecolumn": 17,
+              "key.namelength": 7,
+              "key.nameline": 159,
+              "key.nameoffset": 7810,
+              "key.offset": 7806,
+              "key.parsed_declaration": "let rBefore: Range<Int> = (s ..< p)",
+              "key.parsed_scope.end": 159,
+              "key.parsed_scope.start": 159,
+              "key.typename": "Range<Int>",
+              "key.typeusr": "$sSnySiGD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markBackup_5countSiAC8MarkItemC_SitF7rBeforeL_SnySiGvp"
+            }
+          ],
+          "key.typename": "(IConvCharInputStream) -> (IConvCharInputStream.MarkItem, Int) -> Int",
+          "key.typeusr": "$s_5countSi7Rubicon20IConvCharInputStreamC8MarkItemC_SitcD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC11_markBackup_5countSiAC8MarkItemC_SitF"
+        },
+        {
+          "key.accessibility": "source.lang.swift.accessibility.internal",
+          "key.annotated_decl": "<Declaration>final class <Type usr=\"s:7Rubicon20IConvCharInputStreamC\">IConvCharInputStream<\/Type>.MarkItem<\/Declaration>",
+          "key.attributes": [
+            {
+              "key.attribute": "source.decl.attribute.final",
+              "key.column": 9,
+              "key.length": 5,
+              "key.line": 169,
+              "key.offset": 8118
+            }
+          ],
+          "key.bodycolumn": 31,
+          "key.bodylength": 148,
+          "key.bodyline": 169,
+          "key.bodyoffset": 8140,
+          "key.column": 15,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+          "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>final<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <ref.class usr=\"s:7Rubicon20IConvCharInputStreamC\">IConvCharInputStream<\/ref.class>.<decl.name>MarkItem<\/decl.name><\/decl.class>",
+          "key.kind": "source.lang.swift.decl.class",
+          "key.length": 165,
+          "key.line": 169,
+          "key.name": "MarkItem",
+          "key.namecolumn": 21,
+          "key.namelength": 8,
+          "key.nameline": 169,
+          "key.nameoffset": 8130,
+          "key.offset": 8124,
+          "key.parsed_declaration": "final class MarkItem",
+          "key.parsed_scope.end": 174,
+          "key.parsed_scope.start": 169,
+          "key.substructure": [
+            {
+              "key.accessibility": "source.lang.swift.accessibility.internal",
+              "key.annotated_decl": "<Declaration>let pos: <Type usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/Type><\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>pos<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/ref.typealias><\/decl.var.type><\/decl.var.instance>",
+              "key.kind": "source.lang.swift.decl.var.instance",
+              "key.length": 22,
+              "key.line": 170,
+              "key.name": "pos",
+              "key.namecolumn": 17,
+              "key.namelength": 3,
+              "key.nameline": 170,
+              "key.nameoffset": 8157,
+              "key.offset": 8153,
+              "key.parsed_declaration": "let pos:  TextPosition",
+              "key.parsed_scope.end": 170,
+              "key.parsed_scope.start": 170,
+              "key.typename": "(lineNumber: Int32, columnNumber: Int32)",
+              "key.typeusr": "$ss5Int32V10lineNumber_AB06columnC0tD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC8MarkItemC3poss5Int32V10lineNumber_AH06columnK0tvp"
+            },
+            {
+              "key.accessibility": "source.lang.swift.accessibility.internal",
+              "key.annotated_decl": "<Declaration>var data: [<Type usr=\"s:SJ\">Character<\/Type>]<\/Declaration>",
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>data<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:SJ\">Character<\/ref.struct>]<\/decl.var.type><\/decl.var.instance>",
+              "key.kind": "source.lang.swift.decl.var.instance",
+              "key.length": 26,
+              "key.line": 171,
+              "key.name": "data",
+              "key.namecolumn": 17,
+              "key.namelength": 4,
+              "key.nameline": 171,
+              "key.nameoffset": 8192,
+              "key.offset": 8188,
+              "key.parsed_declaration": "var data: [Character] = []",
+              "key.parsed_scope.end": 171,
+              "key.parsed_scope.start": 171,
+              "key.setter_accessibility": "source.lang.swift.accessibility.internal",
+              "key.typename": "[Character]",
+              "key.typeusr": "$sSaySJGD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC8MarkItemC4dataSaySJGvp"
+            },
+            {
+              "key.accessibility": "source.lang.swift.accessibility.internal",
+              "key.annotated_decl": "<Declaration>init(position pos: <Type usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/Type>)<\/Declaration>",
+              "key.bodycolumn": 47,
+              "key.bodylength": 16,
+              "key.bodyline": 173,
+              "key.bodyoffset": 8262,
+              "key.column": 13,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Streams\/Character\/IConvCharInputStream.swift",
+              "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>position<\/decl.var.parameter.argument_label> <decl.var.parameter.name>pos<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.typealias usr=\"s:7Rubicon12TextPositiona\">TextPosition<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+              "key.kind": "source.lang.swift.decl.function.method.instance",
+              "key.length": 51,
+              "key.line": 173,
+              "key.name": "init(position:)",
+              "key.namecolumn": 13,
+              "key.namelength": 32,
+              "key.nameline": 173,
+              "key.nameoffset": 8228,
+              "key.offset": 8228,
+              "key.parsed_declaration": "init(position pos: TextPosition)",
+              "key.parsed_scope.end": 173,
+              "key.parsed_scope.start": 173,
+              "key.substructure": [
+              ],
+              "key.typename": "(IConvCharInputStream.MarkItem.Type) -> ((lineNumber: Int32, columnNumber: Int32)) -> IConvCharInputStream.MarkItem",
+              "key.typeusr": "$s8position7Rubicon20IConvCharInputStreamC8MarkItemCs5Int32V10lineNumber_AH06columnK0t_tcD",
+              "key.usr": "s:7Rubicon20IConvCharInputStreamC8MarkItemC8positionAEs5Int32V10lineNumber_AH06columnK0t_tcfc"
+            }
+          ],
+          "key.typename": "IConvCharInputStream.MarkItem.Type",
+          "key.typeusr": "$s7Rubicon20IConvCharInputStreamC8MarkItemCmD",
+          "key.usr": "s:7Rubicon20IConvCharInputStreamC8MarkItemC"
+        }
+      ],
+      "key.typename": "IConvCharInputStream.Type",
+      "key.typeusr": "$s7Rubicon20IConvCharInputStreamCmD",
+      "key.usr": "s:7Rubicon20IConvCharInputStreamC"
+    }
+  ]
+}

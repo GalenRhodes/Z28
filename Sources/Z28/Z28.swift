@@ -52,7 +52,12 @@ open class Z28: ParsableCommand {
         let projectPath: String = (projectPath ?? FileManager.default.currentDirectoryPath)
         let absTempDir:  String = tempDir.makeAbsolute(relativeTo: projectPath)
 
-        buildArguments += [ ((buildMethod == .xcode) ? "-jobs" : "--jobs"), String(jobs) ]
+        switch buildMethod {
+            case .xcode:
+                buildArguments += [ "-jobs", "\(jobs)", "-configuration", "Debug", ]
+            case .spm:
+                buildArguments += [ "--jobs", "\(jobs)", "--configuration", "debug", ]
+        }
 
         printToStdout("BUILD METHOD: \(buildMethod)")
         printToStdout("  BUILD ARGS: [ \"\(buildArguments.joined(separator: "\", \""))\" ]")
@@ -69,7 +74,6 @@ open class Z28: ParsableCommand {
             if let e = err { throw e }
         }
         else {
-            NSLog("Start...")
             let cc: Int = module.sourceFiles.count
 
             if jobs > 1 {
@@ -83,8 +87,6 @@ open class Z28: ParsableCommand {
                     sf.loadAndWrite()
                 }
             }
-
-            NSLog("End...")
         }
     }
 }
