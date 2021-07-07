@@ -1,205 +1,205 @@
 {
-  "key.column": 1,
-  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
-  "key.length": 1608,
-  "key.line": 1,
-  "key.offset": 0,
-  "key.substructure": [
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 1608,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
     {
-      "key.annotated_decl": "<Declaration>@frozen struct Dictionary&lt;Key, Value&gt; where <Type usr=\"s:SD3Keyxmfp\">Key<\/Type> : <Type usr=\"s:SH\">Hashable<\/Type><\/Declaration>",
-      "key.bodycolumn": 23,
-      "key.bodylength": 275,
-      "key.bodyline": 21,
-      "key.bodyoffset": 1331,
-      "key.column": 1,
-      "key.doc.comment": "",
-      "key.doc.declaration": "@frozen struct Dictionary<Key, Value> where Key : Hashable",
-      "key.doc.discussion": [
+      "key.annotated_decl" : "<Declaration>@frozen struct Dictionary&lt;Key, Value&gt; where <Type usr=\"s:SD3Keyxmfp\">Key<\/Type> : <Type usr=\"s:SH\">Hashable<\/Type><\/Declaration>",
+      "key.bodycolumn" : 23,
+      "key.bodylength" : 275,
+      "key.bodyline" : 21,
+      "key.bodyoffset" : 1331,
+      "key.column" : 1,
+      "key.doc.comment" : "",
+      "key.doc.declaration" : "@frozen struct Dictionary<Key, Value> where Key : Hashable",
+      "key.doc.discussion" : [
         {
-          "Para": "A dictionary is a type of hash table, providing fast access to the entries it contains. Each entry in the table is identified using its key, which is a hashable type such as a string or number. You use that key to retrieve the corresponding value, which can be any object. In other languages, similar data types are known as hashes or associated arrays."
+          "Para" : "A dictionary is a type of hash table, providing fast access to the entries it contains. Each entry in the table is identified using its key, which is a hashable type such as a string or number. You use that key to retrieve the corresponding value, which can be any object. In other languages, similar data types are known as hashes or associated arrays."
         },
         {
-          "Para": "Create a new dictionary by using a dictionary literal. A dictionary literal is a comma-separated list of key-value pairs, in which a colon separates each key from its associated value, surrounded by square brackets. You can assign a dictionary literal to a variable or constant or pass it to a function that expects a dictionary."
+          "Para" : "Create a new dictionary by using a dictionary literal. A dictionary literal is a comma-separated list of key-value pairs, in which a colon separates each key from its associated value, surrounded by square brackets. You can assign a dictionary literal to a variable or constant or pass it to a function that expects a dictionary."
         },
         {
-          "Para": "Here’s how you would create a dictionary of HTTP response codes and their related messages:"
+          "Para" : "Here’s how you would create a dictionary of HTTP response codes and their related messages:"
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "The `responseMessages` variable is inferred to have type `[Int: String]`. The `Key` type of the dictionary is `Int`, and the `Value` type of the dictionary is `String`."
+          "Para" : "The `responseMessages` variable is inferred to have type `[Int: String]`. The `Key` type of the dictionary is `Int`, and the `Value` type of the dictionary is `String`."
         },
         {
-          "Para": "To create a dictionary with no key-value pairs, use an empty dictionary literal (`[:]`)."
+          "Para" : "To create a dictionary with no key-value pairs, use an empty dictionary literal (`[:]`)."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Any type that conforms to the `Hashable` protocol can be used as a dictionary’s `Key` type, including all of Swift’s basic types. You can use your own custom types as dictionary keys by making them conform to the `Hashable` protocol."
+          "Para" : "Any type that conforms to the `Hashable` protocol can be used as a dictionary’s `Key` type, including all of Swift’s basic types. You can use your own custom types as dictionary keys by making them conform to the `Hashable` protocol."
         },
         {
-          "Para": "The most common way to access values in a dictionary is to use a key as a subscript. Subscripting with a key takes the following form:"
+          "Para" : "The most common way to access values in a dictionary is to use a key as a subscript. Subscripting with a key takes the following form:"
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Subscripting a dictionary with a key returns an optional value, because a dictionary might not hold a value for the key that you use in the subscript."
+          "Para" : "Subscripting a dictionary with a key returns an optional value, because a dictionary might not hold a value for the key that you use in the subscript."
         },
         {
-          "Para": "The next example uses key-based subscripting of the `responseMessages` dictionary with two keys that exist in the dictionary and one that does not."
+          "Para" : "The next example uses key-based subscripting of the `responseMessages` dictionary with two keys that exist in the dictionary and one that does not."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "You can also update, modify, or remove keys and values from a dictionary using the key-based subscript. To add a new key-value pair, assign a value to a key that isn’t yet a part of the dictionary."
+          "Para" : "You can also update, modify, or remove keys and values from a dictionary using the key-based subscript. To add a new key-value pair, assign a value to a key that isn’t yet a part of the dictionary."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Update an existing value by assigning a new value to a key that already exists in the dictionary. If you assign `nil` to an existing key, the key and its associated value are removed. The following example updates the value for the `404` code to be simply “Not found” and removes the key-value pair for the `500` code entirely."
+          "Para" : "Update an existing value by assigning a new value to a key that already exists in the dictionary. If you assign `nil` to an existing key, the key and its associated value are removed. The following example updates the value for the `404` code to be simply “Not found” and removes the key-value pair for the `500` code entirely."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "In a mutable `Dictionary` instance, you can modify in place a value that you’ve accessed through a keyed subscript. The code sample below declares a dictionary called `interestingNumbers` with string keys and values that are integer arrays, then sorts each array in-place in descending order."
+          "Para" : "In a mutable `Dictionary` instance, you can modify in place a value that you’ve accessed through a keyed subscript. The code sample below declares a dictionary called `interestingNumbers` with string keys and values that are integer arrays, then sorts each array in-place in descending order."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Every dictionary is an unordered collection of key-value pairs. You can iterate over a dictionary using a `for`-`in` loop, decomposing each key-value pair into the elements of a tuple."
+          "Para" : "Every dictionary is an unordered collection of key-value pairs. You can iterate over a dictionary using a `for`-`in` loop, decomposing each key-value pair into the elements of a tuple."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "The order of key-value pairs in a dictionary is stable between mutations but is otherwise unpredictable. If you need an ordered collection of key-value pairs and don’t need the fast key lookup that `Dictionary` provides, see the `KeyValuePairs` type for an alternative."
+          "Para" : "The order of key-value pairs in a dictionary is stable between mutations but is otherwise unpredictable. If you need an ordered collection of key-value pairs and don’t need the fast key lookup that `Dictionary` provides, see the `KeyValuePairs` type for an alternative."
         },
         {
-          "Para": "You can search a dictionary’s contents for a particular value using the `contains(where:)` or `firstIndex(where:)` methods supplied by default implementation. The following example checks to see if `imagePaths` contains any paths in the `\"\/glyphs\"` directory:"
+          "Para" : "You can search a dictionary’s contents for a particular value using the `contains(where:)` or `firstIndex(where:)` methods supplied by default implementation. The following example checks to see if `imagePaths` contains any paths in the `\"\/glyphs\"` directory:"
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Note that in this example, `imagePaths` is subscripted using a dictionary index. Unlike the key-based subscript, the index-based subscript returns the corresponding key-value pair as a non-optional tuple."
+          "Para" : "Note that in this example, `imagePaths` is subscripted using a dictionary index. Unlike the key-based subscript, the index-based subscript returns the corresponding key-value pair as a non-optional tuple."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "A dictionary’s indices stay valid across additions to the dictionary as long as the dictionary has enough capacity to store the added values without allocating more buffer. When a dictionary outgrows its buffer, existing indices may be invalidated without any notification."
+          "Para" : "A dictionary’s indices stay valid across additions to the dictionary as long as the dictionary has enough capacity to store the added values without allocating more buffer. When a dictionary outgrows its buffer, existing indices may be invalidated without any notification."
         },
         {
-          "Para": "When you know how many new values you’re adding to a dictionary, use the `init(minimumCapacity:)` initializer to allocate the correct amount of buffer."
+          "Para" : "When you know how many new values you’re adding to a dictionary, use the `init(minimumCapacity:)` initializer to allocate the correct amount of buffer."
         },
         {
-          "Para": "You can bridge between `Dictionary` and `NSDictionary` using the `as` operator. For bridging to be possible, the `Key` and `Value` types of a dictionary must be classes, `@objc` protocols, or types that bridge to Foundation types."
+          "Para" : "You can bridge between `Dictionary` and `NSDictionary` using the `as` operator. For bridging to be possible, the `Key` and `Value` types of a dictionary must be classes, `@objc` protocols, or types that bridge to Foundation types."
         },
         {
-          "Para": "Bridging from `Dictionary` to `NSDictionary` always takes O(1) time and space. When the dictionary’s `Key` and `Value` types are neither classes nor `@objc` protocols, any required bridging of elements occurs at the first access of each element. For this reason, the first operation that uses the contents of the dictionary may take O()."
+          "Para" : "Bridging from `Dictionary` to `NSDictionary` always takes O(1) time and space. When the dictionary’s `Key` and `Value` types are neither classes nor `@objc` protocols, any required bridging of elements occurs at the first access of each element. For this reason, the first operation that uses the contents of the dictionary may take O()."
         },
         {
-          "Para": "Bridging from `NSDictionary` to `Dictionary` first calls the `copy(with:)` method (`- copyWithZone:` in Objective-C) on the dictionary to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of `NSDictionary` that are already immutable, `copy(with:)` usually returns the same dictionary in O(1) time; otherwise, the copying performance is unspecified. The instances of `NSDictionary` and `Dictionary` share buffer using the same copy-on-write optimization that is used when two instances of `Dictionary` share buffer."
+          "Para" : "Bridging from `NSDictionary` to `Dictionary` first calls the `copy(with:)` method (`- copyWithZone:` in Objective-C) on the dictionary to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of `NSDictionary` that are already immutable, `copy(with:)` usually returns the same dictionary in O(1) time; otherwise, the copying performance is unspecified. The instances of `NSDictionary` and `Dictionary` share buffer using the same copy-on-write optimization that is used when two instances of `Dictionary` share buffer."
         }
       ],
-      "key.doc.full_as_xml": "<Class><Name>Dictionary<\/Name><USR>s:SD<\/USR><Declaration>@frozen struct Dictionary&lt;Key, Value&gt; where Key : Hashable<\/Declaration><CommentParts><Abstract><Para>A collection whose elements are key-value pairs.<\/Para><\/Abstract><Discussion><Para>A dictionary is a type of hash table, providing fast access to the entries it contains. Each entry in the table is identified using its key, which is a hashable type such as a string or number. You use that key to retrieve the corresponding value, which can be any object. In other languages, similar data types are known as hashes or associated arrays.<\/Para><Para>Create a new dictionary by using a dictionary literal. A dictionary literal is a comma-separated list of key-value pairs, in which a colon separates each key from its associated value, surrounded by square brackets. You can assign a dictionary literal to a variable or constant or pass it to a function that expects a dictionary.<\/Para><Para>Here’s how you would create a dictionary of HTTP response codes and their related messages:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var responseMessages = [200: \"OK\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                        403: \"Access forbidden\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                        404: \"File not found\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                        500: \"Internal server error\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The <codeVoice>responseMessages<\/codeVoice> variable is inferred to have type <codeVoice>[Int: String]<\/codeVoice>. The <codeVoice>Key<\/codeVoice> type of the dictionary is <codeVoice>Int<\/codeVoice>, and the <codeVoice>Value<\/codeVoice> type of the dictionary is <codeVoice>String<\/codeVoice>.<\/Para><Para>To create a dictionary with no key-value pairs, use an empty dictionary literal (<codeVoice>[:]<\/codeVoice>).<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var emptyDict: [String: String] = [:]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Any type that conforms to the <codeVoice>Hashable<\/codeVoice> protocol can be used as a dictionary’s <codeVoice>Key<\/codeVoice> type, including all of Swift’s basic types. You can use your own custom types as dictionary keys by making them conform to the <codeVoice>Hashable<\/codeVoice> protocol.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Getting and Setting Dictionary Values<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>The most common way to access values in a dictionary is to use a key as a subscript. Subscripting with a key takes the following form:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(responseMessages[200])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Optional(\"OK\")\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Subscripting a dictionary with a key returns an optional value, because a dictionary might not hold a value for the key that you use in the subscript.<\/Para><Para>The next example uses key-based subscripting of the <codeVoice>responseMessages<\/codeVoice> dictionary with two keys that exist in the dictionary and one that does not.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let httpResponseCodes = [200, 403, 301]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[for code in httpResponseCodes {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    if let message = responseMessages[code] {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"Response \\(code): \\(message)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    } else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"Unknown response \\(code)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    }]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Response 200: OK\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Response 403: Access forbidden\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Unknown response 301\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can also update, modify, or remove keys and values from a dictionary using the key-based subscript. To add a new key-value pair, assign a value to a key that isn’t yet a part of the dictionary.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[responseMessages[301] = \"Moved permanently\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(responseMessages[301])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Optional(\"Moved permanently\")\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Update an existing value by assigning a new value to a key that already exists in the dictionary. If you assign <codeVoice>nil<\/codeVoice> to an existing key, the key and its associated value are removed. The following example updates the value for the <codeVoice>404<\/codeVoice> code to be simply “Not found” and removes the key-value pair for the <codeVoice>500<\/codeVoice> code entirely.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[responseMessages[404] = \"Not found\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[responseMessages[500] = nil]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(responseMessages)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[301: \"Moved permanently\", 200: \"OK\", 403: \"Access forbidden\", 404: \"Not found\"]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>In a mutable <codeVoice>Dictionary<\/codeVoice> instance, you can modify in place a value that you’ve accessed through a keyed subscript. The code sample below declares a dictionary called <codeVoice>interestingNumbers<\/codeVoice> with string keys and values that are integer arrays, then sorts each array in-place in descending order.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var interestingNumbers = [\"primes\": [2, 3, 5, 7, 11, 13, 17],]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                          \"triangular\": [1, 3, 6, 10, 15, 21, 28],]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                          \"hexagonal\": [1, 6, 15, 28, 45, 66, 91]]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[for key in interestingNumbers.keys {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    interestingNumbers[key]?.sort(by: >)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(interestingNumbers[\"primes\"]!)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[17, 13, 11, 7, 5, 3, 2]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Iterating Over the Contents of a Dictionary<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Every dictionary is an unordered collection of key-value pairs. You can iterate over a dictionary using a <codeVoice>for<\/codeVoice>-<codeVoice>in<\/codeVoice> loop, decomposing each key-value pair into the elements of a tuple.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let imagePaths = [\"star\": \"\/glyphs\/star.png\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                  \"portrait\": \"\/images\/content\/portrait.jpg\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                  \"spacer\": \"\/images\/shared\/spacer.gif\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[for (name, path) in imagePaths {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"The path to '\\(name)' is '\\(path)'.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The path to 'star' is '\/glyphs\/star.png'.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The path to 'portrait' is '\/images\/content\/portrait.jpg'.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The path to 'spacer' is '\/images\/shared\/spacer.gif'.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The order of key-value pairs in a dictionary is stable between mutations but is otherwise unpredictable. If you need an ordered collection of key-value pairs and don’t need the fast key lookup that <codeVoice>Dictionary<\/codeVoice> provides, see the <codeVoice>KeyValuePairs<\/codeVoice> type for an alternative.<\/Para><Para>You can search a dictionary’s contents for a particular value using the <codeVoice>contains(where:)<\/codeVoice> or <codeVoice>firstIndex(where:)<\/codeVoice> methods supplied by default implementation. The following example checks to see if <codeVoice>imagePaths<\/codeVoice> contains any paths in the <codeVoice>&quot;\/glyphs&quot;<\/codeVoice> directory:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let glyphIndex = imagePaths.firstIndex(where: { $0.value.hasPrefix(\"\/glyphs\") })]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if let index = glyphIndex {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"The '\\(imagePaths[index].key)' image is a glyph.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"No glyphs found!\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The 'star' image is a glyph.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Note that in this example, <codeVoice>imagePaths<\/codeVoice> is subscripted using a dictionary index. Unlike the key-based subscript, the index-based subscript returns the corresponding key-value pair as a non-optional tuple.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(imagePaths[glyphIndex!])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"(key: \"star\", value: \"\/glyphs\/star.png\")\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>A dictionary’s indices stay valid across additions to the dictionary as long as the dictionary has enough capacity to store the added values without allocating more buffer. When a dictionary outgrows its buffer, existing indices may be invalidated without any notification.<\/Para><Para>When you know how many new values you’re adding to a dictionary, use the <codeVoice>init(minimumCapacity:)<\/codeVoice> initializer to allocate the correct amount of buffer.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Bridging Between Dictionary and NSDictionary<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>You can bridge between <codeVoice>Dictionary<\/codeVoice> and <codeVoice>NSDictionary<\/codeVoice> using the <codeVoice>as<\/codeVoice> operator. For bridging to be possible, the <codeVoice>Key<\/codeVoice> and <codeVoice>Value<\/codeVoice> types of a dictionary must be classes, <codeVoice>@objc<\/codeVoice> protocols, or types that bridge to Foundation types.<\/Para><Para>Bridging from <codeVoice>Dictionary<\/codeVoice> to <codeVoice>NSDictionary<\/codeVoice> always takes O(1) time and space. When the dictionary’s <codeVoice>Key<\/codeVoice> and <codeVoice>Value<\/codeVoice> types are neither classes nor <codeVoice>@objc<\/codeVoice> protocols, any required bridging of elements occurs at the first access of each element. For this reason, the first operation that uses the contents of the dictionary may take O(<emphasis>n<\/emphasis>).<\/Para><Para>Bridging from <codeVoice>NSDictionary<\/codeVoice> to <codeVoice>Dictionary<\/codeVoice> first calls the <codeVoice>copy(with:)<\/codeVoice> method (<codeVoice>- copyWithZone:<\/codeVoice> in Objective-C) on the dictionary to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of <codeVoice>NSDictionary<\/codeVoice> that are already immutable, <codeVoice>copy(with:)<\/codeVoice> usually returns the same dictionary in O(1) time; otherwise, the copying performance is unspecified. The instances of <codeVoice>NSDictionary<\/codeVoice> and <codeVoice>Dictionary<\/codeVoice> share buffer using the same copy-on-write optimization that is used when two instances of <codeVoice>Dictionary<\/codeVoice> share buffer.<\/Para><\/Discussion><\/CommentParts><\/Class>",
-      "key.doc.name": "Dictionary",
-      "key.doc.type": "Class",
-      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Dictionary<\/decl.name>&lt;<decl.generic_type_param usr=\"s:SD3Keyxmfp\"><decl.generic_type_param.name>Key<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:SD5Valueq_mfp\"><decl.generic_type_param.name>Value<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:SD3Keyxmfp\">Key<\/ref.generic_type_param> : <ref.protocol usr=\"s:SH\">Hashable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.struct>",
-      "key.groupname": "Collection\/HashedCollections",
-      "key.is_system": true,
-      "key.kind": "source.lang.swift.decl.extension",
-      "key.length": 298,
-      "key.line": 21,
-      "key.modulename": "Swift",
-      "key.name": "Dictionary",
-      "key.namecolumn": 11,
-      "key.namelength": 10,
-      "key.nameline": 21,
-      "key.nameoffset": 1319,
-      "key.offset": 1309,
-      "key.parsed_declaration": "extension Dictionary",
-      "key.parsed_scope.end": 31,
-      "key.parsed_scope.start": 21,
-      "key.substructure": [
+      "key.doc.full_as_xml" : "<Class><Name>Dictionary<\/Name><USR>s:SD<\/USR><Declaration>@frozen struct Dictionary&lt;Key, Value&gt; where Key : Hashable<\/Declaration><CommentParts><Abstract><Para>A collection whose elements are key-value pairs.<\/Para><\/Abstract><Discussion><Para>A dictionary is a type of hash table, providing fast access to the entries it contains. Each entry in the table is identified using its key, which is a hashable type such as a string or number. You use that key to retrieve the corresponding value, which can be any object. In other languages, similar data types are known as hashes or associated arrays.<\/Para><Para>Create a new dictionary by using a dictionary literal. A dictionary literal is a comma-separated list of key-value pairs, in which a colon separates each key from its associated value, surrounded by square brackets. You can assign a dictionary literal to a variable or constant or pass it to a function that expects a dictionary.<\/Para><Para>Here’s how you would create a dictionary of HTTP response codes and their related messages:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var responseMessages = [200: \"OK\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                        403: \"Access forbidden\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                        404: \"File not found\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                        500: \"Internal server error\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The <codeVoice>responseMessages<\/codeVoice> variable is inferred to have type <codeVoice>[Int: String]<\/codeVoice>. The <codeVoice>Key<\/codeVoice> type of the dictionary is <codeVoice>Int<\/codeVoice>, and the <codeVoice>Value<\/codeVoice> type of the dictionary is <codeVoice>String<\/codeVoice>.<\/Para><Para>To create a dictionary with no key-value pairs, use an empty dictionary literal (<codeVoice>[:]<\/codeVoice>).<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var emptyDict: [String: String] = [:]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Any type that conforms to the <codeVoice>Hashable<\/codeVoice> protocol can be used as a dictionary’s <codeVoice>Key<\/codeVoice> type, including all of Swift’s basic types. You can use your own custom types as dictionary keys by making them conform to the <codeVoice>Hashable<\/codeVoice> protocol.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Getting and Setting Dictionary Values<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>The most common way to access values in a dictionary is to use a key as a subscript. Subscripting with a key takes the following form:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(responseMessages[200])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Optional(\"OK\")\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Subscripting a dictionary with a key returns an optional value, because a dictionary might not hold a value for the key that you use in the subscript.<\/Para><Para>The next example uses key-based subscripting of the <codeVoice>responseMessages<\/codeVoice> dictionary with two keys that exist in the dictionary and one that does not.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let httpResponseCodes = [200, 403, 301]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[for code in httpResponseCodes {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    if let message = responseMessages[code] {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"Response \\(code): \\(message)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    } else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        print(\"Unknown response \\(code)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    }]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Response 200: OK\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Response 403: Access forbidden\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Unknown response 301\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can also update, modify, or remove keys and values from a dictionary using the key-based subscript. To add a new key-value pair, assign a value to a key that isn’t yet a part of the dictionary.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[responseMessages[301] = \"Moved permanently\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(responseMessages[301])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Optional(\"Moved permanently\")\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Update an existing value by assigning a new value to a key that already exists in the dictionary. If you assign <codeVoice>nil<\/codeVoice> to an existing key, the key and its associated value are removed. The following example updates the value for the <codeVoice>404<\/codeVoice> code to be simply “Not found” and removes the key-value pair for the <codeVoice>500<\/codeVoice> code entirely.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[responseMessages[404] = \"Not found\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[responseMessages[500] = nil]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(responseMessages)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[301: \"Moved permanently\", 200: \"OK\", 403: \"Access forbidden\", 404: \"Not found\"]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>In a mutable <codeVoice>Dictionary<\/codeVoice> instance, you can modify in place a value that you’ve accessed through a keyed subscript. The code sample below declares a dictionary called <codeVoice>interestingNumbers<\/codeVoice> with string keys and values that are integer arrays, then sorts each array in-place in descending order.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var interestingNumbers = [\"primes\": [2, 3, 5, 7, 11, 13, 17],]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                          \"triangular\": [1, 3, 6, 10, 15, 21, 28],]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                          \"hexagonal\": [1, 6, 15, 28, 45, 66, 91]]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[for key in interestingNumbers.keys {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    interestingNumbers[key]?.sort(by: >)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(interestingNumbers[\"primes\"]!)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[17, 13, 11, 7, 5, 3, 2]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Iterating Over the Contents of a Dictionary<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Every dictionary is an unordered collection of key-value pairs. You can iterate over a dictionary using a <codeVoice>for<\/codeVoice>-<codeVoice>in<\/codeVoice> loop, decomposing each key-value pair into the elements of a tuple.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let imagePaths = [\"star\": \"\/glyphs\/star.png\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                  \"portrait\": \"\/images\/content\/portrait.jpg\",]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                  \"spacer\": \"\/images\/shared\/spacer.gif\"]]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[for (name, path) in imagePaths {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"The path to '\\(name)' is '\\(path)'.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The path to 'star' is '\/glyphs\/star.png'.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The path to 'portrait' is '\/images\/content\/portrait.jpg'.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The path to 'spacer' is '\/images\/shared\/spacer.gif'.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The order of key-value pairs in a dictionary is stable between mutations but is otherwise unpredictable. If you need an ordered collection of key-value pairs and don’t need the fast key lookup that <codeVoice>Dictionary<\/codeVoice> provides, see the <codeVoice>KeyValuePairs<\/codeVoice> type for an alternative.<\/Para><Para>You can search a dictionary’s contents for a particular value using the <codeVoice>contains(where:)<\/codeVoice> or <codeVoice>firstIndex(where:)<\/codeVoice> methods supplied by default implementation. The following example checks to see if <codeVoice>imagePaths<\/codeVoice> contains any paths in the <codeVoice>&quot;\/glyphs&quot;<\/codeVoice> directory:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let glyphIndex = imagePaths.firstIndex(where: { $0.value.hasPrefix(\"\/glyphs\") })]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if let index = glyphIndex {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"The '\\(imagePaths[index].key)' image is a glyph.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"No glyphs found!\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"The 'star' image is a glyph.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Note that in this example, <codeVoice>imagePaths<\/codeVoice> is subscripted using a dictionary index. Unlike the key-based subscript, the index-based subscript returns the corresponding key-value pair as a non-optional tuple.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(imagePaths[glyphIndex!])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"(key: \"star\", value: \"\/glyphs\/star.png\")\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>A dictionary’s indices stay valid across additions to the dictionary as long as the dictionary has enough capacity to store the added values without allocating more buffer. When a dictionary outgrows its buffer, existing indices may be invalidated without any notification.<\/Para><Para>When you know how many new values you’re adding to a dictionary, use the <codeVoice>init(minimumCapacity:)<\/codeVoice> initializer to allocate the correct amount of buffer.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Bridging Between Dictionary and NSDictionary<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>You can bridge between <codeVoice>Dictionary<\/codeVoice> and <codeVoice>NSDictionary<\/codeVoice> using the <codeVoice>as<\/codeVoice> operator. For bridging to be possible, the <codeVoice>Key<\/codeVoice> and <codeVoice>Value<\/codeVoice> types of a dictionary must be classes, <codeVoice>@objc<\/codeVoice> protocols, or types that bridge to Foundation types.<\/Para><Para>Bridging from <codeVoice>Dictionary<\/codeVoice> to <codeVoice>NSDictionary<\/codeVoice> always takes O(1) time and space. When the dictionary’s <codeVoice>Key<\/codeVoice> and <codeVoice>Value<\/codeVoice> types are neither classes nor <codeVoice>@objc<\/codeVoice> protocols, any required bridging of elements occurs at the first access of each element. For this reason, the first operation that uses the contents of the dictionary may take O(<emphasis>n<\/emphasis>).<\/Para><Para>Bridging from <codeVoice>NSDictionary<\/codeVoice> to <codeVoice>Dictionary<\/codeVoice> first calls the <codeVoice>copy(with:)<\/codeVoice> method (<codeVoice>- copyWithZone:<\/codeVoice> in Objective-C) on the dictionary to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of <codeVoice>NSDictionary<\/codeVoice> that are already immutable, <codeVoice>copy(with:)<\/codeVoice> usually returns the same dictionary in O(1) time; otherwise, the copying performance is unspecified. The instances of <codeVoice>NSDictionary<\/codeVoice> and <codeVoice>Dictionary<\/codeVoice> share buffer using the same copy-on-write optimization that is used when two instances of <codeVoice>Dictionary<\/codeVoice> share buffer.<\/Para><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name" : "Dictionary",
+      "key.doc.type" : "Class",
+      "key.fully_annotated_decl" : "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Dictionary<\/decl.name>&lt;<decl.generic_type_param usr=\"s:SD3Keyxmfp\"><decl.generic_type_param.name>Key<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:SD5Valueq_mfp\"><decl.generic_type_param.name>Value<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:SD3Keyxmfp\">Key<\/ref.generic_type_param> : <ref.protocol usr=\"s:SH\">Hashable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.struct>",
+      "key.groupname" : "Collection\/HashedCollections",
+      "key.is_system" : true,
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 298,
+      "key.line" : 21,
+      "key.modulename" : "Swift",
+      "key.name" : "Dictionary",
+      "key.namecolumn" : 11,
+      "key.namelength" : 10,
+      "key.nameline" : 21,
+      "key.nameoffset" : 1319,
+      "key.offset" : 1309,
+      "key.parsed_declaration" : "extension Dictionary",
+      "key.parsed_scope.end" : 31,
+      "key.parsed_scope.start" : 21,
+      "key.substructure" : [
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public func remapValues(_ body: (<Type usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/Type>, <Type usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/Type>) throws -&gt; (<Type usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/Type>, <Type usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/Type>)) rethrows -&gt; [<Type usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/Type> : <Type usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/Type>]<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public func remapValues(_ body: (<Type usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/Type>, <Type usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/Type>) throws -&gt; (<Type usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/Type>, <Type usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/Type>)) rethrows -&gt; [<Type usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/Type> : <Type usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/Type>]<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.rethrows",
-              "key.column": 74,
-              "key.length": 8,
-              "key.line": 23,
-              "key.offset": 1406
+              "key.attribute" : "source.decl.attribute.rethrows",
+              "key.column" : 74,
+              "key.length" : 8,
+              "key.line" : 23,
+              "key.offset" : 1406
             },
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 23,
-              "key.offset": 1337
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 23,
+              "key.offset" : 1337
             }
           ],
-          "key.bodycolumn": 99,
-          "key.bodylength": 173,
-          "key.bodyline": 23,
-          "key.bodyoffset": 1431,
-          "key.column": 12,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Dictionary.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>remapValues<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.generic_type_param usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.generic_type_param usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><tuple>(<tuple.element><tuple.element.type><ref.generic_type_param usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/ref.generic_type_param><\/tuple.element.type><\/tuple.element>, <tuple.element><tuple.element.type><ref.generic_type_param usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/ref.generic_type_param><\/tuple.element.type><\/tuple.element>)<\/tuple><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype>[<ref.generic_type_param usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/ref.generic_type_param> : <ref.generic_type_param usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/ref.generic_type_param>]<\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Collection\/HashedCollections",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 261,
-          "key.line": 23,
-          "key.name": "remapValues(_:)",
-          "key.namecolumn": 17,
-          "key.namelength": 56,
-          "key.nameline": 23,
-          "key.nameoffset": 1349,
-          "key.offset": 1344,
-          "key.parsed_declaration": "public func remapValues(_ body: (Key, Value) throws -> (Key, Value)) rethrows -> [Key:Value]",
-          "key.parsed_scope.end": 30,
-          "key.parsed_scope.start": 23,
-          "key.substructure": [
+          "key.bodycolumn" : 99,
+          "key.bodylength" : 173,
+          "key.bodyline" : 23,
+          "key.bodyoffset" : 1431,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Dictionary.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>remapValues<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.generic_type_param usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.generic_type_param usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><tuple>(<tuple.element><tuple.element.type><ref.generic_type_param usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/ref.generic_type_param><\/tuple.element.type><\/tuple.element>, <tuple.element><tuple.element.type><ref.generic_type_param usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/ref.generic_type_param><\/tuple.element.type><\/tuple.element>)<\/tuple><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype>[<ref.generic_type_param usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/ref.generic_type_param> : <ref.generic_type_param usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/ref.generic_type_param>]<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Collection\/HashedCollections",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 261,
+          "key.line" : 23,
+          "key.name" : "remapValues(_:)",
+          "key.namecolumn" : 17,
+          "key.namelength" : 56,
+          "key.nameline" : 23,
+          "key.nameoffset" : 1349,
+          "key.offset" : 1344,
+          "key.parsed_declaration" : "public func remapValues(_ body: (Key, Value) throws -> (Key, Value)) rethrows -> [Key:Value]",
+          "key.parsed_scope.end" : 30,
+          "key.parsed_scope.start" : 23,
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>var out: [<Type usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/Type> : <Type usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/Type>]<\/Declaration>",
-              "key.column": 9,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Dictionary.swift",
-              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>out<\/decl.name>: <decl.var.type>[<ref.generic_type_param usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/ref.generic_type_param> : <ref.generic_type_param usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/ref.generic_type_param>]<\/decl.var.type><\/decl.var.local>",
-              "key.groupname": "Collection\/HashedCollections",
-              "key.kind": "source.lang.swift.decl.var.local",
-              "key.length": 26,
-              "key.line": 24,
-              "key.name": "out",
-              "key.namecolumn": 13,
-              "key.namelength": 3,
-              "key.nameline": 24,
-              "key.nameoffset": 1444,
-              "key.offset": 1440,
-              "key.parsed_declaration": "var out: [Key:Value] = [:]",
-              "key.parsed_scope.end": 24,
-              "key.parsed_scope.start": 24,
-              "key.typename": "[Key : Value]",
-              "key.typeusr": "$sSDyxq_GD",
-              "key.usr": "s:SD7RubiconE11remapValuesySDyxq_Gx_q_tx_q_tKXEKF3outL_ACvp"
+              "key.annotated_decl" : "<Declaration>var out: [<Type usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/Type> : <Type usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/Type>]<\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Dictionary.swift",
+              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>out<\/decl.name>: <decl.var.type>[<ref.generic_type_param usr=\"s:SD7RubiconE3Keyxmfp\">Key<\/ref.generic_type_param> : <ref.generic_type_param usr=\"s:SD7RubiconE5Valueq_mfp\">Value<\/ref.generic_type_param>]<\/decl.var.type><\/decl.var.local>",
+              "key.groupname" : "Collection\/HashedCollections",
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 26,
+              "key.line" : 24,
+              "key.name" : "out",
+              "key.namecolumn" : 13,
+              "key.namelength" : 3,
+              "key.nameline" : 24,
+              "key.nameoffset" : 1444,
+              "key.offset" : 1440,
+              "key.parsed_declaration" : "var out: [Key:Value] = [:]",
+              "key.parsed_scope.end" : 24,
+              "key.parsed_scope.start" : 24,
+              "key.typename" : "[Key : Value]",
+              "key.typeusr" : "$sSDyxq_GD",
+              "key.usr" : "s:SD7RubiconE11remapValuesySDyxq_Gx_q_tx_q_tKXEKF3outL_ACvp"
             }
           ],
-          "key.typename": "<Key, Value where Key : Hashable> (Dictionary<Key, Value>) -> ((Key, Value) throws -> (Key, Value)) throws -> [Key : Value]",
-          "key.typeusr": "$sySDyxq_Gx_q_tx_q_tKXEKcD",
-          "key.usr": "s:SD7RubiconE11remapValuesySDyxq_Gx_q_tx_q_tKXEKF"
+          "key.typename" : "<Key, Value where Key : Hashable> (Dictionary<Key, Value>) -> ((Key, Value) throws -> (Key, Value)) throws -> [Key : Value]",
+          "key.typeusr" : "$sySDyxq_Gx_q_tx_q_tKXEKcD",
+          "key.usr" : "s:SD7RubiconE11remapValuesySDyxq_Gx_q_tx_q_tKXEKF"
         }
       ],
-      "key.typename": "Dictionary<Key, Value>.Type",
-      "key.typeusr": "$sSDyxq_GmD",
-      "key.usr": "s:SD"
+      "key.typename" : "Dictionary<Key, Value>.Type",
+      "key.typeusr" : "$sSDyxq_GmD",
+      "key.usr" : "s:SD"
     }
   ]
 }

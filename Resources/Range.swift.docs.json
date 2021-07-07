@@ -1,140 +1,142 @@
 {
-  "key.column": 1,
-  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
-  "key.length": 1329,
-  "key.line": 1,
-  "key.offset": 0,
-  "key.substructure": [
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 1329,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
     {
-      "key.accessibility": "source.lang.swift.accessibility.public",
-      "key.annotated_decl": "<Declaration>@frozen struct Range&lt;Bound&gt; where <Type usr=\"s:Sn5Boundxmfp\">Bound<\/Type> : <Type usr=\"s:SL\">Comparable<\/Type><\/Declaration>",
-      "key.attributes": [
+      "key.accessibility" : "source.lang.swift.accessibility.public",
+      "key.annotated_decl" : "<Declaration>@frozen struct Range&lt;Bound&gt; where <Type usr=\"s:Sn5Boundxmfp\">Bound<\/Type> : <Type usr=\"s:SL\">Comparable<\/Type><\/Declaration>",
+      "key.attributes" : [
         {
-          "key.attribute": "source.decl.attribute.public",
-          "key.column": 1,
-          "key.length": 6,
-          "key.line": 25,
-          "key.offset": 1095
+          "key.attribute" : "source.decl.attribute.public",
+          "key.column" : 1,
+          "key.length" : 6,
+          "key.line" : 25,
+          "key.offset" : 1095
         }
       ],
-      "key.bodycolumn": 25,
-      "key.bodylength": 208,
-      "key.bodyline": 25,
-      "key.bodyoffset": 1119,
-      "key.column": 8,
-      "key.doc.comment": "",
-      "key.doc.declaration": "@frozen struct Range<Bound> where Bound : Comparable",
-      "key.doc.discussion": [
+      "key.bodycolumn" : 25,
+      "key.bodylength" : 208,
+      "key.bodyline" : 25,
+      "key.bodyoffset" : 1119,
+      "key.column" : 8,
+      "key.doc.comment" : "",
+      "key.doc.declaration" : "@frozen struct Range<Bound> where Bound : Comparable",
+      "key.doc.discussion" : [
         {
-          "Para": "You create a `Range` instance by using the half-open range operator (`..<`)."
+          "Para" : "You create a `Range` instance by using the half-open range operator (`..<`)."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "You can use a `Range` instance to quickly check if a value is contained in a particular range of values. For example:"
+          "Para" : "You can use a `Range` instance to quickly check if a value is contained in a particular range of values. For example:"
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "`Range` instances can represent an empty interval, unlike `ClosedRange`."
+          "Para" : "`Range` instances can represent an empty interval, unlike `ClosedRange`."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "When a range uses integers as its lower and upper bounds, or any other type that conforms to the `Strideable` protocol with an integer stride, you can use that range in a `for`-`in` loop or with any sequence or collection method. The elements of the range are the consecutive values from its lower bound up to, but not including, its upper bound."
+          "Para" : "When a range uses integers as its lower and upper bounds, or any other type that conforms to the `Strideable` protocol with an integer stride, you can use that range in a `for`-`in` loop or with any sequence or collection method. The elements of the range are the consecutive values from its lower bound up to, but not including, its upper bound."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Because floating-point types such as `Float` and `Double` are their own `Stride` types, they cannot be used as the bounds of a countable range. If you need to iterate over consecutive floating-point values, see the `stride(from:to:by:)` function."
+          "Para" : "Because floating-point types such as `Float` and `Double` are their own `Stride` types, they cannot be used as the bounds of a countable range. If you need to iterate over consecutive floating-point values, see the `stride(from:to:by:)` function."
         }
       ],
-      "key.doc.full_as_xml": "<Class><Name>Range<\/Name><USR>s:Sn<\/USR><Declaration>@frozen struct Range&lt;Bound&gt; where Bound : Comparable<\/Declaration><CommentParts><Abstract><Para>A half-open interval from a lower bound up to, but not including, an upper bound.<\/Para><\/Abstract><Discussion><Para>You create a <codeVoice>Range<\/codeVoice> instance by using the half-open range operator (<codeVoice>..&lt;<\/codeVoice>).<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let underFive = 0.0..<5.0]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can use a <codeVoice>Range<\/codeVoice> instance to quickly check if a value is contained in a particular range of values. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[underFive.contains(3.14)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ true]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[underFive.contains(6.28)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ false]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[underFive.contains(5.0)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ false]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para><codeVoice>Range<\/codeVoice> instances can represent an empty interval, unlike <codeVoice>ClosedRange<\/codeVoice>.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let empty = 0.0..<0.0]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[empty.contains(0.0)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ false]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[empty.isEmpty]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ true]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Using a Range as a Collection of Consecutive Values<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>When a range uses integers as its lower and upper bounds, or any other type that conforms to the <codeVoice>Strideable<\/codeVoice> protocol with an integer stride, you can use that range in a <codeVoice>for<\/codeVoice>-<codeVoice>in<\/codeVoice> loop or with any sequence or collection method. The elements of the range are the consecutive values from its lower bound up to, but not including, its upper bound.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for n in 3..<5 {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(n)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"3\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"4\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Because floating-point types such as <codeVoice>Float<\/codeVoice> and <codeVoice>Double<\/codeVoice> are their own <codeVoice>Stride<\/codeVoice> types, they cannot be used as the bounds of a countable range. If you need to iterate over consecutive floating-point values, see the <codeVoice>stride(from:to:by:)<\/codeVoice> function.<\/Para><\/Discussion><\/CommentParts><\/Class>",
-      "key.doc.name": "Range",
-      "key.doc.type": "Class",
-      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Range<\/decl.name>&lt;<decl.generic_type_param usr=\"s:Sn5Boundxmfp\"><decl.generic_type_param.name>Bound<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sn5Boundxmfp\">Bound<\/ref.generic_type_param> : <ref.protocol usr=\"s:SL\">Comparable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.struct>",
-      "key.groupname": "Collection",
-      "key.is_system": true,
-      "key.kind": "source.lang.swift.decl.extension",
-      "key.length": 226,
-      "key.line": 25,
-      "key.modulename": "Swift",
-      "key.name": "Range",
-      "key.namecolumn": 18,
-      "key.namelength": 5,
-      "key.nameline": 25,
-      "key.nameoffset": 1112,
-      "key.offset": 1102,
-      "key.parsed_declaration": "public extension Range",
-      "key.parsed_scope.end": 33,
-      "key.parsed_scope.start": 25,
-      "key.substructure": [
+      "key.doc.full_as_xml" : "<Class><Name>Range<\/Name><USR>s:Sn<\/USR><Declaration>@frozen struct Range&lt;Bound&gt; where Bound : Comparable<\/Declaration><CommentParts><Abstract><Para>A half-open interval from a lower bound up to, but not including, an upper bound.<\/Para><\/Abstract><Discussion><Para>You create a <codeVoice>Range<\/codeVoice> instance by using the half-open range operator (<codeVoice>..&lt;<\/codeVoice>).<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let underFive = 0.0..<5.0]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>You can use a <codeVoice>Range<\/codeVoice> instance to quickly check if a value is contained in a particular range of values. For example:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[underFive.contains(3.14)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ true]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[underFive.contains(6.28)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ false]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[underFive.contains(5.0)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ false]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para><codeVoice>Range<\/codeVoice> instances can represent an empty interval, unlike <codeVoice>ClosedRange<\/codeVoice>.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let empty = 0.0..<0.0]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[empty.contains(0.0)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ false]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[empty.isEmpty]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ true]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Using a Range as a Collection of Consecutive Values<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>When a range uses integers as its lower and upper bounds, or any other type that conforms to the <codeVoice>Strideable<\/codeVoice> protocol with an integer stride, you can use that range in a <codeVoice>for<\/codeVoice>-<codeVoice>in<\/codeVoice> loop or with any sequence or collection method. The elements of the range are the consecutive values from its lower bound up to, but not including, its upper bound.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for n in 3..<5 {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(n)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"3\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"4\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Because floating-point types such as <codeVoice>Float<\/codeVoice> and <codeVoice>Double<\/codeVoice> are their own <codeVoice>Stride<\/codeVoice> types, they cannot be used as the bounds of a countable range. If you need to iterate over consecutive floating-point values, see the <codeVoice>stride(from:to:by:)<\/codeVoice> function.<\/Para><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name" : "Range",
+      "key.doc.type" : "Class",
+      "key.fully_annotated_decl" : "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Range<\/decl.name>&lt;<decl.generic_type_param usr=\"s:Sn5Boundxmfp\"><decl.generic_type_param.name>Bound<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt; <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sn5Boundxmfp\">Bound<\/ref.generic_type_param> : <ref.protocol usr=\"s:SL\">Comparable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.struct>",
+      "key.groupname" : "Collection",
+      "key.is_system" : true,
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 226,
+      "key.line" : 25,
+      "key.modulename" : "Swift",
+      "key.name" : "Range",
+      "key.namecolumn" : 18,
+      "key.namelength" : 5,
+      "key.nameline" : 25,
+      "key.nameoffset" : 1112,
+      "key.offset" : 1102,
+      "key.parsed_declaration" : "public extension Range",
+      "key.parsed_scope.end" : 33,
+      "key.parsed_scope.start" : 25,
+      "key.substructure" : [
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>func isInside(_ other: <Type usr=\"s:Sn\">Range<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
-          "key.bodycolumn": 44,
-          "key.bodylength": 84,
-          "key.bodyline": 26,
-          "key.bodyoffset": 1163,
-          "key.column": 5,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Range.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>isInside<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>other<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Collection",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 124,
-          "key.line": 26,
-          "key.name": "isInside(_:)",
-          "key.namecolumn": 10,
-          "key.namelength": 24,
-          "key.nameline": 26,
-          "key.nameoffset": 1129,
-          "key.offset": 1124,
-          "key.parsed_declaration": "func isInside(_ other: Range) -> Bool",
-          "key.parsed_scope.end": 28,
-          "key.parsed_scope.start": 26,
-          "key.substructure": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>func isInside(_ other: <Type usr=\"s:Sn\">Range<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.bodycolumn" : 44,
+          "key.bodylength" : 84,
+          "key.bodyline" : 26,
+          "key.bodyoffset" : 1163,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Range.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>isInside<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>other<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Collection",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 124,
+          "key.line" : 26,
+          "key.name" : "isInside(_:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 24,
+          "key.nameline" : 26,
+          "key.nameoffset" : 1129,
+          "key.offset" : 1124,
+          "key.parsed_declaration" : "func isInside(_ other: Range) -> Bool",
+          "key.parsed_scope.end" : 28,
+          "key.parsed_scope.start" : 26,
+          "key.substructure" : [
+
           ],
-          "key.typename": "<Bound where Bound : Comparable> (Range<Bound>) -> (Range<Bound>) -> Bool",
-          "key.typeusr": "$sySbSnyxGcD",
-          "key.usr": "s:Sn7RubiconE8isInsideySbSnyxGF"
+          "key.typename" : "<Bound where Bound : Comparable> (Range<Bound>) -> (Range<Bound>) -> Bool",
+          "key.typeusr" : "$sySbSnyxGcD",
+          "key.usr" : "s:Sn7RubiconE8isInsideySbSnyxGF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>func covers(_ other: <Type usr=\"s:Sn\">Range<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
-          "key.bodycolumn": 42,
-          "key.bodylength": 34,
-          "key.bodyline": 30,
-          "key.bodyoffset": 1291,
-          "key.column": 5,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Range.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>covers<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>other<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Collection",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 72,
-          "key.line": 30,
-          "key.name": "covers(_:)",
-          "key.namecolumn": 10,
-          "key.namelength": 22,
-          "key.nameline": 30,
-          "key.nameoffset": 1259,
-          "key.offset": 1254,
-          "key.parsed_declaration": "func covers(_ other: Range) -> Bool",
-          "key.parsed_scope.end": 32,
-          "key.parsed_scope.start": 30,
-          "key.substructure": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>func covers(_ other: <Type usr=\"s:Sn\">Range<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.bodycolumn" : 42,
+          "key.bodylength" : 34,
+          "key.bodyline" : 30,
+          "key.bodyoffset" : 1291,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Range.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>covers<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>other<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Collection",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 72,
+          "key.line" : 30,
+          "key.name" : "covers(_:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 22,
+          "key.nameline" : 30,
+          "key.nameoffset" : 1259,
+          "key.offset" : 1254,
+          "key.parsed_declaration" : "func covers(_ other: Range) -> Bool",
+          "key.parsed_scope.end" : 32,
+          "key.parsed_scope.start" : 30,
+          "key.substructure" : [
+
           ],
-          "key.typename": "<Bound where Bound : Comparable> (Range<Bound>) -> (Range<Bound>) -> Bool",
-          "key.typeusr": "$sySbSnyxGcD",
-          "key.usr": "s:Sn7RubiconE6coversySbSnyxGF"
+          "key.typename" : "<Bound where Bound : Comparable> (Range<Bound>) -> (Range<Bound>) -> Bool",
+          "key.typeusr" : "$sySbSnyxGcD",
+          "key.usr" : "s:Sn7RubiconE6coversySbSnyxGF"
         }
       ],
-      "key.typename": "Range<Bound>.Type",
-      "key.typeusr": "$sSnyxGmD",
-      "key.usr": "s:Sn"
+      "key.typename" : "Range<Bound>.Type",
+      "key.typeusr" : "$sSnyxGmD",
+      "key.usr" : "s:Sn"
     }
   ]
 }

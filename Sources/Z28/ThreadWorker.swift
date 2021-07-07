@@ -18,6 +18,7 @@
 import Foundation
 import CoreFoundation
 import Rubicon
+import SourceKittenFramework
 
 open class ThreadWorker {
     //@f:0
@@ -54,14 +55,16 @@ open class ThreadWorker {
         }
     }
 
-    open func addSourceFile(_ sourceFile: SourceFileInfo) {
-        lock.withLock {
-            guard !done else { return }
-            sources <+ sourceFile
+    open func addSourceFile(filename: String, temporaryDirectory tempDir: String, module: Module) throws {
+        try lock.withLock {
+            guard !done else { fatalError("ThreadWorker was already launched.") }
+            sources <+ try SourceFileInfo(filename: filename, temporaryDirectory: tempDir, module: module) { self.counterHelper() }
         }
     }
 
-    func counterHelper() -> (Int, Int) { (++ccc, sources.count) }
+    func counterHelper() -> (Int, Int) {
+        (++ccc, sources.count)
+    }
 
     private func threadAction() {
         while let sf = nextSource() {

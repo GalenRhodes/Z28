@@ -36,13 +36,13 @@ open class SourceFileInfo {
     public private(set) var syntaxMap: [String: Any] = [:]
     public private(set) var lineMap:   LineMap       = []
 
-    private lazy var messageCounter: String = { let c = counter(); return "\(c.0)/\(c.1)" }()
+    private lazy var messageCounter: String = { let c = counterHelper(); return "\(c.0)/\(c.1)" }()
     private lazy var messagePrefix: String = "\(messageCounter): \(filename) ..."
 
-    private let counter: CountHelper
+    private var counterHelper: CountHelper
 
-    public init(filename: String, temporaryDirectory tempDir: String, module: Module, counter: @escaping CountHelper = { (1, 1) }) throws {
-        self.counter = counter
+    public init(filename: String, temporaryDirectory tempDir: String, module: Module, counterHelper: @escaping CountHelper = { (1, 1) }) throws {
+        self.counterHelper = counterHelper
         self.module = module
         self.filename = filename
         self.tempDir = tempDir.appendingPathComponent(filename.lastPathComponent)

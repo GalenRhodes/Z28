@@ -1,693 +1,699 @@
 {
-  "key.column": 1,
-  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
-  "key.length": 4943,
-  "key.line": 1,
-  "key.offset": 0,
-  "key.substructure": [
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 4943,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
     {
-      "key.accessibility": "source.lang.swift.accessibility.public",
-      "key.annotated_decl": "<Declaration>public typealias PGThreadBlock = () -&gt; <Type usr=\"s:s4Voida\">Void<\/Type><\/Declaration>",
-      "key.attributes": [
+      "key.accessibility" : "source.lang.swift.accessibility.public",
+      "key.annotated_decl" : "<Declaration>public typealias PGThreadBlock = () -&gt; <Type usr=\"s:s4Voida\">Void<\/Type><\/Declaration>",
+      "key.attributes" : [
         {
-          "key.attribute": "source.decl.attribute.public",
-          "key.column": 1,
-          "key.length": 6,
-          "key.line": 28,
-          "key.offset": 1268
+          "key.attribute" : "source.decl.attribute.public",
+          "key.column" : 1,
+          "key.length" : 6,
+          "key.line" : 28,
+          "key.offset" : 1268
         }
       ],
-      "key.column": 8,
-      "key.doc.column": 18,
-      "key.doc.comment": "The closure type for `PGThread` and `NanoTimer`",
-      "key.doc.declaration": "public typealias PGThreadBlock = () -> Void",
-      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-      "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"28\" column=\"18\"><Name>PGThreadBlock<\/Name><USR>s:7Rubicon13PGThreadBlocka<\/USR><Declaration>public typealias PGThreadBlock = () -&gt; Void<\/Declaration><CommentParts><Abstract><Para>The closure type for <codeVoice>PGThread<\/codeVoice> and <codeVoice>NanoTimer<\/codeVoice><\/Para><\/Abstract><\/CommentParts><\/Other>",
-      "key.doc.line": 28,
-      "key.doc.name": "PGThreadBlock",
-      "key.doc.type": "Other",
-      "key.doccolumn": 1,
-      "key.doclength": 56,
-      "key.docline": 26,
-      "key.docoffset": 1212,
-      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-      "key.fully_annotated_decl": "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>PGThreadBlock<\/decl.name> = () -&gt; <decl.function.returntype><ref.typealias usr=\"s:s4Voida\">Void<\/ref.typealias><\/decl.function.returntype><\/decl.typealias>",
-      "key.kind": "source.lang.swift.decl.typealias",
-      "key.length": 36,
-      "key.line": 28,
-      "key.name": "PGThreadBlock",
-      "key.namecolumn": 18,
-      "key.namelength": 13,
-      "key.nameline": 28,
-      "key.nameoffset": 1285,
-      "key.offset": 1275,
-      "key.parsed_declaration": "public typealias PGThreadBlock = () -> Void",
-      "key.parsed_scope.end": 28,
-      "key.parsed_scope.start": 28,
-      "key.typename": "(() -> ()).Type",
-      "key.typeusr": "$syycmD",
-      "key.usr": "s:7Rubicon13PGThreadBlocka"
+      "key.column" : 8,
+      "key.doc.column" : 18,
+      "key.doc.comment" : "The closure type for `PGThread` and `NanoTimer`",
+      "key.doc.declaration" : "public typealias PGThreadBlock = () -> Void",
+      "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+      "key.doc.full_as_xml" : "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"28\" column=\"18\"><Name>PGThreadBlock<\/Name><USR>s:7Rubicon13PGThreadBlocka<\/USR><Declaration>public typealias PGThreadBlock = () -&gt; Void<\/Declaration><CommentParts><Abstract><Para>The closure type for <codeVoice>PGThread<\/codeVoice> and <codeVoice>NanoTimer<\/codeVoice><\/Para><\/Abstract><\/CommentParts><\/Other>",
+      "key.doc.line" : 28,
+      "key.doc.name" : "PGThreadBlock",
+      "key.doc.type" : "Other",
+      "key.doccolumn" : 1,
+      "key.doclength" : 56,
+      "key.docline" : 26,
+      "key.docoffset" : 1212,
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+      "key.fully_annotated_decl" : "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>PGThreadBlock<\/decl.name> = () -&gt; <decl.function.returntype><ref.typealias usr=\"s:s4Voida\">Void<\/ref.typealias><\/decl.function.returntype><\/decl.typealias>",
+      "key.kind" : "source.lang.swift.decl.typealias",
+      "key.length" : 36,
+      "key.line" : 28,
+      "key.name" : "PGThreadBlock",
+      "key.namecolumn" : 18,
+      "key.namelength" : 13,
+      "key.nameline" : 28,
+      "key.nameoffset" : 1285,
+      "key.offset" : 1275,
+      "key.parsed_declaration" : "public typealias PGThreadBlock = () -> Void",
+      "key.parsed_scope.end" : 28,
+      "key.parsed_scope.start" : 28,
+      "key.typename" : "(() -> ()).Type",
+      "key.typeusr" : "$syycmD",
+      "key.usr" : "s:7Rubicon13PGThreadBlocka"
     },
     {
-      "key.accessibility": "source.lang.swift.accessibility.open",
-      "key.annotated_decl": "<Declaration>open class PGThread : <Type usr=\"c:objc(cs)NSThread\">Thread<\/Type><\/Declaration>",
-      "key.attributes": [
+      "key.accessibility" : "source.lang.swift.accessibility.open",
+      "key.annotated_decl" : "<Declaration>open class PGThread : <Type usr=\"c:objc(cs)NSThread\">Thread<\/Type><\/Declaration>",
+      "key.attributes" : [
         {
-          "key.attribute": "source.decl.attribute.open",
-          "key.column": 1,
-          "key.length": 4,
-          "key.line": 33,
-          "key.offset": 1520
+          "key.attribute" : "source.decl.attribute.open",
+          "key.column" : 1,
+          "key.length" : 4,
+          "key.line" : 33,
+          "key.offset" : 1520
         }
       ],
-      "key.bodycolumn": 30,
-      "key.bodylength": 3392,
-      "key.bodyline": 33,
-      "key.bodyoffset": 1549,
-      "key.column": 6,
-      "key.doc.column": 12,
-      "key.doc.comment": "A subclass of `Thread` that allows the closure to be set after it has been created.",
-      "key.doc.declaration": "open class PGThread : Thread",
-      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-      "key.doc.full_as_xml": "<Class file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"33\" column=\"12\"><Name>PGThread<\/Name><USR>c:@M@Rubicon@objc(cs)PGThread<\/USR><Declaration>open class PGThread : Thread<\/Declaration><CommentParts><Abstract><Para>A subclass of <codeVoice>Thread<\/codeVoice> that allows the closure to be set after it has been created.<\/Para><\/Abstract><\/CommentParts><\/Class>",
-      "key.doc.line": 33,
-      "key.doc.name": "PGThread",
-      "key.doc.type": "Class",
-      "key.doccolumn": 1,
-      "key.doclength": 92,
-      "key.docline": 31,
-      "key.docoffset": 1428,
-      "key.elements": [
+      "key.bodycolumn" : 30,
+      "key.bodylength" : 3392,
+      "key.bodyline" : 33,
+      "key.bodyoffset" : 1549,
+      "key.column" : 6,
+      "key.doc.column" : 12,
+      "key.doc.comment" : "A subclass of `Thread` that allows the closure to be set after it has been created.",
+      "key.doc.declaration" : "open class PGThread : Thread",
+      "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+      "key.doc.full_as_xml" : "<Class file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"33\" column=\"12\"><Name>PGThread<\/Name><USR>c:@M@Rubicon@objc(cs)PGThread<\/USR><Declaration>open class PGThread : Thread<\/Declaration><CommentParts><Abstract><Para>A subclass of <codeVoice>Thread<\/codeVoice> that allows the closure to be set after it has been created.<\/Para><\/Abstract><\/CommentParts><\/Class>",
+      "key.doc.line" : 33,
+      "key.doc.name" : "PGThread",
+      "key.doc.type" : "Class",
+      "key.doccolumn" : 1,
+      "key.doclength" : 92,
+      "key.docline" : 31,
+      "key.docoffset" : 1428,
+      "key.elements" : [
         {
-          "key.column": 22,
-          "key.kind": "source.lang.swift.structure.elem.typeref",
-          "key.length": 6,
-          "key.line": 33,
-          "key.offset": 1541
+          "key.column" : 22,
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 6,
+          "key.line" : 33,
+          "key.offset" : 1541
         }
       ],
-      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>PGThread<\/decl.name> : <ref.class usr=\"c:objc(cs)NSThread\">Thread<\/ref.class><\/decl.class>",
-      "key.inheritedtypes": [
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+      "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>PGThread<\/decl.name> : <ref.class usr=\"c:objc(cs)NSThread\">Thread<\/ref.class><\/decl.class>",
+      "key.inheritedtypes" : [
         {
-          "key.name": "Thread"
+          "key.name" : "Thread"
         }
       ],
-      "key.kind": "source.lang.swift.decl.class",
-      "key.length": 3417,
-      "key.line": 33,
-      "key.name": "PGThread",
-      "key.namecolumn": 12,
-      "key.namelength": 8,
-      "key.nameline": 33,
-      "key.nameoffset": 1531,
-      "key.offset": 1525,
-      "key.parsed_declaration": "open class PGThread: Thread",
-      "key.parsed_scope.end": 110,
-      "key.parsed_scope.start": 33,
-      "key.substructure": [
+      "key.kind" : "source.lang.swift.decl.class",
+      "key.length" : 3417,
+      "key.line" : 33,
+      "key.name" : "PGThread",
+      "key.namecolumn" : 12,
+      "key.namelength" : 8,
+      "key.nameline" : 33,
+      "key.nameoffset" : 1531,
+      "key.offset" : 1525,
+      "key.parsed_declaration" : "open class PGThread: Thread",
+      "key.parsed_scope.end" : 110,
+      "key.parsed_scope.start" : 33,
+      "key.substructure" : [
         {
-          "key.accessibility": "source.lang.swift.accessibility.private",
-          "key.annotated_decl": "<Declaration>private let cond: <Type usr=\"s:7Rubicon11ConditionalC\">Conditional<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.private",
+          "key.annotated_decl" : "<Declaration>private let cond: <Type usr=\"s:7Rubicon11ConditionalC\">Conditional<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.private",
-              "key.column": 5,
-              "key.length": 7,
-              "key.line": 35,
-              "key.offset": 1555
+              "key.attribute" : "source.decl.attribute.private",
+              "key.column" : 5,
+              "key.length" : 7,
+              "key.line" : 35,
+              "key.offset" : 1555
             }
           ],
-          "key.column": 13,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cond<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon11ConditionalC\">Conditional<\/ref.class><\/decl.var.type><\/decl.var.instance>",
-          "key.kind": "source.lang.swift.decl.var.instance",
-          "key.length": 37,
-          "key.line": 35,
-          "key.name": "cond",
-          "key.namecolumn": 17,
-          "key.namelength": 4,
-          "key.nameline": 35,
-          "key.nameoffset": 1567,
-          "key.offset": 1563,
-          "key.parsed_declaration": "private let cond: Conditional = Conditional()",
-          "key.parsed_scope.end": 35,
-          "key.parsed_scope.start": 35,
-          "key.typename": "Conditional",
-          "key.typeusr": "$s7Rubicon11ConditionalCD",
-          "key.usr": "s:7Rubicon8PGThreadC4cond33_85622DF2A970BE94444CCCAB28773065LLAA11ConditionalCvp"
+          "key.column" : 13,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cond<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon11ConditionalC\">Conditional<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 37,
+          "key.line" : 35,
+          "key.name" : "cond",
+          "key.namecolumn" : 17,
+          "key.namelength" : 4,
+          "key.nameline" : 35,
+          "key.nameoffset" : 1567,
+          "key.offset" : 1563,
+          "key.parsed_declaration" : "private let cond: Conditional = Conditional()",
+          "key.parsed_scope.end" : 35,
+          "key.parsed_scope.start" : 35,
+          "key.typename" : "Conditional",
+          "key.typeusr" : "$s7Rubicon11ConditionalCD",
+          "key.usr" : "s:7Rubicon8PGThreadC4cond33_85622DF2A970BE94444CCCAB28773065LLAA11ConditionalCvp"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public private(set) var isDone: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public private(set) var isDone: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.setter_access.private",
-              "key.column": 12,
-              "key.length": 12,
-              "key.line": 37,
-              "key.offset": 1613
+              "key.attribute" : "source.decl.attribute.setter_access.private",
+              "key.column" : 12,
+              "key.length" : 12,
+              "key.line" : 37,
+              "key.offset" : 1613
             },
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 37,
-              "key.offset": 1606
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 37,
+              "key.offset" : 1606
             }
           ],
-          "key.column": 25,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>private<\/syntaxtype.keyword>(set) <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isDone<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { get }<\/decl.var.instance>",
-          "key.kind": "source.lang.swift.decl.var.instance",
-          "key.length": 27,
-          "key.line": 37,
-          "key.name": "isDone",
-          "key.namecolumn": 29,
-          "key.namelength": 6,
-          "key.nameline": 37,
-          "key.nameoffset": 1630,
-          "key.offset": 1626,
-          "key.parsed_declaration": "public private(set) var isDone:    Bool = false",
-          "key.parsed_scope.end": 37,
-          "key.parsed_scope.start": 37,
-          "key.setter_accessibility": "source.lang.swift.accessibility.private",
-          "key.typename": "Bool",
-          "key.typeusr": "$sSbD",
-          "key.usr": "s:7Rubicon8PGThreadC6isDoneSbvp"
+          "key.column" : 25,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>private<\/syntaxtype.keyword>(set) <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isDone<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { get }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 27,
+          "key.line" : 37,
+          "key.name" : "isDone",
+          "key.namecolumn" : 29,
+          "key.namelength" : 6,
+          "key.nameline" : 37,
+          "key.nameoffset" : 1630,
+          "key.offset" : 1626,
+          "key.parsed_declaration" : "public private(set) var isDone:    Bool = false",
+          "key.parsed_scope.end" : 37,
+          "key.parsed_scope.start" : 37,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+          "key.typename" : "Bool",
+          "key.typeusr" : "$sSbD",
+          "key.usr" : "s:7Rubicon8PGThreadC6isDoneSbvp"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public private(set) var isStarted: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public private(set) var isStarted: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.setter_access.private",
-              "key.column": 12,
-              "key.length": 12,
-              "key.line": 38,
-              "key.offset": 1665
+              "key.attribute" : "source.decl.attribute.setter_access.private",
+              "key.column" : 12,
+              "key.length" : 12,
+              "key.line" : 38,
+              "key.offset" : 1665
             },
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 38,
-              "key.offset": 1658
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 38,
+              "key.offset" : 1658
             }
           ],
-          "key.column": 25,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>private<\/syntaxtype.keyword>(set) <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isStarted<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { get }<\/decl.var.instance>",
-          "key.kind": "source.lang.swift.decl.var.instance",
-          "key.length": 27,
-          "key.line": 38,
-          "key.name": "isStarted",
-          "key.namecolumn": 29,
-          "key.namelength": 9,
-          "key.nameline": 38,
-          "key.nameoffset": 1682,
-          "key.offset": 1678,
-          "key.parsed_declaration": "public private(set) var isStarted: Bool = false",
-          "key.parsed_scope.end": 38,
-          "key.parsed_scope.start": 38,
-          "key.setter_accessibility": "source.lang.swift.accessibility.private",
-          "key.typename": "Bool",
-          "key.typeusr": "$sSbD",
-          "key.usr": "s:7Rubicon8PGThreadC9isStartedSbvp"
+          "key.column" : 25,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>private<\/syntaxtype.keyword>(set) <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isStarted<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { get }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 27,
+          "key.line" : 38,
+          "key.name" : "isStarted",
+          "key.namecolumn" : 29,
+          "key.namelength" : 9,
+          "key.nameline" : 38,
+          "key.nameoffset" : 1682,
+          "key.offset" : 1678,
+          "key.parsed_declaration" : "public private(set) var isStarted: Bool = false",
+          "key.parsed_scope.end" : 38,
+          "key.parsed_scope.start" : 38,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+          "key.typename" : "Bool",
+          "key.typeusr" : "$sSbD",
+          "key.usr" : "s:7Rubicon8PGThreadC9isStartedSbvp"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public var block: <Type usr=\"s:7Rubicon13PGThreadBlocka\">PGThreadBlock<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var block: <Type usr=\"s:7Rubicon13PGThreadBlocka\">PGThreadBlock<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 45,
-              "key.offset": 2131
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 45,
+              "key.offset" : 2131
             }
           ],
-          "key.column": 12,
-          "key.doc.column": 16,
-          "key.doc.comment": "The `block` for the thread to execute. This can only be set before the thread is executed. Attempting to\nset the `block` after the thread has been executed has no affect. If the thread is executed before the\n`block` is set then it simply terminates without doing anything.",
-          "key.doc.declaration": "public var block: PGThreadBlock",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"45\" column=\"16\"><Name>block<\/Name><USR>s:7Rubicon8PGThreadC5blockyycvp<\/USR><Declaration>public var block: PGThreadBlock<\/Declaration><CommentParts><Abstract><Para>The <codeVoice>block<\/codeVoice> for the thread to execute. This can only be set before the thread is executed. Attempting to set the <codeVoice>block<\/codeVoice> after the thread has been executed has no affect. If the thread is executed before the <codeVoice>block<\/codeVoice> is set then it simply terminates without doing anything.<\/Para><\/Abstract><\/CommentParts><\/Other>",
-          "key.doc.line": 45,
-          "key.doc.name": "block",
-          "key.doc.type": "Other",
-          "key.doccolumn": 5,
-          "key.doclength": 301,
-          "key.docline": 41,
-          "key.docoffset": 1826,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>block<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon13PGThreadBlocka\">PGThreadBlock<\/ref.typealias><\/decl.var.type><\/decl.var.instance>",
-          "key.kind": "source.lang.swift.decl.var.instance",
-          "key.length": 24,
-          "key.line": 45,
-          "key.name": "block",
-          "key.namecolumn": 16,
-          "key.namelength": 5,
-          "key.nameline": 45,
-          "key.nameoffset": 2142,
-          "key.offset": 2138,
-          "key.parsed_declaration": "public var block: PGThreadBlock",
-          "key.parsed_scope.end": 45,
-          "key.parsed_scope.start": 45,
-          "key.setter_accessibility": "source.lang.swift.accessibility.public",
-          "key.typename": "() -> ()",
-          "key.typeusr": "$syycD",
-          "key.usr": "s:7Rubicon8PGThreadC5blockyycvp"
+          "key.column" : 12,
+          "key.doc.column" : 16,
+          "key.doc.comment" : "The `block` for the thread to execute. This can only be set before the thread is executed. Attempting to\nset the `block` after the thread has been executed has no affect. If the thread is executed before the\n`block` is set then it simply terminates without doing anything.",
+          "key.doc.declaration" : "public var block: PGThreadBlock",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.doc.full_as_xml" : "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"45\" column=\"16\"><Name>block<\/Name><USR>s:7Rubicon8PGThreadC5blockyycvp<\/USR><Declaration>public var block: PGThreadBlock<\/Declaration><CommentParts><Abstract><Para>The <codeVoice>block<\/codeVoice> for the thread to execute. This can only be set before the thread is executed. Attempting to set the <codeVoice>block<\/codeVoice> after the thread has been executed has no affect. If the thread is executed before the <codeVoice>block<\/codeVoice> is set then it simply terminates without doing anything.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+          "key.doc.line" : 45,
+          "key.doc.name" : "block",
+          "key.doc.type" : "Other",
+          "key.doccolumn" : 5,
+          "key.doclength" : 301,
+          "key.docline" : 41,
+          "key.docoffset" : 1826,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>block<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon13PGThreadBlocka\">PGThreadBlock<\/ref.typealias><\/decl.var.type><\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 24,
+          "key.line" : 45,
+          "key.name" : "block",
+          "key.namecolumn" : 16,
+          "key.namelength" : 5,
+          "key.nameline" : 45,
+          "key.nameoffset" : 2142,
+          "key.offset" : 2138,
+          "key.parsed_declaration" : "public var block: PGThreadBlock",
+          "key.parsed_scope.end" : 45,
+          "key.parsed_scope.start" : 45,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+          "key.typename" : "() -> ()",
+          "key.typeusr" : "$syycD",
+          "key.usr" : "s:7Rubicon8PGThreadC5blockyycvp"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public override init()<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public override init()<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.override",
-              "key.column": 12,
-              "key.length": 8,
-              "key.line": 50,
-              "key.offset": 2326
+              "key.attribute" : "source.decl.attribute.override",
+              "key.column" : 12,
+              "key.length" : 8,
+              "key.line" : 50,
+              "key.offset" : 2326
             },
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 50,
-              "key.offset": 2319
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 50,
+              "key.offset" : 2319
             }
           ],
-          "key.bodycolumn": 29,
-          "key.bodylength": 45,
-          "key.bodyline": 50,
-          "key.bodyoffset": 2343,
-          "key.column": 21,
-          "key.doc.column": 21,
-          "key.doc.comment": "Default initializer",
-          "key.doc.declaration": "public override init()",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"50\" column=\"21\"><Name>init()<\/Name><USR>c:@M@Rubicon@objc(cs)PGThread(im)init<\/USR><Declaration>public override init()<\/Declaration><CommentParts><Abstract><Para>Default initializer<\/Para><\/Abstract><\/CommentParts><\/Function>",
-          "key.doc.line": 50,
-          "key.doc.name": "init()",
-          "key.doc.type": "Function",
-          "key.doccolumn": 5,
-          "key.doclength": 32,
-          "key.docline": 48,
-          "key.docoffset": 2283,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>()<\/decl.function.constructor>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 54,
-          "key.line": 50,
-          "key.name": "init()",
-          "key.namecolumn": 21,
-          "key.namelength": 6,
-          "key.nameline": 50,
-          "key.nameoffset": 2335,
-          "key.offset": 2335,
-          "key.overrides": [
+          "key.bodycolumn" : 29,
+          "key.bodylength" : 45,
+          "key.bodyline" : 50,
+          "key.bodyoffset" : 2343,
+          "key.column" : 21,
+          "key.doc.column" : 21,
+          "key.doc.comment" : "Default initializer",
+          "key.doc.declaration" : "public override init()",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"50\" column=\"21\"><Name>init()<\/Name><USR>c:@M@Rubicon@objc(cs)PGThread(im)init<\/USR><Declaration>public override init()<\/Declaration><CommentParts><Abstract><Para>Default initializer<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line" : 50,
+          "key.doc.name" : "init()",
+          "key.doc.type" : "Function",
+          "key.doccolumn" : 5,
+          "key.doclength" : 32,
+          "key.docline" : 48,
+          "key.docoffset" : 2283,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>()<\/decl.function.constructor>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 54,
+          "key.line" : 50,
+          "key.name" : "init()",
+          "key.namecolumn" : 21,
+          "key.namelength" : 6,
+          "key.nameline" : 50,
+          "key.nameoffset" : 2335,
+          "key.offset" : 2335,
+          "key.overrides" : [
             {
-              "key.usr": "c:objc(cs)NSThread(im)init"
+              "key.usr" : "c:objc(cs)NSThread(im)init"
             },
             {
-              "key.usr": "c:objc(cs)NSObject(im)init"
+              "key.usr" : "c:objc(cs)NSObject(im)init"
             }
           ],
-          "key.parsed_declaration": "public override init()",
-          "key.parsed_scope.end": 53,
-          "key.parsed_scope.start": 50,
-          "key.related_decls": [
+          "key.parsed_declaration" : "public override init()",
+          "key.parsed_scope.end" : 53,
+          "key.parsed_scope.start" : 50,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon8PGThreadC8startNow16qualityOfService5blockACSb_So09NSQualityfG0Vyyctcfc\">init(startNow:qualityOfService:block:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon8PGThreadC8startNow16qualityOfService5blockACSb_So09NSQualityfG0Vyyctcfc\">init(startNow:qualityOfService:block:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"c:objc(cs)NSThread(im)initWithTarget:selector:object:\">init(target:selector:object:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)NSThread(im)initWithTarget:selector:object:\">init(target:selector:object:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"c:objc(cs)NSThread(im)initWithBlock:\">init(block:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)NSThread(im)initWithBlock:\">init(block:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "(PGThread.Type) -> () -> PGThread",
-          "key.typeusr": "$s7Rubicon8PGThreadCycD",
-          "key.usr": "c:@M@Rubicon@objc(cs)PGThread(im)init"
+          "key.typename" : "(PGThread.Type) -> () -> PGThread",
+          "key.typeusr" : "$s7Rubicon8PGThreadCycD",
+          "key.usr" : "c:@M@Rubicon@objc(cs)PGThread(im)init"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public convenience init(startNow: <Type usr=\"s:Sb\">Bool<\/Type> = false, qualityOfService: <Type usr=\"c:@E@NSQualityOfService\">QualityOfService<\/Type> = .default, block: @escaping <Type usr=\"s:7Rubicon13PGThreadBlocka\">PGThreadBlock<\/Type>)<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public convenience init(startNow: <Type usr=\"s:Sb\">Bool<\/Type> = false, qualityOfService: <Type usr=\"c:@E@NSQualityOfService\">QualityOfService<\/Type> = .default, block: @escaping <Type usr=\"s:7Rubicon13PGThreadBlocka\">PGThreadBlock<\/Type>)<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.convenience",
-              "key.column": 12,
-              "key.length": 11,
-              "key.line": 63,
-              "key.offset": 2864
+              "key.attribute" : "source.decl.attribute.convenience",
+              "key.column" : 12,
+              "key.length" : 11,
+              "key.line" : 63,
+              "key.offset" : 2864
             },
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 63,
-              "key.offset": 2857
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 63,
+              "key.offset" : 2857
             }
           ],
-          "key.bodycolumn": 133,
-          "key.bodylength": 133,
-          "key.bodyline": 63,
-          "key.bodyoffset": 2985,
-          "key.column": 24,
-          "key.doc.column": 24,
-          "key.doc.comment": "Initializes the thread with the given `closure` and if `startNow` is set to `true`, starts it right away.\n\n- Parameters:\n  - startNow: If set to `true` the thread is created in a running state.\n  - qualityOfService:  The quality of service.\n  - block: The `block` for the thread to execute.",
-          "key.doc.declaration": "public convenience init(startNow: Bool = false, qualityOfService: QualityOfService = .default, block: @escaping PGThreadBlock)",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"63\" column=\"24\"><Name>init(startNow:qualityOfService:block:)<\/Name><USR>s:7Rubicon8PGThreadC8startNow16qualityOfService5blockACSb_So09NSQualityfG0Vyyctcfc<\/USR><Declaration>public convenience init(startNow: Bool = false, qualityOfService: QualityOfService = .default, block: @escaping PGThreadBlock)<\/Declaration><CommentParts><Abstract><Para>Initializes the thread with the given <codeVoice>closure<\/codeVoice> and if <codeVoice>startNow<\/codeVoice> is set to <codeVoice>true<\/codeVoice>, starts it right away.<\/Para><\/Abstract><Parameters><Parameter><Name>startNow<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>If set to <codeVoice>true<\/codeVoice> the thread is created in a running state.<\/Para><\/Discussion><\/Parameter><Parameter><Name>qualityOfService<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The quality of service.<\/Para><\/Discussion><\/Parameter><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The <codeVoice>block<\/codeVoice> for the thread to execute.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
-          "key.doc.line": 63,
-          "key.doc.name": "init(startNow:qualityOfService:block:)",
-          "key.doc.parameters": [
+          "key.bodycolumn" : 133,
+          "key.bodylength" : 133,
+          "key.bodyline" : 63,
+          "key.bodyoffset" : 2985,
+          "key.column" : 24,
+          "key.doc.column" : 24,
+          "key.doc.comment" : "Initializes the thread with the given `closure` and if `startNow` is set to `true`, starts it right away.\n\n- Parameters:\n  - startNow: If set to `true` the thread is created in a running state.\n  - qualityOfService:  The quality of service.\n  - block: The `block` for the thread to execute.",
+          "key.doc.declaration" : "public convenience init(startNow: Bool = false, qualityOfService: QualityOfService = .default, block: @escaping PGThreadBlock)",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"63\" column=\"24\"><Name>init(startNow:qualityOfService:block:)<\/Name><USR>s:7Rubicon8PGThreadC8startNow16qualityOfService5blockACSb_So09NSQualityfG0Vyyctcfc<\/USR><Declaration>public convenience init(startNow: Bool = false, qualityOfService: QualityOfService = .default, block: @escaping PGThreadBlock)<\/Declaration><CommentParts><Abstract><Para>Initializes the thread with the given <codeVoice>closure<\/codeVoice> and if <codeVoice>startNow<\/codeVoice> is set to <codeVoice>true<\/codeVoice>, starts it right away.<\/Para><\/Abstract><Parameters><Parameter><Name>startNow<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>If set to <codeVoice>true<\/codeVoice> the thread is created in a running state.<\/Para><\/Discussion><\/Parameter><Parameter><Name>qualityOfService<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The quality of service.<\/Para><\/Discussion><\/Parameter><Parameter><Name>block<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The <codeVoice>block<\/codeVoice> for the thread to execute.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line" : 63,
+          "key.doc.name" : "init(startNow:qualityOfService:block:)",
+          "key.doc.parameters" : [
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "If set to `true` the thread is created in a running state."
+                  "Para" : "If set to `true` the thread is created in a running state."
                 }
               ],
-              "name": "startNow"
+              "name" : "startNow"
             },
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "The quality of service."
+                  "Para" : "The quality of service."
                 }
               ],
-              "name": "qualityOfService"
+              "name" : "qualityOfService"
             },
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "The `block` for the thread to execute."
+                  "Para" : "The `block` for the thread to execute."
                 }
               ],
-              "name": "block"
+              "name" : "block"
             }
           ],
-          "key.doc.type": "Function",
-          "key.doccolumn": 5,
-          "key.doclength": 343,
-          "key.docline": 56,
-          "key.docoffset": 2510,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>convenience<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>startNow<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>qualityOfService<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.enum usr=\"c:@E@NSQualityOfService\">QualityOfService<\/ref.enum><\/decl.var.parameter.type> = .default<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>block<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@escaping<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <ref.typealias usr=\"s:7Rubicon13PGThreadBlocka\">PGThreadBlock<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 243,
-          "key.line": 63,
-          "key.name": "init(startNow:qualityOfService:block:)",
-          "key.namecolumn": 24,
-          "key.namelength": 107,
-          "key.nameline": 63,
-          "key.nameoffset": 2876,
-          "key.offset": 2876,
-          "key.parsed_declaration": "public convenience init(startNow: Bool = false, qualityOfService: QualityOfService = .default, block: @escaping PGThreadBlock)",
-          "key.parsed_scope.end": 68,
-          "key.parsed_scope.start": 63,
-          "key.related_decls": [
+          "key.doc.type" : "Function",
+          "key.doccolumn" : 5,
+          "key.doclength" : 343,
+          "key.docline" : 56,
+          "key.docoffset" : 2510,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>convenience<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>startNow<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = false<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>qualityOfService<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.enum usr=\"c:@E@NSQualityOfService\">QualityOfService<\/ref.enum><\/decl.var.parameter.type> = .default<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>block<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@escaping<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <ref.typealias usr=\"s:7Rubicon13PGThreadBlocka\">PGThreadBlock<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 243,
+          "key.line" : 63,
+          "key.name" : "init(startNow:qualityOfService:block:)",
+          "key.namecolumn" : 24,
+          "key.namelength" : 107,
+          "key.nameline" : 63,
+          "key.nameoffset" : 2876,
+          "key.offset" : 2876,
+          "key.parsed_declaration" : "public convenience init(startNow: Bool = false, qualityOfService: QualityOfService = .default, block: @escaping PGThreadBlock)",
+          "key.parsed_scope.end" : 68,
+          "key.parsed_scope.start" : 63,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"c:@M@Rubicon@objc(cs)PGThread(im)init\">init()<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"c:@M@Rubicon@objc(cs)PGThread(im)init\">init()<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"c:objc(cs)NSThread(im)initWithTarget:selector:object:\">init(target:selector:object:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)NSThread(im)initWithTarget:selector:object:\">init(target:selector:object:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"c:objc(cs)NSThread(im)initWithBlock:\">init(block:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)NSThread(im)initWithBlock:\">init(block:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "(PGThread.Type) -> (Bool, QualityOfService, @escaping () -> ()) -> PGThread",
-          "key.typeusr": "$s8startNow16qualityOfService5block7Rubicon8PGThreadCSb_So09NSQualitydE0VyyctcD",
-          "key.usr": "s:7Rubicon8PGThreadC8startNow16qualityOfService5blockACSb_So09NSQualityfG0Vyyctcfc"
+          "key.typename" : "(PGThread.Type) -> (Bool, QualityOfService, @escaping () -> ()) -> PGThread",
+          "key.typeusr" : "$s8startNow16qualityOfService5block7Rubicon8PGThreadCSb_So09NSQualitydE0VyyctcD",
+          "key.usr" : "s:7Rubicon8PGThreadC8startNow16qualityOfService5blockACSb_So09NSQualityfG0Vyyctcfc"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>open override func start()<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>open override func start()<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.override",
-              "key.column": 10,
-              "key.length": 8,
-              "key.line": 74,
-              "key.offset": 3391
+              "key.attribute" : "source.decl.attribute.override",
+              "key.column" : 10,
+              "key.length" : 8,
+              "key.line" : 74,
+              "key.offset" : 3391
             },
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 5,
-              "key.length": 4,
-              "key.line": 74,
-              "key.offset": 3386
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 5,
+              "key.length" : 4,
+              "key.line" : 74,
+              "key.offset" : 3386
             }
           ],
-          "key.bodycolumn": 33,
-          "key.bodylength": 121,
-          "key.bodyline": 74,
-          "key.bodyoffset": 3414,
-          "key.column": 19,
-          "key.doc.column": 24,
-          "key.doc.comment": "<a href=\"https:\/\/developer.apple.com\/documentation\/foundation\/thread\/1418166-start\">See Apple Developer\nDocumentation<\/a>",
-          "key.doc.declaration": "open override func start()",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"74\" column=\"24\"><Name>start()<\/Name><USR>c:@M@Rubicon@objc(cs)PGThread(im)start<\/USR><Declaration>open override func start()<\/Declaration><CommentParts><Abstract><Para><rawHTML><![CDATA[<a href=\"https:\/\/developer.apple.com\/documentation\/foundation\/thread\/1418166-start\">]]><\/rawHTML>See Apple Developer Documentation<rawHTML><![CDATA[<\/a>]]><\/rawHTML><\/Para><\/Abstract><\/CommentParts><\/Function>",
-          "key.doc.line": 74,
-          "key.doc.name": "start()",
-          "key.doc.type": "Function",
-          "key.doccolumn": 5,
-          "key.doclength": 142,
-          "key.docline": 71,
-          "key.docoffset": 3240,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>start<\/decl.name>()<\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 136,
-          "key.line": 74,
-          "key.name": "start()",
-          "key.namecolumn": 24,
-          "key.namelength": 7,
-          "key.nameline": 74,
-          "key.nameoffset": 3405,
-          "key.offset": 3400,
-          "key.overrides": [
+          "key.bodycolumn" : 33,
+          "key.bodylength" : 121,
+          "key.bodyline" : 74,
+          "key.bodyoffset" : 3414,
+          "key.column" : 19,
+          "key.doc.column" : 24,
+          "key.doc.comment" : "<a href=\"https:\/\/developer.apple.com\/documentation\/foundation\/thread\/1418166-start\">See Apple Developer\nDocumentation<\/a>",
+          "key.doc.declaration" : "open override func start()",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"74\" column=\"24\"><Name>start()<\/Name><USR>c:@M@Rubicon@objc(cs)PGThread(im)start<\/USR><Declaration>open override func start()<\/Declaration><CommentParts><Abstract><Para><rawHTML><![CDATA[<a href=\"https:\/\/developer.apple.com\/documentation\/foundation\/thread\/1418166-start\">]]><\/rawHTML>See Apple Developer Documentation<rawHTML><![CDATA[<\/a>]]><\/rawHTML><\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line" : 74,
+          "key.doc.name" : "start()",
+          "key.doc.type" : "Function",
+          "key.doccolumn" : 5,
+          "key.doclength" : 142,
+          "key.docline" : 71,
+          "key.docoffset" : 3240,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>start<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 136,
+          "key.line" : 74,
+          "key.name" : "start()",
+          "key.namecolumn" : 24,
+          "key.namelength" : 7,
+          "key.nameline" : 74,
+          "key.nameoffset" : 3405,
+          "key.offset" : 3400,
+          "key.overrides" : [
             {
-              "key.usr": "c:objc(cs)NSThread(im)start"
+              "key.usr" : "c:objc(cs)NSThread(im)start"
             }
           ],
-          "key.parsed_declaration": "open override func start()",
-          "key.parsed_scope.end": 80,
-          "key.parsed_scope.start": 74,
-          "key.substructure": [
+          "key.parsed_declaration" : "open override func start()",
+          "key.parsed_scope.end" : 80,
+          "key.parsed_scope.start" : 74,
+          "key.substructure" : [
+
           ],
-          "key.typename": "(PGThread) -> () -> ()",
-          "key.typeusr": "$syycD",
-          "key.usr": "c:@M@Rubicon@objc(cs)PGThread(im)start"
+          "key.typename" : "(PGThread) -> () -> ()",
+          "key.typeusr" : "$syycD",
+          "key.usr" : "c:@M@Rubicon@objc(cs)PGThread(im)start"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public override final func main()<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public override final func main()<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.final",
-              "key.column": 21,
-              "key.length": 5,
-              "key.line": 85,
-              "key.offset": 3769
+              "key.attribute" : "source.decl.attribute.final",
+              "key.column" : 21,
+              "key.length" : 5,
+              "key.line" : 85,
+              "key.offset" : 3769
             },
             {
-              "key.attribute": "source.decl.attribute.override",
-              "key.column": 12,
-              "key.length": 8,
-              "key.line": 85,
-              "key.offset": 3760
+              "key.attribute" : "source.decl.attribute.override",
+              "key.column" : 12,
+              "key.length" : 8,
+              "key.line" : 85,
+              "key.offset" : 3760
             },
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 85,
-              "key.offset": 3753
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 85,
+              "key.offset" : 3753
             }
           ],
-          "key.bodycolumn": 40,
-          "key.bodylength": 61,
-          "key.bodyline": 85,
-          "key.bodyoffset": 3788,
-          "key.column": 27,
-          "key.doc.column": 32,
-          "key.doc.comment": "The main function. We're making this final because we don't want it overridden.",
-          "key.doc.declaration": "public override final func main()",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"85\" column=\"32\"><Name>main()<\/Name><USR>c:@M@Rubicon@objc(cs)PGThread(im)main<\/USR><Declaration>public override final func main()<\/Declaration><CommentParts><Abstract><Para>The main function. We’re making this final because we don’t want it overridden.<\/Para><\/Abstract><\/CommentParts><\/Function>",
-          "key.doc.line": 85,
-          "key.doc.name": "main()",
-          "key.doc.type": "Function",
-          "key.doccolumn": 5,
-          "key.doclength": 92,
-          "key.docline": 83,
-          "key.docoffset": 3657,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>final<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>main<\/decl.name>()<\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 75,
-          "key.line": 85,
-          "key.name": "main()",
-          "key.namecolumn": 32,
-          "key.namelength": 6,
-          "key.nameline": 85,
-          "key.nameoffset": 3780,
-          "key.offset": 3775,
-          "key.overrides": [
+          "key.bodycolumn" : 40,
+          "key.bodylength" : 61,
+          "key.bodyline" : 85,
+          "key.bodyoffset" : 3788,
+          "key.column" : 27,
+          "key.doc.column" : 32,
+          "key.doc.comment" : "The main function. We're making this final because we don't want it overridden.",
+          "key.doc.declaration" : "public override final func main()",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"85\" column=\"32\"><Name>main()<\/Name><USR>c:@M@Rubicon@objc(cs)PGThread(im)main<\/USR><Declaration>public override final func main()<\/Declaration><CommentParts><Abstract><Para>The main function. We’re making this final because we don’t want it overridden.<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line" : 85,
+          "key.doc.name" : "main()",
+          "key.doc.type" : "Function",
+          "key.doccolumn" : 5,
+          "key.doclength" : 92,
+          "key.docline" : 83,
+          "key.docoffset" : 3657,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>final<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>main<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 75,
+          "key.line" : 85,
+          "key.name" : "main()",
+          "key.namecolumn" : 32,
+          "key.namelength" : 6,
+          "key.nameline" : 85,
+          "key.nameoffset" : 3780,
+          "key.offset" : 3775,
+          "key.overrides" : [
             {
-              "key.usr": "c:objc(cs)NSThread(im)main"
+              "key.usr" : "c:objc(cs)NSThread(im)main"
             }
           ],
-          "key.parsed_declaration": "public override final func main()",
-          "key.parsed_scope.end": 88,
-          "key.parsed_scope.start": 85,
-          "key.related_decls": [
+          "key.parsed_declaration" : "public override final func main()",
+          "key.parsed_scope.end" : 88,
+          "key.parsed_scope.start" : 85,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"c:objc(cs)NSThread(cpy)mainThread\">main<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)NSThread(cpy)mainThread\">main<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "(PGThread) -> () -> ()",
-          "key.typeusr": "$syycD",
-          "key.usr": "c:@M@Rubicon@objc(cs)PGThread(im)main"
+          "key.typename" : "(PGThread) -> () -> ()",
+          "key.typeusr" : "$syycD",
+          "key.usr" : "c:@M@Rubicon@objc(cs)PGThread(im)main"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public func join()<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public func join()<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 93,
-              "key.offset": 4029
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 93,
+              "key.offset" : 4029
             }
           ],
-          "key.bodycolumn": 25,
-          "key.bodylength": 75,
-          "key.bodyline": 93,
-          "key.bodyoffset": 4049,
-          "key.column": 12,
-          "key.doc.column": 17,
-          "key.doc.comment": "Waits for the thread to finish executing.",
-          "key.doc.declaration": "public func join()",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"93\" column=\"17\"><Name>join()<\/Name><USR>s:7Rubicon8PGThreadC4joinyyF<\/USR><Declaration>public func join()<\/Declaration><CommentParts><Abstract><Para>Waits for the thread to finish executing.<\/Para><\/Abstract><\/CommentParts><\/Function>",
-          "key.doc.line": 93,
-          "key.doc.name": "join()",
-          "key.doc.type": "Function",
-          "key.doccolumn": 5,
-          "key.doclength": 54,
-          "key.docline": 91,
-          "key.docoffset": 3971,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>join<\/decl.name>()<\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 89,
-          "key.line": 93,
-          "key.name": "join()",
-          "key.namecolumn": 17,
-          "key.namelength": 6,
-          "key.nameline": 93,
-          "key.nameoffset": 4041,
-          "key.offset": 4036,
-          "key.parsed_declaration": "public func join()",
-          "key.parsed_scope.end": 93,
-          "key.parsed_scope.start": 93,
-          "key.related_decls": [
+          "key.bodycolumn" : 25,
+          "key.bodylength" : 75,
+          "key.bodyline" : 93,
+          "key.bodyoffset" : 4049,
+          "key.column" : 12,
+          "key.doc.column" : 17,
+          "key.doc.comment" : "Waits for the thread to finish executing.",
+          "key.doc.declaration" : "public func join()",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"93\" column=\"17\"><Name>join()<\/Name><USR>s:7Rubicon8PGThreadC4joinyyF<\/USR><Declaration>public func join()<\/Declaration><CommentParts><Abstract><Para>Waits for the thread to finish executing.<\/Para><\/Abstract><\/CommentParts><\/Function>",
+          "key.doc.line" : 93,
+          "key.doc.name" : "join()",
+          "key.doc.type" : "Function",
+          "key.doccolumn" : 5,
+          "key.doclength" : 54,
+          "key.docline" : 91,
+          "key.docoffset" : 3971,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>join<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 89,
+          "key.line" : 93,
+          "key.name" : "join()",
+          "key.namecolumn" : 17,
+          "key.namelength" : 6,
+          "key.nameline" : 93,
+          "key.nameoffset" : 4041,
+          "key.offset" : 4036,
+          "key.parsed_declaration" : "public func join()",
+          "key.parsed_scope.end" : 93,
+          "key.parsed_scope.start" : 93,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon8PGThreadC4join5untilSb10Foundation4DateV_tF\">join(until:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon8PGThreadC4join5untilSb10Foundation4DateV_tF\">join(until:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "(PGThread) -> () -> ()",
-          "key.typeusr": "$syycD",
-          "key.usr": "s:7Rubicon8PGThreadC4joinyyF"
+          "key.typename" : "(PGThread) -> () -> ()",
+          "key.typeusr" : "$syycD",
+          "key.usr" : "s:7Rubicon8PGThreadC4joinyyF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public func join(until limit: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public func join(until limit: <Type usr=\"s:10Foundation4DateV\">Date<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 103,
-              "key.offset": 4690
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 103,
+              "key.offset" : 4690
             }
           ],
-          "key.bodycolumn": 50,
-          "key.bodylength": 204,
-          "key.bodyline": 103,
-          "key.bodyoffset": 4735,
-          "key.column": 12,
-          "key.doc.column": 17,
-          "key.doc.comment": "Waits until the given date for the thread to finish executing.\n\n- Parameter limit: the point in time to wait until for the thread to execute. If the time is in the past\n                   then the method will return immediately.\n- Returns: `true` if the thread finished executing before the given time or `false` if the time was\n           reached or the thread has not been started yet.",
-          "key.doc.declaration": "public func join(until limit: Date) -> Bool",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"103\" column=\"17\"><Name>join(until:)<\/Name><USR>s:7Rubicon8PGThreadC4join5untilSb10Foundation4DateV_tF<\/USR><Declaration>public func join(until limit: Date) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Waits until the given date for the thread to finish executing.<\/Para><\/Abstract><Parameters><Parameter><Name>limit<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the point in time to wait until for the thread to execute. If the time is in the past then the method will return immediately.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the thread finished executing before the given time or <codeVoice>false<\/codeVoice> if the time was reached or the thread has not been started yet.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
-          "key.doc.line": 103,
-          "key.doc.name": "join(until:)",
-          "key.doc.parameters": [
+          "key.bodycolumn" : 50,
+          "key.bodylength" : 204,
+          "key.bodyline" : 103,
+          "key.bodyoffset" : 4735,
+          "key.column" : 12,
+          "key.doc.column" : 17,
+          "key.doc.comment" : "Waits until the given date for the thread to finish executing.\n\n- Parameter limit: the point in time to wait until for the thread to execute. If the time is in the past\n                   then the method will return immediately.\n- Returns: `true` if the thread finished executing before the given time or `false` if the time was\n           reached or the thread has not been started yet.",
+          "key.doc.declaration" : "public func join(until limit: Date) -> Bool",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift\" line=\"103\" column=\"17\"><Name>join(until:)<\/Name><USR>s:7Rubicon8PGThreadC4join5untilSb10Foundation4DateV_tF<\/USR><Declaration>public func join(until limit: Date) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Waits until the given date for the thread to finish executing.<\/Para><\/Abstract><Parameters><Parameter><Name>limit<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the point in time to wait until for the thread to execute. If the time is in the past then the method will return immediately.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the thread finished executing before the given time or <codeVoice>false<\/codeVoice> if the time was reached or the thread has not been started yet.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line" : 103,
+          "key.doc.name" : "join(until:)",
+          "key.doc.parameters" : [
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "the point in time to wait until for the thread to execute. If the time is in the past then the method will return immediately."
+                  "Para" : "the point in time to wait until for the thread to execute. If the time is in the past then the method will return immediately."
                 }
               ],
-              "name": "limit"
+              "name" : "limit"
             }
           ],
-          "key.doc.result_discussion": [
+          "key.doc.result_discussion" : [
             {
-              "Para": "`true` if the thread finished executing before the given time or `false` if the time was reached or the thread has not been started yet."
+              "Para" : "`true` if the thread finished executing before the given time or `false` if the time was reached or the thread has not been started yet."
             }
           ],
-          "key.doc.type": "Function",
-          "key.doccolumn": 5,
-          "key.doclength": 440,
-          "key.docline": 96,
-          "key.docoffset": 4246,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>join<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>until<\/decl.var.parameter.argument_label> <decl.var.parameter.name>limit<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 243,
-          "key.line": 103,
-          "key.name": "join(until:)",
-          "key.namecolumn": 17,
-          "key.namelength": 23,
-          "key.nameline": 103,
-          "key.nameoffset": 4702,
-          "key.offset": 4697,
-          "key.parsed_declaration": "public func join(until limit: Date) -> Bool",
-          "key.parsed_scope.end": 109,
-          "key.parsed_scope.start": 103,
-          "key.related_decls": [
+          "key.doc.type" : "Function",
+          "key.doccolumn" : 5,
+          "key.doclength" : 440,
+          "key.docline" : 96,
+          "key.docoffset" : 4246,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Concurrency\/PGThread.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>join<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>until<\/decl.var.parameter.argument_label> <decl.var.parameter.name>limit<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DateV\">Date<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 243,
+          "key.line" : 103,
+          "key.name" : "join(until:)",
+          "key.namecolumn" : 17,
+          "key.namelength" : 23,
+          "key.nameline" : 103,
+          "key.nameoffset" : 4702,
+          "key.offset" : 4697,
+          "key.parsed_declaration" : "public func join(until limit: Date) -> Bool",
+          "key.parsed_scope.end" : 109,
+          "key.parsed_scope.start" : 103,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon8PGThreadC4joinyyF\">join()<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon8PGThreadC4joinyyF\">join()<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "(PGThread) -> (Date) -> Bool",
-          "key.typeusr": "$s5untilSb10Foundation4DateV_tcD",
-          "key.usr": "s:7Rubicon8PGThreadC4join5untilSb10Foundation4DateV_tF"
+          "key.typename" : "(PGThread) -> (Date) -> Bool",
+          "key.typeusr" : "$s5untilSb10Foundation4DateV_tcD",
+          "key.usr" : "s:7Rubicon8PGThreadC4join5untilSb10Foundation4DateV_tF"
         }
       ],
-      "key.typename": "PGThread.Type",
-      "key.typeusr": "$s7Rubicon8PGThreadCmD",
-      "key.usr": "c:@M@Rubicon@objc(cs)PGThread"
+      "key.typename" : "PGThread.Type",
+      "key.typeusr" : "$s7Rubicon8PGThreadCmD",
+      "key.usr" : "c:@M@Rubicon@objc(cs)PGThread"
     }
   ]
 }

@@ -1,605 +1,605 @@
 {
-  "key.column": 1,
-  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
-  "key.length": 2652,
-  "key.line": 1,
-  "key.offset": 0,
-  "key.substructure": [
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 2652,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
     {
-      "key.accessibility": "source.lang.swift.accessibility.public",
-      "key.attributes": [
+      "key.accessibility" : "source.lang.swift.accessibility.public",
+      "key.attributes" : [
         {
-          "key.attribute": "source.decl.attribute.public",
-          "key.column": 1,
-          "key.length": 6,
-          "key.line": 28,
-          "key.offset": 1316
+          "key.attribute" : "source.decl.attribute.public",
+          "key.column" : 1,
+          "key.length" : 6,
+          "key.line" : 28,
+          "key.offset" : 1316
         }
       ],
-      "key.bodycolumn": 27,
-      "key.bodylength": 1308,
-      "key.bodyline": 28,
-      "key.bodyoffset": 1342,
-      "key.column": 8,
-      "key.doccolumn": 1,
-      "key.doclength": 107,
-      "key.docline": 26,
-      "key.docoffset": 1209,
-      "key.kind": "source.lang.swift.decl.extension",
-      "key.length": 1328,
-      "key.line": 28,
-      "key.name": "NSRange",
-      "key.namecolumn": 18,
-      "key.namelength": 7,
-      "key.nameline": 28,
-      "key.nameoffset": 1333,
-      "key.offset": 1323,
-      "key.substructure": [
+      "key.bodycolumn" : 27,
+      "key.bodylength" : 1308,
+      "key.bodyline" : 28,
+      "key.bodyoffset" : 1342,
+      "key.column" : 8,
+      "key.doccolumn" : 1,
+      "key.doclength" : 107,
+      "key.docline" : 26,
+      "key.docoffset" : 1209,
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 1328,
+      "key.line" : 28,
+      "key.name" : "NSRange",
+      "key.namecolumn" : 18,
+      "key.namelength" : 7,
+      "key.nameline" : 28,
+      "key.nameoffset" : 1333,
+      "key.offset" : 1323,
+      "key.substructure" : [
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.bodycolumn": 83,
-          "key.bodylength": 59,
-          "key.bodyline": 42,
-          "key.bodyoffset": 2589,
-          "key.column": 5,
-          "key.doccolumn": 5,
-          "key.doclength": 1045,
-          "key.docline": 30,
-          "key.docoffset": 1462,
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 138,
-          "key.line": 42,
-          "key.name": "strRange(string:)",
-          "key.namecolumn": 10,
-          "key.namelength": 22,
-          "key.nameline": 42,
-          "key.nameoffset": 2516,
-          "key.offset": 2511,
-          "key.substructure": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.bodycolumn" : 83,
+          "key.bodylength" : 59,
+          "key.bodyline" : 42,
+          "key.bodyoffset" : 2589,
+          "key.column" : 5,
+          "key.doccolumn" : 5,
+          "key.doclength" : 1045,
+          "key.docline" : 30,
+          "key.docoffset" : 1462,
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 138,
+          "key.line" : 42,
+          "key.name" : "strRange(string:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 22,
+          "key.nameline" : 42,
+          "key.nameoffset" : 2516,
+          "key.offset" : 2511,
+          "key.substructure" : [
             {
-              "key.column": 19,
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 42,
-              "key.name": "S",
-              "key.namecolumn": 19,
-              "key.namelength": 1,
-              "key.nameline": 42,
-              "key.nameoffset": 2525,
-              "key.offset": 2525
+              "key.column" : 19,
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 42,
+              "key.name" : "S",
+              "key.namecolumn" : 19,
+              "key.namelength" : 1,
+              "key.nameline" : 42,
+              "key.nameoffset" : 2525,
+              "key.offset" : 2525
             },
             {
-              "key.column": 22,
-              "key.kind": "source.lang.swift.decl.var.parameter",
-              "key.length": 9,
-              "key.line": 42,
-              "key.name": "string",
-              "key.namecolumn": 22,
-              "key.namelength": 6,
-              "key.nameline": 42,
-              "key.nameoffset": 2528,
-              "key.offset": 2528,
-              "key.typename": "S"
+              "key.column" : 22,
+              "key.kind" : "source.lang.swift.decl.var.parameter",
+              "key.length" : 9,
+              "key.line" : 42,
+              "key.name" : "string",
+              "key.namecolumn" : 22,
+              "key.namelength" : 6,
+              "key.nameline" : 42,
+              "key.nameoffset" : 2528,
+              "key.offset" : 2528,
+              "key.typename" : "S"
             },
             {
-              "key.bodycolumn": 29,
-              "key.bodylength": 24,
-              "key.bodyline": 43,
-              "key.bodyoffset": 2618,
-              "key.column": 9,
-              "key.kind": "source.lang.swift.expr.call",
-              "key.length": 45,
-              "key.line": 43,
-              "key.name": "Range<String.Index>",
-              "key.namecolumn": 9,
-              "key.namelength": 19,
-              "key.nameline": 43,
-              "key.nameoffset": 2598,
-              "key.offset": 2598,
-              "key.substructure": [
+              "key.bodycolumn" : 29,
+              "key.bodylength" : 24,
+              "key.bodyline" : 43,
+              "key.bodyoffset" : 2618,
+              "key.column" : 9,
+              "key.kind" : "source.lang.swift.expr.call",
+              "key.length" : 45,
+              "key.line" : 43,
+              "key.name" : "Range<String.Index>",
+              "key.namecolumn" : 9,
+              "key.namelength" : 19,
+              "key.nameline" : 43,
+              "key.nameoffset" : 2598,
+              "key.offset" : 2598,
+              "key.substructure" : [
                 {
-                  "key.bodycolumn": 29,
-                  "key.bodylength": 4,
-                  "key.bodyline": 43,
-                  "key.bodyoffset": 2618,
-                  "key.column": 29,
-                  "key.kind": "source.lang.swift.expr.argument",
-                  "key.length": 4,
-                  "key.line": 43,
-                  "key.namelength": 0,
-                  "key.nameoffset": 0,
-                  "key.offset": 2618
+                  "key.bodycolumn" : 29,
+                  "key.bodylength" : 4,
+                  "key.bodyline" : 43,
+                  "key.bodyoffset" : 2618,
+                  "key.column" : 29,
+                  "key.kind" : "source.lang.swift.expr.argument",
+                  "key.length" : 4,
+                  "key.line" : 43,
+                  "key.namelength" : 0,
+                  "key.nameoffset" : 0,
+                  "key.offset" : 2618
                 },
                 {
-                  "key.bodycolumn": 39,
-                  "key.bodylength": 14,
-                  "key.bodyline": 43,
-                  "key.bodyoffset": 2628,
-                  "key.column": 35,
-                  "key.kind": "source.lang.swift.expr.argument",
-                  "key.length": 18,
-                  "key.line": 43,
-                  "key.name": "in",
-                  "key.namecolumn": 35,
-                  "key.namelength": 2,
-                  "key.nameline": 43,
-                  "key.nameoffset": 2624,
-                  "key.offset": 2624,
-                  "key.substructure": [
+                  "key.bodycolumn" : 39,
+                  "key.bodylength" : 14,
+                  "key.bodyline" : 43,
+                  "key.bodyoffset" : 2628,
+                  "key.column" : 35,
+                  "key.kind" : "source.lang.swift.expr.argument",
+                  "key.length" : 18,
+                  "key.line" : 43,
+                  "key.name" : "in",
+                  "key.namecolumn" : 35,
+                  "key.namelength" : 2,
+                  "key.nameline" : 43,
+                  "key.nameoffset" : 2624,
+                  "key.offset" : 2624,
+                  "key.substructure" : [
                     {
-                      "key.bodycolumn": 46,
-                      "key.bodylength": 6,
-                      "key.bodyline": 43,
-                      "key.bodyoffset": 2635,
-                      "key.column": 39,
-                      "key.kind": "source.lang.swift.expr.call",
-                      "key.length": 14,
-                      "key.line": 43,
-                      "key.name": "String",
-                      "key.namecolumn": 39,
-                      "key.namelength": 6,
-                      "key.nameline": 43,
-                      "key.nameoffset": 2628,
-                      "key.offset": 2628
+                      "key.bodycolumn" : 46,
+                      "key.bodylength" : 6,
+                      "key.bodyline" : 43,
+                      "key.bodyoffset" : 2635,
+                      "key.column" : 39,
+                      "key.kind" : "source.lang.swift.expr.call",
+                      "key.length" : 14,
+                      "key.line" : 43,
+                      "key.name" : "String",
+                      "key.namecolumn" : 39,
+                      "key.namelength" : 6,
+                      "key.nameline" : 43,
+                      "key.nameoffset" : 2628,
+                      "key.offset" : 2628
                     }
                   ]
                 }
               ]
             }
           ],
-          "key.typename": "Range<String.Index>?"
+          "key.typename" : "Range<String.Index>?"
         }
       ]
     }
   ],
-  "key.syntaxmap": [
+  "key.syntaxmap" : [
     {
-      "key.column": 1,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 74,
-      "key.line": 1,
-      "key.offset": 0
+      "key.column" : 1,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 74,
+      "key.line" : 1,
+      "key.offset" : 0
     },
     {
-      "key.column": 75,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 925,
-      "key.line": 1,
-      "key.offset": 74
+      "key.column" : 75,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 925,
+      "key.line" : 1,
+      "key.offset" : 74
     },
     {
-      "key.column": 4,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 74,
-      "key.line": 21,
-      "key.offset": 999
+      "key.column" : 4,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 74,
+      "key.line" : 21,
+      "key.offset" : 999
     },
     {
-      "key.column": 1,
-      "key.kind": "source.lang.swift.syntaxtype.keyword",
-      "key.length": 6,
-      "key.line": 23,
-      "key.offset": 1075
+      "key.column" : 1,
+      "key.kind" : "source.lang.swift.syntaxtype.keyword",
+      "key.length" : 6,
+      "key.line" : 23,
+      "key.offset" : 1075
     },
     {
-      "key.column": 8,
-      "key.kind": "source.lang.swift.syntaxtype.identifier",
-      "key.length": 10,
-      "key.line": 23,
-      "key.offset": 1082
+      "key.column" : 8,
+      "key.kind" : "source.lang.swift.syntaxtype.identifier",
+      "key.length" : 10,
+      "key.line" : 23,
+      "key.offset" : 1082
     },
     {
-      "key.column": 1,
-      "key.kind": "source.lang.swift.syntaxtype.comment",
-      "key.length": 114,
-      "key.line": 25,
-      "key.offset": 1094
+      "key.column" : 1,
+      "key.kind" : "source.lang.swift.syntaxtype.comment",
+      "key.length" : 114,
+      "key.line" : 25,
+      "key.offset" : 1094
     },
     {
-      "key.column": 1,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 34,
-      "key.line": 26,
-      "key.offset": 1209
+      "key.column" : 1,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 34,
+      "key.line" : 26,
+      "key.offset" : 1209
     },
     {
-      "key.column": 35,
-      "key.kind": "source.lang.swift.syntaxtype.comment.url",
-      "key.length": 60,
-      "key.line": 26,
-      "key.offset": 1243
+      "key.column" : 35,
+      "key.kind" : "source.lang.swift.syntaxtype.comment.url",
+      "key.length" : 60,
+      "key.line" : 26,
+      "key.offset" : 1243
     },
     {
-      "key.column": 95,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 9,
-      "key.line": 26,
-      "key.offset": 1303
+      "key.column" : 95,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 9,
+      "key.line" : 26,
+      "key.offset" : 1303
     },
     {
-      "key.column": 1,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 4,
-      "key.line": 27,
-      "key.offset": 1312
+      "key.column" : 1,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 4,
+      "key.line" : 27,
+      "key.offset" : 1312
     },
     {
-      "key.column": 1,
-      "key.kind": "source.lang.swift.syntaxtype.attribute.builtin",
-      "key.length": 6,
-      "key.line": 28,
-      "key.offset": 1316
+      "key.column" : 1,
+      "key.kind" : "source.lang.swift.syntaxtype.attribute.builtin",
+      "key.length" : 6,
+      "key.line" : 28,
+      "key.offset" : 1316
     },
     {
-      "key.column": 8,
-      "key.kind": "source.lang.swift.syntaxtype.keyword",
-      "key.length": 9,
-      "key.line": 28,
-      "key.offset": 1323
+      "key.column" : 8,
+      "key.kind" : "source.lang.swift.syntaxtype.keyword",
+      "key.length" : 9,
+      "key.line" : 28,
+      "key.offset" : 1323
     },
     {
-      "key.column": 18,
-      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
-      "key.length": 7,
-      "key.line": 28,
-      "key.offset": 1333
+      "key.column" : 18,
+      "key.kind" : "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length" : 7,
+      "key.line" : 28,
+      "key.offset" : 1333
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.comment",
-      "key.length": 110,
-      "key.line": 29,
-      "key.offset": 1347
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.comment",
+      "key.length" : 110,
+      "key.line" : 29,
+      "key.offset" : 1347
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 34,
-      "key.line": 30,
-      "key.offset": 1462
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 34,
+      "key.line" : 30,
+      "key.offset" : 1462
     },
     {
-      "key.column": 39,
-      "key.kind": "source.lang.swift.syntaxtype.comment.url",
-      "key.length": 60,
-      "key.line": 30,
-      "key.offset": 1496
+      "key.column" : 39,
+      "key.kind" : "source.lang.swift.syntaxtype.comment.url",
+      "key.length" : 60,
+      "key.line" : 30,
+      "key.offset" : 1496
     },
     {
-      "key.column": 99,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 16,
-      "key.line": 30,
-      "key.offset": 1556
+      "key.column" : 99,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 16,
+      "key.line" : 30,
+      "key.offset" : 1556
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 12,
-      "key.line": 31,
-      "key.offset": 1576
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 12,
+      "key.line" : 31,
+      "key.offset" : 1576
     },
     {
-      "key.column": 17,
-      "key.kind": "source.lang.swift.syntaxtype.comment.url",
-      "key.length": 58,
-      "key.line": 31,
-      "key.offset": 1588
+      "key.column" : 17,
+      "key.kind" : "source.lang.swift.syntaxtype.comment.url",
+      "key.length" : 58,
+      "key.line" : 31,
+      "key.offset" : 1588
     },
     {
-      "key.column": 75,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 15,
-      "key.line": 31,
-      "key.offset": 1646
+      "key.column" : 75,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 15,
+      "key.line" : 31,
+      "key.offset" : 1646
     },
     {
-      "key.column": 90,
-      "key.kind": "source.lang.swift.syntaxtype.comment.url",
-      "key.length": 65,
-      "key.line": 31,
-      "key.offset": 1661
+      "key.column" : 90,
+      "key.kind" : "source.lang.swift.syntaxtype.comment.url",
+      "key.length" : 65,
+      "key.line" : 31,
+      "key.offset" : 1661
     },
     {
-      "key.column": 155,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 1,
-      "key.line": 31,
-      "key.offset": 1726
+      "key.column" : 155,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 1,
+      "key.line" : 31,
+      "key.offset" : 1726
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 33,
-      "key.line": 32,
-      "key.offset": 1731
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 33,
+      "key.line" : 32,
+      "key.offset" : 1731
     },
     {
-      "key.column": 38,
-      "key.kind": "source.lang.swift.syntaxtype.comment.url",
-      "key.length": 54,
-      "key.line": 32,
-      "key.offset": 1764
+      "key.column" : 38,
+      "key.kind" : "source.lang.swift.syntaxtype.comment.url",
+      "key.length" : 54,
+      "key.line" : 32,
+      "key.offset" : 1764
     },
     {
-      "key.column": 92,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 24,
-      "key.line": 32,
-      "key.offset": 1818
+      "key.column" : 92,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 24,
+      "key.line" : 32,
+      "key.offset" : 1818
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 28,
-      "key.line": 33,
-      "key.offset": 1846
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 28,
+      "key.line" : 33,
+      "key.offset" : 1846
     },
     {
-      "key.column": 33,
-      "key.kind": "source.lang.swift.syntaxtype.comment.url",
-      "key.length": 60,
-      "key.line": 33,
-      "key.offset": 1874
+      "key.column" : 33,
+      "key.kind" : "source.lang.swift.syntaxtype.comment.url",
+      "key.length" : 60,
+      "key.line" : 33,
+      "key.offset" : 1874
     },
     {
-      "key.column": 93,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 22,
-      "key.line": 33,
-      "key.offset": 1934
+      "key.column" : 93,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 22,
+      "key.line" : 33,
+      "key.offset" : 1934
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 27,
-      "key.line": 34,
-      "key.offset": 1960
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 27,
+      "key.line" : 34,
+      "key.offset" : 1960
     },
     {
-      "key.column": 32,
-      "key.kind": "source.lang.swift.syntaxtype.comment.url",
-      "key.length": 54,
-      "key.line": 34,
-      "key.offset": 1987
+      "key.column" : 32,
+      "key.kind" : "source.lang.swift.syntaxtype.comment.url",
+      "key.length" : 54,
+      "key.line" : 34,
+      "key.offset" : 1987
     },
     {
-      "key.column": 86,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 10,
-      "key.line": 34,
-      "key.offset": 2041
+      "key.column" : 86,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 10,
+      "key.line" : 34,
+      "key.offset" : 2041
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 5,
-      "key.line": 35,
-      "key.offset": 2055
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 5,
+      "key.line" : 35,
+      "key.offset" : 2055
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 6,
-      "key.line": 36,
-      "key.offset": 2064
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 6,
+      "key.line" : 36,
+      "key.offset" : 2064
     },
     {
-      "key.column": 11,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment.field",
-      "key.length": 9,
-      "key.line": 36,
-      "key.offset": 2070
+      "key.column" : 11,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment.field",
+      "key.length" : 9,
+      "key.line" : 36,
+      "key.offset" : 2070
     },
     {
-      "key.column": 20,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 92,
-      "key.line": 36,
-      "key.offset": 2079
+      "key.column" : 20,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 92,
+      "key.line" : 36,
+      "key.offset" : 2079
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 6,
-      "key.line": 37,
-      "key.offset": 2175
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 6,
+      "key.line" : 37,
+      "key.offset" : 2175
     },
     {
-      "key.column": 11,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment.field",
-      "key.length": 7,
-      "key.line": 37,
-      "key.offset": 2181
+      "key.column" : 11,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment.field",
+      "key.length" : 7,
+      "key.line" : 37,
+      "key.offset" : 2181
     },
     {
-      "key.column": 18,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 53,
-      "key.line": 37,
-      "key.offset": 2188
+      "key.column" : 18,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 53,
+      "key.line" : 37,
+      "key.offset" : 2188
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 31,
-      "key.line": 38,
-      "key.offset": 2245
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 31,
+      "key.line" : 38,
+      "key.offset" : 2245
     },
     {
-      "key.column": 36,
-      "key.kind": "source.lang.swift.syntaxtype.comment.url",
-      "key.length": 60,
-      "key.line": 38,
-      "key.offset": 2276
+      "key.column" : 36,
+      "key.kind" : "source.lang.swift.syntaxtype.comment.url",
+      "key.length" : 60,
+      "key.line" : 38,
+      "key.offset" : 2276
     },
     {
-      "key.column": 96,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 18,
-      "key.line": 38,
-      "key.offset": 2336
+      "key.column" : 96,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 18,
+      "key.line" : 38,
+      "key.offset" : 2336
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 39,
-      "key.line": 39,
-      "key.offset": 2358
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 39,
+      "key.line" : 39,
+      "key.offset" : 2358
     },
     {
-      "key.column": 44,
-      "key.kind": "source.lang.swift.syntaxtype.comment.url",
-      "key.length": 60,
-      "key.line": 39,
-      "key.offset": 2397
+      "key.column" : 44,
+      "key.kind" : "source.lang.swift.syntaxtype.comment.url",
+      "key.length" : 60,
+      "key.line" : 39,
+      "key.offset" : 2397
     },
     {
-      "key.column": 104,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 12,
-      "key.line": 39,
-      "key.offset": 2457
+      "key.column" : 104,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 12,
+      "key.line" : 39,
+      "key.offset" : 2457
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 26,
-      "key.line": 40,
-      "key.offset": 2473
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 26,
+      "key.line" : 40,
+      "key.offset" : 2473
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.doccomment",
-      "key.length": 4,
-      "key.line": 41,
-      "key.offset": 2503
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.doccomment",
+      "key.length" : 4,
+      "key.line" : 41,
+      "key.offset" : 2503
     },
     {
-      "key.column": 5,
-      "key.kind": "source.lang.swift.syntaxtype.keyword",
-      "key.length": 4,
-      "key.line": 42,
-      "key.offset": 2511
+      "key.column" : 5,
+      "key.kind" : "source.lang.swift.syntaxtype.keyword",
+      "key.length" : 4,
+      "key.line" : 42,
+      "key.offset" : 2511
     },
     {
-      "key.column": 10,
-      "key.kind": "source.lang.swift.syntaxtype.identifier",
-      "key.length": 8,
-      "key.line": 42,
-      "key.offset": 2516
+      "key.column" : 10,
+      "key.kind" : "source.lang.swift.syntaxtype.identifier",
+      "key.length" : 8,
+      "key.line" : 42,
+      "key.offset" : 2516
     },
     {
-      "key.column": 19,
-      "key.kind": "source.lang.swift.syntaxtype.identifier",
-      "key.length": 1,
-      "key.line": 42,
-      "key.offset": 2525
+      "key.column" : 19,
+      "key.kind" : "source.lang.swift.syntaxtype.identifier",
+      "key.length" : 1,
+      "key.line" : 42,
+      "key.offset" : 2525
     },
     {
-      "key.column": 22,
-      "key.kind": "source.lang.swift.syntaxtype.identifier",
-      "key.length": 6,
-      "key.line": 42,
-      "key.offset": 2528
+      "key.column" : 22,
+      "key.kind" : "source.lang.swift.syntaxtype.identifier",
+      "key.length" : 6,
+      "key.line" : 42,
+      "key.offset" : 2528
     },
     {
-      "key.column": 30,
-      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
-      "key.length": 1,
-      "key.line": 42,
-      "key.offset": 2536
+      "key.column" : 30,
+      "key.kind" : "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length" : 1,
+      "key.line" : 42,
+      "key.offset" : 2536
     },
     {
-      "key.column": 36,
-      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
-      "key.length": 5,
-      "key.line": 42,
-      "key.offset": 2542
+      "key.column" : 36,
+      "key.kind" : "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length" : 5,
+      "key.line" : 42,
+      "key.offset" : 2542
     },
     {
-      "key.column": 42,
-      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
-      "key.length": 6,
-      "key.line": 42,
-      "key.offset": 2548
+      "key.column" : 42,
+      "key.kind" : "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length" : 6,
+      "key.line" : 42,
+      "key.offset" : 2548
     },
     {
-      "key.column": 49,
-      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
-      "key.length": 5,
-      "key.line": 42,
-      "key.offset": 2555
+      "key.column" : 49,
+      "key.kind" : "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length" : 5,
+      "key.line" : 42,
+      "key.offset" : 2555
     },
     {
-      "key.column": 57,
-      "key.kind": "source.lang.swift.syntaxtype.keyword",
-      "key.length": 5,
-      "key.line": 42,
-      "key.offset": 2563
+      "key.column" : 57,
+      "key.kind" : "source.lang.swift.syntaxtype.keyword",
+      "key.length" : 5,
+      "key.line" : 42,
+      "key.offset" : 2563
     },
     {
-      "key.column": 63,
-      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
-      "key.length": 1,
-      "key.line": 42,
-      "key.offset": 2569
+      "key.column" : 63,
+      "key.kind" : "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length" : 1,
+      "key.line" : 42,
+      "key.offset" : 2569
     },
     {
-      "key.column": 67,
-      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
-      "key.length": 14,
-      "key.line": 42,
-      "key.offset": 2573
+      "key.column" : 67,
+      "key.kind" : "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length" : 14,
+      "key.line" : 42,
+      "key.offset" : 2573
     },
     {
-      "key.column": 9,
-      "key.kind": "source.lang.swift.syntaxtype.identifier",
-      "key.length": 5,
-      "key.line": 43,
-      "key.offset": 2598
+      "key.column" : 9,
+      "key.kind" : "source.lang.swift.syntaxtype.identifier",
+      "key.length" : 5,
+      "key.line" : 43,
+      "key.offset" : 2598
     },
     {
-      "key.column": 15,
-      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
-      "key.length": 6,
-      "key.line": 43,
-      "key.offset": 2604
+      "key.column" : 15,
+      "key.kind" : "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length" : 6,
+      "key.line" : 43,
+      "key.offset" : 2604
     },
     {
-      "key.column": 22,
-      "key.kind": "source.lang.swift.syntaxtype.typeidentifier",
-      "key.length": 5,
-      "key.line": 43,
-      "key.offset": 2611
+      "key.column" : 22,
+      "key.kind" : "source.lang.swift.syntaxtype.typeidentifier",
+      "key.length" : 5,
+      "key.line" : 43,
+      "key.offset" : 2611
     },
     {
-      "key.column": 29,
-      "key.kind": "source.lang.swift.syntaxtype.keyword",
-      "key.length": 4,
-      "key.line": 43,
-      "key.offset": 2618
+      "key.column" : 29,
+      "key.kind" : "source.lang.swift.syntaxtype.keyword",
+      "key.length" : 4,
+      "key.line" : 43,
+      "key.offset" : 2618
     },
     {
-      "key.column": 35,
-      "key.kind": "source.lang.swift.syntaxtype.identifier",
-      "key.length": 2,
-      "key.line": 43,
-      "key.offset": 2624
+      "key.column" : 35,
+      "key.kind" : "source.lang.swift.syntaxtype.identifier",
+      "key.length" : 2,
+      "key.line" : 43,
+      "key.offset" : 2624
     },
     {
-      "key.column": 39,
-      "key.kind": "source.lang.swift.syntaxtype.identifier",
-      "key.length": 6,
-      "key.line": 43,
-      "key.offset": 2628
+      "key.column" : 39,
+      "key.kind" : "source.lang.swift.syntaxtype.identifier",
+      "key.length" : 6,
+      "key.line" : 43,
+      "key.offset" : 2628
     },
     {
-      "key.column": 46,
-      "key.kind": "source.lang.swift.syntaxtype.identifier",
-      "key.length": 6,
-      "key.line": 43,
-      "key.offset": 2635
+      "key.column" : 46,
+      "key.kind" : "source.lang.swift.syntaxtype.identifier",
+      "key.length" : 6,
+      "key.line" : 43,
+      "key.offset" : 2635
     }
   ]
 }

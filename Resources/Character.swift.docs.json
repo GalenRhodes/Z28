@@ -1,271 +1,273 @@
 {
-  "key.column": 1,
-  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
-  "key.length": 2287,
-  "key.line": 1,
-  "key.offset": 0,
-  "key.substructure": [
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 2287,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
     {
-      "key.accessibility": "source.lang.swift.accessibility.public",
-      "key.annotated_decl": "<Declaration>public let UnicodeReplacementChar: <Type usr=\"s:SJ\">Character<\/Type><\/Declaration>",
-      "key.attributes": [
+      "key.accessibility" : "source.lang.swift.accessibility.public",
+      "key.annotated_decl" : "<Declaration>public let UnicodeReplacementChar: <Type usr=\"s:SJ\">Character<\/Type><\/Declaration>",
+      "key.attributes" : [
         {
-          "key.attribute": "source.decl.attribute.public",
-          "key.column": 1,
-          "key.length": 6,
-          "key.line": 28,
-          "key.offset": 1321
+          "key.attribute" : "source.decl.attribute.public",
+          "key.column" : 1,
+          "key.length" : 6,
+          "key.line" : 28,
+          "key.offset" : 1321
         }
       ],
-      "key.column": 8,
-      "key.doc.column": 12,
-      "key.doc.comment": "This special character is used as a replacement when an invalid Unicode code point is encountered.",
-      "key.doc.declaration": "public let UnicodeReplacementChar: Character",
-      "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
-      "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift\" line=\"28\" column=\"12\"><Name>UnicodeReplacementChar<\/Name><USR>s:7Rubicon22UnicodeReplacementCharSJvp<\/USR><Declaration>public let UnicodeReplacementChar: Character<\/Declaration><CommentParts><Abstract><Para>This special character is used as a replacement when an invalid Unicode code point is encountered.<\/Para><\/Abstract><\/CommentParts><\/Other>",
-      "key.doc.line": 28,
-      "key.doc.name": "UnicodeReplacementChar",
-      "key.doc.type": "Other",
-      "key.doccolumn": 1,
-      "key.doclength": 107,
-      "key.docline": 26,
-      "key.docoffset": 1214,
-      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
-      "key.fully_annotated_decl": "<decl.var.global><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>UnicodeReplacementChar<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.var.type><\/decl.var.global>",
-      "key.kind": "source.lang.swift.decl.var.global",
-      "key.length": 45,
-      "key.line": 28,
-      "key.name": "UnicodeReplacementChar",
-      "key.namecolumn": 12,
-      "key.namelength": 22,
-      "key.nameline": 28,
-      "key.nameoffset": 1332,
-      "key.offset": 1328,
-      "key.parsed_declaration": "public let UnicodeReplacementChar: Character = \"�\"",
-      "key.parsed_scope.end": 28,
-      "key.parsed_scope.start": 28,
-      "key.typename": "Character",
-      "key.typeusr": "$sSJD",
-      "key.usr": "s:7Rubicon22UnicodeReplacementCharSJvp"
+      "key.column" : 8,
+      "key.doc.column" : 12,
+      "key.doc.comment" : "This special character is used as a replacement when an invalid Unicode code point is encountered.",
+      "key.doc.declaration" : "public let UnicodeReplacementChar: Character",
+      "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
+      "key.doc.full_as_xml" : "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift\" line=\"28\" column=\"12\"><Name>UnicodeReplacementChar<\/Name><USR>s:7Rubicon22UnicodeReplacementCharSJvp<\/USR><Declaration>public let UnicodeReplacementChar: Character<\/Declaration><CommentParts><Abstract><Para>This special character is used as a replacement when an invalid Unicode code point is encountered.<\/Para><\/Abstract><\/CommentParts><\/Other>",
+      "key.doc.line" : 28,
+      "key.doc.name" : "UnicodeReplacementChar",
+      "key.doc.type" : "Other",
+      "key.doccolumn" : 1,
+      "key.doclength" : 107,
+      "key.docline" : 26,
+      "key.docoffset" : 1214,
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
+      "key.fully_annotated_decl" : "<decl.var.global><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>UnicodeReplacementChar<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.var.type><\/decl.var.global>",
+      "key.kind" : "source.lang.swift.decl.var.global",
+      "key.length" : 45,
+      "key.line" : 28,
+      "key.name" : "UnicodeReplacementChar",
+      "key.namecolumn" : 12,
+      "key.namelength" : 22,
+      "key.nameline" : 28,
+      "key.nameoffset" : 1332,
+      "key.offset" : 1328,
+      "key.parsed_declaration" : "public let UnicodeReplacementChar: Character = \"�\"",
+      "key.parsed_scope.end" : 28,
+      "key.parsed_scope.start" : 28,
+      "key.typename" : "Character",
+      "key.typeusr" : "$sSJD",
+      "key.usr" : "s:7Rubicon22UnicodeReplacementCharSJvp"
     },
     {
-      "key.annotated_decl": "<Declaration>@frozen struct Character<\/Declaration>",
-      "key.bodycolumn": 22,
-      "key.bodylength": 889,
-      "key.bodyline": 30,
-      "key.bodyoffset": 1396,
-      "key.column": 1,
-      "key.doc.declaration": "@frozen struct Character",
-      "key.doc.discussion": [
+      "key.annotated_decl" : "<Declaration>@frozen struct Character<\/Declaration>",
+      "key.bodycolumn" : 22,
+      "key.bodylength" : 889,
+      "key.bodyline" : 30,
+      "key.bodyoffset" : 1396,
+      "key.column" : 1,
+      "key.doc.declaration" : "@frozen struct Character",
+      "key.doc.discussion" : [
         {
-          "Para": "The `Character` type represents a character made up of one or more Unicode scalar values, grouped by a Unicode boundary algorithm. Generally, a `Character` instance matches what the reader of a string will perceive as a single character. Strings are collections of `Character` instances, so the number of visible characters is generally the most natural way to count the length of a string."
+          "Para" : "The `Character` type represents a character made up of one or more Unicode scalar values, grouped by a Unicode boundary algorithm. Generally, a `Character` instance matches what the reader of a string will perceive as a single character. Strings are collections of `Character` instances, so the number of visible characters is generally the most natural way to count the length of a string."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Because each character in a string can be made up of one or more Unicode scalar values, the number of characters in a string may not match the length of the Unicode scalar value representation or the length of the string in a particular binary representation."
+          "Para" : "Because each character in a string can be made up of one or more Unicode scalar values, the number of characters in a string may not match the length of the Unicode scalar value representation or the length of the string in a particular binary representation."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Every `Character` instance is composed of one or more Unicode scalar values that are grouped together as an . The way these scalar values are grouped is defined by a canonical, localized, or otherwise tailored Unicode segmentation algorithm."
+          "Para" : "Every `Character` instance is composed of one or more Unicode scalar values that are grouped together as an . The way these scalar values are grouped is defined by a canonical, localized, or otherwise tailored Unicode segmentation algorithm."
         },
         {
-          "Para": "For example, a country’s Unicode flag character is made up of two regional indicator scalar values that correspond to that country’s ISO 3166-1 alpha-2 code. The alpha-2 code for The United States is “US”, so its flag character is made up of the Unicode scalar values `\"\\u{1F1FA}\"` (REGIONAL INDICATOR SYMBOL LETTER U) and `\"\\u{1F1F8}\"` (REGIONAL INDICATOR SYMBOL LETTER S). When placed next to each other in a string literal, these two scalar values are combined into a single grapheme cluster, represented by a `Character` instance in Swift."
+          "Para" : "For example, a country’s Unicode flag character is made up of two regional indicator scalar values that correspond to that country’s ISO 3166-1 alpha-2 code. The alpha-2 code for The United States is “US”, so its flag character is made up of the Unicode scalar values `\"\\u{1F1FA}\"` (REGIONAL INDICATOR SYMBOL LETTER U) and `\"\\u{1F1F8}\"` (REGIONAL INDICATOR SYMBOL LETTER S). When placed next to each other in a string literal, these two scalar values are combined into a single grapheme cluster, represented by a `Character` instance in Swift."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "For more information about the Unicode terms used in this discussion, see the . In particular, this discussion mentions  and ."
+          "Para" : "For more information about the Unicode terms used in this discussion, see the . In particular, this discussion mentions  and ."
         }
       ],
-      "key.doc.full_as_xml": "<Class><Name>Character<\/Name><USR>s:SJ<\/USR><Declaration>@frozen struct Character<\/Declaration><CommentParts><Abstract><Para>A single extended grapheme cluster that approximates a user-perceived character.<\/Para><\/Abstract><Discussion><Para>The <codeVoice>Character<\/codeVoice> type represents a character made up of one or more Unicode scalar values, grouped by a Unicode boundary algorithm. Generally, a <codeVoice>Character<\/codeVoice> instance matches what the reader of a string will perceive as a single character. Strings are collections of <codeVoice>Character<\/codeVoice> instances, so the number of visible characters is generally the most natural way to count the length of a string.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let greeting = \"Hello! 🐥\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(\"Length: \\(greeting.count)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Length: 8\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Because each character in a string can be made up of one or more Unicode scalar values, the number of characters in a string may not match the length of the Unicode scalar value representation or the length of the string in a particular binary representation.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(\"Unicode scalar value count: \\(greeting.unicodeScalars.count)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Unicode scalar value count: 8\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(\"UTF-8 representation count: \\(greeting.utf8.count)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"UTF-8 representation count: 11\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Every <codeVoice>Character<\/codeVoice> instance is composed of one or more Unicode scalar values that are grouped together as an <emphasis>extended grapheme cluster<\/emphasis>. The way these scalar values are grouped is defined by a canonical, localized, or otherwise tailored Unicode segmentation algorithm.<\/Para><Para>For example, a country’s Unicode flag character is made up of two regional indicator scalar values that correspond to that country’s ISO 3166-1 alpha-2 code. The alpha-2 code for The United States is “US”, so its flag character is made up of the Unicode scalar values <codeVoice>&quot;\\u{1F1FA}&quot;<\/codeVoice> (REGIONAL INDICATOR SYMBOL LETTER U) and <codeVoice>&quot;\\u{1F1F8}&quot;<\/codeVoice> (REGIONAL INDICATOR SYMBOL LETTER S). When placed next to each other in a string literal, these two scalar values are combined into a single grapheme cluster, represented by a <codeVoice>Character<\/codeVoice> instance in Swift.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let usFlag: Character = \"\\u{1F1FA}\\u{1F1F8}\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(usFlag)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"🇺🇸\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>For more information about the Unicode terms used in this discussion, see the <Link href=\"http:\/\/www.unicode.org\/glossary\/\">Unicode.org glossary<\/Link>. In particular, this discussion mentions <Link href=\"http:\/\/www.unicode.org\/glossary\/#extended_grapheme_cluster\">extended grapheme clusters<\/Link> and <Link href=\"http:\/\/www.unicode.org\/glossary\/#unicode_scalar_value\">Unicode scalar values<\/Link>.<\/Para><\/Discussion><\/CommentParts><\/Class>",
-      "key.doc.name": "Character",
-      "key.doc.type": "Class",
-      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Character<\/decl.name><\/decl.struct>",
-      "key.groupname": "String",
-      "key.is_system": true,
-      "key.kind": "source.lang.swift.decl.extension",
-      "key.length": 911,
-      "key.line": 30,
-      "key.modulename": "Swift",
-      "key.name": "Character",
-      "key.namecolumn": 11,
-      "key.namelength": 9,
-      "key.nameline": 30,
-      "key.nameoffset": 1385,
-      "key.offset": 1375,
-      "key.parsed_declaration": "extension Character",
-      "key.parsed_scope.end": 54,
-      "key.parsed_scope.start": 30,
-      "key.substructure": [
+      "key.doc.full_as_xml" : "<Class><Name>Character<\/Name><USR>s:SJ<\/USR><Declaration>@frozen struct Character<\/Declaration><CommentParts><Abstract><Para>A single extended grapheme cluster that approximates a user-perceived character.<\/Para><\/Abstract><Discussion><Para>The <codeVoice>Character<\/codeVoice> type represents a character made up of one or more Unicode scalar values, grouped by a Unicode boundary algorithm. Generally, a <codeVoice>Character<\/codeVoice> instance matches what the reader of a string will perceive as a single character. Strings are collections of <codeVoice>Character<\/codeVoice> instances, so the number of visible characters is generally the most natural way to count the length of a string.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let greeting = \"Hello! 🐥\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(\"Length: \\(greeting.count)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Length: 8\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Because each character in a string can be made up of one or more Unicode scalar values, the number of characters in a string may not match the length of the Unicode scalar value representation or the length of the string in a particular binary representation.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(\"Unicode scalar value count: \\(greeting.unicodeScalars.count)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Unicode scalar value count: 8\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(\"UTF-8 representation count: \\(greeting.utf8.count)\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"UTF-8 representation count: 11\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Every <codeVoice>Character<\/codeVoice> instance is composed of one or more Unicode scalar values that are grouped together as an <emphasis>extended grapheme cluster<\/emphasis>. The way these scalar values are grouped is defined by a canonical, localized, or otherwise tailored Unicode segmentation algorithm.<\/Para><Para>For example, a country’s Unicode flag character is made up of two regional indicator scalar values that correspond to that country’s ISO 3166-1 alpha-2 code. The alpha-2 code for The United States is “US”, so its flag character is made up of the Unicode scalar values <codeVoice>&quot;\\u{1F1FA}&quot;<\/codeVoice> (REGIONAL INDICATOR SYMBOL LETTER U) and <codeVoice>&quot;\\u{1F1F8}&quot;<\/codeVoice> (REGIONAL INDICATOR SYMBOL LETTER S). When placed next to each other in a string literal, these two scalar values are combined into a single grapheme cluster, represented by a <codeVoice>Character<\/codeVoice> instance in Swift.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let usFlag: Character = \"\\u{1F1FA}\\u{1F1F8}\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(usFlag)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"🇺🇸\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>For more information about the Unicode terms used in this discussion, see the <Link href=\"http:\/\/www.unicode.org\/glossary\/\">Unicode.org glossary<\/Link>. In particular, this discussion mentions <Link href=\"http:\/\/www.unicode.org\/glossary\/#extended_grapheme_cluster\">extended grapheme clusters<\/Link> and <Link href=\"http:\/\/www.unicode.org\/glossary\/#unicode_scalar_value\">Unicode scalar values<\/Link>.<\/Para><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name" : "Character",
+      "key.doc.type" : "Class",
+      "key.fully_annotated_decl" : "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Character<\/decl.name><\/decl.struct>",
+      "key.groupname" : "String",
+      "key.is_system" : true,
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 911,
+      "key.line" : 30,
+      "key.modulename" : "Swift",
+      "key.name" : "Character",
+      "key.namecolumn" : 11,
+      "key.namelength" : 9,
+      "key.nameline" : 30,
+      "key.nameoffset" : 1385,
+      "key.offset" : 1375,
+      "key.parsed_declaration" : "extension Character",
+      "key.parsed_scope.end" : 54,
+      "key.parsed_scope.start" : 30,
+      "key.substructure" : [
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public init(codePoint: <Type usr=\"s:s6UInt32V\">UInt32<\/Type>)<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public init(codePoint: <Type usr=\"s:s6UInt32V\">UInt32<\/Type>)<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 36,
-              "key.offset": 1648
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 36,
+              "key.offset" : 1648
             }
           ],
-          "key.bodycolumn": 37,
-          "key.bodylength": 57,
-          "key.bodyline": 36,
-          "key.bodyoffset": 1680,
-          "key.column": 12,
-          "key.doc.column": 12,
-          "key.doc.comment": "Creates a new `Character` from the given UTF-32 code point.\n\n- Parameter codePoint: the code point.",
-          "key.doc.declaration": "public init(codePoint: UInt32)",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift\" line=\"36\" column=\"12\"><Name>init(codePoint:)<\/Name><USR>s:SJ7RubiconE9codePointSJs6UInt32V_tcfc<\/USR><Declaration>public init(codePoint: UInt32)<\/Declaration><CommentParts><Abstract><Para>Creates a new <codeVoice>Character<\/codeVoice> from the given UTF-32 code point.<\/Para><\/Abstract><Parameters><Parameter><Name>codePoint<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the code point.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
-          "key.doc.line": 36,
-          "key.doc.name": "init(codePoint:)",
-          "key.doc.parameters": [
+          "key.bodycolumn" : 37,
+          "key.bodylength" : 57,
+          "key.bodyline" : 36,
+          "key.bodyoffset" : 1680,
+          "key.column" : 12,
+          "key.doc.column" : 12,
+          "key.doc.comment" : "Creates a new `Character` from the given UTF-32 code point.\n\n- Parameter codePoint: the code point.",
+          "key.doc.declaration" : "public init(codePoint: UInt32)",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift\" line=\"36\" column=\"12\"><Name>init(codePoint:)<\/Name><USR>s:SJ7RubiconE9codePointSJs6UInt32V_tcfc<\/USR><Declaration>public init(codePoint: UInt32)<\/Declaration><CommentParts><Abstract><Para>Creates a new <codeVoice>Character<\/codeVoice> from the given UTF-32 code point.<\/Para><\/Abstract><Parameters><Parameter><Name>codePoint<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the code point.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line" : 36,
+          "key.doc.name" : "init(codePoint:)",
+          "key.doc.parameters" : [
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "the code point."
+                  "Para" : "the code point."
                 }
               ],
-              "name": "codePoint"
+              "name" : "codePoint"
             }
           ],
-          "key.doc.type": "Function",
-          "key.doccolumn": 5,
-          "key.doclength": 128,
-          "key.docline": 32,
-          "key.docoffset": 1516,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
-          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>codePoint<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:s6UInt32V\">UInt32<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
-          "key.groupname": "String",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 83,
-          "key.line": 36,
-          "key.name": "init(codePoint:)",
-          "key.namecolumn": 12,
-          "key.namelength": 23,
-          "key.nameline": 36,
-          "key.nameoffset": 1655,
-          "key.offset": 1655,
-          "key.parsed_declaration": "public init(codePoint: UInt32)",
-          "key.parsed_scope.end": 38,
-          "key.parsed_scope.start": 36,
-          "key.related_decls": [
+          "key.doc.type" : "Function",
+          "key.doccolumn" : 5,
+          "key.doclength" : 128,
+          "key.docline" : 32,
+          "key.docoffset" : 1516,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
+          "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>codePoint<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:s6UInt32V\">UInt32<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.groupname" : "String",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 83,
+          "key.line" : 36,
+          "key.name" : "init(codePoint:)",
+          "key.namecolumn" : 12,
+          "key.namelength" : 23,
+          "key.nameline" : 36,
+          "key.nameoffset" : 1655,
+          "key.offset" : 1655,
+          "key.parsed_declaration" : "public init(codePoint: UInt32)",
+          "key.parsed_scope.end" : 38,
+          "key.parsed_scope.start" : 36,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJ7RubiconE6scalarSJs7UnicodeO6ScalarVSg_tcfc\">init(scalar:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJ7RubiconE6scalarSJs7UnicodeO6ScalarVSg_tcfc\">init(scalar:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJySJs7UnicodeO6ScalarVcfc\">init(_: Unicode.Scalar)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJySJs7UnicodeO6ScalarVcfc\">init(_: Unicode.Scalar)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJ28_builtinUnicodeScalarLiteralSJBi32__tcfc\">init(_builtinUnicodeScalarLiteral:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJ28_builtinUnicodeScalarLiteralSJBi32__tcfc\">init(_builtinUnicodeScalarLiteral:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJ38_builtinExtendedGraphemeClusterLiteral17utf8CodeUnitCount7isASCIISJBp_BwBi1_tcfc\">init(_builtinExtendedGraphemeClusterLiteral:utf8CodeUnitCount:isASCII:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJ38_builtinExtendedGraphemeClusterLiteral17utf8CodeUnitCount7isASCIISJBp_BwBi1_tcfc\">init(_builtinExtendedGraphemeClusterLiteral:utf8CodeUnitCount:isASCII:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJ30extendedGraphemeClusterLiteralS2J_tcfc\">init(extendedGraphemeClusterLiteral:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJ30extendedGraphemeClusterLiteralS2J_tcfc\">init(extendedGraphemeClusterLiteral:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJySJSScfc\">init(_: String)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJySJSScfc\">init(_: String)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "(Character.Type) -> (UInt32) -> Character",
-          "key.typeusr": "$s9codePointSJs6UInt32V_tcD",
-          "key.usr": "s:SJ7RubiconE9codePointSJs6UInt32V_tcfc"
+          "key.typename" : "(Character.Type) -> (UInt32) -> Character",
+          "key.typeusr" : "$s9codePointSJs6UInt32V_tcD",
+          "key.usr" : "s:SJ7RubiconE9codePointSJs6UInt32V_tcfc"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public init(scalar s: <Type usr=\"s:s13UnicodeScalara\">UnicodeScalar<\/Type>?)<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public init(scalar s: <Type usr=\"s:s13UnicodeScalara\">UnicodeScalar<\/Type>?)<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 46,
-              "key.offset": 2088
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 46,
+              "key.offset" : 2088
             }
           ],
-          "key.bodycolumn": 44,
-          "key.bodylength": 156,
-          "key.bodyline": 46,
-          "key.bodyoffset": 2127,
-          "key.column": 12,
-          "key.doc.column": 12,
-          "key.doc.comment": "Creates a new `Character` from the given `UnicodeScalar`. If the scalar is `nil` then an instance of the\n`UnicodeReplacementChar` (�) will be created.\n\n- Parameter s: the Unicode Scalar.",
-          "key.doc.declaration": "public init(scalar s: UnicodeScalar?)",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift\" line=\"46\" column=\"12\"><Name>init(scalar:)<\/Name><USR>s:SJ7RubiconE6scalarSJs7UnicodeO6ScalarVSg_tcfc<\/USR><Declaration>public init(scalar s: UnicodeScalar?)<\/Declaration><CommentParts><Abstract><Para>Creates a new <codeVoice>Character<\/codeVoice> from the given <codeVoice>UnicodeScalar<\/codeVoice>. If the scalar is <codeVoice>nil<\/codeVoice> then an instance of the <codeVoice>UnicodeReplacementChar<\/codeVoice> (�) will be created.<\/Para><\/Abstract><Parameters><Parameter><Name>s<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the Unicode Scalar.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
-          "key.doc.line": 46,
-          "key.doc.name": "init(scalar:)",
-          "key.doc.parameters": [
+          "key.bodycolumn" : 44,
+          "key.bodylength" : 156,
+          "key.bodyline" : 46,
+          "key.bodyoffset" : 2127,
+          "key.column" : 12,
+          "key.doc.column" : 12,
+          "key.doc.comment" : "Creates a new `Character` from the given `UnicodeScalar`. If the scalar is `nil` then an instance of the\n`UnicodeReplacementChar` (�) will be created.\n\n- Parameter s: the Unicode Scalar.",
+          "key.doc.declaration" : "public init(scalar s: UnicodeScalar?)",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift\" line=\"46\" column=\"12\"><Name>init(scalar:)<\/Name><USR>s:SJ7RubiconE6scalarSJs7UnicodeO6ScalarVSg_tcfc<\/USR><Declaration>public init(scalar s: UnicodeScalar?)<\/Declaration><CommentParts><Abstract><Para>Creates a new <codeVoice>Character<\/codeVoice> from the given <codeVoice>UnicodeScalar<\/codeVoice>. If the scalar is <codeVoice>nil<\/codeVoice> then an instance of the <codeVoice>UnicodeReplacementChar<\/codeVoice> (�) will be created.<\/Para><\/Abstract><Parameters><Parameter><Name>s<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the Unicode Scalar.<\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line" : 46,
+          "key.doc.name" : "init(scalar:)",
+          "key.doc.parameters" : [
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "the Unicode Scalar."
+                  "Para" : "the Unicode Scalar."
                 }
               ],
-              "name": "s"
+              "name" : "s"
             }
           ],
-          "key.doc.type": "Function",
-          "key.doccolumn": 5,
-          "key.doclength": 225,
-          "key.docline": 41,
-          "key.docoffset": 1859,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
-          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>scalar<\/decl.var.parameter.argument_label> <decl.var.parameter.name>s<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.typealias usr=\"s:s13UnicodeScalara\">UnicodeScalar<\/ref.typealias>?<\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
-          "key.groupname": "String",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 189,
-          "key.line": 46,
-          "key.name": "init(scalar:)",
-          "key.namecolumn": 12,
-          "key.namelength": 30,
-          "key.nameline": 46,
-          "key.nameoffset": 2095,
-          "key.offset": 2095,
-          "key.parsed_declaration": "public init(scalar s: UnicodeScalar?)",
-          "key.parsed_scope.end": 53,
-          "key.parsed_scope.start": 46,
-          "key.related_decls": [
+          "key.doc.type" : "Function",
+          "key.doccolumn" : 5,
+          "key.doclength" : 225,
+          "key.docline" : 41,
+          "key.docoffset" : 1859,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Character.swift",
+          "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>scalar<\/decl.var.parameter.argument_label> <decl.var.parameter.name>s<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.typealias usr=\"s:s13UnicodeScalara\">UnicodeScalar<\/ref.typealias>?<\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.groupname" : "String",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 189,
+          "key.line" : 46,
+          "key.name" : "init(scalar:)",
+          "key.namecolumn" : 12,
+          "key.namelength" : 30,
+          "key.nameline" : 46,
+          "key.nameoffset" : 2095,
+          "key.offset" : 2095,
+          "key.parsed_declaration" : "public init(scalar s: UnicodeScalar?)",
+          "key.parsed_scope.end" : 53,
+          "key.parsed_scope.start" : 46,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJ7RubiconE9codePointSJs6UInt32V_tcfc\">init(codePoint:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJ7RubiconE9codePointSJs6UInt32V_tcfc\">init(codePoint:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJySJs7UnicodeO6ScalarVcfc\">init(_: Unicode.Scalar)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJySJs7UnicodeO6ScalarVcfc\">init(_: Unicode.Scalar)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJ28_builtinUnicodeScalarLiteralSJBi32__tcfc\">init(_builtinUnicodeScalarLiteral:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJ28_builtinUnicodeScalarLiteralSJBi32__tcfc\">init(_builtinUnicodeScalarLiteral:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJ38_builtinExtendedGraphemeClusterLiteral17utf8CodeUnitCount7isASCIISJBp_BwBi1_tcfc\">init(_builtinExtendedGraphemeClusterLiteral:utf8CodeUnitCount:isASCII:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJ38_builtinExtendedGraphemeClusterLiteral17utf8CodeUnitCount7isASCIISJBp_BwBi1_tcfc\">init(_builtinExtendedGraphemeClusterLiteral:utf8CodeUnitCount:isASCII:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJ30extendedGraphemeClusterLiteralS2J_tcfc\">init(extendedGraphemeClusterLiteral:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJ30extendedGraphemeClusterLiteralS2J_tcfc\">init(extendedGraphemeClusterLiteral:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:SJySJSScfc\">init(_: String)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:SJySJSScfc\">init(_: String)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "(Character.Type) -> (Unicode.Scalar?) -> Character",
-          "key.typeusr": "$s6scalarSJs7UnicodeO6ScalarVSg_tcD",
-          "key.usr": "s:SJ7RubiconE6scalarSJs7UnicodeO6ScalarVSg_tcfc"
+          "key.typename" : "(Character.Type) -> (Unicode.Scalar?) -> Character",
+          "key.typeusr" : "$s6scalarSJs7UnicodeO6ScalarVSg_tcD",
+          "key.usr" : "s:SJ7RubiconE6scalarSJs7UnicodeO6ScalarVSg_tcfc"
         }
       ],
-      "key.typename": "Character.Type",
-      "key.typeusr": "$sSJmD",
-      "key.usr": "s:SJ"
+      "key.typename" : "Character.Type",
+      "key.typeusr" : "$sSJmD",
+      "key.usr" : "s:SJ"
     }
   ]
 }

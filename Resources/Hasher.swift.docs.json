@@ -1,138 +1,138 @@
 {
-  "key.column": 1,
-  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
-  "key.length": 1263,
-  "key.line": 1,
-  "key.offset": 0,
-  "key.substructure": [
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 1263,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
     {
-      "key.annotated_decl": "<Declaration>@frozen struct Hasher<\/Declaration>",
-      "key.bodycolumn": 19,
-      "key.bodylength": 115,
-      "key.bodyline": 21,
-      "key.bodyoffset": 1146,
-      "key.column": 1,
-      "key.doc.declaration": "@frozen struct Hasher",
-      "key.doc.discussion": [
+      "key.annotated_decl" : "<Declaration>@frozen struct Hasher<\/Declaration>",
+      "key.bodycolumn" : 19,
+      "key.bodylength" : 115,
+      "key.bodyline" : 21,
+      "key.bodyoffset" : 1146,
+      "key.column" : 1,
+      "key.doc.declaration" : "@frozen struct Hasher",
+      "key.doc.discussion" : [
         {
-          "Para": "`Hasher` can be used to map an arbitrary sequence of bytes to an integer hash value. You can feed data to the hasher using a series of calls to mutating `combine` methods. When you’ve finished feeding the hasher, the hash value can be retrieved by calling `finalize()`:"
+          "Para" : "`Hasher` can be used to map an arbitrary sequence of bytes to an integer hash value. You can feed data to the hasher using a series of calls to mutating `combine` methods. When you’ve finished feeding the hasher, the hash value can be retrieved by calling `finalize()`:"
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Within the execution of a Swift program, `Hasher` guarantees that finalizing it will always produce the same hash value as long as it is fed the exact same sequence of bytes. However, the underlying hash algorithm is designed to exhibit avalanche effects: slight changes to the seed or the input byte sequence will typically produce drastic changes in the generated hash value."
+          "Para" : "Within the execution of a Swift program, `Hasher` guarantees that finalizing it will always produce the same hash value as long as it is fed the exact same sequence of bytes. However, the underlying hash algorithm is designed to exhibit avalanche effects: slight changes to the seed or the input byte sequence will typically produce drastic changes in the generated hash value."
         },
         {
-          "Note": ""
+          "Note" : ""
         }
       ],
-      "key.doc.full_as_xml": "<Class><Name>Hasher<\/Name><USR>s:s6HasherV<\/USR><Declaration>@frozen struct Hasher<\/Declaration><CommentParts><Abstract><Para>The universal hash function used by <codeVoice>Set<\/codeVoice> and <codeVoice>Dictionary<\/codeVoice>.<\/Para><\/Abstract><Discussion><Para><codeVoice>Hasher<\/codeVoice> can be used to map an arbitrary sequence of bytes to an integer hash value. You can feed data to the hasher using a series of calls to mutating <codeVoice>combine<\/codeVoice> methods. When you’ve finished feeding the hasher, the hash value can be retrieved by calling <codeVoice>finalize()<\/codeVoice>:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var hasher = Hasher()]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[hasher.combine(23)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[hasher.combine(\"Hello\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let hashValue = hasher.finalize()]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Within the execution of a Swift program, <codeVoice>Hasher<\/codeVoice> guarantees that finalizing it will always produce the same hash value as long as it is fed the exact same sequence of bytes. However, the underlying hash algorithm is designed to exhibit avalanche effects: slight changes to the seed or the input byte sequence will typically produce drastic changes in the generated hash value.<\/Para><Note><Para>Do not save or otherwise reuse hash values across executions of your program. <codeVoice>Hasher<\/codeVoice> is usually randomly seeded, which means it will return different values on every new execution of your program. The hash algorithm implemented by <codeVoice>Hasher<\/codeVoice> may itself change between any two versions of the standard library.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Class>",
-      "key.doc.name": "Hasher",
-      "key.doc.type": "Class",
-      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Hasher<\/decl.name><\/decl.struct>",
-      "key.groupname": "Hashing",
-      "key.is_system": true,
-      "key.kind": "source.lang.swift.decl.extension",
-      "key.length": 134,
-      "key.line": 21,
-      "key.modulename": "Swift",
-      "key.name": "Hasher",
-      "key.namecolumn": 11,
-      "key.namelength": 6,
-      "key.nameline": 21,
-      "key.nameoffset": 1138,
-      "key.offset": 1128,
-      "key.parsed_declaration": "extension Hasher",
-      "key.parsed_scope.end": 23,
-      "key.parsed_scope.start": 21,
-      "key.substructure": [
+      "key.doc.full_as_xml" : "<Class><Name>Hasher<\/Name><USR>s:s6HasherV<\/USR><Declaration>@frozen struct Hasher<\/Declaration><CommentParts><Abstract><Para>The universal hash function used by <codeVoice>Set<\/codeVoice> and <codeVoice>Dictionary<\/codeVoice>.<\/Para><\/Abstract><Discussion><Para><codeVoice>Hasher<\/codeVoice> can be used to map an arbitrary sequence of bytes to an integer hash value. You can feed data to the hasher using a series of calls to mutating <codeVoice>combine<\/codeVoice> methods. When you’ve finished feeding the hasher, the hash value can be retrieved by calling <codeVoice>finalize()<\/codeVoice>:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var hasher = Hasher()]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[hasher.combine(23)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[hasher.combine(\"Hello\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let hashValue = hasher.finalize()]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Within the execution of a Swift program, <codeVoice>Hasher<\/codeVoice> guarantees that finalizing it will always produce the same hash value as long as it is fed the exact same sequence of bytes. However, the underlying hash algorithm is designed to exhibit avalanche effects: slight changes to the seed or the input byte sequence will typically produce drastic changes in the generated hash value.<\/Para><Note><Para>Do not save or otherwise reuse hash values across executions of your program. <codeVoice>Hasher<\/codeVoice> is usually randomly seeded, which means it will return different values on every new execution of your program. The hash algorithm implemented by <codeVoice>Hasher<\/codeVoice> may itself change between any two versions of the standard library.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name" : "Hasher",
+      "key.doc.type" : "Class",
+      "key.fully_annotated_decl" : "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Hasher<\/decl.name><\/decl.struct>",
+      "key.groupname" : "Hashing",
+      "key.is_system" : true,
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 134,
+      "key.line" : 21,
+      "key.modulename" : "Swift",
+      "key.name" : "Hasher",
+      "key.namecolumn" : 11,
+      "key.namelength" : 6,
+      "key.nameline" : 21,
+      "key.nameoffset" : 1138,
+      "key.offset" : 1128,
+      "key.parsed_declaration" : "extension Hasher",
+      "key.parsed_scope.end" : 23,
+      "key.parsed_scope.start" : 21,
+      "key.substructure" : [
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>@inlinable public mutating func combine&lt;H&gt;(values: <Type usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\">H<\/Type>...) where <Type usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\">H<\/Type> : <Type usr=\"s:SH\">Hashable<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>@inlinable public mutating func combine&lt;H&gt;(values: <Type usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\">H<\/Type>...) where <Type usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\">H<\/Type> : <Type usr=\"s:SH\">Hashable<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.mutating",
-              "key.column": 23,
-              "key.length": 8,
-              "key.line": 22,
-              "key.offset": 1169
+              "key.attribute" : "source.decl.attribute.mutating",
+              "key.column" : 23,
+              "key.length" : 8,
+              "key.line" : 22,
+              "key.offset" : 1169
             },
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 16,
-              "key.length": 6,
-              "key.line": 22,
-              "key.offset": 1162
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 16,
+              "key.length" : 6,
+              "key.line" : 22,
+              "key.offset" : 1162
             },
             {
-              "key.attribute": "source.decl.attribute.inlinable",
-              "key.column": 5,
-              "key.length": 10,
-              "key.line": 22,
-              "key.offset": 1151
+              "key.attribute" : "source.decl.attribute.inlinable",
+              "key.column" : 5,
+              "key.length" : 10,
+              "key.line" : 22,
+              "key.offset" : 1151
             }
           ],
-          "key.bodycolumn": 81,
-          "key.bodylength": 32,
-          "key.bodyline": 22,
-          "key.bodyoffset": 1227,
-          "key.column": 32,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Hasher.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>combine<\/decl.name>&lt;<decl.generic_type_param usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\"><decl.generic_type_param.name>H<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>values<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\">H<\/ref.generic_type_param><\/decl.var.parameter.type>...<\/decl.var.parameter>) <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\">H<\/ref.generic_type_param> : <ref.protocol usr=\"s:SH\">Hashable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.method.instance>",
-          "key.groupname": "Hashing",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 82,
-          "key.line": 22,
-          "key.name": "combine(values:)",
-          "key.namecolumn": 37,
-          "key.namelength": 24,
-          "key.nameline": 22,
-          "key.nameoffset": 1183,
-          "key.offset": 1178,
-          "key.parsed_declaration": "@inlinable public mutating func combine<H>(values: H...) where H: Hashable",
-          "key.parsed_scope.end": 22,
-          "key.parsed_scope.start": 22,
-          "key.related_decls": [
+          "key.bodycolumn" : 81,
+          "key.bodylength" : 32,
+          "key.bodyline" : 22,
+          "key.bodyoffset" : 1227,
+          "key.column" : 32,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Hasher.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>combine<\/decl.name>&lt;<decl.generic_type_param usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\"><decl.generic_type_param.name>H<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>values<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\">H<\/ref.generic_type_param><\/decl.var.parameter.type>...<\/decl.var.parameter>) <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp\">H<\/ref.generic_type_param> : <ref.protocol usr=\"s:SH\">Hashable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.groupname" : "Hashing",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 82,
+          "key.line" : 22,
+          "key.name" : "combine(values:)",
+          "key.namecolumn" : 37,
+          "key.namelength" : 24,
+          "key.nameline" : 22,
+          "key.nameoffset" : 1183,
+          "key.offset" : 1178,
+          "key.parsed_declaration" : "@inlinable public mutating func combine<H>(values: H...) where H: Hashable",
+          "key.parsed_scope.end" : 22,
+          "key.parsed_scope.start" : 22,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:s6HasherV7combineyyxSHRzlF\">combine(_:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:s6HasherV7combineyyxSHRzlF\">combine(_:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:s6HasherV7combine5bytesySW_tF\">combine(bytes:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:s6HasherV7combine5bytesySW_tF\">combine(bytes:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>H<\/Declaration>",
-              "key.column": 45,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Hasher.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>H<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.groupname": "Hashing",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 22,
-              "key.name": "H",
-              "key.namecolumn": 45,
-              "key.namelength": 1,
-              "key.nameline": 22,
-              "key.nameoffset": 1191,
-              "key.offset": 1191,
-              "key.parsed_declaration": "@inlinable public mutating func combine<H",
-              "key.parsed_scope.end": 22,
-              "key.parsed_scope.start": 22,
-              "key.typename": "H.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp"
+              "key.annotated_decl" : "<Declaration>H<\/Declaration>",
+              "key.column" : 45,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/Hasher.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>H<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.groupname" : "Hashing",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 22,
+              "key.name" : "H",
+              "key.namecolumn" : 45,
+              "key.namelength" : 1,
+              "key.nameline" : 22,
+              "key.nameoffset" : 1191,
+              "key.offset" : 1191,
+              "key.parsed_declaration" : "@inlinable public mutating func combine<H",
+              "key.parsed_scope.end" : 22,
+              "key.parsed_scope.start" : 22,
+              "key.typename" : "H.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF1HL_xmfp"
             }
           ],
-          "key.typename": "<H where H : Hashable> (inout Hasher) -> (H...) -> ()",
-          "key.typeusr": "$s6valuesyxd_tcSHRzluD",
-          "key.usr": "s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF"
+          "key.typename" : "<H where H : Hashable> (inout Hasher) -> (H...) -> ()",
+          "key.typeusr" : "$s6valuesyxd_tcSHRzluD",
+          "key.usr" : "s:s6HasherV7RubiconE7combine6valuesyxd_tSHRzlF"
         }
       ],
-      "key.typename": "Hasher.Type",
-      "key.typeusr": "$ss6HasherVmD",
-      "key.usr": "s:s6HasherV"
+      "key.typename" : "Hasher.Type",
+      "key.typeusr" : "$ss6HasherVmD",
+      "key.usr" : "s:s6HasherV"
     }
   ]
 }

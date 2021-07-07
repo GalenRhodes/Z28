@@ -1,569 +1,576 @@
 {
-  "key.column": 1,
-  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
-  "key.length": 2881,
-  "key.line": 1,
-  "key.offset": 0,
-  "key.substructure": [
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 2881,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
     {
-      "key.annotated_decl": "<Declaration>protocol BinaryInteger : <Type usr=\"s:s23CustomStringConvertibleP\">CustomStringConvertible<\/Type>, <Type usr=\"s:SH\">Hashable<\/Type>, <Type usr=\"s:Sj\">Numeric<\/Type>, <Type usr=\"s:Sx\">Strideable<\/Type> where <Type usr=\"s:Sz4Selfxmfp\">Self<\/Type>.<Type usr=\"s:Sj9MagnitudeQa\">Magnitude<\/Type> : <Type usr=\"s:Sz\">BinaryInteger<\/Type>, <Type usr=\"s:Sz4Selfxmfp\">Self<\/Type>.<Type usr=\"s:Sj9MagnitudeQa\">Magnitude<\/Type> == <Type usr=\"s:Sz4Selfxmfp\">Self<\/Type>.<Type usr=\"s:Sj9MagnitudeQa\">Magnitude<\/Type>.<Type usr=\"s:Sj9MagnitudeQa\">Magnitude<\/Type><\/Declaration>",
-      "key.bodycolumn": 26,
-      "key.bodylength": 1673,
-      "key.bodyline": 23,
-      "key.bodyoffset": 1206,
-      "key.column": 1,
-      "key.doc.declaration": "protocol BinaryInteger : CustomStringConvertible, Hashable, Numeric, Strideable where Self.Magnitude : BinaryInteger, Self.Magnitude == Self.Magnitude.Magnitude",
-      "key.doc.discussion": [
+      "key.annotated_decl" : "<Declaration>protocol BinaryInteger : <Type usr=\"s:s23CustomStringConvertibleP\">CustomStringConvertible<\/Type>, <Type usr=\"s:SH\">Hashable<\/Type>, <Type usr=\"s:Sj\">Numeric<\/Type>, <Type usr=\"s:Sx\">Strideable<\/Type> where <Type usr=\"s:Sz4Selfxmfp\">Self<\/Type>.<Type usr=\"s:Sj9MagnitudeQa\">Magnitude<\/Type> : <Type usr=\"s:Sz\">BinaryInteger<\/Type>, <Type usr=\"s:Sz4Selfxmfp\">Self<\/Type>.<Type usr=\"s:Sj9MagnitudeQa\">Magnitude<\/Type> == <Type usr=\"s:Sz4Selfxmfp\">Self<\/Type>.<Type usr=\"s:Sj9MagnitudeQa\">Magnitude<\/Type>.<Type usr=\"s:Sj9MagnitudeQa\">Magnitude<\/Type><\/Declaration>",
+      "key.bodycolumn" : 26,
+      "key.bodylength" : 1673,
+      "key.bodyline" : 23,
+      "key.bodyoffset" : 1206,
+      "key.column" : 1,
+      "key.doc.declaration" : "protocol BinaryInteger : CustomStringConvertible, Hashable, Numeric, Strideable where Self.Magnitude : BinaryInteger, Self.Magnitude == Self.Magnitude.Magnitude",
+      "key.doc.discussion" : [
         {
-          "Para": "The `BinaryInteger` protocol is the basis for all the integer types provided by the standard library. All of the standard library’s integer types, such as `Int` and `UInt32`, conform to `BinaryInteger`."
+          "Para" : "The `BinaryInteger` protocol is the basis for all the integer types provided by the standard library. All of the standard library’s integer types, such as `Int` and `UInt32`, conform to `BinaryInteger`."
         },
         {
-          "Para": "You can create new instances of a type that conforms to the `BinaryInteger` protocol from a floating-point number or another binary integer of any type. The `BinaryInteger` protocol provides initializers for four different kinds of conversion."
+          "Para" : "You can create new instances of a type that conforms to the `BinaryInteger` protocol from a floating-point number or another binary integer of any type. The `BinaryInteger` protocol provides initializers for four different kinds of conversion."
         },
         {
-          "Para": "You use the default `init(_:)` initializer to create a new instance when you’re sure that the value passed is representable in the new type. For example, an instance of `Int16` can represent the value `500`, so the first conversion in the code sample below succeeds. That same value is too large to represent as an `Int8` instance, so the second conversion fails, triggering a runtime error."
+          "Para" : "You use the default `init(_:)` initializer to create a new instance when you’re sure that the value passed is representable in the new type. For example, an instance of `Int16` can represent the value `500`, so the first conversion in the code sample below succeeds. That same value is too large to represent as an `Int8` instance, so the second conversion fails, triggering a runtime error."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "When you create a binary integer from a floating-point value using the default initializer, the value is rounded toward zero before the range is checked. In the following example, the value `127.75` is rounded to `127`, which is representable by the `Int8` type.  `128.25` is rounded to `128`, which is not representable as an `Int8` instance, triggering a runtime error."
+          "Para" : "When you create a binary integer from a floating-point value using the default initializer, the value is rounded toward zero before the range is checked. In the following example, the value `127.75` is rounded to `127`, which is representable by the `Int8` type.  `128.25` is rounded to `128`, which is not representable as an `Int8` instance, triggering a runtime error."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Use the `init?(exactly:)` initializer to create a new instance after checking whether the passed value is representable. Instead of trapping on out-of-range values, using the failable `init?(exactly:)` initializer results in `nil`."
+          "Para" : "Use the `init?(exactly:)` initializer to create a new instance after checking whether the passed value is representable. Instead of trapping on out-of-range values, using the failable `init?(exactly:)` initializer results in `nil`."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "When converting floating-point values, the `init?(exactly:)` initializer checks both that the passed value has no fractional part and that the value is representable in the resulting type."
+          "Para" : "When converting floating-point values, the `init?(exactly:)` initializer checks both that the passed value has no fractional part and that the value is representable in the resulting type."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Use the `init(clamping:)` initializer to create a new instance of a binary integer type where out-of-range values are clamped to the representable range of the type. For a type `T`, the resulting value is in the range `T.min...T.max`."
+          "Para" : "Use the `init(clamping:)` initializer to create a new instance of a binary integer type where out-of-range values are clamped to the representable range of the type. For a type `T`, the resulting value is in the range `T.min...T.max`."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Use the `init(truncatingIfNeeded:)` initializer to create a new instance with the same bit pattern as the passed value, extending or truncating the value’s representation as necessary. Note that the value may not be preserved, particularly when converting between signed to unsigned integer types or when the destination type has a smaller bit width than the source type. The following example shows how extending and truncating work for nonnegative integers:"
+          "Para" : "Use the `init(truncatingIfNeeded:)` initializer to create a new instance with the same bit pattern as the passed value, extending or truncating the value’s representation as necessary. Note that the value may not be preserved, particularly when converting between signed to unsigned integer types or when the destination type has a smaller bit width than the source type. The following example shows how extending and truncating work for nonnegative integers:"
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "Any padding is performed by  the passed value. When nonnegative integers are extended, the result is padded with zeroes. When negative integers are extended, the result is padded with ones. This example shows several extending conversions of a negative value—note that negative values are sign-extended even when converting to an unsigned type."
+          "Para" : "Any padding is performed by  the passed value. When nonnegative integers are extended, the result is padded with zeroes. When negative integers are extended, the result is padded with ones. This example shows several extending conversions of a negative value—note that negative values are sign-extended even when converting to an unsigned type."
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         },
         {
-          "Para": "You can use relational operators, such as the less-than and equal-to operators (`<` and `==`), to compare instances of different binary integer types. The following example compares instances of the `Int`, `UInt`, and `UInt8` types:"
+          "Para" : "You can use relational operators, such as the less-than and equal-to operators (`<` and `==`), to compare instances of different binary integer types. The following example compares instances of the `Int`, `UInt`, and `UInt8` types:"
         },
         {
-          "CodeListing": ""
+          "CodeListing" : ""
         }
       ],
-      "key.doc.full_as_xml": "<Class><Name>BinaryInteger<\/Name><USR>s:Sz<\/USR><Declaration>protocol BinaryInteger : CustomStringConvertible, Hashable, Numeric, Strideable where Self.Magnitude : BinaryInteger, Self.Magnitude == Self.Magnitude.Magnitude<\/Declaration><CommentParts><Abstract><Para>An integer type with a binary representation.<\/Para><\/Abstract><Discussion><Para>The <codeVoice>BinaryInteger<\/codeVoice> protocol is the basis for all the integer types provided by the standard library. All of the standard library’s integer types, such as <codeVoice>Int<\/codeVoice> and <codeVoice>UInt32<\/codeVoice>, conform to <codeVoice>BinaryInteger<\/codeVoice>.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Converting Between Numeric Types<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>You can create new instances of a type that conforms to the <codeVoice>BinaryInteger<\/codeVoice> protocol from a floating-point number or another binary integer of any type. The <codeVoice>BinaryInteger<\/codeVoice> protocol provides initializers for four different kinds of conversion.<\/Para><rawHTML><![CDATA[<h2>]]><\/rawHTML>Range-Checked Conversion<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>You use the default <codeVoice>init(_:)<\/codeVoice> initializer to create a new instance when you’re sure that the value passed is representable in the new type. For example, an instance of <codeVoice>Int16<\/codeVoice> can represent the value <codeVoice>500<\/codeVoice>, so the first conversion in the code sample below succeeds. That same value is too large to represent as an <codeVoice>Int8<\/codeVoice> instance, so the second conversion fails, triggering a runtime error.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let x: Int = 500]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let y = Int16(x)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ y == 500]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let z = Int8(x)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Error: Not enough bits to represent...]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>When you create a binary integer from a floating-point value using the default initializer, the value is rounded toward zero before the range is checked. In the following example, the value <codeVoice>127.75<\/codeVoice> is rounded to <codeVoice>127<\/codeVoice>, which is representable by the <codeVoice>Int8<\/codeVoice> type.  <codeVoice>128.25<\/codeVoice> is rounded to <codeVoice>128<\/codeVoice>, which is not representable as an <codeVoice>Int8<\/codeVoice> instance, triggering a runtime error.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let e = Int8(127.75)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ e == 127]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let f = Int8(128.25)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Error: Double value cannot be converted...]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Exact Conversion<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>Use the <codeVoice>init?(exactly:)<\/codeVoice> initializer to create a new instance after checking whether the passed value is representable. Instead of trapping on out-of-range values, using the failable <codeVoice>init?(exactly:)<\/codeVoice> initializer results in <codeVoice>nil<\/codeVoice>.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let x = Int16(exactly: 500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ x == Optional(500)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let y = Int8(exactly: 500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ y == nil]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>When converting floating-point values, the <codeVoice>init?(exactly:)<\/codeVoice> initializer checks both that the passed value has no fractional part and that the value is representable in the resulting type.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let e = Int8(exactly: 23.0)       \/\/ integral value, representable]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ e == Optional(23)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let f = Int8(exactly: 23.75)      \/\/ fractional value, representable]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ f == nil]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let g = Int8(exactly: 500.0)      \/\/ integral value, nonrepresentable]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ g == nil]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Clamping Conversion<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>Use the <codeVoice>init(clamping:)<\/codeVoice> initializer to create a new instance of a binary integer type where out-of-range values are clamped to the representable range of the type. For a type <codeVoice>T<\/codeVoice>, the resulting value is in the range <codeVoice>T.min...T.max<\/codeVoice>.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let x = Int16(clamping: 500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ x == 500]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let y = Int8(clamping: 500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ y == 127]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let z = UInt8(clamping: -500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ z == 0]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Bit Pattern Conversion<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>Use the <codeVoice>init(truncatingIfNeeded:)<\/codeVoice> initializer to create a new instance with the same bit pattern as the passed value, extending or truncating the value’s representation as necessary. Note that the value may not be preserved, particularly when converting between signed to unsigned integer types or when the destination type has a smaller bit width than the source type. The following example shows how extending and truncating work for nonnegative integers:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let q: Int16 = 850]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ q == 0b00000011_01010010]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let r = Int8(truncatingIfNeeded: q)      \/\/ truncate 'q' to fit in 8 bits]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ r == 82]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/   == 0b01010010]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let s = Int16(truncatingIfNeeded: r)     \/\/ extend 'r' to fill 16 bits]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ s == 82]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/   == 0b00000000_01010010]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Any padding is performed by <emphasis>sign-extending<\/emphasis> the passed value. When nonnegative integers are extended, the result is padded with zeroes. When negative integers are extended, the result is padded with ones. This example shows several extending conversions of a negative value—note that negative values are sign-extended even when converting to an unsigned type.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let t: Int8 = -100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ t == -100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ t's binary representation == 0b10011100]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let u = UInt8(truncatingIfNeeded: t)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ u == 156]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ u's binary representation == 0b10011100]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let v = Int16(truncatingIfNeeded: t)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ v == -100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ v's binary representation == 0b11111111_10011100]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let w = UInt16(truncatingIfNeeded: t)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ w == 65436]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ w's binary representation == 0b11111111_10011100]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Comparing Across Integer Types<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>You can use relational operators, such as the less-than and equal-to operators (<codeVoice>&lt;<\/codeVoice> and <codeVoice>==<\/codeVoice>), to compare instances of different binary integer types. The following example compares instances of the <codeVoice>Int<\/codeVoice>, <codeVoice>UInt<\/codeVoice>, and <codeVoice>UInt8<\/codeVoice> types:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let x: Int = -23]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let y: UInt = 1_000]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let z: UInt8 = 23]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if x < y {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"\\(x) is less than \\(y).\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"-23 is less than 1000.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if z > x {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"\\(z) is greater than \\(x).\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"23 is greater than -23.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Class>",
-      "key.doc.name": "BinaryInteger",
-      "key.doc.type": "Class",
-      "key.fully_annotated_decl": "<decl.protocol><syntaxtype.keyword>protocol<\/syntaxtype.keyword> <decl.name>BinaryInteger<\/decl.name> : <ref.protocol usr=\"s:s23CustomStringConvertibleP\">CustomStringConvertible<\/ref.protocol>, <ref.protocol usr=\"s:SH\">Hashable<\/ref.protocol>, <ref.protocol usr=\"s:Sj\">Numeric<\/ref.protocol>, <ref.protocol usr=\"s:Sx\">Strideable<\/ref.protocol> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sz4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:Sj9MagnitudeQa\">Magnitude<\/ref.associatedtype> : <ref.protocol usr=\"s:Sz\">BinaryInteger<\/ref.protocol><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sz4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:Sj9MagnitudeQa\">Magnitude<\/ref.associatedtype> == <ref.generic_type_param usr=\"s:Sz4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:Sj9MagnitudeQa\">Magnitude<\/ref.associatedtype>.<ref.associatedtype usr=\"s:Sj9MagnitudeQa\">Magnitude<\/ref.associatedtype><\/decl.generic_type_requirement><\/decl.protocol>",
-      "key.groupname": "Math\/Integers",
-      "key.is_system": true,
-      "key.kind": "source.lang.swift.decl.extension",
-      "key.length": 1699,
-      "key.line": 23,
-      "key.modulename": "Swift",
-      "key.name": "BinaryInteger",
-      "key.namecolumn": 11,
-      "key.namelength": 13,
-      "key.nameline": 23,
-      "key.nameoffset": 1191,
-      "key.offset": 1181,
-      "key.parsed_declaration": "extension BinaryInteger",
-      "key.parsed_scope.end": 57,
-      "key.parsed_scope.start": 23,
-      "key.substructure": [
+      "key.doc.full_as_xml" : "<Class><Name>BinaryInteger<\/Name><USR>s:Sz<\/USR><Declaration>protocol BinaryInteger : CustomStringConvertible, Hashable, Numeric, Strideable where Self.Magnitude : BinaryInteger, Self.Magnitude == Self.Magnitude.Magnitude<\/Declaration><CommentParts><Abstract><Para>An integer type with a binary representation.<\/Para><\/Abstract><Discussion><Para>The <codeVoice>BinaryInteger<\/codeVoice> protocol is the basis for all the integer types provided by the standard library. All of the standard library’s integer types, such as <codeVoice>Int<\/codeVoice> and <codeVoice>UInt32<\/codeVoice>, conform to <codeVoice>BinaryInteger<\/codeVoice>.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Converting Between Numeric Types<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>You can create new instances of a type that conforms to the <codeVoice>BinaryInteger<\/codeVoice> protocol from a floating-point number or another binary integer of any type. The <codeVoice>BinaryInteger<\/codeVoice> protocol provides initializers for four different kinds of conversion.<\/Para><rawHTML><![CDATA[<h2>]]><\/rawHTML>Range-Checked Conversion<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>You use the default <codeVoice>init(_:)<\/codeVoice> initializer to create a new instance when you’re sure that the value passed is representable in the new type. For example, an instance of <codeVoice>Int16<\/codeVoice> can represent the value <codeVoice>500<\/codeVoice>, so the first conversion in the code sample below succeeds. That same value is too large to represent as an <codeVoice>Int8<\/codeVoice> instance, so the second conversion fails, triggering a runtime error.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let x: Int = 500]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let y = Int16(x)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ y == 500]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let z = Int8(x)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Error: Not enough bits to represent...]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>When you create a binary integer from a floating-point value using the default initializer, the value is rounded toward zero before the range is checked. In the following example, the value <codeVoice>127.75<\/codeVoice> is rounded to <codeVoice>127<\/codeVoice>, which is representable by the <codeVoice>Int8<\/codeVoice> type.  <codeVoice>128.25<\/codeVoice> is rounded to <codeVoice>128<\/codeVoice>, which is not representable as an <codeVoice>Int8<\/codeVoice> instance, triggering a runtime error.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let e = Int8(127.75)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ e == 127]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let f = Int8(128.25)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Error: Double value cannot be converted...]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Exact Conversion<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>Use the <codeVoice>init?(exactly:)<\/codeVoice> initializer to create a new instance after checking whether the passed value is representable. Instead of trapping on out-of-range values, using the failable <codeVoice>init?(exactly:)<\/codeVoice> initializer results in <codeVoice>nil<\/codeVoice>.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let x = Int16(exactly: 500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ x == Optional(500)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let y = Int8(exactly: 500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ y == nil]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>When converting floating-point values, the <codeVoice>init?(exactly:)<\/codeVoice> initializer checks both that the passed value has no fractional part and that the value is representable in the resulting type.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let e = Int8(exactly: 23.0)       \/\/ integral value, representable]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ e == Optional(23)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let f = Int8(exactly: 23.75)      \/\/ fractional value, representable]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ f == nil]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let g = Int8(exactly: 500.0)      \/\/ integral value, nonrepresentable]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ g == nil]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Clamping Conversion<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>Use the <codeVoice>init(clamping:)<\/codeVoice> initializer to create a new instance of a binary integer type where out-of-range values are clamped to the representable range of the type. For a type <codeVoice>T<\/codeVoice>, the resulting value is in the range <codeVoice>T.min...T.max<\/codeVoice>.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let x = Int16(clamping: 500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ x == 500]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let y = Int8(clamping: 500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ y == 127]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let z = UInt8(clamping: -500)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ z == 0]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Bit Pattern Conversion<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>Use the <codeVoice>init(truncatingIfNeeded:)<\/codeVoice> initializer to create a new instance with the same bit pattern as the passed value, extending or truncating the value’s representation as necessary. Note that the value may not be preserved, particularly when converting between signed to unsigned integer types or when the destination type has a smaller bit width than the source type. The following example shows how extending and truncating work for nonnegative integers:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let q: Int16 = 850]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ q == 0b00000011_01010010]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let r = Int8(truncatingIfNeeded: q)      \/\/ truncate 'q' to fit in 8 bits]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ r == 82]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/   == 0b01010010]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let s = Int16(truncatingIfNeeded: r)     \/\/ extend 'r' to fill 16 bits]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ s == 82]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/   == 0b00000000_01010010]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Any padding is performed by <emphasis>sign-extending<\/emphasis> the passed value. When nonnegative integers are extended, the result is padded with zeroes. When negative integers are extended, the result is padded with ones. This example shows several extending conversions of a negative value—note that negative values are sign-extended even when converting to an unsigned type.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let t: Int8 = -100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ t == -100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ t's binary representation == 0b10011100]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let u = UInt8(truncatingIfNeeded: t)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ u == 156]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ u's binary representation == 0b10011100]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let v = Int16(truncatingIfNeeded: t)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ v == -100]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ v's binary representation == 0b11111111_10011100]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let w = UInt16(truncatingIfNeeded: t)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ w == 65436]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ w's binary representation == 0b11111111_10011100]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Comparing Across Integer Types<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>You can use relational operators, such as the less-than and equal-to operators (<codeVoice>&lt;<\/codeVoice> and <codeVoice>==<\/codeVoice>), to compare instances of different binary integer types. The following example compares instances of the <codeVoice>Int<\/codeVoice>, <codeVoice>UInt<\/codeVoice>, and <codeVoice>UInt8<\/codeVoice> types:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let x: Int = -23]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let y: UInt = 1_000]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let z: UInt8 = 23]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if x < y {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"\\(x) is less than \\(y).\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"-23 is less than 1000.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[if z > x {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"\\(z) is greater than \\(x).\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"23 is greater than -23.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name" : "BinaryInteger",
+      "key.doc.type" : "Class",
+      "key.fully_annotated_decl" : "<decl.protocol><syntaxtype.keyword>protocol<\/syntaxtype.keyword> <decl.name>BinaryInteger<\/decl.name> : <ref.protocol usr=\"s:s23CustomStringConvertibleP\">CustomStringConvertible<\/ref.protocol>, <ref.protocol usr=\"s:SH\">Hashable<\/ref.protocol>, <ref.protocol usr=\"s:Sj\">Numeric<\/ref.protocol>, <ref.protocol usr=\"s:Sx\">Strideable<\/ref.protocol> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sz4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:Sj9MagnitudeQa\">Magnitude<\/ref.associatedtype> : <ref.protocol usr=\"s:Sz\">BinaryInteger<\/ref.protocol><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:Sz4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:Sj9MagnitudeQa\">Magnitude<\/ref.associatedtype> == <ref.generic_type_param usr=\"s:Sz4Selfxmfp\">Self<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:Sj9MagnitudeQa\">Magnitude<\/ref.associatedtype>.<ref.associatedtype usr=\"s:Sj9MagnitudeQa\">Magnitude<\/ref.associatedtype><\/decl.generic_type_requirement><\/decl.protocol>",
+      "key.groupname" : "Math\/Integers",
+      "key.is_system" : true,
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 1699,
+      "key.line" : 23,
+      "key.modulename" : "Swift",
+      "key.name" : "BinaryInteger",
+      "key.namecolumn" : 11,
+      "key.namelength" : 13,
+      "key.nameline" : 23,
+      "key.nameoffset" : 1191,
+      "key.offset" : 1181,
+      "key.parsed_declaration" : "extension BinaryInteger",
+      "key.parsed_scope.end" : 57,
+      "key.parsed_scope.start" : 23,
+      "key.substructure" : [
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>@inlinable public static func ** (lhs: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>, rhs: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>@inlinable public static func ** (lhs: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>, rhs: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 16,
-              "key.length": 6,
-              "key.line": 25,
-              "key.offset": 1223
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 16,
+              "key.length" : 6,
+              "key.line" : 25,
+              "key.offset" : 1223
             },
             {
-              "key.attribute": "source.decl.attribute.inlinable",
-              "key.column": 5,
-              "key.length": 10,
-              "key.line": 25,
-              "key.offset": 1212
+              "key.attribute" : "source.decl.attribute.inlinable",
+              "key.column" : 5,
+              "key.length" : 10,
+              "key.line" : 25,
+              "key.offset" : 1212
             }
           ],
-          "key.bodycolumn": 69,
-          "key.bodylength": 253,
-          "key.bodyline": 25,
-          "key.bodyoffset": 1276,
-          "key.column": 23,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-          "key.fully_annotated_decl": "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>** <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.operator.infix>",
-          "key.groupname": "Math\/Integers",
-          "key.kind": "source.lang.swift.decl.function.method.static",
-          "key.length": 300,
-          "key.line": 25,
-          "key.name": "**(_:_:)",
-          "key.namecolumn": 35,
-          "key.namelength": 24,
-          "key.nameline": 25,
-          "key.nameoffset": 1242,
-          "key.offset": 1230,
-          "key.parsed_declaration": "@inlinable public static func ** (lhs: Self, rhs: Int) -> Self",
-          "key.parsed_scope.end": 32,
-          "key.parsed_scope.start": 25,
-          "key.substructure": [
+          "key.bodycolumn" : 69,
+          "key.bodylength" : 253,
+          "key.bodyline" : 25,
+          "key.bodyoffset" : 1276,
+          "key.column" : 23,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+          "key.fully_annotated_decl" : "<decl.function.operator.infix><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>** <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.groupname" : "Math\/Integers",
+          "key.kind" : "source.lang.swift.decl.function.method.static",
+          "key.length" : 300,
+          "key.line" : 25,
+          "key.name" : "**(_:_:)",
+          "key.namecolumn" : 35,
+          "key.namelength" : 24,
+          "key.nameline" : 25,
+          "key.nameoffset" : 1242,
+          "key.offset" : 1230,
+          "key.parsed_declaration" : "@inlinable public static func ** (lhs: Self, rhs: Int) -> Self",
+          "key.parsed_scope.end" : 32,
+          "key.parsed_scope.start" : 25,
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>var out: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
-              "key.column": 9,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>out<\/decl.name>: <decl.var.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.type><\/decl.var.local>",
-              "key.groupname": "Math\/Integers",
-              "key.kind": "source.lang.swift.decl.var.local",
-              "key.length": 19,
-              "key.line": 28,
-              "key.name": "out",
-              "key.namecolumn": 13,
-              "key.namelength": 3,
-              "key.nameline": 28,
-              "key.nameoffset": 1373,
-              "key.offset": 1369,
-              "key.parsed_declaration": "var out: Self = lhs",
-              "key.parsed_scope.end": 28,
-              "key.parsed_scope.start": 28,
-              "key.typename": "Self",
-              "key.typeusr": "$sxD",
-              "key.usr": "s:Sz7RubiconE2mmoiyxx_SitFZ3outL_xvp"
+              "key.annotated_decl" : "<Declaration>var out: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>out<\/decl.name>: <decl.var.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.type><\/decl.var.local>",
+              "key.groupname" : "Math\/Integers",
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 19,
+              "key.line" : 28,
+              "key.name" : "out",
+              "key.namecolumn" : 13,
+              "key.namelength" : 3,
+              "key.nameline" : 28,
+              "key.nameoffset" : 1373,
+              "key.offset" : 1369,
+              "key.parsed_declaration" : "var out: Self = lhs",
+              "key.parsed_scope.end" : 28,
+              "key.parsed_scope.start" : 28,
+              "key.typename" : "Self",
+              "key.typeusr" : "$sxD",
+              "key.usr" : "s:Sz7RubiconE2mmoiyxx_SitFZ3outL_xvp"
             }
           ],
-          "key.typename": "<Self where Self : BinaryInteger> (Self.Type) -> (Self, Int) -> Self",
-          "key.typeusr": "$syxx_SitcD",
-          "key.usr": "s:Sz7RubiconE2mmoiyxx_SitFZ"
+          "key.typename" : "<Self where Self : BinaryInteger> (Self.Type) -> (Self, Int) -> Self",
+          "key.typeusr" : "$syxx_SitcD",
+          "key.usr" : "s:Sz7RubiconE2mmoiyxx_SitFZ"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>@inlinable public func divisible(by divisor: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>@inlinable public func divisible(by divisor: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 16,
-              "key.length": 6,
-              "key.line": 34,
-              "key.offset": 1547
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 16,
+              "key.length" : 6,
+              "key.line" : 34,
+              "key.offset" : 1547
             },
             {
-              "key.attribute": "source.decl.attribute.inlinable",
-              "key.column": 5,
-              "key.length": 10,
-              "key.line": 34,
-              "key.offset": 1536
+              "key.attribute" : "source.decl.attribute.inlinable",
+              "key.column" : 5,
+              "key.length" : 10,
+              "key.line" : 34,
+              "key.offset" : 1536
             }
           ],
-          "key.bodycolumn": 65,
-          "key.bodylength": 60,
-          "key.bodyline": 34,
-          "key.bodyoffset": 1596,
-          "key.column": 23,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>divisible<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>by<\/decl.var.parameter.argument_label> <decl.var.parameter.name>divisor<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Math\/Integers",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 103,
-          "key.line": 34,
-          "key.name": "divisible(by:)",
-          "key.namecolumn": 28,
-          "key.namelength": 27,
-          "key.nameline": 34,
-          "key.nameoffset": 1559,
-          "key.offset": 1554,
-          "key.parsed_declaration": "@inlinable public func divisible(by divisor: Self) -> Bool",
-          "key.parsed_scope.end": 34,
-          "key.parsed_scope.start": 34,
-          "key.substructure": [
+          "key.bodycolumn" : 65,
+          "key.bodylength" : 60,
+          "key.bodyline" : 34,
+          "key.bodyoffset" : 1596,
+          "key.column" : 23,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>divisible<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>by<\/decl.var.parameter.argument_label> <decl.var.parameter.name>divisor<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Math\/Integers",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 103,
+          "key.line" : 34,
+          "key.name" : "divisible(by:)",
+          "key.namecolumn" : 28,
+          "key.namelength" : 27,
+          "key.nameline" : 34,
+          "key.nameoffset" : 1559,
+          "key.offset" : 1554,
+          "key.parsed_declaration" : "@inlinable public func divisible(by divisor: Self) -> Bool",
+          "key.parsed_scope.end" : 34,
+          "key.parsed_scope.start" : 34,
+          "key.substructure" : [
+
           ],
-          "key.typename": "<Self where Self : BinaryInteger> (Self) -> (Self) -> Bool",
-          "key.typeusr": "$s2bySbx_tcD",
-          "key.usr": "s:Sz7RubiconE9divisible2bySbx_tF"
+          "key.typename" : "<Self where Self : BinaryInteger> (Self) -> (Self) -> Bool",
+          "key.typeusr" : "$s2bySbx_tcD",
+          "key.usr" : "s:Sz7RubiconE9divisible2bySbx_tF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>@inlinable public func clamp(minValue: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>, maxValue: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>@inlinable public func clamp(minValue: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>, maxValue: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 16,
-              "key.length": 6,
-              "key.line": 46,
-              "key.offset": 2294
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 16,
+              "key.length" : 6,
+              "key.line" : 46,
+              "key.offset" : 2294
             },
             {
-              "key.attribute": "source.decl.attribute.inlinable",
-              "key.column": 5,
-              "key.length": 10,
-              "key.line": 46,
-              "key.offset": 2283
+              "key.attribute" : "source.decl.attribute.inlinable",
+              "key.column" : 5,
+              "key.length" : 10,
+              "key.line" : 46,
+              "key.offset" : 2283
             }
           ],
-          "key.bodycolumn": 75,
-          "key.bodylength": 36,
-          "key.bodyline": 46,
-          "key.bodyoffset": 2353,
-          "key.column": 23,
-          "key.doc.column": 28,
-          "key.doc.comment": "If the value is less than minValue then the minValue is returned. If the value is greater than maxValue\nthen maxValue is returned. Otherwise this value is returned.\n\n- Parameters:\n  - minValue: The minimum value.\n  - maxValue: The maximum value.\n- Returns: If the value is less than minValue then the minValue is returned. If the value is greater than\n           maxValue then maxValue is returned. Otherwise this value is returned.",
-          "key.doc.declaration": "@inlinable public func clamp(minValue: Self, maxValue: Self) -> Self",
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift\" line=\"46\" column=\"28\"><Name>clamp(minValue:maxValue:)<\/Name><USR>s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF<\/USR><Declaration>@inlinable public func clamp(minValue: Self, maxValue: Self) -&gt; Self<\/Declaration><CommentParts><Abstract><Para>If the value is less than minValue then the minValue is returned. If the value is greater than maxValue then maxValue is returned. Otherwise this value is returned.<\/Para><\/Abstract><Parameters><Parameter><Name>minValue<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The minimum value.<\/Para><\/Discussion><\/Parameter><Parameter><Name>maxValue<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The maximum value.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>If the value is less than minValue then the minValue is returned. If the value is greater than maxValue then maxValue is returned. Otherwise this value is returned.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
-          "key.doc.line": 46,
-          "key.doc.name": "clamp(minValue:maxValue:)",
-          "key.doc.parameters": [
+          "key.bodycolumn" : 75,
+          "key.bodylength" : 36,
+          "key.bodyline" : 46,
+          "key.bodyoffset" : 2353,
+          "key.column" : 23,
+          "key.doc.column" : 28,
+          "key.doc.comment" : "If the value is less than minValue then the minValue is returned. If the value is greater than maxValue\nthen maxValue is returned. Otherwise this value is returned.\n\n- Parameters:\n  - minValue: The minimum value.\n  - maxValue: The maximum value.\n- Returns: If the value is less than minValue then the minValue is returned. If the value is greater than\n           maxValue then maxValue is returned. Otherwise this value is returned.",
+          "key.doc.declaration" : "@inlinable public func clamp(minValue: Self, maxValue: Self) -> Self",
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift\" line=\"46\" column=\"28\"><Name>clamp(minValue:maxValue:)<\/Name><USR>s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF<\/USR><Declaration>@inlinable public func clamp(minValue: Self, maxValue: Self) -&gt; Self<\/Declaration><CommentParts><Abstract><Para>If the value is less than minValue then the minValue is returned. If the value is greater than maxValue then maxValue is returned. Otherwise this value is returned.<\/Para><\/Abstract><Parameters><Parameter><Name>minValue<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The minimum value.<\/Para><\/Discussion><\/Parameter><Parameter><Name>maxValue<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The maximum value.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>If the value is less than minValue then the minValue is returned. If the value is greater than maxValue then maxValue is returned. Otherwise this value is returned.<\/Para><\/ResultDiscussion><\/CommentParts><\/Function>",
+          "key.doc.line" : 46,
+          "key.doc.name" : "clamp(minValue:maxValue:)",
+          "key.doc.parameters" : [
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "The minimum value."
+                  "Para" : "The minimum value."
                 }
               ],
-              "name": "minValue"
+              "name" : "minValue"
             },
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "The maximum value."
+                  "Para" : "The maximum value."
                 }
               ],
-              "name": "maxValue"
+              "name" : "maxValue"
             }
           ],
-          "key.doc.result_discussion": [
+          "key.doc.result_discussion" : [
             {
-              "Para": "If the value is less than minValue then the minValue is returned. If the value is greater than maxValue then maxValue is returned. Otherwise this value is returned."
+              "Para" : "If the value is less than minValue then the minValue is returned. If the value is greater than maxValue then maxValue is returned. Otherwise this value is returned."
             }
           ],
-          "key.doc.type": "Function",
-          "key.doccolumn": 5,
-          "key.doclength": 501,
-          "key.docline": 37,
-          "key.docoffset": 1778,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>clamp<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>minValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Math\/Integers",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 89,
-          "key.line": 46,
-          "key.name": "clamp(minValue:maxValue:)",
-          "key.namecolumn": 28,
-          "key.namelength": 37,
-          "key.nameline": 46,
-          "key.nameoffset": 2306,
-          "key.offset": 2301,
-          "key.parsed_declaration": "@inlinable public func clamp(minValue: Self, maxValue: Self) -> Self",
-          "key.parsed_scope.end": 46,
-          "key.parsed_scope.start": 46,
-          "key.related_decls": [
+          "key.doc.type" : "Function",
+          "key.doccolumn" : 5,
+          "key.doclength" : 501,
+          "key.docline" : 37,
+          "key.docoffset" : 1778,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>clamp<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>minValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>maxValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Math\/Integers",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 89,
+          "key.line" : 46,
+          "key.name" : "clamp(minValue:maxValue:)",
+          "key.namecolumn" : 28,
+          "key.namelength" : 37,
+          "key.nameline" : 46,
+          "key.nameoffset" : 2306,
+          "key.offset" : 2301,
+          "key.parsed_declaration" : "@inlinable public func clamp(minValue: Self, maxValue: Self) -> Self",
+          "key.parsed_scope.end" : 46,
+          "key.parsed_scope.start" : 46,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValuexx_tF\">clamp(minValue:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValuexx_tF\">clamp(minValue:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clamp8maxValuexx_tF\">clamp(maxValue:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clamp8maxValuexx_tF\">clamp(maxValue:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clampyxSnyxGF\">clamp(_:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clampyxSnyxGF\">clamp(_:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "<Self where Self : BinaryInteger> (Self) -> (Self, Self) -> Self",
-          "key.typeusr": "$s8minValue03maxB0xx_xtcD",
-          "key.usr": "s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF"
+          "key.typename" : "<Self where Self : BinaryInteger> (Self) -> (Self, Self) -> Self",
+          "key.typeusr" : "$s8minValue03maxB0xx_xtcD",
+          "key.usr" : "s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>@inlinable public func clamp(minValue: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>@inlinable public func clamp(minValue: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 16,
-              "key.length": 6,
-              "key.line": 48,
-              "key.offset": 2407
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 16,
+              "key.length" : 6,
+              "key.line" : 48,
+              "key.offset" : 2407
             },
             {
-              "key.attribute": "source.decl.attribute.inlinable",
-              "key.column": 5,
-              "key.length": 10,
-              "key.line": 48,
-              "key.offset": 2396
+              "key.attribute" : "source.decl.attribute.inlinable",
+              "key.column" : 5,
+              "key.length" : 10,
+              "key.line" : 48,
+              "key.offset" : 2396
             }
           ],
-          "key.bodycolumn": 59,
-          "key.bodylength": 21,
-          "key.bodyline": 48,
-          "key.bodyoffset": 2450,
-          "key.column": 23,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>clamp<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>minValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Math\/Integers",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 58,
-          "key.line": 48,
-          "key.name": "clamp(minValue:)",
-          "key.namecolumn": 28,
-          "key.namelength": 21,
-          "key.nameline": 48,
-          "key.nameoffset": 2419,
-          "key.offset": 2414,
-          "key.parsed_declaration": "@inlinable public func clamp(minValue: Self) -> Self",
-          "key.parsed_scope.end": 48,
-          "key.parsed_scope.start": 48,
-          "key.related_decls": [
+          "key.bodycolumn" : 59,
+          "key.bodylength" : 21,
+          "key.bodyline" : 48,
+          "key.bodyoffset" : 2450,
+          "key.column" : 23,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>clamp<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>minValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Math\/Integers",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 58,
+          "key.line" : 48,
+          "key.name" : "clamp(minValue:)",
+          "key.namecolumn" : 28,
+          "key.namelength" : 21,
+          "key.nameline" : 48,
+          "key.nameoffset" : 2419,
+          "key.offset" : 2414,
+          "key.parsed_declaration" : "@inlinable public func clamp(minValue: Self) -> Self",
+          "key.parsed_scope.end" : 48,
+          "key.parsed_scope.start" : 48,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF\">clamp(minValue:maxValue:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF\">clamp(minValue:maxValue:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clamp8maxValuexx_tF\">clamp(maxValue:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clamp8maxValuexx_tF\">clamp(maxValue:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clampyxSnyxGF\">clamp(_:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clampyxSnyxGF\">clamp(_:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "<Self where Self : BinaryInteger> (Self) -> (Self) -> Self",
-          "key.typeusr": "$s8minValuexx_tcD",
-          "key.usr": "s:Sz7RubiconE5clamp8minValuexx_tF"
+          "key.typename" : "<Self where Self : BinaryInteger> (Self) -> (Self) -> Self",
+          "key.typeusr" : "$s8minValuexx_tcD",
+          "key.usr" : "s:Sz7RubiconE5clamp8minValuexx_tF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>@inlinable public func clamp(maxValue: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>@inlinable public func clamp(maxValue: <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 16,
-              "key.length": 6,
-              "key.line": 50,
-              "key.offset": 2489
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 16,
+              "key.length" : 6,
+              "key.line" : 50,
+              "key.offset" : 2489
             },
             {
-              "key.attribute": "source.decl.attribute.inlinable",
-              "key.column": 5,
-              "key.length": 10,
-              "key.line": 50,
-              "key.offset": 2478
+              "key.attribute" : "source.decl.attribute.inlinable",
+              "key.column" : 5,
+              "key.length" : 10,
+              "key.line" : 50,
+              "key.offset" : 2478
             }
           ],
-          "key.bodycolumn": 59,
-          "key.bodylength": 21,
-          "key.bodyline": 50,
-          "key.bodyoffset": 2532,
-          "key.column": 23,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>clamp<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>maxValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Math\/Integers",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 58,
-          "key.line": 50,
-          "key.name": "clamp(maxValue:)",
-          "key.namecolumn": 28,
-          "key.namelength": 21,
-          "key.nameline": 50,
-          "key.nameoffset": 2501,
-          "key.offset": 2496,
-          "key.parsed_declaration": "@inlinable public func clamp(maxValue: Self) -> Self",
-          "key.parsed_scope.end": 50,
-          "key.parsed_scope.start": 50,
-          "key.related_decls": [
+          "key.bodycolumn" : 59,
+          "key.bodylength" : 21,
+          "key.bodyline" : 50,
+          "key.bodyoffset" : 2532,
+          "key.column" : 23,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>clamp<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>maxValue<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Math\/Integers",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 58,
+          "key.line" : 50,
+          "key.name" : "clamp(maxValue:)",
+          "key.namecolumn" : 28,
+          "key.namelength" : 21,
+          "key.nameline" : 50,
+          "key.nameoffset" : 2501,
+          "key.offset" : 2496,
+          "key.parsed_declaration" : "@inlinable public func clamp(maxValue: Self) -> Self",
+          "key.parsed_scope.end" : 50,
+          "key.parsed_scope.start" : 50,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF\">clamp(minValue:maxValue:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF\">clamp(minValue:maxValue:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValuexx_tF\">clamp(minValue:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValuexx_tF\">clamp(minValue:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clampyxSnyxGF\">clamp(_:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clampyxSnyxGF\">clamp(_:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "<Self where Self : BinaryInteger> (Self) -> (Self) -> Self",
-          "key.typeusr": "$s8maxValuexx_tcD",
-          "key.usr": "s:Sz7RubiconE5clamp8maxValuexx_tF"
+          "key.typename" : "<Self where Self : BinaryInteger> (Self) -> (Self) -> Self",
+          "key.typeusr" : "$s8maxValuexx_tcD",
+          "key.usr" : "s:Sz7RubiconE5clamp8maxValuexx_tF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>@inlinable public func clamp(_ range: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>&gt;) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>@inlinable public func clamp(_ range: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>&gt;) -&gt; <Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 16,
-              "key.length": 6,
-              "key.line": 52,
-              "key.offset": 2571
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 16,
+              "key.length" : 6,
+              "key.line" : 52,
+              "key.offset" : 2571
             },
             {
-              "key.attribute": "source.decl.attribute.inlinable",
-              "key.column": 5,
-              "key.length": 10,
-              "key.line": 52,
-              "key.offset": 2560
+              "key.attribute" : "source.decl.attribute.inlinable",
+              "key.column" : 5,
+              "key.length" : 10,
+              "key.line" : 52,
+              "key.offset" : 2560
             }
           ],
-          "key.bodycolumn": 65,
-          "key.bodylength": 69,
-          "key.bodyline": 52,
-          "key.bodyoffset": 2620,
-          "key.column": 23,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>clamp<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>range<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Math\/Integers",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 112,
-          "key.line": 52,
-          "key.name": "clamp(_:)",
-          "key.namecolumn": 28,
-          "key.namelength": 27,
-          "key.nameline": 52,
-          "key.nameoffset": 2583,
-          "key.offset": 2578,
-          "key.parsed_declaration": "@inlinable public func clamp(_ range: Range<Self>) -> Self",
-          "key.parsed_scope.end": 52,
-          "key.parsed_scope.start": 52,
-          "key.related_decls": [
+          "key.bodycolumn" : 65,
+          "key.bodylength" : 69,
+          "key.bodyline" : 52,
+          "key.bodyoffset" : 2620,
+          "key.column" : 23,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>clamp<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>range<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Math\/Integers",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 112,
+          "key.line" : 52,
+          "key.name" : "clamp(_:)",
+          "key.namecolumn" : 28,
+          "key.namelength" : 27,
+          "key.nameline" : 52,
+          "key.nameoffset" : 2583,
+          "key.offset" : 2578,
+          "key.parsed_declaration" : "@inlinable public func clamp(_ range: Range<Self>) -> Self",
+          "key.parsed_scope.end" : 52,
+          "key.parsed_scope.start" : 52,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF\">clamp(minValue:maxValue:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValue03maxD0xx_xtF\">clamp(minValue:maxValue:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValuexx_tF\">clamp(minValue:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clamp8minValuexx_tF\">clamp(minValue:)<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE5clamp8maxValuexx_tF\">clamp(maxValue:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE5clamp8maxValuexx_tF\">clamp(maxValue:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "<Self where Self : BinaryInteger> (Self) -> (Range<Self>) -> Self",
-          "key.typeusr": "$syxSnyxGcD",
-          "key.usr": "s:Sz7RubiconE5clampyxSnyxGF"
+          "key.typename" : "<Self where Self : BinaryInteger> (Self) -> (Range<Self>) -> Self",
+          "key.typeusr" : "$syxSnyxGcD",
+          "key.usr" : "s:Sz7RubiconE5clampyxSnyxGF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>@inlinable public func inRange(_ range: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>&gt;) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>@inlinable public func inRange(_ range: <Type usr=\"s:Sn\">Range<\/Type>&lt;<Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>&gt;) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 16,
-              "key.length": 6,
-              "key.line": 54,
-              "key.offset": 2707
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 16,
+              "key.length" : 6,
+              "key.line" : 54,
+              "key.offset" : 2707
             },
             {
-              "key.attribute": "source.decl.attribute.inlinable",
-              "key.column": 5,
-              "key.length": 10,
-              "key.line": 54,
-              "key.offset": 2696
+              "key.attribute" : "source.decl.attribute.inlinable",
+              "key.column" : 5,
+              "key.length" : 10,
+              "key.line" : 54,
+              "key.offset" : 2696
             }
           ],
-          "key.bodycolumn": 67,
-          "key.bodylength": 22,
-          "key.bodyline": 54,
-          "key.bodyoffset": 2758,
-          "key.column": 23,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>inRange<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>range<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Math\/Integers",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 67,
-          "key.line": 54,
-          "key.name": "inRange(_:)",
-          "key.namecolumn": 28,
-          "key.namelength": 29,
-          "key.nameline": 54,
-          "key.nameoffset": 2719,
-          "key.offset": 2714,
-          "key.parsed_declaration": "@inlinable public func inRange(_ range: Range<Self>) -> Bool",
-          "key.parsed_scope.end": 54,
-          "key.parsed_scope.start": 54,
-          "key.related_decls": [
+          "key.bodycolumn" : 67,
+          "key.bodylength" : 22,
+          "key.bodyline" : 54,
+          "key.bodyoffset" : 2758,
+          "key.column" : 23,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>inRange<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>range<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sn\">Range<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Math\/Integers",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 67,
+          "key.line" : 54,
+          "key.name" : "inRange(_:)",
+          "key.namecolumn" : 28,
+          "key.namelength" : 29,
+          "key.nameline" : 54,
+          "key.nameoffset" : 2719,
+          "key.offset" : 2714,
+          "key.parsed_declaration" : "@inlinable public func inRange(_ range: Range<Self>) -> Bool",
+          "key.parsed_scope.end" : 54,
+          "key.parsed_scope.start" : 54,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE7inRangeySbSNyxGF\">inRange(_: ClosedRange&lt;Self&gt;) -&gt; Bool<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE7inRangeySbSNyxGF\">inRange(_: ClosedRange&lt;Self&gt;) -&gt; Bool<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "<Self where Self : BinaryInteger> (Self) -> (Range<Self>) -> Bool",
-          "key.typeusr": "$sySbSnyxGcD",
-          "key.usr": "s:Sz7RubiconE7inRangeySbSnyxGF"
+          "key.typename" : "<Self where Self : BinaryInteger> (Self) -> (Range<Self>) -> Bool",
+          "key.typeusr" : "$sySbSnyxGcD",
+          "key.usr" : "s:Sz7RubiconE7inRangeySbSnyxGF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>@inlinable public func inRange(_ range: <Type usr=\"s:SN\">ClosedRange<\/Type>&lt;<Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>&gt;) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>@inlinable public func inRange(_ range: <Type usr=\"s:SN\">ClosedRange<\/Type>&lt;<Type usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/Type>&gt;) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 16,
-              "key.length": 6,
-              "key.line": 56,
-              "key.offset": 2798
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 16,
+              "key.length" : 6,
+              "key.line" : 56,
+              "key.offset" : 2798
             },
             {
-              "key.attribute": "source.decl.attribute.inlinable",
-              "key.column": 5,
-              "key.length": 10,
-              "key.line": 56,
-              "key.offset": 2787
+              "key.attribute" : "source.decl.attribute.inlinable",
+              "key.column" : 5,
+              "key.length" : 10,
+              "key.line" : 56,
+              "key.offset" : 2787
             }
           ],
-          "key.bodycolumn": 73,
-          "key.bodylength": 22,
-          "key.bodyline": 56,
-          "key.bodyoffset": 2855,
-          "key.column": 23,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>inRange<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>range<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SN\">ClosedRange<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname": "Math\/Integers",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 73,
-          "key.line": 56,
-          "key.name": "inRange(_:)",
-          "key.namecolumn": 28,
-          "key.namelength": 35,
-          "key.nameline": 56,
-          "key.nameoffset": 2810,
-          "key.offset": 2805,
-          "key.parsed_declaration": "@inlinable public func inRange(_ range: ClosedRange<Self>) -> Bool",
-          "key.parsed_scope.end": 56,
-          "key.parsed_scope.start": 56,
-          "key.related_decls": [
+          "key.bodycolumn" : 73,
+          "key.bodylength" : 22,
+          "key.bodyline" : 56,
+          "key.bodyoffset" : 2855,
+          "key.column" : 23,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/BinaryInteger.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>inRange<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>range<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SN\">ClosedRange<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:Sz7RubiconE4Selfxmfp\">Self<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname" : "Math\/Integers",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 73,
+          "key.line" : 56,
+          "key.name" : "inRange(_:)",
+          "key.namecolumn" : 28,
+          "key.namelength" : 35,
+          "key.nameline" : 56,
+          "key.nameoffset" : 2810,
+          "key.offset" : 2805,
+          "key.parsed_declaration" : "@inlinable public func inRange(_ range: ClosedRange<Self>) -> Bool",
+          "key.parsed_scope.end" : 56,
+          "key.parsed_scope.start" : 56,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:Sz7RubiconE7inRangeySbSnyxGF\">inRange(_: Range&lt;Self&gt;) -&gt; Bool<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:Sz7RubiconE7inRangeySbSnyxGF\">inRange(_: Range&lt;Self&gt;) -&gt; Bool<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "<Self where Self : BinaryInteger> (Self) -> (ClosedRange<Self>) -> Bool",
-          "key.typeusr": "$sySbSNyxGcD",
-          "key.usr": "s:Sz7RubiconE7inRangeySbSNyxGF"
+          "key.typename" : "<Self where Self : BinaryInteger> (Self) -> (ClosedRange<Self>) -> Bool",
+          "key.typeusr" : "$sySbSNyxGcD",
+          "key.usr" : "s:Sz7RubiconE7inRangeySbSNyxGF"
         }
       ],
-      "key.typename": "BinaryInteger.Protocol",
-      "key.typeusr": "$sSz_pmD",
-      "key.usr": "s:Sz"
+      "key.typename" : "BinaryInteger.Protocol",
+      "key.typeusr" : "$sSz_pmD",
+      "key.usr" : "s:Sz"
     }
   ]
 }

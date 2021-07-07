@@ -1,1425 +1,1428 @@
 {
-  "key.column": 1,
-  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
-  "key.length": 7817,
-  "key.line": 1,
-  "key.offset": 0,
-  "key.substructure": [
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 7817,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
     {
-      "key.accessibility": "source.lang.swift.accessibility.open",
-      "key.annotated_decl": "<Declaration>open class DataByteBuffer : <Type usr=\"s:7Rubicon24MutableManagedByteBufferP\">MutableManagedByteBuffer<\/Type><\/Declaration>",
-      "key.attributes": [
+      "key.accessibility" : "source.lang.swift.accessibility.open",
+      "key.annotated_decl" : "<Declaration>open class DataByteBuffer : <Type usr=\"s:7Rubicon24MutableManagedByteBufferP\">MutableManagedByteBuffer<\/Type><\/Declaration>",
+      "key.attributes" : [
         {
-          "key.attribute": "source.decl.attribute.open",
-          "key.column": 1,
-          "key.length": 4,
-          "key.line": 21,
-          "key.offset": 1137
+          "key.attribute" : "source.decl.attribute.open",
+          "key.column" : 1,
+          "key.length" : 4,
+          "key.line" : 21,
+          "key.offset" : 1137
         }
       ],
-      "key.bodycolumn": 54,
-      "key.bodylength": 6625,
-      "key.bodyline": 21,
-      "key.bodyoffset": 1190,
-      "key.column": 6,
-      "key.elements": [
+      "key.bodycolumn" : 54,
+      "key.bodylength" : 6625,
+      "key.bodyline" : 21,
+      "key.bodyoffset" : 1190,
+      "key.column" : 6,
+      "key.elements" : [
         {
-          "key.column": 28,
-          "key.kind": "source.lang.swift.structure.elem.typeref",
-          "key.length": 24,
-          "key.line": 21,
-          "key.offset": 1164
+          "key.column" : 28,
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 24,
+          "key.line" : 21,
+          "key.offset" : 1164
         }
       ],
-      "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-      "key.fully_annotated_decl": "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>DataByteBuffer<\/decl.name> : <ref.protocol usr=\"s:7Rubicon24MutableManagedByteBufferP\">MutableManagedByteBuffer<\/ref.protocol><\/decl.class>",
-      "key.inheritedtypes": [
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+      "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>DataByteBuffer<\/decl.name> : <ref.protocol usr=\"s:7Rubicon24MutableManagedByteBufferP\">MutableManagedByteBuffer<\/ref.protocol><\/decl.class>",
+      "key.inheritedtypes" : [
         {
-          "key.name": "MutableManagedByteBuffer"
+          "key.name" : "MutableManagedByteBuffer"
         }
       ],
-      "key.kind": "source.lang.swift.decl.class",
-      "key.length": 6674,
-      "key.line": 21,
-      "key.name": "DataByteBuffer",
-      "key.namecolumn": 12,
-      "key.namelength": 14,
-      "key.nameline": 21,
-      "key.nameoffset": 1148,
-      "key.offset": 1142,
-      "key.parsed_declaration": "open class DataByteBuffer: MutableManagedByteBuffer",
-      "key.parsed_scope.end": 183,
-      "key.parsed_scope.start": 21,
-      "key.substructure": [
+      "key.kind" : "source.lang.swift.decl.class",
+      "key.length" : 6674,
+      "key.line" : 21,
+      "key.name" : "DataByteBuffer",
+      "key.namecolumn" : 12,
+      "key.namelength" : 14,
+      "key.nameline" : 21,
+      "key.nameoffset" : 1148,
+      "key.offset" : 1142,
+      "key.parsed_declaration" : "open class DataByteBuffer: MutableManagedByteBuffer",
+      "key.parsed_scope.end" : 183,
+      "key.parsed_scope.start" : 21,
+      "key.substructure" : [
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public var length: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var length: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 22,
-              "key.offset": 1195
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 22,
+              "key.offset" : 1195
             }
           ],
-          "key.bodycolumn": 29,
-          "key.bodylength": 12,
-          "key.bodyline": 22,
-          "key.bodyoffset": 1219,
-          "key.column": 12,
-          "key.doc.column": 9,
-          "key.doc.declaration": "var length: Int { get }",
-          "key.doc.discussion": [
+          "key.bodycolumn" : 29,
+          "key.bodylength" : 12,
+          "key.bodyline" : 22,
+          "key.bodyoffset" : 1219,
+          "key.column" : 12,
+          "key.doc.column" : 9,
+          "key.doc.declaration" : "var length: Int { get }",
+          "key.doc.discussion" : [
             {
-              "Note": ""
+              "Note" : ""
             }
           ],
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
-          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"25\" column=\"9\"><Name>length<\/Name><USR>s:7Rubicon17ManagedByteBufferP6lengthSivp<\/USR><Declaration>var length: Int { get }<\/Declaration><CommentParts><Abstract><Para>The total length of the buffer in bytes.<\/Para><\/Abstract><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>ManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Other>",
-          "key.doc.line": 25,
-          "key.doc.name": "length",
-          "key.doc.type": "Other",
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>length<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.kind": "source.lang.swift.decl.var.instance",
-          "key.length": 30,
-          "key.line": 22,
-          "key.name": "length",
-          "key.namecolumn": 16,
-          "key.namelength": 6,
-          "key.nameline": 22,
-          "key.nameoffset": 1206,
-          "key.offset": 1202,
-          "key.overrides": [
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
+          "key.doc.full_as_xml" : "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"25\" column=\"9\"><Name>length<\/Name><USR>s:7Rubicon17ManagedByteBufferP6lengthSivp<\/USR><Declaration>var length: Int { get }<\/Declaration><CommentParts><Abstract><Para>The total length of the buffer in bytes.<\/Para><\/Abstract><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>ManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Other>",
+          "key.doc.line" : 25,
+          "key.doc.name" : "length",
+          "key.doc.type" : "Other",
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>length<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 30,
+          "key.line" : 22,
+          "key.name" : "length",
+          "key.namecolumn" : 16,
+          "key.namelength" : 6,
+          "key.nameline" : 22,
+          "key.nameoffset" : 1206,
+          "key.offset" : 1202,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon17ManagedByteBufferP6lengthSivp"
+              "key.usr" : "s:7Rubicon17ManagedByteBufferP6lengthSivp"
             }
           ],
-          "key.parsed_declaration": "public var length: Int",
-          "key.parsed_scope.end": 22,
-          "key.parsed_scope.start": 22,
-          "key.typename": "Int",
-          "key.typeusr": "$sSiD",
-          "key.usr": "s:7Rubicon17ManagedByteBufferP6lengthSivp"
+          "key.parsed_declaration" : "public var length: Int",
+          "key.parsed_scope.end" : 22,
+          "key.parsed_scope.start" : 22,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon17ManagedByteBufferP6lengthSivp"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public var count: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var count: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 23,
-              "key.offset": 1237
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 23,
+              "key.offset" : 1237
             }
           ],
-          "key.column": 12,
-          "key.doc.column": 9,
-          "key.doc.declaration": "var count: Int { get set }",
-          "key.doc.discussion": [
+          "key.column" : 12,
+          "key.doc.column" : 9,
+          "key.doc.declaration" : "var count: Int { get set }",
+          "key.doc.discussion" : [
             {
-              "Note": ""
+              "Note" : ""
             }
           ],
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
-          "key.doc.full_as_xml": "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"31\" column=\"9\"><Name>count<\/Name><USR>s:7Rubicon17ManagedByteBufferP5countSivp<\/USR><Declaration>var count: Int { get set }<\/Declaration><CommentParts><Abstract><Para>This is an index that can be used to indicate the number valid bytes in the buffer starting at the beginning of the buffer. The methods in this protocol will all assume that count is used for that purpose and will be updated accordingly.<\/Para><\/Abstract><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>ManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Other>",
-          "key.doc.line": 31,
-          "key.doc.name": "count",
-          "key.doc.type": "Other",
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>count<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
-          "key.kind": "source.lang.swift.decl.var.instance",
-          "key.length": 15,
-          "key.line": 23,
-          "key.name": "count",
-          "key.namecolumn": 16,
-          "key.namelength": 5,
-          "key.nameline": 23,
-          "key.nameoffset": 1248,
-          "key.offset": 1244,
-          "key.overrides": [
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
+          "key.doc.full_as_xml" : "<Other file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"31\" column=\"9\"><Name>count<\/Name><USR>s:7Rubicon17ManagedByteBufferP5countSivp<\/USR><Declaration>var count: Int { get set }<\/Declaration><CommentParts><Abstract><Para>This is an index that can be used to indicate the number valid bytes in the buffer starting at the beginning of the buffer. The methods in this protocol will all assume that count is used for that purpose and will be updated accordingly.<\/Para><\/Abstract><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>ManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Other>",
+          "key.doc.line" : 31,
+          "key.doc.name" : "count",
+          "key.doc.type" : "Other",
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>count<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 15,
+          "key.line" : 23,
+          "key.name" : "count",
+          "key.namecolumn" : 16,
+          "key.namelength" : 5,
+          "key.nameline" : 23,
+          "key.nameoffset" : 1248,
+          "key.offset" : 1244,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivp"
+              "key.usr" : "s:7Rubicon17ManagedByteBufferP5countSivp"
             }
           ],
-          "key.parsed_declaration": "public var count:  Int",
-          "key.parsed_scope.end": 23,
-          "key.parsed_scope.start": 23,
-          "key.setter_accessibility": "source.lang.swift.accessibility.public",
-          "key.typename": "Int",
-          "key.typeusr": "$sSiD",
-          "key.usr": "s:7Rubicon17ManagedByteBufferP5countSivp"
+          "key.parsed_declaration" : "public var count:  Int",
+          "key.parsed_scope.end" : 23,
+          "key.parsed_scope.start" : 23,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon17ManagedByteBufferP5countSivp"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.private",
-          "key.annotated_decl": "<Declaration>private var data: <Type usr=\"s:10Foundation4DataV\">Data<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.private",
+          "key.annotated_decl" : "<Declaration>private var data: <Type usr=\"s:10Foundation4DataV\">Data<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.private",
-              "key.column": 5,
-              "key.length": 7,
-              "key.line": 25,
-              "key.offset": 1265
+              "key.attribute" : "source.decl.attribute.private",
+              "key.column" : 5,
+              "key.length" : 7,
+              "key.line" : 25,
+              "key.offset" : 1265
             }
           ],
-          "key.column": 13,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>data<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation4DataV\">Data<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
-          "key.kind": "source.lang.swift.decl.var.instance",
-          "key.length": 14,
-          "key.line": 25,
-          "key.name": "data",
-          "key.namecolumn": 17,
-          "key.namelength": 4,
-          "key.nameline": 25,
-          "key.nameoffset": 1277,
-          "key.offset": 1273,
-          "key.parsed_declaration": "private var data: Data",
-          "key.parsed_scope.end": 25,
-          "key.parsed_scope.start": 25,
-          "key.setter_accessibility": "source.lang.swift.accessibility.private",
-          "key.typename": "Data",
-          "key.typeusr": "$s10Foundation4DataVD",
-          "key.usr": "s:7Rubicon14DataByteBufferC4data33_A37BED24FC1C3D395904270795951637LL10Foundation0B0Vvp"
+          "key.column" : 13,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>data<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation4DataV\">Data<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 14,
+          "key.line" : 25,
+          "key.name" : "data",
+          "key.namecolumn" : 17,
+          "key.namelength" : 4,
+          "key.nameline" : 25,
+          "key.nameoffset" : 1277,
+          "key.offset" : 1273,
+          "key.parsed_declaration" : "private var data: Data",
+          "key.parsed_scope.end" : 25,
+          "key.parsed_scope.start" : 25,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+          "key.typename" : "Data",
+          "key.typeusr" : "$s10Foundation4DataVD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC4data33_A37BED24FC1C3D395904270795951637LL10Foundation0B0Vvp"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.public",
-          "key.annotated_decl": "<Declaration>public init(data: <Type usr=\"s:10Foundation4DataV\">Data<\/Type>)<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public init(data: <Type usr=\"s:10Foundation4DataV\">Data<\/Type>)<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.public",
-              "key.column": 5,
-              "key.length": 6,
-              "key.line": 27,
-              "key.offset": 1293
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 27,
+              "key.offset" : 1293
             }
           ],
-          "key.bodycolumn": 30,
-          "key.bodylength": 57,
-          "key.bodyline": 27,
-          "key.bodyoffset": 1318,
-          "key.column": 12,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>data<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DataV\">Data<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 76,
-          "key.line": 27,
-          "key.name": "init(data:)",
-          "key.namecolumn": 12,
-          "key.namelength": 16,
-          "key.nameline": 27,
-          "key.nameoffset": 1300,
-          "key.offset": 1300,
-          "key.parsed_declaration": "public init(data: Data)",
-          "key.parsed_scope.end": 30,
-          "key.parsed_scope.start": 27,
-          "key.substructure": [
+          "key.bodycolumn" : 30,
+          "key.bodylength" : 57,
+          "key.bodyline" : 27,
+          "key.bodyoffset" : 1318,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>data<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DataV\">Data<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 76,
+          "key.line" : 27,
+          "key.name" : "init(data:)",
+          "key.namecolumn" : 12,
+          "key.namelength" : 16,
+          "key.nameline" : 27,
+          "key.nameoffset" : 1300,
+          "key.offset" : 1300,
+          "key.parsed_declaration" : "public init(data: Data)",
+          "key.parsed_scope.end" : 30,
+          "key.parsed_scope.start" : 27,
+          "key.substructure" : [
+
           ],
-          "key.typename": "(DataByteBuffer.Type) -> (Data) -> DataByteBuffer",
-          "key.typeusr": "$s4data7Rubicon14DataByteBufferC10Foundation0C0V_tcD",
-          "key.usr": "s:7Rubicon14DataByteBufferC4dataAC10Foundation0B0V_tcfc"
+          "key.typename" : "(DataByteBuffer.Type) -> (Data) -> DataByteBuffer",
+          "key.typeusr" : "$s4data7Rubicon14DataByteBufferC10Foundation0C0V_tcD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC4dataAC10Foundation0B0V_tcfc"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func append&lt;S&gt;(contentsOf s: <Type usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type> where <Type usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/Type> : <Type usr=\"s:ST\">Sequence<\/Type>, <Type usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/Type>.<Type usr=\"s:ST7ElementQa\">Element<\/Type> == <Type usr=\"s:s5UInt8V\">UInt8<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func append&lt;S&gt;(contentsOf s: <Type usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type> where <Type usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/Type> : <Type usr=\"s:ST\">Sequence<\/Type>, <Type usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/Type>.<Type usr=\"s:ST7ElementQa\">Element<\/Type> == <Type usr=\"s:s5UInt8V\">UInt8<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 32,
-              "key.offset": 1401
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 32,
+              "key.offset" : 1401
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 32,
-              "key.offset": 1382
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 32,
+              "key.offset" : 1382
             }
           ],
-          "key.bodycolumn": 107,
-          "key.bodylength": 71,
-          "key.bodyline": 32,
-          "key.bodyoffset": 1484,
-          "key.column": 29,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>append<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\"><decl.generic_type_param.name>S<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>contentsOf<\/decl.var.parameter.argument_label> <decl.var.parameter.name>s<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/ref.generic_type_param> : <ref.protocol usr=\"s:ST\">Sequence<\/ref.protocol><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:ST7ElementQa\">Element<\/ref.associatedtype> == <ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct><\/decl.generic_type_requirement><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 150,
-          "key.line": 32,
-          "key.name": "append(contentsOf:)",
-          "key.namecolumn": 34,
-          "key.namelength": 26,
-          "key.nameline": 32,
-          "key.nameoffset": 1411,
-          "key.offset": 1406,
-          "key.overrides": [
+          "key.bodycolumn" : 107,
+          "key.bodylength" : 71,
+          "key.bodyline" : 32,
+          "key.bodyoffset" : 1484,
+          "key.column" : 29,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>append<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\"><decl.generic_type_param.name>S<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>contentsOf<\/decl.var.parameter.argument_label> <decl.var.parameter.name>s<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/ref.generic_type_param> : <ref.protocol usr=\"s:ST\">Sequence<\/ref.protocol><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp\">S<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:ST7ElementQa\">Element<\/ref.associatedtype> == <ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 150,
+          "key.line" : 32,
+          "key.name" : "append(contentsOf:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 26,
+          "key.nameline" : 32,
+          "key.nameoffset" : 1411,
+          "key.offset" : 1406,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon24MutableManagedByteBufferP6append10contentsOfSiqd___tSTRd__s5UInt8V7ElementRtd__lF"
+              "key.usr" : "s:7Rubicon24MutableManagedByteBufferP6append10contentsOfSiqd___tSTRd__s5UInt8V7ElementRtd__lF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func append<S>(contentsOf s: S) -> Int where S: Sequence, S.Element == UInt8",
-          "key.parsed_scope.end": 35,
-          "key.parsed_scope.start": 32,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func append<S>(contentsOf s: S) -> Int where S: Sequence, S.Element == UInt8",
+          "key.parsed_scope.end" : 35,
+          "key.parsed_scope.start" : 32,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC6append4byteSiSgs5UInt8V_tF\">append(byte:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC6append4byteSiSgs5UInt8V_tF\">append(byte:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>S<\/Declaration>",
-              "key.column": 41,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>S<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 32,
-              "key.name": "S",
-              "key.namecolumn": 41,
-              "key.namelength": 1,
-              "key.nameline": 32,
-              "key.nameoffset": 1418,
-              "key.offset": 1418,
-              "key.parsed_declaration": "@discardableResult open func append<S",
-              "key.parsed_scope.end": 32,
-              "key.parsed_scope.start": 32,
-              "key.typename": "S.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp"
+              "key.annotated_decl" : "<Declaration>S<\/Declaration>",
+              "key.column" : 41,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>S<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 32,
+              "key.name" : "S",
+              "key.namecolumn" : 41,
+              "key.namelength" : 1,
+              "key.nameline" : 32,
+              "key.nameoffset" : 1418,
+              "key.offset" : 1418,
+              "key.parsed_declaration" : "@discardableResult open func append<S",
+              "key.parsed_scope.end" : 32,
+              "key.parsed_scope.start" : 32,
+              "key.typename" : "S.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF1SL_xmfp"
             }
           ],
-          "key.typename": "<S where S : Sequence, S.Element == UInt8> (DataByteBuffer) -> (S) -> Int",
-          "key.typeusr": "$s10contentsOfSix_tcSTRzs5UInt8V7ElementRtzluD",
-          "key.usr": "s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF"
+          "key.typename" : "<S where S : Sequence, S.Element == UInt8> (DataByteBuffer) -> (S) -> Int",
+          "key.typeusr" : "$s10contentsOfSix_tcSTRzs5UInt8V7ElementRtzluD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func append(byte: <Type usr=\"s:s5UInt8V\">UInt8<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type>?<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func append(byte: <Type usr=\"s:s5UInt8V\">UInt8<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type>?<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 37,
-              "key.offset": 1581
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 37,
+              "key.offset" : 1581
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 37,
-              "key.offset": 1562
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 37,
+              "key.offset" : 1562
             }
           ],
-          "key.bodycolumn": 63,
-          "key.bodylength": 208,
-          "key.bodyline": 37,
-          "key.bodyoffset": 1620,
-          "key.column": 29,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>append<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>byte<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 243,
-          "key.line": 37,
-          "key.name": "append(byte:)",
-          "key.namecolumn": 34,
-          "key.namelength": 19,
-          "key.nameline": 37,
-          "key.nameoffset": 1591,
-          "key.offset": 1586,
-          "key.overrides": [
+          "key.bodycolumn" : 63,
+          "key.bodylength" : 208,
+          "key.bodyline" : 37,
+          "key.bodyoffset" : 1620,
+          "key.column" : 29,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>append<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>byte<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 243,
+          "key.line" : 37,
+          "key.name" : "append(byte:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 19,
+          "key.nameline" : 37,
+          "key.nameoffset" : 1591,
+          "key.offset" : 1586,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon24MutableManagedByteBufferP6append4byteSiSgs5UInt8V_tF"
+              "key.usr" : "s:7Rubicon24MutableManagedByteBufferP6append4byteSiSgs5UInt8V_tF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func append(byte: UInt8) -> Int?",
-          "key.parsed_scope.end": 47,
-          "key.parsed_scope.start": 37,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func append(byte: UInt8) -> Int?",
+          "key.parsed_scope.end" : 47,
+          "key.parsed_scope.start" : 37,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF\">append(contentsOf:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC6append10contentsOfSix_tSTRzs5UInt8V7ElementRtzlF\">append(contentsOf:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "(DataByteBuffer) -> (UInt8) -> Int?",
-          "key.typeusr": "$s4byteSiSgs5UInt8V_tcD",
-          "key.usr": "s:7Rubicon14DataByteBufferC6append4byteSiSgs5UInt8V_tF"
+          "key.typename" : "(DataByteBuffer) -> (UInt8) -> Int?",
+          "key.typeusr" : "$s4byteSiSgs5UInt8V_tcD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC6append4byteSiSgs5UInt8V_tF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>open func relocateToFront(start idx: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>open func relocateToFront(start idx: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 5,
-              "key.length": 4,
-              "key.line": 49,
-              "key.offset": 1835
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 5,
+              "key.length" : 4,
+              "key.line" : 49,
+              "key.offset" : 1835
             }
           ],
-          "key.bodycolumn": 55,
-          "key.bodylength": 388,
-          "key.bodyline": 49,
-          "key.bodyoffset": 1885,
-          "key.column": 10,
-          "key.doc.column": 10,
-          "key.doc.declaration": "func relocateToFront(start idx: Int) -> Int",
-          "key.doc.discussion": [
+          "key.bodycolumn" : 55,
+          "key.bodylength" : 388,
+          "key.bodyline" : 49,
+          "key.bodyoffset" : 1885,
+          "key.column" : 10,
+          "key.doc.column" : 10,
+          "key.doc.declaration" : "func relocateToFront(start idx: Int) -> Int",
+          "key.doc.discussion" : [
             {
-              "Note": ""
+              "Note" : ""
             }
           ],
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"69\" column=\"10\"><Name>relocateToFront(start:)<\/Name><USR>s:7Rubicon24MutableManagedByteBufferP15relocateToFront5startS2i_tF<\/USR><Declaration>func relocateToFront(start idx: Int) -&gt; Int<\/Declaration><CommentParts><Abstract><Para>Relocates a block of bytes to the beginning of the buffer region. The number of bytes relocated will be from the given index to the end of the buffer.<\/Para><\/Abstract><Parameters><Parameter><Name>idx<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the index of the first byte of the block of bytes to move to the beginning of the buffer.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The number of bytes moved.<\/Para><\/ResultDiscussion><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>MutableManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
-          "key.doc.line": 69,
-          "key.doc.name": "relocateToFront(start:)",
-          "key.doc.parameters": [
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"69\" column=\"10\"><Name>relocateToFront(start:)<\/Name><USR>s:7Rubicon24MutableManagedByteBufferP15relocateToFront5startS2i_tF<\/USR><Declaration>func relocateToFront(start idx: Int) -&gt; Int<\/Declaration><CommentParts><Abstract><Para>Relocates a block of bytes to the beginning of the buffer region. The number of bytes relocated will be from the given index to the end of the buffer.<\/Para><\/Abstract><Parameters><Parameter><Name>idx<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>the index of the first byte of the block of bytes to move to the beginning of the buffer.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The number of bytes moved.<\/Para><\/ResultDiscussion><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>MutableManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line" : 69,
+          "key.doc.name" : "relocateToFront(start:)",
+          "key.doc.parameters" : [
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "the index of the first byte of the block of bytes to move to the beginning of the buffer."
+                  "Para" : "the index of the first byte of the block of bytes to move to the beginning of the buffer."
                 }
               ],
-              "name": "idx"
+              "name" : "idx"
             }
           ],
-          "key.doc.result_discussion": [
+          "key.doc.result_discussion" : [
             {
-              "Para": "The number of bytes moved."
+              "Para" : "The number of bytes moved."
             }
           ],
-          "key.doc.type": "Function",
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>relocateToFront<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>start<\/decl.var.parameter.argument_label> <decl.var.parameter.name>idx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 434,
-          "key.line": 49,
-          "key.name": "relocateToFront(start:)",
-          "key.namecolumn": 15,
-          "key.namelength": 31,
-          "key.nameline": 49,
-          "key.nameoffset": 1845,
-          "key.offset": 1840,
-          "key.overrides": [
+          "key.doc.type" : "Function",
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>relocateToFront<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>start<\/decl.var.parameter.argument_label> <decl.var.parameter.name>idx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 434,
+          "key.line" : 49,
+          "key.name" : "relocateToFront(start:)",
+          "key.namecolumn" : 15,
+          "key.namelength" : 31,
+          "key.nameline" : 49,
+          "key.nameoffset" : 1845,
+          "key.offset" : 1840,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon24MutableManagedByteBufferP15relocateToFront5startS2i_tF"
+              "key.usr" : "s:7Rubicon24MutableManagedByteBufferP15relocateToFront5startS2i_tF"
             }
           ],
-          "key.parsed_declaration": "open func relocateToFront(start idx: Int) -> Int",
-          "key.parsed_scope.end": 59,
-          "key.parsed_scope.start": 49,
-          "key.related_decls": [
+          "key.parsed_declaration" : "open func relocateToFront(start idx: Int) -> Int",
+          "key.parsed_scope.end" : 59,
+          "key.parsed_scope.start" : 49,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC15relocateToFront5start5countySi_SitF\">relocateToFront(start:count:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC15relocateToFront5start5countySi_SitF\">relocateToFront(start:count:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>let cc: (<Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
-              "key.column": 9,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cc<\/decl.name>: <decl.var.type>(<ref.struct usr=\"s:Si\">Int<\/ref.struct>)<\/decl.var.type><\/decl.var.local>",
-              "key.kind": "source.lang.swift.decl.var.local",
-              "key.length": 23,
-              "key.line": 52,
-              "key.name": "cc",
-              "key.namecolumn": 13,
-              "key.namelength": 2,
-              "key.nameline": 52,
-              "key.nameoffset": 2039,
-              "key.offset": 2035,
-              "key.parsed_declaration": "let cc = (length - idx)",
-              "key.parsed_scope.end": 52,
-              "key.parsed_scope.start": 52,
-              "key.typename": "(Int)",
-              "key.typeusr": "$sSiD",
-              "key.usr": "s:7Rubicon14DataByteBufferC15relocateToFront5startS2i_tF2ccL_Sivp"
+              "key.annotated_decl" : "<Declaration>let cc: (<Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cc<\/decl.name>: <decl.var.type>(<ref.struct usr=\"s:Si\">Int<\/ref.struct>)<\/decl.var.type><\/decl.var.local>",
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 23,
+              "key.line" : 52,
+              "key.name" : "cc",
+              "key.namecolumn" : 13,
+              "key.namelength" : 2,
+              "key.nameline" : 52,
+              "key.nameoffset" : 2039,
+              "key.offset" : 2035,
+              "key.parsed_declaration" : "let cc = (length - idx)",
+              "key.parsed_scope.end" : 52,
+              "key.parsed_scope.start" : 52,
+              "key.typename" : "(Int)",
+              "key.typeusr" : "$sSiD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC15relocateToFront5startS2i_tF2ccL_Sivp"
             }
           ],
-          "key.typename": "(DataByteBuffer) -> (Int) -> Int",
-          "key.typeusr": "$s5startS2i_tcD",
-          "key.usr": "s:7Rubicon24MutableManagedByteBufferP15relocateToFront5startS2i_tF"
+          "key.typename" : "(DataByteBuffer) -> (Int) -> Int",
+          "key.typeusr" : "$s5startS2i_tcD",
+          "key.usr" : "s:7Rubicon24MutableManagedByteBufferP15relocateToFront5startS2i_tF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>open func relocateToFront(start idx: <Type usr=\"s:Si\">Int<\/Type>, count cc: <Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>open func relocateToFront(start idx: <Type usr=\"s:Si\">Int<\/Type>, count cc: <Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 5,
-              "key.length": 4,
-              "key.line": 61,
-              "key.offset": 2280
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 5,
+              "key.length" : 4,
+              "key.line" : 61,
+              "key.offset" : 2280
             }
           ],
-          "key.bodycolumn": 63,
-          "key.bodylength": 421,
-          "key.bodyline": 61,
-          "key.bodyoffset": 2338,
-          "key.column": 10,
-          "key.doc.column": 10,
-          "key.doc.declaration": "func relocateToFront(start idx: Int, count cc: Int)",
-          "key.doc.discussion": [
+          "key.bodycolumn" : 63,
+          "key.bodylength" : 421,
+          "key.bodyline" : 61,
+          "key.bodyoffset" : 2338,
+          "key.column" : 10,
+          "key.doc.column" : 10,
+          "key.doc.declaration" : "func relocateToFront(start idx: Int, count cc: Int)",
+          "key.doc.discussion" : [
             {
-              "Note": ""
+              "Note" : ""
             }
           ],
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"78\" column=\"10\"><Name>relocateToFront(start:count:)<\/Name><USR>s:7Rubicon24MutableManagedByteBufferP15relocateToFront5start5countySi_SitF<\/USR><Declaration>func relocateToFront(start idx: Int, count cc: Int)<\/Declaration><CommentParts><Abstract><Para>Relocates a block of bytes to the beginning of the buffer region.<\/Para><\/Abstract><Parameters><Parameter><Name>idx<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The index of the first byte of the block of bytes to move to the beginning of the buffer.<\/Para><\/Discussion><\/Parameter><Parameter><Name>cc<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of bytes.<\/Para><\/Discussion><\/Parameter><\/Parameters><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>MutableManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
-          "key.doc.line": 78,
-          "key.doc.name": "relocateToFront(start:count:)",
-          "key.doc.parameters": [
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"78\" column=\"10\"><Name>relocateToFront(start:count:)<\/Name><USR>s:7Rubicon24MutableManagedByteBufferP15relocateToFront5start5countySi_SitF<\/USR><Declaration>func relocateToFront(start idx: Int, count cc: Int)<\/Declaration><CommentParts><Abstract><Para>Relocates a block of bytes to the beginning of the buffer region.<\/Para><\/Abstract><Parameters><Parameter><Name>idx<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The index of the first byte of the block of bytes to move to the beginning of the buffer.<\/Para><\/Discussion><\/Parameter><Parameter><Name>cc<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of bytes.<\/Para><\/Discussion><\/Parameter><\/Parameters><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>MutableManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line" : 78,
+          "key.doc.name" : "relocateToFront(start:count:)",
+          "key.doc.parameters" : [
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "The index of the first byte of the block of bytes to move to the beginning of the buffer."
+                  "Para" : "The index of the first byte of the block of bytes to move to the beginning of the buffer."
                 }
               ],
-              "name": "idx"
+              "name" : "idx"
             },
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "The number of bytes."
+                  "Para" : "The number of bytes."
                 }
               ],
-              "name": "cc"
+              "name" : "cc"
             }
           ],
-          "key.doc.type": "Function",
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>relocateToFront<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>start<\/decl.var.parameter.argument_label> <decl.var.parameter.name>idx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cc<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 475,
-          "key.line": 61,
-          "key.name": "relocateToFront(start:count:)",
-          "key.namecolumn": 15,
-          "key.namelength": 46,
-          "key.nameline": 61,
-          "key.nameoffset": 2290,
-          "key.offset": 2285,
-          "key.overrides": [
+          "key.doc.type" : "Function",
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>relocateToFront<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>start<\/decl.var.parameter.argument_label> <decl.var.parameter.name>idx<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label> <decl.var.parameter.name>cc<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 475,
+          "key.line" : 61,
+          "key.name" : "relocateToFront(start:count:)",
+          "key.namecolumn" : 15,
+          "key.namelength" : 46,
+          "key.nameline" : 61,
+          "key.nameoffset" : 2290,
+          "key.offset" : 2285,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon24MutableManagedByteBufferP15relocateToFront5start5countySi_SitF"
+              "key.usr" : "s:7Rubicon24MutableManagedByteBufferP15relocateToFront5start5countySi_SitF"
             }
           ],
-          "key.parsed_declaration": "open func relocateToFront(start idx: Int, count cc: Int)",
-          "key.parsed_scope.end": 70,
-          "key.parsed_scope.start": 61,
-          "key.related_decls": [
+          "key.parsed_declaration" : "open func relocateToFront(start idx: Int, count cc: Int)",
+          "key.parsed_scope.end" : 70,
+          "key.parsed_scope.start" : 61,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC15relocateToFront5startS2i_tF\">relocateToFront(start:)<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC15relocateToFront5startS2i_tF\">relocateToFront(start:)<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
+
           ],
-          "key.typename": "(DataByteBuffer) -> (Int, Int) -> ()",
-          "key.typeusr": "$s5start5countySi_SitcD",
-          "key.usr": "s:7Rubicon24MutableManagedByteBufferP15relocateToFront5start5countySi_SitF"
+          "key.typename" : "(DataByteBuffer) -> (Int, Int) -> ()",
+          "key.typeusr" : "$s5start5countySi_SitcD",
+          "key.usr" : "s:7Rubicon24MutableManagedByteBufferP15relocateToFront5start5countySi_SitF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func withBytes&lt;V&gt;(_ body: (<Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func withBytes&lt;V&gt;(_ body: (<Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.rethrows",
-              "key.column": 102,
-              "key.length": 8,
-              "key.line": 72,
-              "key.offset": 2863
+              "key.attribute" : "source.decl.attribute.rethrows",
+              "key.column" : 102,
+              "key.length" : 8,
+              "key.line" : 72,
+              "key.offset" : 2863
             },
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 72,
-              "key.offset": 2785
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 72,
+              "key.offset" : 2785
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 72,
-              "key.offset": 2766
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 72,
+              "key.offset" : 2766
             }
           ],
-          "key.bodycolumn": 117,
-          "key.bodylength": 519,
-          "key.bodyline": 72,
-          "key.bodyoffset": 2878,
-          "key.column": 29,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBytes<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 608,
-          "key.line": 72,
-          "key.name": "withBytes(_:)",
-          "key.namecolumn": 34,
-          "key.namelength": 67,
-          "key.nameline": 72,
-          "key.nameoffset": 2795,
-          "key.offset": 2790,
-          "key.overrides": [
+          "key.bodycolumn" : 117,
+          "key.bodylength" : 519,
+          "key.bodyline" : 72,
+          "key.bodyoffset" : 2878,
+          "key.column" : 29,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBytes<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 608,
+          "key.line" : 72,
+          "key.name" : "withBytes(_:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 67,
+          "key.nameline" : 72,
+          "key.nameoffset" : 2795,
+          "key.offset" : 2790,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon17ManagedByteBufferP9withBytesyqd__qd__SPys5UInt8VG_SiztKXEKlF"
+              "key.usr" : "s:7Rubicon17ManagedByteBufferP9withBytesyqd__qd__SPys5UInt8VG_SiztKXEKlF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func withBytes<V>(_ body: (UnsafePointer<UInt8>, inout Int) throws -> V) rethrows -> V",
-          "key.parsed_scope.end": 87,
-          "key.parsed_scope.start": 72,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func withBytes<V>(_ body: (UnsafePointer<UInt8>, inout Int) throws -> V) rethrows -> V",
+          "key.parsed_scope.end" : 87,
+          "key.parsed_scope.start" : 72,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutablePointer&lt;UInt8&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutablePointer&lt;UInt8&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutableBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutableBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>V<\/Declaration>",
-              "key.column": 44,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 72,
-              "key.name": "V",
-              "key.namecolumn": 44,
-              "key.namelength": 1,
-              "key.nameline": 72,
-              "key.nameoffset": 2805,
-              "key.offset": 2805,
-              "key.parsed_declaration": "@discardableResult open func withBytes<V",
-              "key.parsed_scope.end": 72,
-              "key.parsed_scope.start": 72,
-              "key.typename": "V.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp"
+              "key.annotated_decl" : "<Declaration>V<\/Declaration>",
+              "key.column" : 44,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 72,
+              "key.name" : "V",
+              "key.namecolumn" : 44,
+              "key.namelength" : 1,
+              "key.nameline" : 72,
+              "key.nameoffset" : 2805,
+              "key.offset" : 2805,
+              "key.parsed_declaration" : "@discardableResult open func withBytes<V",
+              "key.parsed_scope.end" : 72,
+              "key.parsed_scope.start" : 72,
+              "key.typename" : "V.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF1VL_xmfp"
             }
           ],
-          "key.typename": "<V> (DataByteBuffer) -> ((UnsafePointer<UInt8>, inout Int) throws -> V) throws -> V",
-          "key.typeusr": "$syxxSPys5UInt8VG_SiztKXEKcluD",
-          "key.usr": "s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF"
+          "key.typename" : "<V> (DataByteBuffer) -> ((UnsafePointer<UInt8>, inout Int) throws -> V) throws -> V",
+          "key.typeusr" : "$syxxSPys5UInt8VG_SiztKXEKcluD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func withBytes&lt;V&gt;(_ body: (<Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func withBytes&lt;V&gt;(_ body: (<Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.rethrows",
-              "key.column": 108,
-              "key.length": 8,
-              "key.line": 89,
-              "key.offset": 3507
+              "key.attribute" : "source.decl.attribute.rethrows",
+              "key.column" : 108,
+              "key.length" : 8,
+              "key.line" : 89,
+              "key.offset" : 3507
             },
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 89,
-              "key.offset": 3423
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 89,
+              "key.offset" : 3423
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 89,
-              "key.offset": 3404
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 89,
+              "key.offset" : 3404
             }
           ],
-          "key.bodycolumn": 123,
-          "key.bodylength": 261,
-          "key.bodyline": 89,
-          "key.bodyoffset": 3522,
-          "key.column": 29,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBytes<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 356,
-          "key.line": 89,
-          "key.name": "withBytes(_:)",
-          "key.namecolumn": 34,
-          "key.namelength": 73,
-          "key.nameline": 89,
-          "key.nameoffset": 3433,
-          "key.offset": 3428,
-          "key.overrides": [
+          "key.bodycolumn" : 123,
+          "key.bodylength" : 261,
+          "key.bodyline" : 89,
+          "key.bodyoffset" : 3522,
+          "key.column" : 29,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBytes<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 356,
+          "key.line" : 89,
+          "key.name" : "withBytes(_:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 73,
+          "key.nameline" : 89,
+          "key.nameoffset" : 3433,
+          "key.offset" : 3428,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon17ManagedByteBufferP9withBytesyqd__qd__SRys5UInt8VG_SiztKXEKlF"
+              "key.usr" : "s:7Rubicon17ManagedByteBufferP9withBytesyqd__qd__SRys5UInt8VG_SiztKXEKlF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func withBytes<V>(_ body: (UnsafeBufferPointer<UInt8>, inout Int) throws -> V) rethrows -> V",
-          "key.parsed_scope.end": 96,
-          "key.parsed_scope.start": 89,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func withBytes<V>(_ body: (UnsafeBufferPointer<UInt8>, inout Int) throws -> V) rethrows -> V",
+          "key.parsed_scope.end" : 96,
+          "key.parsed_scope.start" : 89,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafePointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafePointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutablePointer&lt;UInt8&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutablePointer&lt;UInt8&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutableBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutableBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>V<\/Declaration>",
-              "key.column": 44,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 89,
-              "key.name": "V",
-              "key.namecolumn": 44,
-              "key.namelength": 1,
-              "key.nameline": 89,
-              "key.nameoffset": 3443,
-              "key.offset": 3443,
-              "key.parsed_declaration": "@discardableResult open func withBytes<V",
-              "key.parsed_scope.end": 89,
-              "key.parsed_scope.start": 89,
-              "key.typename": "V.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp"
+              "key.annotated_decl" : "<Declaration>V<\/Declaration>",
+              "key.column" : 44,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 89,
+              "key.name" : "V",
+              "key.namecolumn" : 44,
+              "key.namelength" : 1,
+              "key.nameline" : 89,
+              "key.nameoffset" : 3443,
+              "key.offset" : 3443,
+              "key.parsed_declaration" : "@discardableResult open func withBytes<V",
+              "key.parsed_scope.end" : 89,
+              "key.parsed_scope.start" : 89,
+              "key.typename" : "V.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF1VL_xmfp"
             }
           ],
-          "key.typename": "<V> (DataByteBuffer) -> ((UnsafeBufferPointer<UInt8>, inout Int) throws -> V) throws -> V",
-          "key.typeusr": "$syxxSRys5UInt8VG_SiztKXEKcluD",
-          "key.usr": "s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF"
+          "key.typename" : "<V> (DataByteBuffer) -> ((UnsafeBufferPointer<UInt8>, inout Int) throws -> V) throws -> V",
+          "key.typeusr" : "$syxxSRys5UInt8VG_SiztKXEKcluD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func withBytes&lt;V&gt;(_ body: (<Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;, <Type usr=\"s:Si\">Int<\/Type>, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\">V<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func withBytes&lt;V&gt;(_ body: (<Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;, <Type usr=\"s:Si\">Int<\/Type>, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\">V<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.rethrows",
-              "key.column": 114,
-              "key.length": 8,
-              "key.line": 98,
-              "key.offset": 3899
+              "key.attribute" : "source.decl.attribute.rethrows",
+              "key.column" : 114,
+              "key.length" : 8,
+              "key.line" : 98,
+              "key.offset" : 3899
             },
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 98,
-              "key.offset": 3809
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 98,
+              "key.offset" : 3809
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 98,
-              "key.offset": 3790
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 98,
+              "key.offset" : 3790
             }
           ],
-          "key.bodycolumn": 129,
-          "key.bodylength": 554,
-          "key.bodyline": 98,
-          "key.bodyoffset": 3914,
-          "key.column": 29,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBytes<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 655,
-          "key.line": 98,
-          "key.name": "withBytes(_:)",
-          "key.namecolumn": 34,
-          "key.namelength": 79,
-          "key.nameline": 98,
-          "key.nameoffset": 3819,
-          "key.offset": 3814,
-          "key.overrides": [
+          "key.bodycolumn" : 129,
+          "key.bodylength" : 554,
+          "key.bodyline" : 98,
+          "key.bodyoffset" : 3914,
+          "key.column" : 29,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBytes<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 655,
+          "key.line" : 98,
+          "key.name" : "withBytes(_:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 79,
+          "key.nameline" : 98,
+          "key.nameoffset" : 3819,
+          "key.offset" : 3814,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon24MutableManagedByteBufferP9withBytesyqd__qd__Spys5UInt8VG_S2iztKXEKlF"
+              "key.usr" : "s:7Rubicon24MutableManagedByteBufferP9withBytesyqd__qd__Spys5UInt8VG_S2iztKXEKlF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func withBytes<V>(_ body: (UnsafeMutablePointer<UInt8>, Int, inout Int) throws -> V) rethrows -> V",
-          "key.parsed_scope.end": 113,
-          "key.parsed_scope.start": 98,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func withBytes<V>(_ body: (UnsafeMutablePointer<UInt8>, Int, inout Int) throws -> V) rethrows -> V",
+          "key.parsed_scope.end" : 113,
+          "key.parsed_scope.start" : 98,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafePointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafePointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutableBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutableBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>V<\/Declaration>",
-              "key.column": 44,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 98,
-              "key.name": "V",
-              "key.namecolumn": 44,
-              "key.namelength": 1,
-              "key.nameline": 98,
-              "key.nameoffset": 3829,
-              "key.offset": 3829,
-              "key.parsed_declaration": "@discardableResult open func withBytes<V",
-              "key.parsed_scope.end": 98,
-              "key.parsed_scope.start": 98,
-              "key.typename": "V.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp"
+              "key.annotated_decl" : "<Declaration>V<\/Declaration>",
+              "key.column" : 44,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 98,
+              "key.name" : "V",
+              "key.namecolumn" : 44,
+              "key.namelength" : 1,
+              "key.nameline" : 98,
+              "key.nameoffset" : 3829,
+              "key.offset" : 3829,
+              "key.parsed_declaration" : "@discardableResult open func withBytes<V",
+              "key.parsed_scope.end" : 98,
+              "key.parsed_scope.start" : 98,
+              "key.typename" : "V.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF1VL_xmfp"
             }
           ],
-          "key.typename": "<V> (DataByteBuffer) -> ((UnsafeMutablePointer<UInt8>, Int, inout Int) throws -> V) throws -> V",
-          "key.typeusr": "$syxxSpys5UInt8VG_S2iztKXEKcluD",
-          "key.usr": "s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF"
+          "key.typename" : "<V> (DataByteBuffer) -> ((UnsafeMutablePointer<UInt8>, Int, inout Int) throws -> V) throws -> V",
+          "key.typeusr" : "$syxxSpys5UInt8VG_S2iztKXEKcluD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func withBytes&lt;V&gt;(_ body: (<Type usr=\"s:Sr\">UnsafeMutableBufferPointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func withBytes&lt;V&gt;(_ body: (<Type usr=\"s:Sr\">UnsafeMutableBufferPointer<\/Type>&lt;<Type usr=\"s:s5UInt8V\">UInt8<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.rethrows",
-              "key.column": 115,
-              "key.length": 8,
-              "key.line": 115,
-              "key.offset": 4585
+              "key.attribute" : "source.decl.attribute.rethrows",
+              "key.column" : 115,
+              "key.length" : 8,
+              "key.line" : 115,
+              "key.offset" : 4585
             },
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 115,
-              "key.offset": 4494
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 115,
+              "key.offset" : 4494
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 115,
-              "key.offset": 4475
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 115,
+              "key.offset" : 4475
             }
           ],
-          "key.bodycolumn": 130,
-          "key.bodylength": 281,
-          "key.bodyline": 115,
-          "key.bodyoffset": 4600,
-          "key.column": 29,
-          "key.doc.column": 29,
-          "key.doc.declaration": "func withBytes<V>(_ body: (UnsafeMutableBufferPointer<UInt8>, inout Int) throws -> V) rethrows -> V",
-          "key.doc.discussion": [
+          "key.bodycolumn" : 130,
+          "key.bodylength" : 281,
+          "key.bodyline" : 115,
+          "key.bodyoffset" : 4600,
+          "key.column" : 29,
+          "key.doc.column" : 29,
+          "key.doc.declaration" : "func withBytes<V>(_ body: (UnsafeMutableBufferPointer<UInt8>, inout Int) throws -> V) rethrows -> V",
+          "key.doc.discussion" : [
             {
-              "Note": ""
+              "Note" : ""
             }
           ],
-          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
-          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"60\" column=\"29\"><Name>withBytes(_:)<\/Name><USR>s:7Rubicon24MutableManagedByteBufferP9withBytesyqd__qd__Srys5UInt8VG_SiztKXEKlF<\/USR><Declaration>func withBytes&lt;V&gt;(_ body: (UnsafeMutableBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/Declaration><CommentParts><Abstract><Para>Executes the given closure with an UnsafeMutableBufferPointer representing the buffer.<\/Para><\/Abstract><Parameters><Parameter><Name>body<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The closure which takes two parameters: <rawHTML><![CDATA[<ol>]]><\/rawHTML><rawHTML><![CDATA[<li>]]><\/rawHTML>The instance of UnsafeMutableBufferPointer<rawHTML><![CDATA[<\/li>]]><\/rawHTML><rawHTML><![CDATA[<li>]]><\/rawHTML>The count of the valid bytes in the buffer passed by reference.<rawHTML><![CDATA[<\/li>]]><\/rawHTML><rawHTML><![CDATA[<\/ol>]]><\/rawHTML><\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value returned by the closure.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any error thrown by the closure.<\/Para><\/ThrowsDiscussion><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>MutableManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
-          "key.doc.line": 60,
-          "key.doc.name": "withBytes(_:)",
-          "key.doc.parameters": [
+          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift",
+          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/ManagedByteBuffer.swift\" line=\"60\" column=\"29\"><Name>withBytes(_:)<\/Name><USR>s:7Rubicon24MutableManagedByteBufferP9withBytesyqd__qd__Srys5UInt8VG_SiztKXEKlF<\/USR><Declaration>func withBytes&lt;V&gt;(_ body: (UnsafeMutableBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/Declaration><CommentParts><Abstract><Para>Executes the given closure with an UnsafeMutableBufferPointer representing the buffer.<\/Para><\/Abstract><Parameters><Parameter><Name>body<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The closure which takes two parameters: <rawHTML><![CDATA[<ol>]]><\/rawHTML><rawHTML><![CDATA[<li>]]><\/rawHTML>The instance of UnsafeMutableBufferPointer<rawHTML><![CDATA[<\/li>]]><\/rawHTML><rawHTML><![CDATA[<li>]]><\/rawHTML>The count of the valid bytes in the buffer passed by reference.<rawHTML><![CDATA[<\/li>]]><\/rawHTML><rawHTML><![CDATA[<\/ol>]]><\/rawHTML><\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The value returned by the closure.<\/Para><\/ResultDiscussion><ThrowsDiscussion><Para>Any error thrown by the closure.<\/Para><\/ThrowsDiscussion><Discussion><Note><Para>This documentation comment was inherited from <codeVoice>MutableManagedByteBuffer<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line" : 60,
+          "key.doc.name" : "withBytes(_:)",
+          "key.doc.parameters" : [
             {
-              "discussion": [
+              "discussion" : [
                 {
-                  "Para": "The closure which takes two parameters: <ol><li>The instance of UnsafeMutableBufferPointer<\/li><li>The count of the valid bytes in the buffer passed by reference.<\/li><\/ol>"
+                  "Para" : "The closure which takes two parameters: <ol><li>The instance of UnsafeMutableBufferPointer<\/li><li>The count of the valid bytes in the buffer passed by reference.<\/li><\/ol>"
                 }
               ],
-              "name": "body"
+              "name" : "body"
             }
           ],
-          "key.doc.result_discussion": [
+          "key.doc.result_discussion" : [
             {
-              "Para": "The value returned by the closure."
+              "Para" : "The value returned by the closure."
             }
           ],
-          "key.doc.type": "Function",
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBytes<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Sr\">UnsafeMutableBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 383,
-          "key.line": 115,
-          "key.name": "withBytes(_:)",
-          "key.namecolumn": 34,
-          "key.namelength": 80,
-          "key.nameline": 115,
-          "key.nameoffset": 4504,
-          "key.offset": 4499,
-          "key.overrides": [
+          "key.doc.type" : "Function",
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBytes<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Sr\">UnsafeMutableBufferPointer<\/ref.struct>&lt;<ref.struct usr=\"s:s5UInt8V\">UInt8<\/ref.struct>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 383,
+          "key.line" : 115,
+          "key.name" : "withBytes(_:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 80,
+          "key.nameline" : 115,
+          "key.nameoffset" : 4504,
+          "key.offset" : 4499,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon24MutableManagedByteBufferP9withBytesyqd__qd__Srys5UInt8VG_SiztKXEKlF"
+              "key.usr" : "s:7Rubicon24MutableManagedByteBufferP9withBytesyqd__qd__Srys5UInt8VG_SiztKXEKlF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func withBytes<V>(_ body: (UnsafeMutableBufferPointer<UInt8>, inout Int) throws -> V) rethrows -> V",
-          "key.parsed_scope.end": 122,
-          "key.parsed_scope.start": 115,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func withBytes<V>(_ body: (UnsafeMutableBufferPointer<UInt8>, inout Int) throws -> V) rethrows -> V",
+          "key.parsed_scope.end" : 122,
+          "key.parsed_scope.start" : 115,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafePointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSPys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafePointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSRys5UInt8VG_SiztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeBufferPointer&lt;UInt8&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutablePointer&lt;UInt8&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC9withBytesyxxSpys5UInt8VG_S2iztKXEKlF\">withBytes&lt;V&gt;(_: (UnsafeMutablePointer&lt;UInt8&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>V<\/Declaration>",
-              "key.column": 44,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 115,
-              "key.name": "V",
-              "key.namecolumn": 44,
-              "key.namelength": 1,
-              "key.nameline": 115,
-              "key.nameoffset": 4514,
-              "key.offset": 4514,
-              "key.parsed_declaration": "@discardableResult open func withBytes<V",
-              "key.parsed_scope.end": 115,
-              "key.parsed_scope.start": 115,
-              "key.typename": "V.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp"
+              "key.annotated_decl" : "<Declaration>V<\/Declaration>",
+              "key.column" : 44,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 115,
+              "key.name" : "V",
+              "key.namecolumn" : 44,
+              "key.namelength" : 1,
+              "key.nameline" : 115,
+              "key.nameoffset" : 4514,
+              "key.offset" : 4514,
+              "key.parsed_declaration" : "@discardableResult open func withBytes<V",
+              "key.parsed_scope.end" : 115,
+              "key.parsed_scope.start" : 115,
+              "key.typename" : "V.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC9withBytesyxxSrys5UInt8VG_SiztKXEKlF1VL_xmfp"
             }
           ],
-          "key.typename": "<V> (DataByteBuffer) -> ((UnsafeMutableBufferPointer<UInt8>, inout Int) throws -> V) throws -> V",
-          "key.typeusr": "$syxxSrys5UInt8VG_SiztKXEKcluD",
-          "key.usr": "s:7Rubicon24MutableManagedByteBufferP9withBytesyqd__qd__Srys5UInt8VG_SiztKXEKlF"
+          "key.typename" : "<V> (DataByteBuffer) -> ((UnsafeMutableBufferPointer<UInt8>, inout Int) throws -> V) throws -> V",
+          "key.typeusr" : "$syxxSrys5UInt8VG_SiztKXEKcluD",
+          "key.usr" : "s:7Rubicon24MutableManagedByteBufferP9withBytesyqd__qd__Srys5UInt8VG_SiztKXEKlF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func withBufferAs&lt;T, V&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>.Type, _ body: (<Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func withBufferAs&lt;T, V&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>.Type, _ body: (<Type usr=\"s:SP\">UnsafePointer<\/Type>&lt;<Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.rethrows",
-              "key.column": 118,
-              "key.length": 8,
-              "key.line": 124,
-              "key.offset": 5001
+              "key.attribute" : "source.decl.attribute.rethrows",
+              "key.column" : 118,
+              "key.length" : 8,
+              "key.line" : 124,
+              "key.offset" : 5001
             },
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 124,
-              "key.offset": 4907
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 124,
+              "key.offset" : 4907
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 124,
-              "key.offset": 4888
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 124,
+              "key.offset" : 4888
             }
           ],
-          "key.bodycolumn": 133,
-          "key.bodylength": 682,
-          "key.bodyline": 124,
-          "key.bodyoffset": 5016,
-          "key.column": 29,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBufferAs<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 787,
-          "key.line": 124,
-          "key.name": "withBufferAs(type:_:)",
-          "key.namecolumn": 34,
-          "key.namelength": 83,
-          "key.nameline": 124,
-          "key.nameoffset": 4917,
-          "key.offset": 4912,
-          "key.overrides": [
+          "key.bodycolumn" : 133,
+          "key.bodylength" : 682,
+          "key.bodyline" : 124,
+          "key.bodyoffset" : 5016,
+          "key.column" : 29,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBufferAs<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SP\">UnsafePointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 787,
+          "key.line" : 124,
+          "key.name" : "withBufferAs(type:_:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 83,
+          "key.nameline" : 124,
+          "key.nameoffset" : 4917,
+          "key.offset" : 4912,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon17ManagedByteBufferP04withD2As4type_qd_0_qd__m_qd_0_SPyqd__G_SiztKXEtKr0_lF"
+              "key.usr" : "s:7Rubicon17ManagedByteBufferP04withD2As4type_qd_0_qd__m_qd_0_SPyqd__G_SiztKXEtKr0_lF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func withBufferAs<T, V>(type: T.Type, _ body: (UnsafePointer<T>, inout Int) throws -> V) rethrows -> V",
-          "key.parsed_scope.end": 140,
-          "key.parsed_scope.start": 124,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func withBufferAs<T, V>(type: T.Type, _ body: (UnsafePointer<T>, inout Int) throws -> V) rethrows -> V",
+          "key.parsed_scope.end" : 140,
+          "key.parsed_scope.start" : 124,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutablePointer&lt;T&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutablePointer&lt;T&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutableBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutableBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>T<\/Declaration>",
-              "key.column": 47,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 124,
-              "key.name": "T",
-              "key.namecolumn": 47,
-              "key.namelength": 1,
-              "key.nameline": 124,
-              "key.nameoffset": 4930,
-              "key.offset": 4930,
-              "key.parsed_declaration": "@discardableResult open func withBufferAs<T",
-              "key.parsed_scope.end": 124,
-              "key.parsed_scope.start": 124,
-              "key.typename": "T.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp"
+              "key.annotated_decl" : "<Declaration>T<\/Declaration>",
+              "key.column" : 47,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 124,
+              "key.name" : "T",
+              "key.namecolumn" : 47,
+              "key.namelength" : 1,
+              "key.nameline" : 124,
+              "key.nameoffset" : 4930,
+              "key.offset" : 4930,
+              "key.parsed_declaration" : "@discardableResult open func withBufferAs<T",
+              "key.parsed_scope.end" : 124,
+              "key.parsed_scope.start" : 124,
+              "key.typename" : "T.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1TL_xmfp"
             },
             {
-              "key.annotated_decl": "<Declaration>V<\/Declaration>",
-              "key.column": 50,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 124,
-              "key.name": "V",
-              "key.namecolumn": 50,
-              "key.namelength": 1,
-              "key.nameline": 124,
-              "key.nameoffset": 4933,
-              "key.offset": 4933,
-              "key.parsed_declaration": "@discardableResult open func withBufferAs<T, V",
-              "key.parsed_scope.end": 124,
-              "key.parsed_scope.start": 124,
-              "key.typename": "V.Type",
-              "key.typeusr": "$sq_mD",
-              "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp"
+              "key.annotated_decl" : "<Declaration>V<\/Declaration>",
+              "key.column" : 50,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 124,
+              "key.name" : "V",
+              "key.namecolumn" : 50,
+              "key.namelength" : 1,
+              "key.nameline" : 124,
+              "key.nameoffset" : 4933,
+              "key.offset" : 4933,
+              "key.parsed_declaration" : "@discardableResult open func withBufferAs<T, V",
+              "key.parsed_scope.end" : 124,
+              "key.parsed_scope.start" : 124,
+              "key.typename" : "V.Type",
+              "key.typeusr" : "$sq_mD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF1VL_q_mfp"
             }
           ],
-          "key.typename": "<T, V> (DataByteBuffer) -> (T.Type, (UnsafePointer<T>, inout Int) throws -> V) throws -> V",
-          "key.typeusr": "$s4type_q_xm_q_SPyxG_SiztKXEtKcr0_luD",
-          "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF"
+          "key.typename" : "<T, V> (DataByteBuffer) -> (T.Type, (UnsafePointer<T>, inout Int) throws -> V) throws -> V",
+          "key.typeusr" : "$s4type_q_xm_q_SPyxG_SiztKXEtKcr0_luD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func withBufferAs&lt;T, V&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\">T<\/Type>.Type, _ body: (<Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\">T<\/Type>&gt;, <Type usr=\"s:Si\">Int<\/Type>, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\">V<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func withBufferAs&lt;T, V&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\">T<\/Type>.Type, _ body: (<Type usr=\"s:Sp\">UnsafeMutablePointer<\/Type>&lt;<Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\">T<\/Type>&gt;, <Type usr=\"s:Si\">Int<\/Type>, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\">V<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.rethrows",
-              "key.column": 130,
-              "key.length": 8,
-              "key.line": 142,
-              "key.offset": 5830
+              "key.attribute" : "source.decl.attribute.rethrows",
+              "key.column" : 130,
+              "key.length" : 8,
+              "key.line" : 142,
+              "key.offset" : 5830
             },
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 142,
-              "key.offset": 5724
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 142,
+              "key.offset" : 5724
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 142,
-              "key.offset": 5705
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 142,
+              "key.offset" : 5705
             }
           ],
-          "key.bodycolumn": 145,
-          "key.bodylength": 735,
-          "key.bodyline": 142,
-          "key.bodyoffset": 5845,
-          "key.column": 29,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBufferAs<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 852,
-          "key.line": 142,
-          "key.name": "withBufferAs(type:_:)",
-          "key.namecolumn": 34,
-          "key.namelength": 95,
-          "key.nameline": 142,
-          "key.nameoffset": 5734,
-          "key.offset": 5729,
-          "key.overrides": [
+          "key.bodycolumn" : 145,
+          "key.bodylength" : 735,
+          "key.bodyline" : 142,
+          "key.bodyoffset" : 5845,
+          "key.column" : 29,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBufferAs<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Sp\">UnsafeMutablePointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 852,
+          "key.line" : 142,
+          "key.name" : "withBufferAs(type:_:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 95,
+          "key.nameline" : 142,
+          "key.nameoffset" : 5734,
+          "key.offset" : 5729,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon24MutableManagedByteBufferP04withE2As4type_qd_0_qd__m_qd_0_Spyqd__G_S2iztKXEtKr0_lF"
+              "key.usr" : "s:7Rubicon24MutableManagedByteBufferP04withE2As4type_qd_0_qd__m_qd_0_Spyqd__G_S2iztKXEtKr0_lF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func withBufferAs<T, V>(type: T.Type, _ body: (UnsafeMutablePointer<T>, Int, inout Int) throws -> V) rethrows -> V",
-          "key.parsed_scope.end": 158,
-          "key.parsed_scope.start": 142,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func withBufferAs<T, V>(type: T.Type, _ body: (UnsafeMutablePointer<T>, Int, inout Int) throws -> V) rethrows -> V",
+          "key.parsed_scope.end" : 158,
+          "key.parsed_scope.start" : 142,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafePointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafePointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutableBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutableBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>T<\/Declaration>",
-              "key.column": 47,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 142,
-              "key.name": "T",
-              "key.namecolumn": 47,
-              "key.namelength": 1,
-              "key.nameline": 142,
-              "key.nameoffset": 5747,
-              "key.offset": 5747,
-              "key.parsed_declaration": "@discardableResult open func withBufferAs<T",
-              "key.parsed_scope.end": 142,
-              "key.parsed_scope.start": 142,
-              "key.typename": "T.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp"
+              "key.annotated_decl" : "<Declaration>T<\/Declaration>",
+              "key.column" : 47,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 142,
+              "key.name" : "T",
+              "key.namecolumn" : 47,
+              "key.namelength" : 1,
+              "key.nameline" : 142,
+              "key.nameoffset" : 5747,
+              "key.offset" : 5747,
+              "key.parsed_declaration" : "@discardableResult open func withBufferAs<T",
+              "key.parsed_scope.end" : 142,
+              "key.parsed_scope.start" : 142,
+              "key.typename" : "T.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1TL_xmfp"
             },
             {
-              "key.annotated_decl": "<Declaration>V<\/Declaration>",
-              "key.column": 50,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 142,
-              "key.name": "V",
-              "key.namecolumn": 50,
-              "key.namelength": 1,
-              "key.nameline": 142,
-              "key.nameoffset": 5750,
-              "key.offset": 5750,
-              "key.parsed_declaration": "@discardableResult open func withBufferAs<T, V",
-              "key.parsed_scope.end": 142,
-              "key.parsed_scope.start": 142,
-              "key.typename": "V.Type",
-              "key.typeusr": "$sq_mD",
-              "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp"
+              "key.annotated_decl" : "<Declaration>V<\/Declaration>",
+              "key.column" : 50,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 142,
+              "key.name" : "V",
+              "key.namecolumn" : 50,
+              "key.namelength" : 1,
+              "key.nameline" : 142,
+              "key.nameoffset" : 5750,
+              "key.offset" : 5750,
+              "key.parsed_declaration" : "@discardableResult open func withBufferAs<T, V",
+              "key.parsed_scope.end" : 142,
+              "key.parsed_scope.start" : 142,
+              "key.typename" : "V.Type",
+              "key.typeusr" : "$sq_mD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF1VL_q_mfp"
             }
           ],
-          "key.typename": "<T, V> (DataByteBuffer) -> (T.Type, (UnsafeMutablePointer<T>, Int, inout Int) throws -> V) throws -> V",
-          "key.typeusr": "$s4type_q_xm_q_SpyxG_S2iztKXEtKcr0_luD",
-          "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF"
+          "key.typename" : "<T, V> (DataByteBuffer) -> (T.Type, (UnsafeMutablePointer<T>, Int, inout Int) throws -> V) throws -> V",
+          "key.typeusr" : "$s4type_q_xm_q_SpyxG_S2iztKXEtKcr0_luD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func withBufferAs&lt;T, V&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>.Type, _ body: (<Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func withBufferAs&lt;T, V&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>.Type, _ body: (<Type usr=\"s:SR\">UnsafeBufferPointer<\/Type>&lt;<Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.rethrows",
-              "key.column": 124,
-              "key.length": 8,
-              "key.line": 160,
-              "key.offset": 6706
+              "key.attribute" : "source.decl.attribute.rethrows",
+              "key.column" : 124,
+              "key.length" : 8,
+              "key.line" : 160,
+              "key.offset" : 6706
             },
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 160,
-              "key.offset": 6606
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 160,
+              "key.offset" : 6606
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 160,
-              "key.offset": 6587
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 160,
+              "key.offset" : 6587
             }
           ],
-          "key.bodycolumn": 139,
-          "key.bodylength": 311,
-          "key.bodyline": 160,
-          "key.bodyoffset": 6721,
-          "key.column": 29,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBufferAs<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 422,
-          "key.line": 160,
-          "key.name": "withBufferAs(type:_:)",
-          "key.namecolumn": 34,
-          "key.namelength": 89,
-          "key.nameline": 160,
-          "key.nameoffset": 6616,
-          "key.offset": 6611,
-          "key.overrides": [
+          "key.bodycolumn" : 139,
+          "key.bodylength" : 311,
+          "key.bodyline" : 160,
+          "key.bodyoffset" : 6721,
+          "key.column" : 29,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBufferAs<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:SR\">UnsafeBufferPointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 422,
+          "key.line" : 160,
+          "key.name" : "withBufferAs(type:_:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 89,
+          "key.nameline" : 160,
+          "key.nameoffset" : 6616,
+          "key.offset" : 6611,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon17ManagedByteBufferP04withD2As4type_qd_0_qd__m_qd_0_SRyqd__G_SiztKXEtKr0_lF"
+              "key.usr" : "s:7Rubicon17ManagedByteBufferP04withD2As4type_qd_0_qd__m_qd_0_SRyqd__G_SiztKXEtKr0_lF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func withBufferAs<T, V>(type: T.Type, _ body: (UnsafeBufferPointer<T>, inout Int) throws -> V) rethrows -> V",
-          "key.parsed_scope.end": 167,
-          "key.parsed_scope.start": 160,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func withBufferAs<T, V>(type: T.Type, _ body: (UnsafeBufferPointer<T>, inout Int) throws -> V) rethrows -> V",
+          "key.parsed_scope.end" : 167,
+          "key.parsed_scope.start" : 160,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafePointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafePointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutablePointer&lt;T&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutablePointer&lt;T&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutableBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutableBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>T<\/Declaration>",
-              "key.column": 47,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 160,
-              "key.name": "T",
-              "key.namecolumn": 47,
-              "key.namelength": 1,
-              "key.nameline": 160,
-              "key.nameoffset": 6629,
-              "key.offset": 6629,
-              "key.parsed_declaration": "@discardableResult open func withBufferAs<T",
-              "key.parsed_scope.end": 160,
-              "key.parsed_scope.start": 160,
-              "key.typename": "T.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp"
+              "key.annotated_decl" : "<Declaration>T<\/Declaration>",
+              "key.column" : 47,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 160,
+              "key.name" : "T",
+              "key.namecolumn" : 47,
+              "key.namelength" : 1,
+              "key.nameline" : 160,
+              "key.nameoffset" : 6629,
+              "key.offset" : 6629,
+              "key.parsed_declaration" : "@discardableResult open func withBufferAs<T",
+              "key.parsed_scope.end" : 160,
+              "key.parsed_scope.start" : 160,
+              "key.typename" : "T.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1TL_xmfp"
             },
             {
-              "key.annotated_decl": "<Declaration>V<\/Declaration>",
-              "key.column": 50,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 160,
-              "key.name": "V",
-              "key.namecolumn": 50,
-              "key.namelength": 1,
-              "key.nameline": 160,
-              "key.nameoffset": 6632,
-              "key.offset": 6632,
-              "key.parsed_declaration": "@discardableResult open func withBufferAs<T, V",
-              "key.parsed_scope.end": 160,
-              "key.parsed_scope.start": 160,
-              "key.typename": "V.Type",
-              "key.typeusr": "$sq_mD",
-              "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp"
+              "key.annotated_decl" : "<Declaration>V<\/Declaration>",
+              "key.column" : 50,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 160,
+              "key.name" : "V",
+              "key.namecolumn" : 50,
+              "key.namelength" : 1,
+              "key.nameline" : 160,
+              "key.nameoffset" : 6632,
+              "key.offset" : 6632,
+              "key.parsed_declaration" : "@discardableResult open func withBufferAs<T, V",
+              "key.parsed_scope.end" : 160,
+              "key.parsed_scope.start" : 160,
+              "key.typename" : "V.Type",
+              "key.typeusr" : "$sq_mD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF1VL_q_mfp"
             }
           ],
-          "key.typename": "<T, V> (DataByteBuffer) -> (T.Type, (UnsafeBufferPointer<T>, inout Int) throws -> V) throws -> V",
-          "key.typeusr": "$s4type_q_xm_q_SRyxG_SiztKXEtKcr0_luD",
-          "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF"
+          "key.typename" : "<T, V> (DataByteBuffer) -> (T.Type, (UnsafeBufferPointer<T>, inout Int) throws -> V) throws -> V",
+          "key.typeusr" : "$s4type_q_xm_q_SRyxG_SiztKXEtKcr0_luD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.open",
-          "key.annotated_decl": "<Declaration>@discardableResult open func withBufferAs&lt;T, V&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>.Type, _ body: (<Type usr=\"s:Sr\">UnsafeMutableBufferPointer<\/Type>&lt;<Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>@discardableResult open func withBufferAs&lt;T, V&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>.Type, _ body: (<Type usr=\"s:Sr\">UnsafeMutableBufferPointer<\/Type>&lt;<Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/Type>&gt;, inout <Type usr=\"s:Si\">Int<\/Type>) throws -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type>) rethrows -&gt; <Type usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.rethrows",
-              "key.column": 131,
-              "key.length": 8,
-              "key.line": 169,
-              "key.offset": 7165
+              "key.attribute" : "source.decl.attribute.rethrows",
+              "key.column" : 131,
+              "key.length" : 8,
+              "key.line" : 169,
+              "key.offset" : 7165
             },
             {
-              "key.attribute": "source.decl.attribute.open",
-              "key.column": 24,
-              "key.length": 4,
-              "key.line": 169,
-              "key.offset": 7058
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 24,
+              "key.length" : 4,
+              "key.line" : 169,
+              "key.offset" : 7058
             },
             {
-              "key.attribute": "source.decl.attribute.discardableResult",
-              "key.column": 5,
-              "key.length": 18,
-              "key.line": 169,
-              "key.offset": 7039
+              "key.attribute" : "source.decl.attribute.discardableResult",
+              "key.column" : 5,
+              "key.length" : 18,
+              "key.line" : 169,
+              "key.offset" : 7039
             }
           ],
-          "key.bodycolumn": 146,
-          "key.bodylength": 325,
-          "key.bodyline": 169,
-          "key.bodyoffset": 7180,
-          "key.column": 29,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBufferAs<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Sr\">UnsafeMutableBufferPointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 443,
-          "key.line": 169,
-          "key.name": "withBufferAs(type:_:)",
-          "key.namecolumn": 34,
-          "key.namelength": 96,
-          "key.nameline": 169,
-          "key.nameoffset": 7068,
-          "key.offset": 7063,
-          "key.overrides": [
+          "key.bodycolumn" : 146,
+          "key.bodylength" : 325,
+          "key.bodyline" : 169,
+          "key.bodyoffset" : 7180,
+          "key.column" : 29,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>withBufferAs<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\"><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>body<\/decl.var.parameter.name>: <decl.var.parameter.type>(<decl.var.parameter><decl.var.parameter.type><ref.struct usr=\"s:Sr\">UnsafeMutableBufferPointer<\/ref.struct>&lt;<ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp\">T<\/ref.generic_type_param>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>rethrows<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp\">V<\/ref.generic_type_param><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 443,
+          "key.line" : 169,
+          "key.name" : "withBufferAs(type:_:)",
+          "key.namecolumn" : 34,
+          "key.namelength" : 96,
+          "key.nameline" : 169,
+          "key.nameoffset" : 7068,
+          "key.offset" : 7063,
+          "key.overrides" : [
             {
-              "key.usr": "s:7Rubicon24MutableManagedByteBufferP04withE2As4type_qd_0_qd__m_qd_0_Sryqd__G_SiztKXEtKr0_lF"
+              "key.usr" : "s:7Rubicon24MutableManagedByteBufferP04withE2As4type_qd_0_qd__m_qd_0_Sryqd__G_SiztKXEtKr0_lF"
             }
           ],
-          "key.parsed_declaration": "@discardableResult open func withBufferAs<T, V>(type: T.Type, _ body: (UnsafeMutableBufferPointer<T>, inout Int) throws -> V) rethrows -> V",
-          "key.parsed_scope.end": 176,
-          "key.parsed_scope.start": 169,
-          "key.related_decls": [
+          "key.parsed_declaration" : "@discardableResult open func withBufferAs<T, V>(type: T.Type, _ body: (UnsafeMutableBufferPointer<T>, inout Int) throws -> V) rethrows -> V",
+          "key.parsed_scope.end" : 176,
+          "key.parsed_scope.start" : 169,
+          "key.related_decls" : [
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafePointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SPyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafePointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutablePointer&lt;T&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SpyxG_S2iztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeMutablePointer&lt;T&gt;, Int, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             },
             {
-              "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
+              "key.annotated_decl" : "<RelatedName usr=\"s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SRyxG_SiztKXEtKr0_lF\">withBufferAs&lt;T, V&gt;(type: T.Type, _: (UnsafeBufferPointer&lt;T&gt;, inout Int) throws -&gt; V) rethrows -&gt; V<\/RelatedName>"
             }
           ],
-          "key.substructure": [
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>T<\/Declaration>",
-              "key.column": 47,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 169,
-              "key.name": "T",
-              "key.namecolumn": 47,
-              "key.namelength": 1,
-              "key.nameline": 169,
-              "key.nameoffset": 7081,
-              "key.offset": 7081,
-              "key.parsed_declaration": "@discardableResult open func withBufferAs<T",
-              "key.parsed_scope.end": 169,
-              "key.parsed_scope.start": 169,
-              "key.typename": "T.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp"
+              "key.annotated_decl" : "<Declaration>T<\/Declaration>",
+              "key.column" : 47,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 169,
+              "key.name" : "T",
+              "key.namecolumn" : 47,
+              "key.namelength" : 1,
+              "key.nameline" : 169,
+              "key.nameoffset" : 7081,
+              "key.offset" : 7081,
+              "key.parsed_declaration" : "@discardableResult open func withBufferAs<T",
+              "key.parsed_scope.end" : 169,
+              "key.parsed_scope.start" : 169,
+              "key.typename" : "T.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1TL_xmfp"
             },
             {
-              "key.annotated_decl": "<Declaration>V<\/Declaration>",
-              "key.column": 50,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 169,
-              "key.name": "V",
-              "key.namecolumn": 50,
-              "key.namelength": 1,
-              "key.nameline": 169,
-              "key.nameoffset": 7084,
-              "key.offset": 7084,
-              "key.parsed_declaration": "@discardableResult open func withBufferAs<T, V",
-              "key.parsed_scope.end": 169,
-              "key.parsed_scope.start": 169,
-              "key.typename": "V.Type",
-              "key.typeusr": "$sq_mD",
-              "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp"
+              "key.annotated_decl" : "<Declaration>V<\/Declaration>",
+              "key.column" : 50,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>V<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 169,
+              "key.name" : "V",
+              "key.namecolumn" : 50,
+              "key.namelength" : 1,
+              "key.nameline" : 169,
+              "key.nameoffset" : 7084,
+              "key.offset" : 7084,
+              "key.parsed_declaration" : "@discardableResult open func withBufferAs<T, V",
+              "key.parsed_scope.end" : 169,
+              "key.parsed_scope.start" : 169,
+              "key.typename" : "V.Type",
+              "key.typeusr" : "$sq_mD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF1VL_q_mfp"
             }
           ],
-          "key.typename": "<T, V> (DataByteBuffer) -> (T.Type, (UnsafeMutableBufferPointer<T>, inout Int) throws -> V) throws -> V",
-          "key.typeusr": "$s4type_q_xm_q_SryxG_SiztKXEtKcr0_luD",
-          "key.usr": "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF"
+          "key.typename" : "<T, V> (DataByteBuffer) -> (T.Type, (UnsafeMutableBufferPointer<T>, inout Int) throws -> V) throws -> V",
+          "key.typeusr" : "$s4type_q_xm_q_SryxG_SiztKXEtKcr0_luD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC04withD2As4type_q_xm_q_SryxG_SiztKXEtKr0_lF"
         },
         {
-          "key.accessibility": "source.lang.swift.accessibility.private",
-          "key.annotated_decl": "<Declaration>private func getEmptyBuffer&lt;T&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1TL_xmfp\">T<\/Type>.Type) -&gt; <Type usr=\"s:Sv\">UnsafeMutableRawPointer<\/Type><\/Declaration>",
-          "key.attributes": [
+          "key.accessibility" : "source.lang.swift.accessibility.private",
+          "key.annotated_decl" : "<Declaration>private func getEmptyBuffer&lt;T&gt;(type: <Type usr=\"s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1TL_xmfp\">T<\/Type>.Type) -&gt; <Type usr=\"s:Sv\">UnsafeMutableRawPointer<\/Type><\/Declaration>",
+          "key.attributes" : [
             {
-              "key.attribute": "source.decl.attribute.private",
-              "key.column": 5,
-              "key.length": 7,
-              "key.line": 178,
-              "key.offset": 7512
+              "key.attribute" : "source.decl.attribute.private",
+              "key.column" : 5,
+              "key.length" : 7,
+              "key.line" : 178,
+              "key.offset" : 7512
             }
           ],
-          "key.bodycolumn": 78,
-          "key.bodylength": 228,
-          "key.bodyline": 178,
-          "key.bodyoffset": 7585,
-          "key.column": 13,
-          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>getEmptyBuffer<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sv\">UnsafeMutableRawPointer<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.kind": "source.lang.swift.decl.function.method.instance",
-          "key.length": 294,
-          "key.line": 178,
-          "key.name": "getEmptyBuffer(type:)",
-          "key.namecolumn": 18,
-          "key.namelength": 31,
-          "key.nameline": 178,
-          "key.nameoffset": 7525,
-          "key.offset": 7520,
-          "key.parsed_declaration": "private func getEmptyBuffer<T>(type: T.Type) -> UnsafeMutableRawPointer",
-          "key.parsed_scope.end": 182,
-          "key.parsed_scope.start": 178,
-          "key.substructure": [
+          "key.bodycolumn" : 78,
+          "key.bodylength" : 228,
+          "key.bodyline" : 178,
+          "key.bodyoffset" : 7585,
+          "key.column" : 13,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>getEmptyBuffer<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1TL_xmfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>type<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1TL_xmfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sv\">UnsafeMutableRawPointer<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 294,
+          "key.line" : 178,
+          "key.name" : "getEmptyBuffer(type:)",
+          "key.namecolumn" : 18,
+          "key.namelength" : 31,
+          "key.nameline" : 178,
+          "key.nameoffset" : 7525,
+          "key.offset" : 7520,
+          "key.parsed_declaration" : "private func getEmptyBuffer<T>(type: T.Type) -> UnsafeMutableRawPointer",
+          "key.parsed_scope.end" : 182,
+          "key.parsed_scope.start" : 178,
+          "key.substructure" : [
             {
-              "key.annotated_decl": "<Declaration>T<\/Declaration>",
-              "key.column": 33,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.kind": "source.lang.swift.decl.generic_type_param",
-              "key.length": 1,
-              "key.line": 178,
-              "key.name": "T",
-              "key.namecolumn": 33,
-              "key.namelength": 1,
-              "key.nameline": 178,
-              "key.nameoffset": 7540,
-              "key.offset": 7540,
-              "key.parsed_declaration": "private func getEmptyBuffer<T",
-              "key.parsed_scope.end": 178,
-              "key.parsed_scope.start": 178,
-              "key.typename": "T.Type",
-              "key.typeusr": "$sxmD",
-              "key.usr": "s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1TL_xmfp"
+              "key.annotated_decl" : "<Declaration>T<\/Declaration>",
+              "key.column" : 33,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.kind" : "source.lang.swift.decl.generic_type_param",
+              "key.length" : 1,
+              "key.line" : 178,
+              "key.name" : "T",
+              "key.namecolumn" : 33,
+              "key.namelength" : 1,
+              "key.nameline" : 178,
+              "key.nameoffset" : 7540,
+              "key.offset" : 7540,
+              "key.parsed_declaration" : "private func getEmptyBuffer<T",
+              "key.parsed_scope.end" : 178,
+              "key.parsed_scope.start" : 178,
+              "key.typename" : "T.Type",
+              "key.typeusr" : "$sxmD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1TL_xmfp"
             },
             {
-              "key.annotated_decl": "<Declaration>let p: <Type usr=\"s:Sv\">UnsafeMutableRawPointer<\/Type><\/Declaration>",
-              "key.column": 9,
-              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
-              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>p<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sv\">UnsafeMutableRawPointer<\/ref.struct><\/decl.var.type><\/decl.var.local>",
-              "key.kind": "source.lang.swift.decl.var.local",
-              "key.length": 111,
-              "key.line": 179,
-              "key.name": "p",
-              "key.namecolumn": 13,
-              "key.namelength": 1,
-              "key.nameline": 179,
-              "key.nameoffset": 7598,
-              "key.offset": 7594,
-              "key.parsed_declaration": "let p = UnsafeMutableRawPointer.allocate(byteCount: MemoryLayout<T>.size, alignment: MemoryLayout<T>.alignment)",
-              "key.parsed_scope.end": 179,
-              "key.parsed_scope.start": 179,
-              "key.typename": "UnsafeMutableRawPointer",
-              "key.typeusr": "$sSvD",
-              "key.usr": "s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1pL_Svvp"
+              "key.annotated_decl" : "<Declaration>let p: <Type usr=\"s:Sv\">UnsafeMutableRawPointer<\/Type><\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Buffers\/ManagedByteBuffer\/DataByteBuffer.swift",
+              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>p<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sv\">UnsafeMutableRawPointer<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 111,
+              "key.line" : 179,
+              "key.name" : "p",
+              "key.namecolumn" : 13,
+              "key.namelength" : 1,
+              "key.nameline" : 179,
+              "key.nameoffset" : 7598,
+              "key.offset" : 7594,
+              "key.parsed_declaration" : "let p = UnsafeMutableRawPointer.allocate(byteCount: MemoryLayout<T>.size, alignment: MemoryLayout<T>.alignment)",
+              "key.parsed_scope.end" : 179,
+              "key.parsed_scope.start" : 179,
+              "key.typename" : "UnsafeMutableRawPointer",
+              "key.typeusr" : "$sSvD",
+              "key.usr" : "s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF1pL_Svvp"
             }
           ],
-          "key.typename": "<T> (DataByteBuffer) -> (T.Type) -> UnsafeMutableRawPointer",
-          "key.typeusr": "$s4typeSvxm_tcluD",
-          "key.usr": "s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF"
+          "key.typename" : "<T> (DataByteBuffer) -> (T.Type) -> UnsafeMutableRawPointer",
+          "key.typeusr" : "$s4typeSvxm_tcluD",
+          "key.usr" : "s:7Rubicon14DataByteBufferC08getEmptyD033_A37BED24FC1C3D395904270795951637LL4typeSvxm_tlF"
         }
       ],
-      "key.typename": "DataByteBuffer.Type",
-      "key.typeusr": "$s7Rubicon14DataByteBufferCmD",
-      "key.usr": "s:7Rubicon14DataByteBufferC"
+      "key.typename" : "DataByteBuffer.Type",
+      "key.typeusr" : "$s7Rubicon14DataByteBufferCmD",
+      "key.usr" : "s:7Rubicon14DataByteBufferC"
     }
   ]
 }
