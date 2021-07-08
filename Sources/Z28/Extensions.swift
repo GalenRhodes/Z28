@@ -22,9 +22,10 @@ import Rubicon
 extension String {
 
     func makeAbsolute(relativeTo dir: String? = nil) -> String {
+        if hasPrefix("~") { return expandingTildeInPath }
         if isAbsolutePath { return self }
         let dir = (dir ?? FileManager.default.currentDirectoryPath)
         guard dir.isAbsolutePath else { fatalError("Not an absolute path: \(dir)") }
-        return dir.appendingPathComponent(self)
+        return dir.appendingPathComponent(self).standardizingPath
     }
 }

@@ -42,21 +42,24 @@ open class Z28: ParsableCommand {
     }
 
     public func run() throws {
-        let projectPath: String = (projectPath ?? FileManager.default.currentDirectoryPath)
-        let absTempDir:  String = tempDir.makeAbsolute(relativeTo: projectPath)
+        let projectPath: String = (projectPath ?? FileManager.default.currentDirectoryPath).makeAbsolute()
+        let tempDir:     String = tempDir.makeAbsolute(relativeTo: projectPath)
+        if let f = filename { filename = f.makeAbsolute(relativeTo: projectPath) }
 
         switch buildMethod {
             case .xcode:
                 buildArguments += [ "-jobs", "\(jobs)", "-configuration", "Debug", ]
             case .spm:
-                buildArguments += [ "--jobs", "\(jobs)", "--configuration", "debug", ]
+                buildArguments += [ "-j", "\(jobs)", "-c", "debug", ]
         }
 
         printToStdout("BUILD METHOD: \(buildMethod)")
+        printToStdout("        JOBS: \(jobs)")
+        printToStdout("    FILENAME: \(filename ?? "")")
         printToStdout("  BUILD ARGS: [ \"\(buildArguments.joined(separator: "\", \""))\" ]")
         printToStdout("PROJECT PATH: \(projectPath)")
-        printToStdout("    TEMP DIR: \(absTempDir)")
+        printToStdout("    TEMP DIR: \(tempDir)")
 
-        try Z28Action(projectPath: projectPath, filename: filename, tempDir: absTempDir, jobs: jobs, buildMethod: buildMethod, buildArguments: buildArguments).run()
+        try Z28Action(projectPath: projectPath, filename: filename, tempDir: tempDir, jobs: jobs, buildMethod: buildMethod, buildArguments: buildArguments).run()
     }
 }
