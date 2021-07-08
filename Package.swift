@@ -7,7 +7,7 @@ import PackageDescription
 let package = Package(
     name: "Z28",
     platforms: [
-        .macOS(.v11_0),
+        .macOS(.v11),
     ],
     products: [
         .executable(name: "z28", targets: [ "Z28" ]),

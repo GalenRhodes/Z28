@@ -1,0 +1,4604 @@
+{
+  "key.dependencies" : [
+    {
+      "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/arm64e-apple-macos.swiftinterface",
+      "key.is_system" : true,
+      "key.kind" : "source.lang.swift.import.module.swift",
+      "key.name" : "Swift"
+    },
+    {
+      "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/Rubicon-2R5RRMVLV2Q6N.pcm",
+      "key.kind" : "source.lang.swift.import.module.clang",
+      "key.name" : "Rubicon"
+    },
+    {
+      "key.dependencies" : [
+        {
+          "key.dependencies" : [
+            {
+              "key.dependencies" : [
+                {
+                  "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/Darwin-1IVCWVLR6MT9T.pcm",
+                  "key.is_system" : true,
+                  "key.kind" : "source.lang.swift.import.module.clang",
+                  "key.name" : "Darwin"
+                },
+                {
+                  "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/arm64e-apple-macos.swiftinterface",
+                  "key.is_system" : true,
+                  "key.kind" : "source.lang.swift.import.module.swift",
+                  "key.name" : "Swift"
+                },
+                {
+                  "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/SwiftOverlayShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system" : true,
+                  "key.kind" : "source.lang.swift.import.module.clang",
+                  "key.name" : "SwiftOverlayShims"
+                },
+                {
+                  "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/SwiftShims-2DA6NLEWJC11R.pcm",
+                  "key.is_system" : true,
+                  "key.kind" : "source.lang.swift.import.module.clang",
+                  "key.name" : "SwiftShims"
+                }
+              ],
+              "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/arm64e-apple-macos.swiftinterface",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.swift",
+              "key.name" : "Darwin"
+            },
+            {
+              "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/arm64e-apple-macos.swiftinterface",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.swift",
+              "key.name" : "Swift"
+            }
+          ],
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/arm64e-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "Combine"
+        },
+        {
+          "key.dependencies" : [
+            {
+              "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/CoreFoundation-RZX25862PY17.pcm",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.clang",
+              "key.name" : "CoreFoundation"
+            },
+            {
+              "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/arm64e-apple-macos.swiftinterface",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.swift",
+              "key.name" : "Swift"
+            }
+          ],
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/arm64e-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "CoreFoundation"
+        },
+        {
+          "key.dependencies" : [
+            {
+              "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/CoreGraphics-MC4FPA2MN9QR.pcm",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.clang",
+              "key.name" : "CoreGraphics"
+            },
+            {
+              "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/arm64e-apple-macos.swiftinterface",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.swift",
+              "key.name" : "Darwin"
+            },
+            {
+              "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/arm64e-apple-macos.swiftinterface",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.swift",
+              "key.name" : "Swift"
+            }
+          ],
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreGraphics.swiftmodule\/arm64e-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "CoreGraphics"
+        },
+        {
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Darwin.swiftmodule\/arm64e-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "Darwin"
+        },
+        {
+          "key.dependencies" : [
+            {
+              "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/System\/Library\/Frameworks\/Combine.framework\/Modules\/Combine.swiftmodule\/arm64e-apple-macos.swiftinterface",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.swift",
+              "key.name" : "Combine"
+            },
+            {
+              "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/Dispatch-2M9AOUJY3TW9V.pcm",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.clang",
+              "key.name" : "Dispatch"
+            },
+            {
+              "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/arm64e-apple-macos.swiftinterface",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.swift",
+              "key.name" : "Swift"
+            }
+          ],
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Dispatch.swiftmodule\/arm64e-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "Dispatch"
+        },
+        {
+          "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/Foundation-2FJBXN8U6QRTS.pcm",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.clang",
+          "key.name" : "Foundation"
+        },
+        {
+          "key.dependencies" : [
+            {
+              "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/ObjectiveC-1A3ZNHZR9RRLF.pcm",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.clang",
+              "key.name" : "ObjectiveC"
+            },
+            {
+              "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/arm64e-apple-macos.swiftinterface",
+              "key.is_system" : true,
+              "key.kind" : "source.lang.swift.import.module.swift",
+              "key.name" : "Swift"
+            }
+          ],
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/ObjectiveC.swiftmodule\/arm64e-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "ObjectiveC"
+        },
+        {
+          "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Swift.swiftmodule\/arm64e-apple-macos.swiftinterface",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.swift",
+          "key.name" : "Swift"
+        },
+        {
+          "key.filepath" : "\/Users\/grhodes\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex\/QXF79IJ314ZI\/Darwin-1IVCWVLR6MT9T.pcm",
+          "key.is_system" : true,
+          "key.kind" : "source.lang.swift.import.module.clang",
+          "key.name" : "uuid"
+        }
+      ],
+      "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/Foundation.swiftmodule\/arm64e-apple-macos.swiftinterface",
+      "key.is_system" : true,
+      "key.kind" : "source.lang.swift.import.module.swift",
+      "key.name" : "Foundation"
+    },
+    {
+      "key.filepath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX11.3.sdk\/usr\/lib\/swift\/CoreFoundation.swiftmodule\/arm64e-apple-macos.swiftinterface",
+      "key.is_system" : true,
+      "key.kind" : "source.lang.swift.import.module.swift",
+      "key.name" : "CoreFoundation"
+    }
+  ],
+  "key.entities" : [
+    {
+      "key.column" : 8,
+      "key.kind" : "source.lang.swift.ref.module",
+      "key.line" : 18,
+      "key.name" : "Foundation",
+      "key.usr" : "c:@M@Foundation"
+    },
+    {
+      "key.column" : 8,
+      "key.kind" : "source.lang.swift.ref.module",
+      "key.line" : 19,
+      "key.name" : "CoreFoundation",
+      "key.usr" : "c:@M@CoreFoundation"
+    },
+    {
+      "key.attributes" : [
+        {
+          "key.attribute" : "source.decl.attribute.open"
+        }
+      ],
+      "key.column" : 12,
+      "key.effective_access" : "source.decl.effective_access.public",
+      "key.entities" : [
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 17,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.inlinable"
+                }
+              ],
+              "key.column" : 17,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.operator.infix",
+              "key.line" : 22,
+              "key.related" : [
+                {
+                  "key.kind" : "source.lang.swift.ref.function.operator.infix",
+                  "key.name" : "==(_:_:)",
+                  "key.usr" : "s:SQ2eeoiySbx_xtFZ"
+                }
+              ],
+              "key.usr" : "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.inlinable"
+                }
+              ],
+              "key.column" : 17,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.var.instance",
+              "key.line" : 22,
+              "key.related" : [
+                {
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.name" : "hashValue",
+                  "key.usr" : "s:SH9hashValueSivp"
+                }
+              ],
+              "key.usr" : "s:SYsSHRzSH8RawValueSYRpzrlE04hashB0Sivp"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.inlinable"
+                }
+              ],
+              "key.column" : 17,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.method.instance",
+              "key.line" : 22,
+              "key.related" : [
+                {
+                  "key.kind" : "source.lang.swift.ref.function.method.instance",
+                  "key.name" : "hash(into:)",
+                  "key.usr" : "s:SH4hash4intoys6HasherVz_tF"
+                }
+              ],
+              "key.usr" : "s:SYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF"
+            },
+            {
+              "key.column" : 30,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 22,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 41,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.kind" : "source.lang.swift.decl.enumelement",
+              "key.line" : 22,
+              "key.name" : "Long",
+              "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO4LongyA2EmF"
+            },
+            {
+              "key.column" : 51,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.kind" : "source.lang.swift.decl.enumelement",
+              "key.line" : 22,
+              "key.name" : "Medium",
+              "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO6MediumyA2EmF"
+            },
+            {
+              "key.column" : 63,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.kind" : "source.lang.swift.decl.enumelement",
+              "key.line" : 22,
+              "key.name" : "Short",
+              "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO5ShortyA2EmF"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.enum",
+          "key.line" : 22,
+          "key.name" : "LabelLength",
+          "key.related" : [
+            {
+              "key.column" : 30,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 22,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            }
+          ],
+          "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 19,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 27,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.entities" : [
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 26,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5namesSaySaySSGGvgZ"
+                },
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 26,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5namesSaySaySSGGvsZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.line" : 26,
+              "key.name" : "names",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5namesSaySaySSGGvpZ"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 26,
+              "key.name" : "String",
+              "key.usr" : "s:SS"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 27,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.entities" : [
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 32,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4DaysAEvgZ"
+                },
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 32,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4DaysAEvsZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.line" : 32,
+              "key.name" : "Days",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV4DaysAEvpZ"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 32,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 32,
+              "key.name" : "init(index:div:mod:)",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5index3div3modAESi_S2itc33_A83FB8F892C3B7E4753C5F0CB340827ELlfc"
+            },
+            {
+              "key.column" : 82,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 32,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 86,
+              "key.entities" : [
+                {
+                  "key.column" : 86,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 32,
+                  "key.receiver_usr" : "s:Si",
+                  "key.usr" : "s:SZss17FixedWidthIntegerRzrlE3maxxvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 32,
+              "key.name" : "max",
+              "key.usr" : "s:SZss17FixedWidthIntegerRzrlE3maxxvpZ"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 27,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.entities" : [
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 33,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5HoursAEvgZ"
+                },
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 33,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5HoursAEvsZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.line" : 33,
+              "key.name" : "Hours",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5HoursAEvpZ"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 33,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 33,
+              "key.name" : "init(index:div:mod:)",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5index3div3modAESi_S2itc33_A83FB8F892C3B7E4753C5F0CB340827ELlfc"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 27,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.entities" : [
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 34,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4MinsAEvgZ"
+                },
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 34,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4MinsAEvsZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.line" : 34,
+              "key.name" : "Mins",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV4MinsAEvpZ"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 34,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 34,
+              "key.name" : "init(index:div:mod:)",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5index3div3modAESi_S2itc33_A83FB8F892C3B7E4753C5F0CB340827ELlfc"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 27,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.entities" : [
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 35,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4SecsAEvgZ"
+                },
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 35,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4SecsAEvsZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.line" : 35,
+              "key.name" : "Secs",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV4SecsAEvpZ"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 35,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 35,
+              "key.name" : "init(index:div:mod:)",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5index3div3modAESi_S2itc33_A83FB8F892C3B7E4753C5F0CB340827ELlfc"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 27,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.entities" : [
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 36,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvgZ"
+                },
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 36,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvsZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.line" : 36,
+              "key.name" : "Millis",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvpZ"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 36,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 36,
+              "key.name" : "init(index:div:mod:)",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5index3div3modAESi_S2itc33_A83FB8F892C3B7E4753C5F0CB340827ELlfc"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 27,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.entities" : [
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 37,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MicrosAEvgZ"
+                },
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 37,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MicrosAEvsZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.line" : 37,
+              "key.name" : "Micros",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MicrosAEvpZ"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 37,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 37,
+              "key.name" : "init(index:div:mod:)",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5index3div3modAESi_S2itc33_A83FB8F892C3B7E4753C5F0CB340827ELlfc"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 27,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.entities" : [
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 38,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5NanosAEvgZ"
+                },
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 38,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5NanosAEvsZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.line" : 38,
+              "key.name" : "Nanos",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5NanosAEvpZ"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 38,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.function.constructor",
+              "key.line" : 38,
+              "key.name" : "init(index:div:mod:)",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5index3div3modAESi_S2itc33_A83FB8F892C3B7E4753C5F0CB340827ELlfc"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 27,
+              "key.effective_access" : "source.decl.effective_access.public",
+              "key.entities" : [
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 41,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV9allFieldsSayAEGvgZ"
+                },
+                {
+                  "key.attributes" : [
+                    {
+                      "key.attribute" : "source.decl.attribute.public"
+                    }
+                  ],
+                  "key.column" : 27,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 41,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV9allFieldsSayAEGvsZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.line" : 41,
+              "key.name" : "allFields",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV9allFieldsSayAEGvpZ"
+            },
+            {
+              "key.column" : 39,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 41,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 51,
+              "key.entities" : [
+                {
+                  "key.column" : 51,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 41,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4DaysAEvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 41,
+              "key.name" : "Days",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV4DaysAEvpZ"
+            },
+            {
+              "key.column" : 58,
+              "key.entities" : [
+                {
+                  "key.column" : 58,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 41,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5HoursAEvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 41,
+              "key.name" : "Hours",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5HoursAEvpZ"
+            },
+            {
+              "key.column" : 66,
+              "key.entities" : [
+                {
+                  "key.column" : 66,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 41,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4MinsAEvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 41,
+              "key.name" : "Mins",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV4MinsAEvpZ"
+            },
+            {
+              "key.column" : 73,
+              "key.entities" : [
+                {
+                  "key.column" : 73,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 41,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4SecsAEvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 41,
+              "key.name" : "Secs",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV4SecsAEvpZ"
+            },
+            {
+              "key.column" : 80,
+              "key.entities" : [
+                {
+                  "key.column" : 80,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 41,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 41,
+              "key.name" : "Millis",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvpZ"
+            },
+            {
+              "key.column" : 89,
+              "key.entities" : [
+                {
+                  "key.column" : 89,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 41,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MicrosAEvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 41,
+              "key.name" : "Micros",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MicrosAEvpZ"
+            },
+            {
+              "key.column" : 98,
+              "key.entities" : [
+                {
+                  "key.column" : 98,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 41,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5NanosAEvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 41,
+              "key.name" : "Nanos",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5NanosAEvpZ"
+            },
+            {
+              "key.column" : 13,
+              "key.effective_access" : "source.decl.effective_access.internal",
+              "key.entities" : [
+                {
+                  "key.column" : 13,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 43,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivg"
+                },
+                {
+                  "key.column" : 13,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 43,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.instance",
+              "key.line" : 43,
+              "key.name" : "mod",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivp"
+            },
+            {
+              "key.column" : 20,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 43,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 13,
+              "key.effective_access" : "source.decl.effective_access.internal",
+              "key.entities" : [
+                {
+                  "key.column" : 13,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 44,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3divSivg"
+                },
+                {
+                  "key.column" : 13,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 44,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3divSivs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.instance",
+              "key.line" : 44,
+              "key.name" : "div",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3divSivp"
+            },
+            {
+              "key.column" : 20,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 44,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 13,
+              "key.effective_access" : "source.decl.effective_access.internal",
+              "key.entities" : [
+                {
+                  "key.column" : 13,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+                  "key.line" : 45,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                },
+                {
+                  "key.column" : 13,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+                  "key.line" : 45,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.var.instance",
+              "key.line" : 45,
+              "key.name" : "index",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+            },
+            {
+              "key.column" : 20,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 45,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.private"
+                }
+              ],
+              "key.column" : 17,
+              "key.effective_access" : "source.decl.effective_access.less_than_fileprivate",
+              "key.entities" : [
+                {
+                  "key.column" : 29,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 47,
+                  "key.name" : "Int",
+                  "key.usr" : "s:Si"
+                },
+                {
+                  "key.column" : 39,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 47,
+                  "key.name" : "Int",
+                  "key.usr" : "s:Si"
+                },
+                {
+                  "key.column" : 49,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 47,
+                  "key.name" : "Int",
+                  "key.usr" : "s:Si"
+                },
+                {
+                  "key.column" : 18,
+                  "key.entities" : [
+                    {
+                      "key.column" : 18,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 48,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 48,
+                  "key.name" : "mod",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivp"
+                },
+                {
+                  "key.column" : 18,
+                  "key.entities" : [
+                    {
+                      "key.column" : 18,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 49,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV3divSivs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 49,
+                  "key.name" : "div",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3divSivp"
+                },
+                {
+                  "key.column" : 18,
+                  "key.entities" : [
+                    {
+                      "key.column" : 18,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 50,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 50,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                }
+              ],
+              "key.kind" : "source.lang.swift.decl.function.constructor",
+              "key.line" : 47,
+              "key.name" : "init(index:div:mod:)",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5index3div3modAESi_S2itc33_A83FB8F892C3B7E4753C5F0CB340827ELlfc"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.struct",
+          "key.line" : 24,
+          "key.name" : "Field",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+        },
+        {
+          "key.column" : 15,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 34,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 54,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 48,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 54,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.typealias",
+          "key.line" : 54,
+          "key.name" : "SWValues",
+          "key.usr" : "s:7Rubicon9StopWatchC8SWValuesa"
+        },
+        {
+          "key.column" : 15,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 55,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 48,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 55,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.typealias",
+          "key.line" : 55,
+          "key.name" : "SWRounding",
+          "key.usr" : "s:7Rubicon9StopWatchC10SWRoundinga"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.final"
+            },
+            {
+              "key.attribute" : "source.decl.attribute.private"
+            }
+          ],
+          "key.column" : 17,
+          "key.effective_access" : "source.decl.effective_access.less_than_fileprivate",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.private"
+                }
+              ],
+              "key.column" : 17,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 57,
+              "key.usr" : "s:7Rubicon9StopWatchC6offset33_A83FB8F892C3B7E4753C5F0CB340827ELLSivg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.private"
+                }
+              ],
+              "key.column" : 17,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 57,
+              "key.usr" : "s:7Rubicon9StopWatchC6offset33_A83FB8F892C3B7E4753C5F0CB340827ELLSivs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 57,
+          "key.name" : "offset",
+          "key.usr" : "s:7Rubicon9StopWatchC6offset33_A83FB8F892C3B7E4753C5F0CB340827ELLSivp"
+        },
+        {
+          "key.column" : 28,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 57,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.private"
+            }
+          ],
+          "key.column" : 17,
+          "key.effective_access" : "source.decl.effective_access.less_than_fileprivate",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.private"
+                }
+              ],
+              "key.column" : 17,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 58,
+              "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.private"
+                }
+              ],
+              "key.column" : 17,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 58,
+              "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 58,
+          "key.name" : "descCache",
+          "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvp"
+        },
+        {
+          "key.column" : 28,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 58,
+          "key.name" : "String",
+          "key.usr" : "s:SS"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.private"
+            }
+          ],
+          "key.column" : 17,
+          "key.effective_access" : "source.decl.effective_access.less_than_fileprivate",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.private"
+                }
+              ],
+              "key.column" : 17,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 59,
+              "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.private"
+                }
+              ],
+              "key.column" : 17,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 59,
+              "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 59,
+          "key.name" : "values",
+          "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+        },
+        {
+          "key.column" : 29,
+          "key.kind" : "source.lang.swift.ref.typealias",
+          "key.line" : 59,
+          "key.name" : "SWValues",
+          "key.usr" : "s:7Rubicon9StopWatchC8SWValuesa"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.setter_access.private"
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 29,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.setter_access.private"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 29,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 61,
+              "key.usr" : "s:7Rubicon9StopWatchC9startTimeSivg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.setter_access.private"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 29,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 61,
+              "key.usr" : "s:7Rubicon9StopWatchC9startTimeSivs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 61,
+          "key.name" : "startTime",
+          "key.usr" : "s:7Rubicon9StopWatchC9startTimeSivp"
+        },
+        {
+          "key.column" : 42,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 61,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.setter_access.private"
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 29,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.setter_access.private"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 29,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 62,
+              "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.setter_access.private"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 29,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 62,
+              "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 62,
+          "key.name" : "stopTime",
+          "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivp"
+        },
+        {
+          "key.column" : 42,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 62,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.setter_access.private"
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 29,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.setter_access.private"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 29,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 63,
+              "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.setter_access.private"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 29,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 63,
+              "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 63,
+          "key.name" : "elapsedTime",
+          "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivp"
+        },
+        {
+          "key.column" : 42,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 63,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.setter_access.private"
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 29,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.setter_access.private"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 29,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 64,
+              "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.setter_access.private"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 29,
+              "key.is_dynamic" : true,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 64,
+              "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 64,
+          "key.name" : "isRunning",
+          "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvp"
+        },
+        {
+          "key.column" : 42,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 64,
+          "key.name" : "Bool",
+          "key.usr" : "s:Sb"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.final"
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 16,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 66,
+              "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 16,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 66,
+              "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 66,
+          "key.name" : "labelLength",
+          "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovp"
+        },
+        {
+          "key.column" : 29,
+          "key.kind" : "source.lang.swift.ref.enum",
+          "key.line" : 66,
+          "key.name" : "LabelLength",
+          "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.final"
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 16,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 67,
+              "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvg"
+            },
+            {
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.final"
+                },
+                {
+                  "key.attribute" : "source.decl.attribute.public"
+                }
+              ],
+              "key.column" : 16,
+              "key.is_implicit" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.setter",
+              "key.line" : 67,
+              "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvs"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 67,
+          "key.name" : "lastField",
+          "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvp"
+        },
+        {
+          "key.column" : 29,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 67,
+          "key.name" : "Field",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 12,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 30,
+              "key.kind" : "source.lang.swift.ref.enum",
+              "key.line" : 69,
+              "key.name" : "LabelLength",
+              "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO"
+            },
+            {
+              "key.column" : 45,
+              "key.kind" : "source.lang.swift.ref.enumelement",
+              "key.line" : 69,
+              "key.name" : "Long",
+              "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO4LongyA2EmF"
+            },
+            {
+              "key.column" : 62,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 69,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 71,
+              "key.entities" : [
+                {
+                  "key.column" : 71,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 69,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 69,
+              "key.name" : "Millis",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvpZ"
+            },
+            {
+              "key.column" : 86,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 69,
+              "key.name" : "Bool",
+              "key.usr" : "s:Sb"
+            },
+            {
+              "key.column" : 14,
+              "key.entities" : [
+                {
+                  "key.column" : 14,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 70,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 70,
+              "key.name" : "labelLength",
+              "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovp"
+            },
+            {
+              "key.column" : 14,
+              "key.entities" : [
+                {
+                  "key.column" : 14,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 71,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 71,
+              "key.name" : "lastField",
+              "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvp"
+            },
+            {
+              "key.column" : 14,
+              "key.entities" : [
+                {
+                  "key.column" : 14,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 72,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC6offset33_A83FB8F892C3B7E4753C5F0CB340827ELLSivs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 72,
+              "key.name" : "offset",
+              "key.usr" : "s:7Rubicon9StopWatchC6offset33_A83FB8F892C3B7E4753C5F0CB340827ELLSivp"
+            },
+            {
+              "key.column" : 23,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 72,
+              "key.name" : "getSysTimeAdjustment()",
+              "key.usr" : "s:7Rubicon20getSysTimeAdjustmentSiyF"
+            },
+            {
+              "key.column" : 25,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 73,
+              "key.name" : "_start()",
+              "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+              "key.usr" : "s:7Rubicon9StopWatchC6_startyyF"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.function.constructor",
+          "key.line" : 69,
+          "key.name" : "init(labelLength:lastField:start:)",
+          "key.usr" : "s:7Rubicon9StopWatchC11labelLength9lastField5startA2C05LabelE0O_AC0G0VSbtcfc"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.open"
+            }
+          ],
+          "key.column" : 15,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 15,
+              "key.kind" : "source.lang.swift.ref.function.operator.prefix",
+              "key.line" : 77,
+              "key.name" : "!(_:)",
+              "key.receiver_usr" : "s:Sb",
+              "key.usr" : "s:Sb1nopyS2bFZ"
+            },
+            {
+              "key.column" : 16,
+              "key.entities" : [
+                {
+                  "key.column" : 16,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 77,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 77,
+              "key.name" : "isRunning",
+              "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvp"
+            },
+            {
+              "key.column" : 9,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 78,
+              "key.name" : "_start()",
+              "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+              "key.usr" : "s:7Rubicon9StopWatchC6_startyyF"
+            }
+          ],
+          "key.is_dynamic" : true,
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 76,
+          "key.name" : "start()",
+          "key.usr" : "s:7Rubicon9StopWatchC5startyyF"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.open"
+            }
+          ],
+          "key.column" : 15,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 15,
+              "key.entities" : [
+                {
+                  "key.column" : 15,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 82,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 82,
+              "key.name" : "isRunning",
+              "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvp"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 83,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 83,
+              "key.name" : "stopTime",
+              "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivp"
+            },
+            {
+              "key.column" : 20,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 83,
+              "key.name" : "getSysTime(delta:)",
+              "key.usr" : "s:7Rubicon10getSysTime5deltaS2i_tF"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 84,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 84,
+              "key.name" : "descCache",
+              "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvp"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 85,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 85,
+              "key.name" : "isRunning",
+              "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvp"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 86,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 86,
+              "key.name" : "elapsedTime",
+              "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivp"
+            },
+            {
+              "key.column" : 25,
+              "key.entities" : [
+                {
+                  "key.column" : 25,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 86,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 86,
+              "key.name" : "stopTime",
+              "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivp"
+            },
+            {
+              "key.column" : 34,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 86,
+              "key.name" : "==(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column" : 47,
+              "key.entities" : [
+                {
+                  "key.column" : 47,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 86,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 86,
+              "key.name" : "stopTime",
+              "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivp"
+            },
+            {
+              "key.column" : 56,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 86,
+              "key.name" : "-(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 58,
+              "key.entities" : [
+                {
+                  "key.column" : 58,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 86,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC9startTimeSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 86,
+              "key.name" : "startTime",
+              "key.usr" : "s:7Rubicon9StopWatchC9startTimeSivp"
+            },
+            {
+              "key.column" : 68,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 86,
+              "key.name" : "-(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1soiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 70,
+              "key.entities" : [
+                {
+                  "key.column" : 70,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 86,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC6offset33_A83FB8F892C3B7E4753C5F0CB340827ELLSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 86,
+              "key.name" : "offset",
+              "key.usr" : "s:7Rubicon9StopWatchC6offset33_A83FB8F892C3B7E4753C5F0CB340827ELLSivp"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 87,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 87,
+              "key.name" : "values",
+              "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+            },
+            {
+              "key.column" : 18,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 87,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 24,
+              "key.entities" : [
+                {
+                  "key.column" : 24,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 87,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV9allFieldsSayAEGvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 87,
+              "key.name" : "allFields",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV9allFieldsSayAEGvpZ"
+            },
+            {
+              "key.column" : 34,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 87,
+              "key.name" : "map(_:)",
+              "key.receiver_usr" : "s:Sa",
+              "key.usr" : "s:SlsE3mapySayqd__Gqd__7ElementQzKXEKlF"
+            },
+            {
+              "key.column" : 48,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 87,
+              "key.name" : "calcValue(nanos:)",
+              "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV9calcValue5nanosS2i_tF"
+            },
+            {
+              "key.column" : 65,
+              "key.entities" : [
+                {
+                  "key.column" : 65,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 87,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 87,
+              "key.name" : "elapsedTime",
+              "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivp"
+            }
+          ],
+          "key.is_dynamic" : true,
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 81,
+          "key.name" : "stop()",
+          "key.usr" : "s:7Rubicon9StopWatchC4stopyyF"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.class",
+      "key.line" : 21,
+      "key.name" : "StopWatch",
+      "key.usr" : "s:7Rubicon9StopWatchC"
+    },
+    {
+      "key.attributes" : [
+        {
+          "key.attribute" : "source.decl.attribute.public"
+        }
+      ],
+      "key.column" : 21,
+      "key.entities" : [
+        {
+          "key.column" : 21,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 91,
+          "key.name" : "Field",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+        },
+        {
+          "key.column" : 28,
+          "key.kind" : "source.lang.swift.ref.protocol",
+          "key.line" : 91,
+          "key.name" : "Hashable",
+          "key.usr" : "s:SH"
+        },
+        {
+          "key.column" : 11,
+          "key.kind" : "source.lang.swift.ref.class",
+          "key.line" : 91,
+          "key.name" : "StopWatch",
+          "key.usr" : "s:7Rubicon9StopWatchC"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 17,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 41,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 93,
+              "key.name" : "Hasher",
+              "key.usr" : "s:s6HasherV"
+            },
+            {
+              "key.column" : 58,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 93,
+              "key.name" : "combine(_:)",
+              "key.usr" : "s:s6HasherV7combineyyxSHRzlF"
+            },
+            {
+              "key.column" : 66,
+              "key.entities" : [
+                {
+                  "key.column" : 66,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 93,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 93,
+              "key.name" : "index",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 93,
+          "key.name" : "hash(into:)",
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.name" : "hash(into:)",
+              "key.usr" : "s:SH4hash4intoys6HasherVz_tF"
+            }
+          ],
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV4hash4intoys6HasherVz_tF"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 24,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 53,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 95,
+              "key.name" : "Bool",
+              "key.usr" : "s:Sb"
+            },
+            {
+              "key.column" : 65,
+              "key.entities" : [
+                {
+                  "key.column" : 65,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 95,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 95,
+              "key.name" : "index",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+            },
+            {
+              "key.column" : 71,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 95,
+              "key.name" : "==(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si2eeoiySbSi_SitFZ"
+            },
+            {
+              "key.column" : 78,
+              "key.entities" : [
+                {
+                  "key.column" : 78,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 95,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 95,
+              "key.name" : "index",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.function.operator.infix",
+          "key.line" : 95,
+          "key.name" : "==(_:_:)",
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.name" : "==(_:_:)",
+              "key.usr" : "s:SQ2eeoiySbx_xtFZ"
+            }
+          ],
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV2eeoiySbAE_AEtFZ"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.extension.struct",
+      "key.line" : 91,
+      "key.name" : "Field",
+      "key.related" : [
+        {
+          "key.column" : 28,
+          "key.kind" : "source.lang.swift.ref.protocol",
+          "key.line" : 91,
+          "key.name" : "Hashable",
+          "key.usr" : "s:SH"
+        }
+      ],
+      "key.usr" : "s:e:s:7Rubicon9StopWatchC5FieldV4hash4intoys6HasherVz_tF"
+    },
+    {
+      "key.attributes" : [
+        {
+          "key.attribute" : "source.decl.attribute.public"
+        }
+      ],
+      "key.column" : 21,
+      "key.entities" : [
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column" : 21,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.is_implicit" : true,
+          "key.kind" : "source.lang.swift.decl.function.operator.infix",
+          "key.line" : 98,
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.name" : "<=(_:_:)",
+              "key.usr" : "s:SL2leoiySbx_xtFZ"
+            }
+          ],
+          "key.usr" : "s:SLsE2leoiySbx_xtFZ"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column" : 21,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.is_implicit" : true,
+          "key.kind" : "source.lang.swift.decl.function.operator.infix",
+          "key.line" : 98,
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.name" : ">=(_:_:)",
+              "key.usr" : "s:SL2geoiySbx_xtFZ"
+            }
+          ],
+          "key.usr" : "s:SLsE2geoiySbx_xtFZ"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.inlinable"
+            }
+          ],
+          "key.column" : 21,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.is_implicit" : true,
+          "key.kind" : "source.lang.swift.decl.function.operator.infix",
+          "key.line" : 98,
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.name" : ">(_:_:)",
+              "key.usr" : "s:SL1goiySbx_xtFZ"
+            }
+          ],
+          "key.usr" : "s:SLsE1goiySbx_xtFZ"
+        },
+        {
+          "key.column" : 21,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 98,
+          "key.name" : "Field",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+        },
+        {
+          "key.column" : 28,
+          "key.kind" : "source.lang.swift.ref.protocol",
+          "key.line" : 98,
+          "key.name" : "Comparable",
+          "key.usr" : "s:SL"
+        },
+        {
+          "key.column" : 11,
+          "key.kind" : "source.lang.swift.ref.class",
+          "key.line" : 98,
+          "key.name" : "StopWatch",
+          "key.usr" : "s:7Rubicon9StopWatchC"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 24,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 52,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 100,
+              "key.name" : "Bool",
+              "key.usr" : "s:Sb"
+            },
+            {
+              "key.column" : 64,
+              "key.entities" : [
+                {
+                  "key.column" : 64,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 100,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 100,
+              "key.name" : "index",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+            },
+            {
+              "key.column" : 70,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 100,
+              "key.name" : "<(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column" : 76,
+              "key.entities" : [
+                {
+                  "key.column" : 76,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 100,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 100,
+              "key.name" : "index",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.function.operator.infix",
+          "key.line" : 100,
+          "key.name" : "<(_:_:)",
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.name" : "<(_:_:)",
+              "key.usr" : "s:SL1loiySbx_xtFZ"
+            }
+          ],
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV1loiySbAE_AEtFZ"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.extension.struct",
+      "key.line" : 98,
+      "key.name" : "Field",
+      "key.related" : [
+        {
+          "key.column" : 28,
+          "key.kind" : "source.lang.swift.ref.protocol",
+          "key.line" : 98,
+          "key.name" : "Comparable",
+          "key.usr" : "s:SL"
+        }
+      ],
+      "key.usr" : "s:e:s:7Rubicon9StopWatchC5FieldV1loiySbAE_AEtFZ"
+    },
+    {
+      "key.attributes" : [
+        {
+          "key.attribute" : "source.decl.attribute.public"
+        }
+      ],
+      "key.column" : 21,
+      "key.entities" : [
+        {
+          "key.column" : 21,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 103,
+          "key.name" : "Field",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+        },
+        {
+          "key.column" : 11,
+          "key.kind" : "source.lang.swift.ref.class",
+          "key.line" : 103,
+          "key.name" : "StopWatch",
+          "key.usr" : "s:7Rubicon9StopWatchC"
+        },
+        {
+          "key.column" : 10,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 32,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 105,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 40,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 105,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 54,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 105,
+              "key.name" : "+(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1poiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 57,
+              "key.entities" : [
+                {
+                  "key.column" : 57,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 105,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 105,
+              "key.name" : "mod",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivp"
+            },
+            {
+              "key.column" : 61,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 105,
+              "key.name" : "\/(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1doiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 67,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 105,
+              "key.name" : "\/(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1doiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 69,
+              "key.entities" : [
+                {
+                  "key.column" : 69,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 105,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 105,
+              "key.name" : "mod",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivp"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 105,
+          "key.name" : "calcRounding(_:)",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV12calcRoundingyS2iF"
+        },
+        {
+          "key.column" : 10,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 28,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 107,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.class",
+              "key.line" : 107,
+              "key.name" : "StopWatch",
+              "key.usr" : "s:7Rubicon9StopWatchC"
+            },
+            {
+              "key.column" : 46,
+              "key.kind" : "source.lang.swift.ref.typealias",
+              "key.line" : 107,
+              "key.name" : "SWRounding",
+              "key.usr" : "s:7Rubicon9StopWatchC10SWRoundinga"
+            },
+            {
+              "key.column" : 70,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 107,
+              "key.name" : "%(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1roiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 72,
+              "key.entities" : [
+                {
+                  "key.column" : 72,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 107,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 107,
+              "key.name" : "mod",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivp"
+            },
+            {
+              "key.column" : 88,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 107,
+              "key.name" : "\/(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1doiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 90,
+              "key.entities" : [
+                {
+                  "key.column" : 90,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 107,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 107,
+              "key.name" : "mod",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivp"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 107,
+          "key.name" : "calcOverflow(_:)",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV12calcOverflowySi5value_Si5carrytSiF"
+        },
+        {
+          "key.column" : 10,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 27,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 109,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 35,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 109,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 49,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 109,
+              "key.name" : "\/(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1doiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 51,
+              "key.entities" : [
+                {
+                  "key.column" : 51,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 109,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3divSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 109,
+              "key.name" : "div",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3divSivp"
+            },
+            {
+              "key.column" : 56,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 109,
+              "key.name" : "%(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1roiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 58,
+              "key.entities" : [
+                {
+                  "key.column" : 58,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 109,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 109,
+              "key.name" : "mod",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivp"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 109,
+          "key.name" : "calcValue(nanos:)",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV9calcValue5nanosS2i_tF"
+        },
+        {
+          "key.column" : 10,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 26,
+              "key.kind" : "source.lang.swift.ref.class",
+              "key.line" : 111,
+              "key.name" : "StopWatch",
+              "key.usr" : "s:7Rubicon9StopWatchC"
+            },
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.ref.enum",
+              "key.line" : 111,
+              "key.name" : "LabelLength",
+              "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO"
+            },
+            {
+              "key.column" : 52,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 111,
+              "key.name" : "String",
+              "key.usr" : "s:SS"
+            },
+            {
+              "key.column" : 66,
+              "key.entities" : [
+                {
+                  "key.column" : 66,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 111,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5namesSaySaySSGGvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 111,
+              "key.name" : "names",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5namesSaySaySSGGvpZ"
+            },
+            {
+              "key.column" : 71,
+              "key.entities" : [
+                {
+                  "key.column" : 71,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 111,
+                  "key.receiver_usr" : "s:Sa",
+                  "key.usr" : "s:SayxSicig"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.function.subscript",
+              "key.line" : 111,
+              "key.name" : "subscript(_:)",
+              "key.usr" : "s:SayxSicip"
+            },
+            {
+              "key.column" : 88,
+              "key.entities" : [
+                {
+                  "key.column" : 88,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 111,
+                  "key.receiver_usr" : "s:Sa",
+                  "key.usr" : "s:SayxSicig"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.function.subscript",
+              "key.line" : 111,
+              "key.name" : "subscript(_:)",
+              "key.usr" : "s:SayxSicip"
+            },
+            {
+              "key.column" : 89,
+              "key.entities" : [
+                {
+                  "key.column" : 89,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 111,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 111,
+              "key.name" : "index",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 111,
+          "key.name" : "label(_:)",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV5labelySSAC11LabelLengthOF"
+        },
+        {
+          "key.column" : 10,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 28,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 113,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 41,
+              "key.kind" : "source.lang.swift.ref.class",
+              "key.line" : 113,
+              "key.name" : "StopWatch",
+              "key.usr" : "s:7Rubicon9StopWatchC"
+            },
+            {
+              "key.column" : 51,
+              "key.kind" : "source.lang.swift.ref.enum",
+              "key.line" : 113,
+              "key.name" : "LabelLength",
+              "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO"
+            },
+            {
+              "key.column" : 67,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 113,
+              "key.name" : "String",
+              "key.usr" : "s:SS"
+            },
+            {
+              "key.column" : 88,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 113,
+              "key.name" : "label(_:)",
+              "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5labelySSAC11LabelLengthOF"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 113,
+          "key.name" : "toString(_:length:)",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV8toString_6lengthSSSi_AC11LabelLengthOtF"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.extension.struct",
+      "key.line" : 103,
+      "key.name" : "Field",
+      "key.usr" : "s:e:s:7Rubicon9StopWatchC5FieldV12calcRoundingyS2iF"
+    },
+    {
+      "key.attributes" : [
+        {
+          "key.attribute" : "source.decl.attribute.open"
+        }
+      ],
+      "key.column" : 11,
+      "key.entities" : [
+        {
+          "key.column" : 11,
+          "key.kind" : "source.lang.swift.ref.class",
+          "key.line" : 116,
+          "key.name" : "StopWatch",
+          "key.usr" : "s:7Rubicon9StopWatchC"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 29,
+              "key.entities" : [
+                {
+                  "key.column" : 31,
+                  "key.entities" : [
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 117,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                    },
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 117,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 117,
+                  "key.name" : "values",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+                },
+                {
+                  "key.column" : 37,
+                  "key.entities" : [
+                    {
+                      "key.column" : 37,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 117,
+                      "key.usr" : "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.function.subscript",
+                  "key.line" : 117,
+                  "key.name" : "subscript(_:)",
+                  "key.usr" : "s:SayxSicip"
+                },
+                {
+                  "key.column" : 38,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 117,
+                  "key.name" : "Field",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+                },
+                {
+                  "key.column" : 44,
+                  "key.entities" : [
+                    {
+                      "key.column" : 44,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 117,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV4DaysAEvgZ"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.static",
+                  "key.line" : 117,
+                  "key.name" : "Days",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4DaysAEvpZ"
+                },
+                {
+                  "key.column" : 49,
+                  "key.entities" : [
+                    {
+                      "key.column" : 49,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 117,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 117,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                }
+              ],
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 117,
+              "key.name" : "getter:days",
+              "key.usr" : "s:7Rubicon9StopWatchC4daysSivg"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 117,
+          "key.name" : "days",
+          "key.usr" : "s:7Rubicon9StopWatchC4daysSivp"
+        },
+        {
+          "key.column" : 25,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 117,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 29,
+              "key.entities" : [
+                {
+                  "key.column" : 31,
+                  "key.entities" : [
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 118,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                    },
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 118,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 118,
+                  "key.name" : "values",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+                },
+                {
+                  "key.column" : 37,
+                  "key.entities" : [
+                    {
+                      "key.column" : 37,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 118,
+                      "key.usr" : "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.function.subscript",
+                  "key.line" : 118,
+                  "key.name" : "subscript(_:)",
+                  "key.usr" : "s:SayxSicip"
+                },
+                {
+                  "key.column" : 38,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 118,
+                  "key.name" : "Field",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+                },
+                {
+                  "key.column" : 44,
+                  "key.entities" : [
+                    {
+                      "key.column" : 44,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 118,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5HoursAEvgZ"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.static",
+                  "key.line" : 118,
+                  "key.name" : "Hours",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5HoursAEvpZ"
+                },
+                {
+                  "key.column" : 50,
+                  "key.entities" : [
+                    {
+                      "key.column" : 50,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 118,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 118,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                }
+              ],
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 118,
+              "key.name" : "getter:hours",
+              "key.usr" : "s:7Rubicon9StopWatchC5hoursSivg"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 118,
+          "key.name" : "hours",
+          "key.usr" : "s:7Rubicon9StopWatchC5hoursSivp"
+        },
+        {
+          "key.column" : 25,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 118,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 29,
+              "key.entities" : [
+                {
+                  "key.column" : 31,
+                  "key.entities" : [
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 119,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                    },
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 119,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 119,
+                  "key.name" : "values",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+                },
+                {
+                  "key.column" : 37,
+                  "key.entities" : [
+                    {
+                      "key.column" : 37,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 119,
+                      "key.usr" : "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.function.subscript",
+                  "key.line" : 119,
+                  "key.name" : "subscript(_:)",
+                  "key.usr" : "s:SayxSicip"
+                },
+                {
+                  "key.column" : 38,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 119,
+                  "key.name" : "Field",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+                },
+                {
+                  "key.column" : 44,
+                  "key.entities" : [
+                    {
+                      "key.column" : 44,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 119,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV4MinsAEvgZ"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.static",
+                  "key.line" : 119,
+                  "key.name" : "Mins",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4MinsAEvpZ"
+                },
+                {
+                  "key.column" : 49,
+                  "key.entities" : [
+                    {
+                      "key.column" : 49,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 119,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 119,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                }
+              ],
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 119,
+              "key.name" : "getter:minutes",
+              "key.usr" : "s:7Rubicon9StopWatchC7minutesSivg"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 119,
+          "key.name" : "minutes",
+          "key.usr" : "s:7Rubicon9StopWatchC7minutesSivp"
+        },
+        {
+          "key.column" : 25,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 119,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 29,
+              "key.entities" : [
+                {
+                  "key.column" : 31,
+                  "key.entities" : [
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 120,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                    },
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 120,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 120,
+                  "key.name" : "values",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+                },
+                {
+                  "key.column" : 37,
+                  "key.entities" : [
+                    {
+                      "key.column" : 37,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 120,
+                      "key.usr" : "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.function.subscript",
+                  "key.line" : 120,
+                  "key.name" : "subscript(_:)",
+                  "key.usr" : "s:SayxSicip"
+                },
+                {
+                  "key.column" : 38,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 120,
+                  "key.name" : "Field",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+                },
+                {
+                  "key.column" : 44,
+                  "key.entities" : [
+                    {
+                      "key.column" : 44,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 120,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV4SecsAEvgZ"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.static",
+                  "key.line" : 120,
+                  "key.name" : "Secs",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV4SecsAEvpZ"
+                },
+                {
+                  "key.column" : 49,
+                  "key.entities" : [
+                    {
+                      "key.column" : 49,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 120,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 120,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                }
+              ],
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 120,
+              "key.name" : "getter:seconds",
+              "key.usr" : "s:7Rubicon9StopWatchC7secondsSivg"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 120,
+          "key.name" : "seconds",
+          "key.usr" : "s:7Rubicon9StopWatchC7secondsSivp"
+        },
+        {
+          "key.column" : 25,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 120,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 29,
+              "key.entities" : [
+                {
+                  "key.column" : 31,
+                  "key.entities" : [
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 121,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                    },
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 121,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 121,
+                  "key.name" : "values",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+                },
+                {
+                  "key.column" : 37,
+                  "key.entities" : [
+                    {
+                      "key.column" : 37,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 121,
+                      "key.usr" : "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.function.subscript",
+                  "key.line" : 121,
+                  "key.name" : "subscript(_:)",
+                  "key.usr" : "s:SayxSicip"
+                },
+                {
+                  "key.column" : 38,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 121,
+                  "key.name" : "Field",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+                },
+                {
+                  "key.column" : 44,
+                  "key.entities" : [
+                    {
+                      "key.column" : 44,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 121,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvgZ"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.static",
+                  "key.line" : 121,
+                  "key.name" : "Millis",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvpZ"
+                },
+                {
+                  "key.column" : 51,
+                  "key.entities" : [
+                    {
+                      "key.column" : 51,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 121,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 121,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                }
+              ],
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 121,
+              "key.name" : "getter:millis",
+              "key.usr" : "s:7Rubicon9StopWatchC6millisSivg"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 121,
+          "key.name" : "millis",
+          "key.usr" : "s:7Rubicon9StopWatchC6millisSivp"
+        },
+        {
+          "key.column" : 25,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 121,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 29,
+              "key.entities" : [
+                {
+                  "key.column" : 31,
+                  "key.entities" : [
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 122,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                    },
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 122,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 122,
+                  "key.name" : "values",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+                },
+                {
+                  "key.column" : 37,
+                  "key.entities" : [
+                    {
+                      "key.column" : 37,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 122,
+                      "key.usr" : "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.function.subscript",
+                  "key.line" : 122,
+                  "key.name" : "subscript(_:)",
+                  "key.usr" : "s:SayxSicip"
+                },
+                {
+                  "key.column" : 38,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 122,
+                  "key.name" : "Field",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+                },
+                {
+                  "key.column" : 44,
+                  "key.entities" : [
+                    {
+                      "key.column" : 44,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 122,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MicrosAEvgZ"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.static",
+                  "key.line" : 122,
+                  "key.name" : "Micros",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MicrosAEvpZ"
+                },
+                {
+                  "key.column" : 51,
+                  "key.entities" : [
+                    {
+                      "key.column" : 51,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 122,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 122,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                }
+              ],
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 122,
+              "key.name" : "getter:micros",
+              "key.usr" : "s:7Rubicon9StopWatchC6microsSivg"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 122,
+          "key.name" : "micros",
+          "key.usr" : "s:7Rubicon9StopWatchC6microsSivp"
+        },
+        {
+          "key.column" : 25,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 122,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 29,
+              "key.entities" : [
+                {
+                  "key.column" : 31,
+                  "key.entities" : [
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 123,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                    },
+                    {
+                      "key.column" : 31,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 123,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 123,
+                  "key.name" : "values",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+                },
+                {
+                  "key.column" : 37,
+                  "key.entities" : [
+                    {
+                      "key.column" : 37,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 123,
+                      "key.usr" : "s:SayxSicig"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.function.subscript",
+                  "key.line" : 123,
+                  "key.name" : "subscript(_:)",
+                  "key.usr" : "s:SayxSicip"
+                },
+                {
+                  "key.column" : 38,
+                  "key.kind" : "source.lang.swift.ref.struct",
+                  "key.line" : 123,
+                  "key.name" : "Field",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+                },
+                {
+                  "key.column" : 44,
+                  "key.entities" : [
+                    {
+                      "key.column" : 44,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 123,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5NanosAEvgZ"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.static",
+                  "key.line" : 123,
+                  "key.name" : "Nanos",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5NanosAEvpZ"
+                },
+                {
+                  "key.column" : 50,
+                  "key.entities" : [
+                    {
+                      "key.column" : 50,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 123,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 123,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                }
+              ],
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 123,
+              "key.name" : "getter:nanos",
+              "key.usr" : "s:7Rubicon9StopWatchC5nanosSivg"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 123,
+          "key.name" : "nanos",
+          "key.usr" : "s:7Rubicon9StopWatchC5nanosSivp"
+        },
+        {
+          "key.column" : 25,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 123,
+          "key.name" : "Int",
+          "key.usr" : "s:Si"
+        },
+        {
+          "key.column" : 10,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 126,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 126,
+              "key.name" : "isRunning",
+              "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvp"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 127,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 127,
+              "key.name" : "stopTime",
+              "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivp"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 128,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 128,
+              "key.name" : "elapsedTime",
+              "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivp"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 129,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 129,
+              "key.name" : "values",
+              "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+            },
+            {
+              "key.column" : 18,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 129,
+              "key.name" : "Field",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+            },
+            {
+              "key.column" : 24,
+              "key.entities" : [
+                {
+                  "key.column" : 24,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 129,
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV9allFieldsSayAEGvgZ"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.static",
+              "key.line" : 129,
+              "key.name" : "allFields",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV9allFieldsSayAEGvpZ"
+            },
+            {
+              "key.column" : 34,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 129,
+              "key.name" : "map(_:)",
+              "key.receiver_usr" : "s:Sa",
+              "key.usr" : "s:SlsE3mapySayqd__Gqd__7ElementQzKXEKlF"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 130,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 130,
+              "key.name" : "descCache",
+              "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvp"
+            },
+            {
+              "key.column" : 9,
+              "key.entities" : [
+                {
+                  "key.column" : 9,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 131,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC9startTimeSivs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 131,
+              "key.name" : "startTime",
+              "key.usr" : "s:7Rubicon9StopWatchC9startTimeSivp"
+            },
+            {
+              "key.column" : 21,
+              "key.kind" : "source.lang.swift.ref.function.free",
+              "key.line" : 131,
+              "key.name" : "getSysTime(delta:)",
+              "key.usr" : "s:7Rubicon10getSysTime5deltaS2i_tF"
+            }
+          ],
+          "key.is_dynamic" : true,
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 125,
+          "key.name" : "_start()",
+          "key.usr" : "s:7Rubicon9StopWatchC6_startyyF"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.extension.class",
+      "key.line" : 116,
+      "key.name" : "StopWatch",
+      "key.usr" : "s:e:s:7Rubicon9StopWatchC4daysSivp"
+    },
+    {
+      "key.attributes" : [
+        {
+          "key.attribute" : "source.decl.attribute.open"
+        }
+      ],
+      "key.column" : 11,
+      "key.entities" : [
+        {
+          "key.column" : 11,
+          "key.kind" : "source.lang.swift.ref.class",
+          "key.line" : 135,
+          "key.name" : "StopWatch",
+          "key.usr" : "s:7Rubicon9StopWatchC"
+        },
+        {
+          "key.column" : 22,
+          "key.kind" : "source.lang.swift.ref.protocol",
+          "key.line" : 135,
+          "key.name" : "CustomStringConvertible",
+          "key.usr" : "s:s23CustomStringConvertibleP"
+        },
+        {
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public"
+            }
+          ],
+          "key.column" : 16,
+          "key.effective_access" : "source.decl.effective_access.public",
+          "key.entities" : [
+            {
+              "key.column" : 36,
+              "key.entities" : [
+                {
+                  "key.column" : 20,
+                  "key.entities" : [
+                    {
+                      "key.column" : 20,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 138,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 138,
+                  "key.name" : "descCache",
+                  "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvp"
+                },
+                {
+                  "key.column" : 17,
+                  "key.kind" : "source.lang.swift.ref.module",
+                  "key.line" : 140,
+                  "key.name" : "Swift",
+                  "key.usr" : "c:@M@Swift"
+                },
+                {
+                  "key.column" : 23,
+                  "key.kind" : "source.lang.swift.ref.function.free",
+                  "key.line" : 140,
+                  "key.name" : "min(_:_:)",
+                  "key.usr" : "s:s3minyxx_xtSLRzlF"
+                },
+                {
+                  "key.column" : 28,
+                  "key.entities" : [
+                    {
+                      "key.column" : 28,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 140,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 140,
+                  "key.name" : "values",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+                },
+                {
+                  "key.column" : 35,
+                  "key.is_dynamic" : true,
+                  "key.kind" : "source.lang.swift.ref.function.method.instance",
+                  "key.line" : 140,
+                  "key.name" : "firstIndex(where:)",
+                  "key.receiver_usr" : "s:Sa",
+                  "key.usr" : "s:SlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKF"
+                },
+                {
+                  "key.column" : 65,
+                  "key.kind" : "source.lang.swift.ref.function.operator.infix",
+                  "key.line" : 140,
+                  "key.name" : ">(_:_:)",
+                  "key.receiver_usr" : "s:Si",
+                  "key.usr" : "s:Si1goiySbSi_SitFZ"
+                },
+                {
+                  "key.column" : 72,
+                  "key.kind" : "source.lang.swift.ref.function.operator.infix",
+                  "key.line" : 140,
+                  "key.name" : "??(_:_:)",
+                  "key.usr" : "s:s2qqoiyxxSg_xyKXKtKlF"
+                },
+                {
+                  "key.column" : 75,
+                  "key.entities" : [
+                    {
+                      "key.column" : 75,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 140,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 140,
+                  "key.name" : "lastField",
+                  "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvp"
+                },
+                {
+                  "key.column" : 85,
+                  "key.entities" : [
+                    {
+                      "key.column" : 85,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 140,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 140,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                },
+                {
+                  "key.column" : 93,
+                  "key.entities" : [
+                    {
+                      "key.column" : 93,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 140,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 140,
+                  "key.name" : "lastField",
+                  "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvp"
+                },
+                {
+                  "key.column" : 103,
+                  "key.entities" : [
+                    {
+                      "key.column" : 103,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 140,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 140,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                },
+                {
+                  "key.column" : 17,
+                  "key.is_dynamic" : true,
+                  "key.kind" : "source.lang.swift.ref.function.method.instance",
+                  "key.line" : 141,
+                  "key.name" : "roundUp(_:)",
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC7roundUpySi5value_Si5carrytSiF"
+                },
+                {
+                  "key.column" : 25,
+                  "key.entities" : [
+                    {
+                      "key.column" : 25,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 141,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 141,
+                  "key.name" : "lastField",
+                  "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvp"
+                },
+                {
+                  "key.column" : 35,
+                  "key.entities" : [
+                    {
+                      "key.column" : 35,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 141,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 141,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                },
+                {
+                  "key.column" : 17,
+                  "key.entities" : [
+                    {
+                      "key.column" : 17,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 142,
+                      "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 142,
+                  "key.name" : "lastField",
+                  "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvp"
+                },
+                {
+                  "key.column" : 27,
+                  "key.kind" : "source.lang.swift.ref.function.method.instance",
+                  "key.line" : 142,
+                  "key.name" : "toString(_:length:)",
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV8toString_6lengthSSSi_AC11LabelLengthOtF"
+                },
+                {
+                  "key.column" : 53,
+                  "key.entities" : [
+                    {
+                      "key.column" : 53,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 142,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 142,
+                  "key.name" : "labelLength",
+                  "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovp"
+                },
+                {
+                  "key.column" : 29,
+                  "key.kind" : "source.lang.swift.ref.typealias",
+                  "key.line" : 144,
+                  "key.name" : "SWValues",
+                  "key.usr" : "s:7Rubicon9StopWatchC8SWValuesa"
+                },
+                {
+                  "key.column" : 41,
+                  "key.entities" : [
+                    {
+                      "key.column" : 41,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 144,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                    },
+                    {
+                      "key.column" : 41,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 144,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 144,
+                  "key.name" : "values",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+                },
+                {
+                  "key.column" : 47,
+                  "key.entities" : [
+                    {
+                      "key.column" : 47,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 144,
+                      "key.usr" : "s:Says10ArraySliceVyxGSnySiGcig"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.function.subscript",
+                  "key.line" : 144,
+                  "key.name" : "subscript(_:)",
+                  "key.usr" : "s:Says10ArraySliceVyxGSnySiGcip"
+                },
+                {
+                  "key.column" : 50,
+                  "key.kind" : "source.lang.swift.ref.function.operator.infix",
+                  "key.line" : 144,
+                  "key.name" : "..<(_:_:)",
+                  "key.receiver_usr" : "s:Si",
+                  "key.usr" : "s:SLsE3zzloiySnyxGx_xtFZ"
+                },
+                {
+                  "key.column" : 54,
+                  "key.entities" : [
+                    {
+                      "key.column" : 54,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 144,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 144,
+                  "key.name" : "lastField",
+                  "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvp"
+                },
+                {
+                  "key.column" : 64,
+                  "key.entities" : [
+                    {
+                      "key.column" : 64,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 144,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                      "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 144,
+                  "key.name" : "index",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+                },
+                {
+                  "key.column" : 71,
+                  "key.is_dynamic" : true,
+                  "key.kind" : "source.lang.swift.ref.function.method.instance",
+                  "key.line" : 144,
+                  "key.name" : "reversed()",
+                  "key.receiver_usr" : "s:s10ArraySliceV",
+                  "key.usr" : "s:SKsE8reverseds18ReversedCollectionVyxGyF"
+                },
+                {
+                  "key.column" : 23,
+                  "key.kind" : "source.lang.swift.ref.function.method.instance",
+                  "key.line" : 145,
+                  "key.name" : "calcOverflow(_:)",
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV12calcOverflowySi5value_Si5carrytSiF"
+                },
+                {
+                  "key.column" : 42,
+                  "key.kind" : "source.lang.swift.ref.function.operator.infix",
+                  "key.line" : 145,
+                  "key.name" : "+(_:_:)",
+                  "key.receiver_usr" : "s:Si",
+                  "key.usr" : "s:Si1poiyS2i_SitFZ"
+                },
+                {
+                  "key.column" : 26,
+                  "key.kind" : "source.lang.swift.ref.function.method.instance",
+                  "key.line" : 146,
+                  "key.name" : "toString(_:length:)",
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+                  "key.usr" : "s:7Rubicon9StopWatchC5FieldV8toString_6lengthSSSi_AC11LabelLengthOtF"
+                },
+                {
+                  "key.column" : 52,
+                  "key.entities" : [
+                    {
+                      "key.column" : 52,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                      "key.line" : 146,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovg"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 146,
+                  "key.name" : "labelLength",
+                  "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovp"
+                },
+                {
+                  "key.column" : 9,
+                  "key.entities" : [
+                    {
+                      "key.column" : 9,
+                      "key.is_dynamic" : true,
+                      "key.is_implicit" : true,
+                      "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                      "key.line" : 149,
+                      "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                      "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvs"
+                    }
+                  ],
+                  "key.kind" : "source.lang.swift.ref.var.instance",
+                  "key.line" : 149,
+                  "key.name" : "descCache",
+                  "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvp"
+                }
+              ],
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
+              "key.line" : 137,
+              "key.name" : "getter:description",
+              "key.usr" : "s:7Rubicon9StopWatchC11descriptionSSvg"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.line" : 137,
+          "key.name" : "description",
+          "key.related" : [
+            {
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.name" : "description",
+              "key.usr" : "s:s23CustomStringConvertibleP11descriptionSSvp"
+            }
+          ],
+          "key.usr" : "s:7Rubicon9StopWatchC11descriptionSSvp"
+        },
+        {
+          "key.column" : 29,
+          "key.kind" : "source.lang.swift.ref.struct",
+          "key.line" : 137,
+          "key.name" : "String",
+          "key.usr" : "s:SS"
+        },
+        {
+          "key.column" : 10,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 23,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 153,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 31,
+              "key.kind" : "source.lang.swift.ref.typealias",
+              "key.line" : 153,
+              "key.name" : "SWRounding",
+              "key.usr" : "s:7Rubicon9StopWatchC10SWRoundinga"
+            },
+            {
+              "key.column" : 26,
+              "key.entities" : [
+                {
+                  "key.column" : 26,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 154,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                },
+                {
+                  "key.column" : 26,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 154,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 154,
+              "key.name" : "values",
+              "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+            },
+            {
+              "key.column" : 32,
+              "key.entities" : [
+                {
+                  "key.column" : 32,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 154,
+                  "key.usr" : "s:SayxSicig"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.function.subscript",
+              "key.line" : 154,
+              "key.name" : "subscript(_:)",
+              "key.usr" : "s:SayxSicip"
+            },
+            {
+              "key.column" : 29,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 155,
+              "key.name" : "+(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1poiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 19,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 157,
+              "key.name" : "<(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1loiySbSi_SitFZ"
+            },
+            {
+              "key.column" : 21,
+              "key.entities" : [
+                {
+                  "key.column" : 21,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 157,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 157,
+              "key.name" : "values",
+              "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+            },
+            {
+              "key.column" : 28,
+              "key.entities" : [
+                {
+                  "key.column" : 28,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 157,
+                  "key.receiver_usr" : "s:Sa",
+                  "key.usr" : "s:Sa8endIndexSivg"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 157,
+              "key.name" : "endIndex",
+              "key.usr" : "s:Sa8endIndexSivp"
+            },
+            {
+              "key.column" : 19,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 158,
+              "key.name" : ">(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1goiySbSi_SitFZ"
+            },
+            {
+              "key.column" : 45,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 158,
+              "key.name" : "calcRounding(idx:value:)",
+              "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+              "key.usr" : "s:7Rubicon9StopWatchC12calcRounding3idx5valueS2i_SitF"
+            },
+            {
+              "key.column" : 20,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 160,
+              "key.name" : "calcOverflow(_:)",
+              "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV12calcOverflowySi5value_Si5carrytSiF"
+            },
+            {
+              "key.column" : 33,
+              "key.is_dynamic" : true,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 160,
+              "key.name" : "calcRounding(idx:value:)",
+              "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+              "key.usr" : "s:7Rubicon9StopWatchC12calcRounding3idx5valueS2i_SitF"
+            }
+          ],
+          "key.is_dynamic" : true,
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 153,
+          "key.name" : "roundUp(_:)",
+          "key.usr" : "s:7Rubicon9StopWatchC7roundUpySi5value_Si5carrytSiF"
+        },
+        {
+          "key.column" : 10,
+          "key.effective_access" : "source.decl.effective_access.internal",
+          "key.entities" : [
+            {
+              "key.column" : 28,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 163,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 40,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 163,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 48,
+              "key.kind" : "source.lang.swift.ref.struct",
+              "key.line" : 163,
+              "key.name" : "Int",
+              "key.usr" : "s:Si"
+            },
+            {
+              "key.column" : 25,
+              "key.kind" : "source.lang.swift.ref.typealias",
+              "key.line" : 164,
+              "key.name" : "SWValues",
+              "key.usr" : "s:7Rubicon9StopWatchC8SWValuesa"
+            },
+            {
+              "key.column" : 36,
+              "key.entities" : [
+                {
+                  "key.column" : 36,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 164,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvg"
+                },
+                {
+                  "key.column" : 36,
+                  "key.is_dynamic" : true,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.setter",
+                  "key.line" : 164,
+                  "key.receiver_usr" : "s:7Rubicon9StopWatchC",
+                  "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvs"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.var.instance",
+              "key.line" : 164,
+              "key.name" : "values",
+              "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+            },
+            {
+              "key.column" : 42,
+              "key.entities" : [
+                {
+                  "key.column" : 42,
+                  "key.is_implicit" : true,
+                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
+                  "key.line" : 164,
+                  "key.usr" : "s:SayxSicig"
+                }
+              ],
+              "key.kind" : "source.lang.swift.ref.function.subscript",
+              "key.line" : 164,
+              "key.name" : "subscript(_:)",
+              "key.usr" : "s:SayxSicip"
+            },
+            {
+              "key.column" : 23,
+              "key.kind" : "source.lang.swift.ref.function.operator.infix",
+              "key.line" : 165,
+              "key.name" : "+(_:_:)",
+              "key.receiver_usr" : "s:Si",
+              "key.usr" : "s:Si1poiyS2i_SitFZ"
+            },
+            {
+              "key.column" : 29,
+              "key.kind" : "source.lang.swift.ref.function.method.instance",
+              "key.line" : 165,
+              "key.name" : "calcRounding(_:)",
+              "key.receiver_usr" : "s:7Rubicon9StopWatchC5FieldV",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV12calcRoundingyS2iF"
+            }
+          ],
+          "key.is_dynamic" : true,
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.line" : 163,
+          "key.name" : "calcRounding(idx:value:)",
+          "key.usr" : "s:7Rubicon9StopWatchC12calcRounding3idx5valueS2i_SitF"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.extension.class",
+      "key.line" : 135,
+      "key.name" : "StopWatch",
+      "key.related" : [
+        {
+          "key.column" : 22,
+          "key.kind" : "source.lang.swift.ref.protocol",
+          "key.line" : 135,
+          "key.name" : "CustomStringConvertible",
+          "key.usr" : "s:s23CustomStringConvertibleP"
+        }
+      ],
+      "key.usr" : "s:e:s:7Rubicon9StopWatchC11descriptionSSvp"
+    }
+  ]
+}

@@ -67,7 +67,8 @@ open class SourceFileInfo {
             fileIndex = try getFileIndex()
             structure = try getStructure(file)
             swiftDocs = try getSwiftDocs(file)
-            syntaxMap = try getSyntaxMap(file)
+            if let sm = structure.removeValue(forKey: "key.syntaxmap") { syntaxMap = [ "key.syntaxmap": sm ] }
+            else { syntaxMap = try getSyntaxMap(file) }
             if !suppressMessage { printSuccess(printLock: printLock) }
             return true
         }

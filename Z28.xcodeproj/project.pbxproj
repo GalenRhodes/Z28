@@ -10,7 +10,6 @@
 		1117D1A5BF9EE7E787F10A71 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D7FC86AB81798F0786CF /* Tools.swift */; };
 		1117D22B426CDD7508708698 /* LinesColumnsAndOffsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117DF330F404256EE898CE9 /* LinesColumnsAndOffsets.swift */; };
 		1117D29555BBE3F05F991758 /* Z28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117DD859FBAD802C9D7141D /* Z28.swift */; };
-		1117D31632BDC51CBE51246B /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D6B60D2F6014B4847CE5 /* StopWatch.swift */; };
 		1117D68C0EE113AE6A79AD0B /* SourceFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D7B32B1B306C73E9B211 /* SourceFileInfo.swift */; };
 		1117D8E36A9B9EFECC262F1F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117D949AE27C49335C8D127 /* Extensions.swift */; };
 		1117DA415BA1184475D1C552 /* Z28Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117DF5094CE5125268FF21F /* Z28Action.swift */; };
@@ -47,6 +46,7 @@
 		1117D142BCD42AF89506B4E4 /* gh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gh.png; sourceTree = "<group>"; };
 		1117D1531612631749A6F63D /* Conditional.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Conditional.swift.docs.json; sourceTree = "<group>"; };
 		1117D1545E585E0B30EC7492 /* Z28.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Z28.html; sourceTree = "<group>"; };
+		1117D175CCB346892990DFCF /* StopWatch.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StopWatch.swift.syntax.json; sourceTree = "<group>"; };
 		1117D18D591A2BB31693133A /* CStrings.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CStrings.swift.structure.json; sourceTree = "<group>"; };
 		1117D1995962CA8908A6BF24 /* StringProtocol.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringProtocol.swift.index.json; sourceTree = "<group>"; };
 		1117D19F2B0F472A5966CB58 /* LineMap.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LineMap.html; sourceTree = "<group>"; };
@@ -70,6 +70,7 @@
 		1117D240CB7001EB8DA2367C /* FileList.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FileList.swift.docs.json; sourceTree = "<group>"; };
 		1117D2448B3C9A3D9442B11F /* ArraySlice.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArraySlice.swift.docs.json; sourceTree = "<group>"; };
 		1117D247BD657CFCBF4E442E /* Character.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Character.swift.structure.json; sourceTree = "<group>"; };
+		1117D2495BE33072002BBB8A /* StopWatch.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StopWatch.swift.structure.json; sourceTree = "<group>"; };
 		1117D2532A4B963B122A5BC3 /* BinaryTreeDictionary.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BinaryTreeDictionary.swift.index.json; sourceTree = "<group>"; };
 		1117D253CE09A9098FC4BC92 /* DateComponents.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateComponents.swift.index.json; sourceTree = "<group>"; };
 		1117D25405CBE30E98B86CE2 /* DateComponents.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DateComponents.swift.structure.json; sourceTree = "<group>"; };
@@ -150,7 +151,6 @@
 		1117D6751E7E4013738630AD /* CharInputStream.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharInputStream.swift.docs.json; sourceTree = "<group>"; };
 		1117D682C66A064717A08965 /* Closable.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Closable.swift.structure.json; sourceTree = "<group>"; };
 		1117D684CD03109650419AF9 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
-		1117D6B60D2F6014B4847CE5 /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		1117D6B64609A4F979D5996D /* Hasher.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hasher.swift.docs.json; sourceTree = "<group>"; };
 		1117D6B70813948F9EBF902F /* FileList.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FileList.swift.structure.json; sourceTree = "<group>"; };
 		1117D6BEC7C46F2F329D3AA0 /* ShadowInt.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShadowInt.swift.docs.json; sourceTree = "<group>"; };
@@ -202,6 +202,7 @@
 		1117D98FEBA7D73E28414906 /* Thread.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thread.swift.structure.json; sourceTree = "<group>"; };
 		1117D9A4ACAD974D08FCD21C /* DynamicFixedArray.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DynamicFixedArray.swift.docs.json; sourceTree = "<group>"; };
 		1117D9B63EA41B731E1951D8 /* CharInputStream.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CharInputStream.swift.index.json; sourceTree = "<group>"; };
+		1117D9B8CC5E45D144600C15 /* StopWatch.swift.docs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StopWatch.swift.docs.json; sourceTree = "<group>"; };
 		1117D9BED7E3A4156D4DD749 /* ShadowInt.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShadowInt.swift.syntax.json; sourceTree = "<group>"; };
 		1117D9C90EB1F9B375EA1961 /* Range.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Range.swift.syntax.json; sourceTree = "<group>"; };
 		1117D9DC2632F90DF952DF52 /* FileList.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FileList.swift.index.json; sourceTree = "<group>"; };
@@ -301,6 +302,7 @@
 		1117DDC8AE79B94ECA7AC0F9 /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
 		1117DDD59236A9A8C63F81FB /* StringCharInputStream.swift.syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StringCharInputStream.swift.syntax.json; sourceTree = "<group>"; };
 		1117DDD757DBC8D1F66674CF /* MathTools.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MathTools.swift.index.json; sourceTree = "<group>"; };
+		1117DDE6E81DF8D521CF36E2 /* StopWatch.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StopWatch.swift.index.json; sourceTree = "<group>"; };
 		1117DDF614A73148C3E86B54 /* Tools.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.swift.structure.json; sourceTree = "<group>"; };
 		1117DE10BA594F1DADEF7B85 /* Range.swift.index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Range.swift.index.json; sourceTree = "<group>"; };
 		1117DE28C4AD8ABE01DB5BE7 /* PGSemaphore.swift.structure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PGSemaphore.swift.structure.json; sourceTree = "<group>"; };
@@ -570,7 +572,6 @@
 				1117D7B32B1B306C73E9B211 /* SourceFileInfo.swift */,
 				1117DAC4E54FF222B99C84A5 /* ThreadWorker.swift */,
 				1117DF5094CE5125268FF21F /* Z28Action.swift */,
-				1117D6B60D2F6014B4847CE5 /* StopWatch.swift */,
 			);
 			path = Z28;
 			sourceTree = "<group>";
@@ -851,6 +852,10 @@
 				1117D8D86A2703A3620773FB /* UnnamedSemaphore.swift.index.json */,
 				1117DB4889F38E4B1040B459 /* UnnamedSemaphore.swift.structure.json */,
 				1117DBB283E1E2FC192EC2C5 /* UnnamedSemaphore.swift.syntax.json */,
+				1117D9B8CC5E45D144600C15 /* StopWatch.swift.docs.json */,
+				1117DDE6E81DF8D521CF36E2 /* StopWatch.swift.index.json */,
+				1117D2495BE33072002BBB8A /* StopWatch.swift.structure.json */,
+				1117D175CCB346892990DFCF /* StopWatch.swift.syntax.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -912,8 +917,8 @@
 			mainGroup = 836FD0B52685118F008F0835;
 			packageReferences = (
 				836FD0CC26851371008F0835 /* XCRemoteSwiftPackageReference "Rubicon" */,
-				8355CD94268E773B00124443 /* XCRemoteSwiftPackageReference "SourceKittenFramework.git" */,
-				8355CD97268E77D500124443 /* XCRemoteSwiftPackageReference "swift-argument-parser.git" */,
+				8355CD94268E773B00124443 /* XCRemoteSwiftPackageReference "SourceKittenFramework" */,
+				8355CD97268E77D500124443 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
 			productRefGroup = 836FD0BF2685118F008F0835 /* Products */;
 			projectDirPath = "";
@@ -937,7 +942,6 @@
 				1117D68C0EE113AE6A79AD0B /* SourceFileInfo.swift in Sources */,
 				1117DDEBC91E28E721F8A0D6 /* ThreadWorker.swift in Sources */,
 				1117DA415BA1184475D1C552 /* Z28Action.swift in Sources */,
-				1117D31632BDC51CBE51246B /* StopWatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1107,7 +1111,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8355CD94268E773B00124443 /* XCRemoteSwiftPackageReference "SourceKittenFramework.git" */ = {
+		8355CD94268E773B00124443 /* XCRemoteSwiftPackageReference "SourceKittenFramework" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/GalenRhodes/SourceKittenFramework.git";
 			requirement = {
@@ -1115,7 +1119,7 @@
 				minimumVersion = 0.31.0;
 			};
 		};
-		8355CD97268E77D500124443 /* XCRemoteSwiftPackageReference "swift-argument-parser.git" */ = {
+		8355CD97268E77D500124443 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
 			requirement = {
@@ -1128,7 +1132,7 @@
 			repositoryURL = "https://github.com/GalenRhodes/Rubicon";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.2.51;
+				minimumVersion = 0.2.52;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -1136,12 +1140,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		8355CD95268E773B00124443 /* SourceKittenFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8355CD94268E773B00124443 /* XCRemoteSwiftPackageReference "SourceKittenFramework.git" */;
+			package = 8355CD94268E773B00124443 /* XCRemoteSwiftPackageReference "SourceKittenFramework" */;
 			productName = SourceKittenFramework;
 		};
 		8355CD98268E77D500124443 /* ArgumentParser */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8355CD97268E77D500124443 /* XCRemoteSwiftPackageReference "swift-argument-parser.git" */;
+			package = 8355CD97268E77D500124443 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;
 		};
 		836FD0CD26851371008F0835 /* Rubicon */ = {

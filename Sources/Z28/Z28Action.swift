@@ -45,8 +45,7 @@ public struct Z28Action {
     }
 
     public func run() throws {
-        let sw = StopWatch()
-        sw.start()
+        let sw = StopWatch(labelLength: .Short, lastField: .Nanos, start: true)
 
         guard let module: Module = Module(xcodeBuildArguments: buildArguments, inPath: projectPath) else {
             throw PGErrors.GeneralError(description: "Unable to build module.")

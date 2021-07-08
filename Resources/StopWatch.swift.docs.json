@@ -1,0 +1,2176 @@
+{
+  "key.column" : 1,
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 6561,
+  "key.line" : 1,
+  "key.offset" : 0,
+  "key.substructure" : [
+    {
+      "key.accessibility" : "source.lang.swift.accessibility.open",
+      "key.annotated_decl" : "<Declaration>open class StopWatch<\/Declaration>",
+      "key.attributes" : [
+        {
+          "key.attribute" : "source.decl.attribute.open",
+          "key.column" : 1,
+          "key.length" : 4,
+          "key.line" : 21,
+          "key.offset" : 1310
+        }
+      ],
+      "key.bodycolumn" : 23,
+      "key.bodylength" : 2629,
+      "key.bodyline" : 21,
+      "key.bodyoffset" : 1332,
+      "key.column" : 6,
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+      "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>StopWatch<\/decl.name><\/decl.class>",
+      "key.kind" : "source.lang.swift.decl.class",
+      "key.length" : 2647,
+      "key.line" : 21,
+      "key.name" : "StopWatch",
+      "key.namecolumn" : 12,
+      "key.namelength" : 9,
+      "key.nameline" : 21,
+      "key.nameoffset" : 1321,
+      "key.offset" : 1315,
+      "key.parsed_declaration" : "open class StopWatch",
+      "key.parsed_scope.end" : 89,
+      "key.parsed_scope.start" : 21,
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public enum <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.LabelLength : <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 22,
+              "key.offset" : 1337
+            }
+          ],
+          "key.bodycolumn" : 35,
+          "key.bodylength" : 38,
+          "key.bodyline" : 22,
+          "key.bodyoffset" : 1367,
+          "key.column" : 12,
+          "key.elements" : [
+            {
+              "key.column" : 30,
+              "key.kind" : "source.lang.swift.structure.elem.typeref",
+              "key.length" : 3,
+              "key.line" : 22,
+              "key.offset" : 1362
+            }
+          ],
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.enum><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>enum<\/syntaxtype.keyword> <ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<decl.name>LabelLength<\/decl.name> : <ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.enum>",
+          "key.inheritedtypes" : [
+            {
+              "key.name" : "Int"
+            }
+          ],
+          "key.kind" : "source.lang.swift.decl.enum",
+          "key.length" : 62,
+          "key.line" : 22,
+          "key.name" : "LabelLength",
+          "key.namecolumn" : 17,
+          "key.namelength" : 11,
+          "key.nameline" : 22,
+          "key.nameoffset" : 1349,
+          "key.offset" : 1344,
+          "key.parsed_declaration" : "public enum LabelLength: Int",
+          "key.parsed_scope.end" : 22,
+          "key.parsed_scope.start" : 22,
+          "key.substructure" : [
+            {
+              "key.column" : 36,
+              "key.kind" : "source.lang.swift.decl.enumcase",
+              "key.length" : 36,
+              "key.line" : 22,
+              "key.namelength" : 0,
+              "key.nameoffset" : 0,
+              "key.offset" : 1368,
+              "key.substructure" : [
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.annotated_decl" : "<Declaration>case Long = 0<\/Declaration>",
+                  "key.column" : 41,
+                  "key.elements" : [
+                    {
+                      "key.column" : 48,
+                      "key.kind" : "source.lang.swift.structure.elem.init_expr",
+                      "key.length" : 1,
+                      "key.line" : 22,
+                      "key.offset" : 1380
+                    }
+                  ],
+                  "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+                  "key.fully_annotated_decl" : "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>Long<\/decl.name> = <syntaxtype.number>0<\/syntaxtype.number><\/decl.enumelement>",
+                  "key.kind" : "source.lang.swift.decl.enumelement",
+                  "key.length" : 8,
+                  "key.line" : 22,
+                  "key.name" : "Long",
+                  "key.namecolumn" : 41,
+                  "key.namelength" : 4,
+                  "key.nameline" : 22,
+                  "key.nameoffset" : 1373,
+                  "key.offset" : 1373,
+                  "key.parsed_declaration" : "public enum LabelLength: Int { case Long = 0",
+                  "key.parsed_scope.end" : 22,
+                  "key.parsed_scope.start" : 22,
+                  "key.typename" : "(StopWatch.LabelLength.Type) -> StopWatch.LabelLength",
+                  "key.typeusr" : "$sy7Rubicon9StopWatchC11LabelLengthOAEmcD",
+                  "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO4LongyA2EmF"
+                },
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.annotated_decl" : "<Declaration>case Medium = 1<\/Declaration>",
+                  "key.column" : 51,
+                  "key.elements" : [
+                    {
+                      "key.column" : 60,
+                      "key.kind" : "source.lang.swift.structure.elem.init_expr",
+                      "key.length" : 1,
+                      "key.line" : 22,
+                      "key.offset" : 1392
+                    }
+                  ],
+                  "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+                  "key.fully_annotated_decl" : "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>Medium<\/decl.name> = <syntaxtype.number>1<\/syntaxtype.number><\/decl.enumelement>",
+                  "key.kind" : "source.lang.swift.decl.enumelement",
+                  "key.length" : 10,
+                  "key.line" : 22,
+                  "key.name" : "Medium",
+                  "key.namecolumn" : 51,
+                  "key.namelength" : 6,
+                  "key.nameline" : 22,
+                  "key.nameoffset" : 1383,
+                  "key.offset" : 1383,
+                  "key.parsed_declaration" : "public enum LabelLength: Int { case Long = 0, Medium = 1",
+                  "key.parsed_scope.end" : 22,
+                  "key.parsed_scope.start" : 22,
+                  "key.typename" : "(StopWatch.LabelLength.Type) -> StopWatch.LabelLength",
+                  "key.typeusr" : "$sy7Rubicon9StopWatchC11LabelLengthOAEmcD",
+                  "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO6MediumyA2EmF"
+                },
+                {
+                  "key.accessibility" : "source.lang.swift.accessibility.public",
+                  "key.annotated_decl" : "<Declaration>case Short = 2<\/Declaration>",
+                  "key.column" : 63,
+                  "key.elements" : [
+                    {
+                      "key.column" : 71,
+                      "key.kind" : "source.lang.swift.structure.elem.init_expr",
+                      "key.length" : 1,
+                      "key.line" : 22,
+                      "key.offset" : 1403
+                    }
+                  ],
+                  "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+                  "key.fully_annotated_decl" : "<decl.enumelement><syntaxtype.keyword>case<\/syntaxtype.keyword> <decl.name>Short<\/decl.name> = <syntaxtype.number>2<\/syntaxtype.number><\/decl.enumelement>",
+                  "key.kind" : "source.lang.swift.decl.enumelement",
+                  "key.length" : 9,
+                  "key.line" : 22,
+                  "key.name" : "Short",
+                  "key.namecolumn" : 63,
+                  "key.namelength" : 5,
+                  "key.nameline" : 22,
+                  "key.nameoffset" : 1395,
+                  "key.offset" : 1395,
+                  "key.parsed_declaration" : "public enum LabelLength: Int { case Long = 0, Medium = 1, Short = 2",
+                  "key.parsed_scope.end" : 22,
+                  "key.parsed_scope.start" : 22,
+                  "key.typename" : "(StopWatch.LabelLength.Type) -> StopWatch.LabelLength",
+                  "key.typeusr" : "$sy7Rubicon9StopWatchC11LabelLengthOAEmcD",
+                  "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO5ShortyA2EmF"
+                }
+              ]
+            }
+          ],
+          "key.typename" : "StopWatch.LabelLength.Type",
+          "key.typeusr" : "$s7Rubicon9StopWatchC11LabelLengthOmD",
+          "key.usr" : "s:7Rubicon9StopWatchC11LabelLengthO"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public struct <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.Field<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 24,
+              "key.offset" : 1412
+            }
+          ],
+          "key.bodycolumn" : 26,
+          "key.bodylength" : 1362,
+          "key.bodyline" : 24,
+          "key.bodyoffset" : 1433,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<decl.name>Field<\/decl.name><\/decl.struct>",
+          "key.kind" : "source.lang.swift.decl.struct",
+          "key.length" : 1377,
+          "key.line" : 24,
+          "key.name" : "Field",
+          "key.namecolumn" : 19,
+          "key.namelength" : 5,
+          "key.nameline" : 24,
+          "key.nameoffset" : 1426,
+          "key.offset" : 1419,
+          "key.parsed_declaration" : "public struct Field",
+          "key.parsed_scope.end" : 52,
+          "key.parsed_scope.start" : 24,
+          "key.substructure" : [
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.annotated_decl" : "<Declaration>public static let names: [[<Type usr=\"s:SS\">String<\/Type>]]<\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.column" : 9,
+                  "key.length" : 6,
+                  "key.line" : 26,
+                  "key.offset" : 1457
+                }
+              ],
+              "key.column" : 16,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>names<\/decl.name>: <decl.var.type>[[<ref.struct usr=\"s:SS\">String<\/ref.struct>]]<\/decl.var.type><\/decl.var.static>",
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 352,
+              "key.line" : 26,
+              "key.name" : "names",
+              "key.namecolumn" : 27,
+              "key.namelength" : 5,
+              "key.nameline" : 26,
+              "key.nameoffset" : 1475,
+              "key.offset" : 1464,
+              "key.parsed_declaration" : "public static let names: [[String]] = [\n    [ \"days\", \"hours\", \"minutes\", \"seconds\", \"milliseconds\", \"microseconds\", \"nanoseconds\", ],\n    [ \"days\", \"hrs\",   \"mins\",    \"secs\",    \"millis\",       \"micros\",       \"nanos\",       ],\n    [ \"d\",    \"h\",     \"m\",       \"s\",       \"ms\",           \"µs\",           \"ns\",          ],\n]",
+              "key.parsed_scope.end" : 26,
+              "key.parsed_scope.start" : 26,
+              "key.typename" : "[[String]]",
+              "key.typeusr" : "$sSaySaySSGGD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5namesSaySaySSGGvpZ"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.annotated_decl" : "<Declaration>public static let Days: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type><\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.column" : 9,
+                  "key.length" : 6,
+                  "key.line" : 32,
+                  "key.offset" : 1826
+                }
+              ],
+              "key.column" : 16,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>Days<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 74,
+              "key.line" : 32,
+              "key.name" : "Days",
+              "key.namecolumn" : 27,
+              "key.namelength" : 4,
+              "key.nameline" : 32,
+              "key.nameoffset" : 1844,
+              "key.offset" : 1833,
+              "key.parsed_declaration" : "public static let Days   = Field(index: 0, div: 86_400_000_000_000, mod: Int.max)",
+              "key.parsed_scope.end" : 32,
+              "key.parsed_scope.start" : 32,
+              "key.typename" : "StopWatch.Field",
+              "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV4DaysAEvpZ"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.annotated_decl" : "<Declaration>public static let Hours: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type><\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.column" : 9,
+                  "key.length" : 6,
+                  "key.line" : 33,
+                  "key.offset" : 1916
+                }
+              ],
+              "key.column" : 16,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>Hours<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 74,
+              "key.line" : 33,
+              "key.name" : "Hours",
+              "key.namecolumn" : 27,
+              "key.namelength" : 5,
+              "key.nameline" : 33,
+              "key.nameoffset" : 1934,
+              "key.offset" : 1923,
+              "key.parsed_declaration" : "public static let Hours  = Field(index: 1, div: 3_600_000_000_000,  mod: 24     )",
+              "key.parsed_scope.end" : 33,
+              "key.parsed_scope.start" : 33,
+              "key.typename" : "StopWatch.Field",
+              "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5HoursAEvpZ"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.annotated_decl" : "<Declaration>public static let Mins: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type><\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.column" : 9,
+                  "key.length" : 6,
+                  "key.line" : 34,
+                  "key.offset" : 2006
+                }
+              ],
+              "key.column" : 16,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>Mins<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 74,
+              "key.line" : 34,
+              "key.name" : "Mins",
+              "key.namecolumn" : 27,
+              "key.namelength" : 4,
+              "key.nameline" : 34,
+              "key.nameoffset" : 2024,
+              "key.offset" : 2013,
+              "key.parsed_declaration" : "public static let Mins   = Field(index: 2, div: 60_000_000_000,     mod: 60     )",
+              "key.parsed_scope.end" : 34,
+              "key.parsed_scope.start" : 34,
+              "key.typename" : "StopWatch.Field",
+              "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV4MinsAEvpZ"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.annotated_decl" : "<Declaration>public static let Secs: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type><\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.column" : 9,
+                  "key.length" : 6,
+                  "key.line" : 35,
+                  "key.offset" : 2096
+                }
+              ],
+              "key.column" : 16,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>Secs<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 74,
+              "key.line" : 35,
+              "key.name" : "Secs",
+              "key.namecolumn" : 27,
+              "key.namelength" : 4,
+              "key.nameline" : 35,
+              "key.nameoffset" : 2114,
+              "key.offset" : 2103,
+              "key.parsed_declaration" : "public static let Secs   = Field(index: 3, div: 1_000_000_000,      mod: 60     )",
+              "key.parsed_scope.end" : 35,
+              "key.parsed_scope.start" : 35,
+              "key.typename" : "StopWatch.Field",
+              "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV4SecsAEvpZ"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.annotated_decl" : "<Declaration>public static let Millis: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type><\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.column" : 9,
+                  "key.length" : 6,
+                  "key.line" : 36,
+                  "key.offset" : 2186
+                }
+              ],
+              "key.column" : 16,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>Millis<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 74,
+              "key.line" : 36,
+              "key.name" : "Millis",
+              "key.namecolumn" : 27,
+              "key.namelength" : 6,
+              "key.nameline" : 36,
+              "key.nameoffset" : 2204,
+              "key.offset" : 2193,
+              "key.parsed_declaration" : "public static let Millis = Field(index: 4, div: 1_000_000,          mod: 1_000  )",
+              "key.parsed_scope.end" : 36,
+              "key.parsed_scope.start" : 36,
+              "key.typename" : "StopWatch.Field",
+              "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MillisAEvpZ"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.annotated_decl" : "<Declaration>public static let Micros: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type><\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.column" : 9,
+                  "key.length" : 6,
+                  "key.line" : 37,
+                  "key.offset" : 2276
+                }
+              ],
+              "key.column" : 16,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>Micros<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 74,
+              "key.line" : 37,
+              "key.name" : "Micros",
+              "key.namecolumn" : 27,
+              "key.namelength" : 6,
+              "key.nameline" : 37,
+              "key.nameoffset" : 2294,
+              "key.offset" : 2283,
+              "key.parsed_declaration" : "public static let Micros = Field(index: 5, div: 1_000,              mod: 1_000  )",
+              "key.parsed_scope.end" : 37,
+              "key.parsed_scope.start" : 37,
+              "key.typename" : "StopWatch.Field",
+              "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV6MicrosAEvpZ"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.annotated_decl" : "<Declaration>public static let Nanos: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type><\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.column" : 9,
+                  "key.length" : 6,
+                  "key.line" : 38,
+                  "key.offset" : 2366
+                }
+              ],
+              "key.column" : 16,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>Nanos<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 74,
+              "key.line" : 38,
+              "key.name" : "Nanos",
+              "key.namecolumn" : 27,
+              "key.namelength" : 5,
+              "key.nameline" : 38,
+              "key.nameoffset" : 2384,
+              "key.offset" : 2373,
+              "key.parsed_declaration" : "public static let Nanos  = Field(index: 6, div: 1,                  mod: 1_000  )",
+              "key.parsed_scope.end" : 38,
+              "key.parsed_scope.start" : 38,
+              "key.typename" : "StopWatch.Field",
+              "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5NanosAEvpZ"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.public",
+              "key.annotated_decl" : "<Declaration>public static let allFields: [<Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type>]<\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.public",
+                  "key.column" : 9,
+                  "key.length" : 6,
+                  "key.line" : 41,
+                  "key.offset" : 2472
+                }
+              ],
+              "key.column" : 16,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>allFields<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct>]<\/decl.var.type><\/decl.var.static>",
+              "key.kind" : "source.lang.swift.decl.var.static",
+              "key.length" : 90,
+              "key.line" : 41,
+              "key.name" : "allFields",
+              "key.namecolumn" : 27,
+              "key.namelength" : 9,
+              "key.nameline" : 41,
+              "key.nameoffset" : 2490,
+              "key.offset" : 2479,
+              "key.parsed_declaration" : "public static let allFields: [Field] = [ .Days, .Hours, .Mins, .Secs, .Millis, .Micros, .Nanos, ]",
+              "key.parsed_scope.end" : 41,
+              "key.parsed_scope.start" : 41,
+              "key.typename" : "[StopWatch.Field]",
+              "key.typeusr" : "$sSay7Rubicon9StopWatchC5FieldVGD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV9allFieldsSayAEGvpZ"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.internal",
+              "key.annotated_decl" : "<Declaration>let mod: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>mod<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+              "key.kind" : "source.lang.swift.decl.var.instance",
+              "key.length" : 14,
+              "key.line" : 43,
+              "key.name" : "mod",
+              "key.namecolumn" : 13,
+              "key.namelength" : 3,
+              "key.nameline" : 43,
+              "key.nameoffset" : 2583,
+              "key.offset" : 2579,
+              "key.parsed_declaration" : "let mod:   Int",
+              "key.parsed_scope.end" : 43,
+              "key.parsed_scope.start" : 43,
+              "key.typename" : "Int",
+              "key.typeusr" : "$sSiD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3modSivp"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.internal",
+              "key.annotated_decl" : "<Declaration>let div: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>div<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+              "key.kind" : "source.lang.swift.decl.var.instance",
+              "key.length" : 14,
+              "key.line" : 44,
+              "key.name" : "div",
+              "key.namecolumn" : 13,
+              "key.namelength" : 3,
+              "key.nameline" : 44,
+              "key.nameoffset" : 2606,
+              "key.offset" : 2602,
+              "key.parsed_declaration" : "let div:   Int",
+              "key.parsed_scope.end" : 44,
+              "key.parsed_scope.start" : 44,
+              "key.typename" : "Int",
+              "key.typeusr" : "$sSiD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV3divSivp"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.internal",
+              "key.annotated_decl" : "<Declaration>let index: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>index<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+              "key.kind" : "source.lang.swift.decl.var.instance",
+              "key.length" : 14,
+              "key.line" : 45,
+              "key.name" : "index",
+              "key.namecolumn" : 13,
+              "key.namelength" : 5,
+              "key.nameline" : 45,
+              "key.nameoffset" : 2629,
+              "key.offset" : 2625,
+              "key.parsed_declaration" : "let index: Int",
+              "key.parsed_scope.end" : 45,
+              "key.parsed_scope.start" : 45,
+              "key.typename" : "Int",
+              "key.typeusr" : "$sSiD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5indexSivp"
+            },
+            {
+              "key.accessibility" : "source.lang.swift.accessibility.private",
+              "key.annotated_decl" : "<Declaration>private init(index: <Type usr=\"s:Si\">Int<\/Type>, div: <Type usr=\"s:Si\">Int<\/Type>, mod: <Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
+              "key.attributes" : [
+                {
+                  "key.attribute" : "source.decl.attribute.private",
+                  "key.column" : 9,
+                  "key.length" : 7,
+                  "key.line" : 47,
+                  "key.offset" : 2649
+                }
+              ],
+              "key.bodycolumn" : 55,
+              "key.bodylength" : 94,
+              "key.bodyline" : 47,
+              "key.bodyoffset" : 2695,
+              "key.column" : 17,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>index<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>div<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>mod<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.constructor>",
+              "key.kind" : "source.lang.swift.decl.function.method.instance",
+              "key.length" : 133,
+              "key.line" : 47,
+              "key.name" : "init(index:div:mod:)",
+              "key.namecolumn" : 17,
+              "key.namelength" : 36,
+              "key.nameline" : 47,
+              "key.nameoffset" : 2657,
+              "key.offset" : 2657,
+              "key.parsed_declaration" : "private init(index: Int, div: Int, mod: Int)",
+              "key.parsed_scope.end" : 51,
+              "key.parsed_scope.start" : 47,
+              "key.substructure" : [
+
+              ],
+              "key.typename" : "(StopWatch.Field.Type) -> (Int, Int, Int) -> StopWatch.Field",
+              "key.typeusr" : "$s5index3div3mod7Rubicon9StopWatchC5FieldVSi_S2itcD",
+              "key.usr" : "s:7Rubicon9StopWatchC5FieldV5index3div3modAESi_S2itc33_A83FB8F892C3B7E4753C5F0CB340827ELlfc"
+            }
+          ],
+          "key.typename" : "StopWatch.Field.Type",
+          "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVmD",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.annotated_decl" : "<Declaration>typealias <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.SWValues = (field: <Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type>, value: <Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.typealias><syntaxtype.keyword>typealias<\/syntaxtype.keyword> <ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<decl.name>SWValues<\/decl.name> = <tuple>(<tuple.element><tuple.element.argument_label>field<\/tuple.element.argument_label>: <tuple.element.type><ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/tuple.element.type><\/tuple.element>, <tuple.element><tuple.element.argument_label>value<\/tuple.element.argument_label>: <tuple.element.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/tuple.element.type><\/tuple.element>)<\/tuple><\/decl.typealias>",
+          "key.kind" : "source.lang.swift.decl.typealias",
+          "key.length" : 47,
+          "key.line" : 54,
+          "key.name" : "SWValues",
+          "key.namecolumn" : 15,
+          "key.namelength" : 8,
+          "key.nameline" : 54,
+          "key.nameoffset" : 2812,
+          "key.offset" : 2802,
+          "key.parsed_declaration" : "typealias SWValues = (field: Field, value: Int)",
+          "key.parsed_scope.end" : 54,
+          "key.parsed_scope.start" : 54,
+          "key.typename" : "(field: StopWatch.Field, value: Int).Type",
+          "key.typeusr" : "$s7Rubicon9StopWatchC5FieldV5field_Si5valuetmD",
+          "key.usr" : "s:7Rubicon9StopWatchC8SWValuesa"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.annotated_decl" : "<Declaration>typealias <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.SWRounding = (value: <Type usr=\"s:Si\">Int<\/Type>, carry: <Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.typealias><syntaxtype.keyword>typealias<\/syntaxtype.keyword> <ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<decl.name>SWRounding<\/decl.name> = <tuple>(<tuple.element><tuple.element.argument_label>value<\/tuple.element.argument_label>: <tuple.element.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/tuple.element.type><\/tuple.element>, <tuple.element><tuple.element.argument_label>carry<\/tuple.element.argument_label>: <tuple.element.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/tuple.element.type><\/tuple.element>)<\/tuple><\/decl.typealias>",
+          "key.kind" : "source.lang.swift.decl.typealias",
+          "key.length" : 47,
+          "key.line" : 55,
+          "key.name" : "SWRounding",
+          "key.namecolumn" : 15,
+          "key.namelength" : 10,
+          "key.nameline" : 55,
+          "key.nameoffset" : 2864,
+          "key.offset" : 2854,
+          "key.parsed_declaration" : "typealias SWRounding = (value: Int, carry: Int)",
+          "key.parsed_scope.end" : 55,
+          "key.parsed_scope.start" : 55,
+          "key.typename" : "(value: Int, carry: Int).Type",
+          "key.typeusr" : "$sSi5value_Si5carrytmD",
+          "key.usr" : "s:7Rubicon9StopWatchC10SWRoundinga"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.private",
+          "key.annotated_decl" : "<Declaration>private let offset: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.private",
+              "key.column" : 5,
+              "key.length" : 7,
+              "key.line" : 57,
+              "key.offset" : 2907
+            }
+          ],
+          "key.column" : 13,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>offset<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 18,
+          "key.line" : 57,
+          "key.name" : "offset",
+          "key.namecolumn" : 17,
+          "key.namelength" : 6,
+          "key.nameline" : 57,
+          "key.nameoffset" : 2919,
+          "key.offset" : 2915,
+          "key.parsed_declaration" : "private let offset:    Int",
+          "key.parsed_scope.end" : 57,
+          "key.parsed_scope.start" : 57,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC6offset33_A83FB8F892C3B7E4753C5F0CB340827ELLSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.private",
+          "key.annotated_decl" : "<Declaration>private var descCache: <Type usr=\"s:SS\">String<\/Type>?<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.private",
+              "key.column" : 5,
+              "key.length" : 7,
+              "key.line" : 58,
+              "key.offset" : 2938
+            }
+          ],
+          "key.column" : 13,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>descCache<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.var.type><\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 31,
+          "key.line" : 58,
+          "key.name" : "descCache",
+          "key.namecolumn" : 17,
+          "key.namelength" : 9,
+          "key.nameline" : 58,
+          "key.nameoffset" : 2950,
+          "key.offset" : 2946,
+          "key.parsed_declaration" : "private var descCache: String?    = nil",
+          "key.parsed_scope.end" : 58,
+          "key.parsed_scope.start" : 58,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+          "key.typename" : "String?",
+          "key.typeusr" : "$sSSSgD",
+          "key.usr" : "s:7Rubicon9StopWatchC9descCache33_A83FB8F892C3B7E4753C5F0CB340827ELLSSSgvp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.private",
+          "key.annotated_decl" : "<Declaration>private var values: [<Type usr=\"s:7Rubicon9StopWatchC8SWValuesa\">SWValues<\/Type>]<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.private",
+              "key.column" : 5,
+              "key.length" : 7,
+              "key.line" : 59,
+              "key.offset" : 2982
+            }
+          ],
+          "key.column" : 13,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>values<\/decl.name>: <decl.var.type>[<ref.typealias usr=\"s:7Rubicon9StopWatchC8SWValuesa\">SWValues<\/ref.typealias>]<\/decl.var.type><\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 30,
+          "key.line" : 59,
+          "key.name" : "values",
+          "key.namecolumn" : 17,
+          "key.namelength" : 6,
+          "key.nameline" : 59,
+          "key.nameoffset" : 2994,
+          "key.offset" : 2990,
+          "key.parsed_declaration" : "private var values:    [SWValues] = []",
+          "key.parsed_scope.end" : 59,
+          "key.parsed_scope.start" : 59,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+          "key.typename" : "[(field: StopWatch.Field, value: Int)]",
+          "key.typeusr" : "$sSay7Rubicon9StopWatchC5FieldV5field_Si5valuetGD",
+          "key.usr" : "s:7Rubicon9StopWatchC6values33_A83FB8F892C3B7E4753C5F0CB340827ELLSayAC5FieldV5field_Si5valuetGvp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public private(set) var startTime: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.setter_access.private",
+              "key.column" : 12,
+              "key.length" : 12,
+              "key.line" : 61,
+              "key.offset" : 3033
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 61,
+              "key.offset" : 3026
+            }
+          ],
+          "key.column" : 25,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>private<\/syntaxtype.keyword>(set) <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>startTime<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { get }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 25,
+          "key.line" : 61,
+          "key.name" : "startTime",
+          "key.namecolumn" : 29,
+          "key.namelength" : 9,
+          "key.nameline" : 61,
+          "key.nameoffset" : 3050,
+          "key.offset" : 3046,
+          "key.parsed_declaration" : "public private(set) var startTime:   Int  = 0",
+          "key.parsed_scope.end" : 61,
+          "key.parsed_scope.start" : 61,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC9startTimeSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public private(set) var stopTime: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.setter_access.private",
+              "key.column" : 12,
+              "key.length" : 12,
+              "key.line" : 62,
+              "key.offset" : 3083
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 62,
+              "key.offset" : 3076
+            }
+          ],
+          "key.column" : 25,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>private<\/syntaxtype.keyword>(set) <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>stopTime<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { get }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 25,
+          "key.line" : 62,
+          "key.name" : "stopTime",
+          "key.namecolumn" : 29,
+          "key.namelength" : 8,
+          "key.nameline" : 62,
+          "key.nameoffset" : 3100,
+          "key.offset" : 3096,
+          "key.parsed_declaration" : "public private(set) var stopTime:    Int  = 0",
+          "key.parsed_scope.end" : 62,
+          "key.parsed_scope.start" : 62,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC8stopTimeSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public private(set) var elapsedTime: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.setter_access.private",
+              "key.column" : 12,
+              "key.length" : 12,
+              "key.line" : 63,
+              "key.offset" : 3133
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 63,
+              "key.offset" : 3126
+            }
+          ],
+          "key.column" : 25,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>private<\/syntaxtype.keyword>(set) <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>elapsedTime<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { get }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 25,
+          "key.line" : 63,
+          "key.name" : "elapsedTime",
+          "key.namecolumn" : 29,
+          "key.namelength" : 11,
+          "key.nameline" : 63,
+          "key.nameoffset" : 3150,
+          "key.offset" : 3146,
+          "key.parsed_declaration" : "public private(set) var elapsedTime: Int  = 0",
+          "key.parsed_scope.end" : 63,
+          "key.parsed_scope.start" : 63,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC11elapsedTimeSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public private(set) var isRunning: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.setter_access.private",
+              "key.column" : 12,
+              "key.length" : 12,
+              "key.line" : 64,
+              "key.offset" : 3183
+            },
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 64,
+              "key.offset" : 3176
+            }
+          ],
+          "key.column" : 25,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>private<\/syntaxtype.keyword>(set) <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isRunning<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { get }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 29,
+          "key.line" : 64,
+          "key.name" : "isRunning",
+          "key.namecolumn" : 29,
+          "key.namelength" : 9,
+          "key.nameline" : 64,
+          "key.nameoffset" : 3200,
+          "key.offset" : 3196,
+          "key.parsed_declaration" : "public private(set) var isRunning:   Bool = false",
+          "key.parsed_scope.end" : 64,
+          "key.parsed_scope.start" : 64,
+          "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+          "key.typename" : "Bool",
+          "key.typeusr" : "$sSbD",
+          "key.usr" : "s:7Rubicon9StopWatchC9isRunningSbvp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public let labelLength: <Type usr=\"s:7Rubicon9StopWatchC11LabelLengthO\">LabelLength<\/Type><\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 66,
+              "key.offset" : 3231
+            }
+          ],
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>labelLength<\/decl.name>: <decl.var.type><ref.enum usr=\"s:7Rubicon9StopWatchC11LabelLengthO\">LabelLength<\/ref.enum><\/decl.var.type><\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 28,
+          "key.line" : 66,
+          "key.name" : "labelLength",
+          "key.namecolumn" : 16,
+          "key.namelength" : 11,
+          "key.nameline" : 66,
+          "key.nameoffset" : 3242,
+          "key.offset" : 3238,
+          "key.parsed_declaration" : "public let labelLength: LabelLength",
+          "key.parsed_scope.end" : 66,
+          "key.parsed_scope.start" : 66,
+          "key.typename" : "StopWatch.LabelLength",
+          "key.typeusr" : "$s7Rubicon9StopWatchC11LabelLengthOD",
+          "key.usr" : "s:7Rubicon9StopWatchC11labelLengthAC05LabelE0Ovp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public let lastField: <Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type><\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 67,
+              "key.offset" : 3271
+            }
+          ],
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>lastField<\/decl.name>: <decl.var.type><ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 22,
+          "key.line" : 67,
+          "key.name" : "lastField",
+          "key.namecolumn" : 16,
+          "key.namelength" : 9,
+          "key.nameline" : 67,
+          "key.nameoffset" : 3282,
+          "key.offset" : 3278,
+          "key.parsed_declaration" : "public let lastField:   Field",
+          "key.parsed_scope.end" : 67,
+          "key.parsed_scope.start" : 67,
+          "key.typename" : "StopWatch.Field",
+          "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+          "key.usr" : "s:7Rubicon9StopWatchC9lastFieldAC0E0Vvp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public init(labelLength: <Type usr=\"s:7Rubicon9StopWatchC11LabelLengthO\">LabelLength<\/Type> = .Long, lastField: <Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type> = .Millis, start: <Type usr=\"s:Sb\">Bool<\/Type> = true)<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 69,
+              "key.offset" : 3306
+            }
+          ],
+          "key.bodycolumn" : 100,
+          "key.bodylength" : 159,
+          "key.bodyline" : 69,
+          "key.bodyoffset" : 3401,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>(<decl.var.parameter><decl.var.parameter.argument_label>labelLength<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.enum usr=\"s:7Rubicon9StopWatchC11LabelLengthO\">LabelLength<\/ref.enum><\/decl.var.parameter.type> = .Long<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>lastField<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.parameter.type> = .Millis<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>start<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type> = true<\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 248,
+          "key.line" : 69,
+          "key.name" : "init(labelLength:lastField:start:)",
+          "key.namecolumn" : 12,
+          "key.namelength" : 86,
+          "key.nameline" : 69,
+          "key.nameoffset" : 3313,
+          "key.offset" : 3313,
+          "key.parsed_declaration" : "public init(labelLength: LabelLength = .Long, lastField: Field = .Millis, start: Bool = true)",
+          "key.parsed_scope.end" : 74,
+          "key.parsed_scope.start" : 69,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch.Type) -> (StopWatch.LabelLength, StopWatch.Field, Bool) -> StopWatch",
+          "key.typeusr" : "$s11labelLength9lastField5start7Rubicon9StopWatchCAF05LabelB0O_AF0D0VSbtcD",
+          "key.usr" : "s:7Rubicon9StopWatchC11labelLength9lastField5startA2C05LabelE0O_AC0G0VSbtcfc"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>open func start()<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 5,
+              "key.length" : 4,
+              "key.line" : 76,
+              "key.offset" : 3567
+            }
+          ],
+          "key.bodycolumn" : 24,
+          "key.bodylength" : 63,
+          "key.bodyline" : 76,
+          "key.bodyoffset" : 3586,
+          "key.column" : 10,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>start<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 78,
+          "key.line" : 76,
+          "key.name" : "start()",
+          "key.namecolumn" : 15,
+          "key.namelength" : 7,
+          "key.nameline" : 76,
+          "key.nameoffset" : 3577,
+          "key.offset" : 3572,
+          "key.parsed_declaration" : "open func start()",
+          "key.parsed_scope.end" : 79,
+          "key.parsed_scope.start" : 76,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch) -> () -> ()",
+          "key.typeusr" : "$syycD",
+          "key.usr" : "s:7Rubicon9StopWatchC5startyyF"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.open",
+          "key.annotated_decl" : "<Declaration>open func stop()<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.open",
+              "key.column" : 5,
+              "key.length" : 4,
+              "key.line" : 81,
+              "key.offset" : 3656
+            }
+          ],
+          "key.bodycolumn" : 23,
+          "key.bodylength" : 285,
+          "key.bodyline" : 81,
+          "key.bodyoffset" : 3674,
+          "key.column" : 10,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>stop<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 299,
+          "key.line" : 81,
+          "key.name" : "stop()",
+          "key.namecolumn" : 15,
+          "key.namelength" : 6,
+          "key.nameline" : 81,
+          "key.nameoffset" : 3666,
+          "key.offset" : 3661,
+          "key.parsed_declaration" : "open func stop()",
+          "key.parsed_scope.end" : 88,
+          "key.parsed_scope.start" : 81,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch) -> () -> ()",
+          "key.typeusr" : "$syycD",
+          "key.usr" : "s:7Rubicon9StopWatchC4stopyyF"
+        }
+      ],
+      "key.typename" : "StopWatch.Type",
+      "key.typeusr" : "$s7Rubicon9StopWatchCmD",
+      "key.usr" : "s:7Rubicon9StopWatchC"
+    },
+    {
+      "key.annotated_decl" : "<Declaration>public struct <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.Field<\/Declaration>",
+      "key.bodycolumn" : 38,
+      "key.bodylength" : 163,
+      "key.bodyline" : 91,
+      "key.bodyoffset" : 4001,
+      "key.column" : 1,
+      "key.elements" : [
+        {
+          "key.column" : 28,
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 8,
+          "key.line" : 91,
+          "key.offset" : 3991
+        }
+      ],
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+      "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<decl.name>Field<\/decl.name><\/decl.struct>",
+      "key.inheritedtypes" : [
+        {
+          "key.name" : "Hashable"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 201,
+      "key.line" : 91,
+      "key.name" : "StopWatch.Field",
+      "key.namecolumn" : 11,
+      "key.namelength" : 15,
+      "key.nameline" : 91,
+      "key.nameoffset" : 3974,
+      "key.offset" : 3964,
+      "key.parsed_declaration" : "extension StopWatch.Field: Hashable",
+      "key.parsed_scope.end" : 96,
+      "key.parsed_scope.start" : 91,
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public func hash(into hasher: inout <Type usr=\"s:s6HasherV\">Hasher<\/Type>)<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 93,
+              "key.offset" : 4007
+            }
+          ],
+          "key.bodycolumn" : 50,
+          "key.bodylength" : 23,
+          "key.bodyline" : 93,
+          "key.bodyoffset" : 4052,
+          "key.column" : 12,
+          "key.doc.declaration" : "func hash(into hasher: inout Hasher)",
+          "key.doc.discussion" : [
+            {
+              "Para" : "Implement this method to conform to the `Hashable` protocol. The components used for hashing must be the same as the components compared in your type’s `==` operator implementation. Call `hasher.combine(_:)` with each of these components."
+            },
+            {
+              "Important" : ""
+            },
+            {
+              "Note" : ""
+            }
+          ],
+          "key.doc.full_as_xml" : "<Function><Name>hash(into:)<\/Name><USR>s:SH4hash4intoys6HasherVz_tF<\/USR><Declaration>func hash(into hasher: inout Hasher)<\/Declaration><CommentParts><Abstract><Para>Hashes the essential components of this value by feeding them into the given hasher.<\/Para><\/Abstract><Parameters><Parameter><Name>hasher<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The hasher to use when combining the components of this instance.<\/Para><\/Discussion><\/Parameter><\/Parameters><Discussion><Para>Implement this method to conform to the <codeVoice>Hashable<\/codeVoice> protocol. The components used for hashing must be the same as the components compared in your type’s <codeVoice>==<\/codeVoice> operator implementation. Call <codeVoice>hasher.combine(_:)<\/codeVoice> with each of these components.<\/Para><Important><Para>Never call <codeVoice>finalize()<\/codeVoice> on <codeVoice>hasher<\/codeVoice>. Doing so may become a compile-time error in the future.<\/Para><\/Important><Note><Para>This documentation comment was inherited from <codeVoice>Hashable<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.name" : "hash(into:)",
+          "key.doc.parameters" : [
+            {
+              "discussion" : [
+                {
+                  "Para" : "The hasher to use when combining the components of this instance."
+                }
+              ],
+              "name" : "hasher"
+            }
+          ],
+          "key.doc.type" : "Function",
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>hash<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>into<\/decl.var.parameter.argument_label> <decl.var.parameter.name>hasher<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>inout<\/syntaxtype.keyword> <ref.struct usr=\"s:s6HasherV\">Hasher<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 62,
+          "key.line" : 93,
+          "key.name" : "hash(into:)",
+          "key.namecolumn" : 17,
+          "key.namelength" : 31,
+          "key.nameline" : 93,
+          "key.nameoffset" : 4019,
+          "key.offset" : 4014,
+          "key.overrides" : [
+            {
+              "key.usr" : "s:SH4hash4intoys6HasherVz_tF"
+            }
+          ],
+          "key.parsed_declaration" : "public func hash(into hasher: inout Hasher)",
+          "key.parsed_scope.end" : 93,
+          "key.parsed_scope.start" : 93,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch.Field) -> (inout Hasher) -> ()",
+          "key.typeusr" : "$s4intoys6HasherVz_tcD",
+          "key.usr" : "s:SH4hash4intoys6HasherVz_tF"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public static func == (lhs: `Self`, rhs: `Self`) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 95,
+              "key.offset" : 4082
+            }
+          ],
+          "key.bodycolumn" : 59,
+          "key.bodylength" : 26,
+          "key.bodyline" : 95,
+          "key.bodyoffset" : 4136,
+          "key.column" : 12,
+          "key.doc.declaration" : "static func == (lhs: Self, rhs: Self) -> Bool",
+          "key.doc.discussion" : [
+            {
+              "Para" : "Equality is the inverse of inequality. For any values `a` and `b`, `a == b` implies that `a != b` is `false`."
+            },
+            {
+              "Note" : ""
+            }
+          ],
+          "key.doc.full_as_xml" : "<Function><Name>==(_:_:)<\/Name><USR>s:SQ2eeoiySbx_xtFZ<\/USR><Declaration>static func == (lhs: Self, rhs: Self) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Returns a Boolean value indicating whether two values are equal.<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>A value to compare.<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>Another value to compare.<\/Para><\/Discussion><\/Parameter><\/Parameters><Discussion><Para>Equality is the inverse of inequality. For any values <codeVoice>a<\/codeVoice> and <codeVoice>b<\/codeVoice>, <codeVoice>a == b<\/codeVoice> implies that <codeVoice>a != b<\/codeVoice> is <codeVoice>false<\/codeVoice>.<\/Para><Note><Para>This documentation comment was inherited from <codeVoice>Equatable<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.name" : "==(_:_:)",
+          "key.doc.parameters" : [
+            {
+              "discussion" : [
+                {
+                  "Para" : "A value to compare."
+                }
+              ],
+              "name" : "lhs"
+            },
+            {
+              "discussion" : [
+                {
+                  "Para" : "Another value to compare."
+                }
+              ],
+              "name" : "rhs"
+            }
+          ],
+          "key.doc.type" : "Function",
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.operator.infix><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>== <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.kind" : "source.lang.swift.decl.function.method.static",
+          "key.length" : 74,
+          "key.line" : 95,
+          "key.name" : "==(_:_:)",
+          "key.namecolumn" : 24,
+          "key.namelength" : 25,
+          "key.nameline" : 95,
+          "key.nameoffset" : 4101,
+          "key.offset" : 4089,
+          "key.overrides" : [
+            {
+              "key.usr" : "s:SQ2eeoiySbx_xtFZ"
+            }
+          ],
+          "key.parsed_declaration" : "public static func == (lhs: Self, rhs: Self) -> Bool",
+          "key.parsed_scope.end" : 95,
+          "key.parsed_scope.start" : 95,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch.Field.Type) -> (StopWatch.Field, StopWatch.Field) -> Bool",
+          "key.typeusr" : "$sySb7Rubicon9StopWatchC5FieldV_AEtcD",
+          "key.usr" : "s:SQ2eeoiySbx_xtFZ"
+        }
+      ],
+      "key.typename" : "StopWatch.Field.Type",
+      "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVmD",
+      "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+    },
+    {
+      "key.annotated_decl" : "<Declaration>public struct <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.Field<\/Declaration>",
+      "key.bodycolumn" : 40,
+      "key.bodylength" : 86,
+      "key.bodyline" : 98,
+      "key.bodyoffset" : 4206,
+      "key.column" : 1,
+      "key.elements" : [
+        {
+          "key.column" : 28,
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 10,
+          "key.line" : 98,
+          "key.offset" : 4194
+        }
+      ],
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+      "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<decl.name>Field<\/decl.name><\/decl.struct>",
+      "key.inheritedtypes" : [
+        {
+          "key.name" : "Comparable"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 126,
+      "key.line" : 98,
+      "key.name" : "StopWatch.Field",
+      "key.namecolumn" : 11,
+      "key.namelength" : 15,
+      "key.nameline" : 98,
+      "key.nameoffset" : 4177,
+      "key.offset" : 4167,
+      "key.parsed_declaration" : "extension StopWatch.Field: Comparable",
+      "key.parsed_scope.end" : 101,
+      "key.parsed_scope.start" : 98,
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public static func &lt; (lhs: `Self`, rhs: `Self`) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 100,
+              "key.offset" : 4212
+            }
+          ],
+          "key.bodycolumn" : 58,
+          "key.bodylength" : 25,
+          "key.bodyline" : 100,
+          "key.bodyoffset" : 4265,
+          "key.column" : 12,
+          "key.doc.declaration" : "static func < (lhs: Self, rhs: Self) -> Bool",
+          "key.doc.discussion" : [
+            {
+              "Para" : "This function is the only requirement of the `Comparable` protocol. The remainder of the relational operator functions are implemented by the standard library for any type that conforms to `Comparable`."
+            },
+            {
+              "Note" : ""
+            }
+          ],
+          "key.doc.full_as_xml" : "<Function><Name>&lt;(_:_:)<\/Name><USR>s:SL1loiySbx_xtFZ<\/USR><Declaration>static func &lt; (lhs: Self, rhs: Self) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Returns a Boolean value indicating whether the value of the first argument is less than that of the second argument.<\/Para><\/Abstract><Parameters><Parameter><Name>lhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>A value to compare.<\/Para><\/Discussion><\/Parameter><Parameter><Name>rhs<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>Another value to compare.<\/Para><\/Discussion><\/Parameter><\/Parameters><Discussion><Para>This function is the only requirement of the <codeVoice>Comparable<\/codeVoice> protocol. The remainder of the relational operator functions are implemented by the standard library for any type that conforms to <codeVoice>Comparable<\/codeVoice>.<\/Para><Note><Para>This documentation comment was inherited from <codeVoice>Comparable<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.name" : "<(_:_:)",
+          "key.doc.parameters" : [
+            {
+              "discussion" : [
+                {
+                  "Para" : "A value to compare."
+                }
+              ],
+              "name" : "lhs"
+            },
+            {
+              "discussion" : [
+                {
+                  "Para" : "Another value to compare."
+                }
+              ],
+              "name" : "rhs"
+            }
+          ],
+          "key.doc.type" : "Function",
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.operator.infix><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>&lt; <\/decl.name>(<decl.var.parameter><decl.var.parameter.name>lhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.name>rhs<\/decl.var.parameter.name>: <decl.var.parameter.type>`Self`<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.operator.infix>",
+          "key.kind" : "source.lang.swift.decl.function.method.static",
+          "key.length" : 72,
+          "key.line" : 100,
+          "key.name" : "<(_:_:)",
+          "key.namecolumn" : 24,
+          "key.namelength" : 24,
+          "key.nameline" : 100,
+          "key.nameoffset" : 4231,
+          "key.offset" : 4219,
+          "key.overrides" : [
+            {
+              "key.usr" : "s:SL1loiySbx_xtFZ"
+            }
+          ],
+          "key.parsed_declaration" : "public static func < (lhs: Self, rhs: Self) -> Bool",
+          "key.parsed_scope.end" : 100,
+          "key.parsed_scope.start" : 100,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch.Field.Type) -> (StopWatch.Field, StopWatch.Field) -> Bool",
+          "key.typeusr" : "$sySb7Rubicon9StopWatchC5FieldV_AEtcD",
+          "key.usr" : "s:SL1loiySbx_xtFZ"
+        }
+      ],
+      "key.typename" : "StopWatch.Field.Type",
+      "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVmD",
+      "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+    },
+    {
+      "key.annotated_decl" : "<Declaration>public struct <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.Field<\/Declaration>",
+      "key.bodycolumn" : 28,
+      "key.bodylength" : 444,
+      "key.bodyline" : 103,
+      "key.bodyoffset" : 4322,
+      "key.column" : 1,
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+      "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<decl.name>Field<\/decl.name><\/decl.struct>",
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 472,
+      "key.line" : 103,
+      "key.name" : "StopWatch.Field",
+      "key.namecolumn" : 11,
+      "key.namelength" : 15,
+      "key.nameline" : 103,
+      "key.nameoffset" : 4305,
+      "key.offset" : 4295,
+      "key.parsed_declaration" : "extension StopWatch.Field",
+      "key.parsed_scope.end" : 114,
+      "key.parsed_scope.start" : 103,
+      "key.substructure" : [
+        {
+          "key.annotated_decl" : "<Declaration>func calcRounding(_ value: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.bodycolumn" : 45,
+          "key.bodylength" : 29,
+          "key.bodyline" : 105,
+          "key.bodyoffset" : 4368,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>calcRounding<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>value<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 70,
+          "key.line" : 105,
+          "key.name" : "calcRounding(_:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 26,
+          "key.nameline" : 105,
+          "key.nameoffset" : 4333,
+          "key.offset" : 4328,
+          "key.parsed_declaration" : "func calcRounding(_ value: Int) -> Int",
+          "key.parsed_scope.end" : 105,
+          "key.parsed_scope.start" : 105,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch.Field) -> (Int) -> Int",
+          "key.typeusr" : "$syS2icD",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV12calcRoundingyS2iF"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>func calcOverflow(_ v: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC10SWRoundinga\">SWRounding<\/Type><\/Declaration>",
+          "key.bodycolumn" : 58,
+          "key.bodylength" : 38,
+          "key.bodyline" : 107,
+          "key.bodyoffset" : 4457,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>calcOverflow<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>v<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.typealias usr=\"s:7Rubicon9StopWatchC10SWRoundinga\">SWRounding<\/ref.typealias><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 92,
+          "key.line" : 107,
+          "key.name" : "calcOverflow(_:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 22,
+          "key.nameline" : 107,
+          "key.nameoffset" : 4409,
+          "key.offset" : 4404,
+          "key.parsed_declaration" : "func calcOverflow(_ v: Int) -> StopWatch.SWRounding",
+          "key.parsed_scope.end" : 107,
+          "key.parsed_scope.start" : 107,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch.Field) -> (Int) -> (value: Int, carry: Int)",
+          "key.typeusr" : "$sySi5value_Si5carrytSicD",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV12calcOverflowySi5value_Si5carrytSiF"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>func calcValue(nanos: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.bodycolumn" : 40,
+          "key.bodylength" : 23,
+          "key.bodyline" : 109,
+          "key.bodyoffset" : 4537,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>calcValue<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>nanos<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 59,
+          "key.line" : 109,
+          "key.name" : "calcValue(nanos:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 21,
+          "key.nameline" : 109,
+          "key.nameoffset" : 4507,
+          "key.offset" : 4502,
+          "key.parsed_declaration" : "func calcValue(nanos: Int) -> Int",
+          "key.parsed_scope.end" : 109,
+          "key.parsed_scope.start" : 109,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch.Field) -> (Int) -> Int",
+          "key.typeusr" : "$s5nanosS2i_tcD",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV9calcValue5nanosS2i_tF"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>func label(_ length: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC11LabelLengthO\">LabelLength<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.bodycolumn" : 60,
+          "key.bodylength" : 36,
+          "key.bodyline" : 111,
+          "key.bodyoffset" : 4622,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>label<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>length<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.enum usr=\"s:7Rubicon9StopWatchC11LabelLengthO\">LabelLength<\/ref.enum><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 92,
+          "key.line" : 111,
+          "key.name" : "label(_:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 38,
+          "key.nameline" : 111,
+          "key.nameoffset" : 4572,
+          "key.offset" : 4567,
+          "key.parsed_declaration" : "func label(_ length: StopWatch.LabelLength) -> String",
+          "key.parsed_scope.end" : 111,
+          "key.parsed_scope.start" : 111,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch.Field) -> (StopWatch.LabelLength) -> String",
+          "key.typeusr" : "$sySS7Rubicon9StopWatchC11LabelLengthOcD",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV5labelySSAC11LabelLengthOF"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>func toString(_ value: <Type usr=\"s:Si\">Int<\/Type>, length: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC11LabelLengthO\">LabelLength<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.bodycolumn" : 75,
+          "key.bodylength" : 29,
+          "key.bodyline" : 113,
+          "key.bodyoffset" : 4735,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>toString<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>value<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>length<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.enum usr=\"s:7Rubicon9StopWatchC11LabelLengthO\">LabelLength<\/ref.enum><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 100,
+          "key.line" : 113,
+          "key.name" : "toString(_:length:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 53,
+          "key.nameline" : 113,
+          "key.nameoffset" : 4670,
+          "key.offset" : 4665,
+          "key.parsed_declaration" : "func toString(_ value: Int, length: StopWatch.LabelLength) -> String",
+          "key.parsed_scope.end" : 113,
+          "key.parsed_scope.start" : 113,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch.Field) -> (Int, StopWatch.LabelLength) -> String",
+          "key.typeusr" : "$s_6lengthSSSi_7Rubicon9StopWatchC11LabelLengthOtcD",
+          "key.usr" : "s:7Rubicon9StopWatchC5FieldV8toString_6lengthSSSi_AC11LabelLengthOtF"
+        }
+      ],
+      "key.typename" : "StopWatch.Field.Type",
+      "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVmD",
+      "key.usr" : "s:7Rubicon9StopWatchC5FieldV"
+    },
+    {
+      "key.annotated_decl" : "<Declaration>open class StopWatch<\/Declaration>",
+      "key.bodycolumn" : 22,
+      "key.bodylength" : 651,
+      "key.bodyline" : 116,
+      "key.bodyoffset" : 4790,
+      "key.column" : 1,
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+      "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>StopWatch<\/decl.name><\/decl.class>",
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 673,
+      "key.line" : 116,
+      "key.name" : "StopWatch",
+      "key.namecolumn" : 11,
+      "key.namelength" : 9,
+      "key.nameline" : 116,
+      "key.nameoffset" : 4779,
+      "key.offset" : 4769,
+      "key.parsed_declaration" : "extension StopWatch",
+      "key.parsed_scope.end" : 133,
+      "key.parsed_scope.start" : 116,
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var days: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 117,
+              "key.offset" : 4795
+            }
+          ],
+          "key.bodycolumn" : 30,
+          "key.bodylength" : 32,
+          "key.bodyline" : 117,
+          "key.bodyoffset" : 4820,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>days<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 51,
+          "key.line" : 117,
+          "key.name" : "days",
+          "key.namecolumn" : 16,
+          "key.namelength" : 4,
+          "key.nameline" : 117,
+          "key.nameoffset" : 4806,
+          "key.offset" : 4802,
+          "key.parsed_declaration" : "public var days:    Int",
+          "key.parsed_scope.end" : 117,
+          "key.parsed_scope.start" : 117,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC4daysSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var hours: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 118,
+              "key.offset" : 4858
+            }
+          ],
+          "key.bodycolumn" : 30,
+          "key.bodylength" : 33,
+          "key.bodyline" : 118,
+          "key.bodyoffset" : 4883,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>hours<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 52,
+          "key.line" : 118,
+          "key.name" : "hours",
+          "key.namecolumn" : 16,
+          "key.namelength" : 5,
+          "key.nameline" : 118,
+          "key.nameoffset" : 4869,
+          "key.offset" : 4865,
+          "key.parsed_declaration" : "public var hours:   Int",
+          "key.parsed_scope.end" : 118,
+          "key.parsed_scope.start" : 118,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC5hoursSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var minutes: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 119,
+              "key.offset" : 4922
+            }
+          ],
+          "key.bodycolumn" : 30,
+          "key.bodylength" : 32,
+          "key.bodyline" : 119,
+          "key.bodyoffset" : 4947,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>minutes<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 51,
+          "key.line" : 119,
+          "key.name" : "minutes",
+          "key.namecolumn" : 16,
+          "key.namelength" : 7,
+          "key.nameline" : 119,
+          "key.nameoffset" : 4933,
+          "key.offset" : 4929,
+          "key.parsed_declaration" : "public var minutes: Int",
+          "key.parsed_scope.end" : 119,
+          "key.parsed_scope.start" : 119,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC7minutesSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var seconds: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 120,
+              "key.offset" : 4985
+            }
+          ],
+          "key.bodycolumn" : 30,
+          "key.bodylength" : 32,
+          "key.bodyline" : 120,
+          "key.bodyoffset" : 5010,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>seconds<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 51,
+          "key.line" : 120,
+          "key.name" : "seconds",
+          "key.namecolumn" : 16,
+          "key.namelength" : 7,
+          "key.nameline" : 120,
+          "key.nameoffset" : 4996,
+          "key.offset" : 4992,
+          "key.parsed_declaration" : "public var seconds: Int",
+          "key.parsed_scope.end" : 120,
+          "key.parsed_scope.start" : 120,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC7secondsSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var millis: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 121,
+              "key.offset" : 5048
+            }
+          ],
+          "key.bodycolumn" : 30,
+          "key.bodylength" : 34,
+          "key.bodyline" : 121,
+          "key.bodyoffset" : 5073,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>millis<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 53,
+          "key.line" : 121,
+          "key.name" : "millis",
+          "key.namecolumn" : 16,
+          "key.namelength" : 6,
+          "key.nameline" : 121,
+          "key.nameoffset" : 5059,
+          "key.offset" : 5055,
+          "key.parsed_declaration" : "public var millis:  Int",
+          "key.parsed_scope.end" : 121,
+          "key.parsed_scope.start" : 121,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC6millisSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var micros: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 122,
+              "key.offset" : 5113
+            }
+          ],
+          "key.bodycolumn" : 30,
+          "key.bodylength" : 34,
+          "key.bodyline" : 122,
+          "key.bodyoffset" : 5138,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>micros<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 53,
+          "key.line" : 122,
+          "key.name" : "micros",
+          "key.namecolumn" : 16,
+          "key.namelength" : 6,
+          "key.nameline" : 122,
+          "key.nameoffset" : 5124,
+          "key.offset" : 5120,
+          "key.parsed_declaration" : "public var micros:  Int",
+          "key.parsed_scope.end" : 122,
+          "key.parsed_scope.start" : 122,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC6microsSivp"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var nanos: <Type usr=\"s:Si\">Int<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 123,
+              "key.offset" : 5178
+            }
+          ],
+          "key.bodycolumn" : 30,
+          "key.bodylength" : 33,
+          "key.bodyline" : 123,
+          "key.bodyoffset" : 5203,
+          "key.column" : 12,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>nanos<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 52,
+          "key.line" : 123,
+          "key.name" : "nanos",
+          "key.namecolumn" : 16,
+          "key.namelength" : 5,
+          "key.nameline" : 123,
+          "key.nameoffset" : 5189,
+          "key.offset" : 5185,
+          "key.parsed_declaration" : "public var nanos:   Int",
+          "key.parsed_scope.end" : 123,
+          "key.parsed_scope.start" : 123,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC5nanosSivp"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>func _start()<\/Declaration>",
+          "key.bodycolumn" : 20,
+          "key.bodylength" : 181,
+          "key.bodyline" : 125,
+          "key.bodyoffset" : 5258,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>_start<\/decl.name>()<\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 197,
+          "key.line" : 125,
+          "key.name" : "_start()",
+          "key.namecolumn" : 10,
+          "key.namelength" : 8,
+          "key.nameline" : 125,
+          "key.nameoffset" : 5248,
+          "key.offset" : 5243,
+          "key.parsed_declaration" : "func _start()",
+          "key.parsed_scope.end" : 132,
+          "key.parsed_scope.start" : 125,
+          "key.substructure" : [
+
+          ],
+          "key.typename" : "(StopWatch) -> () -> ()",
+          "key.typeusr" : "$syycD",
+          "key.usr" : "s:7Rubicon9StopWatchC6_startyyF"
+        }
+      ],
+      "key.typename" : "StopWatch.Type",
+      "key.typeusr" : "$s7Rubicon9StopWatchCmD",
+      "key.usr" : "s:7Rubicon9StopWatchC"
+    },
+    {
+      "key.annotated_decl" : "<Declaration>open class StopWatch<\/Declaration>",
+      "key.bodycolumn" : 47,
+      "key.bodylength" : 1069,
+      "key.bodyline" : 135,
+      "key.bodyoffset" : 5490,
+      "key.column" : 1,
+      "key.elements" : [
+        {
+          "key.column" : 22,
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 23,
+          "key.line" : 135,
+          "key.offset" : 5465
+        }
+      ],
+      "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+      "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>open<\/syntaxtype.keyword> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>StopWatch<\/decl.name><\/decl.class>",
+      "key.inheritedtypes" : [
+        {
+          "key.name" : "CustomStringConvertible"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.extension",
+      "key.length" : 1116,
+      "key.line" : 135,
+      "key.name" : "StopWatch",
+      "key.namecolumn" : 11,
+      "key.namelength" : 9,
+      "key.nameline" : 135,
+      "key.nameoffset" : 5454,
+      "key.offset" : 5444,
+      "key.parsed_declaration" : "extension StopWatch: CustomStringConvertible",
+      "key.parsed_scope.end" : 167,
+      "key.parsed_scope.start" : 135,
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.public",
+          "key.annotated_decl" : "<Declaration>public var description: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
+          "key.attributes" : [
+            {
+              "key.attribute" : "source.decl.attribute.public",
+              "key.column" : 5,
+              "key.length" : 6,
+              "key.line" : 137,
+              "key.offset" : 5496
+            }
+          ],
+          "key.bodycolumn" : 37,
+          "key.bodylength" : 520,
+          "key.bodyline" : 137,
+          "key.bodyoffset" : 5528,
+          "key.column" : 12,
+          "key.doc.declaration" : "var description: String { get }",
+          "key.doc.discussion" : [
+            {
+              "Para" : "Calling this property directly is discouraged. Instead, convert an instance of any type to a string by using the `String(describing:)` initializer. This initializer works with any type, and uses the custom `description` property for types that conform to `CustomStringConvertible`:"
+            },
+            {
+              "CodeListing" : ""
+            },
+            {
+              "Para" : "The conversion of `p` to a string in the assignment to `s` uses the `Point` type’s `description` property."
+            },
+            {
+              "Note" : ""
+            }
+          ],
+          "key.doc.full_as_xml" : "<Other><Name>description<\/Name><USR>s:s23CustomStringConvertibleP11descriptionSSvp<\/USR><Declaration>var description: String { get }<\/Declaration><CommentParts><Abstract><Para>A textual representation of this instance.<\/Para><\/Abstract><Discussion><Para>Calling this property directly is discouraged. Instead, convert an instance of any type to a string by using the <codeVoice>String(describing:)<\/codeVoice> initializer. This initializer works with any type, and uses the custom <codeVoice>description<\/codeVoice> property for types that conform to <codeVoice>CustomStringConvertible<\/codeVoice>:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[struct Point: CustomStringConvertible {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    let x: Int, y: Int]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    var description: String {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        return \"(\\(x), \\(y))\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    }]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let p = Point(x: 21, y: 30)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let s = String(describing: p)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(s)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"(21, 30)\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The conversion of <codeVoice>p<\/codeVoice> to a string in the assignment to <codeVoice>s<\/codeVoice> uses the <codeVoice>Point<\/codeVoice> type’s <codeVoice>description<\/codeVoice> property.<\/Para><Note><Para>This documentation comment was inherited from <codeVoice>CustomStringConvertible<\/codeVoice>.<\/Para><\/Note><\/Discussion><\/CommentParts><\/Other>",
+          "key.doc.name" : "description",
+          "key.doc.type" : "Other",
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>description<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.kind" : "source.lang.swift.decl.var.instance",
+          "key.length" : 546,
+          "key.line" : 137,
+          "key.name" : "description",
+          "key.namecolumn" : 16,
+          "key.namelength" : 11,
+          "key.nameline" : 137,
+          "key.nameoffset" : 5507,
+          "key.offset" : 5503,
+          "key.overrides" : [
+            {
+              "key.usr" : "s:s23CustomStringConvertibleP11descriptionSSvp"
+            }
+          ],
+          "key.parsed_declaration" : "public var description: String",
+          "key.parsed_scope.end" : 151,
+          "key.parsed_scope.start" : 137,
+          "key.typename" : "String",
+          "key.typeusr" : "$sSSD",
+          "key.usr" : "s:s23CustomStringConvertibleP11descriptionSSvp"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>let i: <Type usr=\"s:Sa\">Array<\/Type>&lt;<Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC8SWValuesa\">SWValues<\/Type>&gt;.<Type usr=\"s:Sa5Indexa\">Index<\/Type><\/Declaration>",
+          "key.column" : 9,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>i<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sa\">Array<\/ref.struct>&lt;<ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.typealias usr=\"s:7Rubicon9StopWatchC8SWValuesa\">SWValues<\/ref.typealias>&gt;.<ref.typealias usr=\"s:Sa5Indexa\">Index<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+          "key.kind" : "source.lang.swift.decl.var.local",
+          "key.length" : 100,
+          "key.line" : 140,
+          "key.name" : "i",
+          "key.namecolumn" : 13,
+          "key.namelength" : 1,
+          "key.nameline" : 140,
+          "key.nameoffset" : 5584,
+          "key.offset" : 5580,
+          "key.parsed_declaration" : "let i = Swift.min((values.firstIndex(where: { _, v in v > 0 }) ?? lastField.index), lastField.index)",
+          "key.parsed_scope.end" : 140,
+          "key.parsed_scope.start" : 140,
+          "key.typename" : "Int",
+          "key.typeusr" : "$sSiD",
+          "key.usr" : "s:7Rubicon9StopWatchC11descriptionSSvg1iL_Sivp"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>var v: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC10SWRoundinga\">SWRounding<\/Type><\/Declaration>",
+          "key.column" : 9,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>v<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.typealias usr=\"s:7Rubicon9StopWatchC10SWRoundinga\">SWRounding<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+          "key.kind" : "source.lang.swift.decl.var.local",
+          "key.length" : 32,
+          "key.line" : 141,
+          "key.name" : "v",
+          "key.namecolumn" : 13,
+          "key.namelength" : 1,
+          "key.nameline" : 141,
+          "key.nameoffset" : 5693,
+          "key.offset" : 5689,
+          "key.parsed_declaration" : "var v = roundUp(lastField.index)",
+          "key.parsed_scope.end" : 141,
+          "key.parsed_scope.start" : 141,
+          "key.typename" : "(value: Int, carry: Int)",
+          "key.typeusr" : "$sSi5value_Si5carrytD",
+          "key.usr" : "s:7Rubicon9StopWatchC11descriptionSSvg1vL_Si5value_Si5carrytvp"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>var d: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+          "key.column" : 9,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>d<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+          "key.kind" : "source.lang.swift.decl.var.local",
+          "key.length" : 56,
+          "key.line" : 142,
+          "key.name" : "d",
+          "key.namecolumn" : 13,
+          "key.namelength" : 1,
+          "key.nameline" : 142,
+          "key.nameoffset" : 5734,
+          "key.offset" : 5730,
+          "key.parsed_declaration" : "var d = lastField.toString(v.value, length: labelLength)",
+          "key.parsed_scope.end" : 142,
+          "key.parsed_scope.start" : 142,
+          "key.typename" : "String",
+          "key.typeusr" : "$sSSD",
+          "key.usr" : "s:7Rubicon9StopWatchC11descriptionSSvg1dL0_SSvp"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>func roundUp(_ i: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:7Rubicon9StopWatchC10SWRoundinga\">SWRounding<\/Type><\/Declaration>",
+          "key.bodycolumn" : 43,
+          "key.bodylength" : 310,
+          "key.bodyline" : 153,
+          "key.bodyoffset" : 6093,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>roundUp<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>i<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.typealias usr=\"s:7Rubicon9StopWatchC10SWRoundinga\">SWRounding<\/ref.typealias><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 349,
+          "key.line" : 153,
+          "key.name" : "roundUp(_:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 17,
+          "key.nameline" : 153,
+          "key.nameoffset" : 6060,
+          "key.offset" : 6055,
+          "key.parsed_declaration" : "func roundUp(_ i: Int) -> SWRounding",
+          "key.parsed_scope.end" : 161,
+          "key.parsed_scope.start" : 153,
+          "key.substructure" : [
+            {
+              "key.annotated_decl" : "<Declaration>let fld: <Type usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/Type>.<Type usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/Type><\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>fld<\/decl.name>: <decl.var.type><ref.class usr=\"s:7Rubicon9StopWatchC\">StopWatch<\/ref.class>.<ref.struct usr=\"s:7Rubicon9StopWatchC5FieldV\">Field<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 26,
+              "key.line" : 154,
+              "key.name" : "fld",
+              "key.namecolumn" : 14,
+              "key.namelength" : 3,
+              "key.nameline" : 154,
+              "key.nameoffset" : 6107,
+              "key.offset" : 6102,
+              "key.parsed_declaration" : "let (fld, val) = values[i]",
+              "key.parsed_scope.end" : 154,
+              "key.parsed_scope.start" : 154,
+              "key.typename" : "StopWatch.Field",
+              "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+              "key.usr" : "s:7Rubicon9StopWatchC7roundUpySi5value_Si5carrytSiF3fldL_AC5FieldVvp"
+            },
+            {
+              "key.annotated_decl" : "<Declaration>let val: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>val<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 26,
+              "key.line" : 154,
+              "key.name" : "val",
+              "key.namecolumn" : 19,
+              "key.namelength" : 3,
+              "key.nameline" : 154,
+              "key.nameoffset" : 6112,
+              "key.offset" : 6102,
+              "key.parsed_declaration" : "let (fld, val) = values[i]",
+              "key.parsed_scope.end" : 154,
+              "key.parsed_scope.start" : 154,
+              "key.typename" : "Int",
+              "key.typeusr" : "$sSiD",
+              "key.usr" : "s:7Rubicon9StopWatchC7roundUpySi5value_Si5carrytSiF3valL_Sivp"
+            },
+            {
+              "key.annotated_decl" : "<Declaration>let idx: (<Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>idx<\/decl.name>: <decl.var.type>(<ref.struct usr=\"s:Si\">Int<\/ref.struct>)<\/decl.var.type><\/decl.var.local>",
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 24,
+              "key.line" : 155,
+              "key.name" : "idx",
+              "key.namecolumn" : 13,
+              "key.namelength" : 3,
+              "key.nameline" : 155,
+              "key.nameoffset" : 6141,
+              "key.offset" : 6137,
+              "key.parsed_declaration" : "let idx        = (i + 1)",
+              "key.parsed_scope.end" : 155,
+              "key.parsed_scope.start" : 155,
+              "key.typename" : "(Int)",
+              "key.typeusr" : "$sSiD",
+              "key.usr" : "s:7Rubicon9StopWatchC7roundUpySi5value_Si5carrytSiF3idxL_Sivp"
+            }
+          ],
+          "key.typename" : "(StopWatch) -> (Int) -> (value: Int, carry: Int)",
+          "key.typeusr" : "$sySi5value_Si5carrytSicD",
+          "key.usr" : "s:7Rubicon9StopWatchC7roundUpySi5value_Si5carrytSiF"
+        },
+        {
+          "key.annotated_decl" : "<Declaration>func calcRounding(idx: <Type usr=\"s:Si\">Int<\/Type>, value: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+          "key.bodycolumn" : 53,
+          "key.bodylength" : 99,
+          "key.bodyline" : 163,
+          "key.bodyoffset" : 6458,
+          "key.column" : 5,
+          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>calcRounding<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>idx<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>value<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.kind" : "source.lang.swift.decl.function.method.instance",
+          "key.length" : 148,
+          "key.line" : 163,
+          "key.name" : "calcRounding(idx:value:)",
+          "key.namecolumn" : 10,
+          "key.namelength" : 34,
+          "key.nameline" : 163,
+          "key.nameoffset" : 6415,
+          "key.offset" : 6410,
+          "key.parsed_declaration" : "func calcRounding(idx: Int, value: Int) -> Int",
+          "key.parsed_scope.end" : 166,
+          "key.parsed_scope.start" : 163,
+          "key.substructure" : [
+            {
+              "key.annotated_decl" : "<Declaration>let fld: <Type usr=\"s:7Rubicon9StopWatchC8SWValuesa\">SWValues<\/Type><\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>fld<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon9StopWatchC8SWValuesa\">SWValues<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 38,
+              "key.line" : 164,
+              "key.name" : "fld",
+              "key.namecolumn" : 14,
+              "key.namelength" : 3,
+              "key.nameline" : 164,
+              "key.nameoffset" : 6472,
+              "key.offset" : 6467,
+              "key.parsed_declaration" : "let (fld, val): SWValues = values[idx]",
+              "key.parsed_scope.end" : 164,
+              "key.parsed_scope.start" : 164,
+              "key.typename" : "StopWatch.Field",
+              "key.typeusr" : "$s7Rubicon9StopWatchC5FieldVD",
+              "key.usr" : "s:7Rubicon9StopWatchC12calcRounding3idx5valueS2i_SitF3fldL_AC5FieldVvp"
+            },
+            {
+              "key.annotated_decl" : "<Declaration>let val: <Type usr=\"s:7Rubicon9StopWatchC8SWValuesa\">SWValues<\/Type><\/Declaration>",
+              "key.column" : 9,
+              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/StopWatch.swift",
+              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>val<\/decl.name>: <decl.var.type><ref.typealias usr=\"s:7Rubicon9StopWatchC8SWValuesa\">SWValues<\/ref.typealias><\/decl.var.type><\/decl.var.local>",
+              "key.kind" : "source.lang.swift.decl.var.local",
+              "key.length" : 38,
+              "key.line" : 164,
+              "key.name" : "val",
+              "key.namecolumn" : 19,
+              "key.namelength" : 3,
+              "key.nameline" : 164,
+              "key.nameoffset" : 6477,
+              "key.offset" : 6467,
+              "key.parsed_declaration" : "let (fld, val): SWValues = values[idx]",
+              "key.parsed_scope.end" : 164,
+              "key.parsed_scope.start" : 164,
+              "key.typename" : "Int",
+              "key.typeusr" : "$sSiD",
+              "key.usr" : "s:7Rubicon9StopWatchC12calcRounding3idx5valueS2i_SitF3valL_Sivp"
+            }
+          ],
+          "key.typename" : "(StopWatch) -> (Int, Int) -> Int",
+          "key.typeusr" : "$s3idx5valueS2i_SitcD",
+          "key.usr" : "s:7Rubicon9StopWatchC12calcRounding3idx5valueS2i_SitF"
+        }
+      ],
+      "key.typename" : "StopWatch.Type",
+      "key.typeusr" : "$s7Rubicon9StopWatchCmD",
+      "key.usr" : "s:7Rubicon9StopWatchC"
+    }
+  ]
+}
