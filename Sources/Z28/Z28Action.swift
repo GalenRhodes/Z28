@@ -44,12 +44,17 @@ public struct Z28Action {
         self.buildArguments = buildArguments
     }
 
+    func getModule() -> Module? {
+        switch buildMethod {
+            case .xcode: return Module(xcodeBuildArguments: buildArguments, inPath: projectPath)
+            case .spm:   return Module(spmArguments: buildArguments, inPath: projectPath)
+        }
+    }
+
     public func run() throws {
         let sw = StopWatch(labelLength: .Short, lastField: .Nanos, start: true)
 
-        guard let module: Module = Module(xcodeBuildArguments: buildArguments, inPath: projectPath) else {
-            throw PGErrors.GeneralError(description: "Unable to build module.")
-        }
+        guard let module: Module = getModule() else { throw PGErrors.GeneralError(description: "Unable to build module.") }
 
         if let filename = filename?.makeAbsolute(relativeTo: projectPath) {
             var err: Error? = nil

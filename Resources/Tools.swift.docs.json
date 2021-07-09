@@ -12,13 +12,13 @@
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
-          "key.length" : 6,
-          "key.line" : 29,
-          "key.offset" : 1156
+          "key.length": 6,
+          "key.line": 29,
+          "key.offset": 1156
         }
       ],
-      "key.column" : 8,
-      "key.doc.comment" : "",
+      "key.column": 8,
+      "key.doc.comment": "",
       "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Tools.swift",
       "key.fully_annotated_decl" : "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>CFByteOrderEnum<\/decl.name> = <ref.struct usr=\"c:@E@__CFByteOrder\">__CFByteOrder<\/ref.struct><\/decl.typealias>",
       "key.kind" : "source.lang.swift.decl.typealias",
@@ -273,9 +273,9 @@
       "key.doc.name": "getSysTime(delta:)",
       "key.doc.parameters": [
         {
-          "discussion" : [
+          "discussion": [
             {
-              "Para" : "The number of nanoseconds to add to the system time."
+              "Para": "The number of nanoseconds to add to the system time."
             }
           ],
           "name": "delta"
@@ -597,7 +597,7 @@
           "name": "results"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "Other values besides 0 (<code><\/code>) that should be considered OK and not cause a fatal error."
             }
@@ -676,7 +676,7 @@
           "name": "cStringPtr"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The maximum possible length of the string. If less than <code><\/code> (the default) then there is no maximum. This is dangerous - only use this is you are sure there is a `nil`-terminator."
             }
@@ -717,7 +717,7 @@
       ],
       "key.typename": "(UnsafePointer<Int8>, Int) -> Int",
       "key.typeusr": "$s10cStringPtr6lengthSiSPys4Int8VG_SitcD",
-      "key.usr" : "s:7Rubicon7cStrLen10cStringPtr6lengthSiSPys4Int8VG_SitF"
+      "key.usr": "s:7Rubicon7cStrLen10cStringPtr6lengthSiSPys4Int8VG_SitF"
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
@@ -760,7 +760,7 @@
           "name": "cStringPtr"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The maximum possible length of the string. If less than <code><\/code> (the default) then there is no maximum. This is dangerous - only use this is you are sure there is a `nil`-terminator."
             }
@@ -801,12 +801,12 @@
       ],
       "key.typename": "(UnsafePointer<UInt8>, Int) -> Int",
       "key.typeusr": "$s10cStringPtr6lengthSiSPys5UInt8VG_SitcD",
-      "key.usr" : "s:7Rubicon7cStrLen10cStringPtr6lengthSiSPys5UInt8VG_SitF"
+      "key.usr": "s:7Rubicon7cStrLen10cStringPtr6lengthSiSPys5UInt8VG_SitF"
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func NanoSleep(seconds: <Type usr=\"s:7Rubicon7PGTimeTa\">PGTimeT<\/Type> = 0, nanos: <Type usr=\"s:Si\">Int<\/Type> = 0) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func NanoSleep(seconds: <Type usr=\"s:7Rubicon7PGTimeTa\">PGTimeT<\/Type> = 0, nanos: <Type usr=\"s:Si\">Int<\/Type> = 0) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -914,8 +914,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func NanoSleep2(seconds: <Type usr=\"s:7Rubicon7PGTimeTa\">PGTimeT<\/Type> = 0, nanos: <Type usr=\"s:Si\">Int<\/Type> = 0)<\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func NanoSleep2(seconds: <Type usr=\"s:7Rubicon7PGTimeTa\">PGTimeT<\/Type> = 0, nanos: <Type usr=\"s:Si\">Int<\/Type> = 0)<\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -1023,8 +1023,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public enum SortOrdering : <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public enum SortOrdering : <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -1316,13 +1316,13 @@
       "key.parsed_scope.start": 247,
       "key.related_decls": [
         {
-          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon2lpoiyySayxGz_ACtlF\">&lt;+ &lt;T&gt;(_: inout [T], _: [T])<\/RelatedName>"
-        },
-        {
           "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon20BinaryTreeDictionaryC2lpoiyyACyxq_G_x3key_q_5valuettFZ\">&lt;+ (_: BinaryTreeDictionary&lt;Key, Value&gt;, _: (key: Key, value: Value))<\/RelatedName>"
         },
         {
           "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon20BinaryTreeDictionaryC2lpoiyyACyxq_G_SDyxq_GtFZ\">&lt;+ (_: BinaryTreeDictionary&lt;Key, Value&gt;, _: [Key : Value])<\/RelatedName>"
+        },
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon2lpoiyySayxGz_ACtlF\">&lt;+ &lt;T&gt;(_: inout [T], _: [T])<\/RelatedName>"
         }
       ],
       "key.substructure" : [
@@ -1422,13 +1422,13 @@
       "key.parsed_scope.start": 258,
       "key.related_decls": [
         {
-          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon2lpoiyySayxGz_xtlF\">&lt;+ &lt;T&gt;(_: inout [T], _: T)<\/RelatedName>"
-        },
-        {
           "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon20BinaryTreeDictionaryC2lpoiyyACyxq_G_x3key_q_5valuettFZ\">&lt;+ (_: BinaryTreeDictionary&lt;Key, Value&gt;, _: (key: Key, value: Value))<\/RelatedName>"
         },
         {
           "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon20BinaryTreeDictionaryC2lpoiyyACyxq_G_SDyxq_GtFZ\">&lt;+ (_: BinaryTreeDictionary&lt;Key, Value&gt;, _: [Key : Value])<\/RelatedName>"
+        },
+        {
+          "key.annotated_decl": "<RelatedName usr=\"s:7Rubicon2lpoiyySayxGz_xtlF\">&lt;+ &lt;T&gt;(_: inout [T], _: T)<\/RelatedName>"
         }
       ],
       "key.substructure" : [
@@ -1499,7 +1499,7 @@
           "name": "lhs"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The object to search for in the <code><\/code>."
             }
@@ -1618,7 +1618,7 @@
           "name": "lhs"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The right-hand <code><\/code>."
             }
@@ -1745,7 +1745,7 @@
           "name": "l"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The right hand operand"
             }
@@ -1872,7 +1872,7 @@
           "name": "l"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The right hand array operand"
             }
@@ -1973,8 +1973,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func toHex&lt;T&gt;(_ n: <Type usr=\"s:7Rubicon5toHex_3padSSx_SitSzRzlF1TL_xmfp\">T<\/Type>, pad: <Type usr=\"s:Si\">Int<\/Type> = 0) -&gt; <Type usr=\"s:SS\">String<\/Type> where <Type usr=\"s:7Rubicon5toHex_3padSSx_SitSzRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func toHex&lt;T&gt;(_ n: <Type usr=\"s:7Rubicon5toHex_3padSSx_SitSzRzlF1TL_xmfp\">T<\/Type>, pad: <Type usr=\"s:Si\">Int<\/Type> = 0) -&gt; <Type usr=\"s:SS\">String<\/Type> where <Type usr=\"s:7Rubicon5toHex_3padSSx_SitSzRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -2005,7 +2005,7 @@
           "name": "n"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "0 means no padding. negative number means the number is padded with spaces to that many places. Positive number means the number is padded with zeros to that many places."
             }
@@ -2227,8 +2227,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func toBinary&lt;T&gt;(_ n: <Type usr=\"s:7Rubicon8toBinary_3sep3padSSx_SSSgSitSzRzlF1TL_xmfp\">T<\/Type>, sep: <Type usr=\"s:SS\">String<\/Type>? = nil, pad: <Type usr=\"s:Si\">Int<\/Type> = 0) -&gt; <Type usr=\"s:SS\">String<\/Type> where <Type usr=\"s:7Rubicon8toBinary_3sep3padSSx_SSSgSitSzRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func toBinary&lt;T&gt;(_ n: <Type usr=\"s:7Rubicon8toBinary_3sep3padSSx_SSSgSitSzRzlF1TL_xmfp\">T<\/Type>, sep: <Type usr=\"s:SS\">String<\/Type>? = nil, pad: <Type usr=\"s:Si\">Int<\/Type> = 0) -&gt; <Type usr=\"s:SS\">String<\/Type> where <Type usr=\"s:7Rubicon8toBinary_3sep3padSSx_SSSgSitSzRzlF1TL_xmfp\">T<\/Type> : <Type usr=\"s:Sz\">BinaryInteger<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -2259,7 +2259,7 @@
           "name": "n"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The string will be grouped into octets separated by a space unless you provide a separator string in this field."
             }
@@ -2529,7 +2529,7 @@
           "Para": "This is fine but I wanted to do the same thing with a conditional expression like this:"
         },
         {
-          "CodeListing" : ""
+          "CodeListing": ""
         },
         {
           "Para" : "I know I could always do this:"
@@ -2561,7 +2561,7 @@
           "name": "obj"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The closure to execute if `obj` is NOT `nil`. The unwrapped value of `obj` is passed to the closure."
             }
@@ -2772,7 +2772,7 @@
           "name": "value"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The desired values."
             }
@@ -2975,7 +2975,7 @@
           "name": "type"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The number of bytes."
             }
@@ -3075,7 +3075,7 @@
           "name": "type"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The number of instances of the datatype."
             }
@@ -3175,7 +3175,7 @@
           "name": "obj"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The string to put between objects. Defaults to a single space character."
             }
@@ -3283,7 +3283,7 @@
           "name": "obj"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The string to put between objects. Defaults to a single space character."
             }
@@ -3366,8 +3366,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.private",
-      "key.annotated_decl" : "<Declaration>private var nestLevel: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>private var nestLevel: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.private",
           "key.column": 1,
@@ -3398,8 +3398,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.private",
-      "key.annotated_decl" : "<Declaration>private let nestLock: <Type usr=\"s:7Rubicon9MutexLocka\">MutexLock<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>private let nestLock: <Type usr=\"s:7Rubicon9MutexLocka\">MutexLock<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.private",
           "key.column": 1,
@@ -3429,8 +3429,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public enum NestType<\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public enum NestType<\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -3555,8 +3555,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.private",
-      "key.annotated_decl" : "<Declaration>private func nDebugIndent(_ count: <Type usr=\"s:Si\">Int<\/Type>, _ string: inout <Type usr=\"s:SS\">String<\/Type>, _ msg: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>private func nDebugIndent(_ count: <Type usr=\"s:Si\">Int<\/Type>, _ string: inout <Type usr=\"s:SS\">String<\/Type>, _ msg: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.private",
           "key.column": 1,
@@ -3592,8 +3592,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func nDebug(_ nestType: <Type usr=\"s:7Rubicon8NestTypeO\">NestType<\/Type> = .None, _ obj: Any..., separator: <Type usr=\"s:SS\">String<\/Type> = &quot; &quot;)<\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func nDebug(_ nestType: <Type usr=\"s:7Rubicon8NestTypeO\">NestType<\/Type> = .None, _ obj: Any..., separator: <Type usr=\"s:SS\">String<\/Type> = &quot; &quot;)<\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -3624,7 +3624,7 @@
           "name": "nestType"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The objects to print. They are converted to a string with `String(describing:)`."
             }
@@ -3738,8 +3738,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: <Type usr=\"s:10Foundation4DataV\">Data<\/Type>, stdout: inout <Type usr=\"s:10Foundation4DataV\">Data<\/Type>, stderr: inout <Type usr=\"s:10Foundation4DataV\">Data<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: <Type usr=\"s:10Foundation4DataV\">Data<\/Type>, stdout: inout <Type usr=\"s:10Foundation4DataV\">Data<\/Type>, stderr: inout <Type usr=\"s:10Foundation4DataV\">Data<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -3770,7 +3770,7 @@
           "name": "exec"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The command line arguments for the program."
             }
@@ -3893,8 +3893,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: Any? = nil, stdout: inout <Type usr=\"s:10Foundation4DataV\">Data<\/Type>, stderr: inout <Type usr=\"s:10Foundation4DataV\">Data<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: Any? = nil, stdout: inout <Type usr=\"s:10Foundation4DataV\">Data<\/Type>, stderr: inout <Type usr=\"s:10Foundation4DataV\">Data<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -3925,7 +3925,7 @@
           "name": "exec"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The command line arguments for the program."
             }
@@ -4174,8 +4174,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: <Type usr=\"s:SS\">String<\/Type>, stdout: inout <Type usr=\"s:SS\">String<\/Type>, stderr: inout <Type usr=\"s:SS\">String<\/Type>, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = .utf8) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: <Type usr=\"s:SS\">String<\/Type>, stdout: inout <Type usr=\"s:SS\">String<\/Type>, stderr: inout <Type usr=\"s:SS\">String<\/Type>, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = .utf8) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -4206,7 +4206,7 @@
           "name": "exec"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The command line arguments for the program."
             }
@@ -4337,8 +4337,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: Any? = nil, stdout: inout <Type usr=\"s:SS\">String<\/Type>, stderr: inout <Type usr=\"s:SS\">String<\/Type>, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = .utf8) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: Any? = nil, stdout: inout <Type usr=\"s:SS\">String<\/Type>, stderr: inout <Type usr=\"s:SS\">String<\/Type>, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = .utf8) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -4369,7 +4369,7 @@
           "name": "exec"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The command line arguments for the program."
             }
@@ -4560,7 +4560,7 @@
           "name": "exec"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The command line arguments for the program."
             }
@@ -4712,8 +4712,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: Any? = nil, discardOutput: <Type usr=\"s:Sb\">Bool<\/Type> = true) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func execute(exec: <Type usr=\"s:SS\">String<\/Type>, args: [<Type usr=\"s:SS\">String<\/Type>], stdin: Any? = nil, discardOutput: <Type usr=\"s:Sb\">Bool<\/Type> = true) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -4744,7 +4744,7 @@
           "name": "exec"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The command line arguments for the program."
             }
@@ -4869,7 +4869,7 @@
           "name": "pipe"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "The encoding. Defaults to `UTF-8`."
             }
@@ -4909,8 +4909,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.internal",
-      "key.annotated_decl" : "<Declaration>@inlinable func launchProcess(process: <Type usr=\"c:objc(cs)NSTask\">Process<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>@inlinable func launchProcess(process: <Type usr=\"c:objc(cs)NSTask\">Process<\/Type>) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.inlinable",
           "key.column": 1,
@@ -4999,8 +4999,8 @@
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.internal",
-      "key.annotated_decl" : "<Declaration>@inlinable func launchProcess(process: <Type usr=\"c:objc(cs)NSTask\">Process<\/Type>, error: inout <Type usr=\"s:s5ErrorP\">Error<\/Type>?) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>@inlinable func launchProcess(process: <Type usr=\"c:objc(cs)NSTask\">Process<\/Type>, error: inout <Type usr=\"s:s5ErrorP\">Error<\/Type>?) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.inlinable",
           "key.column": 1,
@@ -5031,7 +5031,7 @@
           "name": "process"
         },
         {
-          "discussion" : [
+          "discussion": [
             {
               "Para" : "Receives any error."
             }
@@ -5072,12 +5072,12 @@
       ],
       "key.typename": "(Process, inout Error?) -> Bool",
       "key.typeusr": "$s7process5errorSbSo6NSTaskC_s5Error_pSgztcD",
-      "key.usr" : "s:7Rubicon13launchProcess7process5errorSbSo6NSTaskC_s5Error_pSgztF"
+      "key.usr": "s:7Rubicon13launchProcess7process5errorSbSo6NSTaskC_s5Error_pSgztF"
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>public func which(names: [<Type usr=\"s:SS\">String<\/Type>]) -&gt; [<Type usr=\"s:SS\">String<\/Type>?]<\/Declaration>",
-      "key.attributes" : [
+      "key.annotated_decl": "<Declaration>public func which(names: [<Type usr=\"s:SS\">String<\/Type>]) -&gt; [<Type usr=\"s:SS\">String<\/Type>?]<\/Declaration>",
+      "key.attributes": [
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
@@ -5301,7 +5301,7 @@
       ],
       "key.typename": "(String) -> String?",
       "key.typeusr": "$s4nameSSSgSS_tcD",
-      "key.usr" : "s:7Rubicon5which4nameSSSgSS_tF"
+      "key.usr": "s:7Rubicon5which4nameSSSgSS_tF"
     },
     {
       "key.accessibility" : "source.lang.swift.accessibility.public",
@@ -5501,86 +5501,17 @@
       "key.usr": "s:7Rubicon6isTypeySbx_q_mtr0_lF"
     }
   ]
-}     "key.line" : 910,
-"key.name": "launchApplication(exec:)",
-"key.namecolumn": 24,
-"key.namelength": 51,
-"key.nameline": 910,
-"key.nameoffset": 43233,
-"key.offset": 43228,
-"key.parsed_declaration": "@inlinable public func launchApplication(exec: ([String]) throws -> Int32) -> Never",
-"key.parsed_scope.end": 923,
-"key.parsed_scope.start": 910,
-"key.substructure": [
-
-      ],
-      "key.typename" : "(([String]) throws -> Int32) -> Never",
-      "key.typeusr" : "$s4execs5NeverOs5Int32VSaySSGKXE_tcD",
-      "key.usr" : "s:7Rubicon17launchApplication4execs5NeverOs5Int32VSaySSGKXE_tF"
-    },
-    {
-      "key.accessibility" : "source.lang.swift.accessibility.public",
-      "key.annotated_decl" : "<Declaration>@inlinable public func isType&lt;O, T&gt;(_ o: <Type usr=\"s:7Rubicon6isTypeySbx_q_mtr0_lF1OL_xmfp\">O<\/Type>, _ t: <Type usr=\"s:7Rubicon6isTypeySbx_q_mtr0_lF1TL_q_mfp\">T<\/Type>.Type) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
-      "key.attributes" : [
-        {
-          "key.attribute" : "source.decl.attribute.public",
-          "key.column" : 12,
-          "key.length" : 6,
-          "key.line" : 936,
-          "key.offset" : 44033
-        },
-        {
-          "key.attribute" : "source.decl.attribute.inlinable",
-          "key.column" : 1,
-          "key.length" : 10,
-          "key.line" : 936,
-          "key.offset" : 44022
-        }
-      ],
-      "key.bodycolumn" : 67,
-      "key.bodylength" : 20,
-      "key.bodyline" : 936,
-      "key.bodyoffset" : 44088,
-      "key.column" : 19,
-      "key.doc.column" : 24,
-      "key.doc.comment" : "Somewhat shorthand for:\n```\ntype(of: o) == t.self\n```\n\n- Parameters:\n  - o: The instance to check the type of.\n  - t: The type to check for.\n- Returns: `true` if the type of `o` is equal to `t`.",
-      "key.doc.declaration" : "@inlinable public func isType<O, T>(_ o: O, _ t: T.Type) -> Bool",
-      "key.doc.discussion" : [
-        {
-          "CodeListing" : ""
-        }
-      ],
-      "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Tools.swift",
-      "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Tools.swift\" line=\"936\" column=\"24\"><Name>isType(_:_:)<\/Name><USR>s:7Rubicon6isTypeySbx_q_mtr0_lF<\/USR><Declaration>@inlinable public func isType&lt;O, T&gt;(_ o: O, _ t: T.Type) -&gt; Bool<\/Declaration><CommentParts><Abstract><Para>Somewhat shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>o<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The instance to check the type of.<\/Para><\/Discussion><\/Parameter><Parameter><Name>t<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The type to check for.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para><codeVoice>true<\/codeVoice> if the type of <codeVoice>o<\/codeVoice> is equal to <codeVoice>t<\/codeVoice>.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[type(of: o) == t.self]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
-      "key.doc.line" : 936,
-      "key.doc.name" : "isType(_:_:)",
-      "key.doc.parameters" : [
-        {
-          "discussion" : [
-            {
-              "Para" : "The instance to check the type of."
-            }
-          ],
-          "name" : "o"
-        },
-        {
-          "discussion" : [
-            {
-              "Para" : "The type to check for."
-            }
-          ],
-          "name" : "t"
-        }
-      ],
-      "key.doc.result_discussion" : [
-        {
-          "Para" : "`true` if the type of `o` is equal to `t`."
-        }
-      ],
-      "key.doc.type" : "Function",
-      "key.doccolumn" : 1,
-      "key.doclength" : 234,
-      "key.docline" : 926,
+} }
+],
+"key.doc.result_discussion": [
+{
+"Para": "`true` if the type of `o` is equal to `t`."
+}
+],
+"key.doc.type": "Function",
+"key.doccolumn": 1,
+"key.doclength" : 234,
+"key.docline": 926,
       "key.docoffset" : 43788,
       "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Tools.swift",
       "key.fully_annotated_decl" : "<decl.function.free><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>isType<\/decl.name>&lt;<decl.generic_type_param usr=\"s:7Rubicon6isTypeySbx_q_mtr0_lF1OL_xmfp\"><decl.generic_type_param.name>O<\/decl.generic_type_param.name><\/decl.generic_type_param>, <decl.generic_type_param usr=\"s:7Rubicon6isTypeySbx_q_mtr0_lF1TL_q_mfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>o<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon6isTypeySbx_q_mtr0_lF1OL_xmfp\">O<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>t<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:7Rubicon6isTypeySbx_q_mtr0_lF1TL_q_mfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.free>",
