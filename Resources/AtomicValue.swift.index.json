@@ -937,9 +937,9 @@
               "key.column" : 28,
               "key.entities" : [
                 {
-                  "key.column" : 28,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
+                  "key.column": 28,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
                   "key.kind": "source.lang.swift.ref.function.accessor.setter",
                   "key.line": 72,
                   "key.receiver_usr": "s:7Rubicon11AtomicValueC",
@@ -1032,24 +1032,17 @@
       "key.usr": "s:7Rubicon11AtomicValueC"
     }
   ]
-}ce.lang.swift.ref.var.instance",
-"key.line" : 72,
-"key.name": "value",
-"key.usr": "s:7Rubicon11AtomicValueC5valuexvp"
-},
-{
-"key.column": 13,
-"key.kind": "source.lang.swift.ref.function.free",
+}function.free",
 "key.line": 74,
 "key.name": "nDebug(_:_:separator:)",
 "key.usr": "s:7Rubicon6nDebug__9separatoryAA8NestTypeO_ypdSStF"
 },
 {
 "key.column": 21,
-              "key.kind" : "source.lang.swift.ref.enumelement",
-              "key.line" : 74,
-              "key.name" : "In",
-              "key.usr" : "s:7Rubicon8NestTypeO2InyA2CmF"
+"key.kind": "source.lang.swift.ref.enumelement",
+"key.line": 74,
+"key.name": "In",
+"key.usr": "s:7Rubicon8NestTypeO2InyA2CmF"
             },
             {
               "key.column" : 21,

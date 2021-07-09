@@ -303,784 +303,784 @@
           "key.usr" : "c:@T@NSFileAttributeKey"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 29,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 30,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 29,
-                  "key.name" : "fileCreationDate()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileCreationDate"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 30,
+                  "key.name": "fileCreationDate()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileCreationDate"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 29,
-              "key.name" : "getter:fileCreationDate",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileCreationDate10Foundation0G0VSgvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 30,
+              "key.name": "getter:fileCreationDate",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileCreationDate10Foundation0G0VSgvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 29,
-          "key.name" : "fileCreationDate",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileCreationDate10Foundation0G0VSgvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 30,
+          "key.name": "fileCreationDate",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileCreationDate10Foundation0G0VSgvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 29,
-          "key.name" : "Date",
-          "key.usr" : "s:10Foundation4DateV"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 30,
+          "key.name": "Date",
+          "key.usr": "s:10Foundation4DateV"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 30,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 31,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 30,
-                  "key.name" : "fileExtensionHidden()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileExtensionHidden"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 31,
+                  "key.name": "fileExtensionHidden()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileExtensionHidden"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 30,
-              "key.name" : "getter:fileExtensionHidden",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE19fileExtensionHiddenSbvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 31,
+              "key.name": "getter:fileExtensionHidden",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE19fileExtensionHiddenSbvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 30,
-          "key.name" : "fileExtensionHidden",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE19fileExtensionHiddenSbvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 31,
+          "key.name": "fileExtensionHidden",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE19fileExtensionHiddenSbvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 30,
-          "key.name" : "Bool",
-          "key.usr" : "s:Sb"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 31,
+          "key.name": "Bool",
+          "key.usr": "s:Sb"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 31,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 32,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 31,
-                  "key.name" : "fileGroupOwnerAccountID()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileGroupOwnerAccountID"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 32,
+                  "key.name": "fileGroupOwnerAccountID()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileGroupOwnerAccountID"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 31,
-              "key.name" : "getter:fileGroupOwnerAccountID",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE23fileGroupOwnerAccountIDSo8NSNumberCSgvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 32,
+              "key.name": "getter:fileGroupOwnerAccountID",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE23fileGroupOwnerAccountIDSo8NSNumberCSgvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 31,
-          "key.name" : "fileGroupOwnerAccountID",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE23fileGroupOwnerAccountIDSo8NSNumberCSgvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 32,
+          "key.name": "fileGroupOwnerAccountID",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE23fileGroupOwnerAccountIDSo8NSNumberCSgvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.class",
-          "key.line" : 31,
-          "key.name" : "NSNumber",
-          "key.usr" : "c:objc(cs)NSNumber"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 32,
+          "key.name": "NSNumber",
+          "key.usr": "c:objc(cs)NSNumber"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 32,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 33,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 32,
-                  "key.name" : "fileGroupOwnerAccountName()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileGroupOwnerAccountName"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 33,
+                  "key.name": "fileGroupOwnerAccountName()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileGroupOwnerAccountName"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 32,
-              "key.name" : "getter:fileGroupOwnerAccountName",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE25fileGroupOwnerAccountNameSSSgvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 33,
+              "key.name": "getter:fileGroupOwnerAccountName",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE25fileGroupOwnerAccountNameSSSgvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 32,
-          "key.name" : "fileGroupOwnerAccountName",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE25fileGroupOwnerAccountNameSSSgvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 33,
+          "key.name": "fileGroupOwnerAccountName",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE25fileGroupOwnerAccountNameSSSgvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 32,
-          "key.name" : "String",
-          "key.usr" : "s:SS"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 33,
+          "key.name": "String",
+          "key.usr": "s:SS"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 33,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 34,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 33,
-                  "key.name" : "fileHFSCreatorCode()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileHFSCreatorCode"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 34,
+                  "key.name": "fileHFSCreatorCode()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileHFSCreatorCode"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 33,
-              "key.name" : "getter:fileHFSCreatorCode",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileHFSCreatorCodes6UInt32Vvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 34,
+              "key.name": "getter:fileHFSCreatorCode",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileHFSCreatorCodes6UInt32Vvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 33,
-          "key.name" : "fileHFSCreatorCode",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileHFSCreatorCodes6UInt32Vvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 34,
+          "key.name": "fileHFSCreatorCode",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileHFSCreatorCodes6UInt32Vvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.typealias",
-          "key.line" : 33,
-          "key.name" : "OSType",
-          "key.usr" : "c:@T@OSType"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.typealias",
+          "key.line": 34,
+          "key.name": "OSType",
+          "key.usr": "c:@T@OSType"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 34,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 35,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 34,
-                  "key.name" : "fileHFSTypeCode()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileHFSTypeCode"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 35,
+                  "key.name": "fileHFSTypeCode()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileHFSTypeCode"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 34,
-              "key.name" : "getter:fileHFSTypeCode",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileHFSTypeCodes6UInt32Vvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 35,
+              "key.name": "getter:fileHFSTypeCode",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileHFSTypeCodes6UInt32Vvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 34,
-          "key.name" : "fileHFSTypeCode",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileHFSTypeCodes6UInt32Vvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 35,
+          "key.name": "fileHFSTypeCode",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileHFSTypeCodes6UInt32Vvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.typealias",
-          "key.line" : 34,
-          "key.name" : "OSType",
-          "key.usr" : "c:@T@OSType"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.typealias",
+          "key.line": 35,
+          "key.name": "OSType",
+          "key.usr": "c:@T@OSType"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 35,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 36,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 35,
-                  "key.name" : "fileIsAppendOnly()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileIsAppendOnly"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 36,
+                  "key.name": "fileIsAppendOnly()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileIsAppendOnly"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 35,
-              "key.name" : "getter:fileIsAppendOnly",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileIsAppendOnlySbvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 36,
+              "key.name": "getter:fileIsAppendOnly",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileIsAppendOnlySbvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 35,
-          "key.name" : "fileIsAppendOnly",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileIsAppendOnlySbvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 36,
+          "key.name": "fileIsAppendOnly",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileIsAppendOnlySbvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 35,
-          "key.name" : "Bool",
-          "key.usr" : "s:Sb"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 36,
+          "key.name": "Bool",
+          "key.usr": "s:Sb"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 36,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 37,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 36,
-                  "key.name" : "fileIsImmutable()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileIsImmutable"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 37,
+                  "key.name": "fileIsImmutable()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileIsImmutable"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 36,
-              "key.name" : "getter:fileIsImmutable",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileIsImmutableSbvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 37,
+              "key.name": "getter:fileIsImmutable",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileIsImmutableSbvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 36,
-          "key.name" : "fileIsImmutable",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileIsImmutableSbvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 37,
+          "key.name": "fileIsImmutable",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileIsImmutableSbvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 36,
-          "key.name" : "Bool",
-          "key.usr" : "s:Sb"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 37,
+          "key.name": "Bool",
+          "key.usr": "s:Sb"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 37,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 38,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 37,
-                  "key.name" : "fileModificationDate()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileModificationDate"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 38,
+                  "key.name": "fileModificationDate()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileModificationDate"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 37,
-              "key.name" : "getter:fileModificationDate",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileModificationDate10Foundation0G0VSgvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 38,
+              "key.name": "getter:fileModificationDate",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileModificationDate10Foundation0G0VSgvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 37,
-          "key.name" : "fileModificationDate",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileModificationDate10Foundation0G0VSgvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 38,
+          "key.name": "fileModificationDate",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileModificationDate10Foundation0G0VSgvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 37,
-          "key.name" : "Date",
-          "key.usr" : "s:10Foundation4DateV"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 38,
+          "key.name": "Date",
+          "key.usr": "s:10Foundation4DateV"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 38,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 39,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 38,
-                  "key.name" : "fileOwnerAccountID()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileOwnerAccountID"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 39,
+                  "key.name": "fileOwnerAccountID()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileOwnerAccountID"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 38,
-              "key.name" : "getter:fileOwnerAccountID",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileOwnerAccountIDSo8NSNumberCSgvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 39,
+              "key.name": "getter:fileOwnerAccountID",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileOwnerAccountIDSo8NSNumberCSgvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 38,
-          "key.name" : "fileOwnerAccountID",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileOwnerAccountIDSo8NSNumberCSgvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 39,
+          "key.name": "fileOwnerAccountID",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileOwnerAccountIDSo8NSNumberCSgvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.class",
-          "key.line" : 38,
-          "key.name" : "NSNumber",
-          "key.usr" : "c:objc(cs)NSNumber"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 39,
+          "key.name": "NSNumber",
+          "key.usr": "c:objc(cs)NSNumber"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 39,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 40,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 39,
-                  "key.name" : "fileOwnerAccountName()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileOwnerAccountName"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 40,
+                  "key.name": "fileOwnerAccountName()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileOwnerAccountName"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 39,
-              "key.name" : "getter:fileOwnerAccountName",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileOwnerAccountNameSSSgvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 40,
+              "key.name": "getter:fileOwnerAccountName",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileOwnerAccountNameSSSgvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 39,
-          "key.name" : "fileOwnerAccountName",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileOwnerAccountNameSSSgvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 40,
+          "key.name": "fileOwnerAccountName",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileOwnerAccountNameSSSgvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 39,
-          "key.name" : "String",
-          "key.usr" : "s:SS"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 40,
+          "key.name": "String",
+          "key.usr": "s:SS"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 40,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 41,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 40,
-                  "key.name" : "filePosixPermissions()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)filePosixPermissions"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 41,
+                  "key.name": "filePosixPermissions()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)filePosixPermissions"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 40,
-              "key.name" : "getter:filePosixPermissions",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20filePosixPermissionsSivg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 41,
+              "key.name": "getter:filePosixPermissions",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20filePosixPermissionsSivg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 40,
-          "key.name" : "filePosixPermissions",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20filePosixPermissionsSivp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 41,
+          "key.name": "filePosixPermissions",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20filePosixPermissionsSivp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 40,
-          "key.name" : "Int",
-          "key.usr" : "s:Si"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 41,
+          "key.name": "Int",
+          "key.usr": "s:Si"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 41,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 42,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 41,
-                  "key.name" : "fileSize()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileSize"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 42,
+                  "key.name": "fileSize()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileSize"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 41,
-              "key.name" : "getter:fileSize",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileSizes6UInt64Vvg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 42,
+              "key.name": "getter:fileSize",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileSizes6UInt64Vvg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 41,
-          "key.name" : "fileSize",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileSizes6UInt64Vvp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 42,
+          "key.name": "fileSize",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileSizes6UInt64Vvp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 41,
-          "key.name" : "UInt64",
-          "key.usr" : "s:s6UInt64V"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 42,
+          "key.name": "UInt64",
+          "key.usr": "s:s6UInt64V"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 42,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 43,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 42,
-                  "key.name" : "fileSystemFileNumber()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileSystemFileNumber"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 43,
+                  "key.name": "fileSystemFileNumber()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileSystemFileNumber"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 42,
-              "key.name" : "getter:fileSystemFileNumber",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileSystemFileNumberSivg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 43,
+              "key.name": "getter:fileSystemFileNumber",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileSystemFileNumberSivg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 42,
-          "key.name" : "fileSystemFileNumber",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileSystemFileNumberSivp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 43,
+          "key.name": "fileSystemFileNumber",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileSystemFileNumberSivp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 42,
-          "key.name" : "Int",
-          "key.usr" : "s:Si"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 43,
+          "key.name": "Int",
+          "key.usr": "s:Si"
         },
         {
-          "key.attributes" : [
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public"
+              "key.attribute": "source.decl.attribute.public"
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable"
+              "key.attribute": "source.decl.attribute.inlinable"
             }
           ],
-          "key.column" : 27,
-          "key.effective_access" : "source.decl.effective_access.public",
-          "key.entities" : [
+          "key.column": 31,
+          "key.effective_access": "source.decl.effective_access.public",
+          "key.entities": [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 68,
+              "key.entities": [
                 {
-                  "key.column" : 83,
-                  "key.kind" : "source.lang.swift.ref.class",
-                  "key.line" : 43,
-                  "key.name" : "NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary"
+                  "key.column": 79,
+                  "key.kind": "source.lang.swift.ref.class",
+                  "key.line": 44,
+                  "key.name": "NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary"
                 },
                 {
-                  "key.column" : 97,
-                  "key.is_dynamic" : true,
-                  "key.kind" : "source.lang.swift.ref.function.method.instance",
-                  "key.line" : 43,
-                  "key.name" : "fileSystemNumber()",
-                  "key.receiver_usr" : "c:objc(cs)NSDictionary",
-                  "key.usr" : "c:objc(cs)NSDictionary(im)fileSystemNumber"
+                  "key.column": 93,
+                  "key.is_dynamic": true,
+                  "key.kind": "source.lang.swift.ref.function.method.instance",
+                  "key.line": 44,
+                  "key.name": "fileSystemNumber()",
+                  "key.receiver_usr": "c:objc(cs)NSDictionary",
+                  "key.usr": "c:objc(cs)NSDictionary(im)fileSystemNumber"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 43,
-              "key.name" : "getter:fileSystemNumber",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileSystemNumberSivg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 44,
+              "key.name": "getter:fileSystemNumber",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileSystemNumberSivg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 43,
-          "key.name" : "fileSystemNumber",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileSystemNumberSivp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 44,
+          "key.name": "fileSystemNumber",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileSystemNumberSivp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 43,
-          "key.name" : "Int",
-          "key.usr" : "s:Si"
+          "key.column": 58,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 44,
+          "key.name": "Int",
+          "key.usr": "s:Si"
         },
         {
           "key.attributes" : [
@@ -1095,349 +1095,349 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 72,
-              "key.entities" : [
+              "key.column": 55,
+              "key.entities": [
                 {
-                  "key.column" : 28,
-                  "key.entities" : [
+                  "key.column": 28,
+                  "key.entities": [
                     {
-                      "key.column" : 28,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 45,
-                      "key.receiver_usr" : "s:SD",
-                      "key.usr" : "s:SDyq_Sgxcig"
+                      "key.column": 28,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 65,
+                      "key.receiver_usr": "s:SD",
+                      "key.usr": "s:SDyq_Sgxcig"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.function.subscript",
-                  "key.line" : 45,
-                  "key.name" : "subscript(_:)",
-                  "key.usr" : "s:SDyq_Sgxcip"
+                  "key.kind": "source.lang.swift.ref.function.subscript",
+                  "key.line": 65,
+                  "key.name": "subscript(_:)",
+                  "key.usr": "s:SDyq_Sgxcip"
                 },
                 {
                   "key.column" : 30,
                   "key.entities" : [
                     {
-                      "key.column" : 30,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 45,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeKey",
-                      "key.usr" : "s:So18NSFileAttributeKeya4typeABvgZ"
+                      "key.column": 30,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 65,
+                      "key.receiver_usr": "c:@T@NSFileAttributeKey",
+                      "key.usr": "s:So18NSFileAttributeKeya4typeABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 45,
-                  "key.name" : "type",
-                  "key.usr" : "c:@NSFileType"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 65,
+                  "key.name": "type",
+                  "key.usr": "c:@NSFileType"
                 },
                 {
-                  "key.column" : 40,
-                  "key.kind" : "source.lang.swift.ref.struct",
-                  "key.line" : 45,
-                  "key.name" : "String",
-                  "key.usr" : "s:SS"
+                  "key.column": 40,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 65,
+                  "key.name": "String",
+                  "key.usr": "s:SS"
                 },
                 {
                   "key.column" : 63,
                   "key.entities" : [
                     {
-                      "key.column" : 63,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 45,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea11typeUnknownABvgZ"
+                      "key.column": 63,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 65,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea11typeUnknownABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 45,
-                  "key.name" : "typeUnknown",
-                  "key.usr" : "c:@NSFileTypeUnknown"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 65,
+                  "key.name": "typeUnknown",
+                  "key.usr": "c:@NSFileTypeUnknown"
                 },
                 {
-                  "key.column" : 18,
-                  "key.kind" : "source.lang.swift.ref.struct",
-                  "key.line" : 47,
-                  "key.name" : "FileAttributeType",
-                  "key.usr" : "c:@T@NSFileAttributeType"
+                  "key.column": 18,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 67,
+                  "key.name": "FileAttributeType",
+                  "key.usr": "c:@T@NSFileAttributeType"
                 },
                 {
                   "key.column" : 36,
                   "key.entities" : [
                     {
-                      "key.column" : 36,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 47,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea16typeBlockSpecialABvgZ"
+                      "key.column": 36,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 67,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea16typeBlockSpecialABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 47,
-                  "key.name" : "typeBlockSpecial",
-                  "key.usr" : "c:@NSFileTypeBlockSpecial"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 67,
+                  "key.name": "typeBlockSpecial",
+                  "key.usr": "c:@NSFileTypeBlockSpecial"
                 },
                 {
                   "key.column" : 75,
                   "key.entities" : [
                     {
-                      "key.column" : 75,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 47,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea16typeBlockSpecialABvgZ"
+                      "key.column": 75,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 67,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea16typeBlockSpecialABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 47,
-                  "key.name" : "typeBlockSpecial",
-                  "key.usr" : "c:@NSFileTypeBlockSpecial"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 67,
+                  "key.name": "typeBlockSpecial",
+                  "key.usr": "c:@NSFileTypeBlockSpecial"
                 },
                 {
-                  "key.column" : 18,
-                  "key.kind" : "source.lang.swift.ref.struct",
-                  "key.line" : 48,
-                  "key.name" : "FileAttributeType",
-                  "key.usr" : "c:@T@NSFileAttributeType"
+                  "key.column": 18,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 68,
+                  "key.name": "FileAttributeType",
+                  "key.usr": "c:@T@NSFileAttributeType"
                 },
                 {
                   "key.column" : 36,
                   "key.entities" : [
                     {
-                      "key.column" : 36,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 48,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea13typeDirectoryABvgZ"
+                      "key.column": 36,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 68,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea13typeDirectoryABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 48,
-                  "key.name" : "typeDirectory",
-                  "key.usr" : "c:@NSFileTypeDirectory"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 68,
+                  "key.name": "typeDirectory",
+                  "key.usr": "c:@NSFileTypeDirectory"
                 },
                 {
                   "key.column" : 75,
                   "key.entities" : [
                     {
-                      "key.column" : 75,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 48,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea13typeDirectoryABvgZ"
+                      "key.column": 75,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 68,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea13typeDirectoryABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 48,
-                  "key.name" : "typeDirectory",
-                  "key.usr" : "c:@NSFileTypeDirectory"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 68,
+                  "key.name": "typeDirectory",
+                  "key.usr": "c:@NSFileTypeDirectory"
                 },
                 {
-                  "key.column" : 18,
-                  "key.kind" : "source.lang.swift.ref.struct",
-                  "key.line" : 49,
-                  "key.name" : "FileAttributeType",
-                  "key.usr" : "c:@T@NSFileAttributeType"
+                  "key.column": 18,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 69,
+                  "key.name": "FileAttributeType",
+                  "key.usr": "c:@T@NSFileAttributeType"
                 },
                 {
                   "key.column" : 36,
                   "key.entities" : [
                     {
-                      "key.column" : 36,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 49,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea11typeRegularABvgZ"
+                      "key.column": 36,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 69,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea11typeRegularABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 49,
-                  "key.name" : "typeRegular",
-                  "key.usr" : "c:@NSFileTypeRegular"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 69,
+                  "key.name": "typeRegular",
+                  "key.usr": "c:@NSFileTypeRegular"
                 },
                 {
                   "key.column" : 75,
                   "key.entities" : [
                     {
-                      "key.column" : 75,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 49,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea11typeRegularABvgZ"
+                      "key.column": 75,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 69,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea11typeRegularABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 49,
-                  "key.name" : "typeRegular",
-                  "key.usr" : "c:@NSFileTypeRegular"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 69,
+                  "key.name": "typeRegular",
+                  "key.usr": "c:@NSFileTypeRegular"
                 },
                 {
-                  "key.column" : 18,
-                  "key.kind" : "source.lang.swift.ref.struct",
-                  "key.line" : 50,
-                  "key.name" : "FileAttributeType",
-                  "key.usr" : "c:@T@NSFileAttributeType"
+                  "key.column": 18,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 70,
+                  "key.name": "FileAttributeType",
+                  "key.usr": "c:@T@NSFileAttributeType"
                 },
                 {
                   "key.column" : 36,
                   "key.entities" : [
                     {
-                      "key.column" : 36,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 50,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea16typeSymbolicLinkABvgZ"
+                      "key.column": 36,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 70,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea16typeSymbolicLinkABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 50,
-                  "key.name" : "typeSymbolicLink",
-                  "key.usr" : "c:@NSFileTypeSymbolicLink"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 70,
+                  "key.name": "typeSymbolicLink",
+                  "key.usr": "c:@NSFileTypeSymbolicLink"
                 },
                 {
                   "key.column" : 75,
                   "key.entities" : [
                     {
-                      "key.column" : 75,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 50,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea16typeSymbolicLinkABvgZ"
+                      "key.column": 75,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 70,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea16typeSymbolicLinkABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 50,
-                  "key.name" : "typeSymbolicLink",
-                  "key.usr" : "c:@NSFileTypeSymbolicLink"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 70,
+                  "key.name": "typeSymbolicLink",
+                  "key.usr": "c:@NSFileTypeSymbolicLink"
                 },
                 {
-                  "key.column" : 18,
-                  "key.kind" : "source.lang.swift.ref.struct",
-                  "key.line" : 51,
-                  "key.name" : "FileAttributeType",
-                  "key.usr" : "c:@T@NSFileAttributeType"
+                  "key.column": 18,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 71,
+                  "key.name": "FileAttributeType",
+                  "key.usr": "c:@T@NSFileAttributeType"
                 },
                 {
                   "key.column" : 36,
                   "key.entities" : [
                     {
-                      "key.column" : 36,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 51,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea10typeSocketABvgZ"
+                      "key.column": 36,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 71,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea10typeSocketABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 51,
-                  "key.name" : "typeSocket",
-                  "key.usr" : "c:@NSFileTypeSocket"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 71,
+                  "key.name": "typeSocket",
+                  "key.usr": "c:@NSFileTypeSocket"
                 },
                 {
                   "key.column" : 75,
                   "key.entities" : [
                     {
-                      "key.column" : 75,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 51,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea10typeSocketABvgZ"
+                      "key.column": 75,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 71,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea10typeSocketABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 51,
-                  "key.name" : "typeSocket",
-                  "key.usr" : "c:@NSFileTypeSocket"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 71,
+                  "key.name": "typeSocket",
+                  "key.usr": "c:@NSFileTypeSocket"
                 },
                 {
-                  "key.column" : 18,
-                  "key.kind" : "source.lang.swift.ref.struct",
-                  "key.line" : 52,
-                  "key.name" : "FileAttributeType",
-                  "key.usr" : "c:@T@NSFileAttributeType"
+                  "key.column": 18,
+                  "key.kind": "source.lang.swift.ref.struct",
+                  "key.line": 72,
+                  "key.name": "FileAttributeType",
+                  "key.usr": "c:@T@NSFileAttributeType"
                 },
                 {
                   "key.column" : 36,
                   "key.entities" : [
                     {
-                      "key.column" : 36,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 52,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea20typeCharacterSpecialABvgZ"
+                      "key.column": 36,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 72,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea20typeCharacterSpecialABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 52,
-                  "key.name" : "typeCharacterSpecial",
-                  "key.usr" : "c:@NSFileTypeCharacterSpecial"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 72,
+                  "key.name": "typeCharacterSpecial",
+                  "key.usr": "c:@NSFileTypeCharacterSpecial"
                 },
                 {
                   "key.column" : 75,
                   "key.entities" : [
                     {
-                      "key.column" : 75,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 52,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea20typeCharacterSpecialABvgZ"
+                      "key.column": 75,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 72,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea20typeCharacterSpecialABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 52,
-                  "key.name" : "typeCharacterSpecial",
-                  "key.usr" : "c:@NSFileTypeCharacterSpecial"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 72,
+                  "key.name": "typeCharacterSpecial",
+                  "key.usr": "c:@NSFileTypeCharacterSpecial"
                 },
                 {
                   "key.column" : 75,
                   "key.entities" : [
                     {
-                      "key.column" : 75,
-                      "key.is_implicit" : true,
-                      "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                      "key.line" : 53,
-                      "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                      "key.usr" : "s:So19NSFileAttributeTypea11typeUnknownABvgZ"
+                      "key.column": 75,
+                      "key.is_implicit": true,
+                      "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                      "key.line": 73,
+                      "key.receiver_usr": "c:@T@NSFileAttributeType",
+                      "key.usr": "s:So19NSFileAttributeTypea11typeUnknownABvgZ"
                     }
                   ],
-                  "key.kind" : "source.lang.swift.ref.var.static",
-                  "key.line" : 53,
-                  "key.name" : "typeUnknown",
-                  "key.usr" : "c:@NSFileTypeUnknown"
+                  "key.kind": "source.lang.swift.ref.var.static",
+                  "key.line": 73,
+                  "key.name": "typeUnknown",
+                  "key.usr": "c:@NSFileTypeUnknown"
                 }
               ],
-              "key.groupname" : "Collection\/HashedCollections",
-              "key.kind" : "source.lang.swift.decl.function.accessor.getter",
-              "key.line" : 44,
-              "key.name" : "getter:fileType",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avg"
+              "key.groupname": "Collection\/HashedCollections",
+              "key.kind": "source.lang.swift.decl.function.accessor.getter",
+              "key.line": 64,
+              "key.name": "getter:fileType",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avg"
             }
           ],
-          "key.groupname" : "Collection\/HashedCollections",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.line" : 44,
-          "key.name" : "fileType",
-          "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avp"
+          "key.groupname": "Collection\/HashedCollections",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.line": 64,
+          "key.name": "fileType",
+          "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avp"
         },
         {
-          "key.column" : 54,
-          "key.kind" : "source.lang.swift.ref.struct",
-          "key.line" : 44,
-          "key.name" : "FileAttributeType",
-          "key.usr" : "c:@T@NSFileAttributeType"
+          "key.column": 37,
+          "key.kind": "source.lang.swift.ref.struct",
+          "key.line": 64,
+          "key.name": "FileAttributeType",
+          "key.usr": "c:@T@NSFileAttributeType"
         }
       ],
       "key.kind" : "source.lang.swift.decl.extension.struct",
@@ -1454,11 +1454,11 @@
       "key.column" : 11,
       "key.entities" : [
         {
-          "key.column" : 11,
-          "key.kind" : "source.lang.swift.ref.class",
-          "key.line" : 59,
-          "key.name" : "FileManager",
-          "key.usr" : "c:objc(cs)NSFileManager"
+          "key.column": 11,
+          "key.kind": "source.lang.swift.ref.class",
+          "key.line": 78,
+          "key.name": "FileManager",
+          "key.usr": "c:objc(cs)NSFileManager"
         },
         {
           "key.attributes" : [
@@ -1473,51 +1473,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 53,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 62,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 81,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 62,
-              "key.name" : "Date",
-              "key.usr" : "s:10Foundation4DateV"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 81,
+              "key.name": "Date",
+              "key.usr": "s:10Foundation4DateV"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 62,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 81,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 62,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileCreationDate10Foundation0G0VSgvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 81,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileCreationDate10Foundation0G0VSgvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 62,
-              "key.name" : "fileCreationDate",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileCreationDate10Foundation0G0VSgvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 81,
+              "key.name": "fileCreationDate",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileCreationDate10Foundation0G0VSgvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 62,
-          "key.name" : "fileCreationDate(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE16fileCreationDate6atPath10Foundation0F0VSgSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 81,
+          "key.name": "fileCreationDate(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE16fileCreationDate6atPath10Foundation0F0VSgSS_tKF"
         },
         {
           "key.attributes" : [
@@ -1532,51 +1532,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 56,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 63,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 56,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 82,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 63,
-              "key.name" : "Bool",
-              "key.usr" : "s:Sb"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 82,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 63,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 82,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 63,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE19fileExtensionHiddenSbvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 82,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE19fileExtensionHiddenSbvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 63,
-              "key.name" : "fileExtensionHidden",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE19fileExtensionHiddenSbvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 82,
+              "key.name": "fileExtensionHidden",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE19fileExtensionHiddenSbvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 63,
-          "key.name" : "fileExtensionHidden(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE19fileExtensionHidden6atPathSbSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 82,
+          "key.name": "fileExtensionHidden(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE19fileExtensionHidden6atPathSbSS_tKF"
         },
         {
           "key.attributes" : [
@@ -1591,51 +1591,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 60,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 64,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 60,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 83,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 64,
-              "key.name" : "NSNumber",
-              "key.usr" : "c:objc(cs)NSNumber"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 83,
+              "key.name": "NSNumber",
+              "key.usr": "c:objc(cs)NSNumber"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 64,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 83,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 64,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE23fileGroupOwnerAccountIDSo8NSNumberCSgvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 83,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE23fileGroupOwnerAccountIDSo8NSNumberCSgvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 64,
-              "key.name" : "fileGroupOwnerAccountID",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE23fileGroupOwnerAccountIDSo8NSNumberCSgvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 83,
+              "key.name": "fileGroupOwnerAccountID",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE23fileGroupOwnerAccountIDSo8NSNumberCSgvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 64,
-          "key.name" : "fileGroupOwnerAccountID(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE23fileGroupOwnerAccountID6atPathSo8NSNumberCSgSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 83,
+          "key.name": "fileGroupOwnerAccountID(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE23fileGroupOwnerAccountID6atPathSo8NSNumberCSgSS_tKF"
         },
         {
           "key.attributes" : [
@@ -1650,51 +1650,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 62,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 65,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 62,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 84,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 65,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 84,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 65,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 84,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 65,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE25fileGroupOwnerAccountNameSSSgvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 84,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE25fileGroupOwnerAccountNameSSSgvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 65,
-              "key.name" : "fileGroupOwnerAccountName",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE25fileGroupOwnerAccountNameSSSgvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 84,
+              "key.name": "fileGroupOwnerAccountName",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE25fileGroupOwnerAccountNameSSSgvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 65,
-          "key.name" : "fileGroupOwnerAccountName(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE25fileGroupOwnerAccountName6atPathSSSgSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 84,
+          "key.name": "fileGroupOwnerAccountName(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE25fileGroupOwnerAccountName6atPathSSSgSS_tKF"
         },
         {
           "key.attributes" : [
@@ -1709,51 +1709,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 55,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 66,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 55,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 85,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.typealias",
-              "key.line" : 66,
-              "key.name" : "OSType",
-              "key.usr" : "c:@T@OSType"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 85,
+              "key.name": "OSType",
+              "key.usr": "c:@T@OSType"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 66,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 85,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 66,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileHFSCreatorCodes6UInt32Vvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 85,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileHFSCreatorCodes6UInt32Vvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 66,
-              "key.name" : "fileHFSCreatorCode",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileHFSCreatorCodes6UInt32Vvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 85,
+              "key.name": "fileHFSCreatorCode",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileHFSCreatorCodes6UInt32Vvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 66,
-          "key.name" : "fileHFSCreatorCode(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE18fileHFSCreatorCode6atPaths6UInt32VSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 85,
+          "key.name": "fileHFSCreatorCode(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE18fileHFSCreatorCode6atPaths6UInt32VSS_tKF"
         },
         {
           "key.attributes" : [
@@ -1768,51 +1768,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 52,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 67,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 52,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 86,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.typealias",
-              "key.line" : 67,
-              "key.name" : "OSType",
-              "key.usr" : "c:@T@OSType"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 86,
+              "key.name": "OSType",
+              "key.usr": "c:@T@OSType"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 67,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 86,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 67,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileHFSTypeCodes6UInt32Vvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 86,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileHFSTypeCodes6UInt32Vvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 67,
-              "key.name" : "fileHFSTypeCode",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileHFSTypeCodes6UInt32Vvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 86,
+              "key.name": "fileHFSTypeCode",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileHFSTypeCodes6UInt32Vvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 67,
-          "key.name" : "fileHFSTypeCode(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE15fileHFSTypeCode6atPaths6UInt32VSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 86,
+          "key.name": "fileHFSTypeCode(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE15fileHFSTypeCode6atPaths6UInt32VSS_tKF"
         },
         {
           "key.attributes" : [
@@ -1827,51 +1827,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 53,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 68,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 87,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 68,
-              "key.name" : "Bool",
-              "key.usr" : "s:Sb"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 87,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 68,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 87,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 68,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileIsAppendOnlySbvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 87,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileIsAppendOnlySbvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 68,
-              "key.name" : "fileIsAppendOnly",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileIsAppendOnlySbvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 87,
+              "key.name": "fileIsAppendOnly",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileIsAppendOnlySbvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 68,
-          "key.name" : "fileIsAppendOnly(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE16fileIsAppendOnly6atPathSbSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 87,
+          "key.name": "fileIsAppendOnly(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE16fileIsAppendOnly6atPathSbSS_tKF"
         },
         {
           "key.attributes" : [
@@ -1886,51 +1886,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 52,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 69,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 52,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 88,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 69,
-              "key.name" : "Bool",
-              "key.usr" : "s:Sb"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 88,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 69,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 88,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 69,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileIsImmutableSbvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 88,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileIsImmutableSbvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 69,
-              "key.name" : "fileIsImmutable",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileIsImmutableSbvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 88,
+              "key.name": "fileIsImmutable",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE15fileIsImmutableSbvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 69,
-          "key.name" : "fileIsImmutable(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE15fileIsImmutable6atPathSbSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 88,
+          "key.name": "fileIsImmutable(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE15fileIsImmutable6atPathSbSS_tKF"
         },
         {
           "key.attributes" : [
@@ -1945,51 +1945,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 57,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 70,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 89,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 70,
-              "key.name" : "Date",
-              "key.usr" : "s:10Foundation4DateV"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 89,
+              "key.name": "Date",
+              "key.usr": "s:10Foundation4DateV"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 70,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 89,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 70,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileModificationDate10Foundation0G0VSgvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 89,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileModificationDate10Foundation0G0VSgvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 70,
-              "key.name" : "fileModificationDate",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileModificationDate10Foundation0G0VSgvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 89,
+              "key.name": "fileModificationDate",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileModificationDate10Foundation0G0VSgvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 70,
-          "key.name" : "fileModificationDate(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE20fileModificationDate6atPath10Foundation0F0VSgSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 89,
+          "key.name": "fileModificationDate(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE20fileModificationDate6atPath10Foundation0F0VSgSS_tKF"
         },
         {
           "key.attributes" : [
@@ -2004,51 +2004,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 55,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 71,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 55,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 90,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 71,
-              "key.name" : "NSNumber",
-              "key.usr" : "c:objc(cs)NSNumber"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 90,
+              "key.name": "NSNumber",
+              "key.usr": "c:objc(cs)NSNumber"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 71,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 90,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 71,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileOwnerAccountIDSo8NSNumberCSgvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 90,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileOwnerAccountIDSo8NSNumberCSgvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 71,
-              "key.name" : "fileOwnerAccountID",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileOwnerAccountIDSo8NSNumberCSgvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 90,
+              "key.name": "fileOwnerAccountID",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE18fileOwnerAccountIDSo8NSNumberCSgvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 71,
-          "key.name" : "fileOwnerAccountID(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE18fileOwnerAccountID6atPathSo8NSNumberCSgSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 90,
+          "key.name": "fileOwnerAccountID(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE18fileOwnerAccountID6atPathSo8NSNumberCSgSS_tKF"
         },
         {
           "key.attributes" : [
@@ -2063,51 +2063,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 57,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 72,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 91,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 72,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 91,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 72,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 91,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 72,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileOwnerAccountNameSSSgvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 91,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileOwnerAccountNameSSSgvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 72,
-              "key.name" : "fileOwnerAccountName",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileOwnerAccountNameSSSgvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 91,
+              "key.name": "fileOwnerAccountName",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileOwnerAccountNameSSSgvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 72,
-          "key.name" : "fileOwnerAccountName(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE20fileOwnerAccountName6atPathSSSgSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 91,
+          "key.name": "fileOwnerAccountName(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE20fileOwnerAccountName6atPathSSSgSS_tKF"
         },
         {
           "key.attributes" : [
@@ -2122,51 +2122,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 57,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 73,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 92,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 73,
-              "key.name" : "Int",
-              "key.usr" : "s:Si"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 92,
+              "key.name": "Int",
+              "key.usr": "s:Si"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 73,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 92,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 73,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20filePosixPermissionsSivg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 92,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20filePosixPermissionsSivg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 73,
-              "key.name" : "filePosixPermissions",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20filePosixPermissionsSivp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 92,
+              "key.name": "filePosixPermissions",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20filePosixPermissionsSivp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 73,
-          "key.name" : "filePosixPermissions(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE20filePosixPermissions6atPathSiSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 92,
+          "key.name": "filePosixPermissions(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE20filePosixPermissions6atPathSiSS_tKF"
         },
         {
           "key.attributes" : [
@@ -2181,51 +2181,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 45,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 74,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 93,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 74,
-              "key.name" : "UInt64",
-              "key.usr" : "s:s6UInt64V"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 93,
+              "key.name": "UInt64",
+              "key.usr": "s:s6UInt64V"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 74,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 93,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 74,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileSizes6UInt64Vvg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 93,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileSizes6UInt64Vvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 74,
-              "key.name" : "fileSize",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileSizes6UInt64Vvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 93,
+              "key.name": "fileSize",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileSizes6UInt64Vvp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 74,
-          "key.name" : "fileSize(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE8fileSize6atPaths6UInt64VSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 93,
+          "key.name": "fileSize(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE8fileSize6atPaths6UInt64VSS_tKF"
         },
         {
           "key.attributes" : [
@@ -2240,51 +2240,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 57,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 75,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 94,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 75,
-              "key.name" : "Int",
-              "key.usr" : "s:Si"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 94,
+              "key.name": "Int",
+              "key.usr": "s:Si"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 75,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 94,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 75,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileSystemFileNumberSivg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 94,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileSystemFileNumberSivg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 75,
-              "key.name" : "fileSystemFileNumber",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileSystemFileNumberSivp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 94,
+              "key.name": "fileSystemFileNumber",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE20fileSystemFileNumberSivp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 75,
-          "key.name" : "fileSystemFileNumber(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE20fileSystemFileNumber6atPathSiSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 94,
+          "key.name": "fileSystemFileNumber(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE20fileSystemFileNumber6atPathSiSS_tKF"
         },
         {
           "key.attributes" : [
@@ -2299,51 +2299,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 53,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 76,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 95,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 76,
-              "key.name" : "Int",
-              "key.usr" : "s:Si"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 95,
+              "key.name": "Int",
+              "key.usr": "s:Si"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 76,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 95,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 76,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileSystemNumberSivg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 95,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileSystemNumberSivg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 76,
-              "key.name" : "fileSystemNumber",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileSystemNumberSivp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 95,
+              "key.name": "fileSystemNumber",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE16fileSystemNumberSivp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 76,
-          "key.name" : "fileSystemNumber(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE16fileSystemNumber6atPathSiSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 95,
+          "key.name": "fileSystemNumber(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE16fileSystemNumber6atPathSiSS_tKF"
         },
         {
           "key.attributes" : [
@@ -2358,51 +2358,51 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 45,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 77,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 96,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 77,
-              "key.name" : "FileAttributeType",
-              "key.usr" : "c:@T@NSFileAttributeType"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 96,
+              "key.name": "FileAttributeType",
+              "key.usr": "c:@T@NSFileAttributeType"
             },
             {
-              "key.column" : 104,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 77,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 104,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 96,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 137,
               "key.entities" : [
                 {
-                  "key.column" : 137,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 77,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avg"
+                  "key.column": 137,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 96,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 77,
-              "key.name" : "fileType",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 96,
+              "key.name": "fileType",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avp"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 77,
-          "key.name" : "fileType(atPath:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE8fileType6atPathSo0a9AttributeE0aSS_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 96,
+          "key.name": "fileType(atPath:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE8fileType6atPathSo0a9AttributeE0aSS_tKF"
         },
         {
           "key.attributes" : [
@@ -2414,458 +2414,458 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 40,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 94,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 40,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 113,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 65,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 94,
-              "key.name" : "Bool",
-              "key.usr" : "s:Sb"
+              "key.column": 65,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 113,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
             },
             {
-              "key.column" : 106,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 94,
-              "key.name" : "Bool",
-              "key.usr" : "s:Sb"
+              "key.column": 106,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 113,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
             },
             {
-              "key.column" : 133,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 94,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 133,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 113,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 141,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 94,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 141,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 113,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 150,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 94,
-              "key.name" : "FileAttributeKey",
-              "key.usr" : "c:@T@NSFileAttributeKey"
+              "key.column": 150,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 113,
+              "key.name": "FileAttributeKey",
+              "key.usr": "c:@T@NSFileAttributeKey"
             },
             {
-              "key.column" : 184,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 94,
-              "key.name" : "Bool",
-              "key.usr" : "s:Sb"
+              "key.column": 184,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 113,
+              "key.name": "Bool",
+              "key.usr": "s:Sb"
             },
             {
-              "key.column" : 201,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 94,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 201,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 113,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 21,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 95,
-              "key.name" : "Array",
-              "key.usr" : "s:Sa"
+              "key.column": 21,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 114,
+              "key.name": "Array",
+              "key.usr": "s:Sa"
             },
             {
-              "key.column" : 27,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 95,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 27,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 114,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 28,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 96,
-              "key.name" : "absolutePath(relativeTo:)",
-              "key.receiver_usr" : "s:SS",
-              "key.usr" : "s:SS7RubiconE12absolutePath10relativeToS2S_tF"
+              "key.column": 28,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 115,
+              "key.name": "absolutePath(relativeTo:)",
+              "key.receiver_usr": "s:SS",
+              "key.usr": "s:SS7RubiconE12absolutePath10relativeToS2S_tF"
             },
             {
               "key.column" : 53,
               "key.entities" : [
                 {
-                  "key.column" : 53,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 96,
-                  "key.receiver_usr" : "c:objc(cs)NSFileManager",
-                  "key.usr" : "c:objc(cs)NSFileManager(im)currentDirectoryPath"
+                  "key.column": 53,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 115,
+                  "key.receiver_usr": "c:objc(cs)NSFileManager",
+                  "key.usr": "c:objc(cs)NSFileManager(im)currentDirectoryPath"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 96,
-              "key.name" : "currentDirectoryPath",
-              "key.usr" : "c:objc(cs)NSFileManager(py)currentDirectoryPath"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 115,
+              "key.name": "currentDirectoryPath",
+              "key.usr": "c:objc(cs)NSFileManager(py)currentDirectoryPath"
             },
             {
-              "key.column" : 23,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 98,
-              "key.name" : "FileManager",
-              "key.usr" : "c:objc(cs)NSFileManager"
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 117,
+              "key.name": "FileManager",
+              "key.usr": "c:objc(cs)NSFileManager"
             },
             {
-              "key.column" : 35,
-              "key.kind" : "source.lang.swift.ref.class",
-              "key.line" : 98,
-              "key.name" : "DirectoryEnumerator",
-              "key.usr" : "c:objc(cs)NSDirectoryEnumerator"
+              "key.column": 35,
+              "key.kind": "source.lang.swift.ref.class",
+              "key.line": 117,
+              "key.name": "DirectoryEnumerator",
+              "key.usr": "c:objc(cs)NSDirectoryEnumerator"
             },
             {
-              "key.column" : 57,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 98,
-              "key.name" : "enumerator(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)enumeratorAtPath:"
+              "key.column": 57,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 117,
+              "key.name": "enumerator(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)enumeratorAtPath:"
             },
             {
-              "key.column" : 40,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 99,
-              "key.name" : "nextObject()",
-              "key.receiver_usr" : "c:objc(cs)NSEnumerator",
-              "key.usr" : "c:objc(cs)NSEnumerator(im)nextObject"
+              "key.column": 40,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 118,
+              "key.name": "nextObject()",
+              "key.receiver_usr": "c:objc(cs)NSEnumerator",
+              "key.usr": "c:objc(cs)NSEnumerator(im)nextObject"
             },
             {
-              "key.column" : 57,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 99,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 118,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
               "key.column" : 39,
               "key.entities" : [
                 {
-                  "key.column" : 39,
-                  "key.is_dynamic" : true,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 100,
-                  "key.receiver_usr" : "c:objc(cs)NSDirectoryEnumerator",
-                  "key.usr" : "s:So21NSDirectoryEnumeratorC14fileAttributesSDySo18NSFileAttributeKeyaypGSgvg"
+                  "key.column": 39,
+                  "key.is_dynamic": true,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 119,
+                  "key.receiver_usr": "c:objc(cs)NSDirectoryEnumerator",
+                  "key.usr": "s:So21NSDirectoryEnumeratorC14fileAttributesSDySo18NSFileAttributeKeyaypGSgvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 100,
-              "key.name" : "fileAttributes",
-              "key.usr" : "c:objc(cs)NSDirectoryEnumerator(py)fileAttributes"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 119,
+              "key.name": "fileAttributes",
+              "key.usr": "c:objc(cs)NSDirectoryEnumerator(py)fileAttributes"
             },
             {
-              "key.column" : 54,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 100,
-              "key.name" : "??(_:_:)",
-              "key.usr" : "s:s2qqoiyxxSg_xyKXKtKlF"
+              "key.column": 54,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 119,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
             },
             {
-              "key.column" : 36,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 102,
-              "key.name" : "&&(_:_:)",
-              "key.receiver_usr" : "s:Sb",
-              "key.usr" : "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+              "key.column": 36,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 121,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
             },
             {
               "key.column" : 48,
               "key.entities" : [
                 {
-                  "key.column" : 48,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 102,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avg"
+                  "key.column": 48,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 121,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 102,
-              "key.name" : "fileType",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 121,
+              "key.name": "fileType",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avp"
             },
             {
-              "key.column" : 57,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 102,
-              "key.name" : "==(_:_:)",
-              "key.usr" : "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
+              "key.column": 57,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 121,
+              "key.name": "==(_:_:)",
+              "key.usr": "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
             },
             {
-              "key.column" : 60,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 102,
-              "key.name" : "FileAttributeType",
-              "key.usr" : "c:@T@NSFileAttributeType"
+              "key.column": 60,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 121,
+              "key.name": "FileAttributeType",
+              "key.usr": "c:@T@NSFileAttributeType"
             },
             {
               "key.column" : 78,
               "key.entities" : [
                 {
-                  "key.column" : 78,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 102,
-                  "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                  "key.usr" : "s:So19NSFileAttributeTypea16typeSymbolicLinkABvgZ"
+                  "key.column": 78,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 121,
+                  "key.receiver_usr": "c:@T@NSFileAttributeType",
+                  "key.usr": "s:So19NSFileAttributeTypea16typeSymbolicLinkABvgZ"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.static",
-              "key.line" : 102,
-              "key.name" : "typeSymbolicLink",
-              "key.usr" : "c:@NSFileTypeSymbolicLink"
+              "key.kind": "source.lang.swift.ref.var.static",
+              "key.line": 121,
+              "key.name": "typeSymbolicLink",
+              "key.usr": "c:@NSFileTypeSymbolicLink"
             },
             {
-              "key.column" : 45,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 103,
-              "key.name" : "realPath(path:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "s:So13NSFileManagerC7RubiconE8realPath4pathS2S_tKF"
+              "key.column": 45,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 122,
+              "key.name": "realPath(path:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "s:So13NSFileManagerC7RubiconE8realPath4pathS2S_tKF"
             },
             {
-              "key.column" : 69,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 103,
-              "key.name" : "absolutePath(relativeTo:)",
-              "key.receiver_usr" : "s:SS",
-              "key.usr" : "s:SS7RubiconE12absolutePath10relativeToS2S_tF"
+              "key.column": 69,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 122,
+              "key.name": "absolutePath(relativeTo:)",
+              "key.receiver_usr": "s:SS",
+              "key.usr": "s:SS7RubiconE12absolutePath10relativeToS2S_tF"
             },
             {
-              "key.column" : 45,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 104,
-              "key.name" : "attributesOfItem(atPath:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
+              "key.column": 45,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 123,
+              "key.name": "attributesOfItem(atPath:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "c:objc(cs)NSFileManager(im)attributesOfItemAtPath:error:"
             },
             {
               "key.column" : 47,
               "key.entities" : [
                 {
-                  "key.column" : 47,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 105,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE25deletingLastPathComponentSSvg"
+                  "key.column": 47,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 124,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS7RubiconE25deletingLastPathComponentSSvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 105,
-              "key.name" : "deletingLastPathComponent",
-              "key.usr" : "s:SS7RubiconE25deletingLastPathComponentSSvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 124,
+              "key.name": "deletingLastPathComponent",
+              "key.usr": "s:SS7RubiconE25deletingLastPathComponentSSvp"
             },
             {
               "key.column" : 84,
               "key.entities" : [
                 {
-                  "key.column" : 84,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 105,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE17lastPathComponentSSvg"
+                  "key.column": 84,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 124,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS7RubiconE17lastPathComponentSSvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 105,
-              "key.name" : "lastPathComponent",
-              "key.usr" : "s:SS7RubiconE17lastPathComponentSSvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 124,
+              "key.name": "lastPathComponent",
+              "key.usr": "s:SS7RubiconE17lastPathComponentSSvp"
             },
             {
-              "key.column" : 122,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 105,
-              "key.name" : "<+(_:_:)",
-              "key.usr" : "s:7Rubicon2lpoiyySayxGz_xtlF"
+              "key.column": 122,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 124,
+              "key.name": "<+(_:_:)",
+              "key.usr": "s:7Rubicon2lpoiyySayxGz_xtlF"
             },
             {
-              "key.column" : 54,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 106,
-              "key.name" : "&&(_:_:)",
-              "key.receiver_usr" : "s:Sb",
-              "key.usr" : "s:Sb2aaoiyS2b_SbyKXKtKFZ"
+              "key.column": 54,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 125,
+              "key.name": "&&(_:_:)",
+              "key.receiver_usr": "s:Sb",
+              "key.usr": "s:Sb2aaoiyS2b_SbyKXKtKFZ"
             },
             {
               "key.column" : 67,
               "key.entities" : [
                 {
-                  "key.column" : 67,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 106,
-                  "key.receiver_usr" : "s:SD",
-                  "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avg"
+                  "key.column": 67,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 125,
+                  "key.receiver_usr": "s:SD",
+                  "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 106,
-              "key.name" : "fileType",
-              "key.usr" : "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 125,
+              "key.name": "fileType",
+              "key.usr": "s:SD7RubiconSo18NSFileAttributeKeyaRszypRs_rlE8fileTypeSo0bcF0avp"
             },
             {
-              "key.column" : 76,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 106,
-              "key.name" : "==(_:_:)",
-              "key.usr" : "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
+              "key.column": 76,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 125,
+              "key.name": "==(_:_:)",
+              "key.usr": "s:s2eeoiySbx_xtSYRzSQ8RawValueRpzlF"
             },
             {
               "key.column" : 80,
               "key.entities" : [
                 {
-                  "key.column" : 80,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 106,
-                  "key.receiver_usr" : "c:@T@NSFileAttributeType",
-                  "key.usr" : "s:So19NSFileAttributeTypea13typeDirectoryABvgZ"
+                  "key.column": 80,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 125,
+                  "key.receiver_usr": "c:@T@NSFileAttributeType",
+                  "key.usr": "s:So19NSFileAttributeTypea13typeDirectoryABvgZ"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.static",
-              "key.line" : 106,
-              "key.name" : "typeDirectory",
-              "key.usr" : "c:@NSFileTypeDirectory"
+              "key.kind": "source.lang.swift.ref.var.static",
+              "key.line": 125,
+              "key.name": "typeDirectory",
+              "key.usr": "c:@NSFileTypeDirectory"
             },
             {
-              "key.column" : 102,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 106,
-              "key.name" : "+=(_:_:)",
-              "key.receiver_usr" : "s:Sa",
-              "key.usr" : "s:Sa2peoiyySayxGz_ABtFZ"
+              "key.column": 102,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 125,
+              "key.name": "+=(_:_:)",
+              "key.receiver_usr": "s:Sa",
+              "key.usr": "s:Sa2peoiyySayxGz_ABtFZ"
             },
             {
-              "key.column" : 109,
-              "key.is_dynamic" : true,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 106,
-              "key.name" : "directoryFiles(atPath:resolveSymLinks:traverseDirectorySymLinks:where:)",
-              "key.receiver_usr" : "c:objc(cs)NSFileManager",
-              "key.usr" : "s:So13NSFileManagerC7RubiconE14directoryFiles6atPath15resolveSymLinks017traverseDirectoryiJ05whereSaySSGSS_S3bSS_SSSDySo0A12AttributeKeyaypGtKXEtKF"
+              "key.column": 109,
+              "key.is_dynamic": true,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 125,
+              "key.name": "directoryFiles(atPath:resolveSymLinks:traverseDirectorySymLinks:where:)",
+              "key.receiver_usr": "c:objc(cs)NSFileManager",
+              "key.usr": "s:So13NSFileManagerC7RubiconE14directoryFiles6atPath15resolveSymLinks017traverseDirectoryiJ05whereSaySSGSS_S3bSS_SSSDySo0A12AttributeKeyaypGtKXEtKF"
             },
             {
-              "key.column" : 33,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 110,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 129,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 40,
-              "key.kind" : "source.lang.swift.ref.function.method.static",
-              "key.line" : 110,
-              "key.name" : "path(withComponents:)",
-              "key.receiver_usr" : "s:SS",
-              "key.usr" : "s:SS7RubiconE4path14withComponentsSSSaySSG_tFZ"
+              "key.column": 40,
+              "key.kind": "source.lang.swift.ref.function.method.static",
+              "key.line": 129,
+              "key.name": "path(withComponents:)",
+              "key.receiver_usr": "s:SS",
+              "key.usr": "s:SS7RubiconE4path14withComponentsSSSaySSG_tFZ"
             },
             {
               "key.column" : 65,
               "key.entities" : [
                 {
-                  "key.column" : 65,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 110,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE14pathComponentsSaySSGvg"
+                  "key.column": 65,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 129,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS7RubiconE14pathComponentsSaySSGvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 110,
-              "key.name" : "pathComponents",
-              "key.usr" : "s:SS7RubiconE14pathComponentsSaySSGvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 129,
+              "key.name": "pathComponents",
+              "key.usr": "s:SS7RubiconE14pathComponentsSaySSGvp"
             },
             {
-              "key.column" : 80,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 110,
-              "key.name" : "+(_:_:)",
-              "key.receiver_usr" : "s:Sa",
-              "key.usr" : "s:Sa1poiySayxGAB_ABtFZ"
+              "key.column": 80,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 129,
+              "key.name": "+(_:_:)",
+              "key.receiver_usr": "s:Sa",
+              "key.usr": "s:Sa1poiySayxGAB_ABtFZ"
             },
             {
               "key.column" : 91,
               "key.entities" : [
                 {
-                  "key.column" : 91,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 110,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE14pathComponentsSaySSGvg"
+                  "key.column": 91,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 129,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS7RubiconE14pathComponentsSaySSGvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 110,
-              "key.name" : "pathComponents",
-              "key.usr" : "s:SS7RubiconE14pathComponentsSaySSGvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 129,
+              "key.name": "pathComponents",
+              "key.usr": "s:SS7RubiconE14pathComponentsSaySSGvp"
             },
             {
               "key.column" : 39,
               "key.entities" : [
                 {
-                  "key.column" : 39,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 111,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE25deletingLastPathComponentSSvg"
+                  "key.column": 39,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 130,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS7RubiconE25deletingLastPathComponentSSvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 111,
-              "key.name" : "deletingLastPathComponent",
-              "key.usr" : "s:SS7RubiconE25deletingLastPathComponentSSvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 130,
+              "key.name": "deletingLastPathComponent",
+              "key.usr": "s:SS7RubiconE25deletingLastPathComponentSSvp"
             },
             {
               "key.column" : 72,
               "key.entities" : [
                 {
-                  "key.column" : 72,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 111,
-                  "key.receiver_usr" : "s:SS",
-                  "key.usr" : "s:SS7RubiconE17lastPathComponentSSvg"
+                  "key.column": 72,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 130,
+                  "key.receiver_usr": "s:SS",
+                  "key.usr": "s:SS7RubiconE17lastPathComponentSSvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.instance",
-              "key.line" : 111,
-              "key.name" : "lastPathComponent",
-              "key.usr" : "s:SS7RubiconE17lastPathComponentSSvp"
+              "key.kind": "source.lang.swift.ref.var.instance",
+              "key.line": 130,
+              "key.name": "lastPathComponent",
+              "key.usr": "s:SS7RubiconE17lastPathComponentSSvp"
             },
             {
-              "key.column" : 109,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 111,
-              "key.name" : "<+(_:_:)",
-              "key.usr" : "s:7Rubicon2lpoiyySayxGz_xtlF"
+              "key.column": 109,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 130,
+              "key.name": "<+(_:_:)",
+              "key.usr": "s:7Rubicon2lpoiyySayxGz_xtlF"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 94,
-          "key.name" : "directoryFiles(atPath:resolveSymLinks:traverseDirectorySymLinks:where:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE14directoryFiles6atPath15resolveSymLinks017traverseDirectoryiJ05whereSaySSGSS_S3bSS_SSSDySo0A12AttributeKeyaypGtKXEtKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 113,
+          "key.name": "directoryFiles(atPath:resolveSymLinks:traverseDirectorySymLinks:where:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE14directoryFiles6atPath15resolveSymLinks017traverseDirectoryiJ05whereSaySSGSS_S3bSS_SSSDySo0A12AttributeKeyaypGtKXEtKF"
         },
         {
           "key.attributes" : [
@@ -2880,203 +2880,203 @@
           "key.effective_access" : "source.decl.effective_access.public",
           "key.entities" : [
             {
-              "key.column" : 43,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 134,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 43,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 153,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 61,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 134,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 61,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 153,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 17,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 135,
-              "key.name" : "UnsafeMutablePointer",
-              "key.usr" : "s:Sp"
+              "key.column": 17,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 154,
+              "key.name": "UnsafeMutablePointer",
+              "key.usr": "s:Sp"
             },
             {
-              "key.column" : 38,
-              "key.kind" : "source.lang.swift.ref.typealias",
-              "key.line" : 135,
-              "key.name" : "CChar",
-              "key.usr" : "s:s5CChara"
+              "key.column": 38,
+              "key.kind": "source.lang.swift.ref.typealias",
+              "key.line": 154,
+              "key.name": "CChar",
+              "key.usr": "s:s5CChara"
             },
             {
-              "key.column" : 45,
-              "key.kind" : "source.lang.swift.ref.function.method.static",
-              "key.line" : 135,
-              "key.name" : "allocate(capacity:)",
-              "key.receiver_usr" : "s:Sp",
-              "key.usr" : "s:Sp8allocate8capacitySpyxGSi_tFZ"
+              "key.column": 45,
+              "key.kind": "source.lang.swift.ref.function.method.static",
+              "key.line": 154,
+              "key.name": "allocate(capacity:)",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sp8allocate8capacitySpyxGSi_tFZ"
             },
             {
-              "key.column" : 64,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 135,
-              "key.name" : "Int",
-              "key.usr" : "s:Si"
+              "key.column": 64,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 154,
+              "key.name": "Int",
+              "key.usr": "s:Si"
             },
             {
-              "key.column" : 64,
-              "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 135,
-              "key.name" : "init(truncatingIfNeeded:)",
-              "key.usr" : "s:s17FixedWidthIntegerPsE18truncatingIfNeededxqd___tcSzRd__lufc"
+              "key.column": 64,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 154,
+              "key.name": "init(truncatingIfNeeded:)",
+              "key.usr": "s:s17FixedWidthIntegerPsE18truncatingIfNeededxqd___tcSzRd__lufc"
             },
             {
               "key.column" : 88,
-              "key.entities" : [
+              "key.entities": [
                 {
-                  "key.column" : 88,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 135,
-                  "key.usr" : "s:SC8PATH_MAXs5Int32Vvg"
+                  "key.column": 88,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 154,
+                  "key.usr": "s:SC8PATH_MAXs5Int32Vvg"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.global",
-              "key.line" : 135,
-              "key.name" : "PATH_MAX",
-              "key.usr" : "c:@macro@PATH_MAX"
+              "key.kind": "source.lang.swift.ref.var.global",
+              "key.line": 154,
+              "key.name": "PATH_MAX",
+              "key.usr": "c:@macro@PATH_MAX"
             },
             {
-              "key.column" : 19,
-              "key.kind" : "source.lang.swift.ref.function.method.instance",
-              "key.line" : 136,
-              "key.name" : "deallocate()",
-              "key.receiver_usr" : "s:Sp",
-              "key.usr" : "s:Sp10deallocateyyF"
+              "key.column": 19,
+              "key.kind": "source.lang.swift.ref.function.method.instance",
+              "key.line": 155,
+              "key.name": "deallocate()",
+              "key.receiver_usr": "s:Sp",
+              "key.usr": "s:Sp10deallocateyyF"
             },
             {
-              "key.column" : 15,
-              "key.kind" : "source.lang.swift.ref.function.free",
-              "key.line" : 137,
-              "key.name" : "realpath(_:_:)",
-              "key.usr" : "c:@F@realpath"
+              "key.column": 15,
+              "key.kind": "source.lang.swift.ref.function.free",
+              "key.line": 156,
+              "key.name": "realpath(_:_:)",
+              "key.usr": "c:@F@realpath"
             },
             {
-              "key.column" : 33,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 137,
-              "key.name" : "!=(_:_:)",
-              "key.receiver_usr" : "s:Sq",
-              "key.usr" : "s:Sq2neoiySbxSg_s26_OptionalNilComparisonTypeVtFZ"
+              "key.column": 33,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 156,
+              "key.name": "!=(_:_:)",
+              "key.receiver_usr": "s:Sq",
+              "key.usr": "s:Sq2neoiySbxSg_s26_OptionalNilComparisonTypeVtFZ"
             },
             {
-              "key.column" : 53,
-              "key.kind" : "source.lang.swift.ref.enum",
-              "key.line" : 137,
-              "key.name" : "FilePathError",
-              "key.usr" : "s:7Rubicon13FilePathErrorO"
+              "key.column": 53,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 156,
+              "key.name": "FilePathError",
+              "key.usr": "s:7Rubicon13FilePathErrorO"
             },
             {
-              "key.column" : 67,
-              "key.kind" : "source.lang.swift.ref.enumelement",
-              "key.line" : 137,
-              "key.name" : "BadSymLink(path:)",
-              "key.usr" : "s:7Rubicon13FilePathErrorO10BadSymLinkyACSS_tcACmF"
+              "key.column": 67,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 156,
+              "key.name": "BadSymLink(path:)",
+              "key.usr": "s:7Rubicon13FilePathErrorO10BadSymLinkyACSS_tcACmF"
             },
             {
-              "key.column" : 84,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 137,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 84,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 156,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 84,
-              "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 137,
-              "key.name" : "init(cString:encoding:)",
-              "key.usr" : "s:SS10FoundationE7cString8encodingSSSgSPys4Int8VG_SSAAE8EncodingVtcfc"
+              "key.column": 84,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 156,
+              "key.name": "init(cString:encoding:)",
+              "key.usr": "s:SS10FoundationE7cString8encodingSSSgSPys4Int8VG_SSAAE8EncodingVtcfc"
             },
             {
               "key.column" : 114,
               "key.entities" : [
                 {
-                  "key.column" : 114,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 137,
-                  "key.receiver_usr" : "s:SS10FoundationE8EncodingV",
-                  "key.usr" : "s:SS10FoundationE8EncodingV4utf8ACvgZ"
+                  "key.column": 114,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 156,
+                  "key.receiver_usr": "s:SS10FoundationE8EncodingV",
+                  "key.usr": "s:SS10FoundationE8EncodingV4utf8ACvgZ"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.static",
-              "key.line" : 137,
-              "key.name" : "utf8",
-              "key.usr" : "s:SS10FoundationE8EncodingV4utf8ACvpZ"
+              "key.kind": "source.lang.swift.ref.var.static",
+              "key.line": 156,
+              "key.name": "utf8",
+              "key.usr": "s:SS10FoundationE8EncodingV4utf8ACvpZ"
             },
             {
-              "key.column" : 120,
-              "key.kind" : "source.lang.swift.ref.function.operator.infix",
-              "key.line" : 137,
-              "key.name" : "??(_:_:)",
-              "key.usr" : "s:s2qqoiyxxSg_xyKXKtKlF"
+              "key.column": 120,
+              "key.kind": "source.lang.swift.ref.function.operator.infix",
+              "key.line": 156,
+              "key.name": "??(_:_:)",
+              "key.usr": "s:s2qqoiyxxSg_xyKXKtKlF"
             },
             {
-              "key.column" : 23,
-              "key.kind" : "source.lang.swift.ref.struct",
-              "key.line" : 138,
-              "key.name" : "String",
-              "key.usr" : "s:SS"
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.struct",
+              "key.line": 157,
+              "key.name": "String",
+              "key.usr": "s:SS"
             },
             {
-              "key.column" : 23,
-              "key.kind" : "source.lang.swift.ref.function.constructor",
-              "key.line" : 138,
-              "key.name" : "init(cString:encoding:)",
-              "key.usr" : "s:SS10FoundationE7cString8encodingSSSgSPys4Int8VG_SSAAE8EncodingVtcfc"
+              "key.column": 23,
+              "key.kind": "source.lang.swift.ref.function.constructor",
+              "key.line": 157,
+              "key.name": "init(cString:encoding:)",
+              "key.usr": "s:SS10FoundationE7cString8encodingSSSgSPys4Int8VG_SSAAE8EncodingVtcfc"
             },
             {
               "key.column" : 53,
               "key.entities" : [
                 {
-                  "key.column" : 53,
-                  "key.is_implicit" : true,
-                  "key.kind" : "source.lang.swift.ref.function.accessor.getter",
-                  "key.line" : 138,
-                  "key.receiver_usr" : "s:SS10FoundationE8EncodingV",
-                  "key.usr" : "s:SS10FoundationE8EncodingV4utf8ACvgZ"
+                  "key.column": 53,
+                  "key.is_implicit": true,
+                  "key.kind": "source.lang.swift.ref.function.accessor.getter",
+                  "key.line": 157,
+                  "key.receiver_usr": "s:SS10FoundationE8EncodingV",
+                  "key.usr": "s:SS10FoundationE8EncodingV4utf8ACvgZ"
                 }
               ],
-              "key.kind" : "source.lang.swift.ref.var.static",
-              "key.line" : 138,
-              "key.name" : "utf8",
-              "key.usr" : "s:SS10FoundationE8EncodingV4utf8ACvpZ"
+              "key.kind": "source.lang.swift.ref.var.static",
+              "key.line": 157,
+              "key.name": "utf8",
+              "key.usr": "s:SS10FoundationE8EncodingV4utf8ACvpZ"
             },
             {
-              "key.column" : 72,
-              "key.kind" : "source.lang.swift.ref.enum",
-              "key.line" : 138,
-              "key.name" : "FilePathError",
-              "key.usr" : "s:7Rubicon13FilePathErrorO"
+              "key.column": 72,
+              "key.kind": "source.lang.swift.ref.enum",
+              "key.line": 157,
+              "key.name": "FilePathError",
+              "key.usr": "s:7Rubicon13FilePathErrorO"
             },
             {
-              "key.column" : 86,
-              "key.kind" : "source.lang.swift.ref.enumelement",
-              "key.line" : 138,
-              "key.name" : "FilenameEncoding(path:)",
-              "key.usr" : "s:7Rubicon13FilePathErrorO16FilenameEncodingyACSS_tcACmF"
+              "key.column": 86,
+              "key.kind": "source.lang.swift.ref.enumelement",
+              "key.line": 157,
+              "key.name": "FilenameEncoding(path:)",
+              "key.usr": "s:7Rubicon13FilePathErrorO16FilenameEncodingyACSS_tcACmF"
             }
           ],
-          "key.is_dynamic" : true,
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.line" : 134,
-          "key.name" : "realPath(path:)",
-          "key.usr" : "s:So13NSFileManagerC7RubiconE8realPath4pathS2S_tKF"
+          "key.is_dynamic": true,
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.line": 153,
+          "key.name": "realPath(path:)",
+          "key.usr": "s:So13NSFileManagerC7RubiconE8realPath4pathS2S_tKF"
         }
       ],
-      "key.kind" : "source.lang.swift.decl.extension.class",
-      "key.line" : 59,
-      "key.name" : "FileManager",
-      "key.usr" : "s:e:s:So13NSFileManagerC7RubiconE16fileCreationDate6atPath10Foundation0F0VSgSS_tKF"
+      "key.kind": "source.lang.swift.decl.extension.class",
+      "key.line": 78,
+      "key.name": "FileManager",
+      "key.usr": "s:e:s:So13NSFileManagerC7RubiconE16fileCreationDate6atPath10Foundation0F0VSgSS_tKF"
     }
   ]
 }

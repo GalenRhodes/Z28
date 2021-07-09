@@ -1,22 +1,22 @@
 {
-  "key.column" : 1,
-  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
-  "key.length" : 6048,
-  "key.line" : 1,
-  "key.offset" : 0,
-  "key.substructure" : [
+  "key.column": 1,
+  "key.diagnostic_stage": "source.diagnostic.stage.swift.parse",
+  "key.length": 6108,
+  "key.line": 1,
+  "key.offset": 0,
+  "key.substructure": [
     {
-      "key.annotated_decl" : "<Declaration>@frozen struct String<\/Declaration>",
-      "key.bodycolumn" : 19,
-      "key.bodylength" : 4934,
-      "key.bodyline" : 25,
-      "key.bodyoffset" : 1112,
-      "key.column" : 1,
-      "key.doc.comment" : "",
-      "key.doc.declaration" : "@frozen struct String",
-      "key.doc.discussion" : [
+      "key.annotated_decl": "<Declaration>@frozen struct String<\/Declaration>",
+      "key.bodycolumn": 19,
+      "key.bodylength": 4994,
+      "key.bodyline": 25,
+      "key.bodyoffset": 1112,
+      "key.column": 1,
+      "key.doc.comment": "",
+      "key.doc.declaration": "@frozen struct String",
+      "key.doc.discussion": [
         {
-          "Para" : "A string is a series of characters, such as `\"Swift\"`, that forms a collection. Strings in Swift are Unicode correct and locale insensitive, and are designed to be efficient. The `String` type bridges with the Objective-C class `NSString` and offers interoperability with C functions that works with strings."
+          "Para": "A string is a series of characters, such as `\"Swift\"`, that forms a collection. Strings in Swift are Unicode correct and locale insensitive, and are designed to be efficient. The `String` type bridges with the Objective-C class `NSString` and offers interoperability with C functions that works with strings."
         },
         {
           "Para" : "You can create new strings using string literals or string interpolations. A  is a series of characters enclosed in quotes."
@@ -181,487 +181,487 @@
           "Para" : "Any `String` instance can be bridged to `NSString` using the type-cast operator (`as`), and any `String` instance that originates in Objective-C may use an `NSString` instance as its storage. Because any arbitrary subclass of `NSString` can become a `String` instance, there are no guarantees about representation or efficiency when a `String` instance is backed by `NSString` storage. Because `NSString` is immutable, it is just as though the storage was shared by a copy. The first in any sequence of mutating operations causes elements to be copied into unique, contiguous storage which may cost O() time and space, where  is the length of the string’s encoded representation (or more, if the underlying `NSString` has unusual performance characteristics)."
         },
         {
-          "Para" : "For more information about the Unicode terms used in this discussion, see the . In particular, this discussion mentions , , and ."
+          "Para": "For more information about the Unicode terms used in this discussion, see the . In particular, this discussion mentions , , and ."
         }
       ],
-      "key.doc.full_as_xml" : "<Class><Name>String<\/Name><USR>s:SS<\/USR><Declaration>@frozen struct String<\/Declaration><CommentParts><Abstract><Para>A Unicode string value that is a collection of characters.<\/Para><\/Abstract><Discussion><Para>A string is a series of characters, such as <codeVoice>&quot;Swift&quot;<\/codeVoice>, that forms a collection. Strings in Swift are Unicode correct and locale insensitive, and are designed to be efficient. The <codeVoice>String<\/codeVoice> type bridges with the Objective-C class <codeVoice>NSString<\/codeVoice> and offers interoperability with C functions that works with strings.<\/Para><Para>You can create new strings using string literals or string interpolations. A <emphasis>string literal<\/emphasis> is a series of characters enclosed in quotes.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let greeting = \"Welcome!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para><emphasis>String interpolations<\/emphasis> are string literals that evaluate any included expressions and convert the results to string form. String interpolations give you an easy way to build a string from multiple pieces. Wrap each expression in a string interpolation in parentheses, prefixed by a backslash.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let name = \"Rosa\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let personalizedGreeting = \"Welcome, \\(name)!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ personalizedGreeting == \"Welcome, Rosa!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let price = 2]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let number = 3]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let cookiePrice = \"\\(number) cookies: $\\(price * number).\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ cookiePrice == \"3 cookies: $6.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Combine strings using the concatenation operator (<codeVoice>+<\/codeVoice>).<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let longerGreeting = greeting + \" We're glad you're here!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ longerGreeting == \"Welcome! We're glad you're here!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Multiline string literals are enclosed in three double quotation marks (<codeVoice>&quot;&quot;&quot;<\/codeVoice>), with each delimiter on its own line. Indentation is stripped from each line of a multiline string literal to match the indentation of the closing delimiter.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let banner = \"\"\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[          __,]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[         (           o  \/) _\/_]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[          `.  , , , ,  \/\/  \/]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        (___)(_(_\/_(_ \/\/_ (__]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                     \/)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                    (\/]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        \"\"\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Modifying and Comparing Strings<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Strings always have value semantics. Modifying a copy of a string leaves the original unaffected.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var otherGreeting = greeting]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[otherGreeting += \" Have a nice time!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ otherGreeting == \"Welcome! Have a nice time!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(greeting)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Welcome!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Comparing strings for equality using the equal-to operator (<codeVoice>==<\/codeVoice>) or a relational operator (like <codeVoice>&lt;<\/codeVoice> or <codeVoice>&gt;=<\/codeVoice>) is always performed using Unicode canonical representation. As a result, different representations of a string compare as being equal.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let cafe1 = \"Cafe\\u{301}\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let cafe2 = \"Café\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(cafe1 == cafe2)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"true\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The Unicode scalar value <codeVoice>&quot;\\u{301}&quot;<\/codeVoice> modifies the preceding character to include an accent, so <codeVoice>&quot;e\\u{301}&quot;<\/codeVoice> has the same canonical representation as the single Unicode scalar value <codeVoice>&quot;é&quot;<\/codeVoice>.<\/Para><Para>Basic string operations are not sensitive to locale settings, ensuring that string comparisons and other operations always have a single, stable result, allowing strings to be used as keys in <codeVoice>Dictionary<\/codeVoice> instances and for other purposes.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Accessing String Elements<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>A string is a collection of <emphasis>extended grapheme clusters<\/emphasis>, which approximate human-readable characters. Many individual characters, such as “é”, “김”, and “🇮🇳”, can be made up of multiple Unicode scalar values. These scalar values are combined by Unicode’s boundary algorithms into extended grapheme clusters, represented by the Swift <codeVoice>Character<\/codeVoice> type. Each element of a string is represented by a <codeVoice>Character<\/codeVoice> instance.<\/Para><Para>For example, to retrieve the first word of a longer string, you can search for a space and then create a substring from a prefix of the string up to that point:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let name = \"Marie Curie\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstSpace = name.firstIndex(of: \" \") ?? name.endIndex]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstName = name[..<firstSpace]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ firstName == \"Marie\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The <codeVoice>firstName<\/codeVoice> constant is an instance of the <codeVoice>Substring<\/codeVoice> type—a type that represents substrings of a string while sharing the original string’s storage. Substrings present the same interface as strings.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(\"\\(name)'s first name has \\(firstName.count) letters.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Marie Curie's first name has 5 letters.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Accessing a String’s Unicode Representation<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>If you need to access the contents of a string as encoded in different Unicode encodings, use one of the string’s <codeVoice>unicodeScalars<\/codeVoice>, <codeVoice>utf16<\/codeVoice>, or <codeVoice>utf8<\/codeVoice> properties. Each property provides access to a view of the string as a series of code units, each encoded in a different Unicode encoding.<\/Para><Para>To demonstrate the different views available for every string, the following examples use this <codeVoice>String<\/codeVoice> instance:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let cafe = \"Cafe\\u{301} du 🌍\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(cafe)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Café du 🌍\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The <codeVoice>cafe<\/codeVoice> string is a collection of the nine characters that are visible when the string is displayed.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(cafe.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"9\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(Array(cafe))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[\"C\", \"a\", \"f\", \"é\", \" \", \"d\", \"u\", \" \", \"🌍\"]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Unicode Scalar View<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>A string’s <codeVoice>unicodeScalars<\/codeVoice> property is a collection of Unicode scalar values, the 21-bit codes that are the basic unit of Unicode. Each scalar value is represented by a <codeVoice>Unicode.Scalar<\/codeVoice> instance and is equivalent to a UTF-32 code unit.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(cafe.unicodeScalars.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"10\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(Array(cafe.unicodeScalars))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[\"C\", \"a\", \"f\", \"e\", \"\\u{0301}\", \" \", \"d\", \"u\", \" \", \"\\u{0001F30D}\"]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(cafe.unicodeScalars.map { $0.value })]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[67, 97, 102, 101, 769, 32, 100, 117, 32, 127757]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The <codeVoice>unicodeScalars<\/codeVoice> view’s elements comprise each Unicode scalar value in the <codeVoice>cafe<\/codeVoice> string. In particular, because <codeVoice>cafe<\/codeVoice> was declared using the decomposed form of the <codeVoice>&quot;é&quot;<\/codeVoice> character, <codeVoice>unicodeScalars<\/codeVoice> contains the scalar values for both the letter <codeVoice>&quot;e&quot;<\/codeVoice> (101) and the accent character <codeVoice>&quot;´&quot;<\/codeVoice> (769).<\/Para><rawHTML><![CDATA[<h2>]]><\/rawHTML>UTF-16 View<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>A string’s <codeVoice>utf16<\/codeVoice> property is a collection of UTF-16 code units, the 16-bit encoding form of the string’s Unicode scalar values. Each code unit is stored as a <codeVoice>UInt16<\/codeVoice> instance.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(cafe.utf16.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"11\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(Array(cafe.utf16))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[67, 97, 102, 101, 769, 32, 100, 117, 32, 55356, 57101]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The elements of the <codeVoice>utf16<\/codeVoice> view are the code units for the string when encoded in UTF-16. These elements match those accessed through indexed <codeVoice>NSString<\/codeVoice> APIs.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let nscafe = cafe as NSString]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(nscafe.length)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"11\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(nscafe.character(at: 3))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"101\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>UTF-8 View<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>A string’s <codeVoice>utf8<\/codeVoice> property is a collection of UTF-8 code units, the 8-bit encoding form of the string’s Unicode scalar values. Each code unit is stored as a <codeVoice>UInt8<\/codeVoice> instance.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(cafe.utf8.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"14\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(Array(cafe.utf8))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[67, 97, 102, 101, 204, 129, 32, 100, 117, 32, 240, 159, 140, 141]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The elements of the <codeVoice>utf8<\/codeVoice> view are the code units for the string when encoded in UTF-8. This representation matches the one used when <codeVoice>String<\/codeVoice> instances are passed to C APIs.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let cLength = strlen(cafe)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(cLength)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"14\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Measuring the Length of a String<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>When you need to know the length of a string, you must first consider what you’ll use the length for. Are you measuring the number of characters that will be displayed on the screen, or are you measuring the amount of storage needed for the string in a particular encoding? A single string can have greatly differing lengths when measured by its different views.<\/Para><Para>For example, an ASCII character like the capital letter <emphasis>A<\/emphasis> is represented by a single element in each of its four views. The Unicode scalar value of <emphasis>A<\/emphasis> is <codeVoice>65<\/codeVoice>, which is small enough to fit in a single code unit in both UTF-16 and UTF-8.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let capitalA = \"A\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(capitalA.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(capitalA.unicodeScalars.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(capitalA.utf16.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(capitalA.utf8.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>On the other hand, an emoji flag character is constructed from a pair of Unicode scalar values, like <codeVoice>&quot;\\u{1F1F5}&quot;<\/codeVoice> and <codeVoice>&quot;\\u{1F1F7}&quot;<\/codeVoice>. Each of these scalar values, in turn, is too large to fit into a single UTF-16 or UTF-8 code unit. As a result, each view of the string <codeVoice>&quot;🇵🇷&quot;<\/codeVoice> reports a different length.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let flag = \"🇵🇷\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(flag.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(flag.unicodeScalars.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"2\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(flag.utf16.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"4\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(flag.utf8.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"8\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>To check whether a string is empty, use its <codeVoice>isEmpty<\/codeVoice> property instead of comparing the length of one of the views to <codeVoice>0<\/codeVoice>. Unlike with <codeVoice>isEmpty<\/codeVoice>, calculating a view’s <codeVoice>count<\/codeVoice> property requires iterating through the elements of the string.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Accessing String View Elements<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>To find individual elements of a string, use the appropriate view for your task. For example, to retrieve the first word of a longer string, you can search the string for a space and then create a new string from a prefix of the string up to that point.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let name = \"Marie Curie\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstSpace = name.firstIndex(of: \" \") ?? name.endIndex]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstName = name[..<firstSpace]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(firstName)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Marie\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Strings and their views share indices, so you can access the UTF-8 view of the <codeVoice>name<\/codeVoice> string using the same <codeVoice>firstSpace<\/codeVoice> index.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(Array(name.utf8[..<firstSpace]))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[77, 97, 114, 105, 101]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Note that an index into one view may not have an exact corresponding position in another view. For example, the <codeVoice>flag<\/codeVoice> string declared above comprises a single character, but is composed of eight code units when encoded as UTF-8. The following code creates constants for the first and second positions in the <codeVoice>flag.utf8<\/codeVoice> view. Accessing the <codeVoice>utf8<\/codeVoice> view with these indices yields the first and second code UTF-8 units.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let firstCodeUnit = flag.startIndex]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let secondCodeUnit = flag.utf8.index(after: firstCodeUnit)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ flag.utf8[firstCodeUnit] == 240]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ flag.utf8[secondCodeUnit] == 159]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>When used to access the elements of the <codeVoice>flag<\/codeVoice> string itself, however, the <codeVoice>secondCodeUnit<\/codeVoice> index does not correspond to the position of a specific character. Instead of only accessing the specific UTF-8 code unit, that index is treated as the position of the character at the index’s encoded offset. In the case of <codeVoice>secondCodeUnit<\/codeVoice>, that character is still the flag itself.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ flag[firstCodeUnit] == \"🇵🇷\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ flag[secondCodeUnit] == \"🇵🇷\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>If you need to validate that an index from one string’s view corresponds with an exact position in another view, use the index’s <codeVoice>samePosition(in:)<\/codeVoice> method or the <codeVoice>init(_:within:)<\/codeVoice> initializer.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if let exactIndex = secondCodeUnit.samePosition(in: flag) {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(flag[exactIndex])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"No exact match for this position.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"No exact match for this position.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Performance Optimizations<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Although strings in Swift have value semantics, strings use a copy-on-write strategy to store their data in a buffer. This buffer can then be shared by different copies of a string. A string’s data is only copied lazily, upon mutation, when more than one string instance is using the same buffer. Therefore, the first in any sequence of mutating operations may cost O(<emphasis>n<\/emphasis>) time and space.<\/Para><Para>When a string’s contiguous storage fills up, a new buffer must be allocated and data must be moved to the new storage. String buffers use an exponential growth strategy that makes appending to a string a constant time operation when averaged over many append operations.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Bridging Between String and NSString<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Any <codeVoice>String<\/codeVoice> instance can be bridged to <codeVoice>NSString<\/codeVoice> using the type-cast operator (<codeVoice>as<\/codeVoice>), and any <codeVoice>String<\/codeVoice> instance that originates in Objective-C may use an <codeVoice>NSString<\/codeVoice> instance as its storage. Because any arbitrary subclass of <codeVoice>NSString<\/codeVoice> can become a <codeVoice>String<\/codeVoice> instance, there are no guarantees about representation or efficiency when a <codeVoice>String<\/codeVoice> instance is backed by <codeVoice>NSString<\/codeVoice> storage. Because <codeVoice>NSString<\/codeVoice> is immutable, it is just as though the storage was shared by a copy. The first in any sequence of mutating operations causes elements to be copied into unique, contiguous storage which may cost O(<emphasis>n<\/emphasis>) time and space, where <emphasis>n<\/emphasis> is the length of the string’s encoded representation (or more, if the underlying <codeVoice>NSString<\/codeVoice> has unusual performance characteristics).<\/Para><Para>For more information about the Unicode terms used in this discussion, see the <Link href=\"http:\/\/www.unicode.org\/glossary\/\">Unicode.org glossary<\/Link>. In particular, this discussion mentions <Link href=\"http:\/\/www.unicode.org\/glossary\/#extended_grapheme_cluster\">extended grapheme clusters<\/Link>, <Link href=\"http:\/\/www.unicode.org\/glossary\/#unicode_scalar_value\">Unicode scalar values<\/Link>, and <Link href=\"http:\/\/www.unicode.org\/glossary\/#canonical_equivalent\">canonical equivalence<\/Link>.<\/Para><\/Discussion><\/CommentParts><\/Class>",
-      "key.doc.name" : "String",
-      "key.doc.type" : "Class",
-      "key.fully_annotated_decl" : "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>String<\/decl.name><\/decl.struct>",
-      "key.groupname" : "String",
-      "key.is_system" : true,
-      "key.kind" : "source.lang.swift.decl.extension",
-      "key.length" : 4953,
-      "key.line" : 25,
-      "key.modulename" : "Swift",
-      "key.name" : "String",
-      "key.namecolumn" : 11,
-      "key.namelength" : 6,
-      "key.nameline" : 25,
-      "key.nameoffset" : 1104,
-      "key.offset" : 1094,
-      "key.parsed_declaration" : "extension String",
-      "key.parsed_scope.end" : 125,
-      "key.parsed_scope.start" : 25,
-      "key.substructure" : [
+      "key.doc.full_as_xml": "<Class><Name>String<\/Name><USR>s:SS<\/USR><Declaration>@frozen struct String<\/Declaration><CommentParts><Abstract><Para>A Unicode string value that is a collection of characters.<\/Para><\/Abstract><Discussion><Para>A string is a series of characters, such as <codeVoice>&quot;Swift&quot;<\/codeVoice>, that forms a collection. Strings in Swift are Unicode correct and locale insensitive, and are designed to be efficient. The <codeVoice>String<\/codeVoice> type bridges with the Objective-C class <codeVoice>NSString<\/codeVoice> and offers interoperability with C functions that works with strings.<\/Para><Para>You can create new strings using string literals or string interpolations. A <emphasis>string literal<\/emphasis> is a series of characters enclosed in quotes.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let greeting = \"Welcome!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para><emphasis>String interpolations<\/emphasis> are string literals that evaluate any included expressions and convert the results to string form. String interpolations give you an easy way to build a string from multiple pieces. Wrap each expression in a string interpolation in parentheses, prefixed by a backslash.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let name = \"Rosa\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let personalizedGreeting = \"Welcome, \\(name)!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ personalizedGreeting == \"Welcome, Rosa!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let price = 2]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let number = 3]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let cookiePrice = \"\\(number) cookies: $\\(price * number).\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ cookiePrice == \"3 cookies: $6.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Combine strings using the concatenation operator (<codeVoice>+<\/codeVoice>).<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let longerGreeting = greeting + \" We're glad you're here!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ longerGreeting == \"Welcome! We're glad you're here!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Multiline string literals are enclosed in three double quotation marks (<codeVoice>&quot;&quot;&quot;<\/codeVoice>), with each delimiter on its own line. Indentation is stripped from each line of a multiline string literal to match the indentation of the closing delimiter.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let banner = \"\"\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[          __,]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[         (           o  \/) _\/_]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[          `.  , , , ,  \/\/  \/]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        (___)(_(_\/_(_ \/\/_ (__]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                     \/)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[                    (\/]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[        \"\"\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Modifying and Comparing Strings<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Strings always have value semantics. Modifying a copy of a string leaves the original unaffected.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[var otherGreeting = greeting]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[otherGreeting += \" Have a nice time!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ otherGreeting == \"Welcome! Have a nice time!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(greeting)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Welcome!\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Comparing strings for equality using the equal-to operator (<codeVoice>==<\/codeVoice>) or a relational operator (like <codeVoice>&lt;<\/codeVoice> or <codeVoice>&gt;=<\/codeVoice>) is always performed using Unicode canonical representation. As a result, different representations of a string compare as being equal.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let cafe1 = \"Cafe\\u{301}\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let cafe2 = \"Café\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(cafe1 == cafe2)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"true\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The Unicode scalar value <codeVoice>&quot;\\u{301}&quot;<\/codeVoice> modifies the preceding character to include an accent, so <codeVoice>&quot;e\\u{301}&quot;<\/codeVoice> has the same canonical representation as the single Unicode scalar value <codeVoice>&quot;é&quot;<\/codeVoice>.<\/Para><Para>Basic string operations are not sensitive to locale settings, ensuring that string comparisons and other operations always have a single, stable result, allowing strings to be used as keys in <codeVoice>Dictionary<\/codeVoice> instances and for other purposes.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Accessing String Elements<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>A string is a collection of <emphasis>extended grapheme clusters<\/emphasis>, which approximate human-readable characters. Many individual characters, such as “é”, “김”, and “🇮🇳”, can be made up of multiple Unicode scalar values. These scalar values are combined by Unicode’s boundary algorithms into extended grapheme clusters, represented by the Swift <codeVoice>Character<\/codeVoice> type. Each element of a string is represented by a <codeVoice>Character<\/codeVoice> instance.<\/Para><Para>For example, to retrieve the first word of a longer string, you can search for a space and then create a substring from a prefix of the string up to that point:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let name = \"Marie Curie\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstSpace = name.firstIndex(of: \" \") ?? name.endIndex]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstName = name[..<firstSpace]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ firstName == \"Marie\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The <codeVoice>firstName<\/codeVoice> constant is an instance of the <codeVoice>Substring<\/codeVoice> type—a type that represents substrings of a string while sharing the original string’s storage. Substrings present the same interface as strings.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(\"\\(name)'s first name has \\(firstName.count) letters.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Marie Curie's first name has 5 letters.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Accessing a String’s Unicode Representation<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>If you need to access the contents of a string as encoded in different Unicode encodings, use one of the string’s <codeVoice>unicodeScalars<\/codeVoice>, <codeVoice>utf16<\/codeVoice>, or <codeVoice>utf8<\/codeVoice> properties. Each property provides access to a view of the string as a series of code units, each encoded in a different Unicode encoding.<\/Para><Para>To demonstrate the different views available for every string, the following examples use this <codeVoice>String<\/codeVoice> instance:<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let cafe = \"Cafe\\u{301} du 🌍\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(cafe)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Café du 🌍\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The <codeVoice>cafe<\/codeVoice> string is a collection of the nine characters that are visible when the string is displayed.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(cafe.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"9\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(Array(cafe))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[\"C\", \"a\", \"f\", \"é\", \" \", \"d\", \"u\", \" \", \"🌍\"]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>Unicode Scalar View<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>A string’s <codeVoice>unicodeScalars<\/codeVoice> property is a collection of Unicode scalar values, the 21-bit codes that are the basic unit of Unicode. Each scalar value is represented by a <codeVoice>Unicode.Scalar<\/codeVoice> instance and is equivalent to a UTF-32 code unit.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(cafe.unicodeScalars.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"10\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(Array(cafe.unicodeScalars))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[\"C\", \"a\", \"f\", \"e\", \"\\u{0301}\", \" \", \"d\", \"u\", \" \", \"\\u{0001F30D}\"]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(cafe.unicodeScalars.map { $0.value })]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[67, 97, 102, 101, 769, 32, 100, 117, 32, 127757]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The <codeVoice>unicodeScalars<\/codeVoice> view’s elements comprise each Unicode scalar value in the <codeVoice>cafe<\/codeVoice> string. In particular, because <codeVoice>cafe<\/codeVoice> was declared using the decomposed form of the <codeVoice>&quot;é&quot;<\/codeVoice> character, <codeVoice>unicodeScalars<\/codeVoice> contains the scalar values for both the letter <codeVoice>&quot;e&quot;<\/codeVoice> (101) and the accent character <codeVoice>&quot;´&quot;<\/codeVoice> (769).<\/Para><rawHTML><![CDATA[<h2>]]><\/rawHTML>UTF-16 View<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>A string’s <codeVoice>utf16<\/codeVoice> property is a collection of UTF-16 code units, the 16-bit encoding form of the string’s Unicode scalar values. Each code unit is stored as a <codeVoice>UInt16<\/codeVoice> instance.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(cafe.utf16.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"11\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(Array(cafe.utf16))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[67, 97, 102, 101, 769, 32, 100, 117, 32, 55356, 57101]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The elements of the <codeVoice>utf16<\/codeVoice> view are the code units for the string when encoded in UTF-16. These elements match those accessed through indexed <codeVoice>NSString<\/codeVoice> APIs.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let nscafe = cafe as NSString]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(nscafe.length)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"11\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(nscafe.character(at: 3))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"101\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h2>]]><\/rawHTML>UTF-8 View<rawHTML><![CDATA[<\/h2>]]><\/rawHTML><Para>A string’s <codeVoice>utf8<\/codeVoice> property is a collection of UTF-8 code units, the 8-bit encoding form of the string’s Unicode scalar values. Each code unit is stored as a <codeVoice>UInt8<\/codeVoice> instance.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(cafe.utf8.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"14\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(Array(cafe.utf8))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[67, 97, 102, 101, 204, 129, 32, 100, 117, 32, 240, 159, 140, 141]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>The elements of the <codeVoice>utf8<\/codeVoice> view are the code units for the string when encoded in UTF-8. This representation matches the one used when <codeVoice>String<\/codeVoice> instances are passed to C APIs.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let cLength = strlen(cafe)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(cLength)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"14\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Measuring the Length of a String<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>When you need to know the length of a string, you must first consider what you’ll use the length for. Are you measuring the number of characters that will be displayed on the screen, or are you measuring the amount of storage needed for the string in a particular encoding? A single string can have greatly differing lengths when measured by its different views.<\/Para><Para>For example, an ASCII character like the capital letter <emphasis>A<\/emphasis> is represented by a single element in each of its four views. The Unicode scalar value of <emphasis>A<\/emphasis> is <codeVoice>65<\/codeVoice>, which is small enough to fit in a single code unit in both UTF-16 and UTF-8.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let capitalA = \"A\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(capitalA.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(capitalA.unicodeScalars.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(capitalA.utf16.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(capitalA.utf8.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>On the other hand, an emoji flag character is constructed from a pair of Unicode scalar values, like <codeVoice>&quot;\\u{1F1F5}&quot;<\/codeVoice> and <codeVoice>&quot;\\u{1F1F7}&quot;<\/codeVoice>. Each of these scalar values, in turn, is too large to fit into a single UTF-16 or UTF-8 code unit. As a result, each view of the string <codeVoice>&quot;🇵🇷&quot;<\/codeVoice> reports a different length.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let flag = \"🇵🇷\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(flag.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"1\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(flag.unicodeScalars.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"2\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(flag.utf16.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"4\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(flag.utf8.count)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"8\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>To check whether a string is empty, use its <codeVoice>isEmpty<\/codeVoice> property instead of comparing the length of one of the views to <codeVoice>0<\/codeVoice>. Unlike with <codeVoice>isEmpty<\/codeVoice>, calculating a view’s <codeVoice>count<\/codeVoice> property requires iterating through the elements of the string.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Accessing String View Elements<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>To find individual elements of a string, use the appropriate view for your task. For example, to retrieve the first word of a longer string, you can search the string for a space and then create a new string from a prefix of the string up to that point.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let name = \"Marie Curie\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstSpace = name.firstIndex(of: \" \") ?? name.endIndex]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let firstName = name[..<firstSpace]]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[print(firstName)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"Marie\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Strings and their views share indices, so you can access the UTF-8 view of the <codeVoice>name<\/codeVoice> string using the same <codeVoice>firstSpace<\/codeVoice> index.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[print(Array(name.utf8[..<firstSpace]))]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"[77, 97, 114, 105, 101]\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>Note that an index into one view may not have an exact corresponding position in another view. For example, the <codeVoice>flag<\/codeVoice> string declared above comprises a single character, but is composed of eight code units when encoded as UTF-8. The following code creates constants for the first and second positions in the <codeVoice>flag.utf8<\/codeVoice> view. Accessing the <codeVoice>utf8<\/codeVoice> view with these indices yields the first and second code UTF-8 units.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[let firstCodeUnit = flag.startIndex]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[let secondCodeUnit = flag.utf8.index(after: firstCodeUnit)]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ flag.utf8[firstCodeUnit] == 240]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ flag.utf8[secondCodeUnit] == 159]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>When used to access the elements of the <codeVoice>flag<\/codeVoice> string itself, however, the <codeVoice>secondCodeUnit<\/codeVoice> index does not correspond to the position of a specific character. Instead of only accessing the specific UTF-8 code unit, that index is treated as the position of the character at the index’s encoded offset. In the case of <codeVoice>secondCodeUnit<\/codeVoice>, that character is still the flag itself.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[\/\/ flag[firstCodeUnit] == \"🇵🇷\"]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ flag[secondCodeUnit] == \"🇵🇷\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><Para>If you need to validate that an index from one string’s view corresponds with an exact position in another view, use the index’s <codeVoice>samePosition(in:)<\/codeVoice> method or the <codeVoice>init(_:within:)<\/codeVoice> initializer.<\/Para><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[if let exactIndex = secondCodeUnit.samePosition(in: flag) {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(flag[exactIndex])]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[} else {]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[    print(\"No exact match for this position.\")]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[}]]><\/zCodeLineNumbered><zCodeLineNumbered><![CDATA[\/\/ Prints \"No exact match for this position.\"]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><rawHTML><![CDATA[<h1>]]><\/rawHTML>Performance Optimizations<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Although strings in Swift have value semantics, strings use a copy-on-write strategy to store their data in a buffer. This buffer can then be shared by different copies of a string. A string’s data is only copied lazily, upon mutation, when more than one string instance is using the same buffer. Therefore, the first in any sequence of mutating operations may cost O(<emphasis>n<\/emphasis>) time and space.<\/Para><Para>When a string’s contiguous storage fills up, a new buffer must be allocated and data must be moved to the new storage. String buffers use an exponential growth strategy that makes appending to a string a constant time operation when averaged over many append operations.<\/Para><rawHTML><![CDATA[<h1>]]><\/rawHTML>Bridging Between String and NSString<rawHTML><![CDATA[<\/h1>]]><\/rawHTML><Para>Any <codeVoice>String<\/codeVoice> instance can be bridged to <codeVoice>NSString<\/codeVoice> using the type-cast operator (<codeVoice>as<\/codeVoice>), and any <codeVoice>String<\/codeVoice> instance that originates in Objective-C may use an <codeVoice>NSString<\/codeVoice> instance as its storage. Because any arbitrary subclass of <codeVoice>NSString<\/codeVoice> can become a <codeVoice>String<\/codeVoice> instance, there are no guarantees about representation or efficiency when a <codeVoice>String<\/codeVoice> instance is backed by <codeVoice>NSString<\/codeVoice> storage. Because <codeVoice>NSString<\/codeVoice> is immutable, it is just as though the storage was shared by a copy. The first in any sequence of mutating operations causes elements to be copied into unique, contiguous storage which may cost O(<emphasis>n<\/emphasis>) time and space, where <emphasis>n<\/emphasis> is the length of the string’s encoded representation (or more, if the underlying <codeVoice>NSString<\/codeVoice> has unusual performance characteristics).<\/Para><Para>For more information about the Unicode terms used in this discussion, see the <Link href=\"http:\/\/www.unicode.org\/glossary\/\">Unicode.org glossary<\/Link>. In particular, this discussion mentions <Link href=\"http:\/\/www.unicode.org\/glossary\/#extended_grapheme_cluster\">extended grapheme clusters<\/Link>, <Link href=\"http:\/\/www.unicode.org\/glossary\/#unicode_scalar_value\">Unicode scalar values<\/Link>, and <Link href=\"http:\/\/www.unicode.org\/glossary\/#canonical_equivalent\">canonical equivalence<\/Link>.<\/Para><\/Discussion><\/CommentParts><\/Class>",
+      "key.doc.name": "String",
+      "key.doc.type": "Class",
+      "key.fully_annotated_decl": "<decl.struct><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@frozen<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>String<\/decl.name><\/decl.struct>",
+      "key.groupname": "String",
+      "key.is_system": true,
+      "key.kind": "source.lang.swift.decl.extension",
+      "key.length": 5013,
+      "key.line": 25,
+      "key.modulename": "Swift",
+      "key.name": "String",
+      "key.namecolumn": 11,
+      "key.namelength": 6,
+      "key.nameline": 25,
+      "key.nameoffset": 1104,
+      "key.offset": 1094,
+      "key.parsed_declaration": "extension String",
+      "key.parsed_scope.end": 127,
+      "key.parsed_scope.start": 25,
+      "key.substructure": [
         {
-          "key.accessibility" : "source.lang.swift.accessibility.public",
-          "key.annotated_decl" : "<Declaration>@inlinable public var abbreviatingWithTildeInPath: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
-          "key.attributes" : [
+          "key.accessibility": "source.lang.swift.accessibility.public",
+          "key.annotated_decl": "<Declaration>@inlinable public var abbreviatingWithTildeInPath: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
+          "key.attributes": [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 27,
-              "key.offset" : 1135
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 28,
+              "key.offset": 1191
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 27,
-              "key.offset" : 1124
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 28,
+              "key.offset": 1180
             }
           ],
-          "key.bodycolumn" : 66,
-          "key.bodylength" : 48,
-          "key.bodyline" : 27,
-          "key.bodyoffset" : 1185,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>abbreviatingWithTildeInPath<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.length" : 92,
-          "key.line" : 27,
-          "key.name" : "abbreviatingWithTildeInPath",
-          "key.namecolumn" : 27,
-          "key.namelength" : 27,
-          "key.nameline" : 27,
-          "key.nameoffset" : 1146,
-          "key.offset" : 1142,
-          "key.parsed_declaration" : "@inlinable public var abbreviatingWithTildeInPath: String",
-          "key.parsed_scope.end" : 27,
-          "key.parsed_scope.start" : 27,
-          "key.typename" : "String",
-          "key.typeusr" : "$sSSD",
-          "key.usr" : "s:SS7RubiconE27abbreviatingWithTildeInPathSSvp"
+          "key.bodycolumn": 66,
+          "key.bodylength": 48,
+          "key.bodyline": 28,
+          "key.bodyoffset": 1241,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>abbreviatingWithTildeInPath<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 92,
+          "key.line": 28,
+          "key.name": "abbreviatingWithTildeInPath",
+          "key.namecolumn": 27,
+          "key.namelength": 27,
+          "key.nameline": 28,
+          "key.nameoffset": 1202,
+          "key.offset": 1198,
+          "key.parsed_declaration": "@inlinable public var abbreviatingWithTildeInPath: String",
+          "key.parsed_scope.end": 28,
+          "key.parsed_scope.start": 28,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:SS7RubiconE27abbreviatingWithTildeInPathSSvp"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public var deletingLastPathComponent: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 28,
-              "key.offset" : 1250
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 30,
+              "key.offset": 1317
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 28,
-              "key.offset" : 1239
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 30,
+              "key.offset": 1306
             }
           ],
-          "key.bodycolumn" : 66,
-          "key.bodylength" : 48,
-          "key.bodyline" : 28,
-          "key.bodyoffset" : 1300,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>deletingLastPathComponent<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.length" : 92,
-          "key.line" : 28,
-          "key.name" : "deletingLastPathComponent",
-          "key.namecolumn" : 27,
-          "key.namelength" : 25,
-          "key.nameline" : 28,
-          "key.nameoffset" : 1261,
-          "key.offset" : 1257,
-          "key.parsed_declaration" : "@inlinable public var deletingLastPathComponent:   String",
-          "key.parsed_scope.end" : 28,
-          "key.parsed_scope.start" : 28,
-          "key.typename" : "String",
-          "key.typeusr" : "$sSSD",
-          "key.usr" : "s:SS7RubiconE25deletingLastPathComponentSSvp"
+          "key.bodycolumn": 66,
+          "key.bodylength": 48,
+          "key.bodyline": 30,
+          "key.bodyoffset": 1367,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>deletingLastPathComponent<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 92,
+          "key.line": 30,
+          "key.name": "deletingLastPathComponent",
+          "key.namecolumn": 27,
+          "key.namelength": 25,
+          "key.nameline": 30,
+          "key.nameoffset": 1328,
+          "key.offset": 1324,
+          "key.parsed_declaration": "@inlinable public var deletingLastPathComponent:   String",
+          "key.parsed_scope.end": 30,
+          "key.parsed_scope.start": 30,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:SS7RubiconE25deletingLastPathComponentSSvp"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public var deletingPathExtension: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 29,
-              "key.offset" : 1365
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 31,
+              "key.offset": 1432
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 29,
-              "key.offset" : 1354
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 31,
+              "key.offset": 1421
             }
           ],
-          "key.bodycolumn" : 66,
-          "key.bodylength" : 48,
-          "key.bodyline" : 29,
-          "key.bodyoffset" : 1415,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>deletingPathExtension<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.length" : 92,
-          "key.line" : 29,
-          "key.name" : "deletingPathExtension",
-          "key.namecolumn" : 27,
-          "key.namelength" : 21,
-          "key.nameline" : 29,
-          "key.nameoffset" : 1376,
-          "key.offset" : 1372,
-          "key.parsed_declaration" : "@inlinable public var deletingPathExtension:       String",
-          "key.parsed_scope.end" : 29,
-          "key.parsed_scope.start" : 29,
-          "key.typename" : "String",
-          "key.typeusr" : "$sSSD",
-          "key.usr" : "s:SS7RubiconE21deletingPathExtensionSSvp"
+          "key.bodycolumn": 66,
+          "key.bodylength": 48,
+          "key.bodyline": 31,
+          "key.bodyoffset": 1482,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>deletingPathExtension<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 92,
+          "key.line": 31,
+          "key.name": "deletingPathExtension",
+          "key.namecolumn": 27,
+          "key.namelength": 21,
+          "key.nameline": 31,
+          "key.nameoffset": 1443,
+          "key.offset": 1439,
+          "key.parsed_declaration": "@inlinable public var deletingPathExtension:       String",
+          "key.parsed_scope.end": 31,
+          "key.parsed_scope.start": 31,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:SS7RubiconE21deletingPathExtensionSSvp"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public var expandingTildeInPath: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 30,
-              "key.offset" : 1480
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 32,
+              "key.offset": 1547
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 30,
-              "key.offset" : 1469
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 32,
+              "key.offset": 1536
             }
           ],
-          "key.bodycolumn" : 66,
-          "key.bodylength" : 48,
-          "key.bodyline" : 30,
-          "key.bodyoffset" : 1530,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>expandingTildeInPath<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.length" : 92,
-          "key.line" : 30,
-          "key.name" : "expandingTildeInPath",
-          "key.namecolumn" : 27,
-          "key.namelength" : 20,
-          "key.nameline" : 30,
-          "key.nameoffset" : 1491,
-          "key.offset" : 1487,
-          "key.parsed_declaration" : "@inlinable public var expandingTildeInPath:        String",
-          "key.parsed_scope.end" : 30,
-          "key.parsed_scope.start" : 30,
-          "key.typename" : "String",
-          "key.typeusr" : "$sSSD",
-          "key.usr" : "s:SS7RubiconE20expandingTildeInPathSSvp"
+          "key.bodycolumn": 66,
+          "key.bodylength": 48,
+          "key.bodyline": 32,
+          "key.bodyoffset": 1597,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>expandingTildeInPath<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 92,
+          "key.line": 32,
+          "key.name": "expandingTildeInPath",
+          "key.namecolumn": 27,
+          "key.namelength": 20,
+          "key.nameline": 32,
+          "key.nameoffset": 1558,
+          "key.offset": 1554,
+          "key.parsed_declaration": "@inlinable public var expandingTildeInPath:        String",
+          "key.parsed_scope.end": 32,
+          "key.parsed_scope.start": 32,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:SS7RubiconE20expandingTildeInPathSSvp"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public var isAbsolutePath: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 31,
-              "key.offset" : 1595
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 33,
+              "key.offset": 1662
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 31,
-              "key.offset" : 1584
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 33,
+              "key.offset": 1651
             }
           ],
-          "key.bodycolumn" : 66,
-          "key.bodylength" : 48,
-          "key.bodyline" : 31,
-          "key.bodyoffset" : 1645,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isAbsolutePath<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.length" : 92,
-          "key.line" : 31,
-          "key.name" : "isAbsolutePath",
-          "key.namecolumn" : 27,
-          "key.namelength" : 14,
-          "key.nameline" : 31,
-          "key.nameoffset" : 1606,
-          "key.offset" : 1602,
-          "key.parsed_declaration" : "@inlinable public var isAbsolutePath:              Bool",
-          "key.parsed_scope.end" : 31,
-          "key.parsed_scope.start" : 31,
-          "key.typename" : "Bool",
-          "key.typeusr" : "$sSbD",
-          "key.usr" : "s:SS7RubiconE14isAbsolutePathSbvp"
+          "key.bodycolumn": 66,
+          "key.bodylength": 48,
+          "key.bodyline": 33,
+          "key.bodyoffset": 1712,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isAbsolutePath<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 92,
+          "key.line": 33,
+          "key.name": "isAbsolutePath",
+          "key.namecolumn": 27,
+          "key.namelength": 14,
+          "key.nameline": 33,
+          "key.nameoffset": 1673,
+          "key.offset": 1669,
+          "key.parsed_declaration": "@inlinable public var isAbsolutePath:              Bool",
+          "key.parsed_scope.end": 33,
+          "key.parsed_scope.start": 33,
+          "key.typename": "Bool",
+          "key.typeusr": "$sSbD",
+          "key.usr": "s:SS7RubiconE14isAbsolutePathSbvp"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public var lastPathComponent: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 32,
-              "key.offset" : 1710
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 34,
+              "key.offset": 1777
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 32,
-              "key.offset" : 1699
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 34,
+              "key.offset": 1766
             }
           ],
-          "key.bodycolumn" : 66,
-          "key.bodylength" : 48,
-          "key.bodyline" : 32,
-          "key.bodyoffset" : 1760,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>lastPathComponent<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.length" : 92,
-          "key.line" : 32,
-          "key.name" : "lastPathComponent",
-          "key.namecolumn" : 27,
-          "key.namelength" : 17,
-          "key.nameline" : 32,
-          "key.nameoffset" : 1721,
-          "key.offset" : 1717,
-          "key.parsed_declaration" : "@inlinable public var lastPathComponent:           String",
-          "key.parsed_scope.end" : 32,
-          "key.parsed_scope.start" : 32,
-          "key.typename" : "String",
-          "key.typeusr" : "$sSSD",
-          "key.usr" : "s:SS7RubiconE17lastPathComponentSSvp"
+          "key.bodycolumn": 66,
+          "key.bodylength": 48,
+          "key.bodyline": 34,
+          "key.bodyoffset": 1827,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>lastPathComponent<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 92,
+          "key.line": 34,
+          "key.name": "lastPathComponent",
+          "key.namecolumn": 27,
+          "key.namelength": 17,
+          "key.nameline": 34,
+          "key.nameoffset": 1788,
+          "key.offset": 1784,
+          "key.parsed_declaration": "@inlinable public var lastPathComponent:           String",
+          "key.parsed_scope.end": 34,
+          "key.parsed_scope.start": 34,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:SS7RubiconE17lastPathComponentSSvp"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public var pathComponents: [<Type usr=\"s:SS\">String<\/Type>] { get }<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 33,
-              "key.offset" : 1825
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 35,
+              "key.offset": 1892
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 33,
-              "key.offset" : 1814
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 35,
+              "key.offset": 1881
             }
           ],
-          "key.bodycolumn" : 66,
-          "key.bodylength" : 48,
-          "key.bodyline" : 33,
-          "key.bodyoffset" : 1875,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>pathComponents<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.length" : 92,
-          "key.line" : 33,
-          "key.name" : "pathComponents",
-          "key.namecolumn" : 27,
-          "key.namelength" : 14,
-          "key.nameline" : 33,
-          "key.nameoffset" : 1836,
-          "key.offset" : 1832,
-          "key.parsed_declaration" : "@inlinable public var pathComponents:              [String]",
-          "key.parsed_scope.end" : 33,
-          "key.parsed_scope.start" : 33,
-          "key.typename" : "[String]",
-          "key.typeusr" : "$sSaySSGD",
-          "key.usr" : "s:SS7RubiconE14pathComponentsSaySSGvp"
+          "key.bodycolumn": 66,
+          "key.bodylength": 48,
+          "key.bodyline": 35,
+          "key.bodyoffset": 1942,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>pathComponents<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 92,
+          "key.line": 35,
+          "key.name": "pathComponents",
+          "key.namecolumn": 27,
+          "key.namelength": 14,
+          "key.nameline": 35,
+          "key.nameoffset": 1903,
+          "key.offset": 1899,
+          "key.parsed_declaration": "@inlinable public var pathComponents:              [String]",
+          "key.parsed_scope.end": 35,
+          "key.parsed_scope.start": 35,
+          "key.typename": "[String]",
+          "key.typeusr": "$sSaySSGD",
+          "key.usr": "s:SS7RubiconE14pathComponentsSaySSGvp"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public var pathExtension: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 34,
-              "key.offset" : 1940
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 36,
+              "key.offset": 2007
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 34,
-              "key.offset" : 1929
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 36,
+              "key.offset": 1996
             }
           ],
-          "key.bodycolumn" : 66,
-          "key.bodylength" : 48,
-          "key.bodyline" : 34,
-          "key.bodyoffset" : 1990,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>pathExtension<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.length" : 92,
-          "key.line" : 34,
-          "key.name" : "pathExtension",
-          "key.namecolumn" : 27,
-          "key.namelength" : 13,
-          "key.nameline" : 34,
-          "key.nameoffset" : 1951,
-          "key.offset" : 1947,
-          "key.parsed_declaration" : "@inlinable public var pathExtension:               String",
-          "key.parsed_scope.end" : 34,
-          "key.parsed_scope.start" : 34,
-          "key.typename" : "String",
-          "key.typeusr" : "$sSSD",
-          "key.usr" : "s:SS7RubiconE13pathExtensionSSvp"
+          "key.bodycolumn": 66,
+          "key.bodylength": 48,
+          "key.bodyline": 36,
+          "key.bodyoffset": 2057,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>pathExtension<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 92,
+          "key.line": 36,
+          "key.name": "pathExtension",
+          "key.namecolumn": 27,
+          "key.namelength": 13,
+          "key.nameline": 36,
+          "key.nameoffset": 2018,
+          "key.offset": 2014,
+          "key.parsed_declaration": "@inlinable public var pathExtension:               String",
+          "key.parsed_scope.end": 36,
+          "key.parsed_scope.start": 36,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:SS7RubiconE13pathExtensionSSvp"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public var standardizingPath: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 35,
-              "key.offset" : 2055
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 37,
+              "key.offset": 2122
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 35,
-              "key.offset" : 2044
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 37,
+              "key.offset": 2111
             }
           ],
-          "key.bodycolumn" : 66,
-          "key.bodylength" : 48,
-          "key.bodyline" : 35,
-          "key.bodyoffset" : 2105,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>standardizingPath<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.var.instance",
-          "key.length" : 92,
-          "key.line" : 35,
-          "key.name" : "standardizingPath",
-          "key.namecolumn" : 27,
-          "key.namelength" : 17,
-          "key.nameline" : 35,
-          "key.nameoffset" : 2066,
-          "key.offset" : 2062,
-          "key.parsed_declaration" : "@inlinable public var standardizingPath:           String",
-          "key.parsed_scope.end" : 35,
-          "key.parsed_scope.start" : 35,
-          "key.typename" : "String",
-          "key.typeusr" : "$sSSD",
-          "key.usr" : "s:SS7RubiconE17standardizingPathSSvp"
+          "key.bodycolumn": 66,
+          "key.bodylength": 48,
+          "key.bodyline": 37,
+          "key.bodyoffset": 2172,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>standardizingPath<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.var.instance",
+          "key.length": 92,
+          "key.line": 37,
+          "key.name": "standardizingPath",
+          "key.namecolumn": 27,
+          "key.namelength": 17,
+          "key.nameline": 37,
+          "key.nameoffset": 2133,
+          "key.offset": 2129,
+          "key.parsed_declaration": "@inlinable public var standardizingPath:           String",
+          "key.parsed_scope.end": 37,
+          "key.parsed_scope.start": 37,
+          "key.typename": "String",
+          "key.typeusr": "$sSSD",
+          "key.usr": "s:SS7RubiconE17standardizingPathSSvp"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>public init?(inputStream: <Type usr=\"c:objc(cs)NSInputStream\">InputStream<\/Type>, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8)<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 5,
-              "key.length" : 6,
-              "key.line" : 48,
-              "key.offset" : 2787
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 5,
+              "key.length": 6,
+              "key.line": 50,
+              "key.offset": 2853
             }
           ],
-          "key.bodycolumn" : 95,
-          "key.bodylength" : 259,
-          "key.bodyline" : 48,
-          "key.bodyoffset" : 2877,
-          "key.column" : 12,
-          "key.doc.column" : 12,
-          "key.doc.comment" : "Allows creating a <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> from the\ncontents of an\n<code>[InputStream](https:\/\/developer.apple.com\/documentation\/foundation\/inputstream)<\/code>.\n\n- Parameters:\n  - inputStream: The input stream.\n  - encoding: The encoding. Defaults to\n              <code>[String.Encoding.utf8](https:\/\/developer.apple.com\/documentation\/swift\/string\/encoding\/1780106-utf8)<\/code>",
-          "key.doc.declaration" : "public init?(inputStream: InputStream, encoding: String.Encoding = String.Encoding.utf8)",
-          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift\" line=\"48\" column=\"12\"><Name>init(inputStream:encoding:)<\/Name><USR>s:SS7RubiconE11inputStream8encodingSSSgSo07NSInputC0C_SS10FoundationE8EncodingVtcfc<\/USR><Declaration>public init?(inputStream: InputStream, encoding: String.Encoding = String.Encoding.utf8)<\/Declaration><CommentParts><Abstract><Para>Allows creating a <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> from the contents of an <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/inputstream\">InputStream<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Abstract><Parameters><Parameter><Name>inputStream<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The input stream.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The encoding. Defaults to <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/encoding\/1780106-utf8\">String.Encoding.utf8<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML><\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
-          "key.doc.line" : 48,
-          "key.doc.name" : "init(inputStream:encoding:)",
-          "key.doc.parameters" : [
+          "key.bodycolumn": 95,
+          "key.bodylength": 259,
+          "key.bodyline": 50,
+          "key.bodyoffset": 2943,
+          "key.column": 12,
+          "key.doc.column": 12,
+          "key.doc.comment": "Allows creating a <code>[String](https:\/\/developer.apple.com\/documentation\/swift\/string\/)<\/code> from the\ncontents of an\n<code>[InputStream](https:\/\/developer.apple.com\/documentation\/foundation\/inputstream)<\/code>.\n\n- Parameters:\n  - inputStream: The input stream.\n  - encoding: The encoding. Defaults to\n              <code>[String.Encoding.utf8](https:\/\/developer.apple.com\/documentation\/swift\/string\/encoding\/1780106-utf8)<\/code>",
+          "key.doc.declaration": "public init?(inputStream: InputStream, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift\" line=\"50\" column=\"12\"><Name>init(inputStream:encoding:)<\/Name><USR>s:SS7RubiconE11inputStream8encodingSSSgSo07NSInputC0C_SS10FoundationE8EncodingVtcfc<\/USR><Declaration>public init?(inputStream: InputStream, encoding: String.Encoding = String.Encoding.utf8)<\/Declaration><CommentParts><Abstract><Para>Allows creating a <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/\">String<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML> from the contents of an <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/foundation\/inputstream\">InputStream<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML>.<\/Para><\/Abstract><Parameters><Parameter><Name>inputStream<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The input stream.<\/Para><\/Discussion><\/Parameter><Parameter><Name>encoding<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The encoding. Defaults to <rawHTML><![CDATA[<code>]]><\/rawHTML><Link href=\"https:\/\/developer.apple.com\/documentation\/swift\/string\/encoding\/1780106-utf8\">String.Encoding.utf8<\/Link><rawHTML><![CDATA[<\/code>]]><\/rawHTML><\/Para><\/Discussion><\/Parameter><\/Parameters><\/CommentParts><\/Function>",
+          "key.doc.line": 50,
+          "key.doc.name": "init(inputStream:encoding:)",
+          "key.doc.parameters": [
             {
-              "discussion" : [
+              "discussion": [
                 {
-                  "Para" : "The input stream."
+                  "Para": "The input stream."
                 }
               ],
-              "name" : "inputStream"
+              "name": "inputStream"
             },
             {
-              "discussion" : [
+              "discussion": [
                 {
-                  "Para" : "The encoding. Defaults to <code><\/code>"
+                  "Para": "The encoding. Defaults to <code><\/code>"
                 }
               ],
-              "name" : "encoding"
+              "name": "encoding"
             }
           ],
-          "key.doc.type" : "Function",
-          "key.doccolumn" : 5,
-          "key.doclength" : 501,
-          "key.docline" : 39,
-          "key.docoffset" : 2282,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>?(<decl.var.parameter><decl.var.parameter.argument_label>inputStream<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSInputStream\">InputStream<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type> = String.Encoding.utf8<\/decl.var.parameter>)<\/decl.function.constructor>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.length" : 343,
-          "key.line" : 48,
-          "key.name" : "init(inputStream:encoding:)",
-          "key.namecolumn" : 12,
-          "key.namelength" : 81,
-          "key.nameline" : 48,
-          "key.nameoffset" : 2794,
-          "key.offset" : 2794,
-          "key.parsed_declaration" : "public init?(inputStream: InputStream, encoding: String.Encoding = String.Encoding.utf8)",
-          "key.parsed_scope.end" : 58,
-          "key.parsed_scope.start" : 48,
-          "key.related_decls" : [
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 500,
+          "key.docline": 41,
+          "key.docoffset": 2349,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.function.constructor><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>?(<decl.var.parameter><decl.var.parameter.argument_label>inputStream<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSInputStream\">InputStream<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>encoding<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/ref.struct><\/decl.var.parameter.type> = String.Encoding.utf8<\/decl.var.parameter>)<\/decl.function.constructor>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 343,
+          "key.line": 50,
+          "key.name": "init(inputStream:encoding:)",
+          "key.namecolumn": 12,
+          "key.namelength": 81,
+          "key.nameline": 50,
+          "key.nameoffset": 2860,
+          "key.offset": 2860,
+          "key.parsed_declaration": "public init?(inputStream: InputStream, encoding: String.Encoding = String.Encoding.utf8)",
+          "key.parsed_scope.end": 60,
+          "key.parsed_scope.start": 50,
+          "key.related_decls": [
             {
-              "key.annotated_decl" : "<RelatedName usr=\"s:S2Sycfc\">init()<\/RelatedName>"
+              "key.annotated_decl": "<RelatedName usr=\"s:S2Sycfc\">init()<\/RelatedName>"
             },
             {
-              "key.annotated_decl" : "<RelatedName usr=\"s:SSySSSJcfc\">init(_: Character)<\/RelatedName>"
+              "key.annotated_decl": "<RelatedName usr=\"s:SSySSSJcfc\">init(_: Character)<\/RelatedName>"
             },
             {
-              "key.annotated_decl" : "<RelatedName usr=\"s:SS4fromSSs7Decoder_p_tKcfc\">init(from:)<\/RelatedName>"
+              "key.annotated_decl": "<RelatedName usr=\"s:SS4fromSSs7Decoder_p_tKcfc\">init(from:)<\/RelatedName>"
             },
             {
               "key.annotated_decl" : "<RelatedName usr=\"s:SS7cStringSSSPys4Int8VG_tcfc\">init(cString: UnsafePointer&lt;CChar&gt;)<\/RelatedName>"
@@ -823,91 +823,91 @@
           "key.annotated_decl" : "<Declaration>@inlinable public mutating func append(_ char: <Type usr=\"s:SJ\">Character<\/Type>, count: <Type usr=\"s:Si\">Int<\/Type>)<\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.mutating",
-              "key.column" : 23,
-              "key.length" : 8,
-              "key.line" : 71,
-              "key.offset" : 3549
+              "key.attribute": "source.decl.attribute.mutating",
+              "key.column": 23,
+              "key.length": 8,
+              "key.line": 73,
+              "key.offset": 3613
             },
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 71,
-              "key.offset" : 3542
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 73,
+              "key.offset": 3606
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 71,
-              "key.offset" : 3531
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 73,
+              "key.offset": 3595
             }
           ],
-          "key.bodycolumn" : 76,
-          "key.bodylength" : 41,
-          "key.bodyline" : 71,
-          "key.bodyoffset" : 3602,
-          "key.column" : 32,
-          "key.doc.column" : 37,
-          "key.doc.comment" : "Shorthand for:\n\n```\nfor _ in (0 ..< count) { aString.append(char) }\n```\n\n- Parameters:\n  - char: The character to append to this string.\n  - count: The number of times to append the character.",
-          "key.doc.declaration" : "@inlinable public mutating func append(_ char: Character, count: Int)",
-          "key.doc.discussion" : [
+          "key.bodycolumn": 76,
+          "key.bodylength": 41,
+          "key.bodyline": 73,
+          "key.bodyoffset": 3666,
+          "key.column": 32,
+          "key.doc.column": 37,
+          "key.doc.comment": "Shorthand for:\n\n```\nfor _ in (0 ..< count) { aString.append(char) }\n```\n\n- Parameters:\n  - char: The character to append to this string.\n  - count: The number of times to append the character.",
+          "key.doc.declaration": "@inlinable public mutating func append(_ char: Character, count: Int)",
+          "key.doc.discussion": [
             {
-              "CodeListing" : ""
+              "CodeListing": ""
             }
           ],
-          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift\" line=\"71\" column=\"37\"><Name>append(_:count:)<\/Name><USR>s:SS7RubiconE6append_5countySJ_SitF<\/USR><Declaration>@inlinable public mutating func append(_ char: Character, count: Int)<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>char<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character to append to this string.<\/Para><\/Discussion><\/Parameter><Parameter><Name>count<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of times to append the character.<\/Para><\/Discussion><\/Parameter><\/Parameters><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for _ in (0 ..< count) { aString.append(char) }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
-          "key.doc.line" : 71,
-          "key.doc.name" : "append(_:count:)",
-          "key.doc.parameters" : [
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift\" line=\"73\" column=\"37\"><Name>append(_:count:)<\/Name><USR>s:SS7RubiconE6append_5countySJ_SitF<\/USR><Declaration>@inlinable public mutating func append(_ char: Character, count: Int)<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>char<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character to append to this string.<\/Para><\/Discussion><\/Parameter><Parameter><Name>count<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of times to append the character.<\/Para><\/Discussion><\/Parameter><\/Parameters><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for _ in (0 ..< count) { aString.append(char) }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 73,
+          "key.doc.name": "append(_:count:)",
+          "key.doc.parameters": [
             {
-              "discussion" : [
+              "discussion": [
                 {
-                  "Para" : "The character to append to this string."
+                  "Para": "The character to append to this string."
                 }
               ],
-              "name" : "char"
+              "name": "char"
             },
             {
-              "discussion" : [
+              "discussion": [
                 {
-                  "Para" : "The number of times to append the character."
+                  "Para": "The number of times to append the character."
                 }
               ],
-              "name" : "count"
+              "name": "count"
             }
           ],
-          "key.doc.type" : "Function",
-          "key.doccolumn" : 5,
-          "key.doclength" : 269,
-          "key.docline" : 61,
-          "key.docoffset" : 3258,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>append<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>char<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.length" : 86,
-          "key.line" : 71,
-          "key.name" : "append(_:count:)",
-          "key.namecolumn" : 37,
-          "key.namelength" : 37,
-          "key.nameline" : 71,
-          "key.nameoffset" : 3563,
-          "key.offset" : 3558,
-          "key.parsed_declaration" : "@inlinable public mutating func append(_ char: Character, count: Int)",
-          "key.parsed_scope.end" : 71,
-          "key.parsed_scope.start" : 71,
-          "key.related_decls" : [
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 267,
+          "key.docline": 63,
+          "key.docoffset": 3324,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>append<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>char<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 86,
+          "key.line": 73,
+          "key.name": "append(_:count:)",
+          "key.namecolumn": 37,
+          "key.namelength": 37,
+          "key.nameline": 73,
+          "key.nameoffset": 3627,
+          "key.offset": 3622,
+          "key.parsed_declaration": "@inlinable public mutating func append(_ char: Character, count: Int)",
+          "key.parsed_scope.end": 73,
+          "key.parsed_scope.start": 73,
+          "key.related_decls": [
             {
-              "key.annotated_decl" : "<RelatedName usr=\"s:SS6appendyySSF\">append(_: String)<\/RelatedName>"
+              "key.annotated_decl": "<RelatedName usr=\"s:SS6appendyySSF\">append(_: String)<\/RelatedName>"
             },
             {
-              "key.annotated_decl" : "<RelatedName usr=\"s:SS6appendyySJF\">append(_: Character)<\/RelatedName>"
+              "key.annotated_decl": "<RelatedName usr=\"s:SS6appendyySJF\">append(_: Character)<\/RelatedName>"
             },
             {
-              "key.annotated_decl" : "<RelatedName usr=\"s:SS6append10contentsOfySS_tF\">append(contentsOf: String)<\/RelatedName>"
+              "key.annotated_decl": "<RelatedName usr=\"s:SS6append10contentsOfySS_tF\">append(contentsOf: String)<\/RelatedName>"
             },
             {
               "key.annotated_decl" : "<RelatedName usr=\"s:SS6append10contentsOfySs_tF\">append(contentsOf: Substring)<\/RelatedName>"
@@ -928,59 +928,59 @@
           "key.annotated_decl" : "<Declaration>@discardableResult @inlinable public mutating func prepend(_ char: <Type usr=\"s:SJ\">Character<\/Type>, count: <Type usr=\"s:Si\">Int<\/Type> = 1) -&gt; <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type><\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.mutating",
-              "key.column" : 42,
-              "key.length" : 8,
-              "key.line" : 85,
-              "key.offset" : 4208
+              "key.attribute": "source.decl.attribute.mutating",
+              "key.column": 42,
+              "key.length": 8,
+              "key.line": 87,
+              "key.offset": 4270
             },
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 35,
-              "key.length" : 6,
-              "key.line" : 85,
-              "key.offset" : 4201
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 35,
+              "key.length": 6,
+              "key.line": 87,
+              "key.offset": 4263
             },
             {
-              "key.attribute" : "source.decl.attribute.discardableResult",
-              "key.column" : 16,
-              "key.length" : 18,
-              "key.line" : 85,
-              "key.offset" : 4182
+              "key.attribute": "source.decl.attribute.discardableResult",
+              "key.column": 16,
+              "key.length": 18,
+              "key.line": 87,
+              "key.offset": 4244
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 85,
-              "key.offset" : 4171
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 87,
+              "key.offset": 4233
             }
           ],
-          "key.bodycolumn" : 116,
-          "key.bodylength" : 154,
-          "key.bodyline" : 85,
-          "key.bodyoffset" : 4282,
-          "key.column" : 51,
-          "key.doc.column" : 56,
-          "key.doc.comment" : "Shorthand for:\n\n```\nfor _ in (0 ..< count) { aString.insert(char, at: aString.startIndex) }\n```\n\n- Parameters:\n  - char: The character to prepend to the beginning of this string.\n  - count: The number of times to prepend the character.\n- Returns: The index of first character in the string BEFORE calling this method.",
-          "key.doc.declaration" : "@inlinable public mutating func prepend(_ char: Character, count: Int = 1) -> String.Index",
-          "key.doc.discussion" : [
+          "key.bodycolumn": 116,
+          "key.bodylength": 154,
+          "key.bodyline": 87,
+          "key.bodyoffset": 4344,
+          "key.column": 51,
+          "key.doc.column": 56,
+          "key.doc.comment": "Shorthand for:\n\n```\nfor _ in (0 ..< count) { aString.insert(char, at: aString.startIndex) }\n```\n\n- Parameters:\n  - char: The character to prepend to the beginning of this string.\n  - count: The number of times to prepend the character.\n- Returns: The index of first character in the string BEFORE calling this method.",
+          "key.doc.declaration": "@inlinable public mutating func prepend(_ char: Character, count: Int = 1) -> String.Index",
+          "key.doc.discussion": [
             {
-              "CodeListing" : ""
+              "CodeListing": ""
             }
           ],
-          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift\" line=\"85\" column=\"56\"><Name>prepend(_:count:)<\/Name><USR>s:SS7RubiconE7prepend_5countSS5IndexVSJ_SitF<\/USR><Declaration>@inlinable public mutating func prepend(_ char: Character, count: Int = 1) -&gt; String.Index<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>char<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character to prepend to the beginning of this string.<\/Para><\/Discussion><\/Parameter><Parameter><Name>count<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of times to prepend the character.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The index of first character in the string BEFORE calling this method.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for _ in (0 ..< count) { aString.insert(char, at: aString.startIndex) }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
-          "key.doc.line" : 85,
-          "key.doc.name" : "prepend(_:count:)",
-          "key.doc.parameters" : [
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift\" line=\"87\" column=\"56\"><Name>prepend(_:count:)<\/Name><USR>s:SS7RubiconE7prepend_5countSS5IndexVSJ_SitF<\/USR><Declaration>@inlinable public mutating func prepend(_ char: Character, count: Int = 1) -&gt; String.Index<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>char<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The character to prepend to the beginning of this string.<\/Para><\/Discussion><\/Parameter><Parameter><Name>count<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The number of times to prepend the character.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The index of first character in the string BEFORE calling this method.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[for _ in (0 ..< count) { aString.insert(char, at: aString.startIndex) }]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 87,
+          "key.doc.name": "prepend(_:count:)",
+          "key.doc.parameters": [
             {
-              "discussion" : [
+              "discussion": [
                 {
-                  "Para" : "The character to prepend to the beginning of this string."
+                  "Para": "The character to prepend to the beginning of this string."
                 }
               ],
-              "name" : "char"
+              "name": "char"
             },
             {
               "discussion" : [
@@ -988,44 +988,43 @@
                   "Para" : "The number of times to prepend the character."
                 }
               ],
-              "name" : "count"
+              "name": "count"
             }
           ],
-          "key.doc.result_discussion" : [
+          "key.doc.result_discussion": [
             {
-              "Para" : "The index of first character in the string BEFORE calling this method."
+              "Para": "The index of first character in the string BEFORE calling this method."
             }
           ],
-          "key.doc.type" : "Function",
-          "key.doccolumn" : 5,
-          "key.doclength" : 402,
-          "key.docline" : 74,
-          "key.docoffset" : 3765,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>prepend<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>char<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 1<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.length" : 220,
-          "key.line" : 85,
-          "key.name" : "prepend(_:count:)",
-          "key.namecolumn" : 56,
-          "key.namelength" : 42,
-          "key.nameline" : 85,
-          "key.nameoffset" : 4222,
-          "key.offset" : 4217,
-          "key.parsed_declaration" : "@inlinable @discardableResult public mutating func prepend(_ char: Character, count: Int = 1) -> String.Index",
-          "key.parsed_scope.end" : 88,
-          "key.parsed_scope.start" : 85,
-          "key.related_decls" : [
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 400,
+          "key.docline": 76,
+          "key.docoffset": 3829,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>prepend<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>char<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>count<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type> = 1<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 220,
+          "key.line": 87,
+          "key.name": "prepend(_:count:)",
+          "key.namecolumn": 56,
+          "key.namelength": 42,
+          "key.nameline": 87,
+          "key.nameoffset": 4284,
+          "key.offset": 4279,
+          "key.parsed_declaration": "@inlinable @discardableResult public mutating func prepend(_ char: Character, count: Int = 1) -> String.Index",
+          "key.parsed_scope.end": 90,
+          "key.parsed_scope.start": 87,
+          "key.related_decls": [
             {
-              "key.annotated_decl" : "<RelatedName usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF\">prepend(contentsOf:)<\/RelatedName>"
+              "key.annotated_decl": "<RelatedName usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF\">prepend(contentsOf:)<\/RelatedName>"
             }
           ],
-          "key.substructure" : [
-
+          "key.substructure": [
           ],
-          "key.typename" : "(inout String) -> (Character, Int) -> String.Index",
-          "key.typeusr" : "$s_5countSS5IndexVSJ_SitcD",
+          "key.typename": "(inout String) -> (Character, Int) -> String.Index",
+          "key.typeusr": "$s_5countSS5IndexVSJ_SitcD",
           "key.usr" : "s:SS7RubiconE7prepend_5countSS5IndexVSJ_SitF"
         },
         {
@@ -1033,113 +1032,113 @@
           "key.annotated_decl" : "<Declaration>@discardableResult @inlinable public mutating func prepend&lt;C&gt;(contentsOf c: <Type usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\">C<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS5IndexV\">Index<\/Type> where <Type usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\">C<\/Type> : <Type usr=\"s:Sl\">Collection<\/Type>, <Type usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\">C<\/Type>.<Type usr=\"s:ST7ElementQa\">Element<\/Type> == <Type usr=\"s:SJ\">Character<\/Type><\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.mutating",
-              "key.column" : 42,
-              "key.length" : 8,
-              "key.line" : 100,
-              "key.offset" : 4894
+              "key.attribute": "source.decl.attribute.mutating",
+              "key.column": 42,
+              "key.length": 8,
+              "key.line": 102,
+              "key.offset": 4954
             },
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 35,
-              "key.length" : 6,
-              "key.line" : 100,
-              "key.offset" : 4887
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 35,
+              "key.length": 6,
+              "key.line": 102,
+              "key.offset": 4947
             },
             {
-              "key.attribute" : "source.decl.attribute.discardableResult",
-              "key.column" : 16,
-              "key.length" : 18,
-              "key.line" : 100,
-              "key.offset" : 4868
+              "key.attribute": "source.decl.attribute.discardableResult",
+              "key.column": 16,
+              "key.length": 18,
+              "key.line": 102,
+              "key.offset": 4928
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 100,
-              "key.offset" : 4857
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 102,
+              "key.offset": 4917
             }
           ],
-          "key.bodycolumn" : 145,
-          "key.bodylength" : 138,
-          "key.bodyline" : 100,
-          "key.bodyoffset" : 4997,
-          "key.column" : 51,
-          "key.doc.column" : 56,
-          "key.doc.comment" : "Shorthand for:\n\n```\naString.insert(contentsOf: aCollection, at: aString.startIndex)\n```\n\n- Parameter c: The collection of characters to prepend.\n- Returns: The index of first character in the string BEFORE calling this method.",
-          "key.doc.declaration" : "@inlinable public mutating func prepend<C>(contentsOf c: C) -> String.Index where C : Collection, C.Element == Character",
-          "key.doc.discussion" : [
+          "key.bodycolumn": 145,
+          "key.bodylength": 138,
+          "key.bodyline": 102,
+          "key.bodyoffset": 5057,
+          "key.column": 51,
+          "key.doc.column": 56,
+          "key.doc.comment": "Shorthand for:\n\n```\naString.insert(contentsOf: aCollection, at: aString.startIndex)\n```\n\n- Parameter c: The collection of characters to prepend.\n- Returns: The index of first character in the string BEFORE calling this method.",
+          "key.doc.declaration": "@inlinable public mutating func prepend<C>(contentsOf c: C) -> String.Index where C : Collection, C.Element == Character",
+          "key.doc.discussion": [
             {
-              "CodeListing" : ""
+              "CodeListing": ""
             }
           ],
-          "key.doc.file" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.doc.full_as_xml" : "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift\" line=\"100\" column=\"56\"><Name>prepend(contentsOf:)<\/Name><USR>s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF<\/USR><Declaration>@inlinable public mutating func prepend&lt;C&gt;(contentsOf c: C) -&gt; String.Index where C : Collection, C.Element == Character<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>c<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The collection of characters to prepend.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The index of first character in the string BEFORE calling this method.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[aString.insert(contentsOf: aCollection, at: aString.startIndex)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
-          "key.doc.line" : 100,
-          "key.doc.name" : "prepend(contentsOf:)",
-          "key.doc.parameters" : [
+          "key.doc.file": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.doc.full_as_xml": "<Function file=\"\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift\" line=\"102\" column=\"56\"><Name>prepend(contentsOf:)<\/Name><USR>s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF<\/USR><Declaration>@inlinable public mutating func prepend&lt;C&gt;(contentsOf c: C) -&gt; String.Index where C : Collection, C.Element == Character<\/Declaration><CommentParts><Abstract><Para>Shorthand for:<\/Para><\/Abstract><Parameters><Parameter><Name>c<\/Name><Direction isExplicit=\"0\">in<\/Direction><Discussion><Para>The collection of characters to prepend.<\/Para><\/Discussion><\/Parameter><\/Parameters><ResultDiscussion><Para>The index of first character in the string BEFORE calling this method.<\/Para><\/ResultDiscussion><Discussion><CodeListing language=\"swift\"><zCodeLineNumbered><![CDATA[aString.insert(contentsOf: aCollection, at: aString.startIndex)]]><\/zCodeLineNumbered><zCodeLineNumbered><\/zCodeLineNumbered><\/CodeListing><\/Discussion><\/CommentParts><\/Function>",
+          "key.doc.line": 102,
+          "key.doc.name": "prepend(contentsOf:)",
+          "key.doc.parameters": [
             {
-              "discussion" : [
+              "discussion": [
                 {
-                  "Para" : "The collection of characters to prepend."
+                  "Para": "The collection of characters to prepend."
                 }
               ],
-              "name" : "c"
+              "name": "c"
             }
           ],
-          "key.doc.result_discussion" : [
+          "key.doc.result_discussion": [
             {
-              "Para" : "The index of first character in the string BEFORE calling this method."
+              "Para": "The index of first character in the string BEFORE calling this method."
             }
           ],
-          "key.doc.type" : "Function",
-          "key.doccolumn" : 5,
-          "key.doclength" : 295,
-          "key.docline" : 91,
-          "key.docoffset" : 4558,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>prepend<\/decl.name>&lt;<decl.generic_type_param usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\"><decl.generic_type_param.name>C<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>contentsOf<\/decl.var.parameter.argument_label> <decl.var.parameter.name>c<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\">C<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\">C<\/ref.generic_type_param> : <ref.protocol usr=\"s:Sl\">Collection<\/ref.protocol><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\">C<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:ST7ElementQa\">Element<\/ref.associatedtype> == <ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.generic_type_requirement><\/decl.function.method.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.length" : 233,
-          "key.line" : 100,
-          "key.name" : "prepend(contentsOf:)",
-          "key.namecolumn" : 56,
-          "key.namelength" : 27,
-          "key.nameline" : 100,
-          "key.nameoffset" : 4908,
-          "key.offset" : 4903,
-          "key.parsed_declaration" : "@inlinable @discardableResult public mutating func prepend<C>(contentsOf c: C) -> String.Index where C: Collection, C.Element == Character",
-          "key.parsed_scope.end" : 103,
-          "key.parsed_scope.start" : 100,
-          "key.related_decls" : [
+          "key.doc.type": "Function",
+          "key.doccolumn": 5,
+          "key.doclength": 293,
+          "key.docline": 93,
+          "key.docoffset": 4620,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@discardableResult<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>mutating<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>prepend<\/decl.name>&lt;<decl.generic_type_param usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\"><decl.generic_type_param.name>C<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>contentsOf<\/decl.var.parameter.argument_label> <decl.var.parameter.name>c<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\">C<\/ref.generic_type_param><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct>.<ref.struct usr=\"s:SS5IndexV\">Index<\/ref.struct><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement><ref.generic_type_param usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\">C<\/ref.generic_type_param> : <ref.protocol usr=\"s:Sl\">Collection<\/ref.protocol><\/decl.generic_type_requirement>, <decl.generic_type_requirement><ref.generic_type_param usr=\"s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp\">C<\/ref.generic_type_param>.<ref.associatedtype usr=\"s:ST7ElementQa\">Element<\/ref.associatedtype> == <ref.struct usr=\"s:SJ\">Character<\/ref.struct><\/decl.generic_type_requirement><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 233,
+          "key.line": 102,
+          "key.name": "prepend(contentsOf:)",
+          "key.namecolumn": 56,
+          "key.namelength": 27,
+          "key.nameline": 102,
+          "key.nameoffset": 4968,
+          "key.offset": 4963,
+          "key.parsed_declaration": "@inlinable @discardableResult public mutating func prepend<C>(contentsOf c: C) -> String.Index where C: Collection, C.Element == Character",
+          "key.parsed_scope.end": 105,
+          "key.parsed_scope.start": 102,
+          "key.related_decls": [
             {
-              "key.annotated_decl" : "<RelatedName usr=\"s:SS7RubiconE7prepend_5countSS5IndexVSJ_SitF\">prepend(_:count:)<\/RelatedName>"
+              "key.annotated_decl": "<RelatedName usr=\"s:SS7RubiconE7prepend_5countSS5IndexVSJ_SitF\">prepend(_:count:)<\/RelatedName>"
             }
           ],
-          "key.substructure" : [
+          "key.substructure": [
             {
-              "key.annotated_decl" : "<Declaration>C<\/Declaration>",
-              "key.column" : 64,
-              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-              "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>C<\/decl.generic_type_param.name><\/decl.generic_type_param>",
-              "key.groupname" : "String",
-              "key.kind" : "source.lang.swift.decl.generic_type_param",
-              "key.length" : 1,
-              "key.line" : 100,
-              "key.name" : "C",
-              "key.namecolumn" : 64,
-              "key.namelength" : 1,
-              "key.nameline" : 100,
-              "key.nameoffset" : 4916,
-              "key.offset" : 4916,
-              "key.parsed_declaration" : "@inlinable @discardableResult public mutating func prepend<C",
-              "key.parsed_scope.end" : 100,
-              "key.parsed_scope.start" : 100,
-              "key.typename" : "C.Type",
-              "key.typeusr" : "$sxmD",
-              "key.usr" : "s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp"
+              "key.annotated_decl": "<Declaration>C<\/Declaration>",
+              "key.column": 64,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+              "key.fully_annotated_decl": "<decl.generic_type_param><decl.generic_type_param.name>C<\/decl.generic_type_param.name><\/decl.generic_type_param>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.generic_type_param",
+              "key.length": 1,
+              "key.line": 102,
+              "key.name": "C",
+              "key.namecolumn": 64,
+              "key.namelength": 1,
+              "key.nameline": 102,
+              "key.nameoffset": 4976,
+              "key.offset": 4976,
+              "key.parsed_declaration": "@inlinable @discardableResult public mutating func prepend<C",
+              "key.parsed_scope.end": 102,
+              "key.parsed_scope.start": 102,
+              "key.typename": "C.Type",
+              "key.typeusr": "$sxmD",
+              "key.usr": "s:SS7RubiconE7prepend10contentsOfSS5IndexVx_tSlRzSJ7ElementRtzlF1CL_xmfp"
             }
           ],
           "key.typename" : "<C where C : Collection, C.Element == Character> (inout String) -> (C) -> String.Index",
@@ -1151,154 +1150,152 @@
           "key.annotated_decl" : "<Declaration>@inlinable public static func path(withComponents components: [<Type usr=\"s:SS\">String<\/Type>]) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 105,
-              "key.offset" : 5153
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 107,
+              "key.offset": 5213
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 105,
-              "key.offset" : 5142
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 107,
+              "key.offset": 5202
             }
           ],
-          "key.bodycolumn" : 88,
-          "key.bodylength" : 43,
-          "key.bodyline" : 105,
-          "key.bodyoffset" : 5225,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.function.method.static><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>path<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>withComponents<\/decl.var.parameter.argument_label> <decl.var.parameter.name>components<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.static>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.function.method.static",
-          "key.length" : 109,
-          "key.line" : 105,
-          "key.name" : "path(withComponents:)",
-          "key.namecolumn" : 35,
-          "key.namelength" : 41,
-          "key.nameline" : 105,
-          "key.nameoffset" : 5172,
-          "key.offset" : 5160,
-          "key.parsed_declaration" : "@inlinable public static func path(withComponents components: [String]) -> String",
-          "key.parsed_scope.end" : 105,
-          "key.parsed_scope.start" : 105,
-          "key.substructure" : [
-
+          "key.bodycolumn": 88,
+          "key.bodylength": 43,
+          "key.bodyline": 107,
+          "key.bodyoffset": 5285,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.function.method.static><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>path<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>withComponents<\/decl.var.parameter.argument_label> <decl.var.parameter.name>components<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.static>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.static",
+          "key.length": 109,
+          "key.line": 107,
+          "key.name": "path(withComponents:)",
+          "key.namecolumn": 35,
+          "key.namelength": 41,
+          "key.nameline": 107,
+          "key.nameoffset": 5232,
+          "key.offset": 5220,
+          "key.parsed_declaration": "@inlinable public static func path(withComponents components: [String]) -> String",
+          "key.parsed_scope.end": 107,
+          "key.parsed_scope.start": 107,
+          "key.substructure": [
           ],
-          "key.typename" : "(String.Type) -> ([String]) -> String",
-          "key.typeusr" : "$s14withComponentsSSSaySSG_tcD",
-          "key.usr" : "s:SS7RubiconE4path14withComponentsSSSaySSG_tFZ"
+          "key.typename": "(String.Type) -> ([String]) -> String",
+          "key.typeusr": "$s14withComponentsSSSaySSG_tcD",
+          "key.usr": "s:SS7RubiconE4path14withComponentsSSSaySSG_tFZ"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public func appendingPathComponent(_ str: <Type usr=\"s:SS\">String<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 107,
-              "key.offset" : 5286
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 109,
+              "key.offset": 5346
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 107,
-              "key.offset" : 5275
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 109,
+              "key.offset": 5335
             }
           ],
-          "key.bodycolumn" : 77,
-          "key.bodylength" : 48,
-          "key.bodyline" : 107,
-          "key.bodyoffset" : 5347,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>appendingPathComponent<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>str<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.length" : 103,
-          "key.line" : 107,
-          "key.name" : "appendingPathComponent(_:)",
-          "key.namecolumn" : 28,
-          "key.namelength" : 37,
-          "key.nameline" : 107,
-          "key.nameoffset" : 5298,
-          "key.offset" : 5293,
-          "key.parsed_declaration" : "@inlinable public func appendingPathComponent(_ str: String) -> String",
-          "key.parsed_scope.end" : 107,
-          "key.parsed_scope.start" : 107,
-          "key.substructure" : [
-
+          "key.bodycolumn": 77,
+          "key.bodylength": 48,
+          "key.bodyline": 109,
+          "key.bodyoffset": 5407,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>appendingPathComponent<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>str<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 103,
+          "key.line": 109,
+          "key.name": "appendingPathComponent(_:)",
+          "key.namecolumn": 28,
+          "key.namelength": 37,
+          "key.nameline": 109,
+          "key.nameoffset": 5358,
+          "key.offset": 5353,
+          "key.parsed_declaration": "@inlinable public func appendingPathComponent(_ str: String) -> String",
+          "key.parsed_scope.end": 109,
+          "key.parsed_scope.start": 109,
+          "key.substructure": [
           ],
-          "key.typename" : "(String) -> (String) -> String",
-          "key.typeusr" : "$syS2ScD",
-          "key.usr" : "s:SS7RubiconE22appendingPathComponentyS2SF"
+          "key.typename": "(String) -> (String) -> String",
+          "key.typeusr": "$syS2ScD",
+          "key.usr": "s:SS7RubiconE22appendingPathComponentyS2SF"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
           "key.annotated_decl" : "<Declaration>@inlinable public func appendingPathExtension(_ str: <Type usr=\"s:SS\">String<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 109,
-              "key.offset" : 5413
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 111,
+              "key.offset": 5473
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 109,
-              "key.offset" : 5402
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 111,
+              "key.offset": 5462
             }
           ],
-          "key.bodycolumn" : 77,
-          "key.bodylength" : 296,
-          "key.bodyline" : 109,
-          "key.bodyoffset" : 5474,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>appendingPathExtension<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>str<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.length" : 351,
-          "key.line" : 109,
-          "key.name" : "appendingPathExtension(_:)",
-          "key.namecolumn" : 28,
-          "key.namelength" : 37,
-          "key.nameline" : 109,
-          "key.nameoffset" : 5425,
-          "key.offset" : 5420,
-          "key.parsed_declaration" : "@inlinable public func appendingPathExtension(_ str: String) -> String",
-          "key.parsed_scope.end" : 119,
-          "key.parsed_scope.start" : 109,
-          "key.substructure" : [
+          "key.bodycolumn": 77,
+          "key.bodylength": 296,
+          "key.bodyline": 111,
+          "key.bodyoffset": 5534,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>appendingPathExtension<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>str<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 351,
+          "key.line": 111,
+          "key.name": "appendingPathExtension(_:)",
+          "key.namecolumn": 28,
+          "key.namelength": 37,
+          "key.nameline": 111,
+          "key.nameoffset": 5485,
+          "key.offset": 5480,
+          "key.parsed_declaration": "@inlinable public func appendingPathExtension(_ str: String) -> String",
+          "key.parsed_scope.end": 121,
+          "key.parsed_scope.start": 111,
+          "key.substructure": [
             {
-              "key.annotated_decl" : "<Declaration>var c: [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
-              "key.column" : 9,
-              "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-              "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>c<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.type><\/decl.var.local>",
-              "key.groupname" : "String",
-              "key.kind" : "source.lang.swift.decl.var.local",
-              "key.length" : 22,
-              "key.line" : 111,
-              "key.name" : "c",
-              "key.namecolumn" : 13,
-              "key.namelength" : 1,
-              "key.nameline" : 111,
-              "key.nameoffset" : 5566,
-              "key.offset" : 5562,
-              "key.parsed_declaration" : "var c = pathComponents",
-              "key.parsed_scope.end" : 111,
-              "key.parsed_scope.start" : 111,
-              "key.typename" : "[String]",
-              "key.typeusr" : "$sSaySSGD",
-              "key.usr" : "s:SS7RubiconE22appendingPathExtensionyS2SF1cL_SaySSGvp"
+              "key.annotated_decl": "<Declaration>var c: [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
+              "key.column": 9,
+              "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+              "key.fully_annotated_decl": "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>c<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.type><\/decl.var.local>",
+              "key.groupname": "String",
+              "key.kind": "source.lang.swift.decl.var.local",
+              "key.length": 22,
+              "key.line": 113,
+              "key.name": "c",
+              "key.namecolumn": 13,
+              "key.namelength": 1,
+              "key.nameline": 113,
+              "key.nameoffset": 5626,
+              "key.offset": 5622,
+              "key.parsed_declaration": "var c = pathComponents",
+              "key.parsed_scope.end": 113,
+              "key.parsed_scope.start": 113,
+              "key.typename": "[String]",
+              "key.typeusr": "$sSaySSGD",
+              "key.usr": "s:SS7RubiconE22appendingPathExtensionyS2SF1cL_SaySSGvp"
             }
           ],
           "key.typename" : "(String) -> (String) -> String",
@@ -1310,46 +1307,45 @@
           "key.annotated_decl" : "<Declaration>@inlinable public func absolutePath(relativeTo dir: <Type usr=\"s:SS\">String<\/Type>) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
           "key.attributes" : [
             {
-              "key.attribute" : "source.decl.attribute.public",
-              "key.column" : 16,
-              "key.length" : 6,
-              "key.line" : 121,
-              "key.offset" : 5788
+              "key.attribute": "source.decl.attribute.public",
+              "key.column": 16,
+              "key.length": 6,
+              "key.line": 123,
+              "key.offset": 5848
             },
             {
-              "key.attribute" : "source.decl.attribute.inlinable",
-              "key.column" : 5,
-              "key.length" : 10,
-              "key.line" : 121,
-              "key.offset" : 5777
+              "key.attribute": "source.decl.attribute.inlinable",
+              "key.column": 5,
+              "key.length": 10,
+              "key.line": 123,
+              "key.offset": 5837
             }
           ],
-          "key.bodycolumn" : 76,
-          "key.bodylength" : 196,
-          "key.bodyline" : 121,
-          "key.bodyoffset" : 5848,
-          "key.column" : 23,
-          "key.filepath" : "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
-          "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>absolutePath<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>relativeTo<\/decl.var.parameter.argument_label> <decl.var.parameter.name>dir<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-          "key.groupname" : "String",
-          "key.kind" : "source.lang.swift.decl.function.method.instance",
-          "key.length" : 250,
-          "key.line" : 121,
-          "key.name" : "absolutePath(relativeTo:)",
-          "key.namecolumn" : 28,
-          "key.namelength" : 36,
-          "key.nameline" : 121,
-          "key.nameoffset" : 5800,
-          "key.offset" : 5795,
-          "key.parsed_declaration" : "@inlinable public func absolutePath(relativeTo dir: String) -> String",
-          "key.parsed_scope.end" : 124,
-          "key.parsed_scope.start" : 121,
-          "key.substructure" : [
-
+          "key.bodycolumn": 76,
+          "key.bodylength": 196,
+          "key.bodyline": 123,
+          "key.bodyoffset": 5908,
+          "key.column": 23,
+          "key.filepath": "\/Users\/grhodes\/Projects\/2020\/SwiftProjects\/Rubicon\/Sources\/Rubicon\/Extensions\/String.swift",
+          "key.fully_annotated_decl": "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@inlinable<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>absolutePath<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>relativeTo<\/decl.var.parameter.argument_label> <decl.var.parameter.name>dir<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+          "key.groupname": "String",
+          "key.kind": "source.lang.swift.decl.function.method.instance",
+          "key.length": 250,
+          "key.line": 123,
+          "key.name": "absolutePath(relativeTo:)",
+          "key.namecolumn": 28,
+          "key.namelength": 36,
+          "key.nameline": 123,
+          "key.nameoffset": 5860,
+          "key.offset": 5855,
+          "key.parsed_declaration": "@inlinable public func absolutePath(relativeTo dir: String) -> String",
+          "key.parsed_scope.end": 126,
+          "key.parsed_scope.start": 123,
+          "key.substructure": [
           ],
-          "key.typename" : "(String) -> (String) -> String",
-          "key.typeusr" : "$s10relativeToS2S_tcD",
-          "key.usr" : "s:SS7RubiconE12absolutePath10relativeToS2S_tF"
+          "key.typename": "(String) -> (String) -> String",
+          "key.typeusr": "$s10relativeToS2S_tcD",
+          "key.usr": "s:SS7RubiconE12absolutePath10relativeToS2S_tF"
         }
       ],
       "key.typename" : "String.Type",
