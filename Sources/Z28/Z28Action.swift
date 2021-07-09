@@ -30,14 +30,16 @@ public struct Z28Action {
 
     public let projectPath:    String
     public let filename:       String?
+    public let moduleName:     String?
     public let tempDir:        String
     public let jobs:           Int
     public let buildMethod:    BuildMethod
     public var buildArguments: [String]
 
-    public init(projectPath: String, filename: String?, tempDir: String, jobs: Int, buildMethod: BuildMethod, buildArguments: [String]) {
+    public init(projectPath: String, filename: String?, moduleName: String?, tempDir: String, jobs: Int, buildMethod: BuildMethod, buildArguments: [String]) {
         self.projectPath = projectPath
         self.filename = filename
+        self.moduleName = moduleName
         self.tempDir = tempDir
         self.jobs = jobs
         self.buildMethod = buildMethod
@@ -47,7 +49,7 @@ public struct Z28Action {
     func getModule() -> Module? {
         switch buildMethod {
             case .xcode: return Module(xcodeBuildArguments: buildArguments, inPath: projectPath)
-            case .spm:   return Module(spmArguments: buildArguments, inPath: projectPath)
+            case .spm:   return Module(spmArguments: buildArguments, spmName: moduleName, inPath: projectPath)
         }
     }
 

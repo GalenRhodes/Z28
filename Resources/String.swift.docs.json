@@ -19,10 +19,10 @@
           "Para": "A string is a series of characters, such as `\"Swift\"`, that forms a collection. Strings in Swift are Unicode correct and locale insensitive, and are designed to be efficient. The `String` type bridges with the Objective-C class `NSString` and offers interoperability with C functions that works with strings."
         },
         {
-          "Para" : "You can create new strings using string literals or string interpolations. A  is a series of characters enclosed in quotes."
+          "Para": "You can create new strings using string literals or string interpolations. A  is a series of characters enclosed in quotes."
         },
         {
-          "CodeListing" : ""
+          "CodeListing": ""
         },
         {
           "Para" : " are string literals that evaluate any included expressions and convert the results to string form. String interpolations give you an easy way to build a string from multiple pieces. Wrap each expression in a string interpolation in parentheses, prefixed by a backslash."
@@ -175,10 +175,10 @@
           "Para" : "Although strings in Swift have value semantics, strings use a copy-on-write strategy to store their data in a buffer. This buffer can then be shared by different copies of a string. A string’s data is only copied lazily, upon mutation, when more than one string instance is using the same buffer. Therefore, the first in any sequence of mutating operations may cost O() time and space."
         },
         {
-          "Para" : "When a string’s contiguous storage fills up, a new buffer must be allocated and data must be moved to the new storage. String buffers use an exponential growth strategy that makes appending to a string a constant time operation when averaged over many append operations."
+          "Para": "When a string’s contiguous storage fills up, a new buffer must be allocated and data must be moved to the new storage. String buffers use an exponential growth strategy that makes appending to a string a constant time operation when averaged over many append operations."
         },
         {
-          "Para" : "Any `String` instance can be bridged to `NSString` using the type-cast operator (`as`), and any `String` instance that originates in Objective-C may use an `NSString` instance as its storage. Because any arbitrary subclass of `NSString` can become a `String` instance, there are no guarantees about representation or efficiency when a `String` instance is backed by `NSString` storage. Because `NSString` is immutable, it is just as though the storage was shared by a copy. The first in any sequence of mutating operations causes elements to be copied into unique, contiguous storage which may cost O() time and space, where  is the length of the string’s encoded representation (or more, if the underlying `NSString` has unusual performance characteristics)."
+          "Para": "Any `String` instance can be bridged to `NSString` using the type-cast operator (`as`), and any `String` instance that originates in Objective-C may use an `NSString` instance as its storage. Because any arbitrary subclass of `NSString` can become a `String` instance, there are no guarantees about representation or efficiency when a `String` instance is backed by `NSString` storage. Because `NSString` is immutable, it is just as though the storage was shared by a copy. The first in any sequence of mutating operations causes elements to be copied into unique, contiguous storage which may cost O() time and space, where  is the length of the string’s encoded representation (or more, if the underlying `NSString` has unusual performance characteristics)."
         },
         {
           "Para": "For more information about the Unicode terms used in this discussion, see the . In particular, this discussion mentions , , and ."
@@ -593,8 +593,8 @@
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
-          "key.annotated_decl" : "<Declaration>public init?(inputStream: <Type usr=\"c:objc(cs)NSInputStream\">InputStream<\/Type>, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8)<\/Declaration>",
-          "key.attributes" : [
+          "key.annotated_decl": "<Declaration>public init?(inputStream: <Type usr=\"c:objc(cs)NSInputStream\">InputStream<\/Type>, encoding: <Type usr=\"s:SS\">String<\/Type>.<Type usr=\"s:SS10FoundationE8EncodingV\">Encoding<\/Type> = String.Encoding.utf8)<\/Declaration>",
+          "key.attributes": [
             {
               "key.attribute": "source.decl.attribute.public",
               "key.column": 5,
@@ -983,7 +983,7 @@
               "name": "char"
             },
             {
-              "discussion" : [
+              "discussion": [
                 {
                   "Para" : "The number of times to prepend the character."
                 }
@@ -1025,7 +1025,7 @@
           ],
           "key.typename": "(inout String) -> (Character, Int) -> String.Index",
           "key.typeusr": "$s_5countSS5IndexVSJ_SitcD",
-          "key.usr" : "s:SS7RubiconE7prepend_5countSS5IndexVSJ_SitF"
+          "key.usr": "s:SS7RubiconE7prepend_5countSS5IndexVSJ_SitF"
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",

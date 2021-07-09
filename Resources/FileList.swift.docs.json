@@ -12,13 +12,13 @@
         {
           "key.attribute": "source.decl.attribute.public",
           "key.column": 1,
-          "key.length" : 6,
-          "key.line" : 21,
-          "key.offset" : 1308
+          "key.length": 6,
+          "key.line": 21,
+          "key.offset": 1308
         }
       ],
-      "key.bodycolumn" : 35,
-      "key.bodylength" : 115,
+      "key.bodycolumn": 35,
+      "key.bodylength": 115,
       "key.bodyline" : 21,
       "key.bodyoffset" : 1342,
       "key.column" : 8,
@@ -181,7 +181,7 @@
           "Para": "Create a new dictionary by using a dictionary literal. A dictionary literal is a comma-separated list of key-value pairs, in which a colon separates each key from its associated value, surrounded by square brackets. You can assign a dictionary literal to a variable or constant or pass it to a function that expects a dictionary."
         },
         {
-          "Para" : "Here’s how you would create a dictionary of HTTP response codes and their related messages:"
+          "Para": "Here’s how you would create a dictionary of HTTP response codes and their related messages:"
         },
         {
           "CodeListing" : ""
@@ -259,10 +259,10 @@
           "Para" : "When you know how many new values you’re adding to a dictionary, use the `init(minimumCapacity:)` initializer to allocate the correct amount of buffer."
         },
         {
-          "Para" : "You can bridge between `Dictionary` and `NSDictionary` using the `as` operator. For bridging to be possible, the `Key` and `Value` types of a dictionary must be classes, `@objc` protocols, or types that bridge to Foundation types."
+          "Para": "You can bridge between `Dictionary` and `NSDictionary` using the `as` operator. For bridging to be possible, the `Key` and `Value` types of a dictionary must be classes, `@objc` protocols, or types that bridge to Foundation types."
         },
         {
-          "Para" : "Bridging from `Dictionary` to `NSDictionary` always takes O(1) time and space. When the dictionary’s `Key` and `Value` types are neither classes nor `@objc` protocols, any required bridging of elements occurs at the first access of each element. For this reason, the first operation that uses the contents of the dictionary may take O()."
+          "Para": "Bridging from `Dictionary` to `NSDictionary` always takes O(1) time and space. When the dictionary’s `Key` and `Value` types are neither classes nor `@objc` protocols, any required bridging of elements occurs at the first access of each element. For this reason, the first operation that uses the contents of the dictionary may take O()."
         },
         {
           "Para": "Bridging from `NSDictionary` to `Dictionary` first calls the `copy(with:)` method (`- copyWithZone:` in Objective-C) on the dictionary to get an immutable copy and then performs additional Swift bookkeeping work that takes O(1) time. For instances of `NSDictionary` that are already immutable, `copy(with:)` usually returns the same dictionary in O(1) time; otherwise, the copying performance is unspecified. The instances of `NSDictionary` and `Dictionary` share buffer using the same copy-on-write optimization that is used when two instances of `Dictionary` share buffer."
@@ -2236,8 +2236,8 @@
         },
         {
           "key.accessibility" : "source.lang.swift.accessibility.public",
-          "key.annotated_decl" : "<Declaration>public func directoryFiles(atPath: <Type usr=\"s:SS\">String<\/Type>, resolveSymLinks: <Type usr=\"s:Sb\">Bool<\/Type> = false, traverseDirectorySymLinks: <Type usr=\"s:Sb\">Bool<\/Type> = false, where body: (<Type usr=\"s:SS\">String<\/Type>, <Type usr=\"s:SS\">String<\/Type>, [<Type usr=\"c:@T@NSFileAttributeKey\">FileAttributeKey<\/Type> : Any]) throws -&gt; <Type usr=\"s:Sb\">Bool<\/Type>) throws -&gt; [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
-          "key.attributes" : [
+          "key.annotated_decl": "<Declaration>public func directoryFiles(atPath: <Type usr=\"s:SS\">String<\/Type>, resolveSymLinks: <Type usr=\"s:Sb\">Bool<\/Type> = false, traverseDirectorySymLinks: <Type usr=\"s:Sb\">Bool<\/Type> = false, where body: (<Type usr=\"s:SS\">String<\/Type>, <Type usr=\"s:SS\">String<\/Type>, [<Type usr=\"c:@T@NSFileAttributeKey\">FileAttributeKey<\/Type> : Any]) throws -&gt; <Type usr=\"s:Sb\">Bool<\/Type>) throws -&gt; [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
+          "key.attributes": [
             {
               "key.attribute": "source.decl.attribute.public",
               "key.column": 5,
@@ -2268,7 +2268,7 @@
               "name": "atPath"
             },
             {
-              "discussion" : [
+              "discussion": [
                 {
                   "Para" : "If `true` then any symbolic links found will be resolved before being sent to the the closure. The default is `false`."
                 }
